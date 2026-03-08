@@ -1,0 +1,21 @@
+# Core data
+pandas>=2.0
+numpy>=1.24
+
+# Scraping (your existing stack)
+seleniumbase>=4.20
+
+# Feature engineering & clustering
+scikit-learn>=1.3
+
+# Visualization
+matplotlib>=3.8
+plotly>=5.18
+seaborn>=0.13
+
+# Dashboard
+streamlit>=1.29
+streamlit-option-menu>=0.3
+
+# Utilities
+tqdm>=4.66

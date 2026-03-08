@@ -1,0 +1,45 @@
+# Data (don't commit scraped data)
+data/events/
+data/processed/
+data/final/
+
+# Keep the directory structure
+!data/events/.gitkeep
+!data/processed/.gitkeep
+!data/final/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Pytest
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Claude Code
+.claude/
