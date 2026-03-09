@@ -34,5 +34,8 @@ Thumbs.db
 # Streamlit
 .streamlit/secrets.toml
 
+# SeleniumBase runtime files
+downloaded_files/
+
 # Claude Code
 .claude/

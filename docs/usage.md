@@ -32,6 +32,7 @@ All filters apply across every tab simultaneously.
 | **Positions** | Includes only selected positions (AMC, AML, AMR, MC, ML, MR). Deselect to narrow to a specific role. |
 | **Teams** | Filter to one or more clubs. Leave blank for all teams. |
 | **Archetype** | Filter by creative style (only available after running the clustering step). |
+| **Transfer Feasibility** | Filter by contract status — Expiring (≤1 yr), Mid-term (1–2 yrs), Locked (2+ yrs). Only available after running the Transfermarkt enrichment step. |
 
 ---
 
@@ -43,14 +44,14 @@ The main leaderboard view.
 
 - **Sort by** dropdown — switch the ranking metric (composite score, key passes, through balls, etc.). The bar chart and table both update.
 - **Top 20 bar chart** — click any bar to jump directly to that player's full profile in the Player Profile tab.
-- **Full rankings table** — scrollable, sortable. The Score column shows a progress bar for quick visual comparison.
+- **Full rankings table** — scrollable, sortable. The Score column shows a progress bar for quick visual comparison. When Transfermarkt data is available, the table also includes Market Value (€) and Contract Until columns.
 
 ### Player Profile
 
 Detailed view for a single player.
 
 - **Select a player** — dropdown sorted by composite score. Automatically pre-selects whoever you clicked in the Rankings bar chart.
-- **Header banner** — name, club, position, age, archetype (if available), minutes, appearances, and score circle.
+- **Header banner** — name, club, position, age, archetype (if available), minutes, appearances, and score circle. When Transfermarkt data is available, the banner also shows market value, contract year, and a colour-coded feasibility chip (green = Expiring, amber = Mid-term, red = Locked).
 - **Radar chart** — percentile ranks across all 7 metrics. Hover to see both the percentile and the raw per-90 value.
 - **Per-90 bar chart** — player values overlaid against the league maximum for each metric. Shows how close the player is to the dataset ceiling.
 - **Season totals** — raw counting stats for the full season (goals, assists, key passes, through balls, etc.) displayed as cards.
@@ -92,4 +93,6 @@ Requires the clustering step to have been run (`python -m src.features.clusterin
 - **Raise the minutes filter** if you want to focus only on regular starters (e.g., 1350 min = 15 full games).
 - **Combine Scatter + Compare** — use the scatter to spot an interesting cluster of players, then switch to Compare to put them head-to-head on the radar.
 - **Archetype filter in sidebar** — useful for scouting a specific profile type (e.g., "show me only Final-Ball Specialists under 25").
+- **Feasibility filter in sidebar** — set to "Expiring" only to surface players who could move on a free or low fee at the end of the season.
 - If archetypes are not shown, run `python -m src.features.clustering` and restart the app.
+- If Transfermarkt data is not shown, run `python -m src.enrichment.transfermarkt` and restart the app.

@@ -10,6 +10,7 @@ ROOT_DIR = Path(__file__).parent
 DATA_EVENTS = ROOT_DIR / "data" / "events" / "Serie_A" / "2025-2026"
 DATA_PROCESSED = ROOT_DIR / "data" / "processed"
 DATA_FINAL = ROOT_DIR / "data" / "final"
+DATA_ENRICHMENT = ROOT_DIR / "data" / "enrichment"
 
 # ─── Season & League ─────────────────────────────────────────────────
 SEASON = "2025-2026"
@@ -82,3 +83,7 @@ COMPOSITE_WEIGHTS = {
 N_CLUSTERS = 3
 CLUSTERING_FEATURES = CHANCE_CREATION_METRICS
 RANDOM_STATE = 42
+
+# ─── Transfermarkt Enrichment ─────────────────────────────────────────
+TM_MATCH_THRESHOLD = 85                # rapidfuzz confidence for auto-verification
+TM_CURRENT_SEASON_END_YEAR = int(SEASON.split("-")[1])   # e.g. 2026 from "2025-2026"

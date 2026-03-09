@@ -113,8 +113,11 @@ def archetype_color(name: str) -> str:
 # ─── Data Loading ─────────────────────────────────────────────────────
 @st.cache_data
 def load_data() -> pd.DataFrame:
+    enriched  = config.DATA_FINAL / "chance_creators_enriched.csv"
     clustered = config.DATA_FINAL / "chance_creators_clustered.csv"
     base      = config.DATA_FINAL / "chance_creators.csv"
+    if enriched.exists():
+        return pd.read_csv(enriched)
     if clustered.exists():
         return pd.read_csv(clustered)
     if base.exists():
@@ -124,7 +127,8 @@ def load_data() -> pd.DataFrame:
         "```bash\n"
         "python -m src.processing.build_tables\n"
         "python -m src.features.chance_creation\n"
-        "python -m src.features.clustering   # optional\n"
+        "python -m src.features.clustering        # optional\n"
+        "python -m src.enrichment.transfermarkt   # optional\n"
         "```"
     )
     st.stop()
@@ -140,6 +144,7 @@ if "shot_creating_actions_p90" not in df.columns:
         df["shot_creating_actions_p90"] = df["key_passes_p90"] + df["successful_dribbles_p90"]
 
 has_archetypes = "archetype" in df.columns
+has_tm_data    = "market_value_eur" in df.columns
 CORE_METRICS   = [m for m in config.CHANCE_CREATION_METRICS if m in df.columns]
 PCT_COLS       = [f"{m}_pct" for m in CORE_METRICS if f"{m}_pct" in df.columns]
 score_col      = "chance_creation_score"
@@ -274,12 +279,24 @@ if selected_page == "Dashboard":
                 label_visibility="collapsed",
             )
 
+        # ── Transfer Feasibility ──
+        if has_tm_data:
+            st.markdown("<div style='margin:8px 0'></div>", unsafe_allow_html=True)
+            st.markdown('<p style="font-size:0.72rem;font-weight:600;color:#64748b;'
+                        'text-transform:uppercase;letter-spacing:0.8px;margin-bottom:4px">'
+                        'Transfer Feasibility</p>', unsafe_allow_html=True)
+            all_feasibility = ["Expiring", "Mid-term", "Locked", "Unknown"]
+            selected_feasibility = st.multiselect(
+                "Transfer feasibility", options=all_feasibility, default=all_feasibility,
+                label_visibility="collapsed",
+            )
+
         # ── Footer ──
         st.markdown("<div style='margin:20px 0 0'></div>", unsafe_allow_html=True)
         st.markdown("""
             <div style="border-top:1px solid #1e293b;padding-top:12px;
                         font-size:0.72rem;color:#475569;text-align:center;line-height:1.8">
-                Data: WhoScored<br>
+                Data: WhoScored · Transfermarkt<br>
                 Serie A 2025/26<br>
                 <span style="color:#334155">Built by R. Berk Karatas</span>
             </div>
@@ -293,6 +310,8 @@ else:
     selected_teams = []
     if has_archetypes:
         selected_archetypes = sorted(df["archetype"].dropna().unique().tolist())
+    if has_tm_data:
+        selected_feasibility = ["Expiring", "Mid-term", "Locked", "Unknown"]
 
 
 # ─── About Page ───────────────────────────────────────────────────────
@@ -326,7 +345,8 @@ Match IDs (manual input)
   → Per-match Event CSVs
   → Build Tables          (matches / players / teams)
   → Feature Engineering   (per-90, percentiles, composite score)
-  → Clustering            (K-Means creative archetypes)
+  → Clustering            (K-Means creative archetypes)   [optional]
+  → TM Enrichment         (market value, contract, feasibility) [optional]
   → Dashboard
 ```
         """)
@@ -403,14 +423,19 @@ football analytics, validated using the elbow method.
   insufficient data.
 - **Positional classification:** WhoScored positions may not perfectly reflect a player's
   actual tactical role.
+- **Transfer data coverage:** Players who leave Serie A mid-season are not on any team's
+  Transfermarkt squad page and require manual entry via `tm_manual_players.csv`.
         """)
 
     with col_right:
-        st.markdown("### Data Source")
+        st.markdown("### Data Sources")
         st.info(
-            "Match event data is sourced from **WhoScored** for Serie A 2025/26. "
-            "Data is extracted per-match using match IDs via a semi-automated Selenium pipeline "
-            "and processed locally.\n\n"
+            "**Match events — WhoScored**\n\n"
+            "Extracted per-match for Serie A 2025/26 using a semi-automated SeleniumBase pipeline.\n\n"
+            "**Transfer data — Transfermarkt**\n\n"
+            "Market value, contract expiry, and feasibility scraped from team squad pages "
+            "using the same UC-mode browser. Results are cached locally; "
+            "players who transfer mid-season can be added via a manual override CSV.\n\n"
             "This project is for **personal educational and portfolio purposes only**."
         )
 
@@ -434,8 +459,7 @@ football analytics, validated using the elbow method.
 
         st.markdown("### Future Improvements")
         st.markdown("""
-- Transfermarkt integration (contract status, market value)
-- Opponent-adjusted metrics (vs. top-6 vs. bottom-6)
+- Opponent-adjusted metrics (performance vs. top-6 vs. bottom-6)
 - Expected assists model from pass end-locations
 - Video analysis notes for shortlisted players
         """)
@@ -471,6 +495,8 @@ if selected_teams:
     mask &= df["team_name"].isin(selected_teams)
 if has_archetypes and selected_archetypes:
     mask &= df["archetype"].isin(selected_archetypes)
+if has_tm_data and selected_feasibility:
+    mask &= df["transfer_feasibility"].isin(selected_feasibility)
 
 filtered = df[mask].copy()
 
@@ -574,22 +600,28 @@ with tab_ranking:
     if has_archetypes:
         display_cols.append("archetype")
     display_cols  += [score_col] + [m for m in CORE_METRICS if m in filtered.columns]
+    if has_tm_data:
+        display_cols += ["market_value_eur", "contract_expires", "transfer_feasibility"]
     available_cols = [c for c in display_cols if c in ranked.columns]
 
     tbl = ranked[available_cols].copy()
     tbl.index = range(1, len(tbl) + 1)
-    tbl_display = tbl.rename(columns=rename_map)
+    tbl_rename = {
+        **rename_map,
+        "market_value_eur":    "Market Value (€)",
+        "contract_expires":    "Contract Until",
+        "transfer_feasibility": "Feasibility",
+    }
+    tbl_display = tbl.rename(columns=tbl_rename)
 
-    st.dataframe(
-        tbl_display,
-        use_container_width=True,
-        height=420,
-        column_config={
-            "Score": st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%.1f"),
-            "Mins":  st.column_config.NumberColumn("Mins", format="%d"),
-            "Age":   st.column_config.NumberColumn("Age",  format="%d"),
-        },
-    )
+    col_cfg = {
+        "Score":           st.column_config.ProgressColumn("Score", min_value=0, max_value=100, format="%.1f"),
+        "Mins":            st.column_config.NumberColumn("Mins", format="%d"),
+        "Age":             st.column_config.NumberColumn("Age",  format="%d"),
+        "Market Value (€)": st.column_config.NumberColumn("Market Value (€)", format="€%,.0f"),
+        "Contract Until":  st.column_config.NumberColumn("Contract Until", format="%d"),
+    }
+    st.dataframe(tbl_display, use_container_width=True, height=420, column_config=col_cfg)
 
 
 
@@ -627,6 +659,38 @@ with tab_profile:
         apps_val = int(row["appearances"])    if "appearances"    in row and pd.notna(row["appearances"])    else 0
 
         # ── Header banner ──
+        # Build TM row only when enriched data is available
+        if has_tm_data:
+            mv_raw  = row.get("market_value_eur")
+            ct_raw  = row.get("contract_expires")
+            feasib  = row.get("transfer_feasibility", "Unknown")
+            mv_str  = (
+                f"€{mv_raw / 1_000_000:.1f}M" if pd.notna(mv_raw) and mv_raw >= 1_000_000
+                else f"€{mv_raw / 1_000:.0f}K" if pd.notna(mv_raw) and mv_raw >= 1_000
+                else "—"
+            )
+            ct_str  = str(int(ct_raw)) if pd.notna(ct_raw) else "—"
+            feasib_colors = {
+                "Expiring": "#22c55e", "Mid-term": "#f59e0b",
+                "Locked": "#ef4444",   "Unknown": "#64748b",
+            }
+            fc = feasib_colors.get(feasib, "#64748b")
+            tm_html = (
+                f'<p style="margin:8px 0 0;font-size:0.82rem;display:flex;align-items:center;gap:10px">'
+                f'<span style="color:#64748b">Market Value</span>'
+                f'<span style="color:#f1f5f9;font-weight:600">{mv_str}</span>'
+                f'<span style="color:#334155">·</span>'
+                f'<span style="color:#64748b">Contract Until</span>'
+                f'<span style="color:#f1f5f9;font-weight:600">{ct_str}</span>'
+                f'<span style="color:#334155">·</span>'
+                f'<span style="background:{fc}22;color:{fc};border:1px solid {fc}55;'
+                f'border-radius:4px;padding:1px 8px;font-size:0.76rem;font-weight:600">'
+                f'{feasib}</span>'
+                f'</p>'
+            )
+        else:
+            tm_html = ""
+
         st.markdown(
             f"""<div style="background:#1e293b;border-radius:10px;padding:18px 24px;
                             border-left:5px solid {bar_col};margin-bottom:16px;">
@@ -640,6 +704,7 @@ with tab_profile:
                     <p style="margin:6px 0 0;color:#64748b;font-size:0.82rem">
                       {mins_val:,} minutes played &nbsp;·&nbsp; {apps_val} appearances
                     </p>
+                    {tm_html}
                   </div>
                   <div style="text-align:center">
                     <div style="background:{bar_col};color:white;border-radius:50%;

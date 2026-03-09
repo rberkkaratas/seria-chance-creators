@@ -1,0 +1,535 @@
+tm_player_name,tm_team_name,market_value_eur,contract_expires
+Josep Martínez,Inter Milan,9000000.0,2029.0
+Yann Sommer,Inter Milan,2500000.0,2026.0
+Raffaele Di Gennaro,Inter Milan,300000.0,2026.0
+Alessandro Bastoni,Inter Milan,80000000.0,2028.0
+Yann Bisseck,Inter Milan,35000000.0,2029.0
+Manuel Akanji,Inter Milan,22000000.0,2026.0
+Stefan de Vrij,Inter Milan,3500000.0,2026.0
+Francesco Acerbi,Inter Milan,2500000.0,2026.0
+Federico Dimarco,Inter Milan,50000000.0,2027.0
+Carlos Augusto,Inter Milan,26000000.0,2028.0
+Denzel Dumfries,Inter Milan,25000000.0,2028.0
+Matteo Darmian,Inter Milan,1500000.0,2026.0
+Hakan Çalhanoğlu,Inter Milan,22000000.0,2027.0
+Nicolò Barella,Inter Milan,60000000.0,2029.0
+Petar Sučić,Inter Milan,30000000.0,2030.0
+Davide Frattesi,Inter Milan,28000000.0,2028.0
+Andy Diouf,Inter Milan,18000000.0,2030.0
+Piotr Zieliński,Inter Milan,10000000.0,2028.0
+Henrikh Mkhitaryan,Inter Milan,3500000.0,2026.0
+Luis Henrique,Inter Milan,23000000.0,2030.0
+Lautaro Martínez,Inter Milan,85000000.0,2029.0
+Marcus Thuram,Inter Milan,60000000.0,2028.0
+Ange-Yoan Bonny,Inter Milan,35000000.0,2030.0
+Pio Esposito,Inter Milan,35000000.0,2030.0
+Michele Di Gregorio,Juventus FC,18000000.0,2029.0
+Mattia Perin,Juventus FC,2000000.0,2027.0
+Carlo Pinsoglio,Juventus FC,200000.0,2027.0
+Bremer,Juventus FC,35000000.0,2029.0
+Pierre Kalulu,Juventus FC,28000000.0,2029.0
+Federico Gatti,Juventus FC,20000000.0,2030.0
+Lloyd Kelly,Juventus FC,20000000.0,2029.0
+Juan Cabal,Juventus FC,9000000.0,2029.0
+Emil Holm,Juventus FC,13000000.0,2026.0
+Manuel Locatelli,Juventus FC,25000000.0,2028.0
+Khéphren Thuram,Juventus FC,40000000.0,2029.0
+Weston McKennie,Juventus FC,22000000.0,2030.0
+Fabio Miretti,Juventus FC,14000000.0,2028.0
+Andrea Cambiaso,Juventus FC,30000000.0,2029.0
+Filip Kostić,Juventus FC,3500000.0,2026.0
+Teun Koopmeiners,Juventus FC,28000000.0,2029.0
+Vasilije Adžić,Juventus FC,8000000.0,2029.0
+Kenan Yıldız,Juventus FC,75000000.0,2030.0
+Jérémie Boga,Juventus FC,8000000.0,2026.0
+Francisco Conceição,Juventus FC,30000000.0,2030.0
+Edon Zhegrova,Juventus FC,20000000.0,2030.0
+Loïs Openda,Juventus FC,40000000.0,2026.0
+Dušan Vlahović,Juventus FC,35000000.0,2026.0
+Jonathan David,Juventus FC,35000000.0,2030.0
+Arkadiusz Milik,Juventus FC,1500000.0,2027.0
+Mike Maignan,AC Milan,25000000.0,2031.0
+Pietro Terracciano,AC Milan,1000000.0,2026.0
+Lorenzo Torriani,AC Milan,500000.0,2030.0
+Strahinja Pavlović,AC Milan,28000000.0,2028.0
+Koni De Winter,AC Milan,20000000.0,2030.0
+Fikayo Tomori,AC Milan,20000000.0,2027.0
+Matteo Gabbia,AC Milan,20000000.0,2029.0
+David Odogu,AC Milan,5000000.0,2029.0
+Davide Bartesaghi,AC Milan,18000000.0,2030.0
+Pervis Estupiñán,AC Milan,14000000.0,2030.0
+Zachary Athekame,AC Milan,8000000.0,2030.0
+Ardon Jashari,AC Milan,32000000.0,2030.0
+Youssouf Fofana,AC Milan,28000000.0,2028.0
+Samuele Ricci,AC Milan,25000000.0,2029.0
+Adrien Rabiot,AC Milan,20000000.0,2028.0
+Ruben Loftus-Cheek,AC Milan,10000000.0,2027.0
+Luka Modrić,AC Milan,4000000.0,2026.0
+Alexis Saelemaekers,AC Milan,25000000.0,2031.0
+Rafael Leão,AC Milan,70000000.0,2028.0
+Christian Pulisic,AC Milan,60000000.0,2027.0
+Christopher Nkunku,AC Milan,32000000.0,2030.0
+Santiago Gimenez,AC Milan,20000000.0,2029.0
+Niclas Füllkrug,AC Milan,8000000.0,2026.0
+Vanja Milinković-Savić,SSC Napoli,20000000.0,2026.0
+Alex Meret,SSC Napoli,14000000.0,2027.0
+Nikita Contini,SSC Napoli,400000.0,2031.0
+Mathias Ferrante,SSC Napoli,200000.0,2030.0
+Alessandro Buongiorno,SSC Napoli,45000000.0,2029.0
+Sam Beukema,SSC Napoli,28000000.0,2030.0
+Amir Rrahmani,SSC Napoli,12000000.0,2027.0
+Juan Jesus,SSC Napoli,1500000.0,2026.0
+Mathías Olivera,SSC Napoli,18000000.0,2030.0
+Miguel Gutiérrez,SSC Napoli,17000000.0,2030.0
+Leonardo Spinazzola,SSC Napoli,3500000.0,2026.0
+Giovanni Di Lorenzo,SSC Napoli,10000000.0,2028.0
+Pasquale Mazzocchi,SSC Napoli,1700000.0,2027.0
+Billy Gilmour,SSC Napoli,20000000.0,2029.0
+Stanislav Lobotka,SSC Napoli,18000000.0,2027.0
+Scott McTominay,SSC Napoli,45000000.0,2028.0
+Frank Anguissa,SSC Napoli,25000000.0,2027.0
+Kevin De Bruyne,SSC Napoli,15000000.0,2027.0
+Eljif Elmas,SSC Napoli,14000000.0,2026.0
+Antonio Vergara,SSC Napoli,2500000.0,2030.0
+Alisson Santos,SSC Napoli,4000000.0,2026.0
+David Neres,SSC Napoli,28000000.0,2028.0
+Matteo Politano,SSC Napoli,8000000.0,2028.0
+Rasmus Højlund,SSC Napoli,45000000.0,2026.0
+Romelu Lukaku,SSC Napoli,15000000.0,2027.0
+Giovane,SSC Napoli,12000000.0,2030.0
+Mile Svilar,AS Roma,35000000.0,2030.0
+Pierluigi Gollini,AS Roma,800000.0,2027.0
+Radoslaw Zelezny,AS Roma,200000.0,2029.0
+Evan Ndicka,AS Roma,30000000.0,2028.0
+Gianluca Mancini,AS Roma,15000000.0,2027.0
+Daniele Ghilardi,AS Roma,8000000.0,2026.0
+Jan Ziolkowski,AS Roma,7500000.0,2030.0
+Mario Hermoso,AS Roma,7000000.0,2027.0
+Angeliño,AS Roma,17000000.0,2028.0
+Konstantinos Tsimikas,AS Roma,10000000.0,2026.0
+Wesley,AS Roma,35000000.0,2030.0
+Zeki Çelik,AS Roma,12000000.0,2026.0
+Devyne Rensch,AS Roma,8500000.0,2029.0
+Bryan Cristante,AS Roma,7000000.0,2027.0
+Manu Koné,AS Roma,50000000.0,2029.0
+Neil El Aynaoui,AS Roma,20000000.0,2030.0
+Niccolò Pisilli,AS Roma,12000000.0,2029.0
+Lorenzo Pellegrini,AS Roma,9000000.0,2026.0
+Bryan Zaragoza,AS Roma,10000000.0,2026.0
+Stephan El Shaarawy,AS Roma,2500000.0,2026.0
+Matías Soulé,AS Roma,35000000.0,2029.0
+Lorenzo Venturino,AS Roma,1500000.0,2026.0
+Paulo Dybala,AS Roma,5000000.0,2026.0
+Evan Ferguson,AS Roma,25000000.0,2026.0
+Donyell Malen,AS Roma,25000000.0,2026.0
+Artem Dovbyk,AS Roma,20000000.0,2029.0
+Robinio Vaz,AS Roma,10000000.0,2030.0
+Marco Carnesecchi,Atalanta BC,25000000.0,2028.0
+Marco Sportiello,Atalanta BC,1000000.0,2028.0
+Francesco Rossi,Atalanta BC,100000.0,2026.0
+Isak Hien,Atalanta BC,25000000.0,2028.0
+Giorgio Scalvini,Atalanta BC,25000000.0,2028.0
+Honest Ahanor,Atalanta BC,25000000.0,2028.0
+Odilon Kossounou,Atalanta BC,22000000.0,2029.0
+Sead Kolasinac,Atalanta BC,6000000.0,2026.0
+Berat Djimsiti,Atalanta BC,5000000.0,2026.0
+Marten de Roon,Atalanta BC,3500000.0,2026.0
+Éderson,Atalanta BC,40000000.0,2027.0
+Yunus Musah,Atalanta BC,18000000.0,2026.0
+Mario Pašalić,Atalanta BC,7000000.0,2028.0
+Raoul Bellanova,Atalanta BC,22000000.0,2029.0
+Davide Zappacosta,Atalanta BC,3500000.0,2026.0
+Nicola Zalewski,Atalanta BC,15000000.0,2029.0
+Mitchel Bakker,Atalanta BC,4000000.0,2027.0
+Lorenzo Bernasconi,Atalanta BC,4000000.0,2028.0
+Charles De Ketelaere,Atalanta BC,35000000.0,2028.0
+Lazar Samardžić,Atalanta BC,15000000.0,2029.0
+Kamaldeen Sulemana,Atalanta BC,18000000.0,2029.0
+Giacomo Raspadori,Atalanta BC,22000000.0,2030.0
+Gianluca Scamacca,Atalanta BC,25000000.0,2027.0
+Nikola Krstović,Atalanta BC,20000000.0,2030.0
+Jean Butez,Como 1907,4500000.0,2028.0
+Noel Törnqvist,Como 1907,2000000.0,
+Nikola Cavlina,Como 1907,750000.0,2026.0
+Henrique Menke,Como 1907,300000.0,
+Mauro Vigorito,Como 1907,150000.0,2026.0
+Jacobo Ramón,Como 1907,18000000.0,2030.0
+Diego Carlos,Como 1907,8500000.0,2026.0
+Marc Oliver Kempf,Como 1907,3000000.0,2027.0
+Edoardo Goldaniga,Como 1907,2500000.0,2028.0
+Álex Valle,Como 1907,10000000.0,2029.0
+Alberto Moreno,Como 1907,1000000.0,2026.0
+Ignace Van der Brempt,Como 1907,3500000.0,2028.0
+Mërgim Vojvoda,Como 1907,3000000.0,2028.0
+Ivan Smolcic,Como 1907,2500000.0,2029.0
+Máximo Perrone,Como 1907,25000000.0,2029.0
+Maxence Caqueret,Como 1907,15000000.0,2029.0
+Lucas Da Cunha,Como 1907,15000000.0,2029.0
+Sergi Roberto,Como 1907,1500000.0,2026.0
+Adrian Lahdo,Como 1907,1000000.0,2031.0
+Nico Paz,Como 1907,65000000.0,2028.0
+Martin Baturina,Como 1907,18000000.0,2030.0
+Jesús Rodríguez,Como 1907,30000000.0,2030.0
+Assane Diao,Como 1907,30000000.0,2029.0
+Jayden Addai,Como 1907,20000000.0,2030.0
+Nicolas Kühn,Como 1907,15000000.0,2029.0
+Anastasios Douvikas,Como 1907,10000000.0,2029.0
+Álvaro Morata,Como 1907,8000000.0,2026.0
+Lukasz Skorupski,Bologna FC 1909,2500000.0,2027.0
+Federico Ravaglia,Bologna FC 1909,2000000.0,2028.0
+Massimo Pessina,Bologna FC 1909,1000000.0,2029.0
+Jhon Lucumí,Bologna FC 1909,25000000.0,2027.0
+Torbjørn Heggem,Bologna FC 1909,14000000.0,2029.0
+Martin Vitík,Bologna FC 1909,10000000.0,2029.0
+Eivind Helland,Bologna FC 1909,6000000.0,2030.0
+Nicolò Casale,Bologna FC 1909,5000000.0,2028.0
+Kevin Bonifazi,Bologna FC 1909,300000.0,2026.0
+Juan Miranda,Bologna FC 1909,15000000.0,2027.0
+Charalampos Lykogiannis,Bologna FC 1909,1500000.0,2026.0
+Nadir Zortea,Bologna FC 1909,7500000.0,2029.0
+Lorenzo De Silvestri,Bologna FC 1909,700000.0,2026.0
+Nikola Moro,Bologna FC 1909,6500000.0,2027.0
+Lewis Ferguson,Bologna FC 1909,20000000.0,2028.0
+Tommaso Pobega,Bologna FC 1909,9000000.0,2026.0
+Simon Sohm,Bologna FC 1909,8000000.0,2026.0
+Remo Freuler,Bologna FC 1909,4000000.0,2026.0
+João Mário,Bologna FC 1909,8500000.0,2026.0
+Jens Odgaard,Bologna FC 1909,15000000.0,2029.0
+Nicolò Cambiaghi,Bologna FC 1909,18000000.0,2029.0
+Jonathan Rowe,Bologna FC 1909,16000000.0,2029.0
+Benja Domínguez,Bologna FC 1909,12000000.0,2029.0
+Riccardo Orsolini,Bologna FC 1909,25000000.0,2027.0
+Federico Bernardeschi,Bologna FC 1909,3500000.0,2027.0
+Santiago Castro,Bologna FC 1909,35000000.0,2030.0
+Thijs Dallinga,Bologna FC 1909,12000000.0,2028.0
+David de Gea,ACF Fiorentina,3500000.0,2028.0
+Oliver Christensen,ACF Fiorentina,1500000.0,2028.0
+Luca Lezzerini,ACF Fiorentina,350000.0,2026.0
+Pietro Comuzzo,ACF Fiorentina,23000000.0,2029.0
+Marin Pongracic,ACF Fiorentina,7500000.0,2029.0
+Luca Ranieri,ACF Fiorentina,7000000.0,2028.0
+Eddy Kouadio,ACF Fiorentina,2500000.0,2030.0
+Daniele Rugani,ACF Fiorentina,2000000.0,2026.0
+Eman Košpo,ACF Fiorentina,1500000.0,2030.0
+Niccolò Fortini,ACF Fiorentina,10000000.0,2027.0
+Robin Gosens,ACF Fiorentina,6000000.0,2028.0
+Fabiano Parisi,ACF Fiorentina,4500000.0,2029.0
+Luis Balbo,ACF Fiorentina,100000.0,2028.0
+Dodô,ACF Fiorentina,18000000.0,2027.0
+Tariq Lamptey,ACF Fiorentina,8000000.0,2028.0
+Rolando Mandragora,ACF Fiorentina,10000000.0,2028.0
+Nicolò Fagioli,ACF Fiorentina,14000000.0,2028.0
+Jacopo Fazzini,ACF Fiorentina,9000000.0,2030.0
+Marco Brescianini,ACF Fiorentina,7500000.0,2026.0
+Cher Ndour,ACF Fiorentina,5000000.0,2029.0
+Giovanni Fabbian,ACF Fiorentina,10000000.0,2026.0
+Abdelhamid Sabiri,ACF Fiorentina,1500000.0,2026.0
+Jack Harrison,ACF Fiorentina,10000000.0,2026.0
+Manor Solomon,ACF Fiorentina,9000000.0,2026.0
+Albert Gudmundsson,ACF Fiorentina,13000000.0,2029.0
+Moise Kean,ACF Fiorentina,45000000.0,2029.0
+Roberto Piccoli,ACF Fiorentina,18000000.0,2030.0
+Ivan Provedel,SS Lazio,3000000.0,2027.0
+Edoardo Motta,SS Lazio,1200000.0,2030.0
+Alessio Furlanetto,SS Lazio,50000.0,2028.0
+Mario Gila,SS Lazio,30000000.0,2027.0
+Alessio Romagnoli,SS Lazio,7000000.0,2027.0
+Oliver Provstgaard,SS Lazio,4500000.0,2029.0
+Samuel Gigot,SS Lazio,1500000.0,2027.0
+Patric,SS Lazio,1500000.0,2027.0
+Nuno Tavares,SS Lazio,15000000.0,2029.0
+Luca Pellegrini,SS Lazio,3500000.0,2027.0
+Adam Marusic,SS Lazio,3000000.0,2028.0
+Manuel Lazzari,SS Lazio,2500000.0,2027.0
+Elseid Hysaj,SS Lazio,1500000.0,2026.0
+Nicolò Rovella,SS Lazio,28000000.0,2028.0
+Reda Belahyane,SS Lazio,8500000.0,2029.0
+Danilo Cataldi,SS Lazio,3500000.0,2027.0
+Kenneth Taylor,SS Lazio,23000000.0,2030.0
+Toma Bašić,SS Lazio,2500000.0,2026.0
+Daniel Maldini,SS Lazio,8000000.0,2026.0
+Adrian Przyborek,SS Lazio,7000000.0,2030.0
+Fisayo Dele-Bashiru,SS Lazio,6500000.0,2028.0
+Mattia Zaccagni,SS Lazio,15000000.0,2029.0
+Gustav Isaksen,SS Lazio,17000000.0,2028.0
+Tijjani Noslin,SS Lazio,6500000.0,2029.0
+Matteo Cancellieri,SS Lazio,5500000.0,2027.0
+Pedro,SS Lazio,1000000.0,2026.0
+Boulaye Dia,SS Lazio,10000000.0,2026.0
+Petar Ratkov,SS Lazio,7000000.0,2030.0
+Arijanet Murić,US Sassuolo,7500000.0,2026.0
+Stefano Turati,US Sassuolo,3000000.0,2028.0
+Gioele Zacchi,US Sassuolo,600000.0,2029.0
+Giacomo Satalino,US Sassuolo,400000.0,2026.0
+Tarik Muharemović,US Sassuolo,14000000.0,2031.0
+Jay Idzes,US Sassuolo,10000000.0,2029.0
+Fali Candé,US Sassuolo,3000000.0,2029.0
+Filippo Romagna,US Sassuolo,800000.0,2026.0
+Pedro Felipe,US Sassuolo,700000.0,2026.0
+Josh Doig,US Sassuolo,5000000.0,2028.0
+Ulisses Garcia,US Sassuolo,3000000.0,2026.0
+Edoardo Pieragnolo,US Sassuolo,2000000.0,2029.0
+Sebastian Walukiewicz,US Sassuolo,4500000.0,2026.0
+Woyo Coulibaly,US Sassuolo,2000000.0,2026.0
+Daniel Boloca,US Sassuolo,5000000.0,2028.0
+Luca Lipani,US Sassuolo,4500000.0,2028.0
+Nemanja Matić,US Sassuolo,1800000.0,2026.0
+Ismaël Koné,US Sassuolo,14000000.0,2030.0
+Kristian Thorstvedt,US Sassuolo,10000000.0,2027.0
+Aster Vranckx,US Sassuolo,7000000.0,2026.0
+Edoardo Iannoni,US Sassuolo,800000.0,2028.0
+Cristian Volpato,US Sassuolo,10000000.0,2028.0
+Darryl Bakola,US Sassuolo,4000000.0,2030.0
+Armand Laurienté,US Sassuolo,14000000.0,2027.0
+Alieu Fadera,US Sassuolo,4500000.0,2026.0
+Domenico Berardi,US Sassuolo,7500000.0,2029.0
+Andrea Pinamonti,US Sassuolo,15000000.0,2027.0
+M'Bala Nzola,US Sassuolo,6000000.0,2026.0
+Luca Moro,US Sassuolo,2000000.0,2027.0
+Zion Suzuki,Parma Calcio 1913,20000000.0,2029.0
+Edoardo Corvi,Parma Calcio 1913,700000.0,2029.0
+Filippo Rinaldi,Parma Calcio 1913,300000.0,2029.0
+Alessandro Circati,Parma Calcio 1913,8000000.0,2029.0
+Abdoulaye Ndiaye,Parma Calcio 1913,6500000.0,2029.0
+Mariano Troilo,Parma Calcio 1913,6000000.0,2030.0
+Lautaro Valenti,Parma Calcio 1913,1500000.0,2027.0
+Emanuele Valeri,Parma Calcio 1913,3000000.0,2028.0
+Franco Carboni,Parma Calcio 1913,900000.0,2026.0
+Sascha Britschgi,Parma Calcio 1913,7000000.0,2030.0
+Enrico Delprato,Parma Calcio 1913,6000000.0,2027.0
+Mandela Keita,Parma Calcio 1913,12000000.0,2029.0
+Nahuel Estévez,Parma Calcio 1913,1500000.0,2026.0
+Adrián Bernabé,Parma Calcio 1913,15000000.0,2027.0
+Oliver Sørensen,Parma Calcio 1913,7500000.0,2030.0
+Hans Nicolussi Caviglia,Parma Calcio 1913,7000000.0,2026.0
+Christian Ordóñez,Parma Calcio 1913,6500000.0,2030.0
+Benja Cremaschi,Parma Calcio 1913,4500000.0,2026.0
+Gaetano Oristanio,Parma Calcio 1913,6000000.0,2026.0
+Jacob Ondrejka,Parma Calcio 1913,8000000.0,2029.0
+Gabriel Strefezza,Parma Calcio 1913,7000000.0,2026.0
+Pontus Almqvist,Parma Calcio 1913,2000000.0,2027.0
+Mateo Pellegrino,Parma Calcio 1913,10000000.0,2030.0
+Matija Frigan,Parma Calcio 1913,7500000.0,2030.0
+Nesta Elphege,Parma Calcio 1913,500000.0,2030.0
+Maduka Okoye,Udinese Calcio,8000000.0,2028.0
+Răzvan Sava,Udinese Calcio,2500000.0,2029.0
+Alessandro Nunziante,Udinese Calcio,1800000.0,2030.0
+Daniele Padelli,Udinese Calcio,150000.0,2026.0
+Oumar Solet,Udinese Calcio,20000000.0,2027.0
+Thomas Kristensen,Udinese Calcio,9000000.0,2028.0
+Nicolò Bertola,Udinese Calcio,6000000.0,2030.0
+Branimir Mlacic,Udinese Calcio,4000000.0,2031.0
+Christian Kabasele,Udinese Calcio,800000.0,2026.0
+Jordan Zemura,Udinese Calcio,4000000.0,2027.0
+Hassane Kamara,Udinese Calcio,3000000.0,2026.0
+Alessandro Zanoli,Udinese Calcio,5000000.0,2026.0
+Kingsley Ehizibue,Udinese Calcio,2000000.0,2026.0
+Jesper Karlström,Udinese Calcio,4000000.0,2026.0
+Abdoulaye Camara,Udinese Calcio,1500000.0,2029.0
+Arthur Atta,Udinese Calcio,15000000.0,2029.0
+Lennon Miller,Udinese Calcio,8000000.0,2030.0
+Jurgen Ekkelenkamp,Udinese Calcio,7000000.0,2029.0
+Jakub Piotrowski,Udinese Calcio,4500000.0,2029.0
+Oier Zarraga,Udinese Calcio,1800000.0,2027.0
+Juan Arizala,Udinese Calcio,1000000.0,2030.0
+Nicolò Zaniolo,Udinese Calcio,13000000.0,2026.0
+Idrissa Gueye,Udinese Calcio,4000000.0,2026.0
+Keinan Davis,Udinese Calcio,4000000.0,2027.0
+Adam Buksa,Udinese Calcio,4000000.0,2029.0
+Vakoun Bayo,Udinese Calcio,3500000.0,2028.0
+Franco Israel,Torino FC,3800000.0,2028.0
+Alberto Paleari,Torino FC,1000000.0,2027.0
+Lapo Siviero,Torino FC,300000.0,2027.0
+Saúl Coco,Torino FC,9000000.0,2029.0
+Luca Marianucci,Torino FC,7500000.0,2026.0
+Ardian Ismajli,Torino FC,6000000.0,2027.0
+Guillermo Maripán,Torino FC,4000000.0,2026.0
+Enzo Ebosse,Torino FC,1500000.0,2026.0
+Saba Sazonov,Torino FC,1300000.0,2026.0
+Niels Nkounkou,Torino FC,3500000.0,2026.0
+Rafa Obrador,Torino FC,2000000.0,2026.0
+Cristiano Biraghi,Torino FC,1400000.0,2027.0
+Marcus Pedersen,Torino FC,3500000.0,2027.0
+Matteo Prati,Torino FC,6000000.0,2026.0
+Adrien Tamèze,Torino FC,2000000.0,2026.0
+Cesare Casadei,Torino FC,14000000.0,2029.0
+Ivan Ilić,Torino FC,10000000.0,2027.0
+Gvidas Gineitis,Torino FC,5500000.0,2029.0
+Emirhan İlkhan,Torino FC,1500000.0,2026.0
+Valentino Lazaro,Torino FC,4000000.0,2026.0
+Nikola Vlašić,Torino FC,9000000.0,2027.0
+Tino Anjorin,Torino FC,5000000.0,2026.0
+Sergiu Perciun,Torino FC,1500000.0,2029.0
+Alieu Njie,Torino FC,2500000.0,2029.0
+Zakaria Aboukhlal,Torino FC,9000000.0,2029.0
+Zanos Savva,Torino FC,200000.0,2026.0
+Ché Adams,Torino FC,8500000.0,2027.0
+Giovanni Simeone,Torino FC,5000000.0,2026.0
+Sandro Kulenović,Torino FC,4000000.0,2026.0
+Duván Zapata,Torino FC,3000000.0,2027.0
+Justin Bijlow,Genoa CFC,4000000.0,2026.0
+Nicola Leali,Genoa CFC,1500000.0,2026.0
+Benjamin Siegrist,Genoa CFC,600000.0,2026.0
+Ernestas Lysionok,Genoa CFC,200000.0,2028.0
+Daniele Sommariva,Genoa CFC,100000.0,2026.0
+Johan Vásquez,Genoa CFC,13000000.0,2028.0
+Leo Østigård,Genoa CFC,10000000.0,2030.0
+Nils Zätterström,Genoa CFC,3000000.0,2026.0
+Alessandro Marcandalli,Genoa CFC,2500000.0,2029.0
+Sebastian Otoa,Genoa CFC,2500000.0,2028.0
+Aarón Martín,Genoa CFC,7000000.0,2026.0
+Brooke Norton-Cuffy,Genoa CFC,16000000.0,2029.0
+Stefano Sabelli,Genoa CFC,1400000.0,2026.0
+Morten Frendrup,Genoa CFC,18000000.0,2028.0
+Jean Onana,Genoa CFC,1300000.0,2026.0
+Patrizio Masini,Genoa CFC,6000000.0,2028.0
+Mikael Egill Ellertsson,Genoa CFC,3500000.0,2029.0
+Amorim,Genoa CFC,2500000.0,2030.0
+Ruslan Malinovskyi,Genoa CFC,2500000.0,2026.0
+Tommaso Baldanzi,Genoa CFC,10000000.0,2026.0
+Maxwel Cornet,Genoa CFC,5000000.0,2026.0
+Junior Messias,Genoa CFC,1200000.0,2026.0
+Vitinha,Genoa CFC,8000000.0,2028.0
+Jeff Ekhator,Genoa CFC,7000000.0,2029.0
+Lorenzo Colombo,Genoa CFC,6000000.0,2026.0
+Caleb Ekuban,Genoa CFC,1300000.0,2026.0
+Elia Caprile,Cagliari Calcio,15000000.0,2029.0
+Alen Sherri,Cagliari Calcio,1000000.0,2027.0
+Giuseppe Ciocci,Cagliari Calcio,100000.0,2027.0
+Alberto Dossena,Cagliari Calcio,7000000.0,2026.0
+Juan Rodríguez,Cagliari Calcio,5000000.0,2030.0
+Adam Obert,Cagliari Calcio,4000000.0,2029.0
+Yerry Mina,Cagliari Calcio,3000000.0,2028.0
+Zé Pedro,Cagliari Calcio,2500000.0,2028.0
+Riyad Idrissi,Cagliari Calcio,2500000.0,2030.0
+Marco Palestra,Cagliari Calcio,25000000.0,2026.0
+Gabriele Zappa,Cagliari Calcio,4000000.0,2030.0
+Othniël Raterink,Cagliari Calcio,450000.0,2030.0
+Ibrahim Sulemana,Cagliari Calcio,6000000.0,2026.0
+Michel Adopo,Cagliari Calcio,6000000.0,2029.0
+Michael Folorunsho,Cagliari Calcio,6000000.0,2026.0
+Joseph Liteta,Cagliari Calcio,2000000.0,2030.0
+Alessandro Deiola,Cagliari Calcio,1600000.0,2029.0
+Luca Mazzitelli,Cagliari Calcio,1400000.0,2026.0
+Gianluca Gaetano,Cagliari Calcio,4000000.0,2029.0
+Mattia Felici,Cagliari Calcio,2800000.0,2027.0
+Agustín Albarracín,Cagliari Calcio,1800000.0,2030.0
+Sebastiano Esposito,Cagliari Calcio,9000000.0,2026.0
+Semih Kılıçsoy,Cagliari Calcio,10000000.0,2026.0
+Gennaro Borrelli,Cagliari Calcio,3000000.0,2029.0
+Andrea Belotti,Cagliari Calcio,1500000.0,2026.0
+Yael Trepy,Cagliari Calcio,1500000.0,2030.0
+Leonardo Pavoletti,Cagliari Calcio,700000.0,2026.0
+Adrian Semper,Pisa Sporting Club,3500000.0,2027.0
+Simone Scuffet,Pisa Sporting Club,1000000.0,2028.0
+Nícolas,Pisa Sporting Club,100000.0,2026.0
+Simone Canestrelli,Pisa Sporting Club,7000000.0,2028.0
+Rosen Bozhinov,Pisa Sporting Club,2500000.0,2030.0
+Francesco Coppola,Pisa Sporting Club,2500000.0,2029.0
+Raúl Albiol,Pisa Sporting Club,800000.0,2026.0
+Arturo Calabresi,Pisa Sporting Club,700000.0,2026.0
+Antonio Caracciolo,Pisa Sporting Club,500000.0,2026.0
+Daniel Denoon,Pisa Sporting Club,500000.0,2026.0
+Marius Marin,Pisa Sporting Club,3000000.0,2026.0
+Malthe Højholt,Pisa Sporting Club,1200000.0,2027.0
+Felipe Loyola,Pisa Sporting Club,8000000.0,2026.0
+Ebenezer Akinsanmiro,Pisa Sporting Club,6500000.0,2026.0
+İsak Vural,Pisa Sporting Club,5000000.0,2028.0
+Michel Aebischer,Pisa Sporting Club,4500000.0,2026.0
+Gabriele Piccinini,Pisa Sporting Club,4000000.0,2028.0
+Idrissa Touré,Pisa Sporting Club,6000000.0,2027.0
+Juan Cuadrado,Pisa Sporting Club,1000000.0,2026.0
+Samuel Iling-Junior,Pisa Sporting Club,10000000.0,2026.0
+Samuele Angori,Pisa Sporting Club,5000000.0,2027.0
+Lorran,Pisa Sporting Club,7500000.0,2026.0
+Matteo Tramoni,Pisa Sporting Club,6000000.0,2030.0
+Calvin Stengs,Pisa Sporting Club,6000000.0,2026.0
+Mehdi Léris,Pisa Sporting Club,2000000.0,2027.0
+Rafiu Durosinmi,Pisa Sporting Club,7500000.0,2030.0
+Henrik Meister,Pisa Sporting Club,5000000.0,2028.0
+Filip Stojilkovic,Pisa Sporting Club,3000000.0,2029.0
+Stefano Moreo,Pisa Sporting Club,1500000.0,2027.0
+Wladimiro Falcone,US Lecce,3500000.0,2028.0
+Christian Früchtl,US Lecce,1000000.0,2027.0
+Jasper Samooja,US Lecce,75000.0,2028.0
+Tiago Gabriel,US Lecce,15000000.0,2027.0
+Jamil Siebert,US Lecce,3800000.0,2028.0
+Gaspar,US Lecce,3500000.0,2027.0
+Gaby Jean,US Lecce,2000000.0,2027.0
+Matías Pérez,US Lecce,500000.0,2028.0
+Antonino Gallo,US Lecce,4000000.0,2026.0
+Corrie Ndaba,US Lecce,900000.0,2028.0
+Danilo Veiga,US Lecce,2000000.0,2027.0
+Ylber Ramadani,US Lecce,1800000.0,2026.0
+Sadik Fofana,US Lecce,600000.0,2029.0
+Oumar Ngom,US Lecce,600000.0,2029.0
+Medon Berisha,US Lecce,6000000.0,2028.0
+Lassana Coulibaly,US Lecce,2500000.0,2027.0
+Thórir Jóhann Helgason,US Lecce,2300000.0,2026.0
+Álex Sala,US Lecce,1500000.0,2028.0
+Omri Gandelman,US Lecce,5000000.0,2029.0
+Filip Marchwinski,US Lecce,2500000.0,2028.0
+Riccardo Sottil,US Lecce,3500000.0,2026.0
+Lameck Banda,US Lecce,3000000.0,2026.0
+Santiago Pierotti,US Lecce,3500000.0,2027.0
+Konan N’Dri,US Lecce,1500000.0,2027.0
+Francesco Camarda,US Lecce,15000000.0,2026.0
+Nikola Stulic,US Lecce,4500000.0,2029.0
+Walid Cheddira,US Lecce,2300000.0,2026.0
+Lorenzo Montipò,Hellas Verona,2000000.0,2028.0
+Simone Perilli,Hellas Verona,400000.0,2026.0
+Giacomo Toniolo,Hellas Verona,75000.0,2026.0
+Arthur Borghi,Hellas Verona,50000.0,2029.0
+Victor Nelsson,Hellas Verona,7500000.0,2026.0
+Armel Bella-Kotchap,Hellas Verona,7500000.0,2030.0
+Nicolás Valentini,Hellas Verona,5000000.0,2026.0
+Tobias Slotsager,Hellas Verona,2000000.0,2028.0
+Andrias Edmundsson,Hellas Verona,800000.0,2029.0
+Martin Frese,Hellas Verona,2500000.0,2027.0
+Domagoj Bradarić,Hellas Verona,2500000.0,2028.0
+Rafik Belghali,Hellas Verona,7000000.0,2029.0
+Pol Lirola,Hellas Verona,2000000.0,2026.0
+Fallou Cham,Hellas Verona,1000000.0,
+Daniel Oyegoke,Hellas Verona,500000.0,2028.0
+Moatasem Al-Musrati,Hellas Verona,7000000.0,2026.0
+Cheikh Niasse,Hellas Verona,2500000.0,2029.0
+Sandi Lovrić,Hellas Verona,6000000.0,2026.0
+Suat Serdar,Hellas Verona,4500000.0,2028.0
+Antoine Bernede,Hellas Verona,3500000.0,2028.0
+Abdou Harroui,Hellas Verona,1800000.0,2028.0
+Roberto Gagliardini,Hellas Verona,1400000.0,2026.0
+Jean-Daniel Akpa Akpro,Hellas Verona,500000.0,2026.0
+Tomas Suslov,Hellas Verona,5000000.0,2027.0
+Gift Orban,Hellas Verona,8500000.0,2026.0
+Amin Sarr,Hellas Verona,3000000.0,2029.0
+Kieron Bowie,Hellas Verona,2700000.0,2030.0
+Daniel Mosquera,Hellas Verona,2500000.0,2028.0
+Isaac,Hellas Verona,700000.0,2029.0
+Junior Ajayi,Hellas Verona,300000.0,
+Emil Audero,US Cremonese,3200000.0,2026.0
+Marco Silvestri,US Cremonese,500000.0,2026.0
+Lapo Nava,US Cremonese,100000.0,2028.0
+Mikayil Faye,US Cremonese,6000000.0,2026.0
+Filippo Terracciano,US Cremonese,4500000.0,2026.0
+Sebastiano Luperto,US Cremonese,4000000.0,2030.0
+Federico Baschirotto,US Cremonese,4000000.0,2028.0
+Matteo Bianchetti,US Cremonese,800000.0,2026.0
+Francesco Folino,US Cremonese,700000.0,2028.0
+Federico Ceccherini,US Cremonese,400000.0,2026.0
+Giuseppe Pezzella,US Cremonese,2500000.0,2028.0
+Tommaso Barbieri,US Cremonese,4000000.0,2028.0
+Romano Floriani Mussolini,US Cremonese,2500000.0,2026.0
+Alberto Grassi,US Cremonese,1800000.0,2027.0
+Warren Bondo,US Cremonese,8500000.0,2026.0
+Martín Payero,US Cremonese,6000000.0,2026.0
+Jari Vandeputte,US Cremonese,4000000.0,2028.0
+Morten Thorsby,US Cremonese,3000000.0,2028.0
+Michele Collocolo,US Cremonese,3000000.0,2027.0
+Youssef Maleh,US Cremonese,1000000.0,2026.0
+Alessio Zerbin,US Cremonese,2200000.0,2026.0
+Faris Moumbagna,US Cremonese,5000000.0,2026.0
+Antonio Sanabria,US Cremonese,2500000.0,2028.0
+Federico Bonazzoli,US Cremonese,2200000.0,2028.0
+David Okereke,US Cremonese,1500000.0,2026.0
+Milan Djuric,US Cremonese,1000000.0,2027.0
+Jamie Vardy,US Cremonese,1000000.0,2026.0

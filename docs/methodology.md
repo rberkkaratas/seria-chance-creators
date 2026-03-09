@@ -4,11 +4,22 @@
 
 Identify and profile elite chance-creating midfielders in Serie A 2025/26 using match event data, with the goal of producing a scouting shortlist that a sporting director or head scout could act on.
 
-## Data Source
+## Data Sources
 
+### Match Event Data — WhoScored
 Match event data is extracted from WhoScored using a semi-automated pipeline. Match IDs are manually collected for all Serie A 2025/26 fixtures; the pipeline then extracts structured event data for each match and normalizes it into three tables (matches, players, teams).
 
 **Why WhoScored?** Following FBref's loss of Opta access, WhoScored remains one of the few publicly accessible sources of detailed match event data, including pass types, dribble events, and defensive actions.
+
+### Transfer Data — Transfermarkt
+Market value, contract expiry, and transfer feasibility are scraped from Transfermarkt team squad pages using seleniumbase (the same UC-mode browser used for WhoScored). Data is cached locally in `data/enrichment/tm_squads_cache.csv` so scraping only runs on explicit refresh.
+
+Player names are matched between WhoScored and Transfermarkt using fuzzy string matching (rapidfuzz WRatio). Matches above 85% confidence are auto-verified; ambiguous matches are flagged in `data/enrichment/tm_player_mapping.csv` for manual review. Players who transfer out of Serie A mid-season and are no longer findable in any team's squad page can be added manually via `data/enrichment/tm_manual_players.csv`.
+
+**Transfer feasibility tiers** are derived from contract expiry relative to the current season end year:
+- **Expiring** — ≤1 year remaining (out of contract or final year)
+- **Mid-term** — 1–2 years remaining (negotiable window)
+- **Locked** — 2+ years remaining (premium buy-out required)
 
 ## Player Selection
 
@@ -72,10 +83,10 @@ K-Means clustering (k=3) is applied to the standardized per-90 metrics to identi
 - **Sample size:** Analysis is limited to a single season. Players with injuries or late transfers may have insufficient data.
 - **Positional classification:** WhoScored positions may not perfectly reflect a player's actual tactical role in a given match.
 - **SCA approximation:** Shot-creating actions are approximated as key passes + successful dribbles. This underestimates the true SCA count (which would also include progressive passes, defensive actions leading to counter-attacks, etc.).
+- **Transfer data coverage:** Players who transfer out of Serie A mid-season are not on any team's Transfermarkt squad page and require manual entry of market value and contract data.
 
 ## Future Improvements
 
-- Integrate Transfermarkt data for contract status, market value, and transfer feasibility
 - Add video analysis notes for shortlisted players (qualitative layer)
 - Incorporate opponent-adjusted metrics (performance vs. top-6 teams vs. bottom-6)
 - Build expected assists model from pass end-locations if coordinate data becomes available

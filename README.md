@@ -18,12 +18,15 @@ seria-chance-creators/
 │   ├── features/
 │   │   ├── chance_creation.py       # Per-90 metrics, percentiles, composite scores
 │   │   └── clustering.py            # K-means archetype clustering
+│   ├── enrichment/
+│   │   └── transfermarkt.py         # Market value, contract & feasibility (SeleniumBase)
 │   └── visualization/
 │       └── radar.py                 # Radar charts & comparison plots
 │
 ├── data/
 │   ├── events/Serie_A/2025-2026/    # Per-match event CSVs from WhoScored
 │   ├── processed/                   # Aggregated tables (matches, players, teams)
+│   ├── enrichment/                  # TM squad cache, player mapping, manual overrides
 │   └── final/                       # Feature-engineered datasets ready for app
 │
 ├── notebooks/
@@ -46,11 +49,12 @@ seria-chance-creators/
 
 ```
 Match IDs (manual input)
-    → WhoScored Extractor (SeleniumBase UC mode)
+    → WhoScored Extractor   (SeleniumBase UC mode)
     → Per-match Event CSVs
-    → Build Tables (derive stats from events → matches / players / teams)
-    → Feature Engineering (per-90, percentiles, composites)
-    → Clustering (creative archetypes)
+    → Build Tables          (matches / players / teams)
+    → Feature Engineering   (per-90, percentiles, composite score)
+    → Clustering            (K-Means creative archetypes)          [optional]
+    → TM Enrichment         (market value, contract, feasibility)  [optional]
     → Streamlit Dashboard
 ```
 
@@ -72,9 +76,14 @@ python -m src.processing.build_tables
 
 # 4. Engineer features & cluster
 python -m src.features.chance_creation
-python -m src.features.clustering
+python -m src.features.clustering          # optional
 
-# 5. Launch dashboard
+# 5. Enrich with Transfermarkt data
+python -m src.enrichment.transfermarkt     # optional — opens a browser, ~2 min
+# Re-scrape on season refresh:
+# python -m src.enrichment.transfermarkt --refresh
+
+# 6. Launch dashboard
 streamlit run streamlit/app.py
 ```
 
@@ -86,15 +95,20 @@ pytest tests/ -v
 
 38 tests covering event qualifier parsing (including regression guards for the WhoScored displayName casing bugs), the position-aware minutes filter, per-90 calculations, and composite score integrity.
 
-## Data Source
+## Data Sources
 
-Match event data is sourced from [WhoScored](https://www.whoscored.com/) for Serie A 2025/26. Data is extracted per-match using match IDs and processed locally. This project is for personal educational and portfolio purposes only.
+| Source | What it provides |
+|--------|-----------------|
+| [WhoScored](https://www.whoscored.com/) | Match event data for Serie A 2025/26 — extracted per-match via SeleniumBase |
+| [Transfermarkt](https://www.transfermarkt.com/) | Market value, contract expiry, transfer feasibility — scraped from team squad pages |
+
+This project is for personal educational and portfolio purposes only.
 
 ## Documentation
 
 | Doc | Contents |
 |-----|----------|
-| [docs/methodology.md](docs/methodology.md) | Feature selection, normalization, clustering, limitations |
+| [docs/methodology.md](docs/methodology.md) | Feature selection, normalization, clustering, TM enrichment, limitations |
 | [docs/usage.md](docs/usage.md) | Streamlit dashboard user guide |
 
 ## Author
