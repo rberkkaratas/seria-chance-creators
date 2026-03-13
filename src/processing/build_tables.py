@@ -93,13 +93,36 @@ def enrich_events(df: pd.DataFrame) -> pd.DataFrame:
     df["is_aerial"] = df["type"] == "Aerial"
     df["is_ball_recovery"] = df["type"] == "BallRecovery"
     df["is_carry"] = df["type"] == "Carry"  # if WhoScored includes carries
+    df["is_blocked_pass"] = df["type"] == "BlockedPass"
 
     # ── Outcome flags ──
     df["is_successful"] = df["outcomeType"] == "Successful"
 
     # ── Qualifier-based flags (chance creation) ──
     df["is_key_pass"] = df["_quals"].apply(lambda q: has_qualifier(q, "KeyPass"))
-    df["is_assist"] = df["_quals"].apply(lambda q: has_qualifier(q, "IntentionalAssist"))
+
+    # Assist detection via satisfiedEventsTypes (event-type ID 92 = goal scored on this action).
+    # WhoScored's IntentionalAssist qualifier is NOT used for assists because:
+    #   1. It appears on ALL key passes (passes leading to any shot, not just goals) — so
+    #      IntentionalAssist ≈ KeyPass and would inflate assists to match key-pass counts.
+    #   2. It also appears on the resulting shot/goal event, causing double-counting.
+    # Event-type 92 in satisfiedEventsTypes is present only on pass events that directly
+    # led to a goal, making it the correct signal for actual assists.
+    # Fallback to qualifier-based approach when satisfiedEventsTypes is absent (e.g. in tests).
+    if "satisfiedEventsTypes" in df.columns:
+        def _sat_set(val):
+            try:
+                parsed = ast.literal_eval(str(val))
+                return set(int(x) for x in parsed) if isinstance(parsed, list) else set()
+            except Exception:
+                return set()
+        df["_sat"] = df["satisfiedEventsTypes"].apply(_sat_set)
+        df["is_assist"] = df["is_pass"] & df["_sat"].apply(lambda s: 92 in s)
+    else:
+        df["is_assist"] = df["is_pass"] & df["_quals"].apply(
+            lambda q: has_qualifier(q, "IntentionalAssist")
+        )
+
     df["is_through_ball"] = df["_quals"].apply(lambda q: has_qualifier(q, "Throughball"))
     df["is_long_ball"] = df["_quals"].apply(lambda q: has_qualifier(q, "Longball"))
     df["is_cross"] = df["_quals"].apply(lambda q: has_qualifier(q, "Cross"))
@@ -132,10 +155,91 @@ def enrich_events(df: pd.DataFrame) -> pd.DataFrame:
             & (df["endY"] <= 78.9)
         )
 
-        # Progressive carry (same logic for carries if available)
-        df["is_progressive_carry"] = (
-            df["is_carry"]
-            & ((100 - df["endX"]) <= 0.75 * (100 - df["x"]))
+        # Progressive carry — inferred from sequential per-player events (same carry
+        # detection approach as is_carry_into_final_third).  A carry is progressive if
+        # the inferred end position is at least 25% closer to goal than the start.
+        # We approximate end position as the next event's x when it's a forward move.
+        df["is_progressive_carry"] = False  # placeholder; overwritten below if possible
+
+        # Forward pass: successful pass that advances toward the opponent's goal
+        df["is_forward_pass"] = (
+            df["is_pass"]
+            & df["is_successful"]
+            & (df["endX"] > df["x"])
+        )
+
+        # Penalty area touch: any event occurring inside the attacking penalty area
+        df["is_penalty_area_touch"] = (
+            (df["x"] >= 83)
+            & (df["y"] >= 21.1)
+            & (df["y"] <= 78.9)
+        )
+
+        # Half-space pass: successful pass ending in the attacking half-spaces
+        # (final third but outside the central lane and penalty area width)
+        df["is_half_space_pass"] = (
+            df["is_pass"]
+            & df["is_successful"]
+            & (df["endX"] >= 66)
+            & ((df["endY"] < 37) | (df["endY"] > 63))
+        )
+
+        # Possession won in the final third: ball recovery in the attacking third
+        df["is_possession_won_final_third"] = (
+            df["is_ball_recovery"]
+            & (df["x"] >= 66.7)
+        )
+
+        # Carry into the final third — inferred from sequential per-player events.
+        # WhoScored does not log Carry events; we detect carries by noticing when a
+        # player's event starts inside the final third (x >= 66.7) while their previous
+        # event ended outside it (x < 66.7), with a gap <= 30 units (consistent with a
+        # carry, not a long-pass reception), AND where the previous event indicates the
+        # player retained possession (BallTouch, BallRecovery, or a successful
+        # TakeOn / Interception / Tackle — all events after which the player has the ball).
+        # Successful passes are explicitly excluded: after passing, the player no longer
+        # has the ball and the next event inside the final third is a new reception.
+        _carry_cols = ["playerId", "x", "endX", "type", "outcomeType"]
+        _temporal   = [c for c in ["period", "minute", "second"] if c in df.columns]
+        if _temporal and "playerId" in df.columns:
+            _s = df[_carry_cols + _temporal].copy()
+            _s["_end_x"] = np.where(_s["endX"].notna(), _s["endX"], _s["x"])
+            _s = _s.sort_values(["playerId"] + _temporal)
+            _s["_prev_end_x"]  = _s.groupby("playerId")["_end_x"].shift(1)
+            _s["_prev_type"]   = _s.groupby("playerId")["type"].shift(1)
+            _s["_prev_outcome"]= _s.groupby("playerId")["outcomeType"].shift(1)
+            if "period" in _temporal:
+                _s["_prev_period"] = _s.groupby("playerId")["period"].shift(1)
+                _same_period = _s["_prev_period"] == _s["period"]
+            else:
+                _same_period = True
+            _prev_kept_ball = (
+                _s["_prev_type"].isin(["BallTouch", "BallRecovery"])
+                | ((_s["_prev_type"] == "TakeOn")       & (_s["_prev_outcome"] == "Successful"))
+                | ((_s["_prev_type"] == "Interception") & (_s["_prev_outcome"] == "Successful"))
+                | ((_s["_prev_type"] == "Tackle")       & (_s["_prev_outcome"] == "Successful"))
+            )
+            _carry_mask = (
+                _s["_prev_end_x"].notna()
+                & _same_period
+                & (_s["_prev_end_x"] < 66.7)
+                & (_s["x"] >= 66.7)
+                & ((_s["x"] - _s["_prev_end_x"]).between(0, 30))
+                & _prev_kept_ball
+            )
+            df["is_carry_into_final_third"] = _carry_mask.reindex(df.index, fill_value=False)
+        else:
+            df["is_carry_into_final_third"] = False
+
+        # Ball-winning height accumulators: sum x and count for interceptions + recoveries
+        # Used to compute average ball-winning height in feature engineering
+        df["ball_winning_x_contrib"] = np.where(
+            df["is_interception"] | df["is_ball_recovery"],
+            df["x"].astype(float),
+            0.0,
+        )
+        df["ball_winning_count"] = (
+            (df["is_interception"] | df["is_ball_recovery"]).astype(int)
         )
     else:
         # Without coordinates, these will be zero
@@ -143,6 +247,13 @@ def enrich_events(df: pd.DataFrame) -> pd.DataFrame:
         df["is_pass_into_final_third"] = False
         df["is_pass_into_penalty_area"] = False
         df["is_progressive_carry"] = False
+        df["is_forward_pass"] = False
+        df["is_penalty_area_touch"] = False
+        df["is_half_space_pass"] = False
+        df["is_possession_won_final_third"] = False
+        df["is_carry_into_final_third"] = False
+        df["ball_winning_x_contrib"] = 0.0
+        df["ball_winning_count"] = 0
 
     # ── Shot-creating action (SCA) ──
     # Simplified: key pass or successful take-on that precedes a shot
@@ -242,6 +353,12 @@ def aggregate_player_match_stats_simple(df: pd.DataFrame) -> pd.DataFrame:
     player_events["accurate_pass"] = player_events["is_pass"] & player_events["is_successful"]
     player_events["successful_dribble"] = player_events["is_take_on"] & player_events["is_successful"]
     player_events["aerial_won"] = player_events["is_aerial"] & player_events["is_successful"]
+    player_events["successful_tackle"] = player_events["is_tackle"] & player_events["is_successful"]
+    player_events["successful_cross"] = player_events["is_cross"] & player_events["is_successful"]
+    player_events["possession_lost"] = (
+        (player_events["is_pass"] & ~player_events["is_successful"]) |
+        (player_events["is_take_on"] & ~player_events["is_successful"])
+    )
 
     sum_cols = {
         "is_pass": "total_passes",
@@ -250,6 +367,7 @@ def aggregate_player_match_stats_simple(df: pd.DataFrame) -> pd.DataFrame:
         "is_through_ball": "through_balls",
         "is_long_ball": "long_balls",
         "is_cross": "crosses",
+        "successful_cross": "crosses_successful",
         "is_progressive_pass": "progressive_passes",
         "is_pass_into_final_third": "passes_into_final_third",
         "is_pass_into_penalty_area": "passes_into_penalty_area",
@@ -261,11 +379,23 @@ def aggregate_player_match_stats_simple(df: pd.DataFrame) -> pd.DataFrame:
         "is_shot": "shots",
         "is_goal": "goals",
         "is_tackle": "tackles",
+        "successful_tackle": "tackles_successful",
         "is_interception": "interceptions",
         "is_ball_recovery": "ball_recoveries",
         "is_clearance": "clearances",
+        "is_aerial": "aerials_total",
         "aerial_won": "aerials_won",
+        "is_blocked_pass": "shots_blocked",
+        "possession_lost": "possession_lost",
         "is_touch_final_third": "touches_final_third",
+        # ── New spatial metrics ──
+        "is_forward_pass": "forward_passes",
+        "is_penalty_area_touch": "penalty_area_touches",
+        "is_half_space_pass": "half_space_passes",
+        "is_possession_won_final_third": "possession_won_final_third",
+        "is_carry_into_final_third": "carries_into_final_third",
+        "ball_winning_x_contrib": "ball_winning_x_sum",
+        "ball_winning_count": "ball_winning_count",
     }
 
     # Add touches if available

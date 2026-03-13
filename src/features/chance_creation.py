@@ -57,8 +57,16 @@ def aggregate_per_player(df: pd.DataFrame) -> pd.DataFrame:
         "passes_into_final_third", "passes_into_penalty_area",
         "successful_dribbles", "total_dribbles",
         "shots", "shots_on_target",
-        "tackles", "interceptions", "ball_recoveries",
+        "tackles", "tackles_successful",
+        "interceptions", "ball_recoveries",
+        "clearances", "aerials_won", "aerials_total", "shots_blocked",
+        "crosses", "crosses_successful",
+        "possession_lost",
         "touches", "touches_final_third",
+        # New spatial metrics
+        "forward_passes", "penalty_area_touches", "half_space_passes",
+        "possession_won_final_third", "carries_into_final_third",
+        "ball_winning_x_sum", "ball_winning_count",
     ]
 
     agg_dict = {col: "sum" for col in sum_cols if col in df.columns}
@@ -89,9 +97,17 @@ def compute_per_90(df: pd.DataFrame) -> pd.DataFrame:
         "passes_into_final_third", "passes_into_penalty_area",
         "successful_dribbles", "total_dribbles",
         "shots", "shots_on_target",
-        "tackles", "interceptions", "ball_recoveries",
+        "tackles", "tackles_successful",
+        "interceptions", "ball_recoveries",
+        "clearances", "aerials_won", "aerials_total", "shots_blocked",
+        "crosses", "crosses_successful",
+        "possession_lost",
         "touches", "touches_final_third",
         "total_passes", "accurate_passes",
+        # New spatial metrics
+        "penalty_area_touches", "half_space_passes",
+        "possession_won_final_third", "carries_into_final_third",
+        "forward_passes",
     ]
 
     minutes = df["minutes_played"].replace(0, np.nan)
@@ -110,6 +126,43 @@ def compute_per_90(df: pd.DataFrame) -> pd.DataFrame:
             df["successful_dribbles"] / df["total_dribbles"].replace(0, np.nan)
         ) * 100
 
+    # Aerial win rate
+    if "aerials_won" in df.columns and "aerials_total" in df.columns:
+        df["aerial_win_rate"] = (
+            df["aerials_won"] / df["aerials_total"].replace(0, np.nan)
+        ) * 100
+
+    # Tackle success rate
+    if "tackles_successful" in df.columns and "tackles" in df.columns:
+        df["tackle_success_rate"] = (
+            df["tackles_successful"] / df["tackles"].replace(0, np.nan)
+        ) * 100
+
+    # Cross accuracy
+    if "crosses_successful" in df.columns and "crosses" in df.columns:
+        df["cross_accuracy"] = (
+            df["crosses_successful"] / df["crosses"].replace(0, np.nan)
+        ) * 100
+
+    # Possession won (derived: ball recoveries + successful tackles + interceptions)
+    poss_won_cols = [c for c in ["ball_recoveries", "tackles_successful", "interceptions"] if c in df.columns]
+    if poss_won_cols:
+        df["possession_won"] = df[poss_won_cols].sum(axis=1)
+        df["possession_won_p90"] = (df["possession_won"] / minutes) * 90
+
+    # Forward pass percentage
+    if "forward_passes" in df.columns and "total_passes" in df.columns:
+        df["forward_pass_pct"] = (
+            df["forward_passes"] / df["total_passes"].replace(0, np.nan)
+        ) * 100
+
+    # Ball-winning height: average x-coordinate of interceptions + ball recoveries
+    # Higher value = wins the ball higher up the pitch (0–100 scale)
+    if "ball_winning_x_sum" in df.columns and "ball_winning_count" in df.columns:
+        df["ball_winning_height"] = (
+            df["ball_winning_x_sum"] / df["ball_winning_count"].replace(0, np.nan)
+        )
+
     # Shot-Creating Actions proxy (key passes + successful dribbles)
     # Adjust if you can derive a more precise SCA from event data
     if "key_passes_p90" in df.columns and "successful_dribbles_p90" in df.columns:
@@ -122,11 +175,50 @@ def compute_per_90(df: pd.DataFrame) -> pd.DataFrame:
 
 def compute_percentiles(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Compute percentile rank (0-100) for each chance-creation metric.
+    Compute percentile rank (0-100) for all metrics used in chance-creation
+    scoring and role scoring.
     """
-    for metric in config.CHANCE_CREATION_METRICS:
+    # Core chance-creation metrics (existing)
+    all_metrics = set(config.CHANCE_CREATION_METRICS)
+
+    # Add every metric referenced by any role definition
+    for weights in config.ROLE_WEIGHTS.values():
+        all_metrics.update(weights.keys())
+
+    for metric in all_metrics:
         if metric in df.columns:
             df[f"{metric}_pct"] = df[metric].rank(pct=True) * 100
+
+    return df
+
+
+def compute_role_scores(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Compute a 0–100 score for each of the 6 midfielder roles and assign
+    primary_role (the role with the highest score) to each player.
+    """
+    score_cols = []
+    for role_name, weights in config.ROLE_WEIGHTS.items():
+        col = f"{config.ROLE_SCORE_COL_PREFIX}{role_name}"
+        score = pd.Series(0.0, index=df.index)
+        total_weight = 0.0
+        for metric, weight in weights.items():
+            pct_col = f"{metric}_pct"
+            if pct_col in df.columns:
+                score += df[pct_col].fillna(0) * weight
+                total_weight += weight
+        # Rescale if any metric was missing
+        if 0 < total_weight < 1.0:
+            score = score / total_weight
+        df[col] = score.round(1)
+        score_cols.append(col)
+
+    if score_cols:
+        df[config.PRIMARY_ROLE_COL] = (
+            df[score_cols]
+            .idxmax(axis=1)
+            .str.replace(config.ROLE_SCORE_COL_PREFIX, "", regex=False)
+        )
 
     return df
 
@@ -167,6 +259,9 @@ def run_feature_engineering():
 
     print("Computing composite scores...")
     df = compute_composite_score(df)
+
+    print("Computing role scores...")
+    df = compute_role_scores(df)
 
     # Sort by composite score
     df = df.sort_values("chance_creation_score", ascending=False)

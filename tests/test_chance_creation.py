@@ -23,6 +23,7 @@ from src.features.chance_creation import (
     compute_composite_score,
     compute_per_90,
     compute_percentiles,
+    compute_role_scores,
     filter_midfielders,
 )
 
@@ -69,10 +70,10 @@ def test_filter_midfielders_qualifies_with_enough_midfield_minutes():
 
 
 def test_filter_midfielders_excludes_insufficient_midfield_minutes():
-    """Player with only 800 midfield minutes should NOT qualify (threshold=900)."""
+    """Player with fewer midfield minutes than the threshold should NOT qualify."""
     rows = [
         {"player_id": 1, "position": "MC", "minutes_played": 90, "match_id": f"m{i}"}
-        for i in range(8)  # 8 x 90 = 720 min
+        for i in range(6)  # 6 x 90 = 540 min < MIN_MINUTES_PLAYED (600)
     ]
     df = _make_players(rows)
     result = filter_midfielders(df)
@@ -147,6 +148,11 @@ def _make_aggregated(**overrides):
         "tackles": 20, "interceptions": 15, "ball_recoveries": 30,
         "touches": 500, "touches_final_third": 80,
         "total_passes": 400, "accurate_passes": 360,
+        # New spatial metrics
+        "forward_passes": 200, "penalty_area_touches": 20,
+        "half_space_passes": 15, "possession_won_final_third": 10,
+        "carries_into_final_third": 5,
+        "ball_winning_x_sum": 2250.0, "ball_winning_count": 45,
     }
     row.update(overrides)
     return pd.DataFrame([row])
@@ -189,6 +195,48 @@ def test_compute_per_90_shot_creating_actions_derived():
     assert abs(result["shot_creating_actions_p90"].iloc[0] - expected) < 1e-9
 
 
+def test_compute_per_90_forward_pass_pct():
+    """200 forward passes out of 400 total = 50% forward pass rate."""
+    df = _make_aggregated(forward_passes=200, total_passes=400)
+    result = compute_per_90(df)
+    assert abs(result["forward_pass_pct"].iloc[0] - 50.0) < 1e-9
+
+
+def test_compute_per_90_forward_pass_pct_zero_passes():
+    """Zero total passes must produce NaN forward_pass_pct (not inf/error)."""
+    df = _make_aggregated(forward_passes=0, total_passes=0)
+    result = compute_per_90(df)
+    assert np.isnan(result["forward_pass_pct"].iloc[0])
+
+
+def test_compute_per_90_penalty_area_touches():
+    """20 penalty area touches in 900 minutes = 2.0 p90."""
+    df = _make_aggregated(penalty_area_touches=18, minutes_played=900)
+    result = compute_per_90(df)
+    assert abs(result["penalty_area_touches_p90"].iloc[0] - 1.8) < 1e-9
+
+
+def test_compute_per_90_half_space_passes():
+    """9 half-space passes in 900 minutes = 0.9 p90."""
+    df = _make_aggregated(half_space_passes=9, minutes_played=900)
+    result = compute_per_90(df)
+    assert abs(result["half_space_passes_p90"].iloc[0] - 0.9) < 1e-9
+
+
+def test_compute_per_90_ball_winning_height():
+    """Sum x=2250 over 45 events = average height of 50.0."""
+    df = _make_aggregated(ball_winning_x_sum=2250.0, ball_winning_count=45)
+    result = compute_per_90(df)
+    assert abs(result["ball_winning_height"].iloc[0] - 50.0) < 1e-9
+
+
+def test_compute_per_90_ball_winning_height_zero_count():
+    """Zero defensive events must produce NaN ball_winning_height (not inf)."""
+    df = _make_aggregated(ball_winning_x_sum=0.0, ball_winning_count=0)
+    result = compute_per_90(df)
+    assert np.isnan(result["ball_winning_height"].iloc[0])
+
+
 # ─── compute_percentiles ──────────────────────────────────────────────
 
 def _make_multi_player_df(n=20):
@@ -207,6 +255,11 @@ def _make_multi_player_df(n=20):
             "tackles": 5, "interceptions": 5, "ball_recoveries": 5,
             "touches": 300, "touches_final_third": 50,
             "total_passes": 200, "accurate_passes": 180,
+            # New spatial metrics
+            "forward_passes": i * 3, "penalty_area_touches": i,
+            "half_space_passes": i, "possession_won_final_third": i,
+            "carries_into_final_third": i,
+            "ball_winning_x_sum": (i + 1) * 50.0, "ball_winning_count": i + 1,
         })
     df = pd.DataFrame(rows)
     df = compute_per_90(df)
@@ -267,3 +320,77 @@ def test_compute_composite_score_column_exists():
     df = compute_percentiles(df)
     df = compute_composite_score(df)
     assert "chance_creation_score" in df.columns
+
+
+# ─── compute_role_scores ──────────────────────────────────────────────
+
+def test_role_weights_sum_to_one():
+    """Each role's weights must sum to exactly 1.0."""
+    for role, weights in config.ROLE_WEIGHTS.items():
+        total = sum(weights.values())
+        assert abs(total - 1.0) < 1e-9, f"Role '{role}' weights sum to {total}, expected 1.0"
+
+
+def _make_role_df(n: int = 10) -> pd.DataFrame:
+    """DataFrame with all columns needed for role scoring."""
+    rows = []
+    for i in range(n):
+        rows.append({
+            "player_id": i, "player_name": f"Player {i}",
+            "team_name": "Team A", "team_id": 1, "age": 23,
+            "position": "MC", "appearances": 10,
+            "minutes_played": 900 + i * 10,
+            # Chance creation
+            "key_passes": i * 2, "through_balls": i, "assists": i,
+            "second_assists": 0, "progressive_passes": i * 5,
+            "progressive_carries": 0, "passes_into_final_third": i * 3,
+            "passes_into_penalty_area": i, "successful_dribbles": i,
+            "total_dribbles": i * 2, "shots": i, "shots_on_target": 0,
+            # Defensive
+            "tackles": i + 1, "tackles_successful": i,
+            "interceptions": i + 1, "ball_recoveries": i + 2,
+            "clearances": i, "aerials_total": i + 1, "aerials_won": i,
+            "shots_blocked": i,
+            # Possession
+            "possession_lost": i * 2 + 1, "possession_won": i * 2,
+            # Passing / dribbling
+            "total_passes": 200 + i * 10, "accurate_passes": 180 + i * 8,
+            "crosses": i + 1, "crosses_successful": i,
+            "touches": 300, "touches_final_third": 50,
+            # New spatial metrics
+            "forward_passes": i * 3 + 1, "penalty_area_touches": i + 1,
+            "half_space_passes": i + 1, "possession_won_final_third": i,
+            "carries_into_final_third": i,
+            "ball_winning_x_sum": (i + 1) * 50.0, "ball_winning_count": i + 1,
+        })
+    df = pd.DataFrame(rows)
+    df = compute_per_90(df)
+    df = compute_percentiles(df)
+    return df
+
+
+def test_compute_role_scores_columns_exist():
+    """A role_score_* column and primary_role must exist after compute_role_scores."""
+    df = _make_role_df()
+    df = compute_role_scores(df)
+    for role in config.ROLE_WEIGHTS:
+        col = f"{config.ROLE_SCORE_COL_PREFIX}{role}"
+        assert col in df.columns, f"Missing column: {col}"
+    assert config.PRIMARY_ROLE_COL in df.columns
+
+
+def test_compute_role_scores_range():
+    """All role scores must be in [0, 100]."""
+    df = _make_role_df()
+    df = compute_role_scores(df)
+    for role in config.ROLE_WEIGHTS:
+        col = f"{config.ROLE_SCORE_COL_PREFIX}{role}"
+        assert df[col].between(0, 100).all(), f"{col} has values outside [0, 100]"
+
+
+def test_primary_role_is_valid():
+    """primary_role must be one of the defined roles for every player."""
+    df = _make_role_df()
+    df = compute_role_scores(df)
+    valid_roles = set(config.ROLE_WEIGHTS.keys())
+    assert df[config.PRIMARY_ROLE_COL].isin(valid_roles).all()
