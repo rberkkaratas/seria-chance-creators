@@ -1,0 +1,277 @@
+league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events
+La_Liga,1914072,01022026,54,Real Betis,55,Valencia,2,1,1502
+La_Liga,1914085,01022026,62,Celta Vigo,819,Getafe,0,0,1444
+La_Liga,1914104,01022026,68,Real Sociedad,53,Athletic Club,1,1,1556
+La_Liga,1914154,01022026,64,Rayo Vallecano,52,Real Madrid,1,2,1650
+La_Liga,1914136,01032026,54,Real Betis,67,Sevilla,2,2,1531
+La_Liga,1914137,01032026,70,Espanyol,833,Elche,2,2,1401
+La_Liga,1914142,01032026,62,Celta Vigo,2783,Girona,1,2,1665
+La_Liga,1914144,01032026,55,Valencia,131,Osasuna,1,0,1435
+La_Liga,1913961,01112025,67,Sevilla,63,Atletico,0,3,1630
+La_Liga,1913970,01112025,52,Real Madrid,55,Valencia,4,0,1722
+La_Liga,1913972,01112025,53,Athletic Club,68,Real Sociedad,2,3,1391
+La_Liga,1913978,01112025,64,Rayo Vallecano,839,Villarreal,0,4,1429
+La_Liga,1914016,01122025,55,Valencia,64,Rayo Vallecano,1,1,1436
+La_Liga,1914059,02012026,819,Getafe,64,Rayo Vallecano,1,1,1454
+La_Liga,1914074,02022026,67,Sevilla,51,Mallorca,1,4,1520
+La_Liga,1914143,02032026,52,Real Madrid,819,Getafe,0,1,1566
+La_Liga,1913959,02112025,70,Espanyol,60,Deportivo Alaves,1,2,1573
+La_Liga,1913963,02112025,65,Barcelona,833,Elche,3,1,1472
+La_Liga,1913966,02112025,54,Real Betis,51,Mallorca,3,0,1690
+La_Liga,1913974,02112025,832,Levante,62,Celta Vigo,1,2,1524
+La_Liga,1914066,02122025,63,Atletico,65,Barcelona,1,3,1601
+La_Liga,1914053,03012026,55,Valencia,62,Celta Vigo,1,4,1538
+La_Liga,1914054,03012026,839,Villarreal,833,Elche,3,1,1648
+La_Liga,1914055,03012026,131,Osasuna,53,Athletic Club,1,1,1544
+La_Liga,1914057,03012026,70,Espanyol,65,Barcelona,0,2,1405
+La_Liga,1913960,03102025,131,Osasuna,819,Getafe,2,1,1434
+La_Liga,1913976,03112025,61,Real Oviedo,131,Osasuna,0,0,1406
+La_Liga,1914062,03122025,53,Athletic Club,52,Real Madrid,0,3,1707
+La_Liga,1914052,04012026,61,Real Oviedo,60,Deportivo Alaves,1,1,1574
+La_Liga,1914056,04012026,68,Real Sociedad,63,Atletico,1,1,1588
+La_Liga,1914058,04012026,52,Real Madrid,54,Real Betis,5,1,1632
+La_Liga,1914060,04012026,51,Mallorca,2783,Girona,1,2,1533
+La_Liga,1914061,04012026,832,Levante,67,Sevilla,3,0,1403
+La_Liga,1914092,04032026,61,Real Oviedo,64,Rayo Vallecano,0,3,1395
+La_Liga,1913948,04102025,53,Athletic Club,51,Mallorca,2,1,1534
+La_Liga,1913950,04102025,55,Valencia,2783,Girona,1,2,1433
+La_Liga,1913952,04102025,839,Villarreal,52,Real Madrid,1,3,1638
+La_Liga,1913962,04102025,832,Levante,61,Real Oviedo,2,0,1505
+La_Liga,1913946,05102025,60,Deportivo Alaves,833,Elche,3,1,1544
+La_Liga,1913954,05102025,63,Atletico,62,Celta Vigo,0,2,1784
+La_Liga,1913956,05102025,65,Barcelona,67,Sevilla,1,4,1334
+La_Liga,1913958,05102025,70,Espanyol,54,Real Betis,1,2,1621
+La_Liga,1913964,05102025,64,Rayo Vallecano,68,Real Sociedad,1,0,1463
+La_Liga,1914030,05122025,61,Real Oviedo,51,Mallorca,0,0,1387
+La_Liga,1914159,06022026,62,Celta Vigo,131,Osasuna,1,2,1527
+La_Liga,1914147,06032026,52,Real Madrid,62,Celta Vigo,2,1,1784
+La_Liga,1914022,06122025,60,Deportivo Alaves,68,Real Sociedad,1,0,1539
+La_Liga,1914023,06122025,53,Athletic Club,63,Atletico,1,0,1586
+La_Liga,1914026,06122025,54,Real Betis,65,Barcelona,3,5,1569
+La_Liga,1914028,06122025,819,Getafe,839,Villarreal,0,2,1528
+La_Liga,1914158,07022026,51,Mallorca,65,Barcelona,0,3,1621
+La_Liga,1914160,07022026,833,Elche,68,Real Sociedad,1,3,1492
+La_Liga,1914115,07032026,2783,Girona,832,Levante,1,1,1508
+La_Liga,1914116,07032026,131,Osasuna,51,Mallorca,2,2,1428
+La_Liga,1914145,07032026,53,Athletic Club,65,Barcelona,0,1,1544
+La_Liga,1914146,07032026,68,Real Sociedad,63,Atletico,2,3,1629
+La_Liga,1913984,07112025,833,Elche,68,Real Sociedad,1,1,1575
+La_Liga,1914024,07122025,2783,Girona,833,Elche,0,3,1449
+La_Liga,1914025,07122025,70,Espanyol,64,Rayo Vallecano,1,0,1324
+La_Liga,1914027,07122025,62,Celta Vigo,52,Real Madrid,2,0,1573
+La_Liga,1914031,07122025,67,Sevilla,55,Valencia,0,2,1479
+La_Liga,1914087,08022026,2783,Girona,67,Sevilla,1,1,1500
+La_Liga,1914089,08022026,55,Valencia,52,Real Madrid,0,2,1504
+La_Liga,1914155,08022026,819,Getafe,60,Deportivo Alaves,2,0,1449
+La_Liga,1914156,08022026,832,Levante,53,Athletic Club,2,4,1542
+La_Liga,1914157,08022026,63,Atletico,54,Real Betis,0,1,1612
+La_Liga,1914111,08032026,55,Valencia,60,Deportivo Alaves,3,2,1661
+La_Liga,1914112,08032026,54,Real Betis,819,Getafe,0,2,1423
+La_Liga,1914113,08032026,833,Elche,839,Villarreal,1,2,1596
+La_Liga,1914117,08032026,64,Rayo Vallecano,67,Sevilla,1,1,1324
+La_Liga,1913982,08112025,63,Atletico,832,Levante,2,2,1507
+La_Liga,1913986,08112025,70,Espanyol,839,Villarreal,0,2,1692
+La_Liga,1913989,08112025,2783,Girona,60,Deportivo Alaves,1,0,1620
+La_Liga,1913997,08112025,67,Sevilla,131,Osasuna,1,0,1358
+La_Liga,1914029,08122025,832,Levante,131,Osasuna,0,2,1622
+La_Liga,1914063,09012026,819,Getafe,68,Real Sociedad,1,2,1573
+La_Liga,1914161,09022026,70,Espanyol,839,Villarreal,2,3,1440
+La_Liga,1914110,09032026,70,Espanyol,61,Real Oviedo,1,1,1621
+La_Liga,1913980,09112025,61,Real Oviedo,53,Athletic Club,0,1,1577
+La_Liga,1913987,09112025,64,Rayo Vallecano,52,Real Madrid,0,0,1499
+La_Liga,1913991,09112025,62,Celta Vigo,65,Barcelona,2,4,1762
+La_Liga,1913993,09112025,54,Real Betis,55,Valencia,1,1,1596
+La_Liga,1913995,09112025,51,Mallorca,819,Getafe,1,0,1474
+La_Liga,1914064,10012026,2783,Girona,131,Osasuna,1,0,1532
+La_Liga,1914065,10012026,60,Deportivo Alaves,839,Villarreal,1,3,1664
+La_Liga,1914067,10012026,54,Real Betis,61,Real Oviedo,1,1,1633
+La_Liga,1914069,10012026,55,Valencia,833,Elche,1,1,1516
+La_Liga,1914070,11012026,70,Espanyol,832,Levante,1,1,1493
+La_Liga,1914071,11012026,64,Rayo Vallecano,51,Mallorca,2,1,1341
+La_Liga,1914068,12012026,67,Sevilla,62,Celta Vigo,0,1,1345
+La_Liga,1913929,12092025,833,Elche,67,Sevilla,2,2,1404
+La_Liga,1914040,12122025,68,Real Sociedad,2783,Girona,1,2,1714
+La_Liga,1914094,13022026,833,Elche,131,Osasuna,0,0,1349
+La_Liga,1914118,13032026,60,Deportivo Alaves,839,Villarreal,0,2,1382
+La_Liga,1913921,13092025,63,Atletico,839,Villarreal,2,0,1578
+La_Liga,1913925,13092025,819,Getafe,61,Real Oviedo,2,0,1341
+La_Liga,1913927,13092025,60,Deportivo Alaves,53,Athletic Club,0,1,1620
+La_Liga,1913930,13092025,52,Real Madrid,68,Real Sociedad,2,1,1502
+La_Liga,1914033,13122025,63,Atletico,55,Valencia,2,1,1626
+La_Liga,1914034,13122025,65,Barcelona,131,Osasuna,2,0,1525
+La_Liga,1914038,13122025,833,Elche,51,Mallorca,0,4,1454
+La_Liga,1914039,13122025,70,Espanyol,819,Getafe,1,0,1389
+La_Liga,1914096,14022026,839,Villarreal,819,Getafe,1,2,1280
+La_Liga,1914100,14022026,52,Real Madrid,68,Real Sociedad,4,1,1601
+La_Liga,1914101,14022026,67,Sevilla,60,Deportivo Alaves,1,1,1353
+La_Liga,1914107,14022026,62,Celta Vigo,70,Espanyol,2,2,1492
+La_Liga,1914119,14032026,63,Atletico,819,Getafe,1,0,1589
+La_Liga,1914122,14032026,61,Real Oviedo,55,Valencia,1,0,1519
+La_Liga,1914124,14032026,2783,Girona,53,Athletic Club,3,0,1639
+La_Liga,1914125,14032026,52,Real Madrid,833,Elche,5,0,1640
+La_Liga,1913922,14092025,65,Barcelona,55,Valencia,6,0,1520
+La_Liga,1913923,14092025,2783,Girona,62,Celta Vigo,1,1,1692
+La_Liga,1913926,14092025,131,Osasuna,64,Rayo Vallecano,2,0,1443
+La_Liga,1913928,14092025,54,Real Betis,832,Levante,2,2,1561
+La_Liga,1914032,14122025,52,Real Madrid,60,Deportivo Alaves,2,1,1578
+La_Liga,1914036,14122025,53,Athletic Club,62,Celta Vigo,0,2,1619
+La_Liga,1914041,14122025,61,Real Oviedo,67,Sevilla,0,4,1343
+La_Liga,1914098,15022026,55,Valencia,832,Levante,2,0,1379
+La_Liga,1914102,15022026,53,Athletic Club,61,Real Oviedo,2,1,1513
+La_Liga,1914103,15022026,63,Atletico,64,Rayo Vallecano,0,3,1515
+La_Liga,1914106,15022026,54,Real Betis,51,Mallorca,2,1,1588
+La_Liga,1914120,15032026,65,Barcelona,67,Sevilla,5,2,1574
+La_Liga,1914121,15032026,54,Real Betis,62,Celta Vigo,1,1,1588
+La_Liga,1914126,15032026,70,Espanyol,51,Mallorca,1,2,1399
+La_Liga,1914128,15032026,131,Osasuna,68,Real Sociedad,1,3,1558
+La_Liga,1913892,15082025,839,Villarreal,61,Real Oviedo,2,0,1540
+La_Liga,1913916,15082025,2783,Girona,64,Rayo Vallecano,1,3,1486
+La_Liga,1913924,15092025,51,Mallorca,70,Espanyol,2,3,1408
+La_Liga,1914037,15122025,54,Real Betis,64,Rayo Vallecano,0,0,1422
+La_Liga,1914151,16012026,70,Espanyol,2783,Girona,0,2,1503
+La_Liga,1914105,16022026,2783,Girona,65,Barcelona,2,1,1734
+La_Liga,1913889,16082025,55,Valencia,68,Real Sociedad,1,1,1298
+La_Liga,1913913,16082025,60,Deportivo Alaves,832,Levante,2,1,1420
+La_Liga,1913918,16082025,51,Mallorca,65,Barcelona,0,3,1331
+La_Liga,1914075,17012026,51,Mallorca,53,Athletic Club,3,2,1592
+La_Liga,1914079,17012026,832,Levante,52,Real Madrid,0,2,1599
+La_Liga,1914148,17012026,54,Real Betis,839,Villarreal,2,0,1508
+La_Liga,1914153,17012026,61,Real Oviedo,131,Osasuna,2,3,1358
+La_Liga,1913914,17082025,67,Sevilla,53,Athletic Club,2,3,1498
+La_Liga,1913915,17082025,62,Celta Vigo,819,Getafe,0,2,1443
+La_Liga,1913917,17082025,70,Espanyol,63,Atletico,2,1,1564
+La_Liga,1913981,17102025,61,Real Oviedo,70,Espanyol,0,2,1513
+La_Liga,1914073,18012026,60,Deportivo Alaves,63,Atletico,0,1,1715
+La_Liga,1914077,18012026,68,Real Sociedad,65,Barcelona,2,1,1526
+La_Liga,1914149,18012026,62,Celta Vigo,64,Rayo Vallecano,3,0,1491
+La_Liga,1914152,18012026,819,Getafe,55,Valencia,0,1,1408
+La_Liga,1914035,18022026,839,Villarreal,832,Levante,1,0,1559
+La_Liga,1913883,18082025,54,Real Betis,833,Elche,1,1,1575
+La_Liga,1913968,18102025,131,Osasuna,63,Atletico,0,1,1557
+La_Liga,1913969,18102025,2783,Girona,65,Barcelona,1,2,1593
+La_Liga,1913979,18102025,54,Real Betis,839,Villarreal,2,2,1503
+La_Liga,1913983,18102025,67,Sevilla,51,Mallorca,1,3,1349
+La_Liga,1914150,19012026,67,Sevilla,833,Elche,2,2,1441
+La_Liga,1913886,19082025,131,Osasuna,52,Real Madrid,0,1,1613
+La_Liga,1913905,19092025,54,Real Betis,68,Real Sociedad,2,2,1713
+La_Liga,1913971,19102025,68,Real Sociedad,62,Celta Vigo,1,1,1533
+La_Liga,1913973,19102025,819,Getafe,52,Real Madrid,0,1,1484
+La_Liga,1913975,19102025,64,Rayo Vallecano,832,Levante,3,0,1476
+La_Liga,1913977,19102025,833,Elche,53,Athletic Club,0,0,1490
+La_Liga,1914051,19122025,51,Mallorca,55,Valencia,1,1,1480
+La_Liga,1914109,20022026,833,Elche,53,Athletic Club,1,2,1512
+La_Liga,1913907,20092025,832,Levante,2783,Girona,4,0,1357
+La_Liga,1913908,20092025,55,Valencia,53,Athletic Club,2,0,1516
+La_Liga,1913911,20092025,52,Real Madrid,70,Espanyol,2,0,1608
+La_Liga,1913912,20092025,839,Villarreal,131,Osasuna,2,1,1403
+La_Liga,1913931,20092025,60,Deportivo Alaves,67,Sevilla,1,2,1554
+La_Liga,1913965,20102025,60,Deportivo Alaves,55,Valencia,0,0,1429
+La_Liga,1914045,20122025,832,Levante,68,Real Sociedad,1,1,1512
+La_Liga,1914046,20122025,67,Sevilla,52,Real Madrid,0,2,1510
+La_Liga,1914047,20122025,60,Deportivo Alaves,131,Osasuna,0,3,1478
+La_Liga,1914050,20122025,62,Celta Vigo,61,Real Oviedo,0,0,1484
+La_Liga,1914114,21022026,63,Atletico,70,Espanyol,4,2,1682
+La_Liga,1914129,21022026,64,Rayo Vallecano,54,Real Betis,1,1,1489
+La_Liga,1914132,21022026,52,Real Madrid,131,Osasuna,1,2,1484
+La_Liga,1914134,21022026,61,Real Oviedo,68,Real Sociedad,3,3,1491
+La_Liga,1913903,21092025,65,Barcelona,819,Getafe,3,0,1653
+La_Liga,1913906,21092025,61,Real Oviedo,833,Elche,0,1,1591
+La_Liga,1913909,21092025,63,Atletico,51,Mallorca,1,1,1557
+La_Liga,1913910,21092025,64,Rayo Vallecano,62,Celta Vigo,1,1,1533
+La_Liga,1914043,21122025,819,Getafe,54,Real Betis,0,4,1466
+La_Liga,1914044,21122025,64,Rayo Vallecano,833,Elche,0,4,1359
+La_Liga,1914048,21122025,63,Atletico,2783,Girona,3,0,1594
+La_Liga,1914049,21122025,839,Villarreal,65,Barcelona,0,2,1625
+La_Liga,1914123,22022026,65,Barcelona,832,Levante,3,0,1631
+La_Liga,1914130,22022026,62,Celta Vigo,51,Mallorca,2,0,1436
+La_Liga,1914131,22022026,819,Getafe,67,Sevilla,0,1,1375
+La_Liga,1914133,22022026,55,Valencia,839,Villarreal,1,2,1456
+La_Liga,1913885,22082025,54,Real Betis,60,Deportivo Alaves,1,0,1653
+La_Liga,1913999,22112025,62,Celta Vigo,60,Deportivo Alaves,1,0,1667
+La_Liga,1914006,22112025,68,Real Sociedad,131,Osasuna,3,1,1518
+La_Liga,1914008,22112025,53,Athletic Club,65,Barcelona,0,4,1632
+La_Liga,1914011,22112025,839,Villarreal,51,Mallorca,2,1,1473
+La_Liga,1914042,22122025,53,Athletic Club,70,Espanyol,1,2,1492
+La_Liga,1914091,23012026,833,Elche,832,Levante,2,3,1482
+La_Liga,1914108,23022026,60,Deportivo Alaves,2783,Girona,2,2,1639
+La_Liga,1913888,23082025,65,Barcelona,832,Levante,2,3,1598
+La_Liga,1913891,23082025,62,Celta Vigo,51,Mallorca,1,1,1380
+La_Liga,1913898,23082025,63,Atletico,833,Elche,1,1,1621
+La_Liga,1913932,23092025,70,Espanyol,55,Valencia,2,2,1528
+La_Liga,1913933,23092025,52,Real Madrid,832,Levante,4,1,1680
+La_Liga,1913934,23092025,67,Sevilla,839,Villarreal,1,2,1594
+La_Liga,1913942,23092025,2783,Girona,53,Athletic Club,1,1,1610
+La_Liga,1914001,23112025,54,Real Betis,2783,Girona,1,1,1663
+La_Liga,1914003,23112025,52,Real Madrid,833,Elche,2,2,1597
+La_Liga,1914007,23112025,64,Rayo Vallecano,61,Real Oviedo,0,0,1417
+La_Liga,1914009,23112025,819,Getafe,63,Atletico,1,0,1475
+La_Liga,1914080,24012026,67,Sevilla,53,Athletic Club,2,1,1538
+La_Liga,1914093,24012026,70,Espanyol,55,Valencia,1,4,1512
+La_Liga,1914097,24012026,64,Rayo Vallecano,131,Osasuna,2,2,1412
+La_Liga,1914099,24012026,839,Villarreal,52,Real Madrid,0,2,1598
+La_Liga,1913882,24082025,52,Real Madrid,61,Real Oviedo,3,0,1686
+La_Liga,1913894,24082025,70,Espanyol,68,Real Sociedad,2,2,1475
+La_Liga,1913900,24082025,131,Osasuna,55,Valencia,1,0,1405
+La_Liga,1913901,24082025,2783,Girona,839,Villarreal,0,5,1534
+La_Liga,1913935,24092025,60,Deportivo Alaves,819,Getafe,1,1,1390
+La_Liga,1913944,24092025,68,Real Sociedad,51,Mallorca,1,0,1545
+La_Liga,1913945,24092025,63,Atletico,64,Rayo Vallecano,3,2,1586
+La_Liga,1913990,24102025,67,Sevilla,68,Real Sociedad,1,2,1432
+La_Liga,1914005,24112025,67,Sevilla,70,Espanyol,0,3,1402
+La_Liga,1914082,25012026,54,Real Betis,60,Deportivo Alaves,1,2,1638
+La_Liga,1914084,25012026,51,Mallorca,63,Atletico,1,2,1628
+La_Liga,1914086,25012026,65,Barcelona,61,Real Oviedo,3,0,1592
+La_Liga,1914088,25012026,62,Celta Vigo,68,Real Sociedad,1,3,1569
+La_Liga,1913895,25082025,53,Athletic Club,64,Rayo Vallecano,1,0,1495
+La_Liga,1913897,25082025,819,Getafe,67,Sevilla,3,0,1449
+La_Liga,1913936,25092025,61,Real Oviedo,65,Barcelona,1,3,1630
+La_Liga,1913938,25092025,833,Elche,131,Osasuna,1,1,1651
+La_Liga,1913985,25102025,53,Athletic Club,819,Getafe,0,1,1569
+La_Liga,1913988,25102025,2783,Girona,61,Real Oviedo,3,3,1466
+La_Liga,1913992,25102025,839,Villarreal,55,Valencia,2,0,1607
+La_Liga,1914002,25102025,70,Espanyol,833,Elche,1,0,1496
+La_Liga,1914095,26012026,819,Getafe,2783,Girona,1,1,1525
+La_Liga,1913941,26092025,2783,Girona,70,Espanyol,0,0,1500
+La_Liga,1913994,26102025,60,Deportivo Alaves,64,Rayo Vallecano,0,1,1520
+La_Liga,1913998,26102025,52,Real Madrid,65,Barcelona,2,1,1598
+La_Liga,1914000,26102025,62,Celta Vigo,131,Osasuna,3,2,1571
+La_Liga,1914004,26102025,51,Mallorca,832,Levante,1,1,1637
+La_Liga,1914139,27022026,832,Levante,60,Deportivo Alaves,2,0,1500
+La_Liga,1913937,27082025,62,Celta Vigo,54,Real Betis,1,1,1641
+La_Liga,1913939,27092025,839,Villarreal,53,Athletic Club,1,0,1539
+La_Liga,1913947,27092025,52,Real Madrid,63,Atletico,2,5,1411
+La_Liga,1913953,27092025,819,Getafe,832,Levante,1,1,1363
+La_Liga,1913957,27092025,60,Deportivo Alaves,51,Mallorca,0,1,1551
+La_Liga,1913996,27102025,63,Atletico,54,Real Betis,2,0,1693
+La_Liga,1914135,28022026,65,Barcelona,839,Villarreal,4,1,1646
+La_Liga,1914138,28022026,68,Real Sociedad,51,Mallorca,1,0,1490
+La_Liga,1914140,28022026,53,Athletic Club,64,Rayo Vallecano,1,1,1343
+La_Liga,1914141,28022026,63,Atletico,61,Real Oviedo,1,0,1600
+La_Liga,1913940,28092025,62,Celta Vigo,833,Elche,1,2,1521
+La_Liga,1913949,28092025,65,Barcelona,68,Real Sociedad,2,1,1629
+La_Liga,1913951,28092025,131,Osasuna,54,Real Betis,0,2,1663
+La_Liga,1914021,28112025,819,Getafe,833,Elche,1,0,1408
+La_Liga,1913890,29082025,832,Levante,833,Elche,0,2,1393
+La_Liga,1914012,29112025,61,Real Oviedo,63,Atletico,0,2,1658
+La_Liga,1914015,29112025,51,Mallorca,131,Osasuna,2,2,1478
+La_Liga,1914018,29112025,65,Barcelona,60,Deportivo Alaves,3,1,1688
+La_Liga,1914019,29112025,53,Athletic Club,832,Levante,2,0,1478
+La_Liga,1914078,30012026,60,Deportivo Alaves,70,Espanyol,2,1,1528
+La_Liga,1913884,30082025,60,Deportivo Alaves,63,Atletico,1,1,1581
+La_Liga,1913896,30082025,2783,Girona,67,Sevilla,0,2,1408
+La_Liga,1913899,30082025,61,Real Oviedo,68,Real Sociedad,1,0,1602
+La_Liga,1913920,30082025,51,Mallorca,52,Real Madrid,1,2,1488
+La_Liga,1913943,30092025,61,Real Oviedo,55,Valencia,2,1,1548
+La_Liga,1914013,30112025,70,Espanyol,62,Celta Vigo,1,0,1507
+La_Liga,1914014,30112025,52,Real Madrid,2783,Girona,1,1,1654
+La_Liga,1914017,30112025,839,Villarreal,68,Real Sociedad,3,2,1580
+La_Liga,1914020,30112025,54,Real Betis,67,Sevilla,2,0,1360
+La_Liga,1914076,31012026,131,Osasuna,839,Villarreal,2,2,1508
+La_Liga,1914081,31012026,832,Levante,63,Atletico,0,0,1544
+La_Liga,1914083,31012026,833,Elche,65,Barcelona,1,3,1545
+La_Liga,1914090,31012026,2783,Girona,61,Real Oviedo,0,1,1453
+La_Liga,1913887,31082025,839,Villarreal,62,Celta Vigo,1,1,1732
+La_Liga,1913893,31082025,131,Osasuna,70,Espanyol,0,1,1546
+La_Liga,1913902,31082025,53,Athletic Club,54,Real Betis,1,2,1592
+La_Liga,1913904,31082025,65,Barcelona,64,Rayo Vallecano,1,1,1481
+La_Liga,1913967,31102025,819,Getafe,2783,Girona,2,1,1416

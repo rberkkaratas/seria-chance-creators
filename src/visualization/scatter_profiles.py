@@ -58,7 +58,9 @@ def create_quadrant_scatter(
     -------
     go.Figure
     """
-    plot_df = df[[x_col, y_col, "player_name", "team_name", highlight_col]].copy()
+    _cols = list(dict.fromkeys([x_col, y_col, "player_name", "team_name", highlight_col]))
+    plot_df = df[_cols].copy()
+    plot_df = plot_df.loc[:, ~plot_df.columns.duplicated()]
     plot_df = plot_df.replace([np.inf, -np.inf], np.nan).dropna(subset=[x_col, y_col])
 
     if plot_df.empty:
@@ -237,7 +239,9 @@ def get_best_quadrant_df(
     above median Y). For possession the best quadrant is top-left
     (below median X, above median Y).
     """
-    plot_df = df[[x_col, y_col, "player_name", "team_name", highlight_col]].copy()
+    _cols = list(dict.fromkeys([x_col, y_col, "player_name", "team_name", highlight_col]))
+    plot_df = df[_cols].copy()
+    plot_df = plot_df.loc[:, ~plot_df.columns.duplicated()]
     plot_df = plot_df.replace([np.inf, -np.inf], np.nan).dropna(subset=[x_col, y_col])
 
     if plot_df.empty:

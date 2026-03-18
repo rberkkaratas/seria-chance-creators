@@ -8,16 +8,17 @@ them into three normalized tables:
     - players.csv:   player-level stats per match (derived from events)
     - teams.csv:     team-level stats per match (derived from events)
 
-The key challenge: WhoScored event data stores everything as individual
-events with qualifiers. Stats like "key passes" or "through balls" are
-NOT pre-aggregated — we derive them by counting events + qualifiers.
+Output is written to data/processed/{league}/{season}/.
+A `league` column is added to every table for downstream merging.
 
 Usage:
-    python -m src.processing.build_tables
+    python -m src.processing.build_tables --league Serie_A --season 2025-2026
+    python -m src.processing.build_tables --league Premier_League --season 2025-2026
 """
 
 import ast
 import os
+import argparse
 from pathlib import Path
 
 import numpy as np
@@ -25,6 +26,16 @@ import pandas as pd
 from tqdm import tqdm
 
 import config
+
+
+# ─── WhoScored qualifier displayName constants ────────────────────────
+# Casing is exactly as returned by WhoScored — do NOT normalize.
+# Tests in tests/test_build_tables.py guard these as regression fixtures.
+_Q_KEY_PASS          = "KeyPass"
+_Q_INTENTIONAL_ASSIST = "IntentionalAssist"
+_Q_THROUGH_BALL      = "Throughball"       # NOT "ThroughBall"
+_Q_LONG_BALL         = "Longball"          # NOT "LongBall"
+_Q_CROSS             = "Cross"
 
 
 # ─── Qualifier Helpers ────────────────────────────────────────────────
@@ -99,7 +110,7 @@ def enrich_events(df: pd.DataFrame) -> pd.DataFrame:
     df["is_successful"] = df["outcomeType"] == "Successful"
 
     # ── Qualifier-based flags (chance creation) ──
-    df["is_key_pass"] = df["_quals"].apply(lambda q: has_qualifier(q, "KeyPass"))
+    df["is_key_pass"] = df["_quals"].apply(lambda q: has_qualifier(q, _Q_KEY_PASS))
 
     # Assist detection via satisfiedEventsTypes (event-type ID 92 = goal scored on this action).
     # WhoScored's IntentionalAssist qualifier is NOT used for assists because:
@@ -120,12 +131,12 @@ def enrich_events(df: pd.DataFrame) -> pd.DataFrame:
         df["is_assist"] = df["is_pass"] & df["_sat"].apply(lambda s: 92 in s)
     else:
         df["is_assist"] = df["is_pass"] & df["_quals"].apply(
-            lambda q: has_qualifier(q, "IntentionalAssist")
+            lambda q: has_qualifier(q, _Q_INTENTIONAL_ASSIST)
         )
 
-    df["is_through_ball"] = df["_quals"].apply(lambda q: has_qualifier(q, "Throughball"))
-    df["is_long_ball"] = df["_quals"].apply(lambda q: has_qualifier(q, "Longball"))
-    df["is_cross"] = df["_quals"].apply(lambda q: has_qualifier(q, "Cross"))
+    df["is_through_ball"] = df["_quals"].apply(lambda q: has_qualifier(q, _Q_THROUGH_BALL))
+    df["is_long_ball"]    = df["_quals"].apply(lambda q: has_qualifier(q, _Q_LONG_BALL))
+    df["is_cross"]        = df["_quals"].apply(lambda q: has_qualifier(q, _Q_CROSS))
 
     # ── Spatial flags (using x, y coordinates if available) ──
     # WhoScored uses a 0-100 coordinate system (x=0 own goal line, x=100 opp goal line)
@@ -540,20 +551,41 @@ def process_match_csv(filepath: Path) -> tuple[dict, pd.DataFrame, dict]:
     return match_info, player_stats, team_stats
 
 
+# ─── CLI ─────────────────────────────────────────────────────────────
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description="Build player/match/team tables from WhoScored event CSVs"
+    )
+    parser.add_argument(
+        "--league", default=config.LEAGUE,
+        choices=list(config.LEAGUES.keys()) + ["all"],
+        help="League key (default: %(default)s) or 'all' to build tables for every league sequentially"
+    )
+    parser.add_argument(
+        "--season", default=config.SEASON,
+        help="Season string, e.g. 2025-2026 (default: %(default)s)"
+    )
+    return parser.parse_args()
+
+
 # ─── Main Build Pipeline ─────────────────────────────────────────────
 
-def build_all_tables():
+def build_all_tables(league: str = config.LEAGUE, season: str = config.SEASON):
     """
     Read all event CSVs → aggregate → save matches.csv, players.csv, teams.csv
+    Output path: data/processed/{league}/{season}/
+    All tables include a `league` column.
     """
-    event_dir = config.DATA_EVENTS
+    event_dir = config.get_events_path(league, season)
     csv_files = sorted(event_dir.glob("*.csv")) if event_dir.exists() else []
 
+    print(f"League: {league}  Season: {season}")
     print(f"Found {len(csv_files)} event CSVs in {event_dir}")
 
     if not csv_files:
         print("No event data found. Run the extractor first:")
-        print("  python -m src.scraper.whoscored_extractor --ids <match_ids>")
+        print(f"  python -m src.scraper.whoscored_extractor --league {league} --season {season} --manifest")
         return
 
     all_matches = []
@@ -584,23 +616,37 @@ def build_all_tables():
             "teamName": "team_name",
         }, inplace=True)
 
-    # Save
-    config.DATA_PROCESSED.mkdir(parents=True, exist_ok=True)
+    # Add league column to all tables
+    for df in [df_matches, df_players, df_teams]:
+        if not df.empty:
+            df.insert(0, "league", league)
 
-    df_matches.to_csv(config.DATA_PROCESSED / "matches.csv", index=False)
-    df_players.to_csv(config.DATA_PROCESSED / "players.csv", index=False)
-    df_teams.to_csv(config.DATA_PROCESSED / "teams.csv", index=False)
+    # Save to league/season subdirectory
+    out_dir = config.get_processed_path(league, season)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"\nTables saved to {config.DATA_PROCESSED}/")
+    df_matches.to_csv(out_dir / "matches.csv", index=False)
+    df_players.to_csv(out_dir / "players.csv", index=False)
+    df_teams.to_csv(out_dir / "teams.csv", index=False)
+
+    print(f"\nTables saved to {out_dir}/")
     print(f"  matches: {len(df_matches)} rows")
     print(f"  players: {len(df_players)} rows")
     print(f"  teams:   {len(df_teams)} rows")
 
-    # Quick sanity check
     if not df_players.empty:
         print(f"\n  Unique players: {df_players['player_id'].nunique()}")
         print(f"  Sample columns: {list(df_players.columns[:10])}")
 
 
 if __name__ == "__main__":
-    build_all_tables()
+    args = parse_arguments()
+    if args.league == "all":
+        leagues = list(config.LEAGUES.keys())
+        print(f"Building tables for all {len(leagues)} leagues: {', '.join(leagues)}\n")
+        for league in leagues:
+            build_all_tables(league=league, season=args.season)
+            print()
+        print("All leagues done.")
+    else:
+        build_all_tables(league=args.league, season=args.season)

@@ -4,14 +4,14 @@ WhoScored Event Data Extractor
 Semi-automated pipeline: you provide match IDs, the scraper extracts
 raw event data and saves per-match CSVs.
 
-Based on your original main.py scraper — restructured to fit the
-project scaffold while keeping your exact extraction logic.
-
 Usage:
-    # Via CLI (same interface as your original script):
-    python -m src.scraper.whoscored_extractor --ids 1234567 1234568 1234569
+    # Explicit match IDs (league/season required for multi-league setup):
+    python -m src.scraper.whoscored_extractor --league Serie_A --season 2025-2026 --ids 1829473 1829474
 
-    # Or load IDs from CSV:
+    # From the fixture manifest (recommended — also marks matches as scraped):
+    python -m src.scraper.whoscored_extractor --league Premier_League --season 2025-2026 --manifest
+
+    # Legacy: from an arbitrary CSV (outputs to default Serie_A path):
     python -m src.scraper.whoscored_extractor --csv data/match_ids.csv
 """
 
@@ -33,28 +33,67 @@ import config
 
 def parse_arguments():
     parser = argparse.ArgumentParser(
-        description="WhoScored Event Data Scraper for Serie A Chance Creators"
+        description="WhoScored Event Data Scraper — Top 5 Leagues"
+    )
+    parser.add_argument(
+        "--league", default=config.LEAGUE,
+        choices=list(config.LEAGUES.keys()) + ["all"],
+        help="League key (default: %(default)s) or 'all' to process every league's manifest sequentially. "
+             "'all' requires --manifest; --ids and --csv are not supported."
+    )
+    parser.add_argument(
+        "--season", default=config.SEASON,
+        help="Season string, e.g. 2025-2026 (default: %(default)s)"
     )
     parser.add_argument(
         "--ids", nargs="+", default=[],
-        help="List of WhoScored match IDs"
+        help="Explicit list of WhoScored match IDs"
     )
     parser.add_argument(
         "--csv", type=str, default=None,
-        help="Path to CSV file with match IDs (column: match_id)"
+        help="Path to an arbitrary CSV with a match_id column"
+    )
+    parser.add_argument(
+        "--manifest", action="store_true", default=False,
+        help="Load IDs from the fixture manifest (data/match_ids/{league}_{season}.csv) "
+             "and mark them as scraped on completion"
     )
     parser.add_argument(
         "--skip-existing", action="store_true", default=True,
-        help="Skip matches that have already been extracted (default: True)"
+        help="Skip matches already extracted (default: True)"
     )
     return parser.parse_args()
 
 
 def load_match_ids_from_csv(csv_path: str) -> list[str]:
     """Load match IDs from a CSV file."""
-    df = pd.read_csv(csv_path)
+    df = pd.read_csv(csv_path, dtype={"match_id": str})
     col = "match_id" if "match_id" in df.columns else df.columns[0]
     return [str(mid) for mid in df[col].tolist()]
+
+
+def load_match_ids_from_manifest(league: str, season: str) -> list[str]:
+    """Load only un-scraped match IDs from the fixture manifest."""
+    path = config.get_match_ids_path(league, season)
+    if not path.exists():
+        print(f"[!] Manifest not found: {path}")
+        print(f"    Run fixture_scraper first: python -m src.scraper.fixture_scraper --league {league} --season {season}")
+        return []
+    df = pd.read_csv(path, dtype={"match_id": str})
+    pending = df[~df["scraped"].astype(bool)]["match_id"].tolist()
+    print(f"  Manifest: {len(df)} total, {len(pending)} not yet scraped.")
+    return pending
+
+
+def mark_scraped_in_manifest(league: str, season: str, match_ids: list[str]):
+    """Set scraped=True for successfully extracted match IDs in the manifest."""
+    path = config.get_match_ids_path(league, season)
+    if not path.exists():
+        return
+    df = pd.read_csv(path, dtype={"match_id": str})
+    df.loc[df["match_id"].isin(match_ids), "scraped"] = True
+    df.to_csv(path, index=False)
+    print(f"  Marked {len(match_ids)} matches as scraped in manifest.")
 
 
 def get_existing_match_ids(output_dir: str) -> set[str]:
@@ -289,49 +328,79 @@ def process_match(match_id: str, output_dir: str) -> bool:
     return True
 
 
-def run_extraction():
+def _extract_one_league(league: str, season: str, args) -> tuple[int, int]:
     """
-    Main entry point: parse args, resolve IDs, extract, save.
+    Extract matches for a single league.
+    Returns (success_count, failed_count).
     """
-    args = parse_arguments()
-
-    # Collect match IDs from all sources
+    # Collect match IDs
     match_ids = list(args.ids)
     if args.csv:
         match_ids.extend(load_match_ids_from_csv(args.csv))
+    if args.manifest:
+        match_ids.extend(load_match_ids_from_manifest(league, season))
     match_ids = list(dict.fromkeys(match_ids))  # dedupe, preserve order
 
     if not match_ids:
-        print("No match IDs provided. Use --ids or --csv.")
-        return
+        print(f"  [{league}] No match IDs found. Run fixture_scraper first.")
+        return 0, 0
 
-    # Output directory (matches your original folder structure)
-    output_dir = str(config.DATA_EVENTS)
+    output_dir = str(config.get_events_path(league, season))
 
-    # Skip already-extracted
     if args.skip_existing:
         existing = get_existing_match_ids(output_dir)
         before = len(match_ids)
         match_ids = [mid for mid in match_ids if mid not in existing]
         skipped = before - len(match_ids)
         if skipped:
-            print(f"Skipping {skipped} already-extracted matches.")
+            print(f"  [{league}] Skipping {skipped} already-extracted matches.")
 
-    print(f"Extracting {len(match_ids)} matches → {output_dir}\n")
+    print(f"  [{league}] Extracting {len(match_ids)} matches → {output_dir}\n")
 
-    success, failed = 0, 0
-    for match_id in tqdm(match_ids, desc="Extracting"):
+    success_ids, failed = [], 0
+    for match_id in tqdm(match_ids, desc=f"{league}"):
         ok = process_match(match_id, output_dir)
         if ok:
-            success += 1
+            success_ids.append(match_id)
         else:
             failed += 1
 
-        # Polite delay between matches
         if len(match_ids) > 1:
             time.sleep(config.REQUEST_DELAY_SECONDS)
 
-    print(f"\nDone. Success: {success} | Failed: {failed}")
+    print(f"\n  [{league}] Done. Success: {len(success_ids)} | Failed: {failed}")
+
+    if args.manifest and success_ids:
+        mark_scraped_in_manifest(league, season, success_ids)
+
+    return len(success_ids), failed
+
+
+def run_extraction():
+    """
+    Main entry point: parse args, resolve IDs, extract, save.
+    """
+    args = parse_arguments()
+    season = args.season
+
+    if args.league == "all":
+        if args.ids or args.csv:
+            print("[!] --league all does not support --ids or --csv. Use --manifest.")
+            return
+        if not args.manifest:
+            print("[!] --league all requires --manifest. Each league's manifest is used.")
+            return
+
+        leagues = list(config.LEAGUES.keys())
+        print(f"Extracting all {len(leagues)} leagues from manifests: {', '.join(leagues)}\n")
+        total_ok, total_fail = 0, 0
+        for league in leagues:
+            ok, fail = _extract_one_league(league, season, args)
+            total_ok += ok
+            total_fail += fail
+        print(f"\nAll leagues done. Total success: {total_ok} | Total failed: {total_fail}")
+    else:
+        _extract_one_league(args.league, season, args)
 
 
 if __name__ == "__main__":

@@ -1,120 +1,188 @@
-# Serie A Midfielder Scouting Tool 2025/26
-### A Data-Driven Role-Based Profiling Framework
+# Midfielder Scout 2025/26
+### A Role-Based Profiling System for the Top 5 European Leagues
 
-A scouting tool that profiles midfielders in Serie A across six tactical roles using WhoScored match event data. The pipeline extracts per-match events, engineers 20+ per-90 and rate metrics, assigns role scores (0–100) for each player across all roles, and presents findings through an interactive Streamlit dashboard.
+Traditional scouting starts with a name. Someone watches a match, sees a midfielder they like, and a report gets written. This project starts from the opposite direction — it asks: *across 400+ qualified midfielders in Europe's top five leagues, who actually fits the role you need?*
+
+Built on WhoScored match event data, the pipeline extracts every pass, carry, dribble and tackle from every match, engineers 30+ per-90 and rate metrics, and produces a 0–100 role score for each player across four tactical profiles. The result is a live scouting dashboard where a sporting director can filter by role, age, market value, and transfer feasibility — and arrive at a ranked, data-backed shortlist before a single video is pulled.
 
 **Live app:** [seria-chance-creators.streamlit.app](https://seria-chance-creators.streamlit.app/)
+
+---
+
+## The Four Roles
+
+Every player is scored 0–100 on each role. `primary_role` is the profile where they score highest. All weights are defined in `config.ROLE_WEIGHTS` — transparent, configurable, summing to 1.0.
+
+| Role | The Player You Are Looking For | Key metrics |
+|------|-------------------------------|-------------|
+| **Creator** | Delivers into dangerous areas — central key passes, crosses, through balls, assists | passes_into_box (30%), key_passes (25%), assists (20%), crosses (15%), through_balls (10%) |
+| **Ball Progressor** | Drives forward by carrying and dribbling — crosses the final-third line with the ball | carries_into_final_third (40%), successful_dribbles (30%), progressive_passes (20%), progressive_carries (10%) |
+| **Box Threat** | Lives in the penalty area — shoots, creates from proximity, threatens directly | penalty_area_touches (40%), shots (35%), final_third_touches (15%), passes_into_box (10%) |
+| **Deep Builder** | Enables through volume and precision — progressive passing, directional intent, accuracy | progressive_passes (35%), pass_accuracy (25%), total_passes (20%), forward_pass_% (10%), key_passes (10%) |
+
+The **Overall Score** is a weighted blend of the four role scores: Creator 35% · Ball Progressor 25% · Box Threat 25% · Deep Builder 15%.
+
+---
+
+## How It Works
+
+The system is two parts: an offline data pipeline and a Streamlit dashboard that reads the result.
+
+```
+WhoScored fixture pages
+    → Fixture Scraper       →  data/match_ids/{league}_{season}.csv
+    → WhoScored Extractor   →  data/events/{league}/{season}/*.csv
+    → Build Tables          →  data/processed/{league}/{season}/
+    → Feature Engineering   →  data/final/{league}_{season}.csv
+    → Merge Leagues         →  data/final/all_leagues_{season}.csv
+    → TM Enrichment         →  market value · contract · feasibility  [optional]
+    → Streamlit Dashboard
+```
+
+Every stage is autonomous — re-run any step without repeating earlier ones. Intermediate files are committed so the dashboard works out of the box without re-scraping.
+
+### Dual Percentile Modes
+
+Role scores and radar charts are computed in two modes, toggleable in the filter panel:
+
+| Mode | Scope | Question it answers |
+|------|-------|---------------------|
+| **All leagues** | ~420 qualified midfielders across 5 leagues | How does this player rank in Europe? |
+| **Within league** | Players in the same league only | How does this player rank among his direct peers? |
+
+---
 
 ## Project Structure
 
 ```
 seria-chance-creators/
-├── config.py                  # Central config (paths, filters, metrics, role weights)
+├── config.py                        # Single source of truth: paths, leagues, role weights, metrics
 ├── requirements.txt
 │
 ├── src/
 │   ├── scraper/
-│   │   └── whoscored_extractor.py   # Match ID → event CSV (SeleniumBase UC mode)
+│   │   ├── fixture_scraper.py       # WhoScored fixture page → match ID manifest CSV
+│   │   └── whoscored_extractor.py   # Match IDs → per-match event CSVs (SeleniumBase UC mode)
 │   ├── processing/
-│   │   └── build_tables.py          # Event CSVs → matches, players, teams tables
+│   │   └── build_tables.py          # Event CSVs → matches · players · teams tables
 │   ├── features/
-│   │   ├── chance_creation.py       # Per-90 metrics, percentiles, role scores
-│   │   └── clustering.py            # K-Means style clustering (optional)
+│   │   ├── chance_creation.py       # Per-90, percentiles, role scores — per league
+│   │   ├── merge_leagues.py         # Cross-league global percentiles + merged dataset
+│   │   └── clustering.py            # K-Means sub-groups (optional)
 │   ├── enrichment/
-│   │   └── transfermarkt.py         # Market value, contract & feasibility (SeleniumBase)
+│   │   └── transfermarkt.py         # Market value, contract expiry, transfer feasibility
 │   └── visualization/
-│       ├── radar.py                 # Radar charts & comparison plots
-│       └── scatter_profiles.py      # Quadrant scatter plots for Statistical Profiles tab
+│       ├── radar.py                 # Single-player and comparison radar charts
+│       └── scatter_profiles.py      # Quadrant scatter plots with median dividers
 │
 ├── data/
-│   ├── events/Serie_A/2025-2026/    # Per-match event CSVs from WhoScored (gitignored)
-│   ├── processed/                   # Aggregated tables (matches, players, teams)
-│   ├── enrichment/                  # TM squad cache, player mapping, manual overrides
-│   └── final/                       # Feature-engineered datasets ready for the app
-│
-├── notebooks/
-│   ├── 01_exploration.ipynb         # EDA & prototyping
-│   └── 02_data_testing.ipynb        # Data quality checks & sanity validation
+│   ├── events/{league}/{season}/    # Raw per-match event CSVs  (gitignored)
+│   ├── match_ids/                   # Fixture manifests with scraped/pending status
+│   ├── processed/{league}/{season}/ # Normalised matches · players · teams tables
+│   ├── enrichment/                  # TM cache, player name mapping, manual overrides
+│   └── final/
+│       ├── {league}_{season}.csv              # Per-league feature-engineered output
+│       ├── all_leagues_{season}.csv           # Merged 5-league dataset (dashboard source)
+│       ├── all_leagues_{season}_enriched.csv  # + Transfermarkt data
+│       └── last_updated.txt                   # ISO date written after each pipeline run
 │
 ├── streamlit/
-│   └── app.py                       # Interactive scouting dashboard
+│   ├── app.py                       # Entry point — data loading, filters, tab routing
+│   ├── core/                        # DataLoader, FilterService, AppState, constants, theme
+│   ├── components/                  # CSS, inline filter panel, header banner
+│   └── tabs/                        # One file per tab — all implement TabRenderer ABC
 │
 ├── tests/
-│   ├── test_build_tables.py         # Unit tests for event parsing & enrichment flags
-│   └── test_chance_creation.py      # Unit tests for feature engineering & role scoring
+│   ├── test_build_tables.py         # Qualifier parsing, event enrichment, assist detection
+│   └── test_chance_creation.py      # Position-aware filter, per-90 math, role scoring
 │
 └── docs/
-    ├── methodology.md               # Approach, decisions, and limitations
-    └── usage.md                     # Streamlit dashboard user guide
+    ├── methodology.md               # Metric design, role definitions, and known limitations
+    └── usage.md                     # Dashboard walkthrough and scouting workflow
 ```
 
-## Pipeline Overview
+---
 
-```
-Match IDs (manual input)
-    → WhoScored Extractor   (SeleniumBase UC mode)
-    → Per-match Event CSVs
-    → Build Tables          (matches / players / teams)
-    → Feature Engineering   (per-90, percentiles, 6 role scores, primary_role)
-    → Clustering            (K-Means style sub-groups)              [optional]
-    → TM Enrichment         (market value, contract, feasibility)   [optional]
-    → Streamlit Dashboard
-```
+## Running the Pipeline
 
-## Six Midfielder Roles
-
-Each player receives a 0–100 score for every role. `primary_role` is the role with their highest score.
-
-| Role | Key metrics |
-|------|-------------|
-| **Playmaker** | Key passes, through balls, passes into box, shot-creating actions, assists |
-| **Ball Progressor** | Progressive passes, passes into final third, pass accuracy, pass volume |
-| **Ball Winner** | Possession won, tackles, interceptions, tackle success rate |
-| **Defensive Shield** | Clearances, blocks, aerial duels, aerial win rate |
-| **Dribbler** | Successful dribbles, dribble success rate, shot-creating actions |
-| **Wide Creator** | Crosses, cross accuracy, passes into box |
-
-Role scores are computed as a weighted average of per-metric percentile ranks within the filtered midfielder group.
-
-## Dashboard Tabs
-
-| Tab | What it shows |
-|-----|---------------|
-| **Rankings** | All midfielders ranked by any role score or metric; bars colored by primary role |
-| **Player Profile** | Header with role badge, role ratings bar chart, chance-creation radar, season totals |
-| **Compare** | Side-by-side radar & grouped bar chart for up to 4 players |
-| **Scatter Explorer** | Free-axis scatter colored by primary role with quadrant shading |
-| **Roles** | Role distribution donut, 6×6 role-score heatmap, per-role player tables |
-| **Statistical Profiles** | 7 quadrant scatter plots (Passing, Pass Patterns, Aerial Duels, Defence, Possession, Tackling, Crossing) in a 2-column expandable grid |
-
-## Quickstart
+### All leagues at once
 
 ```bash
-# 1. Clone and install
-git clone https://github.com/rberkkaratas/seria-chance-creators.git
-cd seria-chance-creators
-pip install -r requirements.txt
+# 1. Collect match IDs from fixture pages
+python -m src.scraper.fixture_scraper --league all --season 2025-2026
 
-# 2. Extract event data (WhoScored match IDs)
-python -m src.scraper.whoscored_extractor --ids 1829473 1829474 1829475
-# or from a CSV:
-python -m src.scraper.whoscored_extractor --csv data/match_ids.csv
+# 2. Scrape event data from all manifests (SeleniumBase — browser must be installed)
+python -m src.scraper.whoscored_extractor --league all --season 2025-2026 --manifest
 
-# 3. Build normalized tables
-python -m src.processing.build_tables
+# 3. Build player / match / team tables from raw event CSVs
+python -m src.processing.build_tables --league all --season 2025-2026
 
-# 4. Engineer features & role scores
-python -m src.features.chance_creation
+# 4. Feature engineering + auto-merge → all_leagues_2025-2026.csv
+python -m src.features.chance_creation --league all --season 2025-2026
+```
 
-# 5. (optional) K-Means style clustering
-python -m src.features.clustering
+### Single league update
 
-# 6. (optional) Enrich with Transfermarkt data — opens a browser
+Update one league, then re-merge to refresh the combined dataset:
+
+```bash
+python -m src.scraper.fixture_scraper --league Bundesliga --season 2025-2026
+python -m src.scraper.whoscored_extractor --league Bundesliga --season 2025-2026 --manifest
+python -m src.processing.build_tables --league Bundesliga --season 2025-2026
+python -m src.features.chance_creation --league Bundesliga --season 2025-2026
+python -m src.features.merge_leagues --season 2025-2026
+```
+
+Valid league keys: `Serie_A` · `Premier_League` · `La_Liga` · `Bundesliga` · `Ligue_1`
+
+### Optional steps
+
+```bash
+# Transfermarkt enrichment — market value, contract expiry, transfer feasibility
 python -m src.enrichment.transfermarkt
 
-# 7. Launch dashboard
+# K-Means sub-group clustering (supplementary — not required by the dashboard)
+python -m src.features.clustering
+```
+
+### Launch the dashboard
+
+```bash
 streamlit run streamlit/app.py
 ```
+
+The app tries data files in priority order: `all_leagues_{season}_enriched.csv` → `all_leagues_{season}.csv` → legacy Serie A fallbacks. It also displays the date from `last_updated.txt` as an info banner — written automatically after every pipeline run.
+
+### New season setup
+
+WhoScored fixture URLs contain season-specific IDs. Update once per season in `config.py`:
+
+```python
+LEAGUES = {
+    "Serie_A":        {"fixture_url": "https://www.whoscored.com/regions/108/..."},
+    "Premier_League": {"fixture_url": "https://www.whoscored.com/regions/252/..."},
+    "La_Liga":        {"fixture_url": "https://www.whoscored.com/regions/206/..."},
+    "Bundesliga":     {"fixture_url": "https://www.whoscored.com/regions/81/..."},
+    "Ligue_1":        {"fixture_url": "https://www.whoscored.com/regions/74/..."},
+}
+```
+
+---
+
+## Dashboard
+
+Filters sit in an inline four-column panel at the top of every page and apply across all tabs simultaneously: min. minutes · age range · market value · positions · roles · leagues · teams · percentile mode · transfer feasibility.
+
+| Tab | What you get |
+|-----|-------------|
+| **📊 Shortlist** | Sort by Overall Score or any role score. Podium cards for the top 3. Top-25 bar chart coloured by primary role with an average reference line — click any bar to jump directly to that player's Scout Report. Full ranked table with role score columns and optional TM data. |
+| **⚡ Role Map** | Four role cards showing metric weight bars, player count, and avg score per role. Role distribution donut. 4×4 Versatility Matrix heatmap (how each role group scores across all four roles). Role DNA heatmap (avg metric percentile per role group). Role Share by League stacked bar (which leagues over-index on each role). Top 8 players per role with score bars, grouped by pitch zone. Role Score vs Market Value scatter when TM data is available. |
+| **👤 Scout Report** | Player header with global + league rank, score, role, TM data. Radar chart (8 metrics, percentile + raw value on hover). Per-90 bars vs dataset maximum. Four role-score bars. Season stat cards. Full match log — bars coloured by result, goals/assists annotated, scrollable per-match table. |
+| **🔍 Compare** | Select 2–4 players from the full dataset (sidebar filters don't restrict the pool). Overlay radar, grouped per-90 bar chart, and transposed stats table. Supports cross-league comparison. |
+| **📈 Explore** | **Lens Explorer** — five preset scouting lenses (Creator, Ball Progressor, Box Threat, Deep Builder, Wide Creator) plus Custom. Spotlight any player by surname. Quadrant fills, median lines, top-5 annotations, lens insight callout, top-10 table. **Statistical Profiles** — seven fixed scatter plots across key dimensions (Passing, Progressive Intent, Aerial Presence, Defensive Contribution, Possession Battle, Tackling, Crossing), displayed in a 2-column grid with insight callouts. |
+| **🌍 League Overview** | League identity cards (dominant role, player count, avg score, avg market value). Role Fingerprint heatmap (★ marks top league per role). League vs League grouped bar chart. Best-in-Class table (top player per role per league). Age profile box plots. Market value bar + median scatter. |
+
+---
 
 ## Tests
 
@@ -122,23 +190,20 @@ streamlit run streamlit/app.py
 pytest tests/ -v
 ```
 
-67 tests covering: event qualifier parsing (WhoScored displayName casing regression guards), position-aware minutes filter, per-90 calculations, carry and half-space detection, possession-won zone flags, ball-winning height accumulation, composite score integrity, role weight integrity, role score output range, and primary role validity.
+67 tests covering: WhoScored qualifier display-name casing (regression guards for `"Throughball"`, `"Longball"`, `"IntentionalAssist"`), position-aware minutes filter, per-90 arithmetic, carry inference, half-space pass detection, possession-won zone flags, ball-winning height accumulation, composite score integrity, role weight sums (all must equal 1.0), role score output range (0–100), and primary role validity.
+
+---
 
 ## Data Sources
 
 | Source | What it provides |
 |--------|-----------------|
-| [WhoScored](https://www.whoscored.com/) | Match event data for Serie A 2025/26 — extracted per-match via SeleniumBase |
-| [Transfermarkt](https://www.transfermarkt.com/) | Market value, contract expiry, transfer feasibility — scraped from team squad pages |
+| [WhoScored](https://www.whoscored.com/) | Match event data — all 5 leagues, 2025/26, extracted per match via SeleniumBase UC mode |
+| [Transfermarkt](https://www.transfermarkt.com/) | Market value, contract expiry, transfer feasibility — scraped from squad pages, cached locally |
 
 This project is for personal educational and portfolio purposes only.
 
-## Documentation
-
-| Doc | Contents |
-|-----|----------|
-| [docs/methodology.md](docs/methodology.md) | Feature selection, role scoring, normalization, clustering, TM enrichment, limitations |
-| [docs/usage.md](docs/usage.md) | Streamlit dashboard user guide |
+---
 
 ## Author
 

@@ -186,6 +186,7 @@ Nicolò Casale,Bologna FC 1909,5000000.0,2028.0
 Kevin Bonifazi,Bologna FC 1909,300000.0,2026.0
 Juan Miranda,Bologna FC 1909,15000000.0,2027.0
 Charalampos Lykogiannis,Bologna FC 1909,1500000.0,2026.0
+João Mário,Bologna FC 1909,8500000.0,2026.0
 Nadir Zortea,Bologna FC 1909,7500000.0,2029.0
 Lorenzo De Silvestri,Bologna FC 1909,700000.0,2026.0
 Nikola Moro,Bologna FC 1909,6500000.0,2027.0
@@ -193,7 +194,6 @@ Lewis Ferguson,Bologna FC 1909,20000000.0,2028.0
 Tommaso Pobega,Bologna FC 1909,9000000.0,2026.0
 Simon Sohm,Bologna FC 1909,8000000.0,2026.0
 Remo Freuler,Bologna FC 1909,4000000.0,2026.0
-João Mário,Bologna FC 1909,8500000.0,2026.0
 Jens Odgaard,Bologna FC 1909,15000000.0,2029.0
 Nicolò Cambiaghi,Bologna FC 1909,18000000.0,2029.0
 Jonathan Rowe,Bologna FC 1909,16000000.0,2029.0
@@ -246,10 +246,10 @@ Nicolò Rovella,SS Lazio,28000000.0,2028.0
 Reda Belahyane,SS Lazio,8500000.0,2029.0
 Danilo Cataldi,SS Lazio,3500000.0,2027.0
 Kenneth Taylor,SS Lazio,23000000.0,2030.0
+Fisayo Dele-Bashiru,SS Lazio,6500000.0,2028.0
 Toma Bašić,SS Lazio,2500000.0,2026.0
 Daniel Maldini,SS Lazio,8000000.0,2026.0
 Adrian Przyborek,SS Lazio,7000000.0,2030.0
-Fisayo Dele-Bashiru,SS Lazio,6500000.0,2028.0
 Mattia Zaccagni,SS Lazio,15000000.0,2029.0
 Gustav Isaksen,SS Lazio,17000000.0,2028.0
 Tijjani Noslin,SS Lazio,6500000.0,2029.0
@@ -398,7 +398,7 @@ Alen Sherri,Cagliari Calcio,1000000.0,2027.0
 Giuseppe Ciocci,Cagliari Calcio,100000.0,2027.0
 Alberto Dossena,Cagliari Calcio,7000000.0,2026.0
 Juan Rodríguez,Cagliari Calcio,5000000.0,2030.0
-Adam Obert,Cagliari Calcio,4000000.0,2029.0
+Adam Obert,Cagliari Calcio,4000000.0,2030.0
 Yerry Mina,Cagliari Calcio,3000000.0,2028.0
 Zé Pedro,Cagliari Calcio,2500000.0,2028.0
 Riyad Idrissi,Cagliari Calcio,2500000.0,2030.0
@@ -426,9 +426,9 @@ Nícolas,Pisa Sporting Club,100000.0,2026.0
 Simone Canestrelli,Pisa Sporting Club,7000000.0,2028.0
 Rosen Bozhinov,Pisa Sporting Club,2500000.0,2030.0
 Francesco Coppola,Pisa Sporting Club,2500000.0,2029.0
+Antonio Caracciolo,Pisa Sporting Club,800000.0,2026.0
 Raúl Albiol,Pisa Sporting Club,800000.0,2026.0
 Arturo Calabresi,Pisa Sporting Club,700000.0,2026.0
-Antonio Caracciolo,Pisa Sporting Club,500000.0,2026.0
 Daniel Denoon,Pisa Sporting Club,500000.0,2026.0
 Marius Marin,Pisa Sporting Club,3000000.0,2026.0
 Malthe Højholt,Pisa Sporting Club,1200000.0,2027.0
@@ -460,11 +460,11 @@ Matías Pérez,US Lecce,500000.0,2028.0
 Antonino Gallo,US Lecce,4000000.0,2026.0
 Corrie Ndaba,US Lecce,900000.0,2028.0
 Danilo Veiga,US Lecce,2000000.0,2027.0
+Lassana Coulibaly,US Lecce,2500000.0,2027.0
 Ylber Ramadani,US Lecce,1800000.0,2026.0
 Sadik Fofana,US Lecce,600000.0,2029.0
 Oumar Ngom,US Lecce,600000.0,2029.0
 Medon Berisha,US Lecce,6000000.0,2028.0
-Lassana Coulibaly,US Lecce,2500000.0,2027.0
 Thórir Jóhann Helgason,US Lecce,2300000.0,2026.0
 Álex Sala,US Lecce,1500000.0,2028.0
 Omri Gandelman,US Lecce,5000000.0,2029.0
@@ -533,3 +533,2044 @@ Federico Bonazzoli,US Cremonese,2200000.0,2028.0
 David Okereke,US Cremonese,1500000.0,2026.0
 Milan Djuric,US Cremonese,1000000.0,2027.0
 Jamie Vardy,US Cremonese,1000000.0,2026.0
+Gianluigi Donnarumma,Manchester City,45000000.0,2030.0
+James Trafford,Manchester City,25000000.0,2030.0
+Marcus Bettinelli,Manchester City,500000.0,2026.0
+Josko Gvardiol,Manchester City,70000000.0,2028.0
+Marc Guéhi,Manchester City,65000000.0,2031.0
+Rúben Dias,Manchester City,60000000.0,2029.0
+Abdukodir Khusanov,Manchester City,35000000.0,2029.0
+John Stones,Manchester City,15000000.0,2026.0
+Nathan Aké,Manchester City,15000000.0,2027.0
+Max Alleyne,Manchester City,8000000.0,
+Nico O'Reilly,Manchester City,50000000.0,2030.0
+Rayan Aït-Nouri,Manchester City,40000000.0,2030.0
+Matheus Nunes,Manchester City,45000000.0,2028.0
+Rico Lewis,Manchester City,32000000.0,2030.0
+Rodri,Manchester City,65000000.0,2027.0
+Nico González,Manchester City,45000000.0,2029.0
+Tijjani Reijnders,Manchester City,60000000.0,2030.0
+Sverre Nypan,Manchester City,15000000.0,2030.0
+Mateo Kovacic,Manchester City,12000000.0,2027.0
+Phil Foden,Manchester City,80000000.0,2027.0
+Rayan Cherki,Manchester City,65000000.0,2030.0
+Bernardo Silva,Manchester City,27000000.0,2026.0
+Jérémy Doku,Manchester City,65000000.0,2028.0
+Savinho,Manchester City,40000000.0,2031.0
+Antoine Semenyo,Manchester City,75000000.0,2031.0
+Erling Haaland,Manchester City,200000000.0,2034.0
+Omar Marmoush,Manchester City,60000000.0,2029.0
+David Raya,Arsenal FC,35000000.0,2028.0
+Kepa Arrizabalaga,Arsenal FC,7000000.0,2028.0
+William Saliba,Arsenal FC,90000000.0,2030.0
+Gabriel,Arsenal FC,75000000.0,2029.0
+Piero Hincapié,Arsenal FC,50000000.0,2026.0
+Cristhian Mosquera,Arsenal FC,35000000.0,2030.0
+Riccardo Calafiori,Arsenal FC,50000000.0,2029.0
+Myles Lewis-Skelly,Arsenal FC,35000000.0,2030.0
+Jurriën Timber,Arsenal FC,70000000.0,2028.0
+Ben White,Arsenal FC,30000000.0,2028.0
+Martín Zubimendi,Arsenal FC,80000000.0,2030.0
+Christian Nørgaard,Arsenal FC,7000000.0,2027.0
+Declan Rice,Arsenal FC,120000000.0,2028.0
+Mikel Merino,Arsenal FC,30000000.0,2028.0
+Martin Ødegaard,Arsenal FC,65000000.0,2028.0
+Eberechi Eze,Arsenal FC,60000000.0,2029.0
+Gabriel Martinelli,Arsenal FC,45000000.0,2027.0
+Leandro Trossard,Arsenal FC,20000000.0,2027.0
+Bukayo Saka,Arsenal FC,120000000.0,2030.0
+Noni Madueke,Arsenal FC,50000000.0,2030.0
+Max Dowman,Arsenal FC,20000000.0,
+Viktor Gyökeres,Arsenal FC,65000000.0,2030.0
+Kai Havertz,Arsenal FC,50000000.0,2028.0
+Gabriel Jesus,Arsenal FC,20000000.0,2027.0
+Robert Sánchez,Chelsea FC,22000000.0,2030.0
+Filip Jørgensen,Chelsea FC,15000000.0,2031.0
+Gabriel Slonina,Chelsea FC,3500000.0,2028.0
+Teddy Sharman-Lowe,Chelsea FC,550000.0,2028.0
+Levi Colwill,Chelsea FC,50000000.0,2029.0
+Trevoh Chalobah,Chelsea FC,40000000.0,2028.0
+Wesley Fofana,Chelsea FC,28000000.0,2029.0
+Mamadou Sarr,Chelsea FC,25000000.0,2033.0
+Tosin Adarabioyo,Chelsea FC,18000000.0,2028.0
+Benoît Badiashile,Chelsea FC,18000000.0,2030.0
+Marc Cucurella,Chelsea FC,50000000.0,2028.0
+Jorrel Hato,Chelsea FC,35000000.0,2032.0
+Caleb Wiley,Chelsea FC,8000000.0,2030.0
+Reece James,Chelsea FC,60000000.0,2032.0
+Malo Gusto,Chelsea FC,35000000.0,2030.0
+Josh Acheampong,Chelsea FC,25000000.0,2029.0
+Moisés Caicedo,Chelsea FC,110000000.0,2031.0
+Roméo Lavia,Chelsea FC,25000000.0,2030.0
+Dário Essugo,Chelsea FC,17000000.0,2033.0
+Enzo Fernández,Chelsea FC,90000000.0,2032.0
+Andrey Santos,Chelsea FC,45000000.0,2030.0
+Cole Palmer,Chelsea FC,110000000.0,2033.0
+Alejandro Garnacho,Chelsea FC,40000000.0,2032.0
+Jamie Gittens,Chelsea FC,35000000.0,2032.0
+Mykhaylo Mudryk,Chelsea FC,,2031.0
+Estêvão,Chelsea FC,80000000.0,2033.0
+Pedro Neto,Chelsea FC,60000000.0,2031.0
+João Pedro,Chelsea FC,75000000.0,2033.0
+Liam Delap,Chelsea FC,32000000.0,2031.0
+Marc Guiu,Chelsea FC,12000000.0,2029.0
+Giorgi Mamardashvili,Liverpool FC,28000000.0,2031.0
+Alisson,Liverpool FC,17000000.0,2027.0
+Freddie Woodman,Liverpool FC,3000000.0,2026.0
+Harvey Davies,Liverpool FC,500000.0,
+Ibrahima Konaté,Liverpool FC,50000000.0,2026.0
+Giovanni Leoni,Liverpool FC,25000000.0,2031.0
+Virgil van Dijk,Liverpool FC,18000000.0,2027.0
+Joe Gomez,Liverpool FC,15000000.0,2027.0
+Rhys Williams,Liverpool FC,500000.0,2026.0
+Milos Kerkez,Liverpool FC,40000000.0,2030.0
+Andrew Robertson,Liverpool FC,10000000.0,2026.0
+Jeremie Frimpong,Liverpool FC,35000000.0,2030.0
+Conor Bradley,Liverpool FC,30000000.0,2029.0
+Calvin Ramsay,Liverpool FC,1500000.0,2027.0
+Ryan Gravenberch,Liverpool FC,90000000.0,2032.0
+Wataru Endo,Liverpool FC,5000000.0,2027.0
+Stefan Bajcetic,Liverpool FC,5000000.0,2027.0
+Alexis Mac Allister,Liverpool FC,80000000.0,2028.0
+Curtis Jones,Liverpool FC,35000000.0,2027.0
+Trey Nyoni,Liverpool FC,6000000.0,2030.0
+Florian Wirtz,Liverpool FC,110000000.0,2030.0
+Dominik Szoboszlai,Liverpool FC,100000000.0,2028.0
+Cody Gakpo,Liverpool FC,65000000.0,2030.0
+Rio Ngumoha,Liverpool FC,20000000.0,2028.0
+Mohamed Salah,Liverpool FC,30000000.0,2027.0
+Federico Chiesa,Liverpool FC,15000000.0,2028.0
+Alexander Isak,Liverpool FC,100000000.0,2031.0
+Hugo Ekitiké,Liverpool FC,90000000.0,2031.0
+Guglielmo Vicario,Tottenham Hotspur,23000000.0,2028.0
+Antonín Kinský,Tottenham Hotspur,13000000.0,2029.0
+Brandon Austin,Tottenham Hotspur,500000.0,2029.0
+Micky van de Ven,Tottenham Hotspur,65000000.0,2029.0
+Cristian Romero,Tottenham Hotspur,50000000.0,2029.0
+Radu Drăgușin,Tottenham Hotspur,20000000.0,2030.0
+Kevin Danso,Tottenham Hotspur,20000000.0,2030.0
+Ben Davies,Tottenham Hotspur,5000000.0,2026.0
+Destiny Udogie,Tottenham Hotspur,35000000.0,2030.0
+Djed Spence,Tottenham Hotspur,30000000.0,2029.0
+Souza,Tottenham Hotspur,12000000.0,2031.0
+Pedro Porro,Tottenham Hotspur,40000000.0,2028.0
+Rodrigo Bentancur,Tottenham Hotspur,22000000.0,
+João Palhinha,Tottenham Hotspur,18000000.0,2026.0
+Yves Bissouma,Tottenham Hotspur,12000000.0,2026.0
+Lucas Bergvall,Tottenham Hotspur,40000000.0,2031.0
+Archie Gray,Tottenham Hotspur,35000000.0,2030.0
+Conor Gallagher,Tottenham Hotspur,35000000.0,2031.0
+Pape Matar Sarr,Tottenham Hotspur,32000000.0,2030.0
+Xavi Simons,Tottenham Hotspur,50000000.0,2030.0
+Dejan Kulusevski,Tottenham Hotspur,35000000.0,2028.0
+James Maddison,Tottenham Hotspur,25000000.0,2028.0
+Wilson Odobert,Tottenham Hotspur,20000000.0,2029.0
+Mohammed Kudus,Tottenham Hotspur,55000000.0,2031.0
+Dominic Solanke,Tottenham Hotspur,35000000.0,2030.0
+Richarlison,Tottenham Hotspur,28000000.0,2027.0
+Mathys Tel,Tottenham Hotspur,25000000.0,2031.0
+Randal Kolo Muani,Tottenham Hotspur,22000000.0,2026.0
+Senne Lammens,Manchester United,30000000.0,2030.0
+Altay Bayındır,Manchester United,7000000.0,2027.0
+Tom Heaton,Manchester United,150000.0,2026.0
+Leny Yoro,Manchester United,50000000.0,2029.0
+Matthijs de Ligt,Manchester United,40000000.0,2029.0
+Lisandro Martínez,Manchester United,40000000.0,2027.0
+Ayden Heaven,Manchester United,20000000.0,2029.0
+Harry Maguire,Manchester United,10000000.0,2026.0
+Tyler Fredricson,Manchester United,3000000.0,
+Patrick Dorgu,Manchester United,35000000.0,2030.0
+Luke Shaw,Manchester United,10000000.0,2027.0
+Tyrell Malacia,Manchester United,5000000.0,2026.0
+Diego León,Manchester United,4000000.0,2029.0
+Diogo Dalot,Manchester United,30000000.0,2028.0
+Noussair Mazraoui,Manchester United,20000000.0,2028.0
+Manuel Ugarte,Manchester United,30000000.0,2029.0
+Casemiro,Manchester United,8000000.0,2026.0
+Kobbie Mainoo,Manchester United,50000000.0,2027.0
+Bruno Fernandes,Manchester United,40000000.0,2027.0
+Mason Mount,Manchester United,30000000.0,2028.0
+Bryan Mbeumo,Manchester United,80000000.0,2030.0
+Amad Diallo,Manchester United,50000000.0,2030.0
+Matheus Cunha,Manchester United,70000000.0,2030.0
+Benjamin Sesko,Manchester United,65000000.0,2030.0
+Joshua Zirkzee,Manchester United,22000000.0,2029.0
+Chido Obi,Manchester United,5000000.0,
+Aaron Ramsdale,Newcastle United,12000000.0,2026.0
+Nick Pope,Newcastle United,7000000.0,2027.0
+Mark Gillespie,Newcastle United,150000.0,2026.0
+John Ruddy,Newcastle United,100000.0,2026.0
+Malick Thiaw,Newcastle United,45000000.0,2029.0
+Sven Botman,Newcastle United,35000000.0,2030.0
+Fabian Schär,Newcastle United,6000000.0,2026.0
+Dan Burn,Newcastle United,5000000.0,2027.0
+Lewis Hall,Newcastle United,35000000.0,2029.0
+Alex Murphy,Newcastle United,1500000.0,2028.0
+Tino Livramento,Newcastle United,40000000.0,2028.0
+Kieran Trippier,Newcastle United,2500000.0,2026.0
+Emil Krafth,Newcastle United,1000000.0,2026.0
+Sandro Tonali,Newcastle United,80000000.0,2028.0
+Bruno Guimarães,Newcastle United,75000000.0,2028.0
+Jacob Ramsey,Newcastle United,35000000.0,2030.0
+Joelinton,Newcastle United,30000000.0,2028.0
+Lewis Miley,Newcastle United,25000000.0,2029.0
+Joe Willock,Newcastle United,16000000.0,2027.0
+Anthony Gordon,Newcastle United,60000000.0,2030.0
+Harvey Barnes,Newcastle United,32000000.0,2028.0
+Anthony Elanga,Newcastle United,40000000.0,2030.0
+Jacob Murphy,Newcastle United,15000000.0,2027.0
+Nick Woltemade,Newcastle United,65000000.0,2031.0
+Yoane Wissa,Newcastle United,30000000.0,
+William Osula,Newcastle United,15000000.0,2029.0
+John Victor,Nottingham Forest,7000000.0,2028.0
+Stefan Ortega,Nottingham Forest,5000000.0,2026.0
+Matz Sels,Nottingham Forest,4000000.0,2027.0
+Angus Gunn,Nottingham Forest,1500000.0,2026.0
+Murillo,Nottingham Forest,50000000.0,2029.0
+Nikola Milenković,Nottingham Forest,30000000.0,2029.0
+Morato,Nottingham Forest,14000000.0,2029.0
+Jair Cunha,Nottingham Forest,12000000.0,2030.0
+Zach Abbott,Nottingham Forest,3000000.0,2029.0
+Willy Boly,Nottingham Forest,500000.0,2026.0
+Neco Williams,Nottingham Forest,25000000.0,2029.0
+Luca Netz,Nottingham Forest,6000000.0,2030.0
+Ola Aina,Nottingham Forest,20000000.0,2028.0
+Nicolò Savona,Nottingham Forest,18000000.0,2030.0
+Eric da Silva Moreira,Nottingham Forest,1000000.0,2028.0
+Ibrahim Sangaré,Nottingham Forest,22000000.0,2028.0
+Elliot Anderson,Nottingham Forest,60000000.0,2029.0
+Nicolás Domínguez,Nottingham Forest,16000000.0,2028.0
+Ryan Yates,Nottingham Forest,8000000.0,2028.0
+Morgan Gibbs-White,Nottingham Forest,60000000.0,2028.0
+Omari Hutchinson,Nottingham Forest,30000000.0,2030.0
+James McAtee,Nottingham Forest,20000000.0,2030.0
+Callum Hudson-Odoi,Nottingham Forest,30000000.0,2028.0
+Dan Ndoye,Nottingham Forest,35000000.0,2030.0
+Dilane Bakwa,Nottingham Forest,28000000.0,2030.0
+Lorenzo Lucca,Nottingham Forest,25000000.0,2026.0
+Igor Jesus,Nottingham Forest,22000000.0,2029.0
+Taiwo Awoniyi,Nottingham Forest,9000000.0,2027.0
+Chris Wood,Nottingham Forest,6000000.0,2027.0
+Emiliano Martínez,Aston Villa,15000000.0,2029.0
+Marco Bizot,Aston Villa,2500000.0,2027.0
+Ezri Konsa,Aston Villa,40000000.0,2028.0
+Pau Torres,Aston Villa,22000000.0,2028.0
+Victor Lindelöf,Aston Villa,6000000.0,2027.0
+Tyrone Mings,Aston Villa,4000000.0,2027.0
+Ian Maatsen,Aston Villa,30000000.0,2030.0
+Lucas Digne,Aston Villa,8000000.0,2028.0
+Matty Cash,Aston Villa,22000000.0,2029.0
+Andrés García,Aston Villa,7000000.0,
+Amadou Onana,Aston Villa,45000000.0,2029.0
+Boubacar Kamara,Aston Villa,40000000.0,2030.0
+Lamare Bogarde,Aston Villa,15000000.0,
+Youri Tielemans,Aston Villa,35000000.0,2028.0
+Douglas Luiz,Aston Villa,20000000.0,2026.0
+John McGinn,Aston Villa,15000000.0,2028.0
+Ross Barkley,Aston Villa,5000000.0,2026.0
+Morgan Rogers,Aston Villa,80000000.0,2031.0
+Harvey Elliott,Aston Villa,22000000.0,2026.0
+Emiliano Buendía,Aston Villa,18000000.0,2027.0
+Jadon Sancho,Aston Villa,20000000.0,2026.0
+Leon Bailey,Aston Villa,16000000.0,2027.0
+Alysson,Aston Villa,10000000.0,
+Ollie Watkins,Aston Villa,30000000.0,2028.0
+Tammy Abraham,Aston Villa,20000000.0,2030.0
+Dean Henderson,Crystal Palace,28000000.0,2028.0
+Walter Benítez,Crystal Palace,5000000.0,
+Remi Matthews,Crystal Palace,300000.0,2027.0
+Maxence Lacroix,Crystal Palace,40000000.0,2029.0
+Chris Richards,Crystal Palace,25000000.0,2027.0
+Jaydee Canvot,Crystal Palace,20000000.0,2029.0
+Chadi Riad,Crystal Palace,12000000.0,2029.0
+Tyrick Mitchell,Crystal Palace,25000000.0,2027.0
+Borna Sosa,Crystal Palace,4000000.0,2028.0
+Rio Cardines,Crystal Palace,300000.0,
+Daniel Muñoz,Crystal Palace,27000000.0,2028.0
+Caleb Kporha,Crystal Palace,1000000.0,2029.0
+Nathaniel Clyne,Crystal Palace,500000.0,2026.0
+Adam Wharton,Crystal Palace,60000000.0,2029.0
+Cheick Doucouré,Crystal Palace,13000000.0,2029.0
+Jefferson Lerma,Crystal Palace,8000000.0,2026.0
+Kaden Rodney,Crystal Palace,200000.0,
+Will Hughes,Crystal Palace,6000000.0,2027.0
+Daichi Kamada,Crystal Palace,12000000.0,2026.0
+Justin Devenny,Crystal Palace,12000000.0,2027.0
+Ismaïla Sarr,Crystal Palace,35000000.0,2029.0
+Yéremy Pino,Crystal Palace,35000000.0,2030.0
+Brennan Johnson,Crystal Palace,35000000.0,2030.0
+Evann Guessand,Crystal Palace,28000000.0,2026.0
+Jørgen Strand Larsen,Crystal Palace,45000000.0,2030.0
+Jean-Philippe Mateta,Crystal Palace,35000000.0,2027.0
+Christantus Uche,Crystal Palace,15000000.0,2026.0
+Eddie Nketiah,Crystal Palace,14000000.0,2029.0
+Djordje Petrovic,AFC Bournemouth,28000000.0,2030.0
+Christos Mandas,AFC Bournemouth,10000000.0,2026.0
+Fraser Forster,AFC Bournemouth,600000.0,2026.0
+Bafodé Diakité,AFC Bournemouth,30000000.0,
+Marcos Senesi,AFC Bournemouth,22000000.0,2026.0
+Veljko Milosavljevic,AFC Bournemouth,20000000.0,2030.0
+James Hill,AFC Bournemouth,15000000.0,2029.0
+Matai Akinmboni,AFC Bournemouth,1000000.0,2026.0
+Adrien Truffert,AFC Bournemouth,25000000.0,2030.0
+Julio Soler,AFC Bournemouth,8000000.0,2029.0
+Álex Jiménez,AFC Bournemouth,22000000.0,2026.0
+Adam Smith,AFC Bournemouth,500000.0,2027.0
+Tyler Adams,AFC Bournemouth,25000000.0,2028.0
+Alex Scott,AFC Bournemouth,40000000.0,2028.0
+Lewis Cook,AFC Bournemouth,13000000.0,2028.0
+Alex Tóth,AFC Bournemouth,12000000.0,2031.0
+Ryan Christie,AFC Bournemouth,9000000.0,2027.0
+Justin Kluivert,AFC Bournemouth,30000000.0,2028.0
+Marcus Tavernier,AFC Bournemouth,23000000.0,2029.0
+Amine Adli,AFC Bournemouth,20000000.0,2030.0
+Ben Gannon-Doak,AFC Bournemouth,16000000.0,2030.0
+David Brooks,AFC Bournemouth,14000000.0,2029.0
+Junior Kroupi,AFC Bournemouth,40000000.0,2030.0
+Rayan,AFC Bournemouth,40000000.0,2031.0
+Evanilson,AFC Bournemouth,35000000.0,2029.0
+Enes Ünal,AFC Bournemouth,8000000.0,2028.0
+Bart Verbruggen,Brighton & Hove Albion,40000000.0,2028.0
+Jason Steele,Brighton & Hove Albion,750000.0,2027.0
+Tom McGill,Brighton & Hove Albion,500000.0,2027.0
+Jan Paul van Hecke,Brighton & Hove Albion,35000000.0,2027.0
+Olivier Boscagli,Brighton & Hove Albion,15000000.0,2030.0
+Igor Julio,Brighton & Hove Albion,12000000.0,2027.0
+Adam Webster,Brighton & Hove Albion,5000000.0,2026.0
+Lewis Dunk,Brighton & Hove Albion,4000000.0,2027.0
+Ferdi Kadıoğlu,Brighton & Hove Albion,30000000.0,2028.0
+Maxim De Cuyper,Brighton & Hove Albion,22000000.0,2030.0
+Joël Veltman,Brighton & Hove Albion,2500000.0,2026.0
+Carlos Baleba,Brighton & Hove Albion,55000000.0,2028.0
+Mats Wieffer,Brighton & Hove Albion,25000000.0,2029.0
+Jack Hinshelwood,Brighton & Hove Albion,22000000.0,2029.0
+Yasin Ayari,Brighton & Hove Albion,30000000.0,2027.0
+Diego Gómez,Brighton & Hove Albion,25000000.0,
+Matt O'Riley,Brighton & Hove Albion,20000000.0,2029.0
+Pascal Groß,Brighton & Hove Albion,3500000.0,2027.0
+James Milner,Brighton & Hove Albion,750000.0,2026.0
+Kaoru Mitoma,Brighton & Hove Albion,25000000.0,2027.0
+Yankuba Minteh,Brighton & Hove Albion,40000000.0,2029.0
+Solly March,Brighton & Hove Albion,2000000.0,2026.0
+Georginio Rutter,Brighton & Hove Albion,30000000.0,2028.0
+Charalampos Kostoulas,Brighton & Hove Albion,25000000.0,2030.0
+Stefanos Tzimas,Brighton & Hove Albion,20000000.0,2030.0
+Danny Welbeck,Brighton & Hove Albion,4000000.0,2027.0
+Caoimhín Kelleher,Brentford FC,25000000.0,2030.0
+Hákon Valdimarsson,Brentford FC,2500000.0,2028.0
+Ellery Balcombe,Brentford FC,400000.0,2027.0
+Julian Eyestone,Brentford FC,,2031.0
+Sepp van den Berg,Brentford FC,32000000.0,2029.0
+Nathan Collins,Brentford FC,30000000.0,2029.0
+Kristoffer Ajer,Brentford FC,18000000.0,2030.0
+Ethan Pinnock,Brentford FC,4000000.0,2027.0
+Rico Henry,Brentford FC,15000000.0,2026.0
+Michael Kayode,Brentford FC,35000000.0,2030.0
+Aaron Hickey,Brentford FC,16000000.0,2028.0
+Vitaly Janelt,Brentford FC,18000000.0,2030.0
+Jordan Henderson,Brentford FC,2000000.0,2027.0
+Yegor Yarmolyuk,Brentford FC,30000000.0,2031.0
+Mathias Jensen,Brentford FC,12000000.0,2026.0
+Josh Dasilva,Brentford FC,2000000.0,2026.0
+Keane Lewis-Potter,Brentford FC,25000000.0,2031.0
+Mikkel Damsgaard,Brentford FC,30000000.0,2030.0
+Antoni Milambo,Brentford FC,20000000.0,2030.0
+Fábio Carvalho,Brentford FC,10000000.0,2029.0
+Kevin Schade,Brentford FC,35000000.0,2028.0
+Reiss Nelson,Brentford FC,12000000.0,2026.0
+Dango Ouattara,Brentford FC,35000000.0,2030.0
+Romelle Donovan,Brentford FC,3500000.0,2030.0
+Igor Thiago,Brentford FC,50000000.0,2031.0
+Kaye Furo,Brentford FC,8000000.0,2031.0
+Jordan Pickford,Everton FC,15000000.0,2029.0
+Mark Travers,Everton FC,4000000.0,2029.0
+Tom King,Everton FC,150000.0,2027.0
+Jarrad Branthwaite,Everton FC,45000000.0,2030.0
+James Tarkowski,Everton FC,7000000.0,2028.0
+Michael Keane,Everton FC,4000000.0,2026.0
+Vitaliy Mykolenko,Everton FC,25000000.0,2026.0
+Adam Aznou,Everton FC,7000000.0,2029.0
+Jake O'Brien,Everton FC,18000000.0,2028.0
+Nathan Patterson,Everton FC,10000000.0,2027.0
+Séamus Coleman,Everton FC,300000.0,2026.0
+James Garner,Everton FC,35000000.0,2030.0
+Idrissa Gueye,Everton FC,1000000.0,2026.0
+Kiernan Dewsbury-Hall,Everton FC,32000000.0,2030.0
+Carlos Alcaraz,Everton FC,15000000.0,2027.0
+Tim Iroegbunam,Everton FC,15000000.0,2027.0
+Harrison Armstrong,Everton FC,12000000.0,2028.0
+Merlin Röhl,Everton FC,16000000.0,2026.0
+Jack Grealish,Everton FC,25000000.0,2026.0
+Tyrique George,Everton FC,22000000.0,2026.0
+Dwight McNeil,Everton FC,20000000.0,2027.0
+Iliman Ndiaye,Everton FC,50000000.0,2029.0
+Tyler Dibling,Everton FC,22000000.0,2029.0
+Thierno Barry,Everton FC,30000000.0,2029.0
+Beto,Everton FC,20000000.0,2027.0
+Bernd Leno,Fulham FC,8000000.0,2027.0
+Benjamin Lecomte,Fulham FC,1200000.0,2027.0
+Calvin Bassey,Fulham FC,28000000.0,2027.0
+Joachim Andersen,Fulham FC,25000000.0,2029.0
+Issa Diop,Fulham FC,10000000.0,2027.0
+Jorge Cuenca,Fulham FC,8000000.0,2028.0
+Antonee Robinson,Fulham FC,25000000.0,2028.0
+Ryan Sessegnon,Fulham FC,20000000.0,2026.0
+Kenny Tete,Fulham FC,11000000.0,2028.0
+Timothy Castagne,Fulham FC,10000000.0,2027.0
+Sander Berge,Fulham FC,25000000.0,2029.0
+Saša Lukić,Fulham FC,12000000.0,2027.0
+Harrison Reed,Fulham FC,3000000.0,2027.0
+Tom Cairney,Fulham FC,750000.0,2027.0
+Emile Smith Rowe,Fulham FC,22000000.0,2029.0
+Josh King,Fulham FC,20000000.0,2029.0
+Kevin,Fulham FC,30000000.0,2030.0
+Alex Iwobi,Fulham FC,25000000.0,2028.0
+Oscar Bobb,Fulham FC,30000000.0,2031.0
+Harry Wilson,Fulham FC,25000000.0,2026.0
+Samuel Chukwueze,Fulham FC,15000000.0,2026.0
+Rodrigo Muniz,Fulham FC,25000000.0,2030.0
+Raúl Jiménez,Fulham FC,4000000.0,2026.0
+Jonah Kusi-Asare,Fulham FC,4000000.0,2026.0
+Robin Roefs,Sunderland AFC,25000000.0,2030.0
+Melker Ellborg,Sunderland AFC,3000000.0,2030.0
+Simon Moore,Sunderland AFC,100000.0,2026.0
+Dan Ballard,Sunderland AFC,20000000.0,2029.0
+Omar Alderete,Sunderland AFC,15000000.0,2029.0
+Luke O'Nien,Sunderland AFC,1000000.0,2027.0
+Dennis Cirkin,Sunderland AFC,8000000.0,2026.0
+Reinildo Mandava,Sunderland AFC,5000000.0,2027.0
+Trai Hume,Sunderland AFC,22000000.0,2030.0
+Lutsharel Geertruida,Sunderland AFC,20000000.0,2026.0
+Nordi Mukiele,Sunderland AFC,18000000.0,2029.0
+Granit Xhaka,Sunderland AFC,10000000.0,2028.0
+Habib Diarra,Sunderland AFC,32000000.0,2030.0
+Noah Sadiki,Sunderland AFC,30000000.0,2030.0
+Enzo Le Fée,Sunderland AFC,25000000.0,2029.0
+Abdoullah Ba,Sunderland AFC,2000000.0,2027.0
+Chris Rigg,Sunderland AFC,25000000.0,2030.0
+Milan Aleksic,Sunderland AFC,700000.0,2028.0
+Harrison Jones,Sunderland AFC,150000.0,2026.0
+Nilson Angulo,Sunderland AFC,17000000.0,2030.0
+Romaine Mundle,Sunderland AFC,8000000.0,2028.0
+Chemsdine Talbi,Sunderland AFC,25000000.0,2030.0
+Bertrand Traoré,Sunderland AFC,5000000.0,2026.0
+Jocelin Ta Bi,Sunderland AFC,3000000.0,2030.0
+Brian Brobbey,Sunderland AFC,25000000.0,2029.0
+Eliezer Mayenda,Sunderland AFC,18000000.0,2030.0
+Wilson Isidor,Sunderland AFC,18000000.0,2028.0
+Ahmed Abdullahi,Sunderland AFC,1000000.0,2028.0
+Mads Hermansen,West Ham United,15000000.0,2030.0
+Alphonse Areola,West Ham United,5000000.0,2027.0
+Lukasz Fabianski,West Ham United,250000.0,2026.0
+Jean-Clair Todibo,West Ham United,23000000.0,
+Maximilian Kilman,West Ham United,16000000.0,2031.0
+Axel Disasi,West Ham United,15000000.0,2026.0
+Konstantinos Mavropanos,West Ham United,15000000.0,2028.0
+Ezra Mayers,West Ham United,1200000.0,2028.0
+El Hadji Malick Diouf,West Ham United,28000000.0,2030.0
+Oliver Scarles,West Ham United,10000000.0,2028.0
+Aaron Wan-Bissaka,West Ham United,22000000.0,2031.0
+Kyle Walker-Peters,West Ham United,13000000.0,2028.0
+Soungoutou Magassa,West Ham United,17000000.0,2031.0
+Tomáš Souček,West Ham United,12000000.0,2027.0
+Freddie Potts,West Ham United,10000000.0,2029.0
+Mateus Fernandes,West Ham United,35000000.0,2030.0
+Crysencio Summerville,West Ham United,30000000.0,2029.0
+Keiber Lamadrid,West Ham United,1200000.0,2026.0
+Jarrod Bowen,West Ham United,35000000.0,2030.0
+Adama Traoré,West Ham United,8000000.0,2026.0
+Taty Castellanos,West Ham United,28000000.0,2030.0
+Pablo,West Ham United,18000000.0,2030.0
+Callum Wilson,West Ham United,5000000.0,2026.0
+Lucas Perri,Leeds United,13000000.0,2029.0
+Illan Meslier,Leeds United,10000000.0,2026.0
+Karl Darlow,Leeds United,200000.0,2026.0
+Alex Cairns,Leeds United,75000.0,2026.0
+Pascal Struijk,Leeds United,22000000.0,2027.0
+Jaka Bijol,Leeds United,18000000.0,2030.0
+Joe Rodon,Leeds United,15000000.0,2028.0
+Sebastiaan Bornauw,Leeds United,8000000.0,2029.0
+Gabriel Gudmundsson,Leeds United,20000000.0,2029.0
+Sam Byram,Leeds United,600000.0,2026.0
+Jayden Bogle,Leeds United,12000000.0,2028.0
+James Justin,Leeds United,12000000.0,2029.0
+Ethan Ampadu,Leeds United,25000000.0,2027.0
+Anton Stach,Leeds United,25000000.0,2029.0
+Ilia Gruev,Leeds United,12000000.0,2027.0
+Charlie Crew,Leeds United,150000.0,2028.0
+Sean Longstaff,Leeds United,16000000.0,2029.0
+Ao Tanaka,Leeds United,10000000.0,2028.0
+Brenden Aaronson,Leeds United,18000000.0,2027.0
+Facundo Buonanotte,Leeds United,16000000.0,2026.0
+Noah Okafor,Leeds United,18000000.0,2029.0
+Wilfried Gnonto,Leeds United,18000000.0,2028.0
+Daniel James,Leeds United,12000000.0,2029.0
+Dominic Calvert-Lewin,Leeds United,22000000.0,2028.0
+Joël Piroe,Leeds United,13000000.0,2027.0
+Lukas Nmecha,Leeds United,10000000.0,2027.0
+José Sá,Wolverhampton Wanderers,5000000.0,2027.0
+Sam Johnstone,Wolverhampton Wanderers,3000000.0,2028.0
+Daniel Bentley,Wolverhampton Wanderers,1000000.0,2027.0
+Ladislav Krejci,Wolverhampton Wanderers,22000000.0,2026.0
+Toti,Wolverhampton Wanderers,20000000.0,2029.0
+Yerson Mosquera,Wolverhampton Wanderers,12000000.0,2030.0
+Santiago Bueno,Wolverhampton Wanderers,10000000.0,2028.0
+Hugo Bueno,Wolverhampton Wanderers,12000000.0,2028.0
+David Møller Wolfe,Wolverhampton Wanderers,10000000.0,2030.0
+Jackson Tchatchoua,Wolverhampton Wanderers,12000000.0,2030.0
+Pedro Lima,Wolverhampton Wanderers,4000000.0,2029.0
+Matt Doherty,Wolverhampton Wanderers,1500000.0,2026.0
+André,Wolverhampton Wanderers,25000000.0,2029.0
+João Gomes,Wolverhampton Wanderers,35000000.0,2030.0
+Jean-Ricner Bellegarde,Wolverhampton Wanderers,16000000.0,2028.0
+Rodrigo Gomes,Wolverhampton Wanderers,15000000.0,2029.0
+Mateus Mané,Wolverhampton Wanderers,20000000.0,2029.0
+Angel Gomes,Wolverhampton Wanderers,12000000.0,2026.0
+Enso González,Wolverhampton Wanderers,3000000.0,2029.0
+Tolu Arokodare,Wolverhampton Wanderers,22000000.0,2029.0
+Adam Armstrong,Wolverhampton Wanderers,8000000.0,2029.0
+Hee-chan Hwang,Wolverhampton Wanderers,8000000.0,2028.0
+Nathan Fraser,Wolverhampton Wanderers,600000.0,2028.0
+Max Weiß,Burnley FC,4000000.0,2029.0
+Martin Dúbravka,Burnley FC,750000.0,2026.0
+Václav Hladký,Burnley FC,200000.0,2026.0
+Maxime Estève,Burnley FC,25000000.0,2030.0
+Bashir Humphreys,Burnley FC,15000000.0,
+Hjalmar Ekdal,Burnley FC,6000000.0,2027.0
+Axel Tuanzebe,Burnley FC,5000000.0,
+Joe Worrall,Burnley FC,3000000.0,2028.0
+Jordan Beyer,Burnley FC,2500000.0,2027.0
+Quilindschy Hartman,Burnley FC,18000000.0,2029.0
+Lucas Pires,Burnley FC,5000000.0,2028.0
+Kyle Walker,Burnley FC,2500000.0,2027.0
+Connor Roberts,Burnley FC,2500000.0,2027.0
+Lesley Ugochukwu,Burnley FC,25000000.0,2030.0
+Florentino,Burnley FC,20000000.0,2026.0
+James Ward-Prowse,Burnley FC,6000000.0,2026.0
+Josh Cullen,Burnley FC,6000000.0,2027.0
+Josh Laurent,Burnley FC,2000000.0,2026.0
+Hannibal,Burnley FC,16000000.0,2028.0
+Mike Tresor,Burnley FC,3000000.0,2028.0
+Jaidon Anthony,Burnley FC,18000000.0,2029.0
+Jacob Bruun Larsen,Burnley FC,5000000.0,2029.0
+Loum Tchaouna,Burnley FC,15000000.0,2030.0
+Marcus Edwards,Burnley FC,8000000.0,2029.0
+Zian Flemming,Burnley FC,12000000.0,2029.0
+Lyle Foster,Burnley FC,10000000.0,2028.0
+Zeki Amdouni,Burnley FC,9000000.0,2028.0
+Armando Broja,Burnley FC,8000000.0,2030.0
+Ashley Barnes,Burnley FC,200000.0,2026.0
+Thibaut Courtois,Real Madrid,18000000.0,2027.0
+Andriy Lunin,Real Madrid,15000000.0,2030.0
+Fran González,Real Madrid,1000000.0,2026.0
+Dean Huijsen,Real Madrid,65000000.0,2030.0
+Éder Militão,Real Madrid,25000000.0,2028.0
+Raúl Asencio,Real Madrid,25000000.0,2031.0
+Antonio Rüdiger,Real Madrid,9000000.0,2026.0
+David Alaba,Real Madrid,3500000.0,2026.0
+Álvaro Carreras,Real Madrid,60000000.0,2031.0
+Fran García,Real Madrid,12000000.0,2027.0
+Ferland Mendy,Real Madrid,6000000.0,2028.0
+Trent Alexander-Arnold,Real Madrid,65000000.0,2031.0
+Daniel Carvajal,Real Madrid,6000000.0,2026.0
+Aurélien Tchouaméni,Real Madrid,75000000.0,2028.0
+Federico Valverde,Real Madrid,120000000.0,2029.0
+Eduardo Camavinga,Real Madrid,50000000.0,2029.0
+Thiago Pitarch,Real Madrid,20000000.0,2027.0
+Dani Ceballos,Real Madrid,8000000.0,2027.0
+Jorge Cestero,Real Madrid,3000000.0,2028.0
+Manuel Ángel,Real Madrid,500000.0,2027.0
+Jude Bellingham,Real Madrid,140000000.0,2029.0
+Arda Güler,Real Madrid,90000000.0,2029.0
+Vinicius Junior,Real Madrid,150000000.0,2027.0
+Rodrygo,Real Madrid,50000000.0,2028.0
+Franco Mastantuono,Real Madrid,45000000.0,2031.0
+Brahim Díaz,Real Madrid,35000000.0,2027.0
+Kylian Mbappé,Real Madrid,200000000.0,2029.0
+Gonzalo García,Real Madrid,30000000.0,2030.0
+Joan García,FC Barcelona,40000000.0,2031.0
+Wojciech Szczęsny,FC Barcelona,900000.0,2027.0
+Diego Kochen,FC Barcelona,500000.0,2028.0
+Pau Cubarsí,FC Barcelona,80000000.0,2029.0
+Eric García,FC Barcelona,35000000.0,2031.0
+Ronald Araujo,FC Barcelona,20000000.0,2031.0
+Andreas Christensen,FC Barcelona,9000000.0,2026.0
+Alejandro Balde,FC Barcelona,55000000.0,2028.0
+Gerard Martín,FC Barcelona,25000000.0,2028.0
+Jules Koundé,FC Barcelona,65000000.0,2030.0
+João Cancelo,FC Barcelona,9000000.0,2026.0
+Marc Bernal,FC Barcelona,30000000.0,2029.0
+Marc Casadó,FC Barcelona,20000000.0,2028.0
+Pedri,FC Barcelona,150000000.0,2030.0
+Frenkie de Jong,FC Barcelona,45000000.0,2029.0
+Gavi,FC Barcelona,30000000.0,2030.0
+Fermín López,FC Barcelona,100000000.0,2031.0
+Dani Olmo,FC Barcelona,60000000.0,2030.0
+Raphinha,FC Barcelona,80000000.0,2028.0
+Marcus Rashford,FC Barcelona,40000000.0,2026.0
+Lamine Yamal,FC Barcelona,200000000.0,2031.0
+Roony Bardghji,FC Barcelona,15000000.0,2029.0
+Ferran Torres,FC Barcelona,50000000.0,2027.0
+Robert Lewandowski,FC Barcelona,8000000.0,2026.0
+Jan Oblak,Atlético de Madrid,17000000.0,2028.0
+Juan Musso,Atlético de Madrid,3000000.0,2028.0
+Dávid Hancko,Atlético de Madrid,35000000.0,2030.0
+Marc Pubill,Atlético de Madrid,28000000.0,2030.0
+Robin Le Normand,Atlético de Madrid,25000000.0,2029.0
+José María Giménez,Atlético de Madrid,12000000.0,2028.0
+Clément Lenglet,Atlético de Madrid,5000000.0,2028.0
+Matteo Ruggeri,Atlético de Madrid,20000000.0,2030.0
+Marcos Llorente,Atlético de Madrid,22000000.0,2027.0
+Nahuel Molina,Atlético de Madrid,15000000.0,2027.0
+Pablo Barrios,Atlético de Madrid,60000000.0,2030.0
+Johnny Cardoso,Atlético de Madrid,22000000.0,2030.0
+Rodrigo Mendoza,Atlético de Madrid,20000000.0,2031.0
+Obed Vargas,Atlético de Madrid,8000000.0,2030.0
+Koke,Atlético de Madrid,6000000.0,2026.0
+Álex Baena,Atlético de Madrid,45000000.0,2030.0
+Nico González,Atlético de Madrid,24000000.0,2026.0
+Thiago Almada,Atlético de Madrid,20000000.0,2030.0
+Giuliano Simeone,Atlético de Madrid,40000000.0,2030.0
+Ademola Lookman,Atlético de Madrid,40000000.0,2030.0
+Antoine Griezmann,Atlético de Madrid,10000000.0,2027.0
+Julián Alvarez,Atlético de Madrid,90000000.0,2030.0
+Alexander Sørloth,Atlético de Madrid,20000000.0,2028.0
+Luiz Júnior,Villarreal CF,12000000.0,2030.0
+Diego Conde,Villarreal CF,4000000.0,2029.0
+Arnau Tenas,Villarreal CF,4000000.0,2029.0
+Renato Veiga,Villarreal CF,25000000.0,2032.0
+Logan Costa,Villarreal CF,18000000.0,2030.0
+Rafa Marín,Villarreal CF,12000000.0,2026.0
+Juan Foyth,Villarreal CF,10000000.0,2029.0
+Willy Kambwala,Villarreal CF,4000000.0,2029.0
+Sergi Cardona,Villarreal CF,9000000.0,2027.0
+Alfonso Pedraza,Villarreal CF,2500000.0,2026.0
+Pau Navarro,Villarreal CF,10000000.0,2030.0
+Santiago Mouriño,Villarreal CF,10000000.0,2030.0
+Alex Freeman,Villarreal CF,3500000.0,2032.0
+Thomas Partey,Villarreal CF,2500000.0,2026.0
+Pape Gueye,Villarreal CF,40000000.0,2028.0
+Santi Comesaña,Villarreal CF,8000000.0,2028.0
+Dani Parejo,Villarreal CF,1200000.0,2026.0
+Carlos Macià,Villarreal CF,1000000.0,2029.0
+Alberto Moleiro,Villarreal CF,40000000.0,2030.0
+Alfon González,Villarreal CF,3000000.0,2026.0
+Hugo López,Villarreal CF,200000.0,2027.0
+Tajon Buchanan,Villarreal CF,12000000.0,2030.0
+Nicolas Pépé,Villarreal CF,6000000.0,2028.0
+Georges Mikautadze,Villarreal CF,28000000.0,2031.0
+Tani Oluwaseyi,Villarreal CF,8000000.0,2030.0
+Ayoze Pérez,Villarreal CF,6000000.0,2028.0
+Gerard Moreno,Villarreal CF,2800000.0,2027.0
+Pau Cabanes,Villarreal CF,800000.0,2028.0
+Unai Simón,Athletic Bilbao,25000000.0,2029.0
+Álex Padilla,Athletic Bilbao,3000000.0,2029.0
+Dani Vivian,Athletic Bilbao,25000000.0,2032.0
+Aitor Paredes,Athletic Bilbao,15000000.0,2029.0
+Aymeric Laporte,Athletic Bilbao,9000000.0,2028.0
+Yeray Álvarez,Athletic Bilbao,1000000.0,2026.0
+Unai Egiluz,Athletic Bilbao,600000.0,2028.0
+Adama Boiro,Athletic Bilbao,3000000.0,2029.0
+Yuri Berchiche,Athletic Bilbao,1200000.0,2026.0
+Jesús Areso,Athletic Bilbao,8000000.0,2031.0
+Andoni Gorosabel,Athletic Bilbao,4000000.0,2028.0
+Iñigo Lekue,Athletic Bilbao,1200000.0,2026.0
+Mikel Vesga,Athletic Bilbao,1500000.0,2027.0
+Mikel Jauregizar,Athletic Bilbao,35000000.0,2031.0
+Beñat Prados,Athletic Bilbao,18000000.0,2031.0
+Alejandro Rego,Athletic Bilbao,3000000.0,2026.0
+Selton Sánchez,Athletic Bilbao,3000000.0,2029.0
+Iñigo Ruiz de Galarreta,Athletic Bilbao,2500000.0,2027.0
+Oihan Sancet,Athletic Bilbao,35000000.0,2032.0
+Unai Gómez,Athletic Bilbao,5000000.0,2028.0
+Nico Williams,Athletic Bilbao,50000000.0,2035.0
+Álex Berenguer,Athletic Bilbao,5000000.0,2027.0
+Nico Serrano,Athletic Bilbao,1500000.0,2028.0
+Iñaki Williams,Athletic Bilbao,10000000.0,2028.0
+Robert Navarro,Athletic Bilbao,6000000.0,2030.0
+Gorka Guruzeta,Athletic Bilbao,5000000.0,2028.0
+Maroan Sannadi,Athletic Bilbao,5000000.0,2029.0
+Urko Izeta,Athletic Bilbao,1500000.0,2027.0
+Álex Remiro,Real Sociedad,14000000.0,2027.0
+Unai Marrero,Real Sociedad,600000.0,2030.0
+Jon Martín,Real Sociedad,20000000.0,2031.0
+Igor Zubeldia,Real Sociedad,9000000.0,2029.0
+Duje Caleta-Car,Real Sociedad,3000000.0,2026.0
+Aritz Elustondo,Real Sociedad,1800000.0,2026.0
+Sergio Gómez,Real Sociedad,15000000.0,2030.0
+Aihen Muñoz,Real Sociedad,3500000.0,2027.0
+Jon Aramburu,Real Sociedad,15000000.0,2030.0
+Álvaro Odriozola,Real Sociedad,800000.0,2029.0
+Jon Gorrotxategi,Real Sociedad,25000000.0,2030.0
+Beñat Turrientes,Real Sociedad,10000000.0,2030.0
+Luka Sucic,Real Sociedad,10000000.0,2029.0
+Yangel Herrera,Real Sociedad,9000000.0,2030.0
+Carlos Soler,Real Sociedad,8000000.0,2029.0
+Brais Méndez,Real Sociedad,12000000.0,2028.0
+Arsen Zakharyan,Real Sociedad,10000000.0,2029.0
+Pablo Marín,Real Sociedad,8000000.0,2029.0
+Ander Barrenetxea,Real Sociedad,18000000.0,2030.0
+Gonçalo Guedes,Real Sociedad,6000000.0,2028.0
+Wesley,Real Sociedad,5000000.0,2026.0
+Takefusa Kubo,Real Sociedad,30000000.0,2029.0
+Mikel Oyarzabal,Real Sociedad,25000000.0,2028.0
+Orri Óskarsson,Real Sociedad,12000000.0,2030.0
+Jon Karrikaburu,Real Sociedad,2000000.0,2027.0
+Álvaro Valles,Real Betis Balompié,6000000.0,2030.0
+Pau López,Real Betis Balompié,2500000.0,2028.0
+Adrián San Miguel,Real Betis Balompié,400000.0,2026.0
+Natan,Real Betis Balompié,25000000.0,2030.0
+Valentín Gómez,Real Betis Balompié,12000000.0,2030.0
+Diego Llorente,Real Betis Balompié,3000000.0,2028.0
+Marc Bartra,Real Betis Balompié,1000000.0,2027.0
+Junior Firpo,Real Betis Balompié,5000000.0,2028.0
+Ricardo Rodríguez,Real Betis Balompié,1500000.0,2026.0
+Ángel Ortiz,Real Betis Balompié,4000000.0,2029.0
+Héctor Bellerín,Real Betis Balompié,2500000.0,2028.0
+Sofyan Amrabat,Real Betis Balompié,12000000.0,2026.0
+Marc Roca,Real Betis Balompié,4000000.0,2029.0
+Sergi Altimira,Real Betis Balompié,20000000.0,2029.0
+Álvaro Fidalgo,Real Betis Balompié,10000000.0,2030.0
+Nelson Deossa,Real Betis Balompié,9000000.0,2030.0
+Pablo Fornals,Real Betis Balompié,8000000.0,2029.0
+Giovani Lo Celso,Real Betis Balompié,10000000.0,2028.0
+Isco,Real Betis Balompié,4000000.0,2028.0
+Abde Ezzalzouli,Real Betis Balompié,30000000.0,2029.0
+Rodrigo Riquelme,Real Betis Balompié,6000000.0,2030.0
+Antony,Real Betis Balompié,40000000.0,2030.0
+Pablo García,Real Betis Balompié,8000000.0,2029.0
+Aitor Ruibal,Real Betis Balompié,4000000.0,2028.0
+Cucho Hernández,Real Betis Balompié,18000000.0,2030.0
+Chimy Ávila,Real Betis Balompié,1500000.0,2027.0
+Cédric Bakambu,Real Betis Balompié,1400000.0,2026.0
+Ionuț Radu,Celta de Vigo,8000000.0,2029.0
+Iván Villar,Celta de Vigo,900000.0,2027.0
+Marc Vidal,Celta de Vigo,300000.0,2028.0
+Javi Rodríguez,Celta de Vigo,15000000.0,2028.0
+Carl Starfelt,Celta de Vigo,5000000.0,2027.0
+Carlos Domínguez,Celta de Vigo,3000000.0,2028.0
+Yoel Lago,Celta de Vigo,2500000.0,2029.0
+Manu Fernández,Celta de Vigo,1500000.0,2028.0
+Marcos Alonso,Celta de Vigo,1400000.0,2026.0
+Joseph Aidoo,Celta de Vigo,1000000.0,2026.0
+Mihailo Ristic,Celta de Vigo,800000.0,2026.0
+Óscar Mingueza,Celta de Vigo,18000000.0,2026.0
+Sergio Carreira,Celta de Vigo,8000000.0,2029.0
+Álvaro Núñez,Celta de Vigo,6000000.0,2030.0
+Javi Rueda,Celta de Vigo,4000000.0,2029.0
+Miguel Román,Celta de Vigo,15000000.0,2028.0
+Ilaix Moriba,Celta de Vigo,10000000.0,2029.0
+Hugo Sotelo,Celta de Vigo,7500000.0,2028.0
+Matías Vecino,Celta de Vigo,1500000.0,2027.0
+Fer López,Celta de Vigo,16000000.0,2026.0
+Williot Swedberg,Celta de Vigo,15000000.0,2029.0
+Hugo Álvarez,Celta de Vigo,8000000.0,2028.0
+Franco Cervi,Celta de Vigo,700000.0,2026.0
+Jones El-Abdellaoui,Celta de Vigo,8000000.0,2029.0
+Ferran Jutglà,Celta de Vigo,7000000.0,2029.0
+Pablo Durán,Celta de Vigo,4000000.0,2027.0
+Borja Iglesias,Celta de Vigo,3000000.0,2027.0
+Iago Aspas,Celta de Vigo,1800000.0,2026.0
+Julen Agirrezabala,Valencia CF,15000000.0,2026.0
+Stole Dimitrievski,Valencia CF,2000000.0,2026.0
+Cristian Rivero,Valencia CF,100000.0,2027.0
+César Tárrega,Valencia CF,12000000.0,2030.0
+José Copete,Valencia CF,5000000.0,2029.0
+Unai Núñez,Valencia CF,3500000.0,2026.0
+Eray Cömert,Valencia CF,2500000.0,2026.0
+Mouctar Diakhaby,Valencia CF,2000000.0,2027.0
+José Gayà,Valencia CF,5000000.0,2027.0
+Jesús Vázquez,Valencia CF,4000000.0,2028.0
+Thierry Correia,Valencia CF,3000000.0,2026.0
+Renzo Saravia,Valencia CF,1500000.0,2026.0
+Dimitri Foulquier,Valencia CF,1000000.0,2027.0
+Pepelu,Valencia CF,9000000.0,2028.0
+Guido Rodríguez,Valencia CF,5000000.0,2026.0
+Baptiste Santamaria,Valencia CF,3000000.0,2027.0
+Javi Guerra,Valencia CF,25000000.0,2029.0
+Filip Ugrinic,Valencia CF,6000000.0,2029.0
+André Almeida,Valencia CF,7500000.0,2029.0
+Largie Ramazani,Valencia CF,8000000.0,2026.0
+Arnaut Danjuma,Valencia CF,4000000.0,2028.0
+Diego López,Valencia CF,12000000.0,2029.0
+Luis Rioja,Valencia CF,2000000.0,2027.0
+Dani Raba,Valencia CF,1500000.0,2027.0
+Hugo Duro,Valencia CF,12000000.0,2028.0
+Lucas Beltrán,Valencia CF,8000000.0,2026.0
+Umar Sadiq,Valencia CF,4000000.0,2028.0
+Marc-André ter Stegen,Girona FC,4000000.0,2026.0
+Paulo Gazzaniga,Girona FC,2000000.0,2027.0
+Rubén Blanco,Girona FC,800000.0,2026.0
+Vladyslav Krapyvtsov,Girona FC,400000.0,2029.0
+Juan Carlos,Girona FC,100000.0,2026.0
+Aleksandar Andreev,Girona FC,,2029.0
+Vitor Reis,Girona FC,30000000.0,2026.0
+Alejandro Francés,Girona FC,3000000.0,2029.0
+Daley Blind,Girona FC,1400000.0,2026.0
+David López,Girona FC,800000.0,2026.0
+Álex Moreno,Girona FC,3500000.0,2027.0
+Arnau Martínez,Girona FC,10000000.0,2027.0
+Hugo Rincón,Girona FC,3500000.0,2026.0
+Axel Witsel,Girona FC,1400000.0,2026.0
+Azzedine Ounahi,Girona FC,10000000.0,2030.0
+Iván Martín,Girona FC,6000000.0,2028.0
+Fran Beltrán,Girona FC,5000000.0,2030.0
+Donny van de Beek,Girona FC,2000000.0,2028.0
+Lass Kourouma,Girona FC,500000.0,2028.0
+Claudio Echeverri,Girona FC,15000000.0,2026.0
+Thomas Lemar,Girona FC,2000000.0,2026.0
+Bryan Gil,Girona FC,12000000.0,2030.0
+Joel Roca,Girona FC,5000000.0,2029.0
+Viktor Tsygankov,Girona FC,15000000.0,2027.0
+Portu,Girona FC,1500000.0,2027.0
+Vladyslav Vanat,Girona FC,15000000.0,2030.0
+Abel Ruiz,Girona FC,2500000.0,2029.0
+Cristhian Stuani,Girona FC,800000.0,2026.0
+Odysseas Vlachodimos,Sevilla FC,4000000.0,2026.0
+Ørjan Nyland,Sevilla FC,900000.0,2026.0
+Kike Salas,Sevilla FC,8000000.0,2029.0
+Marcão,Sevilla FC,2500000.0,2028.0
+Fábio Cardoso,Sevilla FC,2000000.0,2028.0
+Andrés Castrín,Sevilla FC,1500000.0,2027.0
+Tanguy Nianzou,Sevilla FC,1400000.0,2027.0
+César Azpilicueta,Sevilla FC,1200000.0,2026.0
+Federico Gattoni,Sevilla FC,1000000.0,2027.0
+Gabriel Suazo,Sevilla FC,7000000.0,2028.0
+Oso,Sevilla FC,5000000.0,2027.0
+Juanlu Sánchez,Sevilla FC,15000000.0,2029.0
+José Ángel Carmona,Sevilla FC,12000000.0,2028.0
+Lucien Agoumé,Sevilla FC,12000000.0,2028.0
+Batista Mendy,Sevilla FC,10000000.0,2026.0
+Nemanja Gudelj,Sevilla FC,2500000.0,2026.0
+Djibril Sow,Sevilla FC,7500000.0,2029.0
+Joan Jordán,Sevilla FC,2000000.0,2027.0
+Manu Bueno,Sevilla FC,1500000.0,2027.0
+Rubén Vargas,Sevilla FC,12000000.0,2029.0
+Chidera Ejuke,Sevilla FC,4000000.0,2027.0
+Adnan Januzaj,Sevilla FC,1200000.0,2026.0
+Miguel Ángel Sierra,Sevilla FC,250000.0,2026.0
+Peque Fernández,Sevilla FC,3500000.0,2028.0
+Akor Adams,Sevilla FC,12000000.0,2029.0
+Isaac Romero,Sevilla FC,5000000.0,2028.0
+Neal Maupay,Sevilla FC,4000000.0,2026.0
+Alexis Sánchez,Sevilla FC,1400000.0,2026.0
+Marko Dmitrovic,RCD Espanyol Barcelona,800000.0,2028.0
+Ángel Fortuño,RCD Espanyol Barcelona,300000.0,2027.0
+Clemens Riedel,RCD Espanyol Barcelona,5000000.0,2029.0
+Fernando Calero,RCD Espanyol Barcelona,2000000.0,2026.0
+Miguel Rubio,RCD Espanyol Barcelona,2000000.0,2028.0
+Leandro Cabrera,RCD Espanyol Barcelona,1000000.0,2027.0
+Carlos Romero,RCD Espanyol Barcelona,25000000.0,2026.0
+José Salinas,RCD Espanyol Barcelona,2800000.0,2028.0
+Omar El Hilali,RCD Espanyol Barcelona,15000000.0,2027.0
+Rubén Sánchez,RCD Espanyol Barcelona,1500000.0,2027.0
+Urko González de Zárate,RCD Espanyol Barcelona,10000000.0,2030.0
+Charles Pickel,RCD Espanyol Barcelona,2500000.0,2026.0
+Pol Lozano,RCD Espanyol Barcelona,6000000.0,2027.0
+Edu Expósito,RCD Espanyol Barcelona,5000000.0,2027.0
+Ramón Terrats,RCD Espanyol Barcelona,3000000.0,2026.0
+Javi Puado,RCD Espanyol Barcelona,7500000.0,2030.0
+Pere Milla,RCD Espanyol Barcelona,1200000.0,2027.0
+Tyrhys Dolan,RCD Espanyol Barcelona,10000000.0,2028.0
+Cyril Ngonge,RCD Espanyol Barcelona,8000000.0,2026.0
+Jofre Carreras,RCD Espanyol Barcelona,3000000.0,2029.0
+Antoniu Roca,RCD Espanyol Barcelona,1800000.0,2028.0
+Roberto Fernández,RCD Espanyol Barcelona,10000000.0,2031.0
+Kike García,RCD Espanyol Barcelona,800000.0,2027.0
+Augusto Batalla,Rayo Vallecano,6000000.0,2030.0
+Dani Cárdenas,Rayo Vallecano,1800000.0,2027.0
+Nobel Mendy,Rayo Vallecano,6000000.0,2026.0
+Abdul Mumin,Rayo Vallecano,4000000.0,2026.0
+Luiz Felipe,Rayo Vallecano,3000000.0,2026.0
+Jozhua Vertrouwd,Rayo Vallecano,2500000.0,2026.0
+Florian Lejeune,Rayo Vallecano,2000000.0,2027.0
+Pep Chavarría,Rayo Vallecano,10000000.0,2030.0
+Alfonso Espino,Rayo Vallecano,1000000.0,2026.0
+Andrei Rațiu,Rayo Vallecano,18000000.0,2030.0
+Iván Balliu,Rayo Vallecano,1200000.0,2027.0
+Gerard Gumbau,Rayo Vallecano,1400000.0,2026.0
+Pedro Díaz,Rayo Vallecano,3000000.0,2028.0
+Unai López,Rayo Vallecano,2500000.0,2026.0
+Óscar Valentín,Rayo Vallecano,2200000.0,2027.0
+Pathé Ciss,Rayo Vallecano,2000000.0,2027.0
+Samu Becerra,Rayo Vallecano,300000.0,2027.0
+Randy Nteka,Rayo Vallecano,1200000.0,2028.0
+Óscar Trejo,Rayo Vallecano,400000.0,2026.0
+Carlos Martín,Rayo Vallecano,2000000.0,2026.0
+Álvaro García,Rayo Vallecano,1800000.0,2028.0
+Ilias Akhomach,Rayo Vallecano,12000000.0,2026.0
+Jorge de Frutos,Rayo Vallecano,12000000.0,2028.0
+Fran Pérez,Rayo Vallecano,3000000.0,2029.0
+Isi Palazón,Rayo Vallecano,3000000.0,2028.0
+Alemão,Rayo Vallecano,3000000.0,2030.0
+Sergio Camello,Rayo Vallecano,2000000.0,2027.0
+Sergio Herrera,CA Osasuna,3000000.0,2028.0
+Aitor Fernández,CA Osasuna,600000.0,2027.0
+Enzo Boyomo,CA Osasuna,20000000.0,2029.0
+Jorge Herrando,CA Osasuna,4000000.0,2030.0
+Alejandro Catena,CA Osasuna,2800000.0,2028.0
+Abel Bretones,CA Osasuna,4000000.0,2029.0
+Javi Galán,CA Osasuna,2000000.0,2026.0
+Juan Cruz,CA Osasuna,1200000.0,2026.0
+Valentin Rosier,CA Osasuna,3000000.0,2028.0
+Iñigo Arguibide,CA Osasuna,500000.0,2027.0
+Lucas Torró,CA Osasuna,2800000.0,2027.0
+Iker Muñoz,CA Osasuna,2000000.0,2027.0
+Jon Moncayola,CA Osasuna,7000000.0,2031.0
+Asier Osambela,CA Osasuna,1000000.0,2029.0
+Aimar Oroz,CA Osasuna,9000000.0,2029.0
+Moi Gómez,CA Osasuna,1800000.0,2027.0
+Víctor Muñoz,CA Osasuna,20000000.0,2030.0
+Raúl Moro,CA Osasuna,5000000.0,2031.0
+Rubén García,CA Osasuna,1800000.0,2027.0
+Iker Benito,CA Osasuna,1500000.0,2027.0
+Kike Barja,CA Osasuna,1500000.0,2026.0
+Raúl García,CA Osasuna,3000000.0,2028.0
+Ante Budimir,CA Osasuna,3000000.0,2027.0
+Leo Román,RCD Mallorca,6000000.0,2030.0
+Lucas Bergström,RCD Mallorca,1500000.0,2027.0
+Iván Cuéllar,RCD Mallorca,100000.0,2026.0
+Martin Valjent,RCD Mallorca,4500000.0,2029.0
+Marash Kumbulla,RCD Mallorca,4000000.0,2026.0
+Antonio Raíllo,RCD Mallorca,1500000.0,2027.0
+David López,RCD Mallorca,1200000.0,2027.0
+Johan Mojica,RCD Mallorca,1800000.0,2027.0
+Toni Lato,RCD Mallorca,1500000.0,2027.0
+Pablo Maffeo,RCD Mallorca,5000000.0,2027.0
+Mateu Morey,RCD Mallorca,1500000.0,2027.0
+Samú Costa,RCD Mallorca,15000000.0,2028.0
+Omar Mascarell,RCD Mallorca,800000.0,2026.0
+Sergi Darder,RCD Mallorca,3500000.0,2028.0
+Antonio Sánchez,RCD Mallorca,2400000.0,2027.0
+Manu Morlanes,RCD Mallorca,2400000.0,2028.0
+Jan Salas,RCD Mallorca,500000.0,2028.0
+Pablo Torre,RCD Mallorca,5000000.0,2029.0
+Jan Virgili,RCD Mallorca,15000000.0,2030.0
+Javi Llabrés,RCD Mallorca,800000.0,2026.0
+Takuma Asano,RCD Mallorca,1800000.0,2026.0
+Justin Kalumba,RCD Mallorca,800000.0,2029.0
+Vedat Muriqi,RCD Mallorca,4500000.0,2029.0
+Zito Luvumbo,RCD Mallorca,3500000.0,2026.0
+Mateo Joseph,RCD Mallorca,3500000.0,2026.0
+Abdón Prats,RCD Mallorca,900000.0,2028.0
+Mathew Ryan,Levante UD,2000000.0,2026.0
+Pablo Campos,Levante UD,1500000.0,2027.0
+Matías Moreno,Levante UD,4000000.0,2026.0
+Alan Matturro,Levante UD,4000000.0,2026.0
+Adrián Dela,Levante UD,3000000.0,2026.0
+Unai Elgezabal,Levante UD,600000.0,2027.0
+Manu Sánchez,Levante UD,6000000.0,2026.0
+Diego Pampín,Levante UD,1000000.0,2026.0
+Jeremy Toljan,Levante UD,2200000.0,2027.0
+Víctor García,Levante UD,1000000.0,2027.0
+Ugo Raghouber,Levante UD,3000000.0,2026.0
+Oriol Rey,Levante UD,1800000.0,2027.0
+Kervin Arriaga,Levante UD,1500000.0,2028.0
+Pablo Martínez,Levante UD,2000000.0,2026.0
+Jon Ander Olasagasti,Levante UD,1800000.0,2028.0
+Unai Vencedor,Levante UD,1800000.0,2026.0
+Carlos Álvarez,Levante UD,15000000.0,2027.0
+Roger Brugué,Levante UD,2000000.0,2028.0
+Paco Cortés,Levante UD,1000000.0,2028.0
+Kareem Tunde,Levante UD,1000000.0,2029.0
+Tay Abed,Levante UD,800000.0,2029.0
+Iker Losada,Levante UD,1400000.0,2026.0
+Karl Etta Eyong,Levante UD,18000000.0,2029.0
+Iván Romero,Levante UD,7500000.0,2028.0
+Carlos Espí,Levante UD,2500000.0,2028.0
+José Luis Morales,Levante UD,300000.0,2026.0
+Iñaki Peña,Elche CF,5000000.0,2026.0
+Alejandro Iturbe,Elche CF,1500000.0,2029.0
+Matías Dituro,Elche CF,200000.0,2026.0
+David Affengruber,Elche CF,9000000.0,2027.0
+Víctor Chust,Elche CF,4000000.0,2026.0
+John Donald,Elche CF,1000000.0,2028.0
+Pedro Bigas,Elche CF,400000.0,2026.0
+Adrià Pedrosa,Elche CF,3000000.0,2026.0
+Léo Pétrot,Elche CF,1500000.0,2026.0
+Héctor Fort,Elche CF,12000000.0,2026.0
+Buba Sangaré,Elche CF,1000000.0,2026.0
+Federico Redondo,Elche CF,3500000.0,2030.0
+Marc Aguado,Elche CF,3500000.0,2027.0
+Aleix Febas,Elche CF,5000000.0,2026.0
+Martim Neto,Elche CF,5000000.0,2028.0
+Gonzalo Villar,Elche CF,1800000.0,2026.0
+Germán Valera,Elche CF,6000000.0,2027.0
+Lucas Cepeda,Elche CF,3500000.0,2030.0
+Tete Morente,Elche CF,1800000.0,2028.0
+Yago Santiago,Elche CF,1000000.0,2027.0
+Grady Diangana,Elche CF,2500000.0,2027.0
+Josan,Elche CF,100000.0,2026.0
+Adam Boayar,Elche CF,800000.0,2027.0
+Álvaro Rodríguez,Elche CF,5000000.0,2029.0
+Rafa Mir,Elche CF,4000000.0,2026.0
+André Silva,Elche CF,3000000.0,2026.0
+David Soria,Getafe CF,3000000.0,2026.0
+Jiri Letacek,Getafe CF,2000000.0,2028.0
+Abdel Abqar,Getafe CF,4000000.0,2028.0
+Sebastián Boselli,Getafe CF,2800000.0,2026.0
+Zaid Romero,Getafe CF,2500000.0,2026.0
+Dakonam Djené,Getafe CF,1600000.0,2026.0
+Domingos Duarte,Getafe CF,800000.0,2026.0
+Diego Rico,Getafe CF,1200000.0,2026.0
+Davinchi,Getafe CF,1000000.0,2028.0
+Juan Iglesias,Getafe CF,5000000.0,2026.0
+Kiko Femenía,Getafe CF,800000.0,2027.0
+Ismael Bekhoucha,Getafe CF,300000.0,2028.0
+Allan Nyom,Getafe CF,200000.0,2026.0
+Mario Martín,Getafe CF,10000000.0,2026.0
+Mauro Arambarri,Getafe CF,10000000.0,2028.0
+Luis Milla,Getafe CF,3500000.0,2027.0
+Javi Muñoz,Getafe CF,1500000.0,2028.0
+Adrián Liso,Getafe CF,6000000.0,2026.0
+Veljko Birmancevic,Getafe CF,4500000.0,2026.0
+Juanmi,Getafe CF,1200000.0,2027.0
+Abu Kamara,Getafe CF,3000000.0,2026.0
+Álex Sancris,Getafe CF,2000000.0,2028.0
+Borja Mayoral,Getafe CF,7500000.0,2027.0
+Martín Satriano,Getafe CF,6000000.0,2026.0
+Luis Vázquez,Getafe CF,2500000.0,2026.0
+Antonio Sivera,Deportivo Alavés,6000000.0,2027.0
+Raúl Fernández,Deportivo Alavés,200000.0,2026.0
+Jon Pacheco,Deportivo Alavés,6000000.0,2026.0
+Ville Koski,Deportivo Alavés,1500000.0,2026.0
+Facundo Garcés,Deportivo Alavés,,2028.0
+Youssef Enríquez,Deportivo Alavés,5000000.0,2029.0
+Victor Parada,Deportivo Alavés,2000000.0,2029.0
+Nahuel Tenaglia,Deportivo Alavés,3000000.0,2029.0
+Jonny Otto,Deportivo Alavés,2500000.0,2027.0
+Antonio Blanco,Deportivo Alavés,10000000.0,2027.0
+Carlos Protesoni,Deportivo Alavés,1000000.0,2026.0
+Pablo Ibáñez,Deportivo Alavés,4000000.0,2030.0
+Carles Aleñá,Deportivo Alavés,3500000.0,2029.0
+Ander Guevara,Deportivo Alavés,3000000.0,2027.0
+Jon Guridi,Deportivo Alavés,2000000.0,2026.0
+Calebe,Deportivo Alavés,2000000.0,2026.0
+Denis Suárez,Deportivo Alavés,1200000.0,2027.0
+Abde Rebbach,Deportivo Alavés,1500000.0,2028.0
+Ángel Pérez,Deportivo Alavés,1000000.0,2030.0
+Lucas Boyé,Deportivo Alavés,5000000.0,2029.0
+Toni Martínez,Deportivo Alavés,4000000.0,2028.0
+Ibrahim Diabate,Deportivo Alavés,1500000.0,2026.0
+Mariano Díaz,Deportivo Alavés,400000.0,2027.0
+Aitor Mañas,Deportivo Alavés,200000.0,2028.0
+Aarón Escandell,Real Oviedo,3000000.0,2027.0
+Horațiu Moldovan,Real Oviedo,2000000.0,2026.0
+David Carmo,Real Oviedo,8000000.0,2026.0
+Eric Bailly,Real Oviedo,1500000.0,2027.0
+David Costas,Real Oviedo,1400000.0,2028.0
+Dani Calvo,Real Oviedo,1000000.0,2027.0
+Javi López,Real Oviedo,5000000.0,2026.0
+Rahim Alhassane,Real Oviedo,2000000.0,2028.0
+Nacho Vidal,Real Oviedo,1600000.0,2027.0
+Lucas Ahijado,Real Oviedo,700000.0,2026.0
+Santiago Colombatto,Real Oviedo,3000000.0,2026.0
+Leander Dendoncker,Real Oviedo,3000000.0,2027.0
+Nicolás Fonseca,Real Oviedo,3000000.0,2026.0
+Alberto Reina,Real Oviedo,2000000.0,2027.0
+Kwasi Sibo,Real Oviedo,1500000.0,2026.0
+Santi Cazorla,Real Oviedo,200000.0,2026.0
+Luka Ilic,Real Oviedo,1800000.0,2028.0
+Pablo Agudín,Real Oviedo,25000.0,2029.0
+Thiago Fernández,Real Oviedo,4500000.0,2026.0
+Ilyas Chaira,Real Oviedo,4000000.0,2028.0
+Ovie Ejaria,Real Oviedo,500000.0,2026.0
+Haissem Hassan,Real Oviedo,4000000.0,2027.0
+Federico Viñas,Real Oviedo,4000000.0,2026.0
+Thiago Borbas,Real Oviedo,4000000.0,2026.0
+Álex Forés,Real Oviedo,800000.0,2026.0
+Jonas Urbig,Bayern Munich,12000000.0,2029.0
+Manuel Neuer,Bayern Munich,4000000.0,2026.0
+Sven Ulreich,Bayern Munich,500000.0,2026.0
+Leon Klanac,Bayern Munich,150000.0,2027.0
+Dayot Upamecano,Bayern Munich,70000000.0,2030.0
+Jonathan Tah,Bayern Munich,30000000.0,2029.0
+Min-jae Kim,Bayern Munich,25000000.0,2028.0
+Hiroki Ito,Bayern Munich,18000000.0,2028.0
+Alphonso Davies,Bayern Munich,50000000.0,2030.0
+Raphaël Guerreiro,Bayern Munich,6000000.0,2026.0
+Konrad Laimer,Bayern Munich,32000000.0,2027.0
+Josip Stanisic,Bayern Munich,32000000.0,2029.0
+Aleksandar Pavlovic,Bayern Munich,65000000.0,2029.0
+Joshua Kimmich,Bayern Munich,40000000.0,2029.0
+Tom Bischof,Bayern Munich,40000000.0,2029.0
+Leon Goretzka,Bayern Munich,15000000.0,2026.0
+Bara Sapoko Ndiaye,Bayern Munich,300000.0,2026.0
+Jamal Musiala,Bayern Munich,130000000.0,2030.0
+Lennart Karl,Bayern Munich,60000000.0,2029.0
+Luis Díaz,Bayern Munich,70000000.0,2029.0
+Michael Olise,Bayern Munich,130000000.0,2029.0
+Serge Gnabry,Bayern Munich,20000000.0,2028.0
+Harry Kane,Bayern Munich,65000000.0,2027.0
+Nicolas Jackson,Bayern Munich,45000000.0,2026.0
+Gregor Kobel,Borussia Dortmund,40000000.0,2028.0
+Alexander Meyer,Borussia Dortmund,800000.0,2027.0
+Patrick Drewes,Borussia Dortmund,400000.0,2027.0
+Silas Ostrzinski,Borussia Dortmund,200000.0,2027.0
+Nico Schlotterbeck,Borussia Dortmund,55000000.0,2027.0
+Waldemar Anton,Borussia Dortmund,18000000.0,2028.0
+Ramy Bensebaini,Borussia Dortmund,7000000.0,2027.0
+Emre Can,Borussia Dortmund,6000000.0,2026.0
+Niklas Süle,Borussia Dortmund,5000000.0,2026.0
+Filippo Mane,Borussia Dortmund,2500000.0,2028.0
+Luca Reggiani,Borussia Dortmund,1000000.0,2027.0
+Daniel Svensson,Borussia Dortmund,22000000.0,2029.0
+Almugera Kabar,Borussia Dortmund,3000000.0,2028.0
+Julian Ryerson,Borussia Dortmund,20000000.0,2028.0
+Salih Özcan,Borussia Dortmund,3500000.0,2026.0
+Felix Nmecha,Borussia Dortmund,45000000.0,2030.0
+Jobe Bellingham,Borussia Dortmund,25000000.0,2030.0
+Carney Chukwuemeka,Borussia Dortmund,25000000.0,2030.0
+Marcel Sabitzer,Borussia Dortmund,7000000.0,2027.0
+Yan Couto,Borussia Dortmund,20000000.0,2030.0
+Julian Brandt,Borussia Dortmund,20000000.0,2026.0
+Karim Adeyemi,Borussia Dortmund,60000000.0,2027.0
+Samuele Inácio,Borussia Dortmund,3000000.0,2027.0
+Serhou Guirassy,Borussia Dortmund,40000000.0,2028.0
+Maximilian Beier,Borussia Dortmund,30000000.0,2029.0
+Fábio Silva,Borussia Dortmund,28000000.0,2030.0
+Maarten Vandevoordt,RB Leipzig,8000000.0,2030.0
+Péter Gulácsi,RB Leipzig,2000000.0,2027.0
+Leopold Zingerle,RB Leipzig,400000.0,2028.0
+Castello Lukeba,RB Leipzig,45000000.0,2029.0
+El Chadaille Bitshiabu,RB Leipzig,15000000.0,2029.0
+Willi Orbán,RB Leipzig,6000000.0,2027.0
+Lukas Klostermann,RB Leipzig,3500000.0,2028.0
+Jonathan Norbye,RB Leipzig,300000.0,2028.0
+David Raum,RB Leipzig,20000000.0,2027.0
+Max Finkgräfe,RB Leipzig,3000000.0,2030.0
+Ridle Baku,RB Leipzig,12000000.0,2027.0
+Benjamin Henrichs,RB Leipzig,12000000.0,2028.0
+Kosta Nedeljkovic,RB Leipzig,8000000.0,2026.0
+Nicolas Seiwald,RB Leipzig,18000000.0,2028.0
+Benno Kaltefleiter,RB Leipzig,,2029.0
+Assan Ouédraogo,RB Leipzig,28000000.0,2029.0
+Ezechiel Banzuzi,RB Leipzig,18000000.0,2030.0
+Xaver Schlager,RB Leipzig,10000000.0,2026.0
+Brajan Gruda,RB Leipzig,28000000.0,2026.0
+Christoph Baumgartner,RB Leipzig,20000000.0,2028.0
+Andrija Maksimovic,RB Leipzig,15000000.0,2030.0
+Viggo Gebel,RB Leipzig,350000.0,2028.0
+Yan Diomande,RB Leipzig,45000000.0,2030.0
+Antonio Nusa,RB Leipzig,32000000.0,2029.0
+Tidiam Gomis,RB Leipzig,3000000.0,2029.0
+Suleman Sani,RB Leipzig,1200000.0,2031.0
+Ayodele Thomas,RB Leipzig,650000.0,2031.0
+Johan Bakayoko,RB Leipzig,25000000.0,2030.0
+Rômulo,RB Leipzig,30000000.0,2030.0
+Conrad Harder,RB Leipzig,24000000.0,2030.0
+Samba Konaté,RB Leipzig,1000000.0,2028.0
+Mark Flekken,Bayer 04 Leverkusen,8000000.0,2028.0
+Jonas Omlin,Bayer 04 Leverkusen,1500000.0,2026.0
+Janis Blaswich,Bayer 04 Leverkusen,700000.0,2027.0
+Niklas Lomb,Bayer 04 Leverkusen,250000.0,2027.0
+Jarell Quansah,Bayer 04 Leverkusen,40000000.0,2030.0
+Edmond Tapsoba,Bayer 04 Leverkusen,35000000.0,2028.0
+Loïc Badé,Bayer 04 Leverkusen,28000000.0,2030.0
+Axel Tape,Bayer 04 Leverkusen,8000000.0,2030.0
+Tim Oermann,Bayer 04 Leverkusen,4000000.0,2029.0
+Issa Traoré,Bayer 04 Leverkusen,800000.0,2029.0
+Alejandro Grimaldo,Bayer 04 Leverkusen,24000000.0,2027.0
+Arthur,Bayer 04 Leverkusen,7000000.0,2028.0
+Lucas Vázquez,Bayer 04 Leverkusen,2500000.0,2027.0
+Equi Fernández,Bayer 04 Leverkusen,25000000.0,2030.0
+Robert Andrich,Bayer 04 Leverkusen,7000000.0,2028.0
+Exequiel Palacios,Bayer 04 Leverkusen,30000000.0,2030.0
+Aleix García,Bayer 04 Leverkusen,20000000.0,2029.0
+Malik Tillman,Bayer 04 Leverkusen,35000000.0,2030.0
+Ibrahim Maza,Bayer 04 Leverkusen,25000000.0,2030.0
+Jonas Hofmann,Bayer 04 Leverkusen,2000000.0,2027.0
+Eliesse Ben Seghir,Bayer 04 Leverkusen,24000000.0,2030.0
+Martin Terrier,Bayer 04 Leverkusen,12000000.0,2029.0
+Ernest Poku,Bayer 04 Leverkusen,20000000.0,2030.0
+Nathan Tella,Bayer 04 Leverkusen,15000000.0,2028.0
+Montrell Culbreath,Bayer 04 Leverkusen,1000000.0,2030.0
+Patrik Schick,Bayer 04 Leverkusen,25000000.0,2030.0
+Christian Kofane,Bayer 04 Leverkusen,22000000.0,2029.0
+Kauã Santos,Eintracht Frankfurt,7000000.0,2030.0
+Michael Zetterer,Eintracht Frankfurt,4500000.0,2029.0
+Jens Grahl,Eintracht Frankfurt,200000.0,2027.0
+Amil Siljevic,Eintracht Frankfurt,,
+Arthur Theate,Eintracht Frankfurt,24000000.0,2029.0
+Robin Koch,Eintracht Frankfurt,15000000.0,2030.0
+Nnamdi Collins,Eintracht Frankfurt,15000000.0,2030.0
+Aurèle Amenda,Eintracht Frankfurt,6000000.0,2029.0
+Nathaniel Brown,Eintracht Frankfurt,35000000.0,2030.0
+Keita Kosugi,Eintracht Frankfurt,4000000.0,2031.0
+Rasmus Kristensen,Eintracht Frankfurt,14000000.0,2029.0
+Elias Baum,Eintracht Frankfurt,5000000.0,2028.0
+Timothy Chandler,Eintracht Frankfurt,350000.0,2026.0
+Ellyes Skhiri,Eintracht Frankfurt,6000000.0,2027.0
+Hugo Larsson,Eintracht Frankfurt,40000000.0,2029.0
+Oscar Højlund,Eintracht Frankfurt,7500000.0,2029.0
+Mahmoud Dahoud,Eintracht Frankfurt,2000000.0,2026.0
+Can Uzun,Eintracht Frankfurt,45000000.0,2029.0
+Farès Chaïbi,Eintracht Frankfurt,15000000.0,2028.0
+Love Arrhov,Eintracht Frankfurt,5000000.0,2028.0
+Mario Götze,Eintracht Frankfurt,3500000.0,2026.0
+Jean-Mattéo Bahoya,Eintracht Frankfurt,25000000.0,2029.0
+Ritsu Doan,Eintracht Frankfurt,25000000.0,2030.0
+Ansgar Knauff,Eintracht Frankfurt,15000000.0,2028.0
+Ayoube Amaimouni-Echghouyab,Eintracht Frankfurt,2000000.0,2031.0
+Jonathan Burkardt,Eintracht Frankfurt,35000000.0,2030.0
+Arnaud Kalimuendo,Eintracht Frankfurt,25000000.0,2026.0
+Younes Ebnoutalib,Eintracht Frankfurt,6000000.0,2031.0
+Michy Batshuayi,Eintracht Frankfurt,3000000.0,2027.0
+Alexander Nübel,VfB Stuttgart,12000000.0,2026.0
+Florian Hellstern,VfB Stuttgart,1800000.0,2027.0
+Fabian Bredlow,VfB Stuttgart,800000.0,2027.0
+Stefan Drljaca,VfB Stuttgart,300000.0,2027.0
+Finn Jeltsch,VfB Stuttgart,25000000.0,2030.0
+Jeff Chabot,VfB Stuttgart,15000000.0,2028.0
+Luca Jaquez,VfB Stuttgart,10000000.0,2029.0
+Ramon Hendriks,VfB Stuttgart,5000000.0,2028.0
+Ameen Al-Dakhil,VfB Stuttgart,4000000.0,2028.0
+Dan-Axel Zagadou,VfB Stuttgart,2000000.0,2026.0
+Maximilian Mittelstädt,VfB Stuttgart,18000000.0,2028.0
+Lorenz Assignon,VfB Stuttgart,12000000.0,2029.0
+Josha Vagnoman,VfB Stuttgart,10000000.0,2028.0
+Pascal Stenzel,VfB Stuttgart,1200000.0,2026.0
+Angelo Stiller,VfB Stuttgart,45000000.0,2028.0
+Chema Andrés,VfB Stuttgart,15000000.0,2030.0
+Atakan Karazor,VfB Stuttgart,9000000.0,2028.0
+Mirza Catovic,VfB Stuttgart,1500000.0,2028.0
+Nikolas Nartey,VfB Stuttgart,2000000.0,2026.0
+Bilal El Khannouss,VfB Stuttgart,32000000.0,2026.0
+Chris Führich,VfB Stuttgart,10000000.0,2028.0
+Justin Diehl,VfB Stuttgart,1800000.0,2029.0
+Jamie Leweling,VfB Stuttgart,25000000.0,2029.0
+Badredine Bouanani,VfB Stuttgart,12000000.0,2030.0
+Lazar Jovanovic,VfB Stuttgart,5000000.0,2029.0
+Noah Darvich,VfB Stuttgart,2000000.0,2029.0
+Ermedin Demirovic,VfB Stuttgart,22000000.0,2028.0
+Deniz Undav,VfB Stuttgart,20000000.0,2027.0
+Tiago Tomás,VfB Stuttgart,15000000.0,2029.0
+Jeremy Arévalo,VfB Stuttgart,7000000.0,2031.0
+Kamil Grabara,VfL Wolfsburg,12000000.0,2028.0
+Marius Müller,VfL Wolfsburg,1000000.0,2027.0
+Jakub Zielinski,VfL Wolfsburg,500000.0,2028.0
+Pavao Pervan,VfL Wolfsburg,300000.0,2027.0
+Konstantinos Koulierakis,VfL Wolfsburg,25000000.0,2029.0
+Jeanuël Belocian,VfL Wolfsburg,12000000.0,2026.0
+Denis Vavro,VfL Wolfsburg,7000000.0,2027.0
+Jonas Adjetey,VfL Wolfsburg,7000000.0,2030.0
+Jenson Seelt,VfL Wolfsburg,5000000.0,2026.0
+Moritz Jenz,VfL Wolfsburg,5000000.0,2027.0
+Cleiton,VfL Wolfsburg,800000.0,2030.0
+Joakim Maehle,VfL Wolfsburg,9000000.0,2027.0
+Aaron Zehnter,VfL Wolfsburg,6000000.0,2030.0
+Rogério,VfL Wolfsburg,2000000.0,2027.0
+Saël Kumbedi,VfL Wolfsburg,9000000.0,2029.0
+Kilian Fischer,VfL Wolfsburg,7500000.0,2027.0
+Jan Bürger,VfL Wolfsburg,1000000.0,2026.0
+Vini Souza,VfL Wolfsburg,12000000.0,2030.0
+Mattias Svanberg,VfL Wolfsburg,12000000.0,2027.0
+Maximilian Arnold,VfL Wolfsburg,4500000.0,2028.0
+Yannick Gerhardt,VfL Wolfsburg,2000000.0,
+Pharell Hensel,VfL Wolfsburg,1000000.0,2029.0
+Kevin Paredes,VfL Wolfsburg,5000000.0,2026.0
+Lovro Majer,VfL Wolfsburg,15000000.0,2028.0
+Bence Dárdai,VfL Wolfsburg,7000000.0,2029.0
+Christian Eriksen,VfL Wolfsburg,3000000.0,2027.0
+Patrick Wimmer,VfL Wolfsburg,15000000.0,2027.0
+Jesper Lindstrøm,VfL Wolfsburg,8000000.0,2026.0
+Adam Daghim,VfL Wolfsburg,7500000.0,2026.0
+Mohamed Amoura,VfL Wolfsburg,32000000.0,2029.0
+Jonas Wind,VfL Wolfsburg,7000000.0,2026.0
+Dzenan Pejcinovic,VfL Wolfsburg,6000000.0,2029.0
+Kento Shiogai,VfL Wolfsburg,2500000.0,2030.0
+Oliver Baumann,TSG 1899 Hoffenheim,3000000.0,2028.0
+Luca Philipp,TSG 1899 Hoffenheim,750000.0,2026.0
+Lúkas Petersson,TSG 1899 Hoffenheim,600000.0,
+Albian Hajdari,TSG 1899 Hoffenheim,12000000.0,2029.0
+Robin Hranac,TSG 1899 Hoffenheim,7000000.0,2028.0
+Koki Machida,TSG 1899 Hoffenheim,7000000.0,
+Ozan Kabak,TSG 1899 Hoffenheim,5000000.0,2026.0
+Kevin Akpoguma,TSG 1899 Hoffenheim,2000000.0,2026.0
+Kelven Frees,TSG 1899 Hoffenheim,300000.0,2029.0
+Bernardo,TSG 1899 Hoffenheim,5000000.0,2027.0
+Valentin Gendrey,TSG 1899 Hoffenheim,7000000.0,2028.0
+Vladimír Coufal,TSG 1899 Hoffenheim,2700000.0,2028.0
+Leon Avdullahu,TSG 1899 Hoffenheim,17000000.0,2029.0
+Wouter Burger,TSG 1899 Hoffenheim,9000000.0,2030.0
+Luis Engelns,TSG 1899 Hoffenheim,4000000.0,
+Grischa Prömel,TSG 1899 Hoffenheim,3000000.0,2026.0
+Luka Duric,TSG 1899 Hoffenheim,300000.0,2026.0
+Alexander Prass,TSG 1899 Hoffenheim,5000000.0,2028.0
+Muhammed Damar,TSG 1899 Hoffenheim,7000000.0,2029.0
+Andrej Kramaric,TSG 1899 Hoffenheim,3000000.0,2026.0
+Bazoumana Touré,TSG 1899 Hoffenheim,25000000.0,2029.0
+Cole Campbell,TSG 1899 Hoffenheim,5000000.0,2026.0
+Fisnik Asllani,TSG 1899 Hoffenheim,30000000.0,2029.0
+Adam Hlozek,TSG 1899 Hoffenheim,15000000.0,2029.0
+Tim Lemperle,TSG 1899 Hoffenheim,12000000.0,2029.0
+Max Moerstedt,TSG 1899 Hoffenheim,7000000.0,2030.0
+Deniz Zeitler,TSG 1899 Hoffenheim,1500000.0,
+Ihlas Bebou,TSG 1899 Hoffenheim,800000.0,2026.0
+Yannick Eduardo,TSG 1899 Hoffenheim,500000.0,
+Mio Backhaus,SV Werder Bremen,10000000.0,
+Karl Hein,SV Werder Bremen,3000000.0,2026.0
+Markus Kolke,SV Werder Bremen,300000.0,2027.0
+Stefan Smarkalev,SV Werder Bremen,150000.0,2027.0
+Karim Coulibaly,SV Werder Bremen,20000000.0,2029.0
+Marco Friedl,SV Werder Bremen,12000000.0,2028.0
+Amos Pieper,SV Werder Bremen,4000000.0,
+Maximilian Wöber,SV Werder Bremen,4000000.0,2026.0
+Niklas Stark,SV Werder Bremen,3500000.0,
+Julián Malatini,SV Werder Bremen,2000000.0,
+Mick Schmetgens,SV Werder Bremen,150000.0,2029.0
+Felix Agu,SV Werder Bremen,8000000.0,2027.0
+Olivier Deman,SV Werder Bremen,3000000.0,2028.0
+Isaac Schmidt,SV Werder Bremen,2200000.0,2026.0
+Yukinari Sugawara,SV Werder Bremen,7500000.0,2026.0
+Mitchell Weiser,SV Werder Bremen,3500000.0,
+Senne Lynen,SV Werder Bremen,10000000.0,
+Wesley Adeh,SV Werder Bremen,250000.0,
+Jens Stage,SV Werder Bremen,14000000.0,
+Leonardo Bittencourt,SV Werder Bremen,1200000.0,2026.0
+Romano Schmid,SV Werder Bremen,17000000.0,2027.0
+Cameron Puertas,SV Werder Bremen,10000000.0,2026.0
+Patrice Covic,SV Werder Bremen,4000000.0,
+Samuel Mbangula,SV Werder Bremen,14000000.0,2030.0
+Marco Grüll,SV Werder Bremen,6000000.0,
+Justin Njinmah,SV Werder Bremen,7000000.0,2027.0
+Victor Boniface,SV Werder Bremen,12000000.0,2026.0
+Jovan Milosevic,SV Werder Bremen,7000000.0,2026.0
+Keke Topp,SV Werder Bremen,5000000.0,2028.0
+Salim Musah,SV Werder Bremen,250000.0,
+Noah Atubolu,SC Freiburg,20000000.0,2027.0
+Florian Müller,SC Freiburg,1200000.0,
+Jannik Huth,SC Freiburg,400000.0,
+Philipp Lienhart,SC Freiburg,12000000.0,
+Max Rosenfelder,SC Freiburg,8000000.0,
+Matthias Ginter,SC Freiburg,6000000.0,2027.0
+Bruno Ogbus,SC Freiburg,1000000.0,
+Anthony Jung,SC Freiburg,700000.0,
+Jordy Makengo,SC Freiburg,6000000.0,
+Christian Günter,SC Freiburg,2000000.0,
+Philipp Treu,SC Freiburg,8000000.0,
+Lukas Kübler,SC Freiburg,1500000.0,
+Patrick Osterhage,SC Freiburg,12000000.0,
+Nicolas Höfler,SC Freiburg,500000.0,
+Johan Manzambi,SC Freiburg,30000000.0,2030.0
+Maximilian Eggestein,SC Freiburg,10000000.0,
+Daniel-Kofi Kyereh,SC Freiburg,300000.0,2026.0
+Derry Scherhant,SC Freiburg,6000000.0,
+Vincenzo Grifo,SC Freiburg,5000000.0,2027.0
+Cyriaque Irié,SC Freiburg,8000000.0,
+Niklas Beste,SC Freiburg,7000000.0,2030.0
+Yuito Suzuki,SC Freiburg,15000000.0,
+Maximilian Philipp,SC Freiburg,600000.0,
+Igor Matanovic,SC Freiburg,7000000.0,
+Lucas Höler,SC Freiburg,3000000.0,
+Moritz Nicolas,Borussia Mönchengladbach,5000000.0,2029.0
+Tiago Pereira Cardoso,Borussia Mönchengladbach,1500000.0,
+Jan Olschowsky,Borussia Mönchengladbach,450000.0,2027.0
+Tobias Sippel,Borussia Mönchengladbach,300000.0,2026.0
+Nico Elvedi,Borussia Mönchengladbach,8000000.0,2027.0
+Kevin Diks,Borussia Mönchengladbach,5000000.0,2030.0
+Kota Takai,Borussia Mönchengladbach,5000000.0,2026.0
+Fabio Chiarodia,Borussia Mönchengladbach,3000000.0,2027.0
+Marvin Friedrich,Borussia Mönchengladbach,1800000.0,2026.0
+Lukas Ullrich,Borussia Mönchengladbach,7000000.0,2029.0
+Joe Scally,Borussia Mönchengladbach,7000000.0,2027.0
+Yannik Engelhardt,Borussia Mönchengladbach,6000000.0,2026.0
+Niklas Swider,Borussia Mönchengladbach,250000.0,2027.0
+Rocco Reitz,Borussia Mönchengladbach,17000000.0,2028.0
+Jens Castrop,Borussia Mönchengladbach,6000000.0,2029.0
+Philipp Sander,Borussia Mönchengladbach,4000000.0,2028.0
+Florian Neuhaus,Borussia Mönchengladbach,3500000.0,2027.0
+Hugo Bolin,Borussia Mönchengladbach,6000000.0,2026.0
+Giovanni Reyna,Borussia Mönchengladbach,6000000.0,2028.0
+Kevin Stöger,Borussia Mönchengladbach,3000000.0,2027.0
+Wael Mohya,Borussia Mönchengladbach,2500000.0,
+Robin Hack,Borussia Mönchengladbach,12000000.0,2029.0
+Franck Honorat,Borussia Mönchengladbach,12000000.0,2029.0
+Nathan Ngoumou,Borussia Mönchengladbach,3500000.0,2027.0
+Tim Kleindienst,Borussia Mönchengladbach,12000000.0,2029.0
+Shuto Machino,Borussia Mönchengladbach,7000000.0,2029.0
+Haris Tabakovic,Borussia Mönchengladbach,3000000.0,2026.0
+Alejo Sarco,Borussia Mönchengladbach,2000000.0,2026.0
+Finn Dahmen,FC Augsburg,12000000.0,2027.0
+Nediljko Labrovic,FC Augsburg,2000000.0,2029.0
+Daniel Klein,FC Augsburg,150000.0,2026.0
+Chrislain Matsima,FC Augsburg,22000000.0,2030.0
+Noahkai Banks,FC Augsburg,15000000.0,2029.0
+Keven Schlotterbeck,FC Augsburg,6000000.0,2027.0
+Cédric Zesiger,FC Augsburg,5000000.0,2029.0
+Arthur Chaves,FC Augsburg,5000000.0,2026.0
+Jeffrey Gouweleeuw,FC Augsburg,1000000.0,2027.0
+Felix Meiser,FC Augsburg,150000.0,2027.0
+Dimitrios Giannoulis,FC Augsburg,3000000.0,2028.0
+Mads Pedersen,FC Augsburg,1000000.0,2027.0
+Oliver Sorg,FC Augsburg,400000.0,2027.0
+Marius Wolf,FC Augsburg,2500000.0,2027.0
+Kristijan Jakic,FC Augsburg,6000000.0,2028.0
+Robin Fellhauer,FC Augsburg,2500000.0,2029.0
+Yannik Keitel,FC Augsburg,2000000.0,2026.0
+Mahmut Kücüksahin,FC Augsburg,175000.0,2027.0
+Han-Noah Massengo,FC Augsburg,5000000.0,2030.0
+Elvis Rexhbecaj,FC Augsburg,3500000.0,2026.0
+Anton Kade,FC Augsburg,7500000.0,2029.0
+Alexis Claude-Maurice,FC Augsburg,12000000.0,2027.0
+Mert Kömür,FC Augsburg,12000000.0,2029.0
+Fabian Rieder,FC Augsburg,8000000.0,2030.0
+Ismaël Gharbi,FC Augsburg,7000000.0,2026.0
+Rodrigo Ribeiro,FC Augsburg,2500000.0,2026.0
+Michael Gregoritsch,FC Augsburg,1500000.0,2026.0
+Uchenna Ogundu,FC Augsburg,1500000.0,2031.0
+Thomas Kastanaras,FC Augsburg,300000.0,2027.0
+Sander Tangvik,Hamburger SV,3000000.0,2030.0
+Daniel Heuer Fernandes,Hamburger SV,1200000.0,2026.0
+Hannes Hermann,Hamburger SV,150000.0,2027.0
+Fernando Dickes,Hamburger SV,,2028.0
+Luka Vuskovic,Hamburger SV,40000000.0,2026.0
+Jordan Torunarigha,Hamburger SV,4000000.0,2028.0
+Daniel Elfadli,Hamburger SV,3500000.0,2028.0
+Warmed Omari,Hamburger SV,3000000.0,2030.0
+Shafiq Nandja,Hamburger SV,175000.0,2026.0
+Miro Muheim,Hamburger SV,4000000.0,2027.0
+Noah Katterbach,Hamburger SV,600000.0,2027.0
+Louis Lemke,Hamburger SV,,2028.0
+Giorgi Gocholeishvili,Hamburger SV,3500000.0,2026.0
+William Mikelbrencis,Hamburger SV,2000000.0,2026.0
+Nicolai Remberg,Hamburger SV,5000000.0,2028.0
+Albert Sambi Lokonga,Hamburger SV,8000000.0,2028.0
+Nicolás Capaldo,Hamburger SV,4000000.0,2028.0
+Fábio Vieira,Hamburger SV,18000000.0,2026.0
+Albert Grønbaek,Hamburger SV,8000000.0,2026.0
+Omar Megeed,Hamburger SV,150000.0,2026.0
+Philip Otele,Hamburger SV,5000000.0,2026.0
+Alexander Røssing-Lelesiit,Hamburger SV,5000000.0,2030.0
+Jean-Luc Dompé,Hamburger SV,3500000.0,2027.0
+Fábio Baldé,Hamburger SV,3000000.0,2029.0
+Rayan Philippe,Hamburger SV,4000000.0,2029.0
+Bakery Jatta,Hamburger SV,700000.0,2029.0
+Damion Downs,Hamburger SV,7000000.0,2026.0
+Ransford Königsdörffer,Hamburger SV,4000000.0,2026.0
+Otto Stange,Hamburger SV,2500000.0,2028.0
+Robert Glatzel,Hamburger SV,1500000.0,2027.0
+Yussuf Poulsen,Hamburger SV,1500000.0,2027.0
+Robin Zentner,1.FSV Mainz 05,3000000.0,2028.0
+Lasse Rieß,1.FSV Mainz 05,700000.0,2027.0
+Daniel Batz,1.FSV Mainz 05,250000.0,2026.0
+Stefan Posch,1.FSV Mainz 05,5500000.0,2026.0
+Andreas Hanche-Olsen,1.FSV Mainz 05,5000000.0,2028.0
+Kacper Potulski,1.FSV Mainz 05,2500000.0,2028.0
+Dominik Kohr,1.FSV Mainz 05,2000000.0,2028.0
+Maxim Leitsch,1.FSV Mainz 05,1500000.0,2026.0
+Danny da Costa,1.FSV Mainz 05,1200000.0,2026.0
+Stefan Bell,1.FSV Mainz 05,600000.0,2026.0
+Maxim Dal,1.FSV Mainz 05,150000.0,2027.0
+Phillipp Mwene,1.FSV Mainz 05,1500000.0,
+Kasey Bos,1.FSV Mainz 05,450000.0,2029.0
+Anthony Caci,1.FSV Mainz 05,10000000.0,2028.0
+Silvan Widmer,1.FSV Mainz 05,800000.0,2026.0
+Kaishu Sano,1.FSV Mainz 05,25000000.0,2028.0
+Lennard Maloney,1.FSV Mainz 05,3500000.0,2028.0
+Sota Kawasaki,1.FSV Mainz 05,1500000.0,2026.0
+Niklas Tauer,1.FSV Mainz 05,350000.0,
+Nadiem Amiri,1.FSV Mainz 05,17000000.0,2028.0
+Daniel Gleiber,1.FSV Mainz 05,300000.0,2028.0
+Nikolas Veratschnig,1.FSV Mainz 05,1500000.0,2028.0
+Paul Nebel,1.FSV Mainz 05,18000000.0,2027.0
+Jae-sung Lee,1.FSV Mainz 05,2000000.0,
+Sheraldo Becker,1.FSV Mainz 05,1500000.0,2026.0
+Silas,1.FSV Mainz 05,3000000.0,
+Armindo Sieb,1.FSV Mainz 05,3500000.0,2026.0
+Nelson Weiper,1.FSV Mainz 05,12000000.0,2029.0
+Benedict Hollerbach,1.FSV Mainz 05,10000000.0,2029.0
+William Bøving,1.FSV Mainz 05,5000000.0,2029.0
+Phillip Tietz,1.FSV Mainz 05,3500000.0,2028.0
+Marvin Schwäbe,1.FC Köln,3000000.0,2027.0
+Ron-Robert Zieler,1.FC Köln,500000.0,2027.0
+Matthias Köbbing,1.FC Köln,100000.0,2027.0
+Rav van den Berg,1.FC Köln,8000000.0,2030.0
+Jahmai Simpson-Pusey,1.FC Köln,4000000.0,2026.0
+Joël Schmied,1.FC Köln,3500000.0,2029.0
+Timo Hübers,1.FC Köln,2500000.0,2026.0
+Cenk Özkacar,1.FC Köln,2000000.0,2026.0
+Dominique Heintz,1.FC Köln,700000.0,2026.0
+Luca Kilian,1.FC Köln,100000.0,2026.0
+Kristoffer Lund,1.FC Köln,4000000.0,2026.0
+Sebastian Sebulonsen,1.FC Köln,5500000.0,2028.0
+Eric Martel,1.FC Köln,8000000.0,2026.0
+Tom Krauß,1.FC Köln,3500000.0,2026.0
+Fayssal Harchaoui,1.FC Köln,200000.0,2028.0
+Ísak Jóhannesson,1.FC Köln,10000000.0,2030.0
+Denis Huseinbasic,1.FC Köln,3000000.0,2027.0
+Felipe Chávez,1.FC Köln,800000.0,2026.0
+Alessio Castro-Montes,1.FC Köln,3000000.0,2028.0
+Florian Kainz,1.FC Köln,1500000.0,2026.0
+Said El Mala,1.FC Köln,40000000.0,2030.0
+Jakub Kaminski,1.FC Köln,12000000.0,2026.0
+Linton Maina,1.FC Köln,3000000.0,
+Marius Bülter,1.FC Köln,2000000.0,2027.0
+Jan Thielmann,1.FC Köln,5000000.0,2028.0
+Youssoupha Niang,1.FC Köln,500000.0,2027.0
+Ragnar Ache,1.FC Köln,7000000.0,2029.0
+Luca Waldschmidt,1.FC Köln,2000000.0,2027.0
+Fynn Schenten,1.FC Köln,800000.0,2030.0
+Malek El Mala,1.FC Köln,250000.0,2030.0
+Frederik Rönnow,1.FC Union Berlin,2500000.0,
+Matheo Raab,1.FC Union Berlin,600000.0,
+Carl Klaus,1.FC Union Berlin,350000.0,
+Leopold Querfeld,1.FC Union Berlin,18000000.0,
+Danilho Doekhi,1.FC Union Berlin,13000000.0,2026.0
+Diogo Leite,1.FC Union Berlin,12000000.0,2026.0
+Stanley Nsoki,1.FC Union Berlin,1800000.0,2026.0
+Tom Rothe,1.FC Union Berlin,10000000.0,
+Derrick Köhn,1.FC Union Berlin,4000000.0,2029.0
+Andrik Markgraf,1.FC Union Berlin,,
+Josip Juranovic,1.FC Union Berlin,2500000.0,
+Christopher Trimmel,1.FC Union Berlin,600000.0,2027.0
+Aljoscha Kemlein,1.FC Union Berlin,9000000.0,
+Rani Khedira,1.FC Union Berlin,2000000.0,2026.0
+András Schäfer,1.FC Union Berlin,4500000.0,2027.0
+Alex Král,1.FC Union Berlin,4000000.0,2026.0
+Janik Haberer,1.FC Union Berlin,2500000.0,2027.0
+Robert Skov,1.FC Union Berlin,3000000.0,
+Woo-yeong Jeong,1.FC Union Berlin,3500000.0,
+Livan Burcu,1.FC Union Berlin,4000000.0,
+David Preu,1.FC Union Berlin,400000.0,
+Ilyas Ansah,1.FC Union Berlin,12000000.0,
+Andrej Ilic,1.FC Union Berlin,6000000.0,2027.0
+Oliver Burke,1.FC Union Berlin,4000000.0,2029.0
+Tim Skarke,1.FC Union Berlin,1800000.0,
+Dmytro Bogdanov,1.FC Union Berlin,600000.0,2029.0
+Nikola Vasilj,FC St. Pauli,4500000.0,
+Ben Voll,FC St. Pauli,500000.0,
+Simon Spari,FC St. Pauli,350000.0,
+Emil Gazdov,FC St. Pauli,175000.0,2026.0
+Eric Smith,FC St. Pauli,5000000.0,
+David Nemeth,FC St. Pauli,4000000.0,
+Hauke Wahl,FC St. Pauli,1500000.0,
+Tomoya Ando,FC St. Pauli,1000000.0,
+Adam Dzwigala,FC St. Pauli,900000.0,
+Karol Mets,FC St. Pauli,800000.0,2026.0
+Jannik Robatsch,FC St. Pauli,600000.0,
+Louis Oppie,FC St. Pauli,3000000.0,
+Lars Ritzka,FC St. Pauli,1000000.0,
+Arkadiusz Pyrka,FC St. Pauli,3000000.0,
+Manolis Saliakas,FC St. Pauli,2500000.0,
+Fin Stevens,FC St. Pauli,500000.0,
+James Sands,FC St. Pauli,4000000.0,2026.0
+Marwin Schmitz,FC St. Pauli,200000.0,
+Joel Chima Fujita,FC St. Pauli,8000000.0,
+Mathias Rasmussen,FC St. Pauli,2500000.0,2029.0
+Connor Metcalfe,FC St. Pauli,2000000.0,
+Jackson Irvine,FC St. Pauli,1500000.0,
+Nick Schmidt,FC St. Pauli,125000.0,
+Danel Sinani,FC St. Pauli,3000000.0,
+Mathias Pereira Lage,FC St. Pauli,3500000.0,2028.0
+Andréas Hountondji,FC St. Pauli,5000000.0,2026.0
+Martijn Kaars,FC St. Pauli,4000000.0,
+Taichi Hara,FC St. Pauli,1500000.0,
+Ricky-Jade Jones,FC St. Pauli,900000.0,
+Abdoulie Ceesay,FC St. Pauli,800000.0,
+Diant Ramaj,1.FC Heidenheim 1846,7000000.0,2026.0
+Frank Feller,1.FC Heidenheim 1846,500000.0,2029.0
+Paul Tschernuth,1.FC Heidenheim 1846,100000.0,2027.0
+Tim Siersleben,1.FC Heidenheim 1846,2500000.0,2028.0
+Benedikt Gimber,1.FC Heidenheim 1846,2500000.0,2028.0
+Patrick Mainka,1.FC Heidenheim 1846,2500000.0,2029.0
+Adam Kölle,1.FC Heidenheim 1846,1000000.0,2029.0
+Jonas Föhrenbach,1.FC Heidenheim 1846,1500000.0,2027.0
+Leart Paçarada,1.FC Heidenheim 1846,1000000.0,2027.0
+Hennes Behrens,1.FC Heidenheim 1846,400000.0,2026.0
+Leonidas Stergiou,1.FC Heidenheim 1846,3500000.0,2026.0
+Omar Traoré,1.FC Heidenheim 1846,3000000.0,2026.0
+Marnon Busch,1.FC Heidenheim 1846,1200000.0,2027.0
+Niklas Dorsch,1.FC Heidenheim 1846,3000000.0,2028.0
+Julian Niehues,1.FC Heidenheim 1846,1500000.0,2027.0
+Jan Schöppner,1.FC Heidenheim 1846,4000000.0,2028.0
+Luca Kerber,1.FC Heidenheim 1846,2000000.0,2027.0
+Nick Rothweiler,1.FC Heidenheim 1846,250000.0,2027.0
+Arijon Ibrahimovic,1.FC Heidenheim 1846,5000000.0,2026.0
+Adrian Beck,1.FC Heidenheim 1846,2000000.0,2028.0
+Mathias Honsak,1.FC Heidenheim 1846,2000000.0,2027.0
+Yannik Wagner,1.FC Heidenheim 1846,800000.0,2029.0
+Eren Dinkçi,1.FC Heidenheim 1846,6000000.0,2026.0
+Sirlord Conteh,1.FC Heidenheim 1846,1500000.0,2027.0
+Christian Conteh,1.FC Heidenheim 1846,800000.0,2029.0
+Marvin Pieringer,1.FC Heidenheim 1846,4500000.0,2027.0
+Mikkel Kaufmann,1.FC Heidenheim 1846,1800000.0,2028.0
+Budu Zivzivadze,1.FC Heidenheim 1846,1200000.0,2029.0
+Stefan Schimmer,1.FC Heidenheim 1846,500000.0,2026.0
+Lucas Chevalier,Paris Saint-Germain,35000000.0,2030.0
+Matvey Safonov,Paris Saint-Germain,15000000.0,2029.0
+Renato Marin,Paris Saint-Germain,500000.0,2030.0
+Willian Pacho,Paris Saint-Germain,70000000.0,2029.0
+Ilya Zabarnyi,Paris Saint-Germain,50000000.0,2030.0
+Marquinhos,Paris Saint-Germain,30000000.0,2028.0
+Lucas Beraldo,Paris Saint-Germain,20000000.0,2028.0
+Nuno Mendes,Paris Saint-Germain,75000000.0,2029.0
+Lucas Hernández,Paris Saint-Germain,20000000.0,2028.0
+Achraf Hakimi,Paris Saint-Germain,80000000.0,2029.0
+Vitinha,Paris Saint-Germain,110000000.0,2029.0
+João Neves,Paris Saint-Germain,110000000.0,2029.0
+Warren Zaïre-Emery,Paris Saint-Germain,50000000.0,2029.0
+Fabián Ruiz,Paris Saint-Germain,40000000.0,2027.0
+Senny Mayulu,Paris Saint-Germain,40000000.0,2027.0
+Kang-in Lee,Paris Saint-Germain,25000000.0,2028.0
+Dro Fernández,Paris Saint-Germain,10000000.0,2030.0
+Khvicha Kvaratskhelia,Paris Saint-Germain,90000000.0,2029.0
+Bradley Barcola,Paris Saint-Germain,70000000.0,2028.0
+Quentin Ndjantou,Paris Saint-Germain,7000000.0,2028.0
+Désiré Doué,Paris Saint-Germain,90000000.0,2029.0
+Ibrahim Mbaye,Paris Saint-Germain,25000000.0,2028.0
+Ousmane Dembélé,Paris Saint-Germain,100000000.0,2028.0
+Gonçalo Ramos,Paris Saint-Germain,35000000.0,2028.0
+Gerónimo Rulli,Olympique Marseille,9000000.0,2027.0
+Jeffrey de Lange,Olympique Marseille,2000000.0,2027.0
+Jelle Van Neck,Olympique Marseille,,2027.0
+Théo Vermot,Olympique Marseille,,2026.0
+Nayef Aguerd,Olympique Marseille,22000000.0,2030.0
+Leonardo Balerdi,Olympique Marseille,20000000.0,2028.0
+Benjamin Pavard,Olympique Marseille,20000000.0,2026.0
+Facundo Medina,Olympique Marseille,20000000.0,2026.0
+CJ Egan-Riley,Olympique Marseille,12000000.0,2029.0
+Emerson,Olympique Marseille,10000000.0,2027.0
+Arthur Vermeeren,Olympique Marseille,28000000.0,2026.0
+Pierre-Emile Højbjerg,Olympique Marseille,18000000.0,2028.0
+Geoffrey Kondogbia,Olympique Marseille,5000000.0,2027.0
+Tochukwu Nnadi,Olympique Marseille,2000000.0,2030.0
+Quinten Timber,Olympique Marseille,25000000.0,2030.0
+Bilal Nadir,Olympique Marseille,9000000.0,2026.0
+Timothy Weah,Olympique Marseille,20000000.0,2026.0
+Ethan Nwaneri,Olympique Marseille,40000000.0,2026.0
+Himad Abdelli,Olympique Marseille,7000000.0,2030.0
+Igor Paixão,Olympique Marseille,35000000.0,2030.0
+Hamed Traoré,Olympique Marseille,15000000.0,2026.0
+Mason Greenwood,Olympique Marseille,50000000.0,2029.0
+Amine Gouiri,Olympique Marseille,28000000.0,2029.0
+Pierre-Emerick Aubameyang,Olympique Marseille,3000000.0,2027.0
+Philipp Köhn,AS Monaco,4000000.0,2028.0
+Lukas Hradecky,AS Monaco,1800000.0,2027.0
+Jules Stawiecki,AS Monaco,150000.0,2029.0
+Yann Lienard,AS Monaco,100000.0,2027.0
+Thilo Kehrer,AS Monaco,18000000.0,2028.0
+Christian Mawissa,AS Monaco,15000000.0,2029.0
+Wout Faes,AS Monaco,12000000.0,2026.0
+Mohammed Salisu,AS Monaco,10000000.0,2028.0
+Eric Dier,AS Monaco,7000000.0,2028.0
+Caio Henrique,AS Monaco,15000000.0,2027.0
+Kassoum Ouattara,AS Monaco,9000000.0,2028.0
+Vanderson,AS Monaco,20000000.0,2028.0
+Jordan Teze,AS Monaco,12000000.0,2029.0
+Denis Zakaria,AS Monaco,25000000.0,2028.0
+Aladji Bamba,AS Monaco,3500000.0,2030.0
+Lamine Camara,AS Monaco,30000000.0,2029.0
+Mamadou Coulibaly,AS Monaco,8000000.0,2028.0
+Paul Pogba,AS Monaco,5000000.0,2027.0
+Krépin Diatta,AS Monaco,6000000.0,2026.0
+Aleksandr Golovin,AS Monaco,18000000.0,2029.0
+Stanis Idumbo,AS Monaco,5000000.0,2030.0
+Simon Adingra,AS Monaco,22000000.0,2026.0
+Takumi Minamino,AS Monaco,12000000.0,2027.0
+Ansu Fati,AS Monaco,10000000.0,2026.0
+Maghnes Akliouche,AS Monaco,45000000.0,2028.0
+Folarin Balogun,AS Monaco,22000000.0,2028.0
+Mika Biereth,AS Monaco,22000000.0,2030.0
+Paris Brunner,AS Monaco,1500000.0,2028.0
+Mike Penders,RC Strasbourg Alsace,15000000.0,2026.0
+Stefan Bajic,RC Strasbourg Alsace,500000.0,2026.0
+Karl-Johan Johnsson,RC Strasbourg Alsace,250000.0,2026.0
+Ismaël Doukouré,RC Strasbourg Alsace,18000000.0,2028.0
+Aarón Anselmino,RC Strasbourg Alsace,12000000.0,2026.0
+Lucas Høgsberg,RC Strasbourg Alsace,12000000.0,2030.0
+Andrew Omobamidele,RC Strasbourg Alsace,7000000.0,2029.0
+Ben Chilwell,RC Strasbourg Alsace,12000000.0,2027.0
+Guéla Doué,RC Strasbourg Alsace,18000000.0,2029.0
+Junior Mwanga,RC Strasbourg Alsace,7000000.0,2027.0
+Maxi Oyedele,RC Strasbourg Alsace,4000000.0,2030.0
+Rafael Luís,RC Strasbourg Alsace,4000000.0,2026.0
+Valentín Barco,RC Strasbourg Alsace,25000000.0,2029.0
+Mathis Amougou,RC Strasbourg Alsace,10000000.0,2030.0
+Samir El Mourabet,RC Strasbourg Alsace,8000000.0,2030.0
+Diego Moreira,RC Strasbourg Alsace,18000000.0,2029.0
+Sebastian Nanasi,RC Strasbourg Alsace,15000000.0,2029.0
+Julio Enciso,RC Strasbourg Alsace,20000000.0,2029.0
+Martial Godo,RC Strasbourg Alsace,7000000.0,2030.0
+Abdoul Ouattara,RC Strasbourg Alsace,9000000.0,2029.0
+Samuel Amo-Ameyaw,RC Strasbourg Alsace,8000000.0,2029.0
+Gessime Yassine,RC Strasbourg Alsace,6000000.0,2030.0
+Emmanuel Emegha,RC Strasbourg Alsace,28000000.0,2028.0
+Joaquín Panichelli,RC Strasbourg Alsace,25000000.0,2030.0
+David Datro Fofana,RC Strasbourg Alsace,5000000.0,2026.0
+Berke Özer,LOSC Lille,10000000.0,2029.0
+Arnaud Bodart,LOSC Lille,2000000.0,2027.0
+Marc-Aurèle Caillard,LOSC Lille,100000.0,2026.0
+Alexsandro,LOSC Lille,20000000.0,2028.0
+Nathan Ngoy,LOSC Lille,10000000.0,2029.0
+Chancel Mbemba,LOSC Lille,2500000.0,2026.0
+Aïssa Mandi,LOSC Lille,1000000.0,2026.0
+Rafael Fernandes,LOSC Lille,600000.0,2028.0
+Ousmane Touré,LOSC Lille,500000.0,2028.0
+Romain Perraud,LOSC Lille,7000000.0,2028.0
+Calvin Verdonk,LOSC Lille,3000000.0,2028.0
+Tiago Santos,LOSC Lille,12000000.0,2029.0
+Thomas Meunier,LOSC Lille,1800000.0,2026.0
+Ngal'ayel Mukau,LOSC Lille,12000000.0,2028.0
+Nabil Bentaleb,LOSC Lille,5000000.0,2026.0
+Benjamin André,LOSC Lille,4000000.0,2028.0
+Ayyoub Bouaddi,LOSC Lille,40000000.0,2029.0
+Hákon Arnar Haraldsson,LOSC Lille,22000000.0,2030.0
+Matías Fernández-Pardo,LOSC Lille,20000000.0,2029.0
+Osame Sahraoui,LOSC Lille,10000000.0,2029.0
+Félix Correia,LOSC Lille,10000000.0,2029.0
+Soriba Diaoune,LOSC Lille,300000.0,2028.0
+Ethan Mbappé,LOSC Lille,9000000.0,2027.0
+Marius Broholm,LOSC Lille,6000000.0,2030.0
+Gaëtan Perrin,LOSC Lille,6000000.0,2028.0
+Noah Edjouma,LOSC Lille,2500000.0,2030.0
+Hamza Igamane,LOSC Lille,18000000.0,2030.0
+Olivier Giroud,LOSC Lille,1000000.0,2026.0
+Dominik Greif,Olympique Lyon,8000000.0,2029.0
+Rémy Descamps,Olympique Lyon,2000000.0,2029.0
+Lassine Diarra,Olympique Lyon,50000.0,2028.0
+Moussa Niakhaté,Olympique Lyon,15000000.0,2028.0
+Clinton Mata,Olympique Lyon,3000000.0,2028.0
+Ruben Kluivert,Olympique Lyon,2500000.0,2030.0
+Noham Kamara,Olympique Lyon,1000000.0,2026.0
+Abner,Olympique Lyon,7000000.0,2029.0
+Nicolás Tagliafico,Olympique Lyon,5000000.0,2027.0
+Achraf Laâziri,Olympique Lyon,500000.0,2027.0
+Ainsley Maitland-Niles,Olympique Lyon,10000000.0,2027.0
+Hans Hateboer,Olympique Lyon,2000000.0,2026.0
+Tyler Morton,Olympique Lyon,18000000.0,2030.0
+Tanner Tessmann,Olympique Lyon,12000000.0,2029.0
+Orel Mangala,Olympique Lyon,10000000.0,2028.0
+Mathys De Carvalho,Olympique Lyon,4000000.0,2028.0
+Corentin Tolisso,Olympique Lyon,12000000.0,2027.0
+Khalis Merah,Olympique Lyon,8000000.0,2029.0
+Pavel Sulc,Olympique Lyon,12000000.0,2029.0
+Adam Karabec,Olympique Lyon,8000000.0,2026.0
+Noah Nartey,Olympique Lyon,8000000.0,2030.0
+Malick Fofana,Olympique Lyon,30000000.0,2028.0
+Afonso Moreira,Olympique Lyon,5000000.0,2029.0
+Rémi Himbert,Olympique Lyon,1500000.0,2028.0
+Ernest Nuamah,Olympique Lyon,12000000.0,2028.0
+Rachid Ghezzal,Olympique Lyon,700000.0,2026.0
+Endrick,Olympique Lyon,25000000.0,2026.0
+Roman Yaremchuk,Olympique Lyon,2500000.0,2026.0
+Brice Samba,Stade Rennais FC,10000000.0,2029.0
+Mathys Silistrie,Stade Rennais FC,,2029.0
+Jérémy Jacquet,Stade Rennais FC,20000000.0,2029.0
+Lilian Brassier,Stade Rennais FC,10000000.0,2029.0
+Abdelhamid Ait Boudlal,Stade Rennais FC,10000000.0,2028.0
+Anthony Rouault,Stade Rennais FC,9000000.0,2029.0
+Alidu Seidu,Stade Rennais FC,6000000.0,2029.0
+Quentin Merlin,Stade Rennais FC,12000000.0,2029.0
+Mahamadou Nagida,Stade Rennais FC,1500000.0,2029.0
+Przemyslaw Frankowski,Stade Rennais FC,7000000.0,2026.0
+Djaoui Cissé,Stade Rennais FC,15000000.0,2030.0
+Mahdi Camara,Stade Rennais FC,10000000.0,2029.0
+Valentin Rongier,Stade Rennais FC,9000000.0,2028.0
+Glen Kamara,Stade Rennais FC,2500000.0,2028.0
+Ludovic Blas,Stade Rennais FC,15000000.0,2027.0
+Sebastian Szymanski,Stade Rennais FC,12000000.0,2029.0
+Mousa Tamari,Stade Rennais FC,6000000.0,2028.0
+Arnaud Nordin,Stade Rennais FC,4000000.0,2026.0
+Nordan Mukiele,Stade Rennais FC,200000.0,2028.0
+Elías Legendre Quiñónez,Stade Rennais FC,100000.0,2029.0
+Estéban Lepaul,Stade Rennais FC,15000000.0,2029.0
+Breel Embolo,Stade Rennais FC,12000000.0,2029.0
+Yassir Zabiri,Stade Rennais FC,4000000.0,2029.0
+Yehvann Diouf,OGC Nice,9000000.0,2030.0
+Maxime Dupé,OGC Nice,800000.0,2026.0
+Bartosz Zelazowski,OGC Nice,,
+Youssouf Ndayishimiye,OGC Nice,8000000.0,2027.0
+Moïse Bombito,OGC Nice,8000000.0,2028.0
+Juma Bah,OGC Nice,7000000.0,2026.0
+Antoine Mendy,OGC Nice,4000000.0,2028.0
+Kojo Peprah Oppong,OGC Nice,4000000.0,2029.0
+Mohamed Abdelmonem,OGC Nice,3000000.0,2028.0
+Dante,OGC Nice,500000.0,2026.0
+Melvin Bard,OGC Nice,10000000.0,2028.0
+Ali Abdi,OGC Nice,2500000.0,2027.0
+Jonathan Clauss,OGC Nice,4500000.0,2028.0
+Charles Vanhoutte,OGC Nice,7000000.0,2029.0
+Salis Abdul Samed,OGC Nice,4500000.0,2028.0
+Everton,OGC Nice,200000.0,2029.0
+Hicham Boudaoui,OGC Nice,12000000.0,2027.0
+Morgan Sanson,OGC Nice,4000000.0,2027.0
+Tanguy Ndombélé,OGC Nice,3000000.0,2026.0
+Djibril Coulibaly,OGC Nice,500000.0,2028.0
+Tom Louchet,OGC Nice,5000000.0,2027.0
+Gabin Bernardeau,OGC Nice,500000.0,2029.0
+Sofiane Diop,OGC Nice,10000000.0,2027.0
+Isak Jansson,OGC Nice,5000000.0,
+Mohamed-Ali Cho,OGC Nice,12000000.0,2028.0
+Tiago Gouveia,OGC Nice,4000000.0,2026.0
+Kaïl Boudache,OGC Nice,,
+Elye Wahi,OGC Nice,12000000.0,2026.0
+Kevin Carlos,OGC Nice,6000000.0,2030.0
+Obed Nkambadio,Paris FC,6000000.0,2027.0
+Kevin Trapp,Paris FC,2000000.0,2028.0
+Rémy Riou,Paris FC,100000.0,2026.0
+Otávio,Paris FC,10000000.0,2030.0
+Diego Coppola,Paris FC,10000000.0,2026.0
+Moustapha Mbow,Paris FC,5000000.0,2028.0
+Samir Chergui,Paris FC,3000000.0,
+Timothée Kolodziejczak,Paris FC,200000.0,2026.0
+Nhoa Sangui,Paris FC,5000000.0,2030.0
+Thibault De Smet,Paris FC,2000000.0,2027.0
+Tuomas Ollila,Paris FC,500000.0,2027.0
+Hamari Traoré,Paris FC,1800000.0,2027.0
+Sofiane Alakouch,Paris FC,200000.0,2026.0
+Maxime Lopez,Paris FC,6000000.0,2027.0
+Pierre Lees-Melou,Paris FC,5000000.0,2027.0
+Adama Camara,Paris FC,2500000.0,2027.0
+Marshall Munetsi,Paris FC,12000000.0,2026.0
+Rudy Matondo,Paris FC,3000000.0,
+Vincent Marchetti,Paris FC,2000000.0,2026.0
+Moses Simon,Paris FC,7000000.0,2028.0
+Alimami Gory,Paris FC,1200000.0,2026.0
+Julien Lopez,Paris FC,200000.0,2026.0
+Ilan Kebbal,Paris FC,12000000.0,2028.0
+Jonathan Ikoné,Paris FC,5000000.0,2027.0
+Luca Koleosho,Paris FC,4000000.0,2026.0
+Mathieu Cafaro,Paris FC,2000000.0,2027.0
+Lamine Gueye,Paris FC,250000.0,2026.0
+Willem Geubbels,Paris FC,7000000.0,2030.0
+Jean-Philippe Krasso,Paris FC,4000000.0,2027.0
+Ciro Immobile,Paris FC,2000000.0,2027.0
+Pierre-Yves Hamel,Paris FC,400000.0,2026.0
+Robin Risser,RC Lens,10000000.0,2030.0
+Mathieu Gorgelin,RC Lens,250000.0,2026.0
+Régis Gurtner,RC Lens,100000.0,2026.0
+Ilan Jourdren,RC Lens,,2029.0
+Samson Baidoo,RC Lens,12000000.0,2030.0
+Malang Sarr,RC Lens,10000000.0,2026.0
+Jonathan Gradit,RC Lens,3000000.0,2028.0
+Ismaëlo Ganiou,RC Lens,3000000.0,2028.0
+Nidal Celik,RC Lens,1000000.0,2029.0
+Kyllian Antonio,RC Lens,250000.0,
+Matthieu Udol,RC Lens,5000000.0,2028.0
+Arthur Masuaku,RC Lens,2500000.0,2026.0
+Ruben Aguilar,RC Lens,3000000.0,2028.0
+Saud Abdulhamid,RC Lens,3000000.0,2026.0
+Fodé Sylla,RC Lens,1000000.0,2028.0
+Mamadou Sangaré,RC Lens,15000000.0,2030.0
+Amadou Haidara,RC Lens,6000000.0,2029.0
+Adrien Thomasson,RC Lens,4500000.0,2026.0
+Andrija Bulatovic,RC Lens,1800000.0,2030.0
+Alpha Diallo,RC Lens,,2027.0
+Allan Saint-Maximin,RC Lens,10000000.0,2026.0
+Abdallah Sima,RC Lens,4000000.0,2029.0
+Anthony Bermont,RC Lens,1000000.0,2029.0
+Florian Thauvin,RC Lens,5000000.0,2028.0
+Odsonne Édouard,RC Lens,8000000.0,2028.0
+Rayan Fofana,RC Lens,5000000.0,2029.0
+Wesley Saïd,RC Lens,4000000.0,2026.0
+Florian Sotoca,RC Lens,1500000.0,2027.0
+Guillaume Restes,FC Toulouse,20000000.0,2028.0
+Kjetil Haug,FC Toulouse,500000.0,2026.0
+Álex Domínguez,FC Toulouse,250000.0,2027.0
+Charlie Cresswell,FC Toulouse,15000000.0,2028.0
+Mark McKenzie,FC Toulouse,6000000.0,2027.0
+Rasmus Nicolaisen,FC Toulouse,5000000.0,2027.0
+Seny Koumbassa,FC Toulouse,100000.0,2028.0
+Dayann Methalie,FC Toulouse,8000000.0,2030.0
+Warren Kamanzi,FC Toulouse,1500000.0,2026.0
+Djibril Sidibé,FC Toulouse,1000000.0,2026.0
+Rafik Messali,FC Toulouse,800000.0,2028.0
+Cristian Cásseres Jr.,FC Toulouse,7000000.0,2027.0
+Pape Demba Diop,FC Toulouse,4000000.0,2026.0
+Alexis Vossah,FC Toulouse,3000000.0,2028.0
+Abu Francis,FC Toulouse,2000000.0,2029.0
+Mario Sauer,FC Toulouse,1800000.0,
+Aron Dønnum,FC Toulouse,5000000.0,2027.0
+Yann Gboho,FC Toulouse,12000000.0,2027.0
+Frank Magri,FC Toulouse,4000000.0,2026.0
+Emersonn,FC Toulouse,4000000.0,
+Jacen Russell-Rowe,FC Toulouse,3500000.0,2029.0
+Santiago Hidalgo,FC Toulouse,2000000.0,2029.0
+Julián Vignolo,FC Toulouse,1000000.0,2029.0
+Enzo Faty,FC Toulouse,,
+Anthony Lopes,FC Nantes,1000000.0,2026.0
+Patrik Carlgren,FC Nantes,500000.0,2026.0
+Alexis Mirbach,FC Nantes,50000.0,2028.0
+Tylel Tati,FC Nantes,12000000.0,2028.0
+Abakar Sylla,FC Nantes,3000000.0,2026.0
+Chidozie Awaziem,FC Nantes,3000000.0,2028.0
+Ali Youssif,FC Nantes,800000.0,2028.0
+Uros Radakovic,FC Nantes,500000.0,2027.0
+Sékou Doucouré,FC Nantes,50000.0,2027.0
+Nicolas Cozza,FC Nantes,3000000.0,2026.0
+Deiver Machado,FC Nantes,2500000.0,2028.0
+Kelvin Amian,FC Nantes,2500000.0,2028.0
+Fabien Centonze,FC Nantes,1200000.0,2027.0
+Frédéric Guilbert,FC Nantes,800000.0,2026.0
+Johann Lepenant,FC Nantes,7000000.0,2029.0
+Ibrahima Sissoko,FC Nantes,3000000.0,2028.0
+Francis Coquelin,FC Nantes,800000.0,2026.0
+Bahmed Deuff,FC Nantes,300000.0,2029.0
+Dehmaine Tabibou,FC Nantes,2000000.0,2030.0
+Mohamed Kaba,FC Nantes,1500000.0,2026.0
+Louis Leroux,FC Nantes,9000000.0,2030.0
+Rémy Cabella,FC Nantes,1500000.0,2026.0
+Herba Guirassy,FC Nantes,6000000.0,2028.0
+Matthis Abline,FC Nantes,20000000.0,2028.0
+Mostafa Mohamed,FC Nantes,4000000.0,2027.0
+Ignatius Ganago,FC Nantes,2000000.0,2027.0
+Amady Camara,FC Nantes,1200000.0,2026.0
+Youssef El Arabi,FC Nantes,150000.0,2026.0
+Radoslaw Majecki,Stade Brestois 29,4000000.0,2026.0
+Grégoire Coudert,Stade Brestois 29,800000.0,2027.0
+Noah Jauny,Stade Brestois 29,,2027.0
+Soumaïla Coulibaly,Stade Brestois 29,7000000.0,2026.0
+Junior Diaz,Stade Brestois 29,5000000.0,2026.0
+Brendan Chardonnet,Stade Brestois 29,5000000.0,2027.0
+Raphaël Le Guen,Stade Brestois 29,50000.0,2029.0
+Bradley Locko,Stade Brestois 29,7000000.0,2027.0
+Daouda Guindo,Stade Brestois 29,2000000.0,2026.0
+Luck Zogbé,Stade Brestois 29,2000000.0,2029.0
+Kenny Lala,Stade Brestois 29,1800000.0,2027.0
+Joris Chotard,Stade Brestois 29,6000000.0,2029.0
+Hamidou Makalou,Stade Brestois 29,800000.0,2029.0
+Hugo Magnetti,Stade Brestois 29,6000000.0,2027.0
+Lucas Tousart,Stade Brestois 29,2000000.0,2027.0
+Junior Dina Ebimbe,Stade Brestois 29,6000000.0,2026.0
+Kamory Doumbia,Stade Brestois 29,7000000.0,2029.0
+Pathé Mboup,Stade Brestois 29,3000000.0,2030.0
+Romain Del Castillo,Stade Brestois 29,7000000.0,2027.0
+Mama Baldé,Stade Brestois 29,3500000.0,2027.0
+Ludovic Ajorque,Stade Brestois 29,3500000.0,2027.0
+Rémy Labeau Lascary,Stade Brestois 29,1800000.0,2026.0
+Saliou Diop,Stade Brestois 29,50000.0,2026.0
+Yvon Mvogo,FC Lorient,3000000.0,2027.0
+Bingourou Kamara,FC Lorient,700000.0,2027.0
+Benjamin Leroy,FC Lorient,100000.0,2026.0
+Montassar Talbi,FC Lorient,7000000.0,2027.0
+Bamo Meïté,FC Lorient,4000000.0,2026.0
+Abdoulaye Faye,FC Lorient,3000000.0,2026.0
+Isaak Touré,FC Lorient,2500000.0,2028.0
+Nathaniel Adjei,FC Lorient,1200000.0,2026.0
+Arsène Kouassi,FC Lorient,7000000.0,2029.0
+Darlin Yongwa,FC Lorient,4000000.0,2026.0
+Igor Silva,FC Lorient,1000000.0,2026.0
+Laurent Abergel,FC Lorient,2000000.0,2029.0
+Arthur Avom,FC Lorient,9000000.0,2026.0
+Noah Cadiou,FC Lorient,1000000.0,2029.0
+Théo Le Bris,FC Lorient,2000000.0,2027.0
+Panos Katseris,FC Lorient,2000000.0,2028.0
+Dermane Karim,FC Lorient,3000000.0,2026.0
+Jean-Victor Makengo,FC Lorient,2500000.0,2027.0
+Bandiougou Fadiga,FC Lorient,250000.0,2028.0
+Pablo Pagis,FC Lorient,5000000.0,2027.0
+Trevan Sanusi,FC Lorient,500000.0,2026.0
+Sambou Soumano,FC Lorient,4000000.0,2026.0
+Mohamed Bamba,FC Lorient,2500000.0,2028.0
+Aiyegun Tosin,FC Lorient,2000000.0,2027.0
+Bamba Dieng,FC Lorient,1800000.0,2026.0
+Donovan Léon,AJ Auxerre,900000.0,2027.0
+Théo De Percin,AJ Auxerre,300000.0,2028.0
+Tom Negrel,AJ Auxerre,50000.0,2026.0
+Louis Mezerette,AJ Auxerre,,2028.0
+Clément Akpa,AJ Auxerre,8000000.0,2028.0
+Sinaly Diomandé,AJ Auxerre,4000000.0,2027.0
+Francisco Sierralta,AJ Auxerre,1500000.0,2029.0
+Bryan Okoh,AJ Auxerre,1200000.0,2029.0
+Telli Siwe,AJ Auxerre,1000000.0,2029.0
+Elikya Legros,AJ Auxerre,,2028.0
+Alvin Petit Dol,AJ Auxerre,,
+Gideon Mensah,AJ Auxerre,3500000.0,2026.0
+Fredrik Oppegård,AJ Auxerre,600000.0,2028.0
+Marvin Senaya,AJ Auxerre,3000000.0,2029.0
+Lamine Sy,AJ Auxerre,800000.0,2029.0
+Elisha Owusu,AJ Auxerre,3500000.0,2027.0
+Oussama El Azzouzi,AJ Auxerre,1800000.0,2026.0
+Assane Dioussé,AJ Auxerre,600000.0,2026.0
+Nathan Buayi-Kiala,AJ Auxerre,100000.0,2026.0
+Kévin Danois,AJ Auxerre,10000000.0,2029.0
+Naouirou Ahamada,AJ Auxerre,3500000.0,2027.0
+Tidiane Devernois,AJ Auxerre,50000.0,2028.0
+Romain Faivre,AJ Auxerre,5000000.0,2026.0
+Danny Namaso,AJ Auxerre,5000000.0,2026.0
+Josué Casimir,AJ Auxerre,3500000.0,2028.0
+Lasso Coulibaly,AJ Auxerre,900000.0,2028.0
+Lassine Sinayoko,AJ Auxerre,7000000.0,2027.0
+Sékou Mara,AJ Auxerre,4000000.0,2026.0
+Ryan Rodin,AJ Auxerre,50000.0,2028.0
+Mory Diaw,Le Havre AC,1000000.0,2027.0
+Lionel Mpasi-Nzau,Le Havre AC,400000.0,2027.0
+Paul Argney,Le Havre AC,50000.0,2027.0
+Arouna Sangante,Le Havre AC,8000000.0,2026.0
+Gautier Lloris,Le Havre AC,3000000.0,2026.0
+Étienne Youté Kinkoué,Le Havre AC,3000000.0,2026.0
+Stephan Zagadou,Le Havre AC,100000.0,
+Yanis Zouaoui,Le Havre AC,1800000.0,2027.0
+Enzo Koffi,Le Havre AC,100000.0,
+Fodé Doucouré,Le Havre AC,2000000.0,2027.0
+Timothée Pembélé,Le Havre AC,2000000.0,2026.0
+Loïc Nego,Le Havre AC,600000.0,2026.0
+Lucas Gourna-Douath,Le Havre AC,4000000.0,2026.0
+Ayumu Seko,Le Havre AC,3000000.0,2027.0
+Abdoulaye Touré,Le Havre AC,3000000.0,2026.0
+Daren Mosengo,Le Havre AC,50000.0,
+Yassine Kechta,Le Havre AC,5000000.0,2026.0
+Rassoul Ndiaye,Le Havre AC,5000000.0,2028.0
+Simon Ebonog,Le Havre AC,1000000.0,2029.0
+Guy-Noël Zohouri,Le Havre AC,,2027.0
+Sofiane Boufal,Le Havre AC,2000000.0,2026.0
+Reda Khadra,Le Havre AC,1800000.0,2026.0
+Issa Soumaré,Le Havre AC,5000000.0,2026.0
+Felix Mambimbi,Le Havre AC,600000.0,2027.0
+Godson Kyeremeh,Le Havre AC,800000.0,2027.0
+Ally Samatta,Le Havre AC,800000.0,2026.0
+Noam Obougou,Le Havre AC,150000.0,
+Kenny Quetant,Le Havre AC,150000.0,2026.0
+Jonathan Fischer,FC Metz,3000000.0,2029.0
+Pape Sy,FC Metz,300000.0,2026.0
+Ousmane Ba,FC Metz,100000.0,2027.0
+Sadibou Sané,FC Metz,4000000.0,2027.0
+Terry Yegbe,FC Metz,3000000.0,2029.0
+Jean-Philippe Gbamin,FC Metz,2000000.0,2026.0
+Michel Mboula,FC Metz,1000000.0,2028.0
+Fodé Ballo-Touré,FC Metz,1000000.0,2026.0
+Yannis Lawson,FC Metz,250000.0,2028.0
+Koffi Kouao,FC Metz,2500000.0,2026.0
+Bouna Sarr,FC Metz,400000.0,2026.0
+Maxime Colin,FC Metz,300000.0,2027.0
+Cléo Mélières,FC Metz,100000.0,2026.0
+Boubacar Traoré,FC Metz,5000000.0,2026.0
+Alpha Touré,FC Metz,2000000.0,2028.0
+Benjamin Stambouli,FC Metz,300000.0,2026.0
+Jessy Deminguet,FC Metz,2500000.0,2028.0
+Believe Munongo,FC Metz,1000000.0,2027.0
+Ismaël Guerti,FC Metz,100000.0,2027.0
+Giorgi Tsitaishvili,FC Metz,2500000.0,2026.0
+Lucas Michal,FC Metz,2500000.0,2026.0
+Giorgi Abuashvili,FC Metz,1200000.0,2026.0
+Gauthier Hein,FC Metz,5000000.0,2028.0
+Joel Asoro,FC Metz,900000.0,2027.0
+Habib Diallo,FC Metz,5000000.0,2028.0
+Giorgi Kvilitaia,FC Metz,1000000.0,2026.0
+Joseph Mangondo,FC Metz,50000.0,2028.0
+Nathan Mbala,FC Metz,,2026.0
+Hervé Koffi,Angers SCO,3000000.0,2026.0
+Melvin Zinga,Angers SCO,300000.0,2026.0
+Oumar Pona,Angers SCO,100000.0,2027.0
+Ousmane Camara,Angers SCO,4000000.0,2029.0
+Emmanuel Biumla,Angers SCO,3000000.0,2028.0
+Jordan Lefort,Angers SCO,1200000.0,2029.0
+Abdoulaye Bamba,Angers SCO,250000.0,2026.0
+Jacques Ekomié,Angers SCO,4000000.0,2027.0
+Florent Hanin,Angers SCO,250000.0,2026.0
+Dan Sinaté,Angers SCO,,2029.0
+Carlens Arcus,Angers SCO,1800000.0,2026.0
+Lilian Raolisoa,Angers SCO,1800000.0,2028.0
+Marius Louër,Angers SCO,100000.0,2028.0
+Marius Courcoul,Angers SCO,700000.0,2026.0
+Yassin Belkhdim,Angers SCO,4000000.0,2028.0
+Branco van den Boomen,Angers SCO,2500000.0,2026.0
+Haris Belkebla,Angers SCO,2000000.0,2026.0
+Pierrick Capelle,Angers SCO,200000.0,2026.0
+Louis Mouton,Angers SCO,2500000.0,2028.0
+Amine Sbaï,Angers SCO,1500000.0,2027.0
+Harouna Djibirin,Angers SCO,200000.0,2028.0
+Prosper Peter,Angers SCO,5000000.0,2028.0
+Goduine Koyalipou,Angers SCO,2500000.0,2026.0
+Lanroy Machine,Angers SCO,700000.0,

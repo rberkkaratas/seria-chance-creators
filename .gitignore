@@ -33,6 +33,7 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+.streamlit/app_legacy.py
 
 # SeleniumBase runtime files
 downloaded_files/
