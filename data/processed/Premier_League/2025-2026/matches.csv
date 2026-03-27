@@ -3,6 +3,14 @@ Premier_League,1903336,01012026,30,Tottenham,189,Brentford,0,0,1572
 Premier_League,1903345,01012026,170,Fulham,162,Crystal Palace,1,1,1622
 Premier_League,1903348,01012026,26,Liverpool,19,Leeds,0,0,1624
 Premier_League,1903357,01012026,167,Man City,16,Sunderland,0,0,1612
+Premier_League,1903262,01022026,24,Aston Villa,189,Brentford,0,1,1534
+Premier_League,1903272,01022026,32,Man Utd,170,Fulham,3,2,1599
+Premier_League,1903273,01022026,174,Nottingham Forest,162,Crystal Palace,1,1,1485
+Premier_League,1903277,01022026,167,Man City,30,Tottenham,2,2,1624
+Premier_League,1903399,01032026,15,Chelsea,13,Arsenal,0,3,1405
+Premier_League,1903400,01032026,211,Brighton,174,Nottingham Forest,2,1,1568
+Premier_League,1903404,01032026,30,Tottenham,170,Fulham,1,2,1541
+Premier_League,1903410,01032026,32,Man Utd,162,Crystal Palace,2,1,1617
 Premier_League,1903207,01112025,211,Brighton,19,Leeds,3,0,1542
 Premier_League,1903208,01112025,184,Burnley,13,Arsenal,0,2,1516
 Premier_League,1903209,01112025,162,Crystal Palace,189,Brentford,1,1,1414
@@ -10,13 +18,20 @@ Premier_League,1903210,01112025,161,Wolves,170,Fulham,1,2,1501
 Premier_League,1903211,01112025,24,Aston Villa,26,Liverpool,0,2,1411
 Premier_League,1903213,01112025,174,Nottingham Forest,32,Man Utd,2,2,1525
 Premier_League,1903215,01112025,15,Chelsea,30,Tottenham,1,0,1575
+Premier_League,1903275,02022026,16,Sunderland,184,Burnley,2,1,1533
 Premier_League,1903212,02112025,183,Bournemouth,167,Man City,1,3,1615
 Premier_League,1903216,02112025,23,Newcastle,29,West Ham,2,2,1486
 Premier_League,1903247,02122025,31,Everton,183,Bournemouth,1,0,1557
 Premier_League,1903251,02122025,170,Fulham,167,Man City,5,4,1696
+Premier_League,1903255,02122025,23,Newcastle,30,Tottenham,2,2,1570
+Premier_League,1903263,03012026,161,Wolves,29,West Ham,3,0,1570
 Premier_League,1903363,03012026,183,Bournemouth,13,Arsenal,2,3,1472
 Premier_League,1903366,03012026,174,Nottingham Forest,24,Aston Villa,1,3,1498
 Premier_League,1903369,03012026,211,Brighton,184,Burnley,2,0,1628
+Premier_League,1903416,03032026,189,Brentford,183,Bournemouth,0,0,1569
+Premier_League,1903423,03032026,184,Burnley,31,Everton,0,2,1671
+Premier_League,1903427,03032026,19,Leeds,16,Sunderland,0,1,1508
+Premier_League,1903435,03032026,161,Wolves,26,Liverpool,2,1,1571
 Premier_League,1903163,03102025,170,Fulham,183,Bournemouth,1,3,1637
 Premier_League,1903214,03112025,16,Sunderland,31,Everton,1,1,1515
 Premier_League,1903248,03122025,13,Arsenal,189,Brentford,2,0,1524
@@ -24,15 +39,24 @@ Premier_League,1903249,03122025,211,Brighton,24,Aston Villa,2,5,1483
 Premier_League,1903250,03122025,184,Burnley,162,Crystal Palace,0,1,1673
 Premier_League,1903252,03122025,15,Chelsea,19,Leeds,1,3,1621
 Premier_League,1903253,03122025,16,Sunderland,26,Liverpool,2,0,1575
+Premier_League,1903256,03122025,174,Nottingham Forest,161,Wolves,1,0,1510
+Premier_League,1903259,04012026,23,Newcastle,162,Crystal Palace,2,0,1633
+Premier_League,1903261,04012026,30,Tottenham,16,Sunderland,1,1,1438
 Premier_League,1903371,04012026,31,Everton,189,Brentford,2,4,1578
 Premier_League,1903374,04012026,26,Liverpool,170,Fulham,2,2,1681
 Premier_League,1903375,04012026,32,Man Utd,19,Leeds,1,1,1633
 Premier_League,1903376,04012026,167,Man City,15,Chelsea,1,1,1642
+Premier_League,1903418,04032026,15,Chelsea,24,Aston Villa,4,1,1547
+Premier_League,1903421,04032026,211,Brighton,13,Arsenal,0,1,1488
+Premier_League,1903425,04032026,170,Fulham,29,West Ham,0,1,1575
+Premier_League,1903429,04032026,167,Man City,174,Nottingham Forest,2,2,1669
+Premier_League,1903431,04032026,32,Man Utd,23,Newcastle,1,2,1498
 Premier_League,1903165,04102025,13,Arsenal,29,West Ham,2,0,1461
 Premier_League,1903170,04102025,26,Liverpool,15,Chelsea,1,2,1563
 Premier_League,1903174,04102025,19,Leeds,30,Tottenham,1,2,1452
 Premier_League,1903176,04102025,16,Sunderland,32,Man Utd,0,2,1542
 Premier_League,1903254,04122025,29,West Ham,32,Man Utd,1,1,1584
+Premier_League,1903433,05032026,162,Crystal Palace,30,Tottenham,3,1,1409
 Premier_League,1903166,05102025,184,Burnley,24,Aston Villa,1,2,1491
 Premier_League,1903168,05102025,167,Man City,189,Brentford,1,0,1622
 Premier_League,1903172,05102025,31,Everton,162,Crystal Palace,2,1,1636
@@ -40,6 +64,20 @@ Premier_League,1903180,05102025,23,Newcastle,174,Nottingham Forest,2,0,1592
 Premier_League,1903182,05102025,161,Wolves,211,Brighton,0,2,1552
 Premier_League,1903288,06012026,174,Nottingham Forest,29,West Ham,3,0,1535
 Premier_League,1903295,06022026,174,Nottingham Forest,19,Leeds,1,3,1517
+Premier_League,1903257,06122025,183,Bournemouth,15,Chelsea,0,0,1539
+Premier_League,1903258,06122025,13,Arsenal,24,Aston Villa,1,2,1454
+Premier_League,1903477,06122025,174,Nottingham Forest,31,Everton,1,2,1482
+Premier_League,1903479,06122025,26,Liverpool,19,Leeds,3,3,1540
+Premier_League,1903480,06122025,16,Sunderland,167,Man City,0,3,1543
+Premier_League,1903481,06122025,184,Burnley,23,Newcastle,1,2,1506
+Premier_League,1903482,06122025,30,Tottenham,189,Brentford,2,0,1461
+Premier_League,1903265,07012026,183,Bournemouth,30,Tottenham,3,2,1444
+Premier_League,1903269,07012026,189,Brentford,16,Sunderland,3,0,1377
+Premier_League,1903271,07012026,184,Burnley,32,Man Utd,1,3,1581
+Premier_League,1903274,07012026,24,Aston Villa,162,Crystal Palace,0,0,1469
+Premier_League,1903276,07012026,161,Wolves,31,Everton,1,1,1483
+Premier_League,1903279,07012026,170,Fulham,15,Chelsea,2,1,1650
+Premier_League,1903282,07012026,211,Brighton,167,Man City,1,1,1635
 Premier_League,1903285,07012026,23,Newcastle,19,Leeds,4,3,1577
 Premier_League,1903280,07022026,24,Aston Villa,183,Bournemouth,1,1,1480
 Premier_League,1903283,07022026,13,Arsenal,16,Sunderland,3,0,1416
@@ -48,6 +86,9 @@ Premier_League,1903292,07022026,31,Everton,170,Fulham,2,1,1491
 Premier_League,1903301,07022026,32,Man Utd,30,Tottenham,2,0,1574
 Premier_League,1903306,07022026,189,Brentford,23,Newcastle,3,2,1465
 Premier_League,1903309,07022026,15,Chelsea,161,Wolves,3,1,1716
+Premier_League,1903476,07122025,211,Brighton,29,West Ham,1,1,1524
+Premier_League,1903478,07122025,170,Fulham,162,Crystal Palace,1,2,1624
+Premier_League,1903267,08012026,26,Liverpool,13,Arsenal,0,0,1445
 Premier_League,1903286,08022026,162,Crystal Palace,211,Brighton,1,0,1560
 Premier_League,1903298,08022026,167,Man City,26,Liverpool,2,1,1524
 Premier_League,1903219,08112025,161,Wolves,15,Chelsea,0,3,1499
@@ -56,6 +97,7 @@ Premier_League,1903224,08112025,16,Sunderland,13,Arsenal,2,2,1400
 Premier_League,1903225,08112025,30,Tottenham,32,Man Utd,2,2,1550
 Premier_League,1903226,08112025,184,Burnley,29,West Ham,2,3,1556
 Premier_League,1903233,08112025,134,Borussia M.Gladbach,282,FC Koln,3,1,1631
+Premier_League,1903483,08122025,161,Wolves,32,Man Utd,1,4,1610
 Premier_League,1903217,09112025,183,Bournemouth,24,Aston Villa,0,4,1337
 Premier_League,1903218,09112025,189,Brentford,23,Newcastle,3,1,1499
 Premier_League,1903220,09112025,211,Brighton,162,Crystal Palace,0,0,1548
@@ -79,9 +121,29 @@ Premier_League,1903152,13092025,24,Aston Villa,31,Everton,0,0,1390
 Premier_League,1903153,13092025,19,Leeds,170,Fulham,1,0,1493
 Premier_League,1903155,13092025,161,Wolves,23,Newcastle,0,1,1474
 Premier_League,1903156,13092025,30,Tottenham,29,West Ham,3,0,1446
+Premier_League,1903484,13122025,161,Wolves,13,Arsenal,3,0,1424
+Premier_League,1903486,13122025,184,Burnley,170,Fulham,2,3,1618
+Premier_League,1903487,13122025,15,Chelsea,31,Everton,2,0,1554
+Premier_League,1903489,13122025,211,Brighton,26,Liverpool,0,2,1661
+Premier_League,1903437,14032026,13,Arsenal,31,Everton,2,0,1558
+Premier_League,1903441,14032026,184,Burnley,183,Bournemouth,0,0,1512
+Premier_League,1903443,14032026,15,Chelsea,23,Newcastle,0,1,1607
+Premier_League,1903456,14032026,16,Sunderland,211,Brighton,0,1,1539
+Premier_League,1903459,14032026,29,West Ham,167,Man City,1,1,1726
 Premier_League,1903150,14092025,26,Liverpool,184,Burnley,1,0,1505
 Premier_League,1903154,14092025,167,Man City,32,Man Utd,3,0,1542
+Premier_League,1903485,14122025,189,Brentford,19,Leeds,1,1,1527
+Premier_League,1903488,14122025,162,Crystal Palace,167,Man City,0,3,1598
+Premier_League,1903491,14122025,174,Nottingham Forest,30,Tottenham,3,0,1477
+Premier_League,1903492,14122025,23,Newcastle,16,Sunderland,1,0,1490
+Premier_League,1903493,14122025,24,Aston Villa,29,West Ham,2,3,1537
+Premier_League,1903445,15032026,19,Leeds,162,Crystal Palace,0,0,1427
+Premier_League,1903447,15032026,30,Tottenham,26,Liverpool,1,1,1547
+Premier_League,1903450,15032026,32,Man Utd,24,Aston Villa,3,1,1478
+Premier_League,1903452,15032026,174,Nottingham Forest,170,Fulham,0,0,1498
 Premier_League,1903117,15082025,26,Liverpool,183,Bournemouth,4,2,1543
+Premier_League,1903490,15122025,32,Man Utd,183,Bournemouth,4,4,1415
+Premier_League,1903439,16032026,189,Brentford,161,Wolves,2,2,1476
 Premier_League,1903118,16082025,24,Aston Villa,23,Newcastle,0,0,1366
 Premier_League,1903119,16082025,170,Fulham,211,Brighton,1,1,1422
 Premier_League,1903121,16082025,29,West Ham,16,Sunderland,0,3,1463
@@ -99,6 +161,7 @@ Premier_League,1903124,17082025,15,Chelsea,162,Crystal Palace,0,0,1421
 Premier_League,1903125,17082025,32,Man Utd,13,Arsenal,0,1,1447
 Premier_League,1903291,18012026,24,Aston Villa,31,Everton,0,1,1428
 Premier_League,1903317,18012026,23,Newcastle,161,Wolves,0,0,1522
+Premier_League,1903469,18022026,13,Arsenal,161,Wolves,2,2,1520
 Premier_League,1903126,18082025,31,Everton,19,Leeds,0,1,1521
 Premier_League,1903184,18102025,23,Newcastle,211,Brighton,1,2,1585
 Premier_League,1903187,18102025,19,Leeds,184,Burnley,0,2,1544
@@ -109,6 +172,8 @@ Premier_League,1903193,18102025,174,Nottingham Forest,15,Chelsea,0,3,1530
 Premier_League,1903194,18102025,16,Sunderland,161,Wolves,1,1,1483
 Premier_League,1903294,19012026,183,Bournemouth,211,Brighton,1,1,1599
 Premier_League,1903191,19102025,26,Liverpool,32,Man Utd,1,2,1472
+Premier_League,1903195,19102025,30,Tottenham,24,Aston Villa,1,2,1380
+Premier_League,1903460,20032026,32,Man Utd,183,Bournemouth,1,3,1572
 Premier_League,1903159,20092025,211,Brighton,30,Tottenham,3,1,1539
 Premier_League,1903160,20092025,174,Nottingham Forest,184,Burnley,1,1,1605
 Premier_League,1903162,20092025,189,Brentford,170,Fulham,2,2,1491
@@ -117,20 +182,34 @@ Premier_League,1903167,20092025,15,Chelsea,32,Man Utd,1,2,1586
 Premier_League,1903171,20092025,162,Crystal Palace,29,West Ham,2,1,1467
 Premier_League,1903173,20092025,19,Leeds,161,Wolves,3,1,1654
 Premier_League,1903196,20102025,189,Brentford,29,West Ham,2,0,1498
+Premier_League,1903281,20122025,13,Arsenal,31,Everton,1,0,1630
 Premier_League,1903287,20122025,162,Crystal Palace,19,Leeds,1,4,1501
 Premier_League,1903290,20122025,29,West Ham,167,Man City,0,3,1708
 Premier_League,1903293,20122025,15,Chelsea,23,Newcastle,2,2,1427
 Premier_League,1903296,20122025,26,Liverpool,30,Tottenham,2,1,1537
 Premier_League,1903299,20122025,161,Wolves,189,Brentford,0,2,1506
+Premier_League,1903494,20122025,183,Bournemouth,184,Burnley,1,1,1438
+Premier_League,1903496,20122025,16,Sunderland,211,Brighton,0,0,1470
 Premier_League,1903341,21022026,24,Aston Villa,19,Leeds,1,1,1490
 Premier_League,1903344,21022026,189,Brentford,211,Brighton,0,2,1476
 Premier_League,1903347,21022026,15,Chelsea,184,Burnley,1,1,1457
 Premier_League,1903385,21022026,23,Newcastle,167,Man City,1,2,1474
+Premier_League,1903394,21022026,29,West Ham,183,Bournemouth,0,0,1518
+Premier_League,1903462,21032026,26,Liverpool,211,Brighton,1,2,1465
+Premier_League,1903463,21032026,15,Chelsea,31,Everton,0,3,1692
+Premier_League,1903464,21032026,170,Fulham,184,Burnley,3,1,1548
+Premier_League,1903465,21032026,189,Brentford,19,Leeds,0,0,1625
 Premier_League,1903157,21092025,183,Bournemouth,23,Newcastle,0,0,1583
 Premier_League,1903158,21092025,167,Man City,13,Arsenal,1,1,1588
 Premier_League,1903169,21092025,16,Sunderland,24,Aston Villa,1,1,1344
+Premier_League,1903495,21122025,32,Man Utd,24,Aston Villa,1,2,1465
 Premier_League,1903380,22022026,161,Wolves,162,Crystal Palace,0,1,1448
 Premier_League,1903386,22022026,26,Liverpool,174,Nottingham Forest,1,0,1563
+Premier_League,1903390,22022026,170,Fulham,16,Sunderland,3,1,1374
+Premier_League,1903393,22022026,13,Arsenal,30,Tottenham,4,1,1528
+Premier_League,1903461,22032026,24,Aston Villa,29,West Ham,2,0,1419
+Premier_League,1903467,22032026,23,Newcastle,16,Sunderland,1,2,1313
+Premier_League,1903468,22032026,174,Nottingham Forest,30,Tottenham,3,0,1512
 Premier_League,1903136,22082025,15,Chelsea,29,West Ham,5,1,1516
 Premier_League,1903227,22112025,29,West Ham,183,Bournemouth,2,2,1526
 Premier_League,1903229,22112025,189,Brentford,211,Brighton,1,2,1541
@@ -147,6 +226,7 @@ Premier_League,1903130,23082025,184,Burnley,16,Sunderland,2,0,1670
 Premier_League,1903134,23082025,30,Tottenham,167,Man City,2,0,1503
 Premier_League,1903228,23112025,13,Arsenal,30,Tottenham,4,1,1427
 Premier_League,1903232,23112025,24,Aston Villa,19,Leeds,2,1,1553
+Premier_League,1903260,24012026,16,Sunderland,29,West Ham,1,3,1397
 Premier_League,1903320,24012026,183,Bournemouth,26,Liverpool,3,2,1518
 Premier_League,1903328,24012026,184,Burnley,30,Tottenham,2,2,1682
 Premier_League,1903337,24012026,170,Fulham,211,Brighton,2,1,1651
@@ -172,6 +252,7 @@ Premier_League,1903199,26102025,24,Aston Villa,167,Man City,1,0,1535
 Premier_League,1903202,26102025,31,Everton,30,Tottenham,0,3,1508
 Premier_League,1903206,26102025,184,Burnley,161,Wolves,3,2,1581
 Premier_League,1903319,26122025,23,Newcastle,32,Man Utd,0,1,1665
+Premier_League,1903414,27022026,161,Wolves,24,Aston Villa,2,0,1425
 Premier_League,1903161,27092025,161,Wolves,30,Tottenham,1,1,1529
 Premier_League,1903177,27092025,189,Brentford,32,Man Utd,3,1,1437
 Premier_League,1903178,27092025,15,Chelsea,211,Brighton,1,3,1419
@@ -186,6 +267,11 @@ Premier_League,1903311,27122025,24,Aston Villa,15,Chelsea,2,1,1426
 Premier_League,1903316,27122025,161,Wolves,26,Liverpool,1,2,1629
 Premier_League,1903323,27122025,174,Nottingham Forest,167,Man City,1,2,1467
 Premier_League,1903330,27122025,29,West Ham,170,Fulham,0,1,1602
+Premier_League,1903396,28022026,16,Sunderland,183,Bournemouth,1,1,1504
+Premier_League,1903402,28022026,189,Brentford,184,Burnley,5,2,1490
+Premier_League,1903406,28022026,167,Man City,19,Leeds,1,0,1589
+Premier_League,1903408,28022026,29,West Ham,26,Liverpool,3,4,1499
+Premier_League,1903412,28022026,23,Newcastle,31,Everton,2,3,1596
 Premier_League,1903175,28092025,170,Fulham,24,Aston Villa,1,3,1447
 Premier_League,1903186,28092025,13,Arsenal,23,Newcastle,2,1,1464
 Premier_League,1903314,28122025,30,Tottenham,162,Crystal Palace,1,0,1645
@@ -213,6 +299,11 @@ Premier_League,1903342,30122025,15,Chelsea,183,Bournemouth,2,2,1546
 Premier_League,1903351,30122025,32,Man Utd,161,Wolves,1,1,1510
 Premier_League,1903354,30122025,31,Everton,174,Nottingham Forest,2,0,1726
 Premier_League,1903360,30122025,211,Brighton,29,West Ham,2,2,1611
+Premier_League,1903264,31012026,211,Brighton,31,Everton,1,1,1575
+Premier_League,1903266,31012026,29,West Ham,15,Chelsea,2,3,1720
+Premier_League,1903268,31012026,19,Leeds,13,Arsenal,0,4,1450
+Premier_League,1903270,31012026,26,Liverpool,23,Newcastle,4,1,1372
+Premier_League,1903278,31012026,161,Wolves,183,Bournemouth,0,2,1665
 Premier_League,1903137,31082025,24,Aston Villa,162,Crystal Palace,0,3,1512
 Premier_League,1903138,31082025,174,Nottingham Forest,29,West Ham,0,3,1556
 Premier_League,1903139,31082025,167,Man City,211,Brighton,1,2,1469

@@ -27,18 +27,31 @@ Bundesliga,1910695,06022026,45,Eintracht Frankfurt,796,Union Berlin,1,1,1406
 Bundesliga,1910753,06032026,37,Bayern,134,Borussia M.Gladbach,4,1,1665
 Bundesliga,1910636,06122025,37,Bayern,41,Stuttgart,5,0,1525
 Bundesliga,1910638,06122025,796,Union Berlin,33,Wolfsburg,1,3,1537
+Bundesliga,1910780,06122025,1730,Augsburg,36,Leverkusen,2,0,1608
+Bundesliga,1910784,06122025,282,FC Koln,283,St. Pauli,1,1,1547
 Bundesliga,1910788,06122025,50,Freiburg,4852,FC Heidenheim,1,2,1457
 Bundesliga,1910793,06122025,7614,RBL,45,Eintracht Frankfurt,6,0,1609
 Bundesliga,1910691,07022026,4852,FC Heidenheim,38,Hamburg,0,2,1450
+Bundesliga,1910692,07022026,1730,Augsburg,219,Mainz,0,2,1550
 Bundesliga,1910694,07022026,41,Stuttgart,283,St. Pauli,1,2,1543
 Bundesliga,1910697,07022026,44,Borussia Dortmund,33,Wolfsburg,2,1,1624
 Bundesliga,1910833,07022026,134,Borussia M.Gladbach,36,Leverkusen,2,0,1749
 Bundesliga,1910835,07022026,50,Freiburg,42,Werder Bremen,1,0,1550
+Bundesliga,1910755,07032026,44,Borussia Dortmund,282,FC Koln,2,1,1633
+Bundesliga,1910757,07032026,50,Freiburg,36,Leverkusen,3,3,1608
+Bundesliga,1910760,07032026,4852,FC Heidenheim,1211,Hoffenheim,2,4,1471
+Bundesliga,1910762,07032026,41,Stuttgart,219,Mainz,2,2,1505
+Bundesliga,1910764,07032026,1730,Augsburg,7614,RBL,2,1,1559
+Bundesliga,1910770,07032026,33,Wolfsburg,38,Hamburg,1,2,1487
 Bundesliga,1910744,07112025,42,Werder Bremen,33,Wolfsburg,2,1,1630
+Bundesliga,1910783,07122025,44,Borussia Dortmund,1211,Hoffenheim,2,0,1534
 Bundesliga,1910786,07122025,42,Werder Bremen,38,Hamburg,2,3,1477
 Bundesliga,1910832,08022026,1211,Hoffenheim,37,Bayern,1,5,1548
 Bundesliga,1910834,08022026,282,FC Koln,7614,RBL,1,2,1533
+Bundesliga,1910766,08032026,283,St. Pauli,45,Eintracht Frankfurt,0,0,1517
+Bundesliga,1910768,08032026,42,Werder Bremen,796,Union Berlin,4,1,1553
 Bundesliga,1910728,08112025,36,Leverkusen,4852,FC Heidenheim,6,0,1746
+Bundesliga,1910730,08112025,134,Borussia M.Gladbach,282,FC Koln,3,1,1631
 Bundesliga,1910736,08112025,44,Borussia Dortmund,38,Hamburg,1,1,1535
 Bundesliga,1910738,08112025,1211,Hoffenheim,7614,RBL,3,1,1697
 Bundesliga,1910742,08112025,37,Bayern,796,Union Berlin,2,2,1656
@@ -58,6 +71,7 @@ Bundesliga,1910797,13012026,44,Borussia Dortmund,42,Werder Bremen,3,0,1576
 Bundesliga,1910801,13012026,219,Mainz,4852,FC Heidenheim,2,1,1633
 Bundesliga,1910803,13012026,41,Stuttgart,45,Eintracht Frankfurt,3,2,1498
 Bundesliga,1910703,13022026,219,Mainz,44,Borussia Dortmund,0,4,1568
+Bundesliga,1910775,13032026,134,Borussia M.Gladbach,283,St. Pauli,2,0,1768
 Bundesliga,1910615,13092025,38,Hamburg,37,Bayern,0,5,1629
 Bundesliga,1910618,13092025,41,Stuttgart,50,Freiburg,1,3,1450
 Bundesliga,1910619,13092025,44,Borussia Dortmund,4852,FC Heidenheim,2,0,1626
@@ -67,6 +81,7 @@ Bundesliga,1910623,13092025,796,Union Berlin,1211,Hoffenheim,2,4,1604
 Bundesliga,1910640,13122025,36,Leverkusen,282,FC Koln,2,0,1481
 Bundesliga,1910644,13122025,134,Borussia M.Gladbach,33,Wolfsburg,0,4,1668
 Bundesliga,1910646,13122025,1730,Augsburg,45,Eintracht Frankfurt,0,1,1555
+Bundesliga,1910650,13122025,1211,Hoffenheim,38,Hamburg,4,1,1616
 Bundesliga,1910652,13122025,283,St. Pauli,4852,FC Heidenheim,2,1,1619
 Bundesliga,1910798,14012026,37,Bayern,282,FC Koln,3,1,1600
 Bundesliga,1910800,14012026,134,Borussia M.Gladbach,1211,Hoffenheim,1,5,1651
@@ -78,6 +93,9 @@ Bundesliga,1910707,14022026,796,Union Berlin,38,Hamburg,2,3,1490
 Bundesliga,1910709,14022026,1211,Hoffenheim,50,Freiburg,3,0,1543
 Bundesliga,1910713,14022026,41,Stuttgart,282,FC Koln,3,1,1465
 Bundesliga,1910715,14022026,37,Bayern,42,Werder Bremen,3,0,1788
+Bundesliga,1910773,14032026,37,Bayern,36,Leverkusen,1,1,1752
+Bundesliga,1910777,14032026,1730,Augsburg,44,Borussia Dortmund,0,2,1557
+Bundesliga,1910779,14032026,4852,FC Heidenheim,45,Eintracht Frankfurt,0,1,1425
 Bundesliga,1910782,14032026,38,Hamburg,282,FC Koln,1,1,1454
 Bundesliga,1910785,14032026,33,Wolfsburg,1211,Hoffenheim,1,1,1587
 Bundesliga,1910617,14092025,283,St. Pauli,1730,Augsburg,2,1,1669
@@ -88,6 +106,7 @@ Bundesliga,1910656,14122025,41,Stuttgart,42,Werder Bremen,4,0,1587
 Bundesliga,1910690,15012026,796,Union Berlin,1730,Augsburg,1,1,1519
 Bundesliga,1910699,15022026,4852,FC Heidenheim,1730,Augsburg,0,1,1599
 Bundesliga,1910711,15022026,33,Wolfsburg,7614,RBL,2,2,1686
+Bundesliga,1910781,15032026,796,Union Berlin,50,Freiburg,1,0,1544
 Bundesliga,1910787,15032026,7614,RBL,41,Stuttgart,0,1,1556
 Bundesliga,1910789,15032026,42,Werder Bremen,219,Mainz,0,2,1614
 Bundesliga,1910812,16012026,45,Eintracht Frankfurt,42,Werder Bremen,3,3,1533
@@ -111,6 +130,7 @@ Bundesliga,1910675,19102025,45,Eintracht Frankfurt,50,Freiburg,2,2,1508
 Bundesliga,1910683,19102025,283,St. Pauli,1211,Hoffenheim,0,3,1544
 Bundesliga,1910660,19122025,134,Borussia M.Gladbach,44,Borussia Dortmund,0,2,1747
 Bundesliga,1910725,20022026,38,Hamburg,219,Mainz,1,1,1373
+Bundesliga,1910837,20032026,7614,RBL,1211,Hoffenheim,5,0,1543
 Bundesliga,1910627,20092025,1730,Augsburg,219,Mainz,1,4,1517
 Bundesliga,1910635,20092025,4852,FC Heidenheim,38,Hamburg,1,2,1446
 Bundesliga,1910637,20092025,37,Bayern,1211,Hoffenheim,4,1,1521
@@ -127,19 +147,30 @@ Bundesliga,1910719,21022026,1211,Hoffenheim,282,FC Koln,2,2,1478
 Bundesliga,1910727,21022026,44,Borussia Dortmund,7614,RBL,1,3,1515
 Bundesliga,1910731,21022026,36,Leverkusen,796,Union Berlin,0,1,1573
 Bundesliga,1910733,21022026,33,Wolfsburg,1730,Augsburg,2,3,1544
+Bundesliga,1910792,21032026,796,Union Berlin,37,Bayern,0,4,1545
+Bundesliga,1910794,21032026,44,Borussia Dortmund,38,Hamburg,3,2,1489
+Bundesliga,1910795,21032026,282,FC Koln,134,Borussia M.Gladbach,3,3,1333
+Bundesliga,1910796,21032026,4852,FC Heidenheim,36,Leverkusen,3,3,1469
+Bundesliga,1910839,21032026,42,Werder Bremen,33,Wolfsburg,1,0,1586
 Bundesliga,1910629,21092025,134,Borussia M.Gladbach,36,Leverkusen,1,1,1729
 Bundesliga,1910631,21092025,44,Borussia Dortmund,33,Wolfsburg,1,0,1530
 Bundesliga,1910633,21092025,796,Union Berlin,45,Eintracht Frankfurt,4,3,1532
+Bundesliga,1910756,21112025,219,Mainz,1211,Hoffenheim,2,0,1629
 Bundesliga,1910665,21122025,37,Bayern,4852,FC Heidenheim,4,0,1629
 Bundesliga,1910666,21122025,219,Mainz,283,St. Pauli,0,0,1439
 Bundesliga,1910721,22022026,134,Borussia M.Gladbach,50,Freiburg,1,2,1441
 Bundesliga,1910723,22022026,4852,FC Heidenheim,41,Stuttgart,3,3,1571
 Bundesliga,1910729,22022026,42,Werder Bremen,283,St. Pauli,1,2,1608
+Bundesliga,1910790,22032026,41,Stuttgart,1730,Augsburg,5,2,1563
+Bundesliga,1910836,22032026,45,Eintracht Frankfurt,219,Mainz,1,2,1356
+Bundesliga,1910838,22032026,283,St. Pauli,50,Freiburg,1,2,1489
 Bundesliga,1908319,22082025,37,Bayern,7614,RBL,6,0,1625
+Bundesliga,1910746,22112025,1730,Augsburg,38,Hamburg,1,0,1500
 Bundesliga,1910748,22112025,37,Bayern,50,Freiburg,6,2,1659
 Bundesliga,1910750,22112025,44,Borussia Dortmund,41,Stuttgart,3,3,1571
 Bundesliga,1910752,22112025,282,FC Koln,45,Eintracht Frankfurt,3,4,1661
 Bundesliga,1910754,22112025,4852,FC Heidenheim,134,Borussia M.Gladbach,0,3,1634
+Bundesliga,1910761,22112025,36,Leverkusen,33,Wolfsburg,3,1,1601
 Bundesliga,1910821,23012026,38,Hamburg,283,St. Pauli,0,0,1610
 Bundesliga,1910599,23082025,44,Borussia Dortmund,283,St. Pauli,3,3,1586
 Bundesliga,1910600,23082025,4852,FC Heidenheim,33,Wolfsburg,1,3,1361
@@ -147,6 +178,8 @@ Bundesliga,1910601,23082025,36,Leverkusen,1211,Hoffenheim,1,2,1546
 Bundesliga,1910603,23082025,796,Union Berlin,41,Stuttgart,2,1,1506
 Bundesliga,1910604,23082025,45,Eintracht Frankfurt,42,Werder Bremen,4,1,1541
 Bundesliga,1910605,23082025,1730,Augsburg,50,Freiburg,3,1,1500
+Bundesliga,1910758,23112025,7614,RBL,42,Werder Bremen,2,0,1648
+Bundesliga,1910759,23112025,283,St. Pauli,796,Union Berlin,0,1,1677
 Bundesliga,1910814,24012026,42,Werder Bremen,36,Leverkusen,0,1,1704
 Bundesliga,1910815,24012026,1730,Augsburg,37,Bayern,2,1,1807
 Bundesliga,1910817,24012026,1211,Hoffenheim,45,Eintracht Frankfurt,2,2,1574
@@ -183,13 +216,22 @@ Bundesliga,1910751,28022026,4852,FC Heidenheim,42,Werder Bremen,1,1,1478
 Bundesliga,1910649,28092025,41,Stuttgart,282,FC Koln,2,1,1472
 Bundesliga,1910651,28092025,1211,Hoffenheim,50,Freiburg,1,1,1424
 Bundesliga,1910659,28092025,38,Hamburg,796,Union Berlin,0,0,1472
+Bundesliga,1910767,28112025,134,Borussia M.Gladbach,7614,RBL,0,0,1601
 Bundesliga,1910614,29082025,283,St. Pauli,38,Hamburg,2,0,1595
+Bundesliga,1910763,29112025,44,Borussia Dortmund,36,Leverkusen,2,1,1533
+Bundesliga,1910765,29112025,37,Bayern,283,St. Pauli,3,1,1898
+Bundesliga,1910774,29112025,1211,Hoffenheim,1730,Augsburg,2,1,1731
+Bundesliga,1910776,29112025,796,Union Berlin,4852,FC Heidenheim,1,2,1470
+Bundesliga,1910778,29112025,42,Werder Bremen,282,FC Koln,1,1,1557
 Bundesliga,1910826,30012026,282,FC Koln,33,Wolfsburg,1,0,1547
 Bundesliga,1910607,30082025,7614,RBL,4852,FC Heidenheim,2,0,1454
 Bundesliga,1910608,30082025,36,Leverkusen,42,Werder Bremen,3,3,1600
 Bundesliga,1910609,30082025,41,Stuttgart,134,Borussia M.Gladbach,1,0,1569
 Bundesliga,1910611,30082025,37,Bayern,1730,Augsburg,3,2,1577
 Bundesliga,1910612,30082025,1211,Hoffenheim,45,Eintracht Frankfurt,1,3,1488
+Bundesliga,1910769,30112025,45,Eintracht Frankfurt,33,Wolfsburg,1,1,1572
+Bundesliga,1910771,30112025,50,Freiburg,219,Mainz,4,0,1515
+Bundesliga,1910772,30112025,41,Stuttgart,38,Hamburg,1,2,1459
 Bundesliga,1910823,31012026,1730,Augsburg,283,St. Pauli,2,1,1648
 Bundesliga,1910825,31012026,36,Leverkusen,45,Eintracht Frankfurt,3,1,1848
 Bundesliga,1910827,31012026,38,Hamburg,37,Bayern,2,2,1578

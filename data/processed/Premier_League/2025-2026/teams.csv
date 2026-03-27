@@ -7,6 +7,22 @@ Premier_League,1903348,26,Liverpool,True,686,578,19,0,15,8,6
 Premier_League,1903348,19,Leeds,False,326,207,4,0,1,18,11
 Premier_League,1903357,167,Man City,True,686,579,14,0,9,23,12
 Premier_League,1903357,16,Sunderland,False,335,242,10,0,6,18,17
+Premier_League,1903262,24,Aston Villa,True,681,582,27,0,21,19,3
+Premier_League,1903262,189,Brentford,False,281,195,6,1,3,7,13
+Premier_League,1903272,32,Man Utd,True,454,391,13,3,12,22,10
+Premier_League,1903272,170,Fulham,False,631,548,14,2,9,17,13
+Premier_League,1903273,174,Nottingham Forest,True,312,220,9,1,7,16,10
+Premier_League,1903273,162,Crystal Palace,False,621,515,14,1,12,14,6
+Premier_League,1903277,167,Man City,True,613,546,15,2,12,23,4
+Premier_League,1903277,30,Tottenham,False,419,333,12,2,8,24,6
+Premier_League,1903399,15,Chelsea,True,513,442,9,0,8,20,13
+Premier_League,1903399,13,Arsenal,False,359,287,13,3,10,17,5
+Premier_League,1903400,211,Brighton,True,551,476,14,2,12,17,6
+Premier_League,1903400,174,Nottingham Forest,False,479,401,13,1,10,9,8
+Premier_League,1903404,30,Tottenham,True,442,317,13,1,8,16,10
+Premier_League,1903404,170,Fulham,False,512,403,18,2,13,12,10
+Premier_League,1903410,32,Man Utd,True,651,552,20,2,16,14,4
+Premier_League,1903410,162,Crystal Palace,False,420,322,8,1,8,16,6
 Premier_League,1903207,211,Brighton,True,527,458,14,3,9,24,3
 Premier_League,1903207,19,Leeds,False,528,448,5,0,4,12,6
 Premier_League,1903208,184,Burnley,True,462,365,3,0,1,14,7
@@ -21,6 +37,8 @@ Premier_League,1903213,174,Nottingham Forest,True,394,280,17,2,12,17,11
 Premier_League,1903213,32,Man Utd,False,553,457,18,2,15,12,10
 Premier_League,1903215,15,Chelsea,True,466,372,15,1,14,20,17
 Premier_League,1903215,30,Tottenham,False,433,319,3,0,3,30,4
+Premier_League,1903275,16,Sunderland,True,456,372,14,2,12,9,9
+Premier_League,1903275,184,Burnley,False,578,487,6,1,4,14,5
 Premier_League,1903212,183,Bournemouth,True,554,473,8,1,5,23,5
 Premier_League,1903212,167,Man City,False,532,449,15,3,13,10,9
 Premier_League,1903216,23,Newcastle,True,605,500,13,2,8,8,9
@@ -29,12 +47,24 @@ Premier_League,1903247,31,Everton,True,433,303,13,1,10,18,4
 Premier_League,1903247,183,Bournemouth,False,517,427,5,0,3,15,3
 Premier_League,1903251,170,Fulham,True,654,562,13,5,7,18,11
 Premier_League,1903251,167,Man City,False,494,412,11,4,8,16,16
+Premier_League,1903255,23,Newcastle,True,497,403,19,2,12,18,9
+Premier_League,1903255,30,Tottenham,False,439,338,8,2,6,17,8
+Premier_League,1903263,161,Wolves,True,348,260,11,3,8,23,9
+Premier_League,1903263,29,West Ham,False,674,574,6,0,4,27,6
 Premier_League,1903363,183,Bournemouth,True,380,277,15,2,9,16,4
 Premier_League,1903363,13,Arsenal,False,499,387,12,3,10,25,7
 Premier_League,1903366,174,Nottingham Forest,True,258,178,10,1,7,19,14
 Premier_League,1903366,24,Aston Villa,False,683,600,11,3,7,18,11
 Premier_League,1903369,211,Brighton,True,634,560,15,2,10,17,6
 Premier_League,1903369,184,Burnley,False,438,347,5,0,2,25,3
+Premier_League,1903416,189,Brentford,True,495,369,5,0,5,14,6
+Premier_League,1903416,183,Bournemouth,False,455,344,13,0,11,13,12
+Premier_League,1903423,184,Burnley,True,510,429,5,0,4,17,14
+Premier_League,1903423,31,Everton,False,628,537,14,2,8,18,10
+Premier_League,1903427,19,Leeds,True,604,479,18,0,10,16,6
+Premier_League,1903427,16,Sunderland,False,265,161,3,1,2,16,7
+Premier_League,1903435,161,Wolves,True,346,268,4,2,4,25,9
+Premier_League,1903435,26,Liverpool,False,659,563,20,1,15,16,8
 Premier_League,1903163,170,Fulham,True,511,404,12,1,9,11,7
 Premier_League,1903163,183,Bournemouth,False,595,490,11,3,7,10,8
 Premier_League,1903214,16,Sunderland,True,571,468,17,1,13,14,5
@@ -49,6 +79,12 @@ Premier_League,1903252,15,Chelsea,True,729,637,14,1,11,16,3
 Premier_League,1903252,19,Leeds,False,299,205,17,3,9,21,9
 Premier_League,1903253,16,Sunderland,True,333,233,10,2,4,15,9
 Premier_League,1903253,26,Liverpool,False,693,581,23,0,17,12,6
+Premier_League,1903256,174,Nottingham Forest,True,464,367,10,1,8,17,5
+Premier_League,1903256,161,Wolves,False,455,351,5,0,5,19,10
+Premier_League,1903259,23,Newcastle,True,544,434,12,2,8,16,7
+Premier_League,1903259,162,Crystal Palace,False,378,254,11,0,7,28,11
+Premier_League,1903261,30,Tottenham,True,411,314,13,1,10,15,8
+Premier_League,1903261,16,Sunderland,False,429,320,10,1,8,17,9
 Premier_League,1903371,31,Everton,True,417,312,14,2,13,24,7
 Premier_League,1903371,189,Brentford,False,495,386,11,4,9,16,10
 Premier_League,1903374,26,Liverpool,True,693,595,10,2,7,7,5
@@ -57,6 +93,16 @@ Premier_League,1903375,32,Man Utd,True,557,435,15,1,11,25,8
 Premier_League,1903375,19,Leeds,False,469,328,11,1,8,18,17
 Premier_League,1903376,167,Man City,True,609,520,14,1,12,24,9
 Premier_League,1903376,15,Chelsea,False,467,389,8,1,4,20,14
+Premier_League,1903418,15,Chelsea,True,610,541,15,4,13,15,9
+Premier_League,1903418,24,Aston Villa,False,463,393,9,1,7,11,7
+Premier_League,1903421,211,Brighton,True,524,413,11,0,7,23,11
+Premier_League,1903421,13,Arsenal,False,359,254,7,1,6,16,8
+Premier_League,1903425,170,Fulham,True,614,504,13,0,8,9,3
+Premier_League,1903425,29,West Ham,False,418,321,9,1,8,7,14
+Premier_League,1903429,167,Man City,True,817,734,21,2,17,10,6
+Premier_League,1903429,174,Nottingham Forest,False,351,281,9,2,7,20,6
+Premier_League,1903431,32,Man Utd,True,502,402,14,1,11,12,9
+Premier_League,1903431,23,Newcastle,False,418,316,12,2,8,18,9
 Premier_League,1903165,13,Arsenal,True,610,516,21,2,11,23,7
 Premier_League,1903165,29,West Ham,False,299,229,4,0,4,17,12
 Premier_League,1903170,26,Liverpool,True,495,406,12,1,10,16,9
@@ -67,6 +113,8 @@ Premier_League,1903176,16,Sunderland,True,473,364,8,0,6,21,10
 Premier_League,1903176,32,Man Utd,False,480,370,15,2,11,17,10
 Premier_League,1903254,29,West Ham,True,333,227,11,1,6,15,20
 Premier_League,1903254,32,Man Utd,False,609,476,17,1,10,19,5
+Premier_League,1903433,162,Crystal Palace,True,499,415,9,3,4,24,6
+Premier_League,1903433,30,Tottenham,False,346,262,12,1,10,17,10
 Premier_League,1903166,184,Burnley,True,435,347,5,1,4,27,13
 Premier_League,1903166,24,Aston Villa,False,519,452,15,2,13,15,5
 Premier_League,1903168,167,Man City,True,795,718,10,1,10,14,6
@@ -81,6 +129,34 @@ Premier_League,1903288,174,Nottingham Forest,True,477,364,14,3,9,15,6
 Premier_League,1903288,29,West Ham,False,426,315,14,0,10,28,7
 Premier_League,1903295,174,Nottingham Forest,True,407,299,16,1,12,14,8
 Premier_League,1903295,19,Leeds,False,510,416,14,3,11,22,5
+Premier_League,1903257,183,Bournemouth,True,367,258,13,0,8,17,14
+Premier_League,1903257,15,Chelsea,False,557,456,11,0,9,17,10
+Premier_League,1903258,13,Arsenal,True,479,396,15,1,10,20,11
+Premier_League,1903258,24,Aston Villa,False,432,340,15,2,9,15,6
+Premier_League,1903477,174,Nottingham Forest,True,493,388,8,1,4,24,6
+Premier_League,1903477,31,Everton,False,348,256,11,2,8,15,11
+Premier_League,1903479,26,Liverpool,True,537,437,16,3,13,17,5
+Premier_League,1903479,19,Leeds,False,445,347,12,3,8,9,10
+Premier_League,1903480,16,Sunderland,True,377,294,8,0,5,20,8
+Premier_League,1903480,167,Man City,False,668,589,18,3,16,8,4
+Premier_League,1903481,184,Burnley,True,296,208,9,1,8,15,7
+Premier_League,1903481,23,Newcastle,False,656,574,17,2,10,19,1
+Premier_League,1903482,30,Tottenham,True,449,354,15,2,9,17,11
+Premier_League,1903482,189,Brentford,False,393,300,4,0,3,24,7
+Premier_League,1903265,183,Bournemouth,True,353,262,11,3,5,17,10
+Premier_League,1903265,30,Tottenham,False,484,364,16,2,11,24,5
+Premier_League,1903269,189,Brentford,True,430,344,18,3,14,8,8
+Premier_League,1903269,16,Sunderland,False,418,330,11,0,5,7,10
+Premier_League,1903271,184,Burnley,True,344,256,7,1,6,16,7
+Premier_League,1903271,32,Man Utd,False,637,545,31,3,21,19,6
+Premier_League,1903274,24,Aston Villa,True,576,489,15,0,11,14,9
+Premier_League,1903274,162,Crystal Palace,False,403,320,11,0,7,20,4
+Premier_League,1903276,161,Wolves,True,474,380,13,1,12,16,5
+Premier_League,1903276,31,Everton,False,399,314,13,1,10,17,6
+Premier_League,1903279,170,Fulham,True,608,524,16,2,11,16,9
+Premier_League,1903279,15,Chelsea,False,497,409,14,1,10,13,8
+Premier_League,1903282,211,Brighton,True,432,336,6,1,6,22,20
+Premier_League,1903282,167,Man City,False,643,557,21,1,14,14,19
 Premier_League,1903285,23,Newcastle,True,600,499,18,4,14,14,9
 Premier_League,1903285,19,Leeds,False,366,266,14,3,9,17,16
 Premier_League,1903280,24,Aston Villa,True,414,325,7,1,7,18,7
@@ -97,6 +173,12 @@ Premier_League,1903306,189,Brentford,True,415,302,11,3,8,15,3
 Premier_League,1903306,23,Newcastle,False,471,375,16,2,11,9,4
 Premier_League,1903309,15,Chelsea,True,776,711,15,3,10,21,10
 Premier_League,1903309,161,Wolves,False,403,325,11,1,9,12,8
+Premier_League,1903476,211,Brighton,True,644,546,22,1,16,12,9
+Premier_League,1903476,29,West Ham,False,307,224,14,1,11,14,13
+Premier_League,1903478,170,Fulham,True,686,589,12,1,10,12,8
+Premier_League,1903478,162,Crystal Palace,False,401,321,11,2,9,20,9
+Premier_League,1903267,26,Liverpool,True,540,469,8,0,3,10,8
+Premier_League,1903267,13,Arsenal,False,491,414,9,0,7,11,7
 Premier_League,1903286,162,Crystal Palace,True,346,238,7,1,5,21,10
 Premier_League,1903286,211,Brighton,False,590,494,7,0,4,17,3
 Premier_League,1903298,167,Man City,True,494,410,17,2,15,15,10
@@ -113,6 +195,8 @@ Premier_League,1903226,184,Burnley,True,551,457,16,2,10,16,7
 Premier_League,1903226,29,West Ham,False,412,327,15,3,9,14,13
 Premier_League,1903233,134,Borussia M.Gladbach,True,373,298,9,3,7,15,8
 Premier_League,1903233,282,FC Koln,False,657,554,19,1,12,15,8
+Premier_League,1903483,161,Wolves,True,341,234,8,1,7,26,13
+Premier_League,1903483,32,Man Utd,False,579,481,27,4,21,16,7
 Premier_League,1903217,183,Bournemouth,True,363,277,12,0,7,16,11
 Premier_League,1903217,24,Aston Villa,False,382,289,16,4,11,20,6
 Premier_League,1903218,189,Brentford,True,467,344,15,3,9,17,10
@@ -159,12 +243,52 @@ Premier_League,1903155,161,Wolves,True,384,286,8,0,5,16,14
 Premier_League,1903155,23,Newcastle,False,508,400,16,1,12,10,6
 Premier_League,1903156,30,Tottenham,True,591,493,14,3,11,16,3
 Premier_League,1903156,29,West Ham,False,340,262,7,0,6,13,5
+Premier_League,1903484,161,Wolves,True,282,192,5,3,3,8,5
+Premier_League,1903484,13,Arsenal,False,628,529,16,0,12,5,8
+Premier_League,1903486,184,Burnley,True,580,468,16,2,10,13,9
+Premier_League,1903486,170,Fulham,False,517,411,6,3,6,22,12
+Premier_League,1903487,15,Chelsea,True,560,489,17,2,12,15,11
+Premier_League,1903487,31,Everton,False,425,334,11,0,10,22,8
+Premier_League,1903489,211,Brighton,True,558,487,14,0,11,13,6
+Premier_League,1903489,26,Liverpool,False,535,458,18,2,16,22,8
+Premier_League,1903437,13,Arsenal,True,618,519,25,2,18,16,4
+Premier_League,1903437,31,Everton,False,350,253,9,0,4,15,16
+Premier_League,1903441,184,Burnley,True,340,226,15,0,10,13,3
+Premier_League,1903441,183,Bournemouth,False,518,401,22,0,16,20,11
+Premier_League,1903443,15,Chelsea,True,733,656,22,0,18,11,9
+Premier_League,1903443,23,Newcastle,False,365,279,7,1,7,16,7
+Premier_League,1903456,16,Sunderland,True,476,355,14,0,6,7,5
+Premier_League,1903456,211,Brighton,False,494,384,12,1,9,26,12
+Premier_League,1903459,29,West Ham,True,336,244,1,1,1,25,12
+Premier_League,1903459,167,Man City,False,807,713,24,1,18,8,13
 Premier_League,1903150,26,Liverpool,True,765,644,27,1,21,10,7
 Premier_League,1903150,184,Burnley,False,186,87,3,0,2,16,17
 Premier_League,1903154,167,Man City,True,461,377,13,3,10,13,10
 Premier_League,1903154,32,Man Utd,False,547,442,12,0,9,23,13
+Premier_League,1903485,189,Brentford,True,542,423,7,1,4,12,8
+Premier_League,1903485,19,Leeds,False,412,289,18,1,12,15,7
+Premier_League,1903488,162,Crystal Palace,True,412,305,16,0,6,23,6
+Premier_League,1903488,167,Man City,False,624,532,7,3,5,14,8
+Premier_League,1903491,174,Nottingham Forest,True,429,340,15,3,10,17,12
+Premier_League,1903491,30,Tottenham,False,466,360,6,0,5,30,11
+Premier_League,1903492,23,Newcastle,True,499,406,7,1,5,8,3
+Premier_League,1903492,16,Sunderland,False,435,321,5,0,4,10,11
+Premier_League,1903493,24,Aston Villa,True,592,517,7,2,7,22,6
+Premier_League,1903493,29,West Ham,False,420,345,11,3,6,17,9
+Premier_League,1903445,19,Leeds,True,269,156,10,0,5,15,6
+Premier_League,1903445,162,Crystal Palace,False,510,390,12,0,6,9,3
+Premier_League,1903447,30,Tottenham,True,360,261,13,1,9,20,12
+Premier_League,1903447,26,Liverpool,False,602,495,17,1,12,12,11
+Premier_League,1903450,32,Man Utd,True,514,426,16,3,13,19,12
+Premier_League,1903450,24,Aston Villa,False,475,394,9,1,7,16,8
+Premier_League,1903452,174,Nottingham Forest,True,447,346,11,0,9,8,7
+Premier_League,1903452,170,Fulham,False,517,404,6,0,3,16,10
 Premier_League,1903117,26,Liverpool,True,537,430,19,4,15,16,4
 Premier_League,1903117,183,Bournemouth,False,341,229,10,2,8,20,11
+Premier_League,1903490,32,Man Utd,True,437,338,25,4,18,16,3
+Premier_League,1903490,183,Bournemouth,False,341,223,14,4,10,14,8
+Premier_League,1903439,189,Brentford,True,472,358,10,2,9,15,11
+Premier_League,1903439,161,Wolves,False,485,376,13,2,11,8,8
 Premier_League,1903118,24,Aston Villa,True,343,243,3,0,3,11,10
 Premier_League,1903118,23,Newcastle,False,498,403,16,0,14,10,12
 Premier_League,1903119,170,Fulham,True,464,376,7,1,5,15,2
@@ -199,6 +323,8 @@ Premier_League,1903291,24,Aston Villa,True,537,458,18,0,15,14,4
 Premier_League,1903291,31,Everton,False,317,239,9,1,7,17,13
 Premier_League,1903317,23,Newcastle,True,667,592,12,0,8,10,8
 Premier_League,1903317,161,Wolves,False,336,250,6,0,5,11,8
+Premier_League,1903469,13,Arsenal,True,526,418,10,2,9,20,13
+Premier_League,1903469,161,Wolves,False,408,288,5,2,4,26,8
 Premier_League,1903126,31,Everton,True,448,349,7,0,3,16,2
 Premier_League,1903126,19,Leeds,False,533,427,21,1,12,15,9
 Premier_League,1903184,23,Newcastle,True,551,458,16,1,11,17,7
@@ -219,6 +345,10 @@ Premier_League,1903294,183,Bournemouth,True,321,213,11,1,7,18,17
 Premier_League,1903294,211,Brighton,False,627,513,17,1,15,21,2
 Premier_League,1903191,26,Liverpool,True,565,451,19,1,18,13,5
 Premier_League,1903191,32,Man Utd,False,324,218,12,2,9,15,6
+Premier_League,1903195,30,Tottenham,True,432,360,10,1,9,25,6
+Premier_League,1903195,24,Aston Villa,False,389,312,8,2,5,24,2
+Premier_League,1903460,32,Man Utd,True,446,337,14,1,11,16,12
+Premier_League,1903460,183,Bournemouth,False,544,446,17,3,10,13,9
 Premier_League,1903159,211,Brighton,True,329,251,13,3,9,25,5
 Premier_League,1903159,30,Tottenham,False,580,487,11,1,10,26,9
 Premier_League,1903160,174,Nottingham Forest,True,681,592,17,1,13,11,7
@@ -235,6 +365,8 @@ Premier_League,1903173,19,Leeds,True,445,372,6,3,2,20,7
 Premier_League,1903173,161,Wolves,False,572,463,16,1,14,28,3
 Premier_League,1903196,189,Brentford,True,503,407,22,2,20,11,7
 Premier_League,1903196,29,West Ham,False,398,290,7,0,4,16,2
+Premier_League,1903281,13,Arsenal,True,694,600,13,1,9,14,7
+Premier_League,1903281,31,Everton,False,377,270,5,0,3,26,8
 Premier_League,1903287,162,Crystal Palace,True,389,295,9,1,6,22,6
 Premier_League,1903287,19,Leeds,False,461,355,20,4,8,15,7
 Premier_League,1903290,29,West Ham,True,410,331,7,0,3,24,12
@@ -245,6 +377,10 @@ Premier_League,1903296,26,Liverpool,True,668,575,8,2,7,4,7
 Premier_League,1903296,30,Tottenham,False,358,264,15,1,12,11,7
 Premier_League,1903299,161,Wolves,True,405,305,9,0,5,16,9
 Premier_League,1903299,189,Brentford,False,526,424,7,2,5,12,16
+Premier_League,1903494,183,Bournemouth,True,559,437,16,1,15,21,8
+Premier_League,1903494,184,Burnley,False,297,189,4,1,2,15,10
+Premier_League,1903496,16,Sunderland,True,372,276,14,0,9,25,9
+Premier_League,1903496,211,Brighton,False,488,397,16,0,14,12,7
 Premier_League,1903341,24,Aston Villa,True,573,474,16,1,12,14,8
 Premier_League,1903341,19,Leeds,False,289,202,14,1,9,22,11
 Premier_League,1903344,189,Brentford,True,489,371,13,0,8,8,10
@@ -253,16 +389,38 @@ Premier_League,1903347,15,Chelsea,True,638,550,12,1,8,13,9
 Premier_League,1903347,184,Burnley,False,330,261,12,1,9,9,15
 Premier_League,1903385,23,Newcastle,True,410,329,13,1,10,18,8
 Premier_League,1903385,167,Man City,False,497,416,15,2,12,21,5
+Premier_League,1903394,29,West Ham,True,382,270,20,0,16,21,8
+Premier_League,1903394,183,Bournemouth,False,523,404,10,0,7,17,8
+Premier_League,1903462,26,Liverpool,True,481,381,12,1,8,12,12
+Premier_League,1903462,211,Brighton,False,422,324,16,2,10,11,7
+Premier_League,1903463,15,Chelsea,True,734,638,12,0,8,15,7
+Premier_League,1903463,31,Everton,False,427,339,10,3,9,22,7
+Premier_League,1903464,170,Fulham,True,562,464,22,3,16,18,6
+Premier_League,1903464,184,Burnley,False,448,360,9,1,9,13,7
+Premier_League,1903465,189,Brentford,True,404,265,6,0,4,11,7
+Premier_League,1903465,19,Leeds,False,525,394,14,0,11,15,8
 Premier_League,1903157,183,Bournemouth,True,544,429,11,0,6,15,16
 Premier_League,1903157,23,Newcastle,False,438,317,4,0,3,19,8
 Premier_League,1903158,167,Man City,True,330,245,5,1,5,13,5
 Premier_League,1903158,13,Arsenal,False,635,540,12,1,8,20,5
 Premier_League,1903169,16,Sunderland,True,247,164,14,1,10,20,8
 Premier_League,1903169,24,Aston Villa,False,596,513,12,1,7,11,3
+Premier_League,1903495,32,Man Utd,True,509,417,15,1,8,26,9
+Premier_League,1903495,24,Aston Villa,False,372,289,12,2,10,18,7
 Premier_League,1903380,161,Wolves,True,316,231,12,0,8,17,13
 Premier_League,1903380,162,Crystal Palace,False,480,367,14,1,8,15,7
 Premier_League,1903386,26,Liverpool,True,524,433,10,1,8,14,9
 Premier_League,1903386,174,Nottingham Forest,False,466,364,18,0,11,18,10
+Premier_League,1903390,170,Fulham,True,396,304,12,3,9,22,9
+Premier_League,1903390,16,Sunderland,False,445,354,12,1,7,12,5
+Premier_League,1903393,13,Arsenal,True,520,404,20,4,13,31,8
+Premier_League,1903393,30,Tottenham,False,364,259,6,1,4,24,15
+Premier_League,1903461,24,Aston Villa,True,547,472,23,2,17,18,4
+Premier_League,1903461,29,West Ham,False,381,306,9,0,7,13,10
+Premier_League,1903467,23,Newcastle,True,449,357,16,1,12,13,6
+Premier_League,1903467,16,Sunderland,False,305,203,17,2,10,17,4
+Premier_League,1903468,174,Nottingham Forest,True,360,265,8,3,7,21,9
+Premier_League,1903468,30,Tottenham,False,514,391,14,0,10,19,7
 Premier_League,1903136,15,Chelsea,True,611,525,12,5,7,19,4
 Premier_League,1903136,29,West Ham,False,436,371,12,1,10,11,7
 Premier_League,1903227,29,West Ham,True,221,120,5,2,4,13,9
@@ -295,6 +453,8 @@ Premier_League,1903228,13,Arsenal,True,483,382,17,4,11,23,11
 Premier_League,1903228,30,Tottenham,False,367,274,3,1,3,21,8
 Premier_League,1903232,24,Aston Villa,True,480,382,14,2,12,20,7
 Premier_League,1903232,19,Leeds,False,438,348,14,1,12,26,12
+Premier_League,1903260,16,Sunderland,True,453,363,7,1,5,13,3
+Premier_League,1903260,29,West Ham,False,405,302,13,3,7,25,5
 Premier_League,1903320,183,Bournemouth,True,333,250,12,3,7,20,14
 Premier_League,1903320,26,Liverpool,False,663,567,14,2,13,12,4
 Premier_League,1903328,184,Burnley,True,403,310,9,2,7,19,16
@@ -345,6 +505,8 @@ Premier_League,1903206,184,Burnley,True,427,326,11,3,7,19,5
 Premier_League,1903206,161,Wolves,False,559,445,15,2,9,14,9
 Premier_League,1903319,23,Newcastle,True,695,575,16,0,11,14,6
 Premier_League,1903319,32,Man Utd,False,359,271,10,1,8,20,18
+Premier_League,1903414,161,Wolves,True,357,273,9,2,5,16,10
+Premier_League,1903414,24,Aston Villa,False,546,462,14,0,11,11,11
 Premier_League,1903161,161,Wolves,True,438,349,9,1,5,31,10
 Premier_League,1903161,30,Tottenham,False,459,358,10,1,7,17,10
 Premier_League,1903177,189,Brentford,True,399,299,10,3,8,14,7
@@ -373,6 +535,16 @@ Premier_League,1903323,174,Nottingham Forest,True,334,239,7,1,4,15,8
 Premier_League,1903323,167,Man City,False,630,553,16,2,15,14,4
 Premier_League,1903330,29,West Ham,True,444,353,11,0,6,29,9
 Premier_League,1903330,170,Fulham,False,558,469,17,1,13,16,12
+Premier_League,1903396,16,Sunderland,True,327,207,8,1,4,26,6
+Premier_League,1903396,183,Bournemouth,False,513,383,21,1,12,16,14
+Premier_League,1903402,189,Brentford,True,505,396,17,5,13,14,8
+Premier_League,1903402,184,Burnley,False,366,276,12,2,11,13,4
+Premier_League,1903406,167,Man City,True,692,605,14,1,10,17,0
+Premier_League,1903406,19,Leeds,False,356,251,14,0,10,14,9
+Premier_League,1903408,29,West Ham,True,469,359,12,3,8,13,13
+Premier_League,1903408,26,Liverpool,False,452,354,18,4,15,21,6
+Premier_League,1903412,23,Newcastle,True,648,542,17,2,10,13,5
+Premier_League,1903412,31,Everton,False,331,244,9,3,8,27,9
 Premier_League,1903175,170,Fulham,True,466,380,11,1,7,16,9
 Premier_League,1903175,24,Aston Villa,False,429,355,9,3,6,10,7
 Premier_League,1903186,13,Arsenal,True,543,433,20,2,15,13,10
@@ -427,6 +599,16 @@ Premier_League,1903354,31,Everton,True,328,236,11,2,8,23,9
 Premier_League,1903354,174,Nottingham Forest,False,744,634,21,0,15,21,5
 Premier_League,1903360,211,Brighton,True,587,489,16,2,11,13,16
 Premier_League,1903360,29,West Ham,False,371,270,10,2,8,27,9
+Premier_League,1903264,211,Brighton,True,518,425,11,1,9,20,9
+Premier_League,1903264,31,Everton,False,461,353,7,1,4,23,7
+Premier_League,1903266,29,West Ham,True,328,219,11,2,9,15,7
+Premier_League,1903266,15,Chelsea,False,782,674,14,3,9,14,8
+Premier_League,1903268,19,Leeds,True,443,335,3,0,2,16,10
+Premier_League,1903268,13,Arsenal,False,451,346,15,4,12,14,6
+Premier_League,1903270,26,Liverpool,True,445,365,17,4,14,18,6
+Premier_League,1903270,23,Newcastle,False,387,302,8,1,6,13,8
+Premier_League,1903278,161,Wolves,True,519,411,17,0,10,23,3
+Premier_League,1903278,183,Bournemouth,False,500,419,9,2,9,20,13
 Premier_League,1903137,24,Aston Villa,True,586,503,13,0,10,11,6
 Premier_League,1903137,162,Crystal Palace,False,412,342,6,3,4,26,10
 Premier_League,1903138,174,Nottingham Forest,True,596,491,11,0,8,19,6

@@ -55,12 +55,18 @@ Bundesliga,1910636,37,Bayern,True,593,510,19,5,14,6,8
 Bundesliga,1910636,41,Stuttgart,False,409,323,13,0,8,11,9
 Bundesliga,1910638,796,Union Berlin,True,541,408,21,1,15,13,8
 Bundesliga,1910638,33,Wolfsburg,False,400,297,4,3,4,14,7
+Bundesliga,1910780,1730,Augsburg,True,350,271,13,2,13,15,12
+Bundesliga,1910780,36,Leverkusen,False,727,650,20,0,13,13,7
+Bundesliga,1910784,282,FC Koln,True,629,530,11,1,5,8,6
+Bundesliga,1910784,283,St. Pauli,False,440,347,5,1,5,17,12
 Bundesliga,1910788,50,Freiburg,True,513,398,16,1,12,15,9
 Bundesliga,1910788,4852,FC Heidenheim,False,323,230,16,2,13,18,13
 Bundesliga,1910793,7614,RBL,True,518,430,16,6,13,16,10
 Bundesliga,1910793,45,Eintracht Frankfurt,False,484,376,8,0,6,24,8
 Bundesliga,1910691,4852,FC Heidenheim,True,415,312,20,0,14,17,7
 Bundesliga,1910691,38,Hamburg,False,458,355,14,2,10,9,4
+Bundesliga,1910692,1730,Augsburg,True,571,454,14,0,9,12,7
+Bundesliga,1910692,219,Mainz,False,371,268,10,2,6,16,9
 Bundesliga,1910694,41,Stuttgart,True,710,600,7,1,5,13,7
 Bundesliga,1910694,283,St. Pauli,False,339,244,15,2,11,8,12
 Bundesliga,1910697,44,Borussia Dortmund,True,642,529,21,2,15,13,9
@@ -69,16 +75,36 @@ Bundesliga,1910833,134,Borussia M.Gladbach,True,492,398,10,2,6,19,18
 Bundesliga,1910833,36,Leverkusen,False,749,668,10,0,9,14,4
 Bundesliga,1910835,50,Freiburg,True,320,217,7,1,5,11,10
 Bundesliga,1910835,42,Werder Bremen,False,636,516,17,0,10,15,14
+Bundesliga,1910755,44,Borussia Dortmund,True,648,560,13,2,9,12,5
+Bundesliga,1910755,282,FC Koln,False,414,314,14,1,10,10,10
+Bundesliga,1910757,50,Freiburg,True,505,432,21,3,16,16,6
+Bundesliga,1910757,36,Leverkusen,False,562,489,17,3,15,12,10
+Bundesliga,1910760,4852,FC Heidenheim,True,391,277,8,2,6,12,9
+Bundesliga,1910760,1211,Hoffenheim,False,474,352,16,4,13,15,9
+Bundesliga,1910762,41,Stuttgart,True,581,481,11,2,11,13,7
+Bundesliga,1910762,219,Mainz,False,369,258,18,2,13,13,7
+Bundesliga,1910764,1730,Augsburg,True,384,292,17,2,12,13,4
+Bundesliga,1910764,7614,RBL,False,600,499,17,1,16,8,3
+Bundesliga,1910770,33,Wolfsburg,True,444,307,14,1,7,11,8
+Bundesliga,1910770,38,Hamburg,False,411,287,10,2,5,15,11
 Bundesliga,1910744,42,Werder Bremen,True,642,529,20,2,17,15,8
 Bundesliga,1910744,33,Wolfsburg,False,432,334,7,1,6,7,14
+Bundesliga,1910783,44,Borussia Dortmund,True,420,313,8,2,6,15,6
+Bundesliga,1910783,1211,Hoffenheim,False,555,451,11,0,9,14,8
 Bundesliga,1910786,42,Werder Bremen,True,429,343,10,2,8,14,11
 Bundesliga,1910786,38,Hamburg,False,491,418,12,3,11,18,14
 Bundesliga,1910832,1211,Hoffenheim,True,425,336,9,1,7,19,4
 Bundesliga,1910832,37,Bayern,False,509,447,27,5,24,18,9
 Bundesliga,1910834,282,FC Koln,True,391,275,10,1,9,21,6
 Bundesliga,1910834,7614,RBL,False,459,369,19,2,15,19,7
+Bundesliga,1910766,283,St. Pauli,True,286,192,11,0,9,15,5
+Bundesliga,1910766,45,Eintracht Frankfurt,False,715,630,8,0,4,9,15
+Bundesliga,1910768,42,Werder Bremen,True,753,668,15,4,12,12,5
+Bundesliga,1910768,796,Union Berlin,False,267,160,9,1,2,8,11
 Bundesliga,1910728,36,Leverkusen,True,957,886,25,6,21,15,5
 Bundesliga,1910728,4852,FC Heidenheim,False,347,277,1,0,0,13,12
+Bundesliga,1910730,134,Borussia M.Gladbach,True,373,298,9,3,7,15,8
+Bundesliga,1910730,282,FC Koln,False,657,554,19,1,12,15,8
 Bundesliga,1910736,44,Borussia Dortmund,True,530,435,17,1,11,17,7
 Bundesliga,1910736,38,Hamburg,False,445,347,9,1,9,25,5
 Bundesliga,1910738,1211,Hoffenheim,True,498,384,12,3,10,24,9
@@ -117,6 +143,8 @@ Bundesliga,1910803,41,Stuttgart,True,524,418,20,3,15,16,11
 Bundesliga,1910803,45,Eintracht Frankfurt,False,378,278,12,2,10,12,17
 Bundesliga,1910703,219,Mainz,True,467,375,10,0,8,16,10
 Bundesliga,1910703,44,Borussia Dortmund,False,555,449,14,4,11,8,10
+Bundesliga,1910775,134,Borussia M.Gladbach,True,492,377,10,2,7,14,17
+Bundesliga,1910775,283,St. Pauli,False,727,586,8,0,7,16,8
 Bundesliga,1910615,38,Hamburg,True,348,285,9,0,8,10,8
 Bundesliga,1910615,37,Bayern,False,808,735,22,5,18,8,7
 Bundesliga,1910618,41,Stuttgart,True,486,398,7,1,6,10,13
@@ -135,6 +163,8 @@ Bundesliga,1910644,134,Borussia M.Gladbach,True,642,523,14,0,11,16,8
 Bundesliga,1910644,33,Wolfsburg,False,454,357,12,4,6,15,9
 Bundesliga,1910646,1730,Augsburg,True,482,386,12,0,9,17,2
 Bundesliga,1910646,45,Eintracht Frankfurt,False,510,413,11,1,7,16,13
+Bundesliga,1910650,1211,Hoffenheim,True,616,524,10,4,9,18,8
+Bundesliga,1910650,38,Hamburg,False,421,332,14,1,12,12,9
 Bundesliga,1910652,283,St. Pauli,True,375,262,8,2,6,3,9
 Bundesliga,1910652,4852,FC Heidenheim,False,653,526,20,1,14,9,5
 Bundesliga,1910798,37,Bayern,True,725,632,19,3,13,15,10
@@ -157,6 +187,12 @@ Bundesliga,1910713,41,Stuttgart,True,505,418,13,3,10,22,2
 Bundesliga,1910713,282,FC Koln,False,390,290,10,1,7,11,10
 Bundesliga,1910715,37,Bayern,True,757,662,11,3,9,12,12
 Bundesliga,1910715,42,Werder Bremen,False,413,314,14,0,9,31,17
+Bundesliga,1910773,37,Bayern,True,663,587,11,1,11,17,10
+Bundesliga,1910773,36,Leverkusen,False,534,449,21,1,16,20,9
+Bundesliga,1910777,1730,Augsburg,True,414,321,7,0,5,12,10
+Bundesliga,1910777,44,Borussia Dortmund,False,620,524,16,2,15,15,14
+Bundesliga,1910779,4852,FC Heidenheim,True,326,241,3,0,2,17,5
+Bundesliga,1910779,45,Eintracht Frankfurt,False,618,530,12,1,8,8,5
 Bundesliga,1910782,38,Hamburg,True,424,332,5,1,4,14,11
 Bundesliga,1910782,282,FC Koln,False,510,403,10,1,6,18,3
 Bundesliga,1910785,33,Wolfsburg,True,302,184,4,1,3,22,9
@@ -177,6 +213,8 @@ Bundesliga,1910699,4852,FC Heidenheim,True,512,407,16,0,7,12,15
 Bundesliga,1910699,1730,Augsburg,False,492,379,12,1,8,14,5
 Bundesliga,1910711,33,Wolfsburg,True,352,269,10,2,7,20,9
 Bundesliga,1910711,7614,RBL,False,761,645,20,2,17,10,7
+Bundesliga,1910781,796,Union Berlin,True,257,157,9,1,5,20,11
+Bundesliga,1910781,50,Freiburg,False,661,564,19,0,9,15,7
 Bundesliga,1910787,7614,RBL,True,406,290,9,0,8,7,16
 Bundesliga,1910787,41,Stuttgart,False,530,393,13,1,10,21,11
 Bundesliga,1910789,42,Werder Bremen,True,668,547,16,0,12,10,10
@@ -223,6 +261,8 @@ Bundesliga,1910660,134,Borussia M.Gladbach,True,505,395,6,0,4,22,6
 Bundesliga,1910660,44,Borussia Dortmund,False,660,578,10,2,9,18,12
 Bundesliga,1910725,38,Hamburg,True,437,355,14,1,7,12,7
 Bundesliga,1910725,219,Mainz,False,365,260,17,1,14,19,6
+Bundesliga,1910837,7614,RBL,True,483,400,14,5,9,19,10
+Bundesliga,1910837,1211,Hoffenheim,False,486,391,8,0,5,23,6
 Bundesliga,1910627,1730,Augsburg,True,552,452,18,1,16,15,12
 Bundesliga,1910627,219,Mainz,False,368,259,12,4,8,12,10
 Bundesliga,1910635,4852,FC Heidenheim,True,440,353,20,1,15,14,8
@@ -255,12 +295,24 @@ Bundesliga,1910731,36,Leverkusen,True,618,508,16,0,6,10,6
 Bundesliga,1910731,796,Union Berlin,False,346,236,8,1,5,14,8
 Bundesliga,1910733,33,Wolfsburg,True,488,414,10,2,9,12,6
 Bundesliga,1910733,1730,Augsburg,False,508,405,15,3,12,15,3
+Bundesliga,1910792,796,Union Berlin,True,268,187,5,0,2,17,8
+Bundesliga,1910792,37,Bayern,False,753,665,31,4,23,11,5
+Bundesliga,1910794,44,Borussia Dortmund,True,595,491,24,3,10,14,6
+Bundesliga,1910794,38,Hamburg,False,284,201,4,2,4,26,8
+Bundesliga,1910795,282,FC Koln,True,420,324,12,3,11,13,9
+Bundesliga,1910795,134,Borussia M.Gladbach,False,408,315,9,3,6,8,9
+Bundesliga,1910796,4852,FC Heidenheim,True,362,283,9,3,7,17,9
+Bundesliga,1910796,36,Leverkusen,False,577,490,14,3,10,14,2
+Bundesliga,1910839,42,Werder Bremen,True,432,342,8,1,3,15,9
+Bundesliga,1910839,33,Wolfsburg,False,562,451,11,0,9,22,5
 Bundesliga,1910629,134,Borussia M.Gladbach,True,443,371,13,1,12,24,12
 Bundesliga,1910629,36,Leverkusen,False,703,628,13,1,13,14,10
 Bundesliga,1910631,44,Borussia Dortmund,True,586,495,12,1,9,9,9
 Bundesliga,1910631,33,Wolfsburg,False,460,379,9,0,8,20,14
 Bundesliga,1910633,796,Union Berlin,True,218,128,11,4,7,17,4
 Bundesliga,1910633,45,Eintracht Frankfurt,False,728,622,19,3,16,12,7
+Bundesliga,1910756,219,Mainz,True,430,292,18,2,12,6,8
+Bundesliga,1910756,1211,Hoffenheim,False,509,360,19,0,15,14,11
 Bundesliga,1910665,37,Bayern,True,824,735,23,4,17,10,8
 Bundesliga,1910665,4852,FC Heidenheim,False,304,225,7,0,6,12,6
 Bundesliga,1910666,219,Mainz,True,466,347,13,0,9,8,10
@@ -271,8 +323,16 @@ Bundesliga,1910723,4852,FC Heidenheim,True,343,228,10,3,7,9,11
 Bundesliga,1910723,41,Stuttgart,False,658,529,12,3,9,12,10
 Bundesliga,1910729,42,Werder Bremen,True,616,492,13,1,8,15,11
 Bundesliga,1910729,283,St. Pauli,False,451,341,4,2,4,15,13
+Bundesliga,1910790,41,Stuttgart,True,611,509,13,5,10,14,7
+Bundesliga,1910790,1730,Augsburg,False,401,308,13,2,8,11,19
+Bundesliga,1910836,45,Eintracht Frankfurt,True,629,554,12,1,12,8,4
+Bundesliga,1910836,219,Mainz,False,270,187,8,2,7,18,7
+Bundesliga,1910838,283,St. Pauli,True,468,369,12,1,10,15,6
+Bundesliga,1910838,50,Freiburg,False,485,405,15,2,10,12,8
 Bundesliga,1908319,37,Bayern,True,689,621,19,6,15,13,10
 Bundesliga,1908319,7614,RBL,False,406,329,12,0,9,18,9
+Bundesliga,1910746,1730,Augsburg,True,452,375,13,1,8,14,7
+Bundesliga,1910746,38,Hamburg,False,500,414,15,0,13,15,9
 Bundesliga,1910748,37,Bayern,True,808,732,22,6,20,15,10
 Bundesliga,1910748,50,Freiburg,False,330,247,8,2,6,15,9
 Bundesliga,1910750,44,Borussia Dortmund,True,451,350,14,3,8,21,10
@@ -281,6 +341,8 @@ Bundesliga,1910752,282,FC Koln,True,532,442,11,3,9,17,10
 Bundesliga,1910752,45,Eintracht Frankfurt,False,603,521,11,4,10,13,13
 Bundesliga,1910754,4852,FC Heidenheim,True,539,457,7,0,7,12,10
 Bundesliga,1910754,134,Borussia M.Gladbach,False,568,492,16,3,10,20,2
+Bundesliga,1910761,36,Leverkusen,True,704,625,7,3,5,11,4
+Bundesliga,1910761,33,Wolfsburg,False,431,348,21,1,19,15,7
 Bundesliga,1910821,38,Hamburg,True,609,511,5,0,3,13,9
 Bundesliga,1910821,283,St. Pauli,False,463,355,8,0,4,16,7
 Bundesliga,1910599,44,Borussia Dortmund,True,511,439,8,3,7,10,8
@@ -295,6 +357,10 @@ Bundesliga,1910604,45,Eintracht Frankfurt,True,518,432,18,4,15,21,15
 Bundesliga,1910604,42,Werder Bremen,False,463,376,10,1,7,16,7
 Bundesliga,1910605,1730,Augsburg,True,331,227,14,3,7,15,12
 Bundesliga,1910605,50,Freiburg,False,510,399,16,1,11,13,13
+Bundesliga,1910758,7614,RBL,True,570,489,22,2,15,15,10
+Bundesliga,1910758,42,Werder Bremen,False,521,444,15,0,12,24,10
+Bundesliga,1910759,283,St. Pauli,True,616,456,12,0,8,18,10
+Bundesliga,1910759,796,Union Berlin,False,441,328,7,1,5,11,6
 Bundesliga,1910814,42,Werder Bremen,True,600,504,17,0,12,18,16
 Bundesliga,1910814,36,Leverkusen,False,575,487,13,1,11,13,15
 Bundesliga,1910815,1730,Augsburg,True,367,280,16,2,13,20,8
@@ -367,8 +433,20 @@ Bundesliga,1910651,1211,Hoffenheim,True,447,332,15,1,9,11,6
 Bundesliga,1910651,50,Freiburg,False,336,219,6,1,5,13,9
 Bundesliga,1910659,38,Hamburg,True,576,496,16,0,12,14,4
 Bundesliga,1910659,796,Union Berlin,False,310,216,11,0,7,12,8
+Bundesliga,1910767,134,Borussia M.Gladbach,True,438,345,7,0,4,20,7
+Bundesliga,1910767,7614,RBL,False,608,535,20,0,17,15,6
 Bundesliga,1910614,283,St. Pauli,True,530,421,17,2,12,26,7
 Bundesliga,1910614,38,Hamburg,False,474,388,5,0,2,14,9
+Bundesliga,1910763,44,Borussia Dortmund,True,394,314,7,2,7,16,8
+Bundesliga,1910763,36,Leverkusen,False,663,576,14,1,12,11,7
+Bundesliga,1910765,37,Bayern,True,1058,966,19,3,12,7,8
+Bundesliga,1910765,283,St. Pauli,False,264,191,10,1,9,23,11
+Bundesliga,1910774,1211,Hoffenheim,True,633,523,17,2,13,9,12
+Bundesliga,1910774,1730,Augsburg,False,436,311,15,1,8,13,11
+Bundesliga,1910776,796,Union Berlin,True,373,256,9,1,9,6,12
+Bundesliga,1910776,4852,FC Heidenheim,False,498,378,10,2,9,18,7
+Bundesliga,1910778,42,Werder Bremen,True,519,422,17,1,14,17,11
+Bundesliga,1910778,282,FC Koln,False,539,452,10,1,8,13,13
 Bundesliga,1910826,282,FC Koln,True,371,259,15,1,10,21,5
 Bundesliga,1910826,33,Wolfsburg,False,509,398,14,0,9,20,5
 Bundesliga,1910607,7614,RBL,True,582,496,19,2,13,11,8
@@ -381,6 +459,12 @@ Bundesliga,1910611,37,Bayern,True,557,464,20,3,13,14,10
 Bundesliga,1910611,1730,Augsburg,False,413,317,10,2,7,21,11
 Bundesliga,1910612,1211,Hoffenheim,True,530,428,17,1,14,16,5
 Bundesliga,1910612,45,Eintracht Frankfurt,False,387,290,9,3,8,15,9
+Bundesliga,1910769,45,Eintracht Frankfurt,True,534,414,15,1,10,17,6
+Bundesliga,1910769,33,Wolfsburg,False,446,349,10,1,9,16,11
+Bundesliga,1910771,50,Freiburg,True,765,676,23,4,16,17,9
+Bundesliga,1910771,219,Mainz,False,266,190,1,0,1,6,13
+Bundesliga,1910772,41,Stuttgart,True,597,503,14,1,12,16,5
+Bundesliga,1910772,38,Hamburg,False,313,219,9,2,8,22,12
 Bundesliga,1910823,1730,Augsburg,True,455,343,12,2,8,13,10
 Bundesliga,1910823,283,St. Pauli,False,565,453,17,1,10,18,9
 Bundesliga,1910825,36,Leverkusen,True,775,693,11,3,9,17,8
