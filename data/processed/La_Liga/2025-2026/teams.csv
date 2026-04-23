@@ -49,6 +49,8 @@ La_Liga,1914055,131,Osasuna,True,442,350,11,1,9,18,12
 La_Liga,1914055,53,Athletic Club,False,479,368,16,1,9,14,10
 La_Liga,1914057,70,Espanyol,True,279,197,14,0,11,18,10
 La_Liga,1914057,65,Barcelona,False,595,521,15,2,11,18,9
+La_Liga,1914191,833,Elche,True,326,234,9,0,9,20,4
+La_Liga,1914191,64,Rayo Vallecano,False,458,375,21,1,18,19,6
 La_Liga,1913960,131,Osasuna,True,493,354,7,2,6,10,1
 La_Liga,1913960,819,Getafe,False,367,254,6,1,5,16,9
 La_Liga,1913976,61,Real Oviedo,True,444,361,8,0,8,22,6
@@ -67,6 +69,14 @@ La_Liga,1914061,832,Levante,True,316,226,6,3,4,18,6
 La_Liga,1914061,67,Sevilla,False,565,473,15,0,11,11,12
 La_Liga,1914092,61,Real Oviedo,True,391,306,8,0,6,18,10
 La_Liga,1914092,64,Rayo Vallecano,False,424,337,19,3,13,26,7
+La_Liga,1914171,65,Barcelona,True,665,602,22,2,18,11,5
+La_Liga,1914171,63,Atletico,False,333,265,6,1,4,30,6
+La_Liga,1914173,70,Espanyol,True,305,217,8,0,4,13,6
+La_Liga,1914173,54,Real Betis,False,699,608,19,0,12,18,10
+La_Liga,1914178,51,Mallorca,True,349,267,6,2,4,14,15
+La_Liga,1914178,52,Real Madrid,False,617,539,15,1,14,16,3
+La_Liga,1914194,68,Real Sociedad,True,507,420,18,2,15,9,10
+La_Liga,1914194,832,Levante,False,358,268,8,0,7,13,7
 La_Liga,1913948,53,Athletic Club,True,493,403,18,2,13,8,4
 La_Liga,1913948,51,Mallorca,False,458,370,6,1,6,18,8
 La_Liga,1913950,55,Valencia,True,501,409,19,1,9,10,5
@@ -75,6 +85,14 @@ La_Liga,1913952,839,Villarreal,True,336,269,9,1,9,29,6
 La_Liga,1913952,52,Real Madrid,False,749,683,26,3,19,26,4
 La_Liga,1913962,832,Levante,True,405,321,14,2,9,14,11
 La_Liga,1913962,61,Real Oviedo,False,542,449,13,0,9,15,7
+La_Liga,1914169,131,Osasuna,True,449,363,8,2,5,6,6
+La_Liga,1914169,60,Deportivo Alaves,False,427,330,18,2,12,7,2
+La_Liga,1914180,67,Sevilla,True,256,155,9,0,7,13,6
+La_Liga,1914180,61,Real Oviedo,False,539,444,7,1,6,9,3
+La_Liga,1914182,53,Athletic Club,True,583,466,5,0,5,9,4
+La_Liga,1914182,819,Getafe,False,284,170,10,2,8,19,14
+La_Liga,1914185,62,Celta Vigo,True,530,456,9,3,7,15,7
+La_Liga,1914185,55,Valencia,False,388,307,13,2,8,19,6
 La_Liga,1913946,60,Deportivo Alaves,True,443,351,25,3,16,20,12
 La_Liga,1913946,833,Elche,False,495,421,6,1,6,18,8
 La_Liga,1913954,63,Atletico,True,522,448,6,0,6,14,11
@@ -91,6 +109,8 @@ La_Liga,1914159,62,Celta Vigo,True,591,525,18,1,16,13,3
 La_Liga,1914159,131,Osasuna,False,445,382,8,2,6,14,10
 La_Liga,1914147,52,Real Madrid,True,846,759,14,2,10,13,14
 La_Liga,1914147,62,Celta Vigo,False,495,429,8,1,7,10,10
+La_Liga,1914175,839,Villarreal,True,478,394,10,1,8,15,6
+La_Liga,1914175,2783,Girona,False,553,468,10,0,10,15,6
 La_Liga,1914022,60,Deportivo Alaves,True,363,276,14,1,11,14,11
 La_Liga,1914022,68,Real Sociedad,False,588,488,10,0,10,22,9
 La_Liga,1914023,53,Athletic Club,True,431,313,14,1,12,11,17
@@ -173,12 +193,30 @@ La_Liga,1914067,54,Real Betis,True,600,505,15,1,12,17,11
 La_Liga,1914067,61,Real Oviedo,False,441,341,13,1,10,19,5
 La_Liga,1914069,55,Valencia,True,352,262,16,1,11,13,9
 La_Liga,1914069,833,Elche,False,545,460,5,1,4,18,11
+La_Liga,1914188,2783,Girona,True,412,358,10,1,8,22,9
+La_Liga,1914188,52,Real Madrid,False,646,583,22,1,20,13,3
 La_Liga,1914070,70,Espanyol,True,467,381,19,1,14,27,9
 La_Liga,1914070,832,Levante,False,462,375,8,1,8,17,11
 La_Liga,1914071,64,Rayo Vallecano,True,417,311,14,2,9,20,7
 La_Liga,1914071,51,Mallorca,False,369,261,9,1,9,11,6
+La_Liga,1914176,55,Valencia,True,355,289,22,0,16,18,7
+La_Liga,1914176,833,Elche,False,470,388,7,1,6,24,8
+La_Liga,1914179,60,Deportivo Alaves,True,470,367,13,3,11,16,16
+La_Liga,1914179,68,Real Sociedad,False,545,440,13,3,11,17,9
+La_Liga,1914181,67,Sevilla,True,291,201,11,2,9,17,9
+La_Liga,1914181,63,Atletico,False,607,517,13,1,11,8,2
+La_Liga,1914200,70,Espanyol,True,241,175,10,1,8,14,10
+La_Liga,1914200,65,Barcelona,False,754,690,20,4,15,24,1
 La_Liga,1914068,67,Sevilla,True,502,418,7,0,5,17,11
 La_Liga,1914068,62,Celta Vigo,False,353,280,9,1,6,7,6
+La_Liga,1914177,64,Rayo Vallecano,True,485,396,17,0,15,18,10
+La_Liga,1914177,51,Mallorca,False,392,297,12,3,11,14,9
+La_Liga,1914183,54,Real Betis,True,492,394,8,1,5,15,9
+La_Liga,1914183,131,Osasuna,False,506,408,12,1,8,14,9
+La_Liga,1914197,53,Athletic Club,True,630,509,18,1,10,14,12
+La_Liga,1914197,839,Villarreal,False,401,310,12,2,9,20,9
+La_Liga,1914203,62,Celta Vigo,True,736,625,9,0,7,19,6
+La_Liga,1914203,61,Real Oviedo,False,358,274,8,3,5,20,12
 La_Liga,1913929,833,Elche,True,384,309,5,2,4,25,9
 La_Liga,1913929,67,Sevilla,False,434,357,7,2,5,22,9
 La_Liga,1914040,68,Real Sociedad,True,526,442,9,1,9,25,13
@@ -187,6 +225,8 @@ La_Liga,1914094,833,Elche,True,496,399,17,0,13,15,7
 La_Liga,1914094,131,Osasuna,False,288,194,6,0,5,18,18
 La_Liga,1914118,60,Deportivo Alaves,True,389,289,8,0,5,17,11
 La_Liga,1914118,839,Villarreal,False,423,344,11,2,7,17,12
+La_Liga,1914186,832,Levante,True,448,333,22,1,14,10,11
+La_Liga,1914186,819,Getafe,False,266,166,5,0,5,16,15
 La_Liga,1913921,63,Atletico,True,656,578,8,2,7,11,5
 La_Liga,1913921,839,Villarreal,False,433,363,8,0,5,12,9
 La_Liga,1913925,819,Getafe,True,389,297,10,2,7,16,8
@@ -363,6 +403,14 @@ La_Liga,1914168,55,Valencia,True,381,283,9,2,8,16,8
 La_Liga,1914168,67,Sevilla,False,537,437,13,0,9,18,8
 La_Liga,1914174,2783,Girona,True,530,451,5,0,3,22,6
 La_Liga,1914174,131,Osasuna,False,487,414,19,1,12,17,12
+La_Liga,1914214,53,Athletic Club,True,327,247,7,1,5,13,10
+La_Liga,1914214,131,Osasuna,False,599,499,8,0,5,13,6
+La_Liga,1914220,51,Mallorca,True,554,460,20,1,13,18,4
+La_Liga,1914220,55,Valencia,False,388,304,10,1,9,13,9
+La_Liga,1914224,52,Real Madrid,True,659,587,24,2,18,15,5
+La_Liga,1914224,60,Deportivo Alaves,False,439,355,19,1,17,20,7
+La_Liga,1914228,2783,Girona,True,595,526,9,2,5,9,7
+La_Liga,1914228,54,Real Betis,False,470,399,7,3,6,13,10
 La_Liga,1913903,65,Barcelona,True,772,693,16,3,12,12,7
 La_Liga,1913903,819,Getafe,False,331,226,3,0,1,22,13
 La_Liga,1913906,61,Real Oviedo,True,417,335,12,0,7,16,5
@@ -397,6 +445,12 @@ La_Liga,1914170,60,Deportivo Alaves,True,442,355,14,4,11,20,6
 La_Liga,1914170,62,Celta Vigo,False,537,460,12,3,10,12,4
 La_Liga,1914172,52,Real Madrid,True,596,530,17,3,11,11,2
 La_Liga,1914172,63,Atletico,False,534,468,13,2,13,18,6
+La_Liga,1914216,65,Barcelona,True,741,683,10,1,7,21,11
+La_Liga,1914216,62,Celta Vigo,False,482,412,6,0,3,19,6
+La_Liga,1914226,833,Elche,True,715,611,14,3,12,15,11
+La_Liga,1914226,63,Atletico,False,282,205,6,2,3,21,12
+La_Liga,1914232,68,Real Sociedad,True,547,455,14,1,9,18,8
+La_Liga,1914232,819,Getafe,False,284,173,5,0,2,20,11
 La_Liga,1913885,54,Real Betis,True,506,429,16,1,13,11,11
 La_Liga,1913885,60,Deportivo Alaves,False,523,423,11,0,8,23,7
 La_Liga,1913999,62,Celta Vigo,True,521,425,7,1,6,24,9

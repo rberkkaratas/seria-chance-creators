@@ -29,6 +29,20 @@ Bundesliga,1910632,282,FC Koln,True,362,264,10,1,8,13,10
 Bundesliga,1910632,1211,Hoffenheim,False,571,454,15,0,13,16,6
 Bundesliga,1910799,36,Leverkusen,True,616,506,14,1,11,26,9
 Bundesliga,1910799,38,Hamburg,False,365,270,10,0,6,23,13
+Bundesliga,1910840,36,Leverkusen,True,680,575,25,6,14,11,2
+Bundesliga,1910840,33,Wolfsburg,False,301,226,11,3,7,19,11
+Bundesliga,1910841,4852,FC Heidenheim,True,501,410,15,2,12,22,8
+Bundesliga,1910841,134,Borussia M.Gladbach,False,560,458,15,2,13,13,5
+Bundesliga,1910843,37,Bayern,True,673,589,21,3,17,15,10
+Bundesliga,1910843,50,Freiburg,False,297,213,13,2,10,23,12
+Bundesliga,1910844,38,Hamburg,True,433,352,18,1,14,11,8
+Bundesliga,1910844,1730,Augsburg,False,396,307,18,1,13,15,5
+Bundesliga,1910845,219,Mainz,True,365,253,9,2,7,14,11
+Bundesliga,1910845,1211,Hoffenheim,False,539,408,16,1,10,15,8
+Bundesliga,1910846,44,Borussia Dortmund,True,327,225,5,2,4,12,7
+Bundesliga,1910846,41,Stuttgart,False,670,550,13,0,7,13,5
+Bundesliga,1910848,7614,RBL,True,488,390,7,2,5,17,11
+Bundesliga,1910848,42,Werder Bremen,False,592,502,13,1,11,24,11
 Bundesliga,1910624,36,Leverkusen,True,848,769,20,2,12,13,8
 Bundesliga,1910624,796,Union Berlin,False,314,222,10,0,9,15,11
 Bundesliga,1910626,44,Borussia Dortmund,True,540,444,15,1,9,15,7
@@ -39,6 +53,10 @@ Bundesliga,1910663,33,Wolfsburg,True,470,380,14,1,13,24,16
 Bundesliga,1910663,1730,Augsburg,False,418,313,10,3,8,10,6
 Bundesliga,1910668,42,Werder Bremen,True,483,374,15,1,9,22,13
 Bundesliga,1910668,283,St. Pauli,False,704,577,13,0,10,16,10
+Bundesliga,1910842,282,FC Koln,True,315,238,14,2,10,25,10
+Bundesliga,1910842,45,Eintracht Frankfurt,False,640,552,20,2,16,11,2
+Bundesliga,1910847,283,St. Pauli,True,417,289,9,1,6,20,10
+Bundesliga,1910847,796,Union Berlin,False,519,373,16,1,9,11,12
 Bundesliga,1910625,134,Borussia M.Gladbach,True,496,418,9,0,6,21,8
 Bundesliga,1910625,50,Freiburg,False,457,371,12,0,6,17,6
 Bundesliga,1910630,38,Hamburg,True,318,214,15,4,11,20,14
@@ -127,10 +145,28 @@ Bundesliga,1910682,282,FC Koln,True,422,325,21,2,17,11,5
 Bundesliga,1910682,4852,FC Heidenheim,False,536,427,14,2,7,15,5
 Bundesliga,1910686,796,Union Berlin,True,533,388,17,2,12,22,5
 Bundesliga,1910686,219,Mainz,False,407,269,9,2,8,22,5
+Bundesliga,1910849,1730,Augsburg,True,321,219,17,2,11,9,11
+Bundesliga,1910849,1211,Hoffenheim,False,596,467,13,2,10,17,10
 Bundesliga,1910674,37,Bayern,True,752,681,16,6,16,14,8
 Bundesliga,1910674,33,Wolfsburg,False,360,279,10,3,6,26,10
 Bundesliga,1910676,134,Borussia M.Gladbach,True,587,501,12,4,9,18,11
 Bundesliga,1910676,1730,Augsburg,False,551,458,17,0,10,33,8
+Bundesliga,1910850,36,Leverkusen,True,549,484,11,1,9,17,5
+Bundesliga,1910850,44,Borussia Dortmund,False,604,531,14,0,11,20,7
+Bundesliga,1910852,4852,FC Heidenheim,True,382,266,7,3,7,14,8
+Bundesliga,1910852,796,Union Berlin,False,457,318,10,1,10,11,6
+Bundesliga,1910854,134,Borussia M.Gladbach,True,462,356,15,0,9,17,14
+Bundesliga,1910854,7614,RBL,False,492,393,24,1,21,14,9
+Bundesliga,1910855,37,Bayern,True,980,900,20,5,17,12,7
+Bundesliga,1910855,283,St. Pauli,False,295,217,6,0,6,20,8
+Bundesliga,1910857,45,Eintracht Frankfurt,True,490,378,10,2,7,15,15
+Bundesliga,1910857,33,Wolfsburg,False,505,386,22,1,14,10,11
+Bundesliga,1910851,42,Werder Bremen,True,382,295,7,2,2,16,5
+Bundesliga,1910851,282,FC Koln,False,528,459,27,2,19,5,7
+Bundesliga,1910853,50,Freiburg,True,378,298,8,1,7,12,6
+Bundesliga,1910853,219,Mainz,False,396,280,10,0,7,23,6
+Bundesliga,1910856,38,Hamburg,True,316,230,9,0,8,13,10
+Bundesliga,1910856,41,Stuttgart,False,578,479,23,4,18,13,6
 Bundesliga,1910616,45,Eintracht Frankfurt,True,526,440,13,1,11,13,3
 Bundesliga,1910616,36,Leverkusen,False,342,264,18,3,11,25,4
 Bundesliga,1910654,796,Union Berlin,True,360,243,12,3,8,35,10
@@ -233,12 +269,24 @@ Bundesliga,1910810,37,Bayern,True,647,552,19,5,14,18,8
 Bundesliga,1910810,7614,RBL,False,467,380,17,1,12,14,9
 Bundesliga,1910813,33,Wolfsburg,True,678,559,13,1,9,12,3
 Bundesliga,1910813,4852,FC Heidenheim,False,302,199,13,1,9,16,11
+Bundesliga,1910864,282,FC Koln,True,499,404,10,1,6,14,12
+Bundesliga,1910864,283,St. Pauli,False,471,367,14,1,10,12,9
 Bundesliga,1910685,796,Union Berlin,True,323,220,16,3,12,14,7
 Bundesliga,1910685,134,Borussia M.Gladbach,False,537,437,8,1,6,21,2
 Bundesliga,1910805,1730,Augsburg,True,383,292,13,2,9,17,3
 Bundesliga,1910805,50,Freiburg,False,453,350,13,2,7,17,10
 Bundesliga,1910811,41,Stuttgart,True,540,450,12,1,11,17,4
 Bundesliga,1910811,796,Union Berlin,False,416,296,20,1,15,18,11
+Bundesliga,1910858,1730,Augsburg,True,319,235,11,2,10,17,8
+Bundesliga,1910858,36,Leverkusen,False,749,677,36,1,25,12,5
+Bundesliga,1910861,7614,RBL,True,399,323,19,3,18,23,9
+Bundesliga,1910861,45,Eintracht Frankfurt,False,412,346,16,1,12,18,9
+Bundesliga,1910863,44,Borussia Dortmund,True,492,385,8,1,5,15,9
+Bundesliga,1910863,1211,Hoffenheim,False,421,334,13,2,9,17,6
+Bundesliga,1910865,33,Wolfsburg,True,428,304,5,2,5,20,8
+Bundesliga,1910865,796,Union Berlin,False,503,368,25,1,19,7,10
+Bundesliga,1910866,42,Werder Bremen,True,493,390,18,3,16,22,5
+Bundesliga,1910866,38,Hamburg,False,378,278,11,1,8,20,6
 Bundesliga,1910670,37,Bayern,True,624,544,15,2,12,11,8
 Bundesliga,1910670,44,Borussia Dortmund,False,404,307,8,1,5,18,12
 Bundesliga,1910672,1730,Augsburg,True,424,306,10,1,6,15,11
@@ -251,6 +299,12 @@ Bundesliga,1910681,7614,RBL,True,505,419,10,2,9,12,15
 Bundesliga,1910681,38,Hamburg,False,570,471,15,1,12,18,6
 Bundesliga,1910687,41,Stuttgart,True,650,526,15,3,12,16,6
 Bundesliga,1910687,33,Wolfsburg,False,444,332,11,0,8,13,12
+Bundesliga,1910859,37,Bayern,True,704,632,28,4,20,5,10
+Bundesliga,1910859,41,Stuttgart,False,361,284,11,2,7,22,7
+Bundesliga,1910860,219,Mainz,True,646,542,17,1,13,12,10
+Bundesliga,1910860,134,Borussia M.Gladbach,False,397,309,9,1,6,13,12
+Bundesliga,1910862,4852,FC Heidenheim,True,440,338,13,1,11,8,5
+Bundesliga,1910862,50,Freiburg,False,380,283,17,2,15,18,6
 Bundesliga,1910641,41,Stuttgart,True,572,494,17,2,14,14,17
 Bundesliga,1910641,283,St. Pauli,False,485,367,9,0,6,15,7
 Bundesliga,1910675,45,Eintracht Frankfurt,True,459,345,8,2,6,25,9
