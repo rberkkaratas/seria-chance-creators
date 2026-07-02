@@ -22,41 +22,36 @@ class RoleMapTab(TabRenderer):
         has_league_col = state.has_league_col
         has_league_scores = state.has_league_scores
         all_roles = state.all_roles
-        role_score_cols = state.role_score_cols
+        role_score_cols = state.active_role_score_cols
         active_pct_suffix = state.active_pct_suffix
         all_leagues = state.all_leagues
+        group_cfg = state.group_cfg
+        active_primary_role_col = state.active_primary_role_col
+        role_weights = group_cfg["roles"]
+        role_zones = group_cfg["role_zones"]
 
         # ── Zone taxonomy ──────────────────────────────────────────────────
-        _PITCH_ZONES = {
-            "Deep Builder":    "Deep",
-            "Ball Progressor": "Dynamic",
-            "Creator":         "Advanced",
-            "Box Threat":      "Advanced",
-        }
-        _ZONE_COLORS = {
-            "Deep":     "#FF9800",
-            "Dynamic":  "#00C896",
-            "Advanced": "#0095FF",
-        }
+        _ZONE_COLORS = {zone: meta["color"] for zone, meta in config.ZONE_META.items()}
         _ZONE_LABELS = {
-            "Deep":     "Deep — builds from the back third",
-            "Dynamic":  "Dynamic — drives through midfield",
-            "Advanced": "Advanced — creates and threatens in the final third",
+            "Deep": "Deep — builds, defends, or controls from deeper zones",
+            "Dynamic": "Dynamic — drives, presses, or attacks through transitional zones",
+            "Advanced": "Advanced — creates, finishes, or threatens in the final third",
         }
-        _ZONE_ORDER  = ["Deep", "Dynamic", "Advanced"]
-        _ROLE_ABBREV = {
-            "Creator":         "Creator",
-            "Ball Progressor": "Progressor",
-            "Box Threat":      "Box Threat",
-            "Deep Builder":    "Deep Builder",
-        }
+        _ZONE_ORDER = [
+            zone for zone, _ in sorted(config.ZONE_META.items(), key=lambda item: item[1]["order"])
+        ]
+        _ROLE_ABBREV = {role: role.replace("Ball-Playing ", "BP ") for role in all_roles}
+
+        def _active_role_col(role: str) -> str:
+            league_col = f"{config.ROLE_SCORE_COL_PREFIX}{role}_league"
+            base_col = role_score_col(role)
+            return league_col if league_col in role_score_cols else base_col
 
         # ── Header ──────────────────────────────────────────────────────────
-        st.markdown('<p class="section-title">Creation Role Taxonomy</p>', unsafe_allow_html=True)
+        st.markdown('<p class="section-title">Role Taxonomy</p>', unsafe_allow_html=True)
         st.markdown(
-            "Four creation-focused roles cover every way a midfielder can generate chances — "
-            "from the deep builder to the box threat. Each player is scored 0–100 "
-            "per role based on weighted percentile ranks of its defining metrics, and assigned "
+            f"{group_cfg['display_name']} are scored 0–100 across their tactical role set. "
+            "Each role score is a weighted blend of group-scoped percentile ranks, and each player is assigned "
             "a **primary role** where they score highest."
         )
         st.markdown("<div style='margin:20px 0 4px'></div>", unsafe_allow_html=True)
@@ -66,26 +61,27 @@ class RoleMapTab(TabRenderer):
 
         # ── Role cards — single row ──────────────────────────────────────────
         # Compute uniform card height from the role with the most metrics so all cards match.
-        _max_metrics = max(len(w) for w in config.ROLE_WEIGHTS.values())
+        _max_metrics = max(len(w) for w in role_weights.values())
         _card_min_h  = 240 + _max_metrics * 26   # base + 26px per metric bar
         _card_cols = st.columns(len(all_roles))
         for _ci, _role in enumerate(all_roles):
             _rc    = role_color(_role)
             _desc  = ROLE_DESCRIPTIONS.get(_role, "")
-            _zone  = _PITCH_ZONES.get(_role, "")
+            _zone  = role_zones.get(_role, "")
             _zc    = _ZONE_COLORS.get(_zone, "#64748b")
-            _weights = config.ROLE_WEIGHTS.get(_role, {})
+            _weights = role_weights.get(_role, {})
+            _score_col = _active_role_col(_role)
 
-            _n = int((filtered[config.PRIMARY_ROLE_COL] == _role).sum()) \
-                 if has_roles and config.PRIMARY_ROLE_COL in filtered.columns else 0
+            _n = int((filtered[active_primary_role_col] == _role).sum()) \
+                 if has_roles and active_primary_role_col in filtered.columns else 0
             _avg = filtered.loc[
-                filtered[config.PRIMARY_ROLE_COL] == _role, role_score_col(_role)
-            ].mean() if _n > 0 and role_score_col(_role) in filtered.columns else 0
+                filtered[active_primary_role_col] == _role, _score_col
+            ].mean() if _n > 0 and _score_col in filtered.columns else 0
 
             _mv_avg_str = ""
             if has_tm_data and _n > 0:
                 _mv_vals = filtered.loc[
-                    filtered[config.PRIMARY_ROLE_COL] == _role, "market_value_eur"
+                    filtered[active_primary_role_col] == _role, "market_value_eur"
                 ].dropna()
                 if len(_mv_vals):
                     _mv_avg_str = f"€{_mv_vals.mean()/1e6:.1f}M"
@@ -156,7 +152,7 @@ class RoleMapTab(TabRenderer):
             col_donut, col_heat = st.columns([1, 2])
 
             with col_donut:
-                _counts = filtered[config.PRIMARY_ROLE_COL].value_counts().reindex(all_roles, fill_value=0)
+                _counts = filtered[active_primary_role_col].value_counts().reindex(all_roles, fill_value=0)
                 _total  = int(_counts.sum())
                 fig_donut = go.Figure(go.Pie(
                     labels=_counts.index,
@@ -185,13 +181,13 @@ class RoleMapTab(TabRenderer):
                 st.plotly_chart(fig_donut, use_container_width=True)
 
             with col_heat:
-                _active_roles = [r for r in all_roles if (filtered[config.PRIMARY_ROLE_COL] == r).any()]
+                _active_roles = [r for r in all_roles if (filtered[active_primary_role_col] == r).any()]
                 _heat_z, _heat_text = [], []
                 for _r in _active_roles:
-                    _sub  = filtered[filtered[config.PRIMARY_ROLE_COL] == _r]
+                    _sub  = filtered[filtered[active_primary_role_col] == _r]
                     _vals = [
-                        round(_sub[role_score_col(r2)].mean(), 1)
-                        if role_score_col(r2) in _sub.columns else 0.0
+                        round(_sub[_active_role_col(r2)].mean(), 1)
+                        if _active_role_col(r2) in _sub.columns else 0.0
                         for r2 in _active_roles
                     ]
                     _heat_z.append(_vals)
@@ -227,17 +223,17 @@ class RoleMapTab(TabRenderer):
             # ── Role DNA heatmap ────────────────────────────────────────────
             st.markdown('<p class="section-title">Role DNA — what makes each role tick?</p>', unsafe_allow_html=True)
             st.caption(
-                "Average percentile rank of every metric used across all 9 roles, grouped by primary role. "
+                "Average percentile rank of every metric used across the active role set, grouped by primary role. "
                 "Bright cells show where each archetype genuinely excels — dark cells reveal where they don't."
             )
 
             _all_dna_metrics = list(dict.fromkeys(
-                m for weights in config.ROLE_WEIGHTS.values() for m in weights
+                m for weights in role_weights.values() for m in weights
             ))
             _dna_labels = [label(m) for m in _all_dna_metrics]
             _dna_z, _dna_y = [], []
             for _role in all_roles:
-                _rp = filtered[filtered[config.PRIMARY_ROLE_COL] == _role]
+                _rp = filtered[filtered[active_primary_role_col] == _role]
                 if len(_rp) == 0:
                     continue
                 _dna_y.append(_role)
@@ -275,7 +271,7 @@ class RoleMapTab(TabRenderer):
             # ── Role share by league (% stacked bar) ───────────────────────
             if has_league_col and filtered["league"].nunique() > 1:
                 st.markdown('<p class="section-title">Role Share by League</p>', unsafe_allow_html=True)
-                st.caption("What percentage of each league's midfielders fall into each role? Reveals each league's tactical identity.")
+                st.caption(f"What percentage of each league's {group_cfg['display_name'].lower()} fall into each role?")
 
                 import pandas as pd
                 _lr_rows = []
@@ -283,7 +279,7 @@ class RoleMapTab(TabRenderer):
                     _lg_df   = filtered[filtered["league"] == _lg]
                     _lg_tot  = max(len(_lg_df), 1)
                     for _role in all_roles:
-                        _n_role = int((_lg_df[config.PRIMARY_ROLE_COL] == _role).sum())
+                        _n_role = int((_lg_df[active_primary_role_col] == _role).sum())
                         _lr_rows.append({
                             "league_badge": self._league_badge(_lg),
                             "role": _role,
@@ -316,7 +312,7 @@ class RoleMapTab(TabRenderer):
                     ),
                     xaxis=dict(tickfont=dict(size=12, color=D_TEXT)),
                     yaxis=dict(
-                        title="% of league midfielders", ticksuffix="%",
+                        title=f"% of league {group_cfg['display_name'].lower()}", ticksuffix="%",
                         gridcolor=D_GRID, color=D_TEXT, range=[0, 101],
                     ),
                     margin=dict(l=10, r=10, t=50, b=10),
@@ -333,9 +329,9 @@ class RoleMapTab(TabRenderer):
 
             for _zone in _ZONE_ORDER:
                 _zr = [r for r in all_roles
-                       if _PITCH_ZONES.get(r) == _zone
+                       if role_zones.get(r) == _zone
                        and has_roles
-                       and (filtered[config.PRIMARY_ROLE_COL] == r).any()]
+                       and (filtered[active_primary_role_col] == r).any()]
                 if not _zr:
                     continue
                 _zc = _ZONE_COLORS[_zone]
@@ -351,9 +347,9 @@ class RoleMapTab(TabRenderer):
                 _zcols = st.columns(len(_zr))
                 for _ci, _role in enumerate(_zr):
                     _rc      = role_color(_role)
-                    _sc_col  = role_score_col(_role)
+                    _sc_col  = _active_role_col(_role)
                     _rp_top  = (
-                        filtered[filtered[config.PRIMARY_ROLE_COL] == _role]
+                        filtered[filtered[active_primary_role_col] == _role]
                         .sort_values(_sc_col, ascending=False)
                         .head(8)
                     )
@@ -387,9 +383,9 @@ class RoleMapTab(TabRenderer):
             if has_tm_data:
                 _scatter_df = filtered[
                     filtered["market_value_eur"].notna() &
-                    filtered[config.PRIMARY_ROLE_COL].notna()
+                    filtered[active_primary_role_col].notna()
                 ].copy()
-                _scatter_df = _scatter_df[_scatter_df[config.PRIMARY_ROLE_COL].isin(all_roles)]
+                _scatter_df = _scatter_df[_scatter_df[active_primary_role_col].isin(all_roles)]
 
                 if len(_scatter_df) >= 5:
                     st.markdown("---")
@@ -401,11 +397,11 @@ class RoleMapTab(TabRenderer):
 
                     fig_mv_scatter = go.Figure()
                     for _r in all_roles:
-                        _rdf = _scatter_df[_scatter_df[config.PRIMARY_ROLE_COL] == _r]
+                        _rdf = _scatter_df[_scatter_df[active_primary_role_col] == _r]
                         if _rdf.empty:
                             continue
                         _rc      = role_color(_r)
-                        _sc_col  = role_score_col(_r)
+                        _sc_col  = _active_role_col(_r)
                         _scores  = _rdf[_sc_col].fillna(0) if _sc_col in _rdf.columns else pd.Series(0, index=_rdf.index)
                         _mv_m    = _rdf["market_value_eur"] / 1e6
                         _flag    = _rdf["league"].map(LEAGUE_FLAGS).fillna("") if has_league_col else pd.Series("", index=_rdf.index)
@@ -433,7 +429,8 @@ class RoleMapTab(TabRenderer):
                     # Median lines
                     _med_mv  = _scatter_df["market_value_eur"].median() / 1e6
                     _med_sc  = _scatter_df.apply(
-                        lambda r: r.get(role_score_col(r[config.PRIMARY_ROLE_COL]), 0) or 0, axis=1
+                        lambda r: r.get(_active_role_col(r[active_primary_role_col]), 0) or 0,
+                        axis=1,
                     ).median()
                     for _mv_line in [_med_mv]:
                         fig_mv_scatter.add_vline(
@@ -473,7 +470,7 @@ class RoleMapTab(TabRenderer):
             st.info(
                 "Role scores are not available yet. Re-run the pipeline:\n\n"
                 "```bash\n"
-                "python -m src.features.chance_creation\n"
+                "python -m src.features.player_features --league all\n"
                 "```"
             )
 

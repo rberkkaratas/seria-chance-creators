@@ -12,6 +12,7 @@ import pandas as pd
 
 @dataclass
 class FilterState:
+    position_group: str
     min_mins: int
     age_range: tuple
     selected_positions: list
@@ -27,8 +28,11 @@ class FilterState:
 class AppState:
     df: pd.DataFrame
     filtered: pd.DataFrame
+    group_df: pd.DataFrame
     raw_players_df: pd.DataFrame
     matches_df: pd.DataFrame
+    position_group: str
+    group_cfg: dict
     # feature flags
     has_archetypes: bool
     has_tm_data: bool

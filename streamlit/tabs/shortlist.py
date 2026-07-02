@@ -1,5 +1,6 @@
 """Shortlist tab — ranked player list with bar chart and table."""
 
+import json
 import sys
 from pathlib import Path
 
@@ -29,22 +30,26 @@ class ShortlistTab(TabRenderer):
         has_tm_data = state.has_tm_data
         score_col = state.score_col
         active_role_score_cols = state.active_role_score_cols
+        active_primary_role_col = state.active_primary_role_col
         all_roles = state.all_roles
         rename_map = state.rename_map
-        role_score_cols = state.role_score_cols
+        role_score_cols = state.active_role_score_cols
 
-        st.markdown('<p class="section-title">Midfielder Shortlist</p>', unsafe_allow_html=True)
+        st.markdown('<p class="section-title">Player Shortlist</p>', unsafe_allow_html=True)
 
-        _active_rsc = active_role_score_cols
+        def _active_role_col(role: str) -> str:
+            league_col = f"{config.ROLE_SCORE_COL_PREFIX}{role}_league"
+            base_col = role_score_col(role)
+            return league_col if league_col in active_role_score_cols else base_col
 
         # ── Sort pill buttons — Overall + per-role ─────────────────────────
         _sort_labels = ["Overall"] + [
             r for r in all_roles
-            if role_score_col(r) in filtered.columns
+            if _active_role_col(r) in filtered.columns
         ]
         _sort_keys = [score_col] + [
-            role_score_col(r) for r in all_roles
-            if role_score_col(r) in filtered.columns
+            _active_role_col(r) for r in all_roles
+            if _active_role_col(r) in filtered.columns
         ]
         _prev_label = st.session_state.get("sl_sort_label")
         _default_label = _prev_label if _prev_label in _sort_labels else _sort_labels[0]
@@ -56,6 +61,35 @@ class ShortlistTab(TabRenderer):
             key="sl_sort_pills",
             label_visibility="collapsed",
         )
+        _role_tooltips = {
+            role: state.group_cfg.get("role_descriptions", {}).get(role, "")
+            for role in _sort_labels
+            if role != "Overall"
+        }
+        if _role_tooltips:
+            components.html(
+                f"""
+                <script>
+                const roleTooltips = {json.dumps(_role_tooltips)};
+                const applyRoleTooltips = () => {{
+                    const candidates = window.parent.document.querySelectorAll(
+                        'button, [role="button"], [data-baseweb="radio"], [data-baseweb="tag"]'
+                    );
+                    for (const el of candidates) {{
+                        const label = (el.innerText || el.textContent || '').trim();
+                        if (roleTooltips[label]) {{
+                            el.setAttribute('title', roleTooltips[label]);
+                            el.style.cursor = 'help';
+                        }}
+                    }}
+                }};
+                applyRoleTooltips();
+                window.setTimeout(applyRoleTooltips, 200);
+                window.setTimeout(applyRoleTooltips, 800);
+                </script>
+                """,
+                height=0,
+            )
         _sel = _selected_label if _selected_label in _sort_labels else _sort_labels[0]
         st.session_state["sl_sort_label"] = _sel
         sort_col = _sort_keys[_sort_labels.index(_sel)]
@@ -73,7 +107,7 @@ class ShortlistTab(TabRenderer):
             medals = ["🥇", "🥈", "🥉"]
             pod_cols = st.columns(3)
             for ci, (_, pr) in enumerate(podium.iterrows()):
-                pr_role  = pr.get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
+                pr_role  = pr.get(active_primary_role_col, "") if has_roles else ""
                 pr_rc    = role_color(pr_role) if pr_role else "#0095FF"
                 pr_score = pr.get(sort_col, 0)
                 pr_lg    = LEAGUE_FLAGS.get(pr.get("league", ""), "") if has_league_col else ""
@@ -114,15 +148,15 @@ class ShortlistTab(TabRenderer):
             )
 
         bar_color = (
-            top_n[config.PRIMARY_ROLE_COL].map(role_color)
-            if has_roles and config.PRIMARY_ROLE_COL in top_n.columns
+            top_n[active_primary_role_col].map(role_color)
+            if has_roles and active_primary_role_col in top_n.columns
             else (top_n["archetype"].map(archetype_color) if has_archetypes and "archetype" in top_n.columns else "#007BFF")
         )
 
         # Background track at the axis max so bars read as fills
         _x_max  = float(top_n[sort_col].max()) * 1.18
         _x_avg  = float(ranked[sort_col].mean())
-        _is_score = sort_col == score_col or sort_col in [role_score_col(r) for r in all_roles]
+        _is_score = sort_col == score_col or sort_col in [_active_role_col(r) for r in all_roles]
         _track_max = 100.0 if _is_score else _x_max
 
         fig_bar = go.Figure()
@@ -154,10 +188,16 @@ class ShortlistTab(TabRenderer):
                 "Team: %{customdata[1]}<br>"
                 "League: %{customdata[3]}<br>"
                 f"{sort_label_clean}: %{{x:.2f}}<br>"
-                "Overall Score: %{customdata[2]:.1f}<extra></extra>"
+                "Overall Score: %{customdata[2]:.1f}<br>"
+                "Score Confidence: %{customdata[4]:.0f}%<extra></extra>"
             ),
-            customdata=top_n[["player_name", "team_name", score_col,
-                               "league" if has_league_col else "team_name"]].values,
+            customdata=top_n[[
+                "player_name",
+                "team_name",
+                score_col,
+                "league" if has_league_col else "team_name",
+                config.SCORE_CONFIDENCE_COL if config.SCORE_CONFIDENCE_COL in top_n.columns else score_col,
+            ]].values,
             showlegend=False,
         ))
 
@@ -214,8 +254,16 @@ class ShortlistTab(TabRenderer):
         if has_league_col:
             display_cols.append("league")
         display_cols += ["position", "age", "minutes_played"]
+        display_cols += [
+            "appearances",
+            "starts",
+            "start_rate",
+            "minutes_per_appearance",
+            config.SCORE_CONFIDENCE_COL,
+            config.SAMPLE_TIER_COL,
+        ]
         if has_roles:
-            display_cols.append(config.PRIMARY_ROLE_COL)
+            display_cols.append(active_primary_role_col)
         elif has_archetypes:
             display_cols.append("archetype")
         display_cols += [score_col] + [c for c in role_score_cols if c in ranked.columns]
@@ -227,8 +275,8 @@ class ShortlistTab(TabRenderer):
         tbl.index = range(1, len(tbl) + 1)
         if has_league_col:
             tbl["league"] = tbl["league"].map(lambda l: f"{LEAGUE_FLAGS.get(l,'')} {LEAGUE_DISPLAY.get(l, l.replace('_',' '))}")
-        if has_roles and config.PRIMARY_ROLE_COL in tbl.columns:
-            tbl[config.PRIMARY_ROLE_COL] = tbl[config.PRIMARY_ROLE_COL].map(
+        if has_roles and active_primary_role_col in tbl.columns:
+            tbl[active_primary_role_col] = tbl[active_primary_role_col].map(
                 lambda r: r if pd.notna(r) else r
             )
         tbl_rename = {
@@ -242,6 +290,13 @@ class ShortlistTab(TabRenderer):
         col_cfg = {
             "Overall Score":          st.column_config.NumberColumn("Overall Score", format="%.1f"),
             "Mins":              st.column_config.NumberColumn("Mins", format="%d"),
+            "Apps":              st.column_config.NumberColumn("Apps", format="%d"),
+            "Starts":            st.column_config.NumberColumn("Starts", format="%d"),
+            "Start %":           st.column_config.NumberColumn("Start %", format="%.0f%%"),
+            "Mins/App":          st.column_config.NumberColumn("Mins/App", format="%.1f"),
+            "Score Confidence":  st.column_config.ProgressColumn(
+                "Score Confidence", min_value=0, max_value=100, format="%.0f%%"
+            ),
             "Age":               st.column_config.NumberColumn("Age",  format="%d"),
             "Market Value (€)":  st.column_config.NumberColumn("Market Value (€)", format="%,.0f"),
             "Contract Until":    st.column_config.NumberColumn("Contract Until", format="%d"),

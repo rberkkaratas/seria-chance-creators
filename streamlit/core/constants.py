@@ -28,11 +28,25 @@ METRIC_LABELS = {
     "ball_winning_height":              "Ball-Winning Height",
     "def_actions_p90":                  "Def. Actions / 90",
     "direct_creation_p90":              "Direct Creation / 90",
+    "long_balls_p90":                   "Long Balls / 90",
+    "total_passes_p90":                 "Passes / 90",
+    "accurate_passes_p90":              "Accurate Passes / 90",
     "pass_accuracy":                    "Pass Accuracy (%)",
     "dribble_success_rate":             "Dribble Success (%)",
     "tackle_success_rate":              "Tackle Success (%)",
     "aerial_win_rate":                  "Aerial Win Rate (%)",
     "cross_accuracy":                   "Cross Accuracy (%)",
+    "tackles_p90":                      "Tackles / 90",
+    "tackles_successful_p90":           "Successful Tackles / 90",
+    "interceptions_p90":                "Interceptions / 90",
+    "clearances_p90":                   "Clearances / 90",
+    "ball_recoveries_p90":              "Ball Recoveries / 90",
+    "shots_blocked_p90":                "Shots Blocked / 90",
+    "aerials_won_p90":                  "Aerials Won / 90",
+    "aerials_total_p90":                "Aerial Duels / 90",
+    "possession_won_p90":               "Possession Won / 90",
+    "possession_lost_p90":              "Possession Lost / 90",
+    "touches_final_third_p90":          "Final Third Touches / 90",
 }
 
 
@@ -69,7 +83,7 @@ def league_badge(league_key: str) -> str:
 
 
 def role_color(name: str) -> str:
-    return config.ROLE_COLORS.get(name, "#888")
+    return config.ALL_ROLE_COLORS.get(name, "#888")
 
 
 def role_score_col(role: str) -> str:
@@ -79,9 +93,4 @@ def role_score_col(role: str) -> str:
 # ─── Role Descriptions ────────────────────────────────────────────────
 ROLE_ICONS: dict[str, str] = {}   # icons removed — kept for API compatibility
 
-ROLE_DESCRIPTIONS = {
-    "Creator":         "Delivers the ball into dangerous areas — through key passes, through balls, crosses, or cut-backs. Creates chances regardless of whether they operate centrally or from wide.",
-    "Ball Progressor": "Drives the team forward through carrying and dribbling. Gets the ball into dangerous areas through athletic, direct progression.",
-    "Box Threat":      "Lives in the penalty area, shoots often, and creates from proximity. High box-touch volume combined with direct shooting makes them a constant goal threat.",
-    "Deep Builder":    "Enables the team through high-volume, accurate, forward-oriented passing. Controls tempo and moves the ball efficiently from deep areas.",
-}
+ROLE_DESCRIPTIONS = config.ALL_ROLE_DESCRIPTIONS

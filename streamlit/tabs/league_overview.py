@@ -17,12 +17,19 @@ from core.theme import D_TEXT, D_GRID, D_TICK, dark_layout
 
 class LeagueOverviewTab(TabRenderer):
     def render(self, state: AppState) -> None:
-        df = state.df
+        df = state.group_df
         has_league_col = state.has_league_col
         has_roles = state.has_roles
-        role_score_cols = state.role_score_cols
+        role_score_cols = state.active_role_score_cols
         all_roles = state.all_roles
         score_col = state.score_col
+        active_primary_role_col = state.active_primary_role_col
+        group_cfg = state.group_cfg
+
+        def _active_role_col(role: str) -> str:
+            league_col = f"{config.ROLE_SCORE_COL_PREFIX}{role}_league"
+            base_col = role_score_col(role)
+            return league_col if league_col in role_score_cols else base_col
 
         # Access filter values from df + filtered for the overview mask
         # The overview uses full df filtered only by minutes/age/position
@@ -61,12 +68,7 @@ class LeagueOverviewTab(TabRenderer):
                 ["#0095FF", "#FF5252", "#00C896", "#FF9800", "#B450FF", "#FFC400"],
             )
         }
-        _role_abbrev_lg = {
-            "Creator":         "Creator",
-            "Ball Progressor": "Progressor",
-            "Box Threat":      "Box Threat",
-            "Deep Builder":    "Deep Builder",
-        }
+        _role_abbrev_lg = {role: role.replace("Ball-Playing ", "BP ") for role in all_roles}
 
         has_tm_data = "market_value_eur" in ov_df.columns
         import pandas as pd
@@ -77,7 +79,7 @@ class LeagueOverviewTab(TabRenderer):
         for _lg in leagues_in_ov:
             _lgdf = ov_df[ov_df["league"] == _lg]
             _lg_avgs[_lg] = {
-                r: (_lgdf[role_score_col(r)].mean() if role_score_col(r) in _lgdf.columns else 0.0)
+                r: (_lgdf[_active_role_col(r)].mean() if _active_role_col(r) in _lgdf.columns else 0.0)
                 for r in all_roles
             }
             if has_tm_data:
@@ -87,9 +89,9 @@ class LeagueOverviewTab(TabRenderer):
         # ── Header ──────────────────────────────────────────────────────────
         st.markdown('<p class="section-title">League Identity</p>', unsafe_allow_html=True)
         st.markdown(
-            "Each of Europe's top five leagues has a distinct midfield character — shaped "
+            f"Each of Europe's top five leagues has a distinct {group_cfg['display_name'].lower()} profile — shaped "
             "by tactical culture, coaching philosophy, and recruitment patterns. "
-            "This page reveals those identities through the lens of four tactical roles."
+            "This page reveals those identities through the active tactical role set."
         )
         st.markdown("<div style='margin:16px 0'></div>", unsafe_allow_html=True)
 
@@ -140,7 +142,7 @@ class LeagueOverviewTab(TabRenderer):
         # ── Role fingerprint heatmap ─────────────────────────────────────────
         st.markdown('<p class="section-title">Role Fingerprint by League</p>', unsafe_allow_html=True)
         st.caption(
-            "Average role score across all qualified midfielders per league. "
+            f"Average role score across all included {group_cfg['display_name'].lower()} per league. "
             "★ marks the top league for each role."
         )
         _hm_roles   = [_role_abbrev_lg.get(r, r) for r in all_roles]
@@ -230,8 +232,9 @@ class LeagueOverviewTab(TabRenderer):
             for _lg in leagues_in_ov:
                 _ldf = ov_df[
                     (ov_df["league"] == _lg) &
-                    (ov_df.get(config.PRIMARY_ROLE_COL, pd.Series(dtype=str)) == _role)
-                ] if config.PRIMARY_ROLE_COL in ov_df.columns else pd.DataFrame()
+                    (ov_df.get(active_primary_role_col, pd.Series(dtype=str)) == _role)
+                ] if active_primary_role_col in ov_df.columns else pd.DataFrame()
+                _sc_r = _active_role_col(_role)
                 if len(_ldf) > 0 and _sc_r in _ldf.columns:
                     _best = _ldf.nlargest(1, _sc_r).iloc[0]
                     _row[league_badge(_lg)] = f"{_best['player_name']} · {_best[_sc_r]:.0f}"
@@ -246,7 +249,7 @@ class LeagueOverviewTab(TabRenderer):
         # ── Age profile by league ────────────────────────────────────────────
         if "age" in ov_df.columns:
             st.markdown('<p class="section-title">Age Profile by League</p>', unsafe_allow_html=True)
-            st.caption("Distribution of midfielder ages per league — reveals which leagues trust young players vs. experienced ones.")
+            st.caption(f"Distribution of {group_cfg['display_name'].lower()} ages per league.")
             fig_age = go.Figure()
             for _lg in leagues_in_ov:
                 _ages = ov_df.loc[ov_df["league"] == _lg, "age"].dropna()
@@ -270,7 +273,7 @@ class LeagueOverviewTab(TabRenderer):
         if has_tm_data and _lg_mv_avgs:
             st.markdown("---")
             st.markdown('<p class="section-title">Market Value by League</p>', unsafe_allow_html=True)
-            st.caption("Average and median market value of qualified midfielders per league. Reflects squad investment and transfer market positioning.")
+            st.caption(f"Average and median market value of included {group_cfg['display_name'].lower()} per league.")
             _mv_leagues  = [league_badge(_lg) for _lg in leagues_in_ov]
             _mv_avgs_m   = [_lg_mv_avgs.get(_lg, 0) / 1e6 for _lg in leagues_in_ov]
             _mv_medians_m = []
@@ -298,4 +301,3 @@ class LeagueOverviewTab(TabRenderer):
                 margin=dict(l=10, r=10, t=50, b=10),
             ))
             st.plotly_chart(fig_mv, use_container_width=True)
-

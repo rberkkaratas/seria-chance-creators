@@ -1,5 +1,5 @@
 """
-Midfielder Scout — Streamlit entry point.
+Player Scout — Streamlit entry point.
 Wires together data loading, filtering, and tab rendering.
 """
 import sys
@@ -24,7 +24,7 @@ from tabs.explore import ExploreTab
 from tabs.league_overview import LeagueOverviewTab
 from tabs.about import AboutTab
 
-st.set_page_config(page_title="Midfielder Scout 2025/26", page_icon="⚽", layout="wide")
+st.set_page_config(page_title="Player Scout 2025/26", page_icon="⚽", layout="wide")
 inject_css()
 
 # ── Data ──────────────────────────────────────────────────────────────
@@ -48,9 +48,8 @@ st.markdown("<div style='margin:8px 0'></div>", unsafe_allow_html=True)
 has_league_col = "league" in df.columns
 has_tm_data    = "market_value_eur" in df.columns
 all_leagues    = sorted(df["league"].dropna().unique().tolist()) if has_league_col else []
-all_roles      = list(config.ROLE_WEIGHTS.keys())
 
-filter_state = render_filters(df, has_league_col, has_tm_data, all_roles, all_leagues, config)
+filter_state = render_filters(df, has_league_col, has_tm_data, all_leagues, config)
 
 # ── Apply filters + build AppState ────────────────────────────────────
 filtered  = FilterService.apply(df, filter_state, config.PRIMARY_ROLE_COL in df.columns, has_league_col, has_tm_data)

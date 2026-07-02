@@ -62,6 +62,25 @@ def _save_mapping(df: pd.DataFrame) -> None:
     logger.info("Mapping saved → %s", MAPPING_FILE)
 
 
+def _dedupe_mapping_by_player_id(mapping: pd.DataFrame) -> pd.DataFrame:
+    """Keep one best mapping row per WhoScored player_id."""
+    if mapping.empty or "player_id" not in mapping.columns:
+        return mapping
+    mapping = mapping.copy()
+    mapping["player_id"] = mapping["player_id"].astype(str)
+    priority = {"manual": 0, "auto": 1, "manual_needed": 2}
+    mapping["_priority"] = mapping["verified"].map(priority).fillna(3)
+    if "confidence" in mapping.columns:
+        mapping["confidence"] = pd.to_numeric(mapping["confidence"], errors="coerce")
+        mapping = mapping.sort_values(
+            ["player_id", "_priority", "confidence"],
+            ascending=[True, True, False],
+        )
+    else:
+        mapping = mapping.sort_values(["player_id", "_priority"])
+    return mapping.drop_duplicates("player_id", keep="first").drop(columns=["_priority"])
+
+
 # ─── Scraping ─────────────────────────────────────────────────────────
 
 def fetch_tm_squad_data(refresh: bool = False) -> pd.DataFrame:
@@ -387,12 +406,14 @@ def build_name_mapping(
     "Modrić" within Real Madrid's 25-player squad is far more reliable than
     matching globally against 500+ names.
     """
-    mapping    = existing_mapping.copy()
+    mapping    = _dedupe_mapping_by_player_id(existing_mapping)
     mapped_ids = set(mapping["player_id"].astype(str).tolist())
 
     to_match = players_df[
         ~players_df["player_id"].astype(str).isin(mapped_ids)
     ].copy()
+    to_match["player_id"] = to_match["player_id"].astype(str)
+    to_match = to_match.drop_duplicates("player_id", keep="first")
 
     if to_match.empty:
         logger.info("All players already in mapping — skipping fuzzy match.")
@@ -497,7 +518,9 @@ def build_name_mapping(
             print(f"  · {entry}")
         print()
 
-    return pd.concat([mapping, pd.DataFrame(new_rows)], ignore_index=True)
+    return _dedupe_mapping_by_player_id(
+        pd.concat([mapping, pd.DataFrame(new_rows)], ignore_index=True)
+    )
 
 
 # ─── Transfer feasibility ─────────────────────────────────────────────
@@ -551,21 +574,24 @@ def _merge_manual_players(tm_squads: pd.DataFrame) -> pd.DataFrame:
 
 # ─── Enrichment join ──────────────────────────────────────────────────
 
-def enrich_chance_creators(
+def enrich_players(
     df: pd.DataFrame,
     tm_squads: pd.DataFrame,
     mapping: pd.DataFrame,
 ) -> pd.DataFrame:
     """
-    Join Transfermarkt data onto the chance creators DataFrame.
+    Join Transfermarkt data onto the player feature DataFrame.
     Adds: market_value_eur, contract_expires, transfer_feasibility.
 
     Joins on (tm_player_name + tm_team_name) when tm_team_name is stored in
     the mapping, so players who share the same name at different clubs
-    (e.g. two 'Vitinha's) resolve to the correct row.
+    resolve to the correct row. Because the feature table can contain multiple
+    rows for the same player_id across position groups, joining by player_id
+    enriches each group row consistently.
     """
     usable = mapping[mapping["verified"].isin(["auto", "manual"])].copy()
     usable["player_id"] = usable["player_id"].astype(str)
+    usable = _dedupe_mapping_by_player_id(usable)
 
     df = df.copy()
     df["player_id"] = df["player_id"].astype(str)
@@ -598,23 +624,17 @@ def enrich_chance_creators(
 # ─── Pipeline entry point ─────────────────────────────────────────────
 
 def run_enrichment(refresh: bool = False) -> None:
-    # Prefer the merged all-leagues file; fall back to single-league outputs
     all_leagues_path = config.DATA_FINAL / f"all_leagues_{config.SEASON}.csv"
-    clustered_path   = config.DATA_FINAL / "chance_creators_clustered.csv"
-    base_path        = config.DATA_FINAL / "chance_creators.csv"
 
-    if all_leagues_path.exists():
-        input_path  = all_leagues_path
-        output_path = config.DATA_FINAL / f"all_leagues_{config.SEASON}_enriched.csv"
-    elif clustered_path.exists():
-        input_path  = clustered_path
-        output_path = config.DATA_FINAL / "chance_creators_enriched.csv"
-    elif base_path.exists():
-        input_path  = base_path
-        output_path = config.DATA_FINAL / "chance_creators_enriched.csv"
-    else:
-        print("ERROR: No chance creators data found. Run the feature engineering pipeline first.")
+    if not all_leagues_path.exists():
+        print(
+            "ERROR: No merged player feature data found. Run:\n"
+            f"  python -m src.features.player_features --league all --season {config.SEASON}"
+        )
         sys.exit(1)
+
+    input_path = all_leagues_path
+    output_path = config.DATA_FINAL / f"all_leagues_{config.SEASON}_enriched.csv"
 
     df = pd.read_csv(input_path)
     print(f"[TM] Loaded {len(df)} players from {input_path.name}")
@@ -663,7 +683,7 @@ def run_enrichment(refresh: bool = False) -> None:
     mapping = build_name_mapping(df, tm_squads, mapping)
     _save_mapping(mapping)
 
-    enriched  = enrich_chance_creators(df, tm_squads, mapping)
+    enriched  = enrich_players(df, tm_squads, mapping)
 
     matched = enriched["market_value_eur"].notna().sum()
     print(f"[TM] Matched: {matched}/{len(enriched)} players")

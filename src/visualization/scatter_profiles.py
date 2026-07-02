@@ -32,7 +32,7 @@ def create_quadrant_scatter(
     quadrant_labels: dict,
     best_quadrant: str = "top_right",
     top_n_annotate: int = 8,
-    highlight_col: str = "chance_creation_score",
+    highlight_col: str = "overall_score",
     subtitle: str = "Serie A, 2025/26",
     height: int = 420,
 ) -> go.Figure:
@@ -229,7 +229,7 @@ def get_best_quadrant_df(
     x_col: str,
     y_col: str,
     best_quadrant: str,
-    highlight_col: str = "chance_creation_score",
+    highlight_col: str = "overall_score",
     top_n: int = 10,
 ) -> pd.DataFrame:
     """

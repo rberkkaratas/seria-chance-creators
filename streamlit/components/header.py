@@ -18,6 +18,8 @@ def render_header(placeholder, state: AppState) -> None:
     has_league_col = state.has_league_col
     has_roles = state.has_roles
     score_col = state.score_col
+    primary_role_col = state.active_primary_role_col
+    group_name = state.group_cfg["display_name"]
 
     n_leagues_shown = filtered["league"].nunique() if has_league_col and len(filtered) else 1
     _league_label   = "Top 5 Leagues" if n_leagues_shown > 1 else (
@@ -28,11 +30,11 @@ def render_header(placeholder, state: AppState) -> None:
     _hdr_top_row     = filtered.nlargest(1, score_col) if len(filtered) else filtered
     _hdr_top_player  = _hdr_top_row["player_name"].values[0] if len(_hdr_top_row) else "—"
     _hdr_top_score   = float(_hdr_top_row[score_col].values[0]) if len(_hdr_top_row) else 0.0
-    _hdr_top_role    = _hdr_top_row[config.PRIMARY_ROLE_COL].values[0] if has_roles and len(_hdr_top_row) else ""
+    _hdr_top_role    = _hdr_top_row[primary_role_col].values[0] if has_roles and len(_hdr_top_row) and primary_role_col in _hdr_top_row.columns else ""
     _hdr_top_rc      = role_color(_hdr_top_role) if _hdr_top_role else "#0095FF"
 
-    if has_roles and len(filtered) and config.PRIMARY_ROLE_COL in filtered.columns:
-        _hdr_mode_role = filtered[config.PRIMARY_ROLE_COL].mode()
+    if has_roles and len(filtered) and primary_role_col in filtered.columns:
+        _hdr_mode_role = filtered[primary_role_col].mode()
         _hdr_common_role = _hdr_mode_role[0] if len(_hdr_mode_role) else "—"
     else:
         _hdr_common_role = "—"
@@ -42,12 +44,12 @@ def render_header(placeholder, state: AppState) -> None:
         # Title block
         f'<div style="padding:12px 0 28px">'
         f'<div style="font-size:0.75rem;font-weight:600;color:#0095FF;letter-spacing:2px;'
-        f'text-transform:uppercase;margin-bottom:12px">Midfielder Scout</div>'
+        f'text-transform:uppercase;margin-bottom:12px">Player Scout</div>'
         f'<div style="font-size:2.8rem;font-weight:800;color:#f1f5f9;letter-spacing:-1px;'
         f'line-height:1.1;margin-bottom:12px">{_league_label} · 2025/26</div>'
         f'<div style="font-size:0.95rem;color:#64748b;line-height:1.7;max-width:600px;margin-bottom:28px">'
-        f'A data-driven scouting tool profiling qualified midfielders across four tactical roles — '
-        f'Creator, Ball Progressor, Box Threat, and Deep Builder — using WhoScored match event data.'
+        f'A data-driven scouting tool profiling {group_name.lower()} across tactical roles '
+        f'using WhoScored match event data.'
         f'</div>'
         # KPI row
         f'<div style="display:flex;gap:36px;flex-wrap:wrap;padding-top:20px;'

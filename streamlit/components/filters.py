@@ -17,11 +17,31 @@ def render_filters(
     df: pd.DataFrame,
     has_league_col: bool,
     has_tm_data: bool,
-    all_roles: list,
     all_leagues: list,
     cfg,
 ) -> FilterState:
     """Render inline filter widgets and return a FilterState."""
+    group_options = list(cfg.POSITION_GROUPS.keys())
+    group_labels = {g: cfg.POSITION_GROUPS[g]["display_name"] for g in group_options}
+    default_group = "MID" if "MID" in group_options else group_options[0]
+
+    position_group = st.radio(
+        "Position group",
+        options=group_options,
+        index=group_options.index(default_group),
+        horizontal=True,
+        format_func=lambda g: group_labels[g],
+        label_visibility="collapsed",
+    )
+    group_cfg = cfg.POSITION_GROUPS[position_group]
+    all_roles = list(group_cfg["roles"].keys())
+    group_df = (
+        df[df[cfg.POSITION_GROUP_COL] == position_group].copy()
+        if cfg.POSITION_GROUP_COL in df.columns else df.copy()
+    )
+    if group_df.empty:
+        group_df = df.copy()
+
     _fc1, _fc2, _fc3, _fc4 = st.columns(4)
 
     with _fc1:
@@ -29,19 +49,23 @@ def render_filters(
         min_mins = st.slider(
             "Min. minutes played",
             min_value=0,
-            max_value=int(df["minutes_played"].max()) if "minutes_played" in df.columns else 2000,
-            value=cfg.MIN_MINUTES_PLAYED,
+            max_value=int(group_df["minutes_played"].max()) if "minutes_played" in group_df.columns else 2000,
+            value=cfg.MIN_MINUTES_INCLUDED,
             step=90,
             label_visibility="collapsed",
         )
-        st.caption(f"Min. **{min_mins}** min")
+        st.caption(
+            f"Min. **{min_mins}** min · full confidence from "
+            f"**{cfg.FULL_SAMPLE_MINUTES}**"
+        )
 
         if "age" in df.columns:
             st.caption("Age Range")
-            age_min = int(df["age"].min())
-            age_max = int(df["age"].max())
+            age_min = int(group_df["age"].min())
+            age_max = int(group_df["age"].max())
+            age_default_hi = min(age_max, int(cfg.MAX_AGE))
             age_range = st.slider(
-                "Age range", age_min, age_max, (age_min, int(cfg.MAX_AGE)),
+                "Age range", age_min, age_max, (age_min, age_default_hi),
                 label_visibility="collapsed",
             )
             st.caption(f"**{age_range[0]} – {age_range[1]}** yrs")
@@ -49,23 +73,28 @@ def render_filters(
             age_range = (0, 99)
 
         if has_tm_data and "market_value_eur" in df.columns:
-            _mv_vals = df["market_value_eur"].dropna()
-            _mv_min  = int(_mv_vals.min() / 1_000_000)
-            _mv_max  = int(_mv_vals.max() / 1_000_000) + 1
-            st.caption("Market Value (€M)")
-            market_value_range = st.slider(
-                "Market value range", _mv_min, _mv_max, (_mv_min, _mv_max),
-                step=1,
-                label_visibility="collapsed",
-            )
-            st.caption(f"**€{market_value_range[0]}M – €{market_value_range[1]}M**")
+            _mv_vals = group_df["market_value_eur"].dropna()
+            if len(_mv_vals):
+                _mv_min  = int(_mv_vals.min() / 1_000_000)
+                _mv_max  = int(_mv_vals.max() / 1_000_000) + 1
+                st.caption("Market Value (€M)")
+                market_value_range = st.slider(
+                    "Market value range", _mv_min, _mv_max, (_mv_min, _mv_max),
+                    step=1,
+                    label_visibility="collapsed",
+                )
+                st.caption(f"**€{market_value_range[0]}M – €{market_value_range[1]}M**")
+            else:
+                market_value_range = (0, 9999)
         else:
             market_value_range = (0, 9999)
 
     with _fc2:
         if "position" in df.columns:
             st.caption("Positions")
-            all_positions = sorted(df["position"].dropna().unique().tolist())
+            preferred_positions = group_cfg["positions"]
+            available_positions = set(group_df["position"].dropna().unique().tolist())
+            all_positions = [p for p in preferred_positions if p in available_positions]
             selected_positions = st.multiselect(
                 "Positions", options=all_positions, default=all_positions,
                 label_visibility="collapsed",
@@ -75,7 +104,7 @@ def render_filters(
 
         st.caption("Role")
         selected_roles = st.multiselect(
-            "Midfielder role", options=all_roles, default=all_roles,
+            "Role", options=all_roles, default=all_roles,
             label_visibility="collapsed",
         )
 
@@ -92,9 +121,10 @@ def render_filters(
 
         st.caption("Teams")
         _league_mask_teams = (
-            df["league"].isin(selected_leagues) if has_league_col and selected_leagues else pd.Series(True, index=df.index)
+            group_df["league"].isin(selected_leagues)
+            if has_league_col and selected_leagues else pd.Series(True, index=group_df.index)
         )
-        all_teams = sorted(df.loc[_league_mask_teams, "team_name"].dropna().unique().tolist())
+        all_teams = sorted(group_df.loc[_league_mask_teams, "team_name"].dropna().unique().tolist())
         selected_teams = st.multiselect(
             "Teams", options=all_teams, default=[],
             label_visibility="collapsed",
@@ -125,6 +155,7 @@ def render_filters(
             selected_feasibility = ["Expiring", "Mid-term", "Locked", "Unknown"]
 
     return FilterState(
+        position_group=position_group,
         min_mins=min_mins,
         age_range=age_range,
         selected_positions=selected_positions,

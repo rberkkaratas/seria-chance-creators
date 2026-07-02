@@ -17,9 +17,6 @@ class DataLoader:
     _CANDIDATE_PATHS = [
         config.DATA_FINAL / f"all_leagues_{config.SEASON}_enriched.csv",
         config.DATA_FINAL / f"all_leagues_{config.SEASON}.csv",
-        config.DATA_FINAL / "chance_creators_enriched.csv",
-        config.DATA_FINAL / "chance_creators_clustered.csv",
-        config.DATA_FINAL / "chance_creators.csv",
     ]
 
     @staticmethod
@@ -33,7 +30,7 @@ class DataLoader:
             "**Data not found.** Run the pipeline first:\n\n"
             "```bash\n"
             "python -m src.processing.build_tables\n"
-            "python -m src.features.chance_creation\n"
+            "python -m src.features.player_features --league all\n"
             "python -m src.features.merge_leagues     # top-5 leagues\n"
             "python -m src.enrichment.transfermarkt   # optional\n"
             "```"
@@ -162,7 +159,7 @@ class DataLoader:
 
     @staticmethod
     def enrich(df: pd.DataFrame) -> pd.DataFrame:
-        """Add synthetic shot_creating_actions_p90 if missing."""
+        """Fill derived compatibility columns when a dataset predates them."""
         if "shot_creating_actions_p90" not in df.columns:
             if "key_passes_p90" in df.columns and "successful_dribbles_p90" in df.columns:
                 df["shot_creating_actions_p90"] = df["key_passes_p90"] + df["successful_dribbles_p90"]

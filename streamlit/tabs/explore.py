@@ -17,43 +17,6 @@ from core.constants import label, role_color, archetype_color, ARCHETYPE_COLORS,
 from core.theme import D_TEXT, D_GRID, D_TICK, D_BG, dark_layout
 
 
-# ── Preset scouting lenses ────────────────────────────────────────────────────
-# Each lens pairs two metrics that together answer a specific scouting question.
-LENSES = {
-    "Creator":         {
-        "x": "key_passes_p90",
-        "y": "passes_into_penalty_area_p90",
-        "question": "Who creates the most dangerous chances?",
-        "elite_label": "Prolific creators",
-    },
-    "Ball Progressor": {
-        "x": "successful_dribbles_p90",
-        "y": "carries_into_final_third_p90",
-        "question": "Who drives the team forward with the ball?",
-        "elite_label": "Direct progressors",
-    },
-    "Box Threat": {
-        "x": "shots_p90",
-        "y": "penalty_area_touches_p90",
-        "question": "Who lives in the box and creates direct goal threat?",
-        "elite_label": "Box dominators",
-    },
-    "Deep Builder": {
-        "x": "progressive_passes_p90",
-        "y": "pass_accuracy",
-        "question": "Who builds from deep with accuracy and intent?",
-        "elite_label": "Reliable builders",
-    },
-"Wide Creator": {
-        "x": "crosses_p90",
-        "y": "passes_into_penalty_area_p90",
-        "question": "Who delivers from wide and finds the box?",
-        "elite_label": "Wide deliverers",
-    },
-    "Custom": None,
-}
-
-
 class ExploreTab(TabRenderer):
     def render(self, state: AppState) -> None:
         filtered       = state.filtered
@@ -61,6 +24,7 @@ class ExploreTab(TabRenderer):
         has_archetypes = state.has_archetypes
         has_league_col = state.has_league_col
         score_col      = state.score_col
+        group_cfg      = state.group_cfg
 
         st.markdown('<p class="section-title">Scouting Explorer</p>', unsafe_allow_html=True)
 
@@ -92,8 +56,9 @@ class ExploreTab(TabRenderer):
             # ── Controls row
             ctrl1, ctrl2, ctrl3 = st.columns([2, 2, 2])
 
+            lenses = {**group_cfg["lenses"], "Custom": None}
             valid_lenses = {
-                k: v for k, v in LENSES.items()
+                k: v for k, v in lenses.items()
                 if k == "Custom" or (
                     v and v["x"] in filtered.columns and v["y"] in filtered.columns
                 )
@@ -137,7 +102,7 @@ class ExploreTab(TabRenderer):
 
             # ── Lens question banner
             if question:
-                rc = role_color(lens_name) if lens_name in config.ROLE_COLORS else "#0095FF"
+                rc = role_color(lens_name)
                 st.markdown(
                     f'<div style="background:{rc}12;border-left:3px solid {rc};'
                     f'border-radius:6px;padding:8px 14px;margin:8px 0 16px;'
@@ -149,7 +114,7 @@ class ExploreTab(TabRenderer):
 
             # ── Build figure
             color_col = config.PRIMARY_ROLE_COL if has_roles else ("archetype" if has_archetypes else "team_name")
-            color_map = config.ROLE_COLORS if has_roles else (ARCHETYPE_COLORS if has_archetypes else None)
+            color_map = config.ALL_ROLE_COLORS if has_roles else (ARCHETYPE_COLORS if has_archetypes else None)
 
             x_med = filtered[x_col].median()
             y_med = filtered[y_col].median()
@@ -329,9 +294,9 @@ class ExploreTab(TabRenderer):
         # ── STATISTICAL PROFILES ─────────────────────────────────────────────
         else:
             st.markdown(
-                "Seven skill dimensions mapped across the full player pool. "
+                "Seven skill dimensions mapped across the active player pool. "
                 "Solid lines mark the median — labelled players score highest in each view. "
-                "Use the **Role filter** in the sidebar to zoom into a specific archetype."
+                "Use the **Role filter** to zoom into a specific profile."
             )
             st.markdown("<div style='margin:8px 0'></div>", unsafe_allow_html=True)
 
@@ -418,7 +383,7 @@ class ExploreTab(TabRenderer):
                     x_col="cross_accuracy", y_col="crosses_p90",
                     x_label="Cross Accuracy (%)", y_label="Cross Attempts / 90",
                     title="Crossing",
-                    insight="Wide creators cluster top-right — volume crossers with accuracy are the rarest and most valuable deliverers.",
+                    insight="Wide creators in the top-right combine volume crossing with accuracy, a rare and valuable delivery profile.",
                     quadrant_labels={
                         "top_left":    "Frequent,\ninaccurate",
                         "top_right":   "Frequent &\naccurate",
@@ -440,8 +405,8 @@ class ExploreTab(TabRenderer):
                             if not _pipeline_warning_shown:
                                 st.warning(
                                     f"Some columns are missing ({missing}). Re-run the pipeline:\n\n"
-                                    "```bash\npython -m src.processing.build_tables\n"
-                                    "python -m src.features.chance_creation\n```"
+                                    "```bash\npython -m src.processing.build_tables --league all\n"
+                                    "python -m src.features.player_features --league all\n```"
                                 )
                                 _pipeline_warning_shown = True
                         else:
@@ -453,7 +418,7 @@ class ExploreTab(TabRenderer):
                                 quadrant_labels=cfg["quadrant_labels"],
                                 best_quadrant=cfg["best_quadrant"],
                                 top_n_annotate=5,
-                                highlight_col=cfg["y_col"],
+                                highlight_col=score_col,
                                 subtitle="Top 5 Leagues · 2025/26",
                                 height=400,
                             )

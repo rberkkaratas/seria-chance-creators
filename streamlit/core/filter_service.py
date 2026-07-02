@@ -21,10 +21,15 @@ class FilterService:
         has_league_col: bool,
         has_tm_data: bool,
     ) -> pd.DataFrame:
-        all_roles = list(config.ROLE_WEIGHTS.keys())
+        group_cfg = config.POSITION_GROUPS[state.position_group]
+        all_roles = list(group_cfg["roles"].keys())
         all_leagues = sorted(df["league"].dropna().unique().tolist()) if has_league_col else []
 
-        mask = df["minutes_played"] >= state.min_mins
+        mask = pd.Series(True, index=df.index)
+        if config.POSITION_GROUP_COL in df.columns:
+            mask &= df[config.POSITION_GROUP_COL] == state.position_group
+
+        mask &= df["minutes_played"] >= state.min_mins
         if "age" in df.columns:
             mask &= (df["age"] >= state.age_range[0]) & (df["age"] <= state.age_range[1])
         if state.selected_positions:
@@ -33,8 +38,13 @@ class FilterService:
             mask &= df["league"].isin(state.selected_leagues)
         if state.selected_teams:
             mask &= df["team_name"].isin(state.selected_teams)
+        role_filter_col = (
+            "primary_role_league"
+            if state.percentile_mode == "Within league" and "primary_role_league" in df.columns
+            else config.PRIMARY_ROLE_COL
+        )
         if has_roles and state.selected_roles and len(state.selected_roles) < len(all_roles):
-            mask &= df[config.PRIMARY_ROLE_COL].isin(state.selected_roles)
+            mask &= df[role_filter_col].isin(state.selected_roles)
         if has_tm_data and state.selected_feasibility:
             mask &= df["transfer_feasibility"].isin(state.selected_feasibility)
         if has_tm_data and "market_value_eur" in df.columns and hasattr(state, "market_value_range"):
@@ -53,21 +63,26 @@ class FilterService:
         state: FilterState,
         cfg,
     ) -> AppState:
+        group_cfg         = cfg.POSITION_GROUPS[state.position_group]
+        group_df          = (
+            df[df[cfg.POSITION_GROUP_COL] == state.position_group].copy()
+            if cfg.POSITION_GROUP_COL in df.columns else df.copy()
+        )
         has_archetypes    = "archetype" in df.columns
         has_tm_data       = "market_value_eur" in df.columns
         has_roles         = cfg.PRIMARY_ROLE_COL in df.columns
         has_league_col    = "league" in df.columns
-        all_roles         = list(cfg.ROLE_WEIGHTS.keys())
+        all_roles         = list(group_cfg["roles"].keys())
         rsc_cols          = [role_score_col(r) for r in all_roles if role_score_col(r) in df.columns]
         rsc_cols_league   = [
             f"{cfg.ROLE_SCORE_COL_PREFIX}{r}_league" for r in all_roles
             if f"{cfg.ROLE_SCORE_COL_PREFIX}{r}_league" in df.columns
         ]
         has_league_scores = bool(rsc_cols_league)
-        core_metrics      = [m for m in cfg.CHANCE_CREATION_METRICS if m in df.columns]
+        core_metrics      = [m for m in group_cfg["radar_metrics"] if m in df.columns]
         pct_cols          = [f"{m}_pct" for m in core_metrics if f"{m}_pct" in df.columns]
         pct_cols_league   = [f"{m}_league_pct" for m in core_metrics if f"{m}_league_pct" in df.columns]
-        score_col         = "chance_creation_score"
+        score_col         = cfg.OVERALL_SCORE_COL
         all_leagues       = sorted(df["league"].dropna().unique().tolist()) if has_league_col else []
 
         _league_mode           = (state.percentile_mode == "Within league") and has_league_scores
@@ -82,6 +97,10 @@ class FilterService:
         rename_map = {
             "player_name": "Player", "team_name": "Team", "position": "Pos",
             "age": "Age", "minutes_played": "Mins",
+            "appearances": "Apps", "starts": "Starts",
+            "start_rate": "Start %", "minutes_per_appearance": "Mins/App",
+            cfg.SCORE_CONFIDENCE_COL: "Score Confidence",
+            cfg.SAMPLE_TIER_COL: "Sample",
             "league": "League",
             "archetype": "Archetype",
             cfg.PRIMARY_ROLE_COL: "Role",
@@ -89,12 +108,17 @@ class FilterService:
         }
         rename_map.update({m: label(m) for m in core_metrics})
         rename_map.update({role_score_col(r): r for r in all_roles})
+        rename_map.update({f"{cfg.ROLE_SCORE_COL_PREFIX}{r}_league": r for r in all_roles})
+        rename_map["primary_role_league"] = "Role"
 
         return AppState(
             df=df,
             filtered=filtered,
+            group_df=group_df,
             raw_players_df=raw_players_df,
             matches_df=matches_df,
+            position_group=state.position_group,
+            group_cfg=group_cfg,
             has_archetypes=has_archetypes,
             has_tm_data=has_tm_data,
             has_roles=has_roles,

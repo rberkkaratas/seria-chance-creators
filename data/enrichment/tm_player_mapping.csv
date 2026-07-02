@@ -1,423 +1,2059 @@
 player_id,player_name,tm_player_id,tm_player_name,confidence,verified,tm_team_name
-386390.0,Charles De Ketelaere,,Charles De Ketelaere,100.0,auto,Atalanta BC
-148684.0,Nicolò Barella,,Nicolò Barella,100.0,auto,Inter Milan
-393039.0,Lazar Samardzic,,Lazar Samardžić,86.7,auto,Atalanta BC
-369426.0,Nicolò Fagioli,,Nicolò Fagioli,100.0,auto,ACF Fiorentina
-494525.0,Kenan Yildiz,,Kenan Yıldız,83.3,manual,Juventus FC
-407944.0,Martin Baturina,,Martin Baturina,100.0,auto,Como 1907
-448659.0,Nico Paz,,Nico Paz,100.0,auto,Como 1907
-110373.0,Hakan Çalhanoglu,,Hakan Çalhanoğlu,93.8,auto,Inter Milan
-363978.0,Adrián Bernabé,,Adrián Bernabé,100.0,auto,Parma Calcio 1913
-439534.0,Petar Sucic,,Petar Sučić,81.8,manual,Inter Milan
-338275.0,Weston McKennie,,Weston McKennie,100.0,auto,Juventus FC
-20874.0,Luka Modric,,Luka Modrić,90.9,auto,AC Milan
-425079.0,Matías Soulé,,Matías Soulé,100.0,auto,AS Roma
-129903.0,Mario Pasalic,,Mario Pašalić,84.6,manual,Atalanta BC
-439607.0,Medon Berisha,,Medon Berisha,100.0,auto,US Lecce
-118169.0,Piotr Zielinski,,Piotr Zieliński,93.3,auto,Inter Milan
-469507.0,Arthur Atta,,Arthur Atta,100.0,auto,Udinese Calcio
-122683.0,Matteo Politano,,Matteo Politano,100.0,auto,SSC Napoli
-409221.0,Francisco Conceição,,Francisco Conceição,100.0,auto,Juventus FC
-132779.0,Jari Vandeputte,,Jari Vandeputte,100.0,auto,US Cremonese
-28421.0,Henrikh Mkhitaryan,,Henrikh Mkhitaryan,100.0,auto,Inter Milan
-539559.0,Jesús Rodríguez,,Jesús Rodríguez,100.0,auto,Como 1907
-429529.0,Antonio Vergara,,Antonio Vergara,100.0,auto,SSC Napoli
-148546.0,Lorenzo Pellegrini,,Lorenzo Pellegrini,100.0,auto,AS Roma
-295456.0,Ruslan Malinovskyi,,Ruslan Malinovskyi,100.0,auto,Genoa CFC
-343975.0,Nikola Vlasic,,Nikola Vlašić,84.6,manual,Torino FC
-366379.0,Khéphren Thuram,,Khéphren Thuram,100.0,auto,Juventus FC
-369883.0,Gianluca Gaetano,,Gianluca Gaetano,100.0,auto,Cagliari Calcio
-296119.0,Suat Serdar,,Suat Serdar,100.0,auto,Hellas Verona
-435108.0,Gvidas Gineitis,,Gvidas Gineitis,100.0,auto,Torino FC
-369570.0,Manu Koné,,Manu Koné,100.0,auto,AS Roma
-116609.0,Adrien Rabiot,,Adrien Rabiot,100.0,auto,AC Milan
-429723.0,Jonathan Rowe,,Jonathan Rowe,100.0,auto,Bologna FC 1909
-273539.0,Manuel Locatelli,,Manuel Locatelli,100.0,auto,Juventus FC
-372407.0,Kristian Thorstvedt,,Kristian Thorstvedt,100.0,auto,US Sassuolo
-423450.0,Kristjan Asllani,,Kristjan Asllani,56.2,manual,Inter Milan
-362470.0,Youssouf Fofana,,Youssouf Fofana,100.0,auto,AC Milan
-228854.0,Mërgim Vojvoda,,Mërgim Vojvoda,100.0,auto,Como 1907
-357956.0,Mattéo Tramoni,,Matteo Tramoni,92.9,auto,Pisa Sporting Club
-286828.0,Riccardo Orsolini,,Riccardo Orsolini,100.0,auto,Bologna FC 1909
-482453.0,Ebenezer Akinsanmiro,,Ebenezer Akinsanmiro,100.0,auto,Pisa Sporting Club
-109149.0,Bryan Cristante,,Bryan Cristante,100.0,auto,AS Roma
-346744.0,Antoine Bernede,,Antoine Bernede,100.0,auto,Hellas Verona
-362556.0,Éderson,,Éderson,100.0,auto,Atalanta BC
-328983.0,Mattéo Guendouzi,,Mattéo Guendouzi,55.2,manual,SS Lazio
-367177.0,Simon Sohm,,Simon Sohm,100.0,auto,Bologna FC 1909
-327702.0,Michel Aebischer,,Michel Aebischer,100.0,auto,Pisa Sporting Club
-289252.0,Albert Gudmundsson,,Albert Gudmundsson,100.0,auto,ACF Fiorentina
-118147.0,Danilo Cataldi,,Danilo Cataldi,100.0,auto,SS Lazio
-372509.0,Samuele Ricci,,Samuele Ricci,100.0,auto,AC Milan
-241020.0,Rolando Mandragora,,Rolando Mandragora,100.0,auto,ACF Fiorentina
-373544.0,Nicolò Cambiaghi,,Nicolò Cambiaghi,100.0,auto,Bologna FC 1909
-349561.0,Frank Anguissa,,Frank Anguissa,100.0,auto,SSC Napoli
-343982.0,Toma Basic,,Toma Bašić,80.0,manual,SS Lazio
-401122.0,Kenneth Taylor,,Kenneth Taylor,100.0,auto,SS Lazio
-381913.0,Santiago Pierotti,,Santiago Pierotti,100.0,auto,US Lecce
-339579.0,Eljif Elmas,,Eljif Elmas,100.0,auto,SSC Napoli
-422851.0,Ismaël Koné,,Ismaël Koné,100.0,auto,US Sassuolo
-355963.0,Jurgen Ekkelenkamp,,Jurgen Ekkelenkamp,100.0,auto,Udinese Calcio
-38128.0,Nemanja Matic,,Nemanja Matić,92.3,auto,US Sassuolo
-85070.0,Marten de Roon,,Marten de Roon,100.0,auto,Atalanta BC
-371257.0,Hans Nicolussi Caviglia,,Hans Nicolussi Caviglia,100.0,auto,Parma Calcio 1913
-141729.0,Stefano Moreo,,Stefano Moreo,100.0,auto,Pisa Sporting Club
-336915.0,Scott McTominay,,Scott McTominay,100.0,auto,SSC Napoli
-349535.0,Martín Payero,,Martín Payero,100.0,auto,US Cremonese
-323678.0,Youssef Maleh,,Youssef Maleh,100.0,auto,US Cremonese
-363654.0,Jakub Piotrowski,,Jakub Piotrowski,100.0,auto,Udinese Calcio
-362553.0,Jens Odgaard,,Jens Odgaard,100.0,auto,Bologna FC 1909
-380711.0,Cheikh Niasse,,Cheikh Niasse,100.0,auto,Hellas Verona
-333294.0,Michael Folorunsho,,Michael Folorunsho,100.0,auto,Cagliari Calcio
-288894.0,Lassana Coulibaly,,Lassana Coulibaly,100.0,auto,US Lecce
-411939.0,Mandela Keita,,Mandela Keita,100.0,auto,Parma Calcio 1913
-447544.0,Matteo Prati,,Matteo Prati,100.0,auto,Torino FC
-111892.0,Stanislav Lobotka,,Stanislav Lobotka,100.0,auto,SSC Napoli
-362683.0,Nahuel Estévez,,Nahuel Estévez,100.0,auto,Parma Calcio 1913
-433219.0,Cesare Casadei,,Cesare Casadei,100.0,auto,Torino FC
-356176.0,Michel Adopo,,Michel Adopo,100.0,auto,Cagliari Calcio
-381792.0,Al Musrati,,Moatasem Al-Musrati,81.0,manual,Hellas Verona
-128839.0,Morten Thorsby,,Morten Thorsby,100.0,auto,US Cremonese
-330629.0,Marius Marin,,Marius Marin,100.0,auto,Pisa Sporting Club
-424834.0,Mikael Ellertsson,,Mikael Egill Ellertsson,95.0,auto,Genoa CFC
-476109.0,Cher Ndour,,Cher Ndour,100.0,auto,ACF Fiorentina
-136279.0,Roberto Gagliardini,,Roberto Gagliardini,100.0,auto,Hellas Verona
-240989.0,Alberto Grassi,,Alberto Grassi,100.0,auto,US Cremonese
-320585.0,Jesper Karlström,,Jesper Karlström,100.0,auto,Udinese Calcio
-319034.0,Ylber Ramadani,,Ylber Ramadani,100.0,auto,US Lecce
-130368.0,Alessandro Deiola,,Alessandro Deiola,100.0,auto,Cagliari Calcio
-424280.0,Omri Gandelman,,Omri Gandelman,100.0,auto,US Lecce
-446958.0,Warren Bondo,,Warren Bondo,100.0,auto,US Cremonese
-447528.0,Giovanni Fabbian,,Giovanni Fabbian,100.0,auto,ACF Fiorentina
-407076.0,Oliver Sørensen,,Oliver Sørensen,100.0,auto,Parma Calcio 1913
-424806.0,Morten Frendrup,,Morten Frendrup,100.0,auto,Genoa CFC
-383847.0,Romano Schmid,,Romano Floriani Mussolini,85.5,auto,US Cremonese
-408449.0,Nico Williams,,Nico Paz,85.5,auto,Como 1907
-403913.0,Nicola Zalewski,,Nicola Zalewski,100.0,auto,Atalanta BC
-337916.0,Pedro Neto,,Pedro,90.0,auto,SS Lazio
-378482.0,Lameck Banda,,Lameck Banda,100.0,auto,US Lecce
-444679.0,Warren Zaïre-Emery,,Warren Bondo,85.5,auto,US Cremonese
-368519.0,Bryan Gil,,Bryan Cristante,85.5,auto,AS Roma
-345322.0,Nico González,,Nico Paz,85.5,auto,Como 1907
-418589.0,Patrick Wimmer,,Patric,90.0,auto,SS Lazio
-448514.0,Pedro Díaz,,Pedro,90.0,auto,SS Lazio
-385080.0,Marco Grüll,,Marco Carnesecchi,85.5,auto,Atalanta BC
-403859.0,Pape Matar Sarr,,Amin Sarr,85.5,auto,Hellas Verona
-105347.0,Jean-Daniel Akpa Akpro,,Jean-Daniel Akpa Akpro,100.0,auto,Hellas Verona
-422939.0,Nico González,,Nico Paz,85.5,auto,Como 1907
-401173.0,Urko González de Zárate,,Stefan de Vrij,85.5,auto,Inter Milan
-444691.0,Christian Ordóñez,,Christian Ordóñez,100.0,auto,Parma Calcio 1913
-448050.0,Marc Aguado,,Marc Oliver Kempf,85.5,auto,Como 1907
-371281.0,Michael Olise,,Michael Olise,100.0,auto,Bayern Munich
-480249.0,Lamine Yamal,,Lamine Yamal,100.0,auto,FC Barcelona
-99143.0,Florian Thauvin,,Florian Thauvin,100.0,auto,RC Lens
-386153.0,Rayan Cherki,,Rayan Cherki,100.0,auto,Manchester City
-367782.0,Mason Greenwood,,Mason Greenwood,100.0,auto,Olympique Marseille
-377168.0,Luis Díaz,,Luis Díaz,100.0,auto,Bayern Munich
-388098.0,Jérémy Doku,,Jérémy Doku,100.0,auto,Manchester City
-415181.0,Arda Güler,,Arda Güler,100.0,auto,Real Madrid
-337782.0,Vinícius Júnior,,Vinicius Junior,100.0,auto,Real Madrid
-557706.0,Lennart Karl,,Lennart Karl,100.0,auto,Bayern Munich
-477985.0,Ibrahim Maza,,Ibrahim Maza,100.0,auto,Bayer 04 Leverkusen
-433572.0,Bilal El Khannouss,,Bilal El Khannouss,100.0,auto,VfB Stuttgart
-300299.0,Marcus Rashford,,Marcus Rashford,100.0,auto,FC Barcelona
-394786.0,Florian Wirtz,,Florian Wirtz,100.0,auto,Liverpool FC
-422186.0,Ilan Kebbal,,Ilan Kebbal,100.0,auto,Paris FC
-463838.0,Fermín López,,Fermín López,100.0,auto,FC Barcelona
-300447.0,Raphinha,,Raphinha,100.0,auto,FC Barcelona
-364315.0,Antony,,Antony,100.0,auto,Real Betis Balompié
-352825.0,Cody Gakpo,,Cody Gakpo,100.0,auto,Liverpool FC
-392361.0,Azzedine Ounahi,,Azzedine Ounahi,100.0,auto,Girona FC
-123761.0,Bruno Fernandes,,Bruno Fernandes,100.0,auto,Manchester United
-349888.0,Chris Führich,,Chris Führich,100.0,auto,VfB Stuttgart
-344949.0,Danel Sinani,,Danel Sinani,100.0,auto,FC St. Pauli
-367857.0,Ander Barrenetxea,,Ander Barrenetxea,100.0,auto,Real Sociedad
-261212.0,Dani Olmo,,Dani Olmo,100.0,auto,FC Barcelona
-119501.0,Serge Gnabry,,Serge Gnabry,100.0,auto,Bayern Munich
-331254.0,Phil Foden,,Phil Foden,100.0,auto,Manchester City
-303908.0,Giovani Lo Celso,,Giovani Lo Celso,100.0,auto,Real Betis Balompié
-419341.0,Valentín Barco,,Valentín Barco,100.0,auto,RC Strasbourg Alsace
-239872.0,Nicolas Pépé,,Nicolas Pépé,100.0,auto,Villarreal CF
-379868.0,Jude Bellingham,,Jude Bellingham,100.0,auto,Real Madrid
-395242.0,Álex Baena,,Álex Baena,100.0,auto,Atlético de Madrid
-412831.0,Félix Correia,,Félix Correia,100.0,auto,LOSC Lille
-417747.0,Julio Enciso,,Julio Enciso,100.0,auto,RC Strasbourg Alsace
-238899.0,Alex Berenguer,,Álex Berenguer,100.0,auto,Athletic Bilbao
-437022.0,Alejandro Garnacho,,Alejandro Garnacho,100.0,auto,Chelsea FC
-247454.0,Martin Ødegaard,,Martin Ødegaard,100.0,auto,Arsenal FC
-297203.0,Pablo Fornals,,Pablo Fornals,100.0,auto,Real Betis Balompié
-467776.0,Can Uzun,,Can Uzun,100.0,auto,Eintracht Frankfurt
-261021.0,Nadiem Amiri,,Nadiem Amiri,100.0,auto,1.FSV Mainz 05
-335696.0,Edu Expósito,,Edu Expósito,100.0,auto,RCD Espanyol Barcelona
-377285.0,Takefusa Kubo,,Takefusa Kubo,100.0,auto,Real Sociedad
-467223.0,Amine Sbaï,,Amine Sbaï,100.0,auto,Angers SCO
-113069.0,Jack Grealish,,Jack Grealish,100.0,auto,Everton FC
-361815.0,Yann Gboho,,Yann Gboho,100.0,auto,FC Toulouse
-551965.0,Bazoumana Touré,,Bazoumana Touré,100.0,auto,TSG 1899 Hoffenheim
-344314.0,Marcus Tavernier,,Marcus Tavernier,100.0,auto,AFC Bournemouth
-431667.0,Pablo Pagis,,Pablo Pagis,100.0,auto,FC Lorient
-75217.0,Andrej Kramaric,,Andrej Kramaric,100.0,auto,TSG 1899 Hoffenheim
-424252.0,Hákon Haraldsson,,Hákon Arnar Haraldsson,95.0,auto,LOSC Lille
-295084.0,David Brooks,,David Brooks,100.0,auto,AFC Bournemouth
-475462.0,Matias Fernandez-Pardo,,Matías Fernández-Pardo,100.0,auto,LOSC Lille
-361732.0,Thiago Almada,,Thiago Almada,100.0,auto,Atlético de Madrid
-343435.0,Ritsu Doan,,Ritsu Doan,100.0,auto,Eintracht Frankfurt
-426648.0,Maghnes Akliouche,,Maghnes Akliouche,100.0,auto,AS Monaco
-300291.0,Romain Del Castillo,,Romain Del Castillo,100.0,auto,Stade Brestois 29
-422959.0,Isi Palazón,,Isi Palazón,100.0,auto,Rayo Vallecano
-338780.0,Bruno Guimarães,,Bruno Guimarães,100.0,auto,Newcastle United
-113747.0,Adrien Thomasson,,Adrien Thomasson,100.0,auto,RC Lens
-434138.0,Pablo Barrios,,Pablo Barrios,100.0,auto,Atlético de Madrid
-379252.0,Jamie Leweling,,Jamie Leweling,100.0,auto,VfB Stuttgart
-244560.0,Aleksandr Golovin,,Aleksandr Golovin,100.0,auto,AS Monaco
-401168.0,Mikkel Damsgaard,,Mikkel Damsgaard,100.0,auto,Brentford FC
-322671.0,Gauthier Hein,,Gauthier Hein,100.0,auto,FC Metz
-339674.0,Mathias Jensen,,Mathias Jensen,100.0,auto,Brentford FC
-327905.0,Alexis Claude-Maurice,,Alexis Claude-Maurice,100.0,auto,FC Augsburg
-344542.0,Brais Méndez,,Brais Méndez,100.0,auto,Real Sociedad
-332867.0,Morgan Gibbs-White,,Morgan Gibbs-White,100.0,auto,Nottingham Forest
-484175.0,Yankuba Minteh,,Yankuba Minteh,100.0,auto,Brighton & Hove Albion
-444748.0,Jean-Mattéo Bahoya,,Jean-Mattéo Bahoya,100.0,auto,Eintracht Frankfurt
-361878.0,Wouter Burger,,Wouter Burger,100.0,auto,TSG 1899 Hoffenheim
-108226.0,Mohamed Salah,,Mohamed Salah,100.0,auto,Liverpool FC
-353377.0,Bryan Mbeumo,,Bryan Mbeumo,100.0,auto,Manchester United
-395692.0,Cole Palmer,,Cole Palmer,100.0,auto,Chelsea FC
-430704.0,Arijon Ibrahimovic,,Arijon Ibrahimovic,100.0,auto,1.FC Heidenheim 1846
-422737.0,Ernest Poku,,Ernest Poku,100.0,auto,Bayer 04 Leverkusen
-438349.0,Diego Moreira,,Diego Moreira,100.0,auto,RC Strasbourg Alsace
-349125.0,Nikolas Nartey,,Nikolas Nartey,100.0,auto,VfB Stuttgart
-106596.0,Sergi Darder,,Sergi Darder,100.0,auto,RCD Mallorca
-391256.0,Kiernan Dewsbury-Hall,,Kiernan Dewsbury-Hall,100.0,auto,Everton FC
-121192.0,Vincenzo Grifo,,Vincenzo Grifo,100.0,auto,SC Freiburg
-436553.0,Igor Paixão,,Igor Paixão,100.0,auto,Olympique Marseille
-231125.0,Viktor Tsygankov,,Viktor Tsygankov,100.0,auto,Girona FC
-136824.0,Alex Iwobi,,Alex Iwobi,100.0,auto,Fulham FC
-332325.0,Declan Rice,,Declan Rice,100.0,auto,Arsenal FC
-369875.0,Dominik Szoboszlai,,Dominik Szoboszlai,100.0,auto,Liverpool FC
-395321.0,Aimar Oroz,,Aimar Oroz,100.0,auto,CA Osasuna
-137837.0,Franck Honorat,,Franck Honorat,100.0,auto,Borussia Mönchengladbach
-392646.0,Karim Adeyemi,,Karim Adeyemi,100.0,auto,Borussia Dortmund
-465388.0,João Neves,,João Neves,100.0,auto,Paris Saint-Germain
-427283.0,Abde Ezzalzouli,,Abde Ezzalzouli,100.0,auto,Real Betis Balompié
-394924.0,Fábio Vieira,,Fábio Vieira,100.0,auto,Hamburger SV
-344644.0,Federico Valverde,,Federico Valverde,100.0,auto,Real Madrid
-262856.0,Xaver Schlager,,Xaver Schlager,100.0,auto,RB Leipzig
-532577.0,Johan Manzambi,,Johan Manzambi,100.0,auto,SC Freiburg
-462111.0,Pape Diop,,Pape Demba Diop,85.5,auto,FC Toulouse
-288883.0,Maxime Lopez,,Maxime Lopez,100.0,auto,Paris FC
-406937.0,Carlos Álvarez,,Carlos Álvarez,100.0,auto,Levante UD
-69344.0,Christian Eriksen,,Christian Eriksen,100.0,auto,VfL Wolfsburg
-361284.0,Sofiane Diop,,Sofiane Diop,100.0,auto,OGC Nice
-357073.0,Antoine Semenyo,,Antoine Semenyo,100.0,auto,Manchester City
-350088.0,Callum Hudson-Odoi,,Callum Hudson-Odoi,100.0,auto,Nottingham Forest
-444725.0,Farès Chaïbi,,Farès Chaïbi,100.0,auto,Eintracht Frankfurt
-422918.0,Giuliano Simeone,,Giuliano Simeone,100.0,auto,Atlético de Madrid
-381550.0,Rubén Vargas,,Rubén Vargas,100.0,auto,Sevilla FC
-132962.0,Thomas Lemar,,Thomas Lemar,100.0,auto,Girona FC
-444755.0,Kévin Danois,,Kévin Danois,100.0,auto,AJ Auxerre
-464952.0,Peque Fernández,,Peque Fernández,100.0,auto,Sevilla FC
-401107.0,Paul Nebel,,Paul Nebel,100.0,auto,1.FSV Mainz 05
-438351.0,Martim Neto,,Martim Neto,100.0,auto,Elche CF
-447584.0,Joel Chima Fujita,,Joel Chima Fujita,100.0,auto,FC St. Pauli
-401073.0,Anton Stach,,Anton Stach,100.0,auto,Leeds United
-548106.0,Víctor Muñoz,,Víctor Muñoz,100.0,auto,CA Osasuna
-279320.0,Luis Milla,,Luis Milla,100.0,auto,Getafe CF
-343382.0,Tijjani Reijnders,,Tijjani Reijnders,100.0,auto,Manchester City
-581683.0,Jan Virgili,,Jan Virgili,100.0,auto,RCD Mallorca
-398922.0,Tyrhys Dolan,,Tyrhys Dolan,100.0,auto,RCD Espanyol Barcelona
-404193.0,Fabian Rieder,,Fabian Rieder,100.0,auto,FC Augsburg
-468190.0,Arthur Avom,,Arthur Avom,100.0,auto,FC Lorient
-231144.0,Valentin Rongier,,Valentin Rongier,100.0,auto,Stade Rennais FC
-397465.0,Malik Tillman,,Malik Tillman,100.0,auto,Bayer 04 Leverkusen
-362824.0,Morgan Rogers,,Morgan Rogers,100.0,auto,Aston Villa
-369430.0,Enzo Fernández,,Enzo Fernández,100.0,auto,Chelsea FC
-401352.0,Jakub Kaminski,,Jakub Kaminski,100.0,auto,1.FC Köln
-427362.0,Kamory Doumbia,,Kamory Doumbia,100.0,auto,Stade Brestois 29
-399574.0,Adam Karabec,,Adam Karabec,100.0,auto,Olympique Lyon
-303268.0,Carles Aleñá,,Carles Aleñá,100.0,auto,Deportivo Alavés
-381713.0,Luis Rioja,,Luis Rioja,100.0,auto,Valencia CF
-483577.0,Dehmaine Tabibou,,Dehmaine Tabibou,100.0,auto,FC Nantes
-447689.0,Lamine Camara,,Lamine Camara,100.0,auto,AS Monaco
-362758.0,Matheus Cunha,,Matheus Cunha,100.0,auto,Manchester United
-386634.0,Amad Diallo,,Amad Diallo,100.0,auto,Manchester United
-403865.0,Yéremy Pino,,Yéremy Pino,100.0,auto,Crystal Palace
-387125.0,Maximilian Beier,,Maximilian Beier,100.0,auto,Borussia Dortmund
-400166.0,Mohammed Kudus,,Mohammed Kudus,100.0,auto,Tottenham Hotspur
-280663.0,Aleix García,,Aleix García,100.0,auto,Bayer 04 Leverkusen
-342857.0,Danny Namaso,,Danny Namaso,100.0,auto,AJ Auxerre
-444242.0,Joel Roca,,Joel Roca,100.0,auto,Girona FC
-390240.0,Germán Valera,,Germán Valera,100.0,auto,Elche CF
-448211.0,Alberto Moleiro,,Alberto Moleiro,100.0,auto,Villarreal CF
-431507.0,Javi Guerra,,Javi Guerra,100.0,auto,Valencia CF
-377583.0,Hicham Boudaoui,,Hicham Boudaoui,100.0,auto,OGC Nice
-115508.0,Morgan Sanson,,Morgan Sanson,100.0,auto,OGC Nice
-382564.0,Crysencio Summerville,,Crysencio Summerville,100.0,auto,West Ham United
-247995.0,Gonçalo Guedes,,Gonçalo Guedes,100.0,auto,Real Sociedad
-134894.0,Corentin Tolisso,,Corentin Tolisso,100.0,auto,Olympique Lyon
-381510.0,Oihan Sancet,,Oihan Sancet,100.0,auto,Athletic Bilbao
-482049.0,Mamadou Coulibaly,,Mamadou Coulibaly,100.0,auto,AS Monaco
-342811.0,Sean Longstaff,,Sean Longstaff,100.0,auto,Leeds United
-472403.0,Yuito Suzuki,,Yuito Suzuki,100.0,auto,SC Freiburg
-333044.0,Harry Wilson,,Harry Wilson,100.0,auto,Fulham FC
-381643.0,Aleix Febas,,Aleix Febas,100.0,auto,Elche CF
-313542.0,Carlos Soler,,Carlos Soler,100.0,auto,Real Sociedad
-362433.0,Georginio Rutter,,Georginio Rutter,100.0,auto,Brighton & Hove Albion
-475046.0,Haissem Hassan,,Haissem Hassan,100.0,auto,Real Oviedo
-254562.0,Seko Fofana,,David Datro Fofana,85.5,auto,RC Strasbourg Alsace
-514499.0,Adam Daghim,,Adam Daghim,100.0,auto,VfL Wolfsburg
-119189.0,Rubén García,,Rubén García,100.0,auto,CA Osasuna
-463938.0,Rodrigo Mendoza,,Rodrigo Mendoza,100.0,auto,Atlético de Madrid
-442971.0,Mamadou Sangaré,,Mamadou Sangaré,100.0,auto,RC Lens
-468855.0,Samuel Mbangula,,Samuel Mbangula,100.0,auto,SV Werder Bremen
-369979.0,Christoph Baumgartner,,Christoph Baumgartner,100.0,auto,RB Leipzig
-367803.0,Giorgi Tsitaishvili,,Giorgi Tsitaishvili,100.0,auto,FC Metz
-401014.0,Rocco Reitz,,Rocco Reitz,100.0,auto,Borussia Mönchengladbach
-136741.0,Bernardo Silva,,Bernardo Silva,100.0,auto,Manchester City
-349102.0,Albert Sambi Lokonga,,Albert Sambi Lokonga,100.0,auto,Hamburger SV
-366116.0,Iliman Ndiaye,,Iliman Ndiaye,100.0,auto,Everton FC
-367783.0,Felix Nmecha,,Felix Nmecha,100.0,auto,Borussia Dortmund
-260592.0,Emiliano Buendía,,Emiliano Buendía,100.0,auto,Aston Villa
-495542.0,Ilyas Chaira,,Ilyas Chaira,100.0,auto,Real Oviedo
-399047.0,Pape Gueye,,Pape Gueye,100.0,auto,Villarreal CF
-431791.0,Cameron Puertas,,Cameron Puertas,100.0,auto,SV Werder Bremen
-430774.0,Adam Wharton,,Adam Wharton,100.0,auto,Crystal Palace
-425568.0,Tyler Morton,,Tyler Morton,100.0,auto,Olympique Lyon
-379684.0,Filip Ugrinic,,Filip Ugrinic,100.0,auto,Valencia CF
-80764.0,Koke,,Koke,100.0,auto,Atlético de Madrid
-104011.0,Kevin Stöger,,Kevin Stöger,100.0,auto,Borussia Mönchengladbach
-415345.0,Hugo Sotelo,,Hugo Sotelo,100.0,auto,Celta de Vigo
-371012.0,Brenden Aaronson,,Brenden Aaronson,100.0,auto,Leeds United
-445092.0,Pablo Torre,,Pablo Torre,100.0,auto,RCD Mallorca
-202185.0,Moses Simon,,Moses Simon,100.0,auto,Paris FC
-454749.0,Martial Godo,,Martial Godo,100.0,auto,RC Strasbourg Alsace
-447231.0,Mateus Fernandes,,Mateus Fernandes,100.0,auto,West Ham United
-323625.0,Arnaut Danjuma,,Arnaut Danjuma,100.0,auto,Valencia CF
-140772.0,Pere Milla,,Pere Milla,100.0,auto,RCD Espanyol Barcelona
-343501.0,Sandro Tonali,,Sandro Tonali,100.0,auto,Newcastle United
-360502.0,Cristian Cásseres,,Cristian Cásseres Jr.,95.0,auto,FC Toulouse
-398414.0,Dan Ndoye,,Dan Ndoye,100.0,auto,Nottingham Forest
-377280.0,Jens Stage,,Jens Stage,100.0,auto,SV Werder Bremen
-135345.0,Álvaro García,,Álvaro García,100.0,auto,Rayo Vallecano
-386230.0,Jorge de Frutos,,Jorge de Frutos,100.0,auto,Rayo Vallecano
-381673.0,Jon Moncayola,,Jon Moncayola,100.0,auto,CA Osasuna
-371027.0,Tajon Buchanan,,Tajon Buchanan,100.0,auto,Villarreal CF
-444254.0,Pablo Ibáñez,,Pablo Ibáñez,100.0,auto,Deportivo Alavés
-349960.0,Mahdi Camara,,Mahdi Camara,100.0,auto,Stade Rennais FC
-353193.0,Niklas Beste,,Niklas Beste,100.0,auto,SC Freiburg
+100008.0,Victor Lindelöf,,Victor Lindelöf,100.0,auto,Aston Villa
+100805.0,Leonardo Bittencourt,,Leonardo Bittencourt,100.0,auto,SV Werder Bremen
+100962.0,Berat Djimsiti,,Berat Djimsiti,100.0,auto,Atalanta BC
+101084.0,Dimitri Foulquier,,Dimitri Foulquier,100.0,auto,Valencia CF
 101238.0,Moi Gómez,,Moi Gómez,100.0,auto,CA Osasuna
-400610.0,Jaidon Anthony,,Jaidon Anthony,100.0,auto,Burnley FC
-363686.0,Emile Smith Rowe,,Emile Smith Rowe,100.0,auto,Fulham FC
-89401.0,Granit Xhaka,,Granit Xhaka,100.0,auto,Sunderland AFC
-494147.0,Ilyas Ansah,,Ilyas Ansah,100.0,auto,1.FC Union Berlin
-407260.0,Kevin Schade,,Kevin Schade,100.0,auto,Brentford FC
-438297.0,Dermane Karim,,Dermane Karim,100.0,auto,FC Lorient
-369887.0,Lovro Majer,,Lovro Majer,100.0,auto,VfL Wolfsburg
-142959.0,Lee Jae-Sung,,Jae-sung Lee,87.1,auto,1.FSV Mainz 05
-425142.0,Kaoru Mitoma,,Kaoru Mitoma,100.0,auto,Brighton & Hove Albion
-397568.0,Calebe,,Calebe,100.0,auto,Deportivo Alavés
-362735.0,Santi Comesaña,,Santi Comesaña,100.0,auto,Villarreal CF
-406062.0,Ísak Bergmann Jóhannesson,,Ísak Jóhannesson,85.5,auto,1.FC Köln
-398393.0,Enzo Le Fée,,Enzo Le Fée,100.0,auto,Sunderland AFC
-262838.0,Takumi Minamino,,Takumi Minamino,100.0,auto,AS Monaco
-515865.0,Josh King,,Josh King,100.0,auto,Fulham FC
-362423.0,Javi Puado,,Javi Puado,100.0,auto,RCD Espanyol Barcelona
-438661.0,Rassoul Ndiaye,,Rassoul Ndiaye,100.0,auto,Le Havre AC
-255182.0,Iñaki Williams,,Iñaki Williams,100.0,auto,Athletic Bilbao
-353423.0,Aurélien Tchouaméni,,Aurélien Tchouaméni,100.0,auto,Real Madrid
-28186.0,Dani Parejo,,Dani Parejo,100.0,auto,Villarreal CF
-422183.0,Dango Ouattara,,Dango Ouattara,100.0,auto,Brentford FC
-332403.0,Eberechi Eze,,Eberechi Eze,100.0,auto,Arsenal FC
-411433.0,Ezequiél Fernández,,Equi Fernández,87.5,auto,Bayer 04 Leverkusen
-395187.0,Juanlu Sánchez,,Juanlu Sánchez,100.0,auto,Sevilla FC
-444509.0,Johann Lepenant,,Johann Lepenant,100.0,auto,FC Nantes
-278125.0,Grischa Prömel,,Grischa Prömel,100.0,auto,TSG 1899 Hoffenheim
-388505.0,Lucien Agoumé,,Lucien Agoumé,100.0,auto,Sevilla FC
-344166.0,Daichi Kamada,,Daichi Kamada,100.0,auto,Crystal Palace
-306637.0,Niklas Dorsch,,Niklas Dorsch,100.0,auto,1.FC Heidenheim 1846
-302889.0,Pepelu,,Pepelu,100.0,auto,Valencia CF
-318449.0,John McGinn,,John McGinn,100.0,auto,Aston Villa
-509815.0,Kaishu Sano,,Kaishu Sano,100.0,auto,1.FSV Mainz 05
-511597.0,Noah Cadiou,,Noah Cadiou,100.0,auto,FC Lorient
+101374.0,John Stones,,John Stones,100.0,auto,Manchester City
+101613.0,Iván Balliu,,Iván Balliu,100.0,auto,Rayo Vallecano
+101859.0,Pierre-Emile Højbjerg,,Pierre-Emile Højbjerg,100.0,auto,Olympique Marseille
+101949.0,Marquinhos,,Marquinhos,100.0,auto,Paris Saint-Germain
+101955.0,Emerson,,Emerson,100.0,auto,Olympique Marseille
+102439.0,Franco Vázquez,,Luis Vázquez,70.0,manual_needed,
+103622.0,Silvan Widmer,,Silvan Widmer,100.0,auto,1.FSV Mainz 05
+104010.0,Antonio Rüdiger,,Antonio Rüdiger,100.0,auto,Real Madrid
+104011.0,Kevin Stöger,,Kevin Stöger,100.0,auto,Borussia Mönchengladbach
+104058.0,Niclas Füllkrug,,Niclas Füllkrug,100.0,auto,AC Milan
+104368.0,Chancel Mbemba,,Chancel Mbemba,100.0,auto,LOSC Lille
+104376.0,Thomas Meunier,,Thomas Meunier,100.0,auto,LOSC Lille
+10454.0,Djibril Sidibé,,Djibril Sidibé,100.0,auto,FC Toulouse
+104747.0,Bouna Sarr,,Bouna Sarr,100.0,auto,FC Metz
+104917.0,Willi Orbán,,Willi Orbán,100.0,auto,RB Leipzig
+105151.0,Kenny Lala,,Kenny Lala,100.0,auto,Stade Brestois 29
+105172.0,James Ward-Prowse,,James Ward-Prowse,100.0,auto,Burnley FC
+105249.0,Matteo Bianchetti,,Matteo Bianchetti,100.0,auto,US Cremonese
+105347.0,Jean-Daniel Akpa Akpro,,Jean-Daniel Akpa Akpro,100.0,auto,Hellas Verona
+105995.0,Filip Kostic,,Filip Kostić,100.0,auto,Juventus FC
 106525.0,Denis Suárez,,Denis Suárez,100.0,auto,Deportivo Alavés
-92051.0,Marcel Sabitzer,,Marcel Sabitzer,100.0,auto,Borussia Dortmund
-446133.0,Diego Gómez,,Diego Gómez,100.0,auto,Brighton & Hove Albion
-422365.0,Jobe Bellingham,,Jobe Bellingham,100.0,auto,Borussia Dortmund
-541871.0,Jon Gorrotxategi,,Jon Gorrotxategi,100.0,auto,Real Sociedad
-301243.0,Pierre Lees-Melou,,Pierre Lees-Melou,100.0,auto,Paris FC
-477122.0,Yassine Kechta,,Yassine Kechta,100.0,auto,Le Havre AC
-418588.0,Alexander Prass,,Alexander Prass,100.0,auto,TSG 1899 Hoffenheim
-369109.0,Eduardo Camavinga,,Eduardo Camavinga,100.0,auto,Real Madrid
-437775.0,Junior Mwanga,,Junior Mwanga,100.0,auto,RC Strasbourg Alsace
-88526.0,Casemiro,,Casemiro,100.0,auto,Manchester United
-322670.0,Ismaïla Sarr,,Ismaïla Sarr,100.0,auto,Crystal Palace
-448231.0,Roger Brugué,,Roger Brugué,100.0,auto,Levante UD
-322596.0,Jarrod Bowen,,Jarrod Bowen,100.0,auto,West Ham United
-403693.0,João Gomes,,João Gomes,100.0,auto,Wolverhampton Wanderers
-367182.0,Tom Krauß,,Tom Krauß,100.0,auto,1.FC Köln
-393137.0,Lucas Gourna-Douath,,Lucas Gourna-Douath,100.0,auto,Le Havre AC
-443796.0,Hugo Larsson,,Hugo Larsson,100.0,auto,Eintracht Frankfurt
-463233.0,Mateo Joseph,,Mateo Joseph,100.0,auto,RCD Mallorca
-382590.0,Ilia Gruev,,Ilia Gruev,100.0,auto,Leeds United
-479902.0,Tom Louchet,,Tom Louchet,100.0,auto,OGC Nice
-366868.0,Woo-yeong Jeong,,Woo-yeong Jeong,100.0,auto,1.FC Union Berlin
-431302.0,Louis Mouton,,Louis Mouton,100.0,auto,Angers SCO
-463821.0,Alberto Reina,,Alberto Reina,100.0,auto,Real Oviedo
-402665.0,Kristijan Jakic,,Kristijan Jakic,100.0,auto,FC Augsburg
+106586.0,Íñigo Ruíz de Galarreta,,Iñigo Ruiz de Galarreta,100.0,auto,Athletic Bilbao
+106596.0,Sergi Darder,,Sergi Darder,100.0,auto,RCD Mallorca
+106883.0,Dani Carvajal,,Daniel Carvajal,92.9,auto,Real Madrid
+106895.0,Portu,,Portu,100.0,auto,Girona FC
+106981.0,Jamie Vardy,,Jamie Vardy,100.0,auto,US Cremonese
+107252.0,Alejandro Grimaldo,,Alejandro Grimaldo,100.0,auto,Bayer 04 Leverkusen
+107941.0,Michael Keane,,Michael Keane,100.0,auto,Everton FC
+108100.0,Pedro Bigas,,Pedro Bigas,100.0,auto,Elche CF
+108186.0,Raúl Jiménez,,Raúl Jiménez,100.0,auto,Fulham FC
+108226.0,Mohamed Salah,,Mohamed Salah,100.0,auto,Liverpool FC
+108345.0,Elseid Hysaj,,Elseid Hysaj,100.0,auto,SS Lazio
 108638.0,Will Hughes,,Will Hughes,100.0,auto,Crystal Palace
-365831.0,Han-Noah Massengo,,Han-Noah Massengo,100.0,auto,FC Augsburg
-317630.0,Djibril Sow,,Djibril Sow,100.0,auto,Sevilla FC
-303016.0,Mauro Arambarri,,Mauro Arambarri,100.0,auto,Getafe CF
-393096.0,Tanner Tessmann,,Tanner Tessmann,100.0,auto,Olympique Lyon
-300634.0,Jean-Victor Makengo,,Jean-Victor Makengo,100.0,auto,FC Lorient
-455785.0,Aljoscha Kemlein,,Aljoscha Kemlein,100.0,auto,1.FC Union Berlin
-372473.0,Iván Martín,,Iván Martín,100.0,auto,Girona FC
-122346.0,Laurent Abergel,,Laurent Abergel,100.0,auto,FC Lorient
-409467.0,Antonio Blanco,,Antonio Blanco,100.0,auto,Deportivo Alavés
-382157.0,Pol Lozano,,Pol Lozano,100.0,auto,RCD Espanyol Barcelona
-462768.0,Miguel Román,,Miguel Román,100.0,auto,Celta de Vigo
-386612.0,Boubacar Traoré,,Boubacar Traoré,100.0,auto,FC Metz
-409030.0,Ilaix Moriba,,Ilaix Moriba,100.0,auto,Celta de Vigo
-322418.0,Ethan Ampadu,,Ethan Ampadu,100.0,auto,Leeds United
-471047.0,Mario Martín,,Mario Martín,100.0,auto,Getafe CF
-512740.0,Samir El Mourabet,,Samir El Mourabet,100.0,auto,RC Strasbourg Alsace
-510234.0,Leon Avdullahu,,Leon Avdullahu,100.0,auto,TSG 1899 Hoffenheim
-422656.0,Diego López,,Diego López,100.0,auto,Valencia CF
-401079.0,Jan Schöppner,,Jan Schöppner,100.0,auto,1.FC Heidenheim 1846
-486033.0,Simon Ebonog,,Simon Ebonog,100.0,auto,Le Havre AC
-400142.0,Charles Vanhoutte,,Charles Vanhoutte,100.0,auto,OGC Nice
-486768.0,Louis Oppie,,Louis Oppie,100.0,auto,FC St. Pauli
-372424.0,Martín Zubimendi,,Martín Zubimendi,100.0,auto,Arsenal FC
-511559.0,Adama Camara,,Adama Camara,100.0,auto,Paris FC
-418587.0,Nicolas Seiwald,,Nicolas Seiwald,100.0,auto,RB Leipzig
-201755.0,Joelinton,,Joelinton,100.0,auto,Newcastle United
-420405.0,Senne Lynen,,Senne Lynen,100.0,auto,SV Werder Bremen
-437449.0,Noah Sadiki,,Noah Sadiki,100.0,auto,Sunderland AFC
-404336.0,Eric Martel,,Eric Martel,100.0,auto,1.FC Köln
-369712.0,Florentino,,Florentino,100.0,auto,Burnley FC
-362421.0,Fran Beltrán,,Fran Beltrán,100.0,auto,Girona FC
-442253.0,Julian Niehues,,Julian Niehues,100.0,auto,1.FC Heidenheim 1846
-391316.0,Batista Mendy,,Batista Mendy,100.0,auto,Sevilla FC
-434710.0,Yassin Belkhdim,,Yassin Belkhdim,100.0,auto,Angers SCO
-273292.0,Josh Cullen,,Josh Cullen,100.0,auto,Burnley FC
-434179.0,Yannik Engelhardt,,Yannik Engelhardt,100.0,auto,Borussia Mönchengladbach
-604365.0,Kareem Tunde,,Kareem Tunde,100.0,auto,Levante UD
-391562.0,Samú Costa,,Samú Costa,100.0,auto,RCD Mallorca
-25191.0,Axel Witsel,,Axel Witsel,100.0,auto,Girona FC
-459677.0,Pablo Marín,,Pablo Marín,100.0,auto,Real Sociedad
-249960.0,Lucas Torró,,Lucas Torró,100.0,auto,CA Osasuna
-322774.0,João Palhinha,,João Palhinha,100.0,auto,Tottenham Hotspur
-345160.0,James Sands,,James Sands,100.0,auto,FC St. Pauli
-369687.0,András Schäfer,,András Schäfer,100.0,auto,1.FC Union Berlin
-404616.0,Lesley Ugochukwu,,Lesley Ugochukwu,100.0,auto,Burnley FC
-397585.0,André,,André,100.0,auto,Wolverhampton Wanderers
-345661.0,Jessy Deminguet,,Jessy Deminguet,100.0,auto,FC Metz
-485118.0,Nicolai Remberg,,Nicolai Remberg,100.0,auto,Hamburger SV
-345988.0,Elisha Owusu,,Elisha Owusu,100.0,auto,AJ Auxerre
-362623.0,Oriol Rey,,Oriol Rey,100.0,auto,Levante UD
+108919.0,Maximilian Arnold,,Maximilian Arnold,100.0,auto,VfL Wolfsburg
+109149.0,Bryan Cristante,,Bryan Cristante,100.0,auto,AS Roma
+109807.0,Bertrand Traoré,,Bertrand Traoré,100.0,auto,Sunderland AFC
+110132.0,Dominique Heintz,,Dominique Heintz,100.0,auto,1.FC Köln
+110165.0,Dominik Kohr,,Dominik Kohr,100.0,auto,1.FSV Mainz 05
+110182.0,Matthias Ginter,,Matthias Ginter,100.0,auto,SC Freiburg
+110260.0,Sead Kolasinac,,Sead Kolasinac,100.0,auto,Atalanta BC
 110266.0,Rani Khedira,,Rani Khedira,100.0,auto,1.FC Union Berlin
-236553.0,Haris Belkebla,,Haris Belkebla,100.0,auto,Angers SCO
-319756.0,Lucas Paquetá,,Lucas Tolentino Coelho de Lima,100.0,manual,Clube Regatas Flamengo
-399019.0,Cheikh Sabaly,,Cheikh Tidiane Sabaly,100.0,manual,Vancouver Whitecaps FC
-462861.0,Carlos Vicente,,Carlos Vicente Robles,100.0,manual,Birmingham City
+110272.0,Janik Haberer,,Janik Haberer,100.0,auto,1.FC Union Berlin
+110290.0,Joël Veltman,,Joël Veltman,100.0,auto,Brighton & Hove Albion
+110373.0,Hakan Çalhanoglu,,Hakan Çalhanoğlu,93.8,auto,Inter Milan
+111212.0,Emre Can,,Emre Can,100.0,auto,Borussia Dortmund
+111306.0,Lukas Kübler,,Lukas Kübler,100.0,auto,SC Freiburg
+111372.0,Vladimír Coufal,,Vladimír Coufal,100.0,auto,TSG 1899 Hoffenheim
+111892.0,Stanislav Lobotka,,Stanislav Lobotka,100.0,auto,SSC Napoli
+112272.0,Andrea Belotti,,Andrea Belotti,100.0,auto,Cagliari Calcio
+113069.0,Jack Grealish,,Jack Grealish,100.0,auto,Everton FC
+113275.0,Alberto Moreno,,Alberto Moreno,100.0,auto,Como 1907
+113747.0,Adrien Thomasson,,Adrien Thomasson,100.0,auto,RC Lens
+113994.0,Leandro Trossard,,Leandro Trossard,100.0,auto,Arsenal FC
+114323.0,Valentino Lazaro,,Valentino Lazaro,100.0,auto,Torino FC
+114863.0,Paulo Dybala,,Paulo Dybala,100.0,auto,AS Roma
+115163.0,Jonas Hofmann,,Jonas Hofmann,100.0,auto,Bayer 04 Leverkusen
+115375.0,Raphaël Guerreiro,,Raphaël Guerreiro,100.0,auto,Bayern Munich
+115508.0,Morgan Sanson,,Morgan Sanson,100.0,auto,OGC Nice
+115519.0,Leon Goretzka,,Leon Goretzka,100.0,auto,Bayern Munich
+115565.0,Anthony Jung,,Anthony Jung,100.0,auto,SC Freiburg
+115726.0,Andy Robertson,,Andrew Robertson,86.7,auto,Liverpool FC
+115917.0,Jonny,,Jonny Otto,90.0,auto,Deportivo Alavés
+115996.0,Omar Mascarell,,Omar Mascarell,100.0,auto,RCD Mallorca
+116207.0,Daniele Rugani,,Daniele Rugani,100.0,auto,ACF Fiorentina
+116464.0,Christian Günter,,Christian Günter,100.0,auto,SC Freiburg
+116465.0,Marc Oliver Kempf,,Marc Oliver Kempf,100.0,auto,Como 1907
+116609.0,Adrien Rabiot,,Adrien Rabiot,100.0,auto,AC Milan
+117973.0,Eric Dier,,Eric Dier,100.0,auto,AS Monaco
+118083.0,Adam Dzwigala,,Adam Dzwigala,100.0,auto,FC St. Pauli
+118147.0,Danilo Cataldi,,Danilo Cataldi,100.0,auto,SS Lazio
+118158.0,Alessio Romagnoli,,Alessio Romagnoli,100.0,auto,SS Lazio
+118169.0,Piotr Zielinski,,Piotr Zieliński,93.3,auto,Inter Milan
+118244.0,Luke Shaw,,Luke Shaw,100.0,auto,Manchester United
+118542.0,Domenico Berardi,,Domenico Berardi,100.0,auto,US Sassuolo
+118837.0,Jackson Irvine,,Jackson Irvine,100.0,auto,FC St. Pauli
+119189.0,Rubén García,,Rubén García,100.0,auto,CA Osasuna
+119501.0,Serge Gnabry,,Serge Gnabry,100.0,auto,Bayern Munich
+119642.0,Haris Tabakovic,,Haris Tabakovic,100.0,auto,Borussia Mönchengladbach
+119817.0,José Gayà,,José Gayà,100.0,auto,Valencia CF
+119822.0,Neal Maupay,,Neal Maupay,100.0,auto,Sevilla FC
+120218.0,Charalampos Lykogiannis,,Charalampos Lykogiannis,100.0,auto,Bologna FC 1909
+121192.0,Vincenzo Grifo,,Vincenzo Grifo,100.0,auto,SC Freiburg
+121417.0,Guillermo Maripán,,Guillermo Maripán,100.0,auto,Torino FC
+122117.0,Aymeric Laporte,,Aymeric Laporte,100.0,auto,Athletic Bilbao
+122140.0,Robert Andrich,,Robert Andrich,100.0,auto,Bayer 04 Leverkusen
+122346.0,Laurent Abergel,,Laurent Abergel,100.0,auto,FC Lorient
+122402.0,Federico Bernardeschi,,Federico Bernardeschi,100.0,auto,Bologna FC 1909
+122469.0,Giovanni Di Lorenzo,,Giovanni Di Lorenzo,100.0,auto,SSC Napoli
+122683.0,Matteo Politano,,Matteo Politano,100.0,auto,SSC Napoli
+122945.0,Nathan Aké,,Nathan Aké,100.0,auto,Manchester City
+123167.0,Tyrone Mings,,Tyrone Mings,100.0,auto,Aston Villa
+123232.0,Diego Llorente,,Diego Llorente,100.0,auto,Real Betis Balompié
+123253.0,Gautier Lloris,,Gautier Lloris,100.0,auto,Le Havre AC
+123761.0,Bruno Fernandes,,Bruno Fernandes,100.0,auto,Manchester United
+124006.0,Florent Hanin,,Florent Hanin,100.0,auto,Angers SCO
+124021.0,Phillipp Mwene,,Phillipp Mwene,100.0,auto,1.FSV Mainz 05
+124106.0,Leander Dendoncker,,Leander Dendoncker,100.0,auto,Real Oviedo
+124209.0,Caleb Ekuban,,Caleb Ekuban,100.0,auto,Genoa CFC
+124597.0,Niklas Stark,,Niklas Stark,100.0,auto,SV Werder Bremen
+124721.0,Adrien Tamèze,,Adrien Tamèze,100.0,auto,Torino FC
+125211.0,Héctor Bellerín,,Héctor Bellerín,100.0,auto,Real Betis Balompié
+12575.0,Raúl Albiol,,Raúl Albiol,100.0,auto,Pisa Sporting Club
+126316.0,Takuma Asano,,Takuma Asano,100.0,auto,RCD Mallorca
+127618.0,Renzo Saravia,,Renzo Saravia,100.0,auto,Valencia CF
+128361.0,Pierrick Capelle,,Pierrick Capelle,100.0,auto,Angers SCO
+128839.0,Morten Thorsby,,Morten Thorsby,100.0,auto,US Cremonese
+128880.0,Abdoulaye Touré,,Abdoulaye Touré,100.0,auto,Le Havre AC
+128882.0,Ryan Christie,,Ryan Christie,100.0,auto,AFC Bournemouth
+128967.0,João Cancelo,,João Cancelo,100.0,auto,FC Barcelona
+129363.0,Denis Vavro,,Denis Vavro,100.0,auto,VfL Wolfsburg
+129620.0,Jeremy Toljan,,Jeremy Toljan,100.0,auto,Levante UD
+129758.0,Jean-Philippe Gbamin,,Jean-Philippe Gbamin,100.0,auto,FC Metz
 129819.0,Wesley Saïd,,Wesley Saïd,100.0,auto,RC Lens
+129903.0,Mario Pasalic,,Mario Pašalić,84.6,manual,Atalanta BC
+129983.0,Niklas Süle,,Niklas Süle,100.0,auto,Borussia Dortmund
+130123.0,Robert Skov,,Robert Skov,100.0,auto,1.FC Union Berlin
+130298.0,Brendan Chardonnet,,Brendan Chardonnet,100.0,auto,Stade Brestois 29
+130331.0,Andreas Christensen,,Andreas Christensen,100.0,auto,FC Barcelona
+130334.0,Adnan Januzaj,,Adnan Januzaj,100.0,auto,Sevilla FC
+130359.0,Giorgi Kvilitaia,,Giorgi Kvilitaia,100.0,auto,FC Metz
+130368.0,Alessandro Deiola,,Alessandro Deiola,100.0,auto,Cagliari Calcio
+130899.0,Yannick Gerhardt,,Yannick Gerhardt,100.0,auto,VfL Wolfsburg
+131464.0,James Tarkowski,,James Tarkowski,100.0,auto,Everton FC
+132104.0,Hauke Wahl,,Hauke Wahl,100.0,auto,FC St. Pauli
+132779.0,Jari Vandeputte,,Jari Vandeputte,100.0,auto,US Cremonese
+132943.0,Yussuf Poulsen,,Yussuf Poulsen,100.0,auto,Hamburger SV
+132962.0,Thomas Lemar,,Thomas Lemar,100.0,auto,Girona FC
+133464.0,Jefferson Lerma,,Jefferson Lerma,100.0,auto,Crystal Palace
+133839.0,Giovanni Simeone,,Giovanni Simeone,100.0,auto,Torino FC
+134115.0,Callum Wilson,,Callum Wilson,100.0,auto,West Ham United
+134373.0,Luke O'Nien,,Luke O'Nien,100.0,auto,Sunderland AFC
+134894.0,Corentin Tolisso,,Corentin Tolisso,100.0,auto,Olympique Lyon
+134946.0,Jonathan Tah,,Jonathan Tah,100.0,auto,Bayern Munich
+134984.0,Diego Carlos,,Diego Carlos,100.0,auto,Como 1907
+135057.0,Antonio Sanabria,,Antonio Sanabria,100.0,auto,US Cremonese
+135092.0,Mahmoud Dahoud,,Mahmoud Dahoud,100.0,auto,Eintracht Frankfurt
+135098.0,Johan Mojica,,Johan Mojica,100.0,auto,RCD Mallorca
+135321.0,José Luis Morales,,José Luis Morales,100.0,auto,Levante UD
+135345.0,Álvaro García,,Álvaro García,100.0,auto,Rayo Vallecano
+135366.0,Ayoze Pérez,,Ayoze Pérez,100.0,auto,Villarreal CF
+135374.0,Álex Moreno,,Álex Moreno,100.0,auto,Girona FC
+135404.0,David Costas,,David Costas,100.0,auto,Real Oviedo
+135454.0,Karol Mets,,Karol Mets,100.0,auto,FC St. Pauli
+135625.0,Matías Vecino,,Matías Vecino,100.0,auto,Celta de Vigo
+135890.0,Hans Hateboer,,Hans Hateboer,100.0,auto,Olympique Lyon
+135891.0,Allan Saint-Maximin,,Allan Saint-Maximin,100.0,auto,RC Lens
+135914.0,José María Giménez,,José María Giménez,100.0,auto,Atlético de Madrid
+136279.0,Roberto Gagliardini,,Roberto Gagliardini,100.0,auto,Hellas Verona
+136345.0,Youri Tielemans,,Youri Tielemans,100.0,auto,Aston Villa
+136451.0,Joe Gomez,,Joe Gomez,100.0,auto,Liverpool FC
+136456.0,Lewis Cook,,Lewis Cook,100.0,auto,AFC Bournemouth
+136459.0,Dominic Solanke,,Dominic Solanke,100.0,auto,Tottenham Hotspur
+136460.0,Adam Armstrong,,Adam Armstrong,100.0,auto,Wolverhampton Wanderers
+136464.0,Tosin Adarabioyo,,Tosin Adarabioyo,100.0,auto,Chelsea FC
+136481.0,Zeki Çelik,,Zeki Çelik,100.0,auto,AS Roma
+136707.0,Robert Glatzel,,Robert Glatzel,100.0,auto,Hamburger SV
+136741.0,Bernardo Silva,,Bernardo Silva,100.0,auto,Manchester City
+136824.0,Alex Iwobi,,Alex Iwobi,100.0,auto,Fulham FC
+137227.0,Sheraldo Becker,,Sheraldo Becker,100.0,auto,1.FSV Mainz 05
+137512.0,Adam Masina,,Adam Marusic,78.3,manual_needed,
+137521.0,Nabil Bentaleb,,Nabil Bentaleb,100.0,auto,LOSC Lille
+137837.0,Franck Honorat,,Franck Honorat,100.0,auto,Borussia Mönchengladbach
+139186.0,Lucas Hernández,,Lucas Hernández,100.0,auto,Paris Saint-Germain
+139299.0,Branco van den Boomen,,Branco van den Boomen,100.0,auto,Angers SCO
+140088.0,Adama Traoré,,Adama Traoré,100.0,auto,West Ham United
+140261.0,Patric,,Patric,100.0,auto,SS Lazio
+140772.0,Pere Milla,,Pere Milla,100.0,auto,RCD Espanyol Barcelona
+141032.0,Pablo Marí,,Pablo Marín,95.2,auto,Real Sociedad
+141169.0,Timothy Castagne,,Timothy Castagne,100.0,auto,Fulham FC
+141269.0,Luca Mazzitelli,,Luca Mazzitelli,100.0,auto,Cagliari Calcio
+141312.0,Davide Zappacosta,,Davide Zappacosta,100.0,auto,Atalanta BC
+141469.0,Dominic Calvert-Lewin,,Dominic Calvert-Lewin,100.0,auto,Leeds United
+141486.0,Jacob Murphy,,Jacob Murphy,100.0,auto,Newcastle United
+141556.0,Julian Brandt,,Julian Brandt,100.0,auto,Borussia Dortmund
+141726.0,Robin Gosens,,Robin Gosens,100.0,auto,ACF Fiorentina
+141729.0,Stefano Moreo,,Stefano Moreo,100.0,auto,Pisa Sporting Club
+142387.0,Martin Valjent,,Martin Valjent,100.0,auto,RCD Mallorca
+142676.0,Josh Laurent,,Josh Laurent,100.0,auto,Burnley FC
+142959.0,Lee Jae-Sung,,Jae-sung Lee,87.1,auto,1.FSV Mainz 05
+143595.0,Tomás Soucek,,Tomáš Souček,100.0,auto,West Ham United
+143655.0,Pacha Espino,,Alfonso Espino,63.3,manual_needed,
+143695.0,Breel Embolo,,Breel Embolo,100.0,auto,Stade Rennais FC
+143991.0,Filippo Romagna,,Filippo Romagna,100.0,auto,US Sassuolo
+144493.0,Manolis Saliakas,,Manolis Saliakas,100.0,auto,FC St. Pauli
+144511.0,Lucas Vázquez,,Lucas Vázquez,100.0,auto,Bayer 04 Leverkusen
+144890.0,Dani Ceballos,,Dani Ceballos,100.0,auto,Real Madrid
+145996.0,Kenny Tete,,Kenny Tete,100.0,auto,Fulham FC
+148484.0,Luca Waldschmidt,,Luca Waldschmidt,100.0,auto,1.FC Köln
+148503.0,Ollie Watkins,,Ollie Watkins,100.0,auto,Aston Villa
+148546.0,Lorenzo Pellegrini,,Lorenzo Pellegrini,100.0,auto,AS Roma
+148684.0,Nicolò Barella,,Nicolò Barella,100.0,auto,Inter Milan
+149029.0,Mattia Zaccagni,,Mattia Zaccagni,100.0,auto,SS Lazio
+149348.0,Ulisses Garcia,,Ulisses Garcia,100.0,auto,US Sassuolo
+149543.0,Federico Bonazzoli,,Federico Bonazzoli,100.0,auto,US Cremonese
+19580.0,Lorenzo De Silvestri,,Lorenzo De Silvestri,100.0,auto,Bologna FC 1909
+201755.0,Joelinton,,Joelinton,100.0,auto,Newcastle United
+202185.0,Moses Simon,,Moses Simon,100.0,auto,Paris FC
+20874.0,Luka Modric,,Luka Modrić,90.9,auto,AC Milan
+227655.0,Lucas Höler,,Lucas Höler,100.0,auto,SC Freiburg
+228854.0,Mërgim Vojvoda,,Mërgim Vojvoda,100.0,auto,Como 1907
+229562.0,Rico Henry,,Rico Henry,100.0,auto,Brentford FC
+231125.0,Viktor Tsygankov,,Viktor Tsygankov,100.0,auto,Girona FC
+231135.0,Joachim Andersen,,Joachim Andersen,100.0,auto,Fulham FC
+231144.0,Valentin Rongier,,Valentin Rongier,100.0,auto,Stade Rennais FC
+23220.0,Matteo Darmian,,Matteo Darmian,100.0,auto,Inter Milan
+232262.0,Kevin Diks,,Kevin Diks,100.0,auto,Borussia Mönchengladbach
+232278.0,Ali Abdi,,Ali Abdi,100.0,auto,OGC Nice
+234353.0,Jean-Luc Dompé,,Jean-Luc Dompé,100.0,auto,Hamburger SV
+234363.0,Sofiane Boufal,,Sofiane Boufal,100.0,auto,Le Havre AC
+234364.0,Ludovic Ajorque,,Ludovic Ajorque,100.0,auto,Stade Brestois 29
+236506.0,Serhou Guirassy,,Serhou Guirassy,100.0,auto,Borussia Dortmund
+236511.0,Clément Lenglet,,Clément Lenglet,100.0,auto,Atlético de Madrid
+236546.0,Ruben Aguilar,,Ruben Aguilar,100.0,auto,RC Lens
+236552.0,Jonathan Gradit,,Jonathan Gradit,100.0,auto,RC Lens
+236553.0,Haris Belkebla,,Haris Belkebla,100.0,auto,Angers SCO
+236558.0,Baptiste Santamaría,,Baptiste Santamaria,100.0,auto,Valencia CF
+236575.0,Unai López,,Unai López,100.0,auto,Rayo Vallecano
+238699.0,Marnon Busch,,Marnon Busch,100.0,auto,1.FC Heidenheim 1846
+238899.0,Alex Berenguer,,Álex Berenguer,100.0,auto,Athletic Bilbao
+238903.0,Ellyes Skhiri,,Ellyes Skhiri,100.0,auto,Eintracht Frankfurt
+238916.0,Mikel Merino,,Mikel Merino,100.0,auto,Arsenal FC
+238940.0,Thomas Partey,,Thomas Partey,100.0,auto,Villarreal CF
+239872.0,Nicolas Pépé,,Nicolas Pépé,100.0,auto,Villarreal CF
+239881.0,Hassane Kamara,,Hassane Kamara,100.0,auto,Udinese Calcio
+240989.0,Alberto Grassi,,Alberto Grassi,100.0,auto,US Cremonese
+241020.0,Rolando Mandragora,,Rolando Mandragora,100.0,auto,ACF Fiorentina
+243534.0,Nico Elvedi,,Nico Elvedi,100.0,auto,Borussia Mönchengladbach
+243565.0,Patrik Schick,,Patrik Schick,100.0,auto,Bayer 04 Leverkusen
+243814.0,Eric Bailly,,Eric Bailly,100.0,auto,Real Oviedo
+243919.0,Arturo Calabresi,,Arturo Calabresi,100.0,auto,Pisa Sporting Club
+24400.0,Cristhian Stuani,,Cristhian Stuani,100.0,auto,Girona FC
+244303.0,Oliver Burke,,Oliver Burke,100.0,auto,1.FC Union Berlin
+24444.0,Olivier Giroud,,Olivier Giroud,100.0,auto,LOSC Lille
+244560.0,Aleksandr Golovin,,Aleksandr Golovin,100.0,auto,AS Monaco
+244583.0,Kingsley Ehizibue,,Kingsley Ehizibue,100.0,auto,Udinese Calcio
+244804.0,Gianluca Mancini,,Gianluca Mancini,100.0,auto,AS Roma
+247454.0,Martin Ødegaard,,Martin Ødegaard,100.0,auto,Arsenal FC
+247995.0,Gonçalo Guedes,,Gonçalo Guedes,100.0,auto,Real Sociedad
+248010.0,Konrad Laimer,,Konrad Laimer,100.0,auto,Bayern Munich
+248144.0,Sofyan Amrabat,,Sofyan Amrabat,100.0,auto,Real Betis Balompié
+24845.0,Edin Dzeko,,Ermedin Demirovic,63.0,manual_needed,
+249960.0,Lucas Torró,,Lucas Torró,100.0,auto,CA Osasuna
+251134.0,Duje Caleta-Car,,Duje Caleta-Car,100.0,auto,Real Sociedad
+25191.0,Axel Witsel,,Axel Witsel,100.0,auto,Girona FC
+252419.0,Denis Zakaria,,Denis Zakaria,100.0,auto,AS Monaco
+25244.0,Alexis Sánchez,,Alexis Sánchez,100.0,auto,Sevilla FC
+254352.0,Vedat Muriqi,,Vedat Muriqi,100.0,auto,RCD Mallorca
+254557.0,Maximilian Eggestein,,Maximilian Eggestein,100.0,auto,SC Freiburg
+254562.0,Seko Fofana,,David Datro Fofana,85.5,auto,RC Strasbourg Alsace
+254582.0,Marcos Llorente,,Marcos Llorente,100.0,auto,Atlético de Madrid
+255089.0,Angeliño,,Angeliño,100.0,auto,AS Roma
+255167.0,Thilo Kehrer,,Thilo Kehrer,100.0,auto,AS Monaco
+255169.0,Ainsley Maitland-Niles,,Ainsley Maitland-Niles,100.0,auto,Olympique Lyon
+255182.0,Iñaki Williams,,Iñaki Williams,100.0,auto,Athletic Bilbao
+255292.0,Sebastiano Luperto,,Sebastiano Luperto,100.0,auto,US Cremonese
+255777.0,Ruben Loftus-Cheek,,Ruben Loftus-Cheek,100.0,auto,AC Milan
+255929.0,Federico Dimarco,,Federico Dimarco,100.0,auto,Inter Milan
+256419.0,Ché Adams,,Ché Adams,100.0,auto,Torino FC
+256864.0,Aritz Elustondo,,Aritz Elustondo,100.0,auto,Real Sociedad
+259042.0,Borja Iglesias,,Borja Iglesias,100.0,auto,Celta de Vigo
+25931.0,César Azpilicueta,,César Azpilicueta,100.0,auto,Sevilla FC
+25964.0,Salomón Rondón,,Pablo,60.0,manual_needed,
+259648.0,Benjamin Pavard,,Benjamin Pavard,100.0,auto,Olympique Marseille
+259930.0,Younes Namli,,Younes Ebnoutalib,69.0,manual_needed,
+260493.0,Frédéric Guilbert,,Frédéric Guilbert,100.0,auto,FC Nantes
+260588.0,Assane Dioussé,,Assane Dioussé,100.0,auto,AJ Auxerre
+260592.0,Emiliano Buendía,,Emiliano Buendía,100.0,auto,Aston Villa
+260809.0,Olivier Boscagli,,Olivier Boscagli,100.0,auto,Brighton & Hove Albion
+261020.0,Maximilian Mittelstädt,,Maximilian Mittelstädt,100.0,auto,VfB Stuttgart
+261021.0,Nadiem Amiri,,Nadiem Amiri,100.0,auto,1.FSV Mainz 05
+261212.0,Dani Olmo,,Dani Olmo,100.0,auto,FC Barcelona
+261516.0,Mikel Vesga,,Mikel Vesga,100.0,auto,Athletic Bilbao
+262838.0,Takumi Minamino,,Takumi Minamino,100.0,auto,AS Monaco
+262854.0,Hwang Hee-Chan,,Hee-chan Hwang,88.2,auto,Wolverhampton Wanderers
+262856.0,Xaver Schlager,,Xaver Schlager,100.0,auto,RB Leipzig
+271086.0,Calvin Verdonk,,Calvin Verdonk,100.0,auto,LOSC Lille
+271603.0,Josip Juranovic,,Josip Juranovic,100.0,auto,1.FC Union Berlin
+273257.0,Oleksandr Zinchenko,,Alexsandro,66.3,manual_needed,
+273292.0,Josh Cullen,,Josh Cullen,100.0,auto,Burnley FC
+273453.0,Josan,,Josan,100.0,auto,Elche CF
+273539.0,Manuel Locatelli,,Manuel Locatelli,100.0,auto,Juventus FC
+274934.0,Florian Sotoca,,Florian Sotoca,100.0,auto,RC Lens
+275698.0,Adam Marusic,,Adam Marusic,100.0,auto,SS Lazio
+276205.0,Robin Koch,,Robin Koch,100.0,auto,Eintracht Frankfurt
+276489.0,Alfonso Pedraza,,Alfonso Pedraza,100.0,auto,Villarreal CF
+276819.0,Javi Muñoz,,Javi Muñoz,100.0,auto,Getafe CF
+278125.0,Grischa Prömel,,Grischa Prömel,100.0,auto,TSG 1899 Hoffenheim
+278721.0,Borja Mayoral,,Borja Mayoral,100.0,auto,Getafe CF
+279177.0,Marcus Edwards,,Marcus Edwards,100.0,auto,Burnley FC
+279320.0,Luis Milla,,Luis Milla,100.0,auto,Getafe CF
+279379.0,Gabriel Jesus,,Gabriel Jesus,100.0,auto,Arsenal FC
+279423.0,Frenkie de Jong,,Frenkie de Jong,100.0,auto,FC Barcelona
+279839.0,Yeray Álvarez,,Yeray Álvarez,100.0,auto,Athletic Bilbao
+280060.0,Toni Martínez,,Toni Martínez,100.0,auto,Deportivo Alavés
+280663.0,Aleix García,,Aleix García,100.0,auto,Bayer 04 Leverkusen
+280715.0,Jonas Föhrenbach,,Jonas Föhrenbach,100.0,auto,1.FC Heidenheim 1846
+280766.0,Jérémie Boga,,Jérémie Boga,100.0,auto,Juventus FC
+280972.0,Amir Murillo,,Murillo,90.0,auto,Nottingham Forest
+281025.0,Roman Yaremchuk,,Roman Yaremchuk,100.0,auto,Olympique Lyon
+281049.0,Taiwo Awoniyi,,Taiwo Awoniyi,100.0,auto,Nottingham Forest
+28186.0,Dani Parejo,,Dani Parejo,100.0,auto,Villarreal CF
+282348.0,Mattias Svanberg,,Mattias Svanberg,100.0,auto,VfL Wolfsburg
+283323.0,Joshua Kimmich,,Joshua Kimmich,100.0,auto,Bayern Munich
+283348.0,Stefano Sabelli,,Stefano Sabelli,100.0,auto,Genoa CFC
+28421.0,Henrikh Mkhitaryan,,Henrikh Mkhitaryan,100.0,auto,Inter Milan
+285654.0,Tim Skarke,,Tim Skarke,100.0,auto,1.FC Union Berlin
+286080.0,Gabriel Suazo,,Gabriel Suazo,100.0,auto,Sevilla FC
+286443.0,Matthieu Udol,,Matthieu Udol,100.0,auto,RC Lens
+286828.0,Riccardo Orsolini,,Riccardo Orsolini,100.0,auto,Bologna FC 1909
+287086.0,Manuel Lazzari,,Manuel Lazzari,100.0,auto,SS Lazio
+288883.0,Maxime Lopez,,Maxime Lopez,100.0,auto,Paris FC
+288892.0,Ramy Bensebaini,,Ramy Bensebaini,100.0,auto,Borussia Dortmund
+288894.0,Lassana Coulibaly,,Lassana Coulibaly,100.0,auto,US Lecce
+289018.0,Hamari Traoré,,Hamari Traoré,100.0,auto,Paris FC
+289252.0,Albert Gudmundsson,,Albert Gudmundsson,100.0,auto,ACF Fiorentina
+289331.0,Vincent Marchetti,,Vincent Marchetti,100.0,auto,Paris FC
+290842.0,Chidozie Awaziem,,Chidozie Awaziem,100.0,auto,FC Nantes
+291623.0,Benedikt Gimber,,Benedikt Gimber,100.0,auto,1.FC Heidenheim 1846
+291686.0,Íñigo Lekue,,Iñigo Lekue,100.0,auto,Athletic Bilbao
+29400.0,Robert Lewandowski,,Robert Lewandowski,100.0,auto,FC Barcelona
+294006.0,Antonio Raíllo,,Antonio Raíllo,100.0,auto,RCD Mallorca
+294123.0,Gerard Gumbau,,Gerard Gumbau,100.0,auto,Rayo Vallecano
+294193.0,Fabián Ruiz,,Fabián Ruiz,100.0,auto,Paris Saint-Germain
+294496.0,Fabien Centonze,,Fabien Centonze,100.0,auto,FC Nantes
+294744.0,Luiz Felipe,,Luiz Felipe,100.0,auto,Rayo Vallecano
+294848.0,Pablo Maffeo,,Pablo Maffeo,100.0,auto,RCD Mallorca
+295084.0,David Brooks,,David Brooks,100.0,auto,AFC Bournemouth
+295158.0,Budu Zivzivadze,,Budu Zivzivadze,100.0,auto,1.FC Heidenheim 1846
+295358.0,Amir Rrahmani,,Amir Rrahmani,100.0,auto,SSC Napoli
+295456.0,Ruslan Malinovskyi,,Ruslan Malinovskyi,100.0,auto,Genoa CFC
+296119.0,Suat Serdar,,Suat Serdar,100.0,auto,Hellas Verona
+296240.0,Yoane Wissa,,Yoane Wissa,100.0,auto,Newcastle United
+296319.0,Moussa Niakhaté,,Moussa Niakhaté,100.0,auto,Olympique Lyon
+296322.0,Marcus Thuram,,Marcus Thuram,100.0,auto,Inter Milan
+296337.0,Ferland Mendy,,Ferland Mendy,100.0,auto,Real Madrid
+296372.0,Habib Diallo,,Habib Diallo,100.0,auto,FC Metz
+296499.0,Florian Kainz,,Florian Kainz,100.0,auto,1.FC Köln
+296768.0,Waldemar Anton,,Waldemar Anton,100.0,auto,Borussia Dortmund
+296769.0,Benjamin Henrichs,,Benjamin Henrichs,100.0,auto,RB Leipzig
+296838.0,Dimitrios Giannoulis,,Dimitrios Giannoulis,100.0,auto,FC Augsburg
+296975.0,Artem Dovbyk,,Artem Dovbyk,100.0,auto,AS Roma
+296983.0,Timo Hübers,,Timo Hübers,100.0,auto,1.FC Köln
+297203.0,Pablo Fornals,,Pablo Fornals,100.0,auto,Real Betis Balompié
+297210.0,Kelvin Amian,,Kelvin Amian,100.0,auto,FC Nantes
+297390.0,Manuel Akanji,,Manuel Akanji,100.0,auto,Inter Milan
+297395.0,Sasa Lukic,,Saša Lukić,100.0,auto,Fulham FC
+297546.0,Umar Sadiq,,Umar Sadiq,100.0,auto,Valencia CF
+298145.0,Phillip Tietz,,Phillip Tietz,100.0,auto,1.FSV Mainz 05
+298175.0,Santiago Colombatto,,Santiago Colombatto,100.0,auto,Real Oviedo
+298446.0,Philipp Lienhart,,Philipp Lienhart,100.0,auto,SC Freiburg
+298482.0,Lucas Ahijado,,Lucas Ahijado,100.0,auto,Real Oviedo
+298515.0,Giuseppe Pezzella,,Giuseppe Pezzella,100.0,auto,US Cremonese
+298689.0,Vitaly Janelt,,Vitaly Janelt,100.0,auto,Brentford FC
+298694.0,Pervis Estupiñán,,Pervis Estupiñán,100.0,auto,AC Milan
+298792.0,Josip Brekalo,,Pablo,67.5,manual_needed,
+298837.0,Amadou Haidara,,Amadou Haidara,100.0,auto,RC Lens
+298839.0,Mikel Oyarzabal,,Mikel Oyarzabal,100.0,auto,Real Sociedad
+299077.0,Nordi Mukiele,,Nordi Mukiele,100.0,auto,Sunderland AFC
+299254.0,Alexander Isak,,Alexander Isak,100.0,auto,Liverpool FC
+299271.0,Axel Tuanzebe,,Axel Tuanzebe,100.0,auto,Burnley FC
+299272.0,Ben Chilwell,,Ben Chilwell,100.0,auto,RC Strasbourg Alsace
+299344.0,Lautaro Martínez,,Lautaro Martínez,100.0,auto,Inter Milan
+299451.0,Ademola Lookman,,Ademola Lookman,100.0,auto,Atlético de Madrid
+299460.0,André Silva,,André Silva,100.0,auto,Elche CF
+299490.0,Dodi Lukébakio,,Dodô,77.1,manual_needed,
+299513.0,Ousmane Dembélé,,Ousmane Dembélé,100.0,auto,Paris Saint-Germain
+299562.0,Ludovic Blas,,Ludovic Blas,100.0,auto,Stade Rennais FC
+299684.0,Exequiel Palacios,,Exequiel Palacios,100.0,auto,Bayer 04 Leverkusen
+299693.0,Wout Faes,,Wout Faes,100.0,auto,AS Monaco
+299752.0,Unai Elgezabal,,Unai Elgezabal,100.0,auto,Levante UD
+300291.0,Romain Del Castillo,,Romain Del Castillo,100.0,auto,Stade Brestois 29
+300299.0,Marcus Rashford,,Marcus Rashford,100.0,auto,FC Barcelona
+300359.0,Issa Diop,,Issa Diop,100.0,auto,Fulham FC
+300369.0,Rafa Mir,,Rafa Mir,100.0,auto,Elche CF
+300426.0,Axel Disasi,,Axel Disasi,100.0,auto,West Ham United
+300447.0,Raphinha,,Raphinha,100.0,auto,FC Barcelona
+300634.0,Jean-Victor Makengo,,Jean-Victor Makengo,100.0,auto,FC Lorient
+300705.0,Lucas Tousart,,Lucas Tousart,100.0,auto,Stade Brestois 29
+300713.0,Kylian Mbappé,,Kylian Mbappé,100.0,auto,Real Madrid
+300918.0,Dani Calvo,,Dani Calvo,100.0,auto,Real Oviedo
+300945.0,Christopher Nkunku,,Christopher Nkunku,100.0,auto,AC Milan
+301019.0,Jules Koundé,,Jules Koundé,100.0,auto,FC Barcelona
+301034.0,Eray Cömert,,Eray Cömert,100.0,auto,Valencia CF
+301243.0,Pierre Lees-Melou,,Pierre Lees-Melou,100.0,auto,Paris FC
+301326.0,Gaëtan Perrin,,Gaëtan Perrin,100.0,auto,LOSC Lille
+301330.0,Léo Pétrot,,Léo Pétrot,100.0,auto,Elche CF
+301440.0,Ezri Konsa,,Ezri Konsa,100.0,auto,Aston Villa
+301441.0,James Justin,,James Justin,100.0,auto,Leeds United
+301455.0,Kostas Tsimikas,,Konstantinos Tsimikas,83.3,auto,AS Roma
+301869.0,Jonathan Clauss,,Jonathan Clauss,100.0,auto,OGC Nice
+302312.0,Joe Rodon,,Joe Rodon,100.0,auto,Leeds United
+302313.0,Daniel James,,Daniel James,100.0,auto,Leeds United
+302497.0,Alexander Sørloth,,Alexander Sørloth,100.0,auto,Atlético de Madrid
+302588.0,Bernardo,,Bernardo,100.0,auto,TSG 1899 Hoffenheim
+302650.0,Gianluca Scamacca,,Gianluca Scamacca,100.0,auto,Atalanta BC
+302691.0,Remo Freuler,,Remo Freuler,100.0,auto,Bologna FC 1909
+302692.0,Christian Pulisic,,Christian Pulisic,100.0,auto,AC Milan
+302812.0,Rasmus Kristensen,,Rasmus Kristensen,100.0,auto,Eintracht Frankfurt
+302889.0,Pepelu,,Pepelu,100.0,auto,Valencia CF
+303016.0,Mauro Arambarri,,Mauro Arambarri,100.0,auto,Getafe CF
+303017.0,Igor Silva,,Igor Silva,100.0,auto,FC Lorient
+303076.0,Danilho Doekhi,,Danilho Doekhi,100.0,auto,1.FC Union Berlin
+303096.0,Yves Bissouma,,Yves Bissouma,100.0,auto,Tottenham Hotspur
+303107.0,Keinan Davis,,Keinan Davis,100.0,auto,Udinese Calcio
+303139.0,Rodri,,Rodri,100.0,auto,Manchester City
+303268.0,Carles Aleñá,,Carles Aleñá,100.0,auto,Deportivo Alavés
+303314.0,Mathias Pereira Lage,,Mathias Pereira Lage,100.0,auto,FC St. Pauli
+303657.0,Rodrigo Bentancur,,Rodrigo Bentancur,100.0,auto,Tottenham Hotspur
+303707.0,Chimy Ávila,,Chimy Ávila,100.0,auto,Real Betis Balompié
+303728.0,Nahuel Molina,,Nahuel Molina,100.0,auto,Atlético de Madrid
+303800.0,Lucas Boyé,,Lucas Boyé,100.0,auto,Deportivo Alavés
+303876.0,Guido Rodríguez,,Guido Rodríguez,100.0,auto,Valencia CF
+303908.0,Giovani Lo Celso,,Giovani Lo Celso,100.0,auto,Real Betis Balompié
+306581.0,Antonee Robinson,,Antonee Robinson,100.0,auto,Fulham FC
+306637.0,Niklas Dorsch,,Niklas Dorsch,100.0,auto,1.FC Heidenheim 1846
+306766.0,Ibrahima Sissoko,,Ibrahima Sissoko,100.0,auto,FC Nantes
+306943.0,Grady Diangana,,Grady Diangana,100.0,auto,Elche CF
+307202.0,Jacob Bruun Larsen,,Jacob Bruun Larsen,100.0,auto,Burnley FC
+312580.0,Toni Lato,,Toni Lato,100.0,auto,RCD Mallorca
+312666.0,Marius Wolf,,Marius Wolf,100.0,auto,FC Augsburg
+313171.0,Rúben Dias,,Rúben Dias,100.0,auto,Manchester City
+313385.0,Carlens Arcus,,Carlens Arcus,100.0,auto,Angers SCO
+313542.0,Carlos Soler,,Carlos Soler,100.0,auto,Real Sociedad
+313672.0,Kyle Walker-Peters,,Kyle Walker-Peters,100.0,auto,West Ham United
+315227.0,Erling Haaland,,Erling Haaland,100.0,auto,Manchester City
+315275.0,Tyler Adams,,Tyler Adams,100.0,auto,AFC Bournemouth
+315369.0,Dusan Vlahovic,,Dušan Vlahović,100.0,auto,Juventus FC
+315538.0,David Okereke,,David Okereke,100.0,auto,US Cremonese
+315543.0,Ola Aina,,Ola Aina,100.0,auto,Nottingham Forest
+315566.0,Igor Zubeldia,,Igor Zubeldia,100.0,auto,Real Sociedad
+315714.0,Joe Worrall,,Joe Worrall,100.0,auto,Burnley FC
+316532.0,Charles Pickel,,Charles Pickel,100.0,auto,RCD Espanyol Barcelona
+317306.0,Alessio Castro-Montes,,Alessio Castro-Montes,100.0,auto,1.FC Köln
+317354.0,Álvaro Odriozola,,Álvaro Odriozola,100.0,auto,Real Sociedad
+317504.0,Odsonne Édouard,,Odsonne Édouard,100.0,auto,RC Lens
+317506.0,Tammy Abraham,,Tammy Abraham,100.0,auto,Aston Villa
+317507.0,Fikayo Tomori,,Fikayo Tomori,100.0,auto,AC Milan
+317541.0,Brahim Díaz,,Brahim Díaz,100.0,auto,Real Madrid
+317544.0,Andrea Pinamonti,,Andrea Pinamonti,100.0,auto,US Sassuolo
+317630.0,Djibril Sow,,Djibril Sow,100.0,auto,Sevilla FC
+317675.0,Dodô,,Dodô,100.0,auto,ACF Fiorentina
+317804.0,Richarlison,,Richarlison,100.0,auto,Tottenham Hotspur
+317896.0,Jack Harrison,,Jack Harrison,100.0,auto,ACF Fiorentina
+318120.0,Marcão,,Marcão,100.0,auto,Sevilla FC
+318432.0,Yerry Mina,,Yerry Mina,100.0,auto,Cagliari Calcio
+318449.0,John McGinn,,John McGinn,100.0,auto,Aston Villa
+318505.0,Yangel Herrera,,Yangel Herrera,100.0,auto,Real Sociedad
+318871.0,Trent Alexander-Arnold,,Trent Alexander-Arnold,100.0,auto,Real Madrid
+319034.0,Ylber Ramadani,,Ylber Ramadani,100.0,auto,US Lecce
+319388.0,Valentin Rosier,,Valentin Rosier,100.0,auto,CA Osasuna
+319448.0,Florian Neuhaus,,Florian Neuhaus,100.0,auto,Borussia Mönchengladbach
+319490.0,Alimami Gory,,Alimami Gory,100.0,auto,Paris FC
+319594.0,Sebastian Szymanski,,Sebastian Szymanski,100.0,auto,Stade Rennais FC
+319756.0,Lucas Paquetá,,Lucas Tolentino Coelho de Lima,100.0,manual,Clube Regatas Flamengo
+319785.0,Nikola Milenkovic,,Nikola Milenković,100.0,auto,Nottingham Forest
+320040.0,Alphonso Davies,,Alphonso Davies,100.0,auto,Bayern Munich
+320242.0,Jean-Ricner Bellegarde,,Jean-Ricner Bellegarde,100.0,auto,Wolverhampton Wanderers
+320243.0,Enzo Ebosse,,Enzo Ebosse,100.0,auto,Torino FC
+320313.0,Caio Henrique,,Caio Henrique,100.0,auto,AS Monaco
+320374.0,Matthijs de Ligt,,Matthijs de Ligt,100.0,auto,Manchester United
+320436.0,Julian Ryerson,,Julian Ryerson,100.0,auto,Borussia Dortmund
+320525.0,Eric Smith,,Eric Smith,100.0,auto,FC St. Pauli
+320585.0,Jesper Karlström,,Jesper Karlström,100.0,auto,Udinese Calcio
+320713.0,Joseph Aidoo,,Joseph Aidoo,100.0,auto,Celta de Vigo
+320749.0,Andreas Hanche-Olsen,,Andreas Hanche-Olsen,100.0,auto,1.FSV Mainz 05
+320834.0,Achraf Hakimi,,Achraf Hakimi,100.0,auto,Paris Saint-Germain
+321020.0,Sander Berge,,Sander Berge,100.0,auto,Fulham FC
+321073.0,Mathias Rasmussen,,Mathias Rasmussen,100.0,auto,FC St. Pauli
+321085.0,Kristoffer Ajer,,Kristoffer Ajer,100.0,auto,Brentford FC
+321145.0,Anthony Caci,,Anthony Caci,100.0,auto,1.FSV Mainz 05
+321389.0,Tanguy Ndombélé,,Tanguy Ndombélé,100.0,auto,OGC Nice
+321958.0,Ferdi Kadioglu,,Ferdi Kadıoğlu,100.0,auto,Brighton & Hove Albion
+322036.0,Ben White,,Ben White,100.0,auto,Arsenal FC
+322043.0,Matty Cash,,Matty Cash,100.0,auto,Aston Villa
+322094.0,Jonathan Ikoné,,Jonathan Ikoné,100.0,auto,Paris FC
+322095.0,Mouctar Diakhaby,,Mouctar Diakhaby,100.0,auto,Valencia CF
+322153.0,Denzel Dumfries,,Denzel Dumfries,100.0,auto,Inter Milan
+322246.0,André Almeida,,André Almeida,100.0,auto,Valencia CF
+322418.0,Ethan Ampadu,,Ethan Ampadu,100.0,auto,Leeds United
+322596.0,Jarrod Bowen,,Jarrod Bowen,100.0,auto,West Ham United
+322611.0,Ryan Sessegnon,,Ryan Sessegnon,100.0,auto,Fulham FC
+322652.0,Joel Asoro,,Joel Asoro,100.0,auto,FC Metz
+322670.0,Ismaïla Sarr,,Ismaïla Sarr,100.0,auto,Crystal Palace
+322671.0,Gauthier Hein,,Gauthier Hein,100.0,auto,FC Metz
+322747.0,Malang Sarr,,Malang Sarr,100.0,auto,RC Lens
+322771.0,Fábio Cardoso,,Fábio Cardoso,100.0,auto,Sevilla FC
+322772.0,Domingos Duarte,,Domingos Duarte,100.0,auto,Getafe CF
+322774.0,João Palhinha,,João Palhinha,100.0,auto,Tottenham Hotspur
+322971.0,Federico Chiesa,,Federico Chiesa,100.0,auto,Liverpool FC
+323148.0,Marc Roca,,Marc Roca,100.0,auto,Real Betis Balompié
+323236.0,Mariano Díaz,,Mariano Díaz,100.0,auto,Deportivo Alavés
+323240.0,Pol Lirola,,Pol Lirola,100.0,auto,Hellas Verona
+323352.0,Diego Rico,,Diego Rico,100.0,auto,Getafe CF
+323450.0,Evan Ndicka,,Evan Ndicka,100.0,auto,AS Roma
+323546.0,Aarón Martín,,Aarón Martín,100.0,auto,Genoa CFC
+323625.0,Arnaut Danjuma,,Arnaut Danjuma,100.0,auto,Valencia CF
+323663.0,Cristian Romero,,Cristian Romero,100.0,auto,Tottenham Hotspur
+323678.0,Youssef Maleh,,Youssef Maleh,100.0,auto,US Cremonese
+326413.0,Kai Havertz,,Kai Havertz,100.0,auto,Arsenal FC
+326505.0,David Neres,,David Neres,100.0,auto,SSC Napoli
+327682.0,Leon Bailey,,Leon Bailey,100.0,auto,Aston Villa
+327685.0,Mbwana Samatta,,Ally Samatta,70.0,manual_needed,
+327702.0,Michel Aebischer,,Michel Aebischer,100.0,auto,Pisa Sporting Club
+327721.0,Dayot Upamecano,,Dayot Upamecano,100.0,auto,Bayern Munich
+327852.0,Ovie Ejaria,,Ovie Ejaria,100.0,auto,Real Oviedo
+327905.0,Alexis Claude-Maurice,,Alexis Claude-Maurice,100.0,auto,FC Augsburg
+328075.0,Ibrahim Sangaré,,Ibrahim Sangaré,100.0,auto,Nottingham Forest
+328096.0,Jean-Philippe Mateta,,Jean-Philippe Mateta,100.0,auto,Crystal Palace
+328288.0,Arnaud Nordin,,Arnaud Nordin,100.0,auto,Stade Rennais FC
+328330.0,Marcos Senesi,,Marcos Senesi,100.0,auto,AFC Bournemouth
+328433.0,Thibault De Smet,,Thibault De Smet,100.0,auto,Paris FC
+328968.0,Fodé Ballo-Touré,,Fodé Ballo-Touré,100.0,auto,FC Metz
+328983.0,Mattéo Guendouzi,,Mattéo Guendouzi,55.2,manual,SS Lazio
+328990.0,Moise Kean,,Moise Kean,100.0,auto,ACF Fiorentina
+329356.0,Martin Terrier,,Martin Terrier,100.0,auto,Bayer 04 Leverkusen
+329665.0,Alessandro Bastoni,,Alessandro Bastoni,100.0,auto,Inter Milan
+329681.0,Patrick Cutrone,,Patric,90.0,auto,SS Lazio
+329689.0,Bakery Jatta,,Bakery Jatta,100.0,auto,Hamburger SV
+330505.0,Idrissa Touré,,Idrissa Touré,100.0,auto,Pisa Sporting Club
+330538.0,David Raum,,David Raum,100.0,auto,RB Leipzig
+330549.0,Gabriel Gudmundsson,,Gabriel Gudmundsson,100.0,auto,Leeds United
+330614.0,Hugo Magnetti,,Hugo Magnetti,100.0,auto,Stade Brestois 29
+330629.0,Marius Marin,,Marius Marin,100.0,auto,Pisa Sporting Club
+330672.0,Facundo Medina,,Facundo Medina,100.0,auto,Olympique Marseille
+330816.0,Kevin Danso,,Kevin Danso,100.0,auto,Tottenham Hotspur
+331254.0,Phil Foden,,Phil Foden,100.0,auto,Manchester City
+331382.0,Harvey Barnes,,Harvey Barnes,100.0,auto,Newcastle United
+331383.0,Nikola Moro,,Nikola Moro,100.0,auto,Bologna FC 1909
+331425.0,Davide Frattesi,,Davide Frattesi,100.0,auto,Inter Milan
+331466.0,Romain Perraud,,Romain Perraud,100.0,auto,LOSC Lille
+331579.0,Justin Kluivert,,Justin Kluivert,100.0,auto,AFC Bournemouth
+331790.0,Boubacar Kamara,,Boubacar Kamara,100.0,auto,Aston Villa
+331924.0,Aaron Wan-Bissaka,,Aaron Wan-Bissaka,100.0,auto,West Ham United
+332120.0,Jordan Torunarigha,,Jordan Torunarigha,100.0,auto,Hamburger SV
+332268.0,Luca Pellegrini,,Luca Pellegrini,100.0,auto,SS Lazio
+332325.0,Declan Rice,,Declan Rice,100.0,auto,Arsenal FC
+332398.0,Nicolò Zaniolo,,Nicolò Zaniolo,100.0,auto,Udinese Calcio
+332403.0,Eberechi Eze,,Eberechi Eze,100.0,auto,Arsenal FC
+332419.0,Lloyd Kelly,,Lloyd Kelly,100.0,auto,Juventus FC
+332867.0,Morgan Gibbs-White,,Morgan Gibbs-White,100.0,auto,Nottingham Forest
+332990.0,Djené Dakonam,,Dakonam Djené,95.0,auto,Getafe CF
+333044.0,Harry Wilson,,Harry Wilson,100.0,auto,Fulham FC
+333048.0,Jørgen Strand Larsen,,Jørgen Strand Larsen,100.0,auto,Crystal Palace
+333182.0,Jorge Cuenca,,Jorge Cuenca,100.0,auto,Fulham FC
+333227.0,Marco Friedl,,Marco Friedl,100.0,auto,SV Werder Bremen
+333251.0,Dennis Johnsen,,Brennan Johnson,69.0,manual_needed,
+333294.0,Michael Folorunsho,,Michael Folorunsho,100.0,auto,Cagliari Calcio
+333373.0,Alessandro Buongiorno,,Alessandro Buongiorno,100.0,auto,SSC Napoli
+333542.0,Randal Kolo Muani,,Randal Kolo Muani,100.0,auto,Tottenham Hotspur
+333741.0,Stefan Posch,,Stefan Posch,100.0,auto,1.FSV Mainz 05
+334039.0,Lars Ritzka,,Lars Ritzka,100.0,auto,FC St. Pauli
+334087.0,Gabriel Magalhães,,Gabriel,90.0,auto,Arsenal FC
+334221.0,Dani Raba,,Dani Raba,100.0,auto,Valencia CF
+334653.0,Nicolás Domínguez,,Nicolás Domínguez,100.0,auto,Nottingham Forest
+335041.0,Jon Guridi,,Jon Guridi,100.0,auto,Deportivo Alavés
+335107.0,Juan Foyth,,Juan Foyth,100.0,auto,Villarreal CF
+335576.0,Gabriel Strefezza,,Gabriel Strefezza,100.0,auto,Parma Calcio 1913
+335692.0,Krépin Diatta,,Krépin Diatta,100.0,auto,AS Monaco
+335696.0,Edu Expósito,,Edu Expósito,100.0,auto,RCD Espanyol Barcelona
+335756.0,Ragnar Ache,,Ragnar Ache,100.0,auto,1.FC Köln
+335790.0,Nacho Vidal,,Nacho Vidal,100.0,auto,Real Oviedo
+336048.0,Marin Pongracic,,Marin Pongracic,100.0,auto,ACF Fiorentina
+336251.0,Kike Barja,,Kike Barja,100.0,auto,CA Osasuna
+33649.0,Milan Djuric,,Milan Djuric,100.0,auto,US Cremonese
+336915.0,Scott McTominay,,Scott McTominay,100.0,auto,SSC Napoli
+337022.0,Chidera Ejuke,,Chidera Ejuke,100.0,auto,Sevilla FC
+337443.0,Matteo Gabbia,,Matteo Gabbia,100.0,auto,AC Milan
+337454.0,Facundo Garcés,,Facundo Garcés,100.0,auto,Deportivo Alavés
+337782.0,Vinícius Júnior,,Vinicius Junior,100.0,auto,Real Madrid
+337879.0,Éder Militão,,Éder Militão,100.0,auto,Real Madrid
+337883.0,Douglas Luiz,,Douglas Luiz,100.0,auto,Aston Villa
+337916.0,Pedro Neto,,Pedro,90.0,auto,SS Lazio
+338073.0,Mehdi Léris,,Mehdi Léris,100.0,auto,Pisa Sporting Club
+338275.0,Weston McKennie,,Weston McKennie,100.0,auto,Juventus FC
+338497.0,Angel Gomes,,Angel Gomes,100.0,auto,Wolverhampton Wanderers
+338762.0,Alessio Zerbin,,Alessio Zerbin,100.0,auto,US Cremonese
+338780.0,Bruno Guimarães,,Bruno Guimarães,100.0,auto,Newcastle United
+339500.0,Przemyslaw Frankowski,,Przemyslaw Frankowski,100.0,auto,Stade Rennais FC
+339502.0,Adam Buksa,,Adam Buksa,100.0,auto,Udinese Calcio
+339579.0,Eljif Elmas,,Eljif Elmas,100.0,auto,SSC Napoli
+339671.0,Aron Dønnum,,Aron Dønnum,100.0,auto,FC Toulouse
+339673.0,Mads Pedersen,,Mads Pedersen,100.0,auto,FC Augsburg
+339674.0,Mathias Jensen,,Mathias Jensen,100.0,auto,Brentford FC
+339875.0,Bremer,,Bremer,100.0,auto,Juventus FC
+340105.0,Lisandro Martínez,,Lisandro Martínez,100.0,auto,Manchester United
+342499.0,Ethan Pinnock,,Ethan Pinnock,100.0,auto,Brentford FC
+342540.0,Nicolas Cozza,,Nicolas Cozza,100.0,auto,FC Nantes
+342548.0,Dan-Axel Zagadou,,Dan-Axel Zagadou,100.0,auto,VfB Stuttgart
+342563.0,Joe Willock,,Joe Willock,100.0,auto,Newcastle United
+342610.0,Koffi Kouao,,Koffi Kouao,100.0,auto,FC Metz
+342811.0,Sean Longstaff,,Sean Longstaff,100.0,auto,Leeds United
+342830.0,Ryan Yates,,Ryan Yates,100.0,auto,Nottingham Forest
+342857.0,Danny Namaso,,Danny Namaso,100.0,auto,AJ Auxerre
+342889.0,Matt O'Riley,,Matt O'Riley,100.0,auto,Brighton & Hove Albion
+343308.0,Teun Koopmeiners,,Teun Koopmeiners,100.0,auto,Juventus FC
+343317.0,Jeff Chabot,,Jeff Chabot,100.0,auto,VfB Stuttgart
+343346.0,Mason Mount,,Mason Mount,100.0,auto,Manchester United
+343368.0,M'Bala Nzola,,M'Bala Nzola,100.0,auto,US Sassuolo
+343382.0,Tijjani Reijnders,,Tijjani Reijnders,100.0,auto,Manchester City
+343435.0,Ritsu Doan,,Ritsu Doan,100.0,auto,Eintracht Frankfurt
+343496.0,Alberto Dossena,,Alberto Dossena,100.0,auto,Cagliari Calcio
+343501.0,Sandro Tonali,,Sandro Tonali,100.0,auto,Newcastle United
+343512.0,Emanuele Valeri,,Emanuele Valeri,100.0,auto,Parma Calcio 1913
+343778.0,Marash Kumbulla,,Marash Kumbulla,100.0,auto,RCD Mallorca
+343975.0,Nikola Vlasic,,Nikola Vlašić,84.6,manual,Torino FC
+343982.0,Toma Basic,,Toma Bašić,80.0,manual,SS Lazio
+344073.0,Orel Mangala,,Orel Mangala,100.0,auto,Olympique Lyon
+344120.0,Ander Guevara,,Ander Guevara,100.0,auto,Deportivo Alavés
+344156.0,Mario Hermoso,,Mario Hermoso,100.0,auto,AS Roma
+344166.0,Daichi Kamada,,Daichi Kamada,100.0,auto,Crystal Palace
+344200.0,Unai Núñez,,Unai Núñez,100.0,auto,Valencia CF
+344259.0,Pau Torres,,Pau Torres,100.0,auto,Aston Villa
+344314.0,Marcus Tavernier,,Marcus Tavernier,100.0,auto,AFC Bournemouth
+344542.0,Brais Méndez,,Brais Méndez,100.0,auto,Real Sociedad
+344639.0,Omar Alderete,,Omar Alderete,100.0,auto,Sunderland AFC
+344644.0,Federico Valverde,,Federico Valverde,100.0,auto,Real Madrid
+344645.0,Ignatius Ganago,,Ignatius Ganago,100.0,auto,FC Nantes
+344949.0,Danel Sinani,,Danel Sinani,100.0,auto,FC St. Pauli
+345022.0,Manor Solomon,,Manor Solomon,100.0,auto,ACF Fiorentina
+345160.0,James Sands,,James Sands,100.0,auto,FC St. Pauli
+345319.0,Alexis Mac Allister,,Alexis Mac Allister,100.0,auto,Liverpool FC
+345322.0,Nico González,,Nico Paz,85.5,auto,Como 1907
+345366.0,Diego Pampín,,Diego Pampín,100.0,auto,Levante UD
+345396.0,Mama Baldé,,Mama Baldé,100.0,auto,Stade Brestois 29
+345441.0,Lutsharel Geertruida,,Lutsharel Geertruida,100.0,auto,Sunderland AFC
+345516.0,Vitalii Mykolenko,,Vitaliy Mykolenko,94.1,auto,Everton FC
+345600.0,Pontus Almqvist,,Pontus Almqvist,100.0,auto,Parma Calcio 1913
+345661.0,Jessy Deminguet,,Jessy Deminguet,100.0,auto,FC Metz
+345845.0,Eddie Nketiah,,Eddie Nketiah,100.0,auto,Crystal Palace
+345908.0,Andoni Gorosabel,,Andoni Gorosabel,100.0,auto,Athletic Bilbao
+345957.0,Ibrahima Konaté,,Ibrahima Konaté,100.0,auto,Liverpool FC
+345987.0,Willem Geubbels,,Willem Geubbels,100.0,auto,Paris FC
+345988.0,Elisha Owusu,,Elisha Owusu,100.0,auto,AJ Auxerre
+346210.0,Robin Hack,,Robin Hack,100.0,auto,Borussia Mönchengladbach
+346300.0,Jadon Sancho,,Jadon Sancho,100.0,auto,Aston Villa
+346744.0,Antoine Bernede,,Antoine Bernede,100.0,auto,Hellas Verona
+347178.0,Mathías Olivera,,Mathías Olivera,100.0,auto,SSC Napoli
+347340.0,Lukas Nmecha,,Lukas Nmecha,100.0,auto,Leeds United
+347862.0,Rodrygo,,Rodrygo,100.0,auto,Real Madrid
+347874.0,Nahuel Tenaglia,,Nahuel Tenaglia,100.0,auto,Deportivo Alavés
+347884.0,Atakan Karazor,,Atakan Karazor,100.0,auto,VfB Stuttgart
+348654.0,Amine Gouiri,,Amine Gouiri,100.0,auto,Olympique Marseille
+349102.0,Albert Sambi Lokonga,,Albert Sambi Lokonga,100.0,auto,Hamburger SV
+349125.0,Nikolas Nartey,,Nikolas Nartey,100.0,auto,VfB Stuttgart
+349126.0,Yann Bisseck,,Yann Bisseck,100.0,auto,Inter Milan
+349184.0,Raoul Bellanova,,Raoul Bellanova,100.0,auto,Atalanta BC
+349207.0,Rafael Leão,,Rafael Leão,100.0,auto,AC Milan
+349368.0,Romain Faivre,,Romain Faivre,100.0,auto,AJ Auxerre
+349406.0,Nicolò Casale,,Nicolò Casale,100.0,auto,Bologna FC 1909
+349494.0,Aitor Ruibal,,Aitor Ruibal,100.0,auto,Real Betis Balompié
+349535.0,Martín Payero,,Martín Payero,100.0,auto,US Cremonese
+349561.0,Frank Anguissa,,Frank Anguissa,100.0,auto,SSC Napoli
+349660.0,Manu Morlanes,,Manu Morlanes,100.0,auto,RCD Mallorca
+349669.0,Anthony Gordon,,Anthony Gordon,100.0,auto,Newcastle United
+349755.0,Stanley Nsoki,,Stanley Nsoki,100.0,auto,1.FC Union Berlin
+349760.0,Ferran Torres,,Ferran Torres,100.0,auto,FC Barcelona
+349837.0,Elvis Rexhbeçaj,,Elvis Rexhbecaj,100.0,auto,FC Augsburg
+349888.0,Chris Führich,,Chris Führich,100.0,auto,VfB Stuttgart
+349895.0,Abdou Harroui,,Abdou Harroui,100.0,auto,Hellas Verona
+349932.0,Noussair Mazraoui,,Noussair Mazraoui,100.0,auto,Manchester United
+349960.0,Mahdi Camara,,Mahdi Camara,100.0,auto,Stade Rennais FC
+350088.0,Callum Hudson-Odoi,,Callum Hudson-Odoi,100.0,auto,Nottingham Forest
+351127.0,Konstantinos Mavropanos,,Konstantinos Mavropanos,100.0,auto,West Ham United
+351252.0,Junior Firpo,,Junior Firpo,100.0,auto,Real Betis Balompié
+351339.0,Ermedin Demirovic,,Ermedin Demirovic,100.0,auto,VfB Stuttgart
+351354.0,Donyell Malen,,Donyell Malen,100.0,auto,AS Roma
+351705.0,Sepp van den Berg,,Sepp van den Berg,100.0,auto,Brentford FC
+352825.0,Cody Gakpo,,Cody Gakpo,100.0,auto,Liverpool FC
+352891.0,Lennard Maloney,,Lennard Maloney,100.0,auto,1.FSV Mainz 05
+353193.0,Niklas Beste,,Niklas Beste,100.0,auto,SC Freiburg
+353292.0,Trevoh Chalobah,,Trevoh Chalobah,100.0,auto,Chelsea FC
+353377.0,Bryan Mbeumo,,Bryan Mbeumo,100.0,auto,Manchester United
+353418.0,Diogo Dalot,,Diogo Dalot,100.0,auto,Manchester United
+353423.0,Aurélien Tchouaméni,,Aurélien Tchouaméni,100.0,auto,Real Madrid
+353565.0,Jonas Wind,,Jonas Wind,100.0,auto,VfL Wolfsburg
+353991.0,Timothy Weah,,Timothy Weah,100.0,auto,Olympique Marseille
+354072.0,Oumar Solet,,Oumar Solet,100.0,auto,Udinese Calcio
+354241.0,Josha Vagnoman,,Josha Vagnoman,100.0,auto,VfB Stuttgart
+354283.0,Noa Lang,,Nhoa Sangui,73.7,manual_needed,
+354291.0,Jayden Bogle,,Jayden Bogle,100.0,auto,Leeds United
+354526.0,Hugo Duro,,Hugo Duro,100.0,auto,Valencia CF
+354555.0,Linton Maina,,Linton Maina,100.0,auto,1.FC Köln
+355110.0,Sergio Gómez,,Sergio Gómez,100.0,auto,Real Sociedad
+355122.0,Mark McKenzie,,Mark McKenzie,100.0,auto,FC Toulouse
+355354.0,Curtis Jones,,Curtis Jones,100.0,auto,Liverpool FC
+355391.0,Riccardo Sottil,,Riccardo Sottil,100.0,auto,US Lecce
+355401.0,Rayan Aït-Nouri,,Rayan Aït-Nouri,100.0,auto,Manchester City
+355609.0,Pascal Struijk,,Pascal Struijk,100.0,auto,Leeds United
+355856.0,Enrico Delprato,,Enrico Delprato,100.0,auto,Parma Calcio 1913
+355869.0,Luca Ranieri,,Luca Ranieri,100.0,auto,ACF Fiorentina
+355963.0,Jurgen Ekkelenkamp,,Jurgen Ekkelenkamp,100.0,auto,Udinese Calcio
+355994.0,Armand Laurienté,,Armand Laurienté,100.0,auto,US Sassuolo
+356176.0,Michel Adopo,,Michel Adopo,100.0,auto,Cagliari Calcio
+356183.0,Ridle Baku,,Ridle Baku,100.0,auto,RB Leipzig
+356743.0,Ozan Kabak,,Ozan Kabak,100.0,auto,TSG 1899 Hoffenheim
+357073.0,Antoine Semenyo,,Antoine Semenyo,100.0,auto,Manchester City
+357091.0,Deniz Undav,,Deniz Undav,100.0,auto,VfB Stuttgart
+357118.0,Miguel Rubio,,Miguel Rubio,100.0,auto,RCD Espanyol Barcelona
+357133.0,Marcus Pedersen,,Marcus Pedersen,100.0,auto,Torino FC
+357388.0,Gonzalo Villar,,Gonzalo Villar,100.0,auto,Elche CF
+357427.0,Dwight McNeil,,Dwight McNeil,100.0,auto,Everton FC
+357839.0,Dani Vivian,,Dani Vivian,100.0,auto,Athletic Bilbao
+357897.0,Carlos Augusto,,Carlos Augusto,100.0,auto,Inter Milan
+357956.0,Mattéo Tramoni,,Matteo Tramoni,92.9,auto,Pisa Sporting Club
+360502.0,Cristian Cásseres,,Cristian Cásseres Jr.,95.0,auto,FC Toulouse
+360941.0,Jaka Bijol,,Jaka Bijol,100.0,auto,Leeds United
+361254.0,Mathias Honsak,,Mathias Honsak,100.0,auto,1.FC Heidenheim 1846
+361284.0,Sofiane Diop,,Sofiane Diop,100.0,auto,OGC Nice
+361330.0,Reece James,,Reece James,100.0,auto,Chelsea FC
+361406.0,Valentín Castellanos,,Taty Castellanos,77.8,auto,West Ham United
+361419.0,Marius Bülter,,Marius Bülter,100.0,auto,1.FC Köln
+361425.0,Patrick Mainka,,Patrick Mainka,100.0,auto,1.FC Heidenheim 1846
+361694.0,Zian Flemming,,Zian Flemming,100.0,auto,Burnley FC
+361710.0,Jean-Clair Todibo,,Jean-Clair Todibo,100.0,auto,West Ham United
+361732.0,Thiago Almada,,Thiago Almada,100.0,auto,Atlético de Madrid
+361797.0,Montassar Talbi,,Montassar Talbi,100.0,auto,FC Lorient
+361812.0,Reinildo Mandava,,Reinildo Mandava,100.0,auto,Sunderland AFC
+361815.0,Yann Gboho,,Yann Gboho,100.0,auto,FC Toulouse
+361822.0,William Saliba,,William Saliba,100.0,auto,Arsenal FC
+361839.0,Jordan Teze,,Jordan Teze,100.0,auto,AS Monaco
+361852.0,Diogo Leite,,Diogo Leite,100.0,auto,1.FC Union Berlin
+361878.0,Wouter Burger,,Wouter Burger,100.0,auto,TSG 1899 Hoffenheim
+361890.0,Jordan Lefort,,Jordan Lefort,100.0,auto,Angers SCO
+361898.0,Luka Ilic,,Luka Ilic,100.0,auto,Real Oviedo
+361993.0,Juan Miranda,,Juan Miranda,100.0,auto,Bologna FC 1909
+362219.0,Djed Spence,,Djed Spence,100.0,auto,Tottenham Hotspur
+362352.0,Pedro Porro,,Pedro Porro,100.0,auto,Tottenham Hotspur
+362354.0,Fernando Calero,,Fernando Calero,100.0,auto,RCD Espanyol Barcelona
+362357.0,Mohammed Salisu,,Mohammed Salisu,100.0,auto,AS Monaco
+362393.0,Carlos Protesoni,,Carlos Protesoni,100.0,auto,Deportivo Alavés
+362421.0,Fran Beltrán,,Fran Beltrán,100.0,auto,Girona FC
+362423.0,Javi Puado,,Javi Puado,100.0,auto,RCD Espanyol Barcelona
+362433.0,Georginio Rutter,,Georginio Rutter,100.0,auto,Brighton & Hove Albion
+362434.0,Nayef Aguerd,,Nayef Aguerd,100.0,auto,Olympique Marseille
+362470.0,Youssouf Fofana,,Youssouf Fofana,100.0,auto,AC Milan
+362501.0,Cucho Hernández,,Cucho Hernández,100.0,auto,Real Betis Balompié
+362551.0,Hamed Traoré,,Hamed Traoré,100.0,auto,Olympique Marseille
+362553.0,Jens Odgaard,,Jens Odgaard,100.0,auto,Bologna FC 1909
+362556.0,Éderson,,Éderson,100.0,auto,Atalanta BC
+362602.0,Gorka Guruzeta,,Gorka Guruzeta,100.0,auto,Athletic Bilbao
+362623.0,Oriol Rey,,Oriol Rey,100.0,auto,Levante UD
+362683.0,Nahuel Estévez,,Nahuel Estévez,100.0,auto,Parma Calcio 1913
+362735.0,Santi Comesaña,,Santi Comesaña,100.0,auto,Villarreal CF
+362758.0,Matheus Cunha,,Matheus Cunha,100.0,auto,Manchester United
+362761.0,Francisco Sierralta,,Francisco Sierralta,100.0,auto,AJ Auxerre
+362779.0,Dávid Hancko,,Dávid Hancko,100.0,auto,Atlético de Madrid
+362788.0,Leonardo Balerdi,,Leonardo Balerdi,100.0,auto,Olympique Marseille
+362815.0,Viktor Gyökeres,,Viktor Gyökeres,100.0,auto,Arsenal FC
+362824.0,Morgan Rogers,,Morgan Rogers,100.0,auto,Aston Villa
+362837.0,James Hill,,James Hill,100.0,auto,AFC Bournemouth
+363037.0,Jonathan Burkardt,,Jonathan Burkardt,100.0,auto,Eintracht Frankfurt
+363069.0,Joe Scally,,Joe Scally,100.0,auto,Borussia Mönchengladbach
+363496.0,Marc Cucurella,,Marc Cucurella,100.0,auto,Chelsea FC
+363535.0,Wilson Isidor,,Wilson Isidor,100.0,auto,Sunderland AFC
+363618.0,Loïs Openda,,Loïs Openda,100.0,auto,Juventus FC
+363652.0,Joakim Mæhle,,Joakim Maehle,100.0,auto,VfL Wolfsburg
+363653.0,Jhon Lucumí,,Jhon Lucumí,100.0,auto,Bologna FC 1909
+363654.0,Jakub Piotrowski,,Jakub Piotrowski,100.0,auto,Udinese Calcio
+363665.0,Samuel Chukwueze,,Samuel Chukwueze,100.0,auto,Fulham FC
+363686.0,Emile Smith Rowe,,Emile Smith Rowe,100.0,auto,Fulham FC
+363884.0,Ryan Gravenberch,,Ryan Gravenberch,100.0,auto,Liverpool FC
+363966.0,Adrià Pedrosa,,Adrià Pedrosa,100.0,auto,Elche CF
+363978.0,Adrián Bernabé,,Adrián Bernabé,100.0,auto,Parma Calcio 1913
+364214.0,Clinton Mata,,Clinton Mata,100.0,auto,Olympique Lyon
+364235.0,Sebastiaan Bornauw,,Sebastiaan Bornauw,100.0,auto,Leeds United
+364315.0,Antony,,Antony,100.0,auto,Real Betis Balompié
+364336.0,Torbjørn Heggem,,Torbjørn Heggem,100.0,auto,Bologna FC 1909
+364337.0,Lautaro Valenti,,Lautaro Valenti,100.0,auto,Parma Calcio 1913
+365122.0,Boulaye Dia,,Boulaye Dia,100.0,auto,SS Lazio
+365308.0,Alexis Saelemaekers,,Alexis Saelemaekers,100.0,auto,AC Milan
+365402.0,Jan Paul van Hecke,,Jan Paul van Hecke,100.0,auto,Brighton & Hove Albion
+365406.0,Benoît Badiashile,,Benoît Badiashile,100.0,auto,Chelsea FC
+365409.0,Julián Alvarez,,Julián Alvarez,100.0,auto,Atlético de Madrid
+365410.0,Lucas Beltrán,,Lucas Beltrán,100.0,auto,Valencia CF
+365831.0,Han-Noah Massengo,,Han-Noah Massengo,100.0,auto,FC Augsburg
+366116.0,Iliman Ndiaye,,Iliman Ndiaye,100.0,auto,Everton FC
+366379.0,Khéphren Thuram,,Khéphren Thuram,100.0,auto,Juventus FC
+366671.0,Ardian Ismajli,,Ardian Ismajli,100.0,auto,Torino FC
+366868.0,Woo-yeong Jeong,,Woo-yeong Jeong,100.0,auto,1.FC Union Berlin
+366875.0,Bafodé Diakité,,Bafodé Diakité,100.0,auto,AFC Bournemouth
+366886.0,Osame Sahraoui,,Osame Sahraoui,100.0,auto,LOSC Lille
+367008.0,Robin Le Normand,,Robin Le Normand,100.0,auto,Atlético de Madrid
+367177.0,Simon Sohm,,Simon Sohm,100.0,auto,Bologna FC 1909
+367180.0,Thierry Correia,,Thierry Correia,100.0,auto,Valencia CF
+367182.0,Tom Krauß,,Tom Krauß,100.0,auto,1.FC Köln
+367185.0,Bukayo Saka,,Bukayo Saka,100.0,auto,Arsenal FC
+367260.0,Marco Brescianini,,Marco Brescianini,100.0,auto,ACF Fiorentina
+367534.0,Philipp Sander,,Philipp Sander,100.0,auto,Borussia Mönchengladbach
+367583.0,Aihen Muñoz,,Aihen Muñoz,100.0,auto,Real Sociedad
+367742.0,Cyril Ngonge,,Cyril Ngonge,100.0,auto,RCD Espanyol Barcelona
+367780.0,Lee Kang-In,,Kang-in Lee,86.4,auto,Paris Saint-Germain
+367781.0,James Garner,,James Garner,100.0,auto,Everton FC
+367782.0,Mason Greenwood,,Mason Greenwood,100.0,auto,Olympique Marseille
+367783.0,Felix Nmecha,,Felix Nmecha,100.0,auto,Borussia Dortmund
+367803.0,Giorgi Tsitaishvili,,Giorgi Tsitaishvili,100.0,auto,FC Metz
+367857.0,Ander Barrenetxea,,Ander Barrenetxea,100.0,auto,Real Sociedad
+368091.0,Eric García,,Eric García,100.0,auto,FC Barcelona
+368176.0,Amos Pieper,,Amos Pieper,100.0,auto,SV Werder Bremen
+368272.0,Maxence Caqueret,,Maxence Caqueret,100.0,auto,Como 1907
+368310.0,Maximilian Kilman,,Maximilian Kilman,100.0,auto,West Ham United
+368512.0,Keane Lewis-Potter,,Keane Lewis-Potter,100.0,auto,Brentford FC
+368519.0,Bryan Gil,,Bryan Cristante,85.5,auto,AS Roma
+368547.0,Ki-Jana Hoever,,Janik Haberer,59.3,manual_needed,
+369109.0,Eduardo Camavinga,,Eduardo Camavinga,100.0,auto,Real Madrid
+369414.0,Roberto Piccoli,,Roberto Piccoli,100.0,auto,ACF Fiorentina
+369426.0,Nicolò Fagioli,,Nicolò Fagioli,100.0,auto,ACF Fiorentina
+369430.0,Enzo Fernández,,Enzo Fernández,100.0,auto,Chelsea FC
+369446.0,Edmond Tapsoba,,Edmond Tapsoba,100.0,auto,Bayer 04 Leverkusen
+369480.0,Nicolás Capaldo,,Nicolás Capaldo,100.0,auto,Hamburger SV
+369497.0,Javi Galán,,Javi Galán,100.0,auto,CA Osasuna
+369542.0,Joël Piroe,,Joël Piroe,100.0,auto,Leeds United
+369556.0,Keven Schlotterbeck,,Keven Schlotterbeck,100.0,auto,FC Augsburg
+369570.0,Manu Koné,,Manu Koné,100.0,auto,AS Roma
+369687.0,András Schäfer,,András Schäfer,100.0,auto,1.FC Union Berlin
+369688.0,Nicolò Rovella,,Nicolò Rovella,100.0,auto,SS Lazio
+369712.0,Florentino,,Florentino,100.0,auto,Burnley FC
+369813.0,Jacob Ramsey,,Jacob Ramsey,100.0,auto,Newcastle United
+369861.0,Alex Král,,Alex Král,100.0,auto,1.FC Union Berlin
+369875.0,Dominik Szoboszlai,,Dominik Szoboszlai,100.0,auto,Liverpool FC
+369883.0,Gianluca Gaetano,,Gianluca Gaetano,100.0,auto,Cagliari Calcio
+369887.0,Lovro Majer,,Lovro Majer,100.0,auto,VfL Wolfsburg
+369970.0,Armel Bella-Kotchap,,Armel Bella-Kotchap,100.0,auto,Hellas Verona
+369971.0,Leo Østigård,,Leo Østigård,100.0,auto,Genoa CFC
+369979.0,Christoph Baumgartner,,Christoph Baumgartner,100.0,auto,RB Leipzig
+370912.0,Kim Min-Jae,,Min-jae Kim,86.4,auto,Bayern Munich
+370984.0,Khvicha Kvaratskhelia,,Khvicha Kvaratskhelia,100.0,auto,Paris Saint-Germain
+371012.0,Brenden Aaronson,,Brenden Aaronson,100.0,auto,Leeds United
+371027.0,Tajon Buchanan,,Tajon Buchanan,100.0,auto,Villarreal CF
+371257.0,Hans Nicolussi Caviglia,,Hans Nicolussi Caviglia,100.0,auto,Parma Calcio 1913
+371275.0,Nico Schlotterbeck,,Nico Schlotterbeck,100.0,auto,Borussia Dortmund
+371281.0,Michael Olise,,Michael Olise,100.0,auto,Bayern Munich
+371396.0,Gabriele Zappa,,Gabriele Zappa,100.0,auto,Cagliari Calcio
+371397.0,Sebastiano Esposito,,Sebastiano Esposito,100.0,auto,Cagliari Calcio
+371447.0,Lyle Foster,,Lyle Foster,100.0,auto,Burnley FC
+371497.0,Giacomo Raspadori,,Giacomo Raspadori,100.0,auto,Atalanta BC
+371761.0,Dan Ballard,,Dan Ballard,100.0,auto,Sunderland AFC
+372280.0,Sacha Boey,,Sascha Britschgi,70.0,manual_needed,
+372331.0,Andrei Ratiu,,Andrei Rațiu,100.0,auto,Rayo Vallecano
+372407.0,Kristian Thorstvedt,,Kristian Thorstvedt,100.0,auto,US Sassuolo
+372424.0,Martín Zubimendi,,Martín Zubimendi,100.0,auto,Arsenal FC
+372469.0,Sergio Camello,,Sergio Camello,100.0,auto,Rayo Vallecano
+372473.0,Iván Martín,,Iván Martín,100.0,auto,Girona FC
+372509.0,Samuele Ricci,,Samuele Ricci,100.0,auto,AC Milan
+372724.0,Nathan Collins,,Nathan Collins,100.0,auto,Brentford FC
+372927.0,Junior Dina Ebimbe,,Junior Dina Ebimbe,100.0,auto,Stade Brestois 29
+373022.0,Corrie Ndaba,,Corrie Ndaba,100.0,auto,US Lecce
+373033.0,Fali Candé,,Fali Candé,100.0,auto,US Sassuolo
+373340.0,Zakaria Aboukhlal,,Zakaria Aboukhlal,100.0,auto,Torino FC
+373525.0,João Pedro,,João Pedro,100.0,auto,Chelsea FC
+373544.0,Nicolò Cambiaghi,,Nicolò Cambiaghi,100.0,auto,Bologna FC 1909
+373946.0,Wesley Fofana,,Wesley Fofana,100.0,auto,Chelsea FC
+373964.0,Vinicius Souza,,Vini Souza,83.3,auto,VfL Wolfsburg
+374625.0,Christian Conteh,,Christian Conteh,100.0,auto,1.FC Heidenheim 1846
+374631.0,Marc Guéhi,,Marc Guéhi,100.0,auto,Manchester City
+374638.0,Alejandro Catena,,Alejandro Catena,100.0,auto,CA Osasuna
+374812.0,David Carmo,,David Carmo,100.0,auto,Real Oviedo
+374813.0,Manu Sánchez,,Manu Sánchez,100.0,auto,Levante UD
+374989.0,Silas Katompa Mvumpa,,Silas,90.0,auto,1.FSV Mainz 05
+375342.0,Moussa Diarra,,Moussa Niakhaté,71.4,manual_needed,
+375621.0,Conor Gallagher,,Conor Gallagher,100.0,auto,Tottenham Hotspur
+376090.0,Noah Okafor,,Noah Okafor,100.0,auto,Leeds United
+376805.0,Victor Nelsson,,Victor Nelsson,100.0,auto,Hellas Verona
+376916.0,Morato,,Morato,100.0,auto,Nottingham Forest
+377168.0,Luis Díaz,,Luis Díaz,100.0,auto,Bayern Munich
+377276.0,Andreas Skov Olsen,,Robert Skov,85.5,auto,1.FC Union Berlin
+377280.0,Jens Stage,,Jens Stage,100.0,auto,SV Werder Bremen
+377285.0,Takefusa Kubo,,Takefusa Kubo,100.0,auto,Real Sociedad
+377308.0,Sandro Kulenovic,,Sandro Kulenović,100.0,auto,Torino FC
+377311.0,Domagoj Bradaric,,Domagoj Bradarić,100.0,auto,Hellas Verona
+377411.0,Marshall Munetsi,,Marshall Munetsi,100.0,auto,Paris FC
+377583.0,Hicham Boudaoui,,Hicham Boudaoui,100.0,auto,OGC Nice
+378482.0,Lameck Banda,,Lameck Banda,100.0,auto,US Lecce
+378626.0,Carl Starfelt,,Carl Starfelt,100.0,auto,Celta de Vigo
+379190.0,Felix Agu,,Felix Agu,100.0,auto,SV Werder Bremen
+379228.0,Abner Vinícius,,Abner,90.0,auto,Olympique Lyon
+379230.0,Johnny Cardoso,,Johnny Cardoso,100.0,auto,Atlético de Madrid
+379252.0,Jamie Leweling,,Jamie Leweling,100.0,auto,VfB Stuttgart
+379615.0,Lucas da Cunha,,Lucas Da Cunha,100.0,auto,Como 1907
+379684.0,Filip Ugrinic,,Filip Ugrinic,100.0,auto,Valencia CF
+379687.0,Thijs Dallinga,,Thijs Dallinga,100.0,auto,Bologna FC 1909
+379688.0,Brennan Johnson,,Brennan Johnson,100.0,auto,Crystal Palace
+379732.0,Sven Botman,,Sven Botman,100.0,auto,Newcastle United
+379783.0,Yukinari Sugawara,,Yukinari Sugawara,100.0,auto,SV Werder Bremen
+379790.0,Nuno Tavares,,Nuno Tavares,100.0,auto,SS Lazio
+379868.0,Jude Bellingham,,Jude Bellingham,100.0,auto,Real Madrid
+380546.0,Beto,,Beto,100.0,auto,Everton FC
+380644.0,Rayan Philippe,,Rayan Philippe,100.0,auto,Hamburger SV
+380645.0,Joris Chotard,,Joris Chotard,100.0,auto,Stade Brestois 29
+380655.0,Fábio Silva,,Fábio Silva,100.0,auto,Borussia Dortmund
+380706.0,Gabriel Martinelli,,Gabriel Martinelli,100.0,auto,Arsenal FC
+380711.0,Cheikh Niasse,,Cheikh Niasse,100.0,auto,Hellas Verona
+381045.0,Jarrad Branthwaite,,Jarrad Branthwaite,100.0,auto,Everton FC
+381255.0,Billy Gilmour,,Billy Gilmour,100.0,auto,SSC Napoli
+38128.0,Nemanja Matic,,Nemanja Matić,92.3,auto,US Sassuolo
+381510.0,Oihan Sancet,,Oihan Sancet,100.0,auto,Athletic Bilbao
+381550.0,Rubén Vargas,,Rubén Vargas,100.0,auto,Sevilla FC
+381583.0,Iker Losada,,Iker Losada,100.0,auto,Levante UD
+381643.0,Aleix Febas,,Aleix Febas,100.0,auto,Elche CF
+381673.0,Jon Moncayola,,Jon Moncayola,100.0,auto,CA Osasuna
+381691.0,Stefan Schimmer,,Stefan Schimmer,100.0,auto,1.FC Heidenheim 1846
+381713.0,Luis Rioja,,Luis Rioja,100.0,auto,Valencia CF
+381792.0,Al Musrati,,Moatasem Al-Musrati,81.0,manual,Hellas Verona
+381913.0,Santiago Pierotti,,Santiago Pierotti,100.0,auto,US Lecce
+382157.0,Pol Lozano,,Pol Lozano,100.0,auto,RCD Espanyol Barcelona
+382234.0,Ansu Fati,,Ansu Fati,100.0,auto,AS Monaco
+382492.0,Tanguy Nianzou,,Tanguy Nianzou,100.0,auto,Sevilla FC
+382564.0,Crysencio Summerville,,Crysencio Summerville,100.0,auto,West Ham United
+382587.0,Evann Guessand,,Evann Guessand,100.0,auto,Crystal Palace
+382590.0,Ilia Gruev,,Ilia Gruev,100.0,auto,Leeds United
+382631.0,Rodrigo Riquelme,,Rodrigo Riquelme,100.0,auto,Real Betis Balompié
+382637.0,Antonino Gallo,,Antonino Gallo,100.0,auto,US Lecce
+383091.0,Cenk Özkacar,,Cenk Özkacar,100.0,auto,1.FC Köln
+383585.0,Sebastian Walukiewicz,,Sebastian Walukiewicz,100.0,auto,US Sassuolo
+383780.0,Adrián de la Fuente,,Adrián Dela,85.5,auto,Levante UD
+383814.0,Vakoun Bayo,,Vakoun Bayo,100.0,auto,Udinese Calcio
+383816.0,Mousa Tamari,,Mousa Tamari,100.0,auto,Stade Rennais FC
+383847.0,Romano Schmid,,Romano Floriani Mussolini,85.5,auto,US Cremonese
+383855.0,Jonathan David,,Jonathan David,100.0,auto,Juventus FC
+383857.0,Cédric Zesiger,,Cédric Zesiger,100.0,auto,FC Augsburg
+383858.0,Felix Mambimbi,,Felix Mambimbi,100.0,auto,Le Havre AC
+383864.0,Strahinja Pavlovic,,Strahinja Pavlović,100.0,auto,AC Milan
+383924.0,Raúl García,,Raúl García,100.0,auto,CA Osasuna
+383956.0,Joshua Zirkzee,,Joshua Zirkzee,100.0,auto,Manchester United
+384000.0,Victor Boniface,,Victor Boniface,100.0,auto,SV Werder Bremen
+384005.0,Arnaud Kalimuendo,,Arnaud Kalimuendo,100.0,auto,Eintracht Frankfurt
+384065.0,Folarin Balogun,,Folarin Balogun,100.0,auto,AS Monaco
+384133.0,Tino Anjorin,,Tino Anjorin,100.0,auto,Torino FC
+384134.0,Ian Maatsen,,Ian Maatsen,100.0,auto,Aston Villa
+384368.0,Mateu Morey,,Mateu Morey,100.0,auto,RCD Mallorca
+384430.0,Evanilson,,Evanilson,100.0,auto,AFC Bournemouth
+384516.0,Odilon Kossounou,,Odilon Kossounou,100.0,auto,Atalanta BC
+384577.0,Sandi Lovric,,Sandi Lovrić,100.0,auto,Hellas Verona
+384711.0,Ronald Araujo,,Ronald Araujo,100.0,auto,FC Barcelona
 384887.0,Vitinha,,Vitinha,100.0,auto,Paris Saint-Germain
+385080.0,Marco Grüll,,Marco Carnesecchi,85.5,auto,Atalanta BC
+386153.0,Rayan Cherki,,Rayan Cherki,100.0,auto,Manchester City
+386230.0,Jorge de Frutos,,Jorge de Frutos,100.0,auto,Rayo Vallecano
+386262.0,Niels Nkounkou,,Niels Nkounkou,100.0,auto,Torino FC
+386390.0,Charles De Ketelaere,,Charles De Ketelaere,100.0,auto,Atalanta BC
+386519.0,Riccardo Calafiori,,Riccardo Calafiori,100.0,auto,Arsenal FC
+386606.0,Nick Woltemade,,Nick Woltemade,100.0,auto,Newcastle United
+386612.0,Boubacar Traoré,,Boubacar Traoré,100.0,auto,FC Metz
+386622.0,Sergio Carreira,,Sergio Carreira,100.0,auto,Celta de Vigo
+386634.0,Amad Diallo,,Amad Diallo,100.0,auto,Manchester United
+386969.0,Neco Williams,,Neco Williams,100.0,auto,Nottingham Forest
+387125.0,Maximilian Beier,,Maximilian Beier,100.0,auto,Borussia Dortmund
+388098.0,Jérémy Doku,,Jérémy Doku,100.0,auto,Manchester City
+388232.0,Ricky-Jade Jones,,Ricky-Jade Jones,100.0,auto,FC St. Pauli
+388493.0,Daniel Maldini,,Daniel Maldini,100.0,auto,SS Lazio
+388505.0,Lucien Agoumé,,Lucien Agoumé,100.0,auto,Sevilla FC
+388567.0,Luis Henrique,,Luis Henrique,100.0,auto,Inter Milan
+388650.0,Jurriën Timber,,Jurriën Timber,100.0,auto,Arsenal FC
+388665.0,Largie Ramazani,,Largie Ramazani,100.0,auto,Valencia CF
+388808.0,Pablo Martínez,,Pablo Martínez,100.0,auto,Levante UD
+389020.0,Georges Mikautadze,,Georges Mikautadze,100.0,auto,Villarreal CF
+389064.0,Melvin Bard,,Melvin Bard,100.0,auto,OGC Nice
+389087.0,Giovanni Reyna,,Giovanni Reyna,100.0,auto,Borussia Mönchengladbach
+389191.0,Zaid Romero,,Zaid Romero,100.0,auto,Getafe CF
+389375.0,Yannik Keitel,,Yannik Keitel,100.0,auto,FC Augsburg
+389376.0,Jan Thielmann,,Jan Thielmann,100.0,auto,1.FC Köln
+389409.0,Amine Adli,,Amine Adli,100.0,auto,AFC Bournemouth
+389579.0,Tyrick Mitchell,,Tyrick Mitchell,100.0,auto,Crystal Palace
+389899.0,Ransford Königsdörffer,,Ransford Königsdörffer,100.0,auto,Hamburger SV
+389935.0,Noni Madueke,,Noni Madueke,100.0,auto,Arsenal FC
+390240.0,Germán Valera,,Germán Valera,100.0,auto,Elche CF
+390876.0,Dennis Cirkin,,Dennis Cirkin,100.0,auto,Sunderland AFC
+391047.0,Tomás Suslov,,Tomas Suslov,100.0,auto,Hellas Verona
+391256.0,Kiernan Dewsbury-Hall,,Kiernan Dewsbury-Hall,100.0,auto,Everton FC
+391316.0,Batista Mendy,,Batista Mendy,100.0,auto,Sevilla FC
+391348.0,Charly Alcaraz,,Carlos Alcaraz,85.7,auto,Everton FC
+391562.0,Samú Costa,,Samú Costa,100.0,auto,RCD Mallorca
+391836.0,Pierre Kalulu,,Pierre Kalulu,100.0,auto,Juventus FC
+392361.0,Azzedine Ounahi,,Azzedine Ounahi,100.0,auto,Girona FC
+392383.0,Unai Vencedor,,Unai Vencedor,100.0,auto,Levante UD
+392643.0,Mikkel Kaufmann,,Mikkel Kaufmann,100.0,auto,1.FC Heidenheim 1846
+392644.0,Jeremie Frimpong,,Jeremie Frimpong,100.0,auto,Liverpool FC
+392646.0,Karim Adeyemi,,Karim Adeyemi,100.0,auto,Borussia Dortmund
+392647.0,Maxim De Cuyper,,Maxim De Cuyper,100.0,auto,Brighton & Hove Albion
+393039.0,Lazar Samardzic,,Lazar Samardžić,86.7,auto,Atalanta BC
+39308.0,Danny Welbeck,,Danny Welbeck,100.0,auto,Brighton & Hove Albion
+393083.0,Kevin Paredes,,Kevin Paredes,100.0,auto,VfL Wolfsburg
+393096.0,Tanner Tessmann,,Tanner Tessmann,100.0,auto,Olympique Lyon
+393137.0,Lucas Gourna-Douath,,Lucas Gourna-Douath,100.0,auto,Le Havre AC
+393355.0,Malick Thiaw,,Malick Thiaw,100.0,auto,Newcastle United
+393407.0,Armando Broja,,Armando Broja,100.0,auto,Burnley FC
+394749.0,Omar Marmoush,,Omar Marmoush,100.0,auto,Manchester City
+394786.0,Florian Wirtz,,Florian Wirtz,100.0,auto,Liverpool FC
+394888.0,Luca Netz,,Luca Netz,100.0,auto,Nottingham Forest
+394924.0,Fábio Vieira,,Fábio Vieira,100.0,auto,Hamburger SV
+394933.0,Matheus Nunes,,Matheus Nunes,100.0,auto,Manchester City
+395001.0,Tim Lemperle,,Tim Lemperle,100.0,auto,TSG 1899 Hoffenheim
+395173.0,João Mário,,João Mário,100.0,auto,Bologna FC 1909
+395187.0,Juanlu Sánchez,,Juanlu Sánchez,100.0,auto,Sevilla FC
+395219.0,Lorenzo Colombo,,Lorenzo Colombo,100.0,auto,Genoa CFC
+395221.0,Nuno Mendes,,Nuno Mendes,100.0,auto,Paris Saint-Germain
+395234.0,Javi López,,Javi López,100.0,auto,Real Oviedo
+395242.0,Álex Baena,,Álex Baena,100.0,auto,Atlético de Madrid
+395252.0,Jamal Musiala,,Jamal Musiala,100.0,auto,Bayern Munich
+395320.0,Jon Pacheco,,Jon Pacheco,100.0,auto,Deportivo Alavés
+395321.0,Aimar Oroz,,Aimar Oroz,100.0,auto,CA Osasuna
+395374.0,Sebastian Sebulonsen,,Sebastian Sebulonsen,100.0,auto,1.FC Köln
+395401.0,Chris Richards,,Chris Richards,100.0,auto,Crystal Palace
+395472.0,Nathan Tella,,Nathan Tella,100.0,auto,Bayer 04 Leverkusen
+395692.0,Cole Palmer,,Cole Palmer,100.0,auto,Chelsea FC
+395708.0,Víctor García,,Víctor García,100.0,auto,Levante UD
+395782.0,Filippo Terracciano,,Filippo Terracciano,100.0,auto,US Cremonese
+395788.0,Miguel Gutiérrez,,Miguel Gutiérrez,100.0,auto,SSC Napoli
+395802.0,Gonçalo Ramos,,Gonçalo Ramos,100.0,auto,Paris Saint-Germain
+395850.0,Tiago Tomás,,Tiago Tomás,100.0,auto,VfB Stuttgart
+396158.0,Ferran Jutglà,,Ferran Jutglà,100.0,auto,Celta de Vigo
+396188.0,Rafa Obrador,,Rafa Obrador,100.0,auto,Torino FC
+396490.0,Raúl Moro,,Raúl Moro,100.0,auto,CA Osasuna
+396585.0,Jean-Philippe Krasso,,Jean-Philippe Krasso,100.0,auto,Paris FC
+396971.0,Lewis Ferguson,,Lewis Ferguson,100.0,auto,Bologna FC 1909
+396975.0,Nathan Patterson,,Nathan Patterson,100.0,auto,Everton FC
+396976.0,Calvin Bassey,,Calvin Bassey,100.0,auto,Fulham FC
+397024.0,Josh Doig,,Josh Doig,100.0,auto,US Sassuolo
+39722.0,David Alaba,,David Alaba,100.0,auto,Real Madrid
+397260.0,Tim Siersleben,,Tim Siersleben,100.0,auto,1.FC Heidenheim 1846
+397366.0,Sinaly Diomandé,,Sinaly Diomandé,100.0,auto,AJ Auxerre
+397465.0,Malik Tillman,,Malik Tillman,100.0,auto,Bayer 04 Leverkusen
+397469.0,Óscar Mingueza,,Óscar Mingueza,100.0,auto,Celta de Vigo
+397497.0,Igor Jesus,,Igor Jesus,100.0,auto,Nottingham Forest
+397564.0,Warren Kamanzi,,Warren Kamanzi,100.0,auto,FC Toulouse
+397568.0,Calebe,,Calebe,100.0,auto,Deportivo Alavés
+397585.0,André,,André,100.0,auto,Wolverhampton Wanderers
+397645.0,William Bøving,,William Bøving,100.0,auto,1.FSV Mainz 05
+397821.0,Savinho,,Savinho,100.0,auto,Manchester City
+398301.0,Adrien Truffert,,Adrien Truffert,100.0,auto,AFC Bournemouth
+398372.0,Chrislain Matsima,,Chrislain Matsima,100.0,auto,FC Augsburg
+398393.0,Enzo Le Fée,,Enzo Le Fée,100.0,auto,Sunderland AFC
+398414.0,Dan Ndoye,,Dan Ndoye,100.0,auto,Nottingham Forest
+398416.0,Loïc Badé,,Loïc Badé,100.0,auto,Bayer 04 Leverkusen
+398922.0,Tyrhys Dolan,,Tyrhys Dolan,100.0,auto,RCD Espanyol Barcelona
+398931.0,Lilian Brassier,,Lilian Brassier,100.0,auto,Stade Rennais FC
+399003.0,Fodé Doucouré,,Fodé Doucouré,100.0,auto,Le Havre AC
+399014.0,Mohamed-Ali Cho,,Mohamed-Ali Cho,100.0,auto,OGC Nice
+399019.0,Cheikh Sabaly,,Cheikh Tidiane Sabaly,100.0,manual,Vancouver Whitecaps FC
+399047.0,Pape Gueye,,Pape Gueye,100.0,auto,Villarreal CF
+399262.0,Adrian Beck,,Adrian Beck,100.0,auto,1.FC Heidenheim 1846
+399426.0,Fisayo Dele-Bashiru,,Fisayo Dele-Bashiru,100.0,auto,SS Lazio
+399490.0,Andrew Omobamidele,,Andrew Omobamidele,100.0,auto,RC Strasbourg Alsace
+399574.0,Adam Karabec,,Adam Karabec,100.0,auto,Olympique Lyon
+399619.0,Hjalmar Ekdal,,Hjalmar Ekdal,100.0,auto,Burnley FC
+399772.0,Xavi Simons,,Xavi Simons,100.0,auto,Tottenham Hotspur
+399773.0,Timothée Pembélé,,Timothée Pembélé,100.0,auto,Le Havre AC
+399826.0,Illia Zabarnyi,,Ilya Zabarnyi,88.9,auto,Paris Saint-Germain
+399852.0,Konan N’Dri,,Konan N’Dri,100.0,auto,US Lecce
+399957.0,Aster Vranckx,,Aster Vranckx,100.0,auto,US Sassuolo
+399961.0,Arthur Theate,,Arthur Theate,100.0,auto,Eintracht Frankfurt
+399989.0,Oier Zarraga,,Oier Zarraga,100.0,auto,Udinese Calcio
+400010.0,Derrick Köhn,,Derrick Köhn,100.0,auto,1.FC Union Berlin
+400097.0,Radu Dragusin,,Radu Drăgușin,100.0,auto,Tottenham Hotspur
+400142.0,Charles Vanhoutte,,Charles Vanhoutte,100.0,auto,OGC Nice
+400163.0,Emmanuel Emegha,,Emmanuel Emegha,100.0,auto,RC Strasbourg Alsace
+400165.0,Devyne Rensch,,Devyne Rensch,100.0,auto,AS Roma
+400166.0,Mohammed Kudus,,Mohammed Kudus,100.0,auto,Tottenham Hotspur
+400185.0,Arsen Zakharyan,,Arsen Zakharyan,100.0,auto,Real Sociedad
+400237.0,Robert Navarro,,Robert Navarro,100.0,auto,Athletic Bilbao
+400295.0,Kevin Carlos,,Kevin Carlos,100.0,auto,OGC Nice
+400357.0,Yunus Musah,,Yunus Musah,100.0,auto,Atalanta BC
+400496.0,Daniel Muñoz,,Daniel Muñoz,100.0,auto,Crystal Palace
+400505.0,Terem Moffi,,Hervé Koffi,63.6,manual_needed,
+400609.0,Jordan Zemura,,Jordan Zemura,100.0,auto,Udinese Calcio
+400610.0,Jaidon Anthony,,Jaidon Anthony,100.0,auto,Burnley FC
+400646.0,Charlie Cresswell,,Charlie Cresswell,100.0,auto,FC Toulouse
+400815.0,Amadou Onana,,Amadou Onana,100.0,auto,Aston Villa
+400816.0,Jamil Siebert,,Jamil Siebert,100.0,auto,US Lecce
+401014.0,Rocco Reitz,,Rocco Reitz,100.0,auto,Borussia Mönchengladbach
+401042.0,Ivan Ilic,,Ivan Ilić,100.0,auto,Torino FC
+401044.0,Destiny Udogie,,Destiny Udogie,100.0,auto,Tottenham Hotspur
+401073.0,Anton Stach,,Anton Stach,100.0,auto,Leeds United
+401079.0,Jan Schöppner,,Jan Schöppner,100.0,auto,1.FC Heidenheim 1846
+401098.0,Junior Messias,,Junior Messias,100.0,auto,Genoa CFC
+401107.0,Paul Nebel,,Paul Nebel,100.0,auto,1.FSV Mainz 05
+401122.0,Kenneth Taylor,,Kenneth Taylor,100.0,auto,SS Lazio
+401130.0,Maxence Lacroix,,Maxence Lacroix,100.0,auto,Crystal Palace
+401168.0,Mikkel Damsgaard,,Mikkel Damsgaard,100.0,auto,Brentford FC
+401173.0,Urko González de Zárate,,Stefan de Vrij,85.5,auto,Inter Milan
+401254.0,Liam Delap,,Liam Delap,100.0,auto,Chelsea FC
+401352.0,Jakub Kaminski,,Jakub Kaminski,100.0,auto,1.FC Köln
+401593.0,Amin Sarr,,Amin Sarr,100.0,auto,Hellas Verona
+401742.0,Leonidas Stergiou,,Leonidas Stergiou,100.0,auto,1.FC Heidenheim 1846
+401743.0,Miro Muheim,,Miro Muheim,100.0,auto,Hamburger SV
+402046.0,Matteo Ruggeri,,Matteo Ruggeri,100.0,auto,Atlético de Madrid
+402056.0,Tolu Arokodare,,Tolu Arokodare,100.0,auto,Wolverhampton Wanderers
+402059.0,Rasmus Nicolaisen,,Rasmus Nicolaisen,100.0,auto,FC Toulouse
+402087.0,Tete Morente,,Tete Morente,100.0,auto,Elche CF
+402092.0,José Salinas,,José Salinas,100.0,auto,RCD Espanyol Barcelona
+402123.0,Tommaso Pobega,,Tommaso Pobega,100.0,auto,Bologna FC 1909
+402130.0,Dilane Bakwa,,Dilane Bakwa,100.0,auto,Nottingham Forest
+402197.0,Pedri,,Pedri,100.0,auto,FC Barcelona
+402206.0,Natan,,Natan,100.0,auto,Real Betis Balompié
+402207.0,Otávio,,Otávio,100.0,auto,Paris FC
+402367.0,Aaron Hickey,,Aaron Hickey,100.0,auto,Brentford FC
+402596.0,Elliot Anderson,,Elliot Anderson,100.0,auto,Nottingham Forest
+402663.0,Aitor Paredes,,Aitor Paredes,100.0,auto,Athletic Bilbao
+402664.0,Josko Gvardiol,,Josko Gvardiol,100.0,auto,Manchester City
+402665.0,Kristijan Jakic,,Kristijan Jakic,100.0,auto,FC Augsburg
+402697.0,Albian Hajdari,,Albian Hajdari,100.0,auto,TSG 1899 Hoffenheim
+402749.0,Gideon Mensah,,Gideon Mensah,100.0,auto,AJ Auxerre
+402810.0,Emmanuel Agbadou,,Emmanuel Emegha,71.0,manual_needed,
+402823.0,Rodrigo Gomes,,Rodrigo Gomes,100.0,auto,Wolverhampton Wanderers
+402849.0,Ignace Van der Brempt,,Ignace Van der Brempt,100.0,auto,Como 1907
+402855.0,Sékou Mara,,Sékou Mara,100.0,auto,AJ Auxerre
+402862.0,Victor Chust,,Víctor Chust,100.0,auto,Elche CF
+402874.0,Lorenz Assignon,,Lorenz Assignon,100.0,auto,VfB Stuttgart
+403097.0,Fredrik Oppegård,,Fredrik Oppegård,100.0,auto,AJ Auxerre
+403646.0,Jesper Lindstrøm,,Jesper Lindstrøm,100.0,auto,VfL Wolfsburg
+403648.0,Gustav Isaksen,,Gustav Isaksen,100.0,auto,SS Lazio
+403649.0,Rodrigo Muniz,,Rodrigo Muniz,100.0,auto,Fulham FC
+403693.0,João Gomes,,João Gomes,100.0,auto,Wolverhampton Wanderers
+403747.0,Ansgar Knauff,,Ansgar Knauff,100.0,auto,Eintracht Frankfurt
+403784.0,Hugo Ekitiké,,Hugo Ekitiké,100.0,auto,Liverpool FC
+403803.0,Martín Satriano,,Martín Satriano,100.0,auto,Getafe CF
+403850.0,Malo Gusto,,Malo Gusto,100.0,auto,Chelsea FC
+403859.0,Pape Matar Sarr,,Amin Sarr,85.5,auto,Hellas Verona
+403865.0,Yéremy Pino,,Yéremy Pino,100.0,auto,Crystal Palace
+403913.0,Nicola Zalewski,,Nicola Zalewski,100.0,auto,Atalanta BC
+404193.0,Fabian Rieder,,Fabian Rieder,100.0,auto,FC Augsburg
+404201.0,Abdallah Sima,,Abdallah Sima,100.0,auto,RC Lens
+404245.0,Ladislav Krejcí,,Ladislav Krejci,100.0,auto,Wolverhampton Wanderers
+404249.0,Martin Vitík,,Martin Vitík,100.0,auto,Bologna FC 1909
+404252.0,Nikola Krstovic,,Nikola Krstović,100.0,auto,Atalanta BC
+404336.0,Eric Martel,,Eric Martel,100.0,auto,1.FC Köln
+404370.0,Rav van den Berg,,Rav van den Berg,100.0,auto,1.FC Köln
+404497.0,Matteo Cancellieri,,Matteo Cancellieri,100.0,auto,SS Lazio
+404568.0,Brian Brobbey,,Brian Brobbey,100.0,auto,Sunderland AFC
+404616.0,Lesley Ugochukwu,,Lesley Ugochukwu,100.0,auto,Burnley FC
+404623.0,Koni De Winter,,Koni De Winter,100.0,auto,AC Milan
+404832.0,Piero Hincapié,,Piero Hincapié,100.0,auto,Arsenal FC
+404835.0,Julián Malatini,,Julián Malatini,100.0,auto,SV Werder Bremen
+404952.0,Marvin Senaya,,Marvin Senaya,100.0,auto,AJ Auxerre
+405133.0,Giorgio Scalvini,,Giorgio Scalvini,100.0,auto,Atalanta BC
+405170.0,Warmed Omari,,Warmed Omari,100.0,auto,Hamburger SV
+405227.0,Aiyegun Tosin,,Aiyegun Tosin,100.0,auto,FC Lorient
+406062.0,Ísak Bergmann Jóhannesson,,Ísak Jóhannesson,85.5,auto,1.FC Köln
+406937.0,Carlos Álvarez,,Carlos Álvarez,100.0,auto,Levante UD
+407076.0,Oliver Sørensen,,Oliver Sørensen,100.0,auto,Parma Calcio 1913
+407080.0,Luka Sucic,,Luka Sucic,100.0,auto,Real Sociedad
+407138.0,Beñat Turrientes,,Beñat Turrientes,100.0,auto,Real Sociedad
+407222.0,Igor Matanovic,,Igor Matanovic,100.0,auto,SC Freiburg
+407260.0,Kevin Schade,,Kevin Schade,100.0,auto,Brentford FC
+407284.0,Olivier Deman,,Olivier Deman,100.0,auto,SV Werder Bremen
+407476.0,Angelo Stiller,,Angelo Stiller,100.0,auto,VfB Stuttgart
+407567.0,Iván Romero,,Iván Romero,100.0,auto,Levante UD
+407661.0,Elye Wahi,,Elye Wahi,100.0,auto,OGC Nice
+407884.0,Isak Jansson,,Isak Jansson,100.0,auto,OGC Nice
+407944.0,Martin Baturina,,Martin Baturina,100.0,auto,Como 1907
+407949.0,Vítinha,,Vitinha,100.0,auto,Genoa CFC
+408030.0,Luis Vázquez,,Luis Vázquez,100.0,auto,Getafe CF
+408033.0,Vanderson,,Vanderson,100.0,auto,AS Monaco
+408347.0,John Donald,,John Donald,100.0,auto,Elche CF
+408357.0,Eren Dinkçi,,Eren Dinkçi,100.0,auto,1.FC Heidenheim 1846
+408449.0,Nico Williams,,Nico Paz,85.5,auto,Como 1907
+408580.0,Jackson Tchatchoua,,Jackson Tchatchoua,100.0,auto,Wolverhampton Wanderers
+408616.0,Akor Adams,,Akor Adams,100.0,auto,Sevilla FC
+408732.0,Jesús Vázquez,,Jesús Vázquez,100.0,auto,Valencia CF
+408735.0,Juan Iglesias,,Juan Iglesias,100.0,auto,Getafe CF
+408909.0,Marvin Pieringer,,Marvin Pieringer,100.0,auto,1.FC Heidenheim 1846
+408942.0,Alfon González,,Alfon González,100.0,auto,Villarreal CF
+408946.0,Lamare Bogarde,,Lamare Bogarde,100.0,auto,Aston Villa
+408962.0,Manuel Ugarte,,Manuel Ugarte,100.0,auto,Manchester United
+409030.0,Ilaix Moriba,,Ilaix Moriba,100.0,auto,Celta de Vigo
+409093.0,Reda Khadra,,Reda Khadra,100.0,auto,Le Havre AC
+409221.0,Francisco Conceição,,Francisco Conceição,100.0,auto,Juventus FC
+409250.0,Mateo Pellegrino,,Mateo Pellegrino,100.0,auto,Parma Calcio 1913
+409440.0,Naouirou Ahamada,,Naouirou Ahamada,100.0,auto,AJ Auxerre
+409467.0,Antonio Blanco,,Antonio Blanco,100.0,auto,Deportivo Alavés
+409654.0,Pablo,,Pablo,100.0,auto,West Ham United
+409730.0,Hugo Bueno,,Hugo Bueno,100.0,auto,Wolverhampton Wanderers
+409740.0,Abdel Abqar,,Abdel Abqar,100.0,auto,Getafe CF
+409837.0,Mostafa Mohamed,,Mostafa Mohamed,100.0,auto,FC Nantes
+410175.0,Moisés Caicedo,,Moisés Caicedo,100.0,auto,Chelsea FC
+410337.0,Bamba Dieng,,Bamba Dieng,100.0,auto,FC Lorient
+410364.0,Armindo Sieb,,Armindo Sieb,100.0,auto,1.FSV Mainz 05
+410504.0,Vladyslav Vanat,,Vladyslav Vanat,100.0,auto,Girona FC
+410522.0,David Datro Fofana,,David Datro Fofana,100.0,auto,RC Strasbourg Alsace
+410639.0,Carney Chukwuemeka,,Carney Chukwuemeka,100.0,auto,Borussia Dortmund
+41073.0,Duván Zapata,,Duván Zapata,100.0,auto,Torino FC
+410998.0,Alex Scott,,Alex Scott,100.0,auto,AFC Bournemouth
+411078.0,Quinten Timber,,Quinten Timber,100.0,auto,Olympique Marseille
+411087.0,Quentin Merlin,,Quentin Merlin,100.0,auto,Stade Rennais FC
+411433.0,Ezequiél Fernández,,Equi Fernández,87.5,auto,Bayer 04 Leverkusen
+411939.0,Mandela Keita,,Mandela Keita,100.0,auto,Parma Calcio 1913
+412171.0,Pavel Sulc,,Pavel Sulc,100.0,auto,Olympique Lyon
+412298.0,Filip Stojilkovic,,Filip Stojilkovic,100.0,auto,Pisa Sporting Club
+412831.0,Félix Correia,,Félix Correia,100.0,auto,LOSC Lille
+412864.0,Abdoulaye Ndiaye,,Abdoulaye Ndiaye,100.0,auto,Parma Calcio 1913
+413211.0,Anthony Elanga,,Anthony Elanga,100.0,auto,Newcastle United
+413272.0,Josip Stanisic,,Josip Stanisic,100.0,auto,Bayern Munich
+413346.0,Jon Olasagasti,,Jon Ander Olasagasti,95.0,auto,Levante UD
+414212.0,Nicolás Valentini,,Nicolás Valentini,100.0,auto,Hellas Verona
+414233.0,Maxime Estève,,Maxime Estève,100.0,auto,Burnley FC
+414249.0,Matthis Abline,,Matthis Abline,100.0,auto,FC Nantes
+414495.0,Nathan Ngoy,,Nathan Ngoy,100.0,auto,LOSC Lille
+414501.0,Ruben Kluivert,,Ruben Kluivert,100.0,auto,Olympique Lyon
+415172.0,Castello Lukeba,,Castello Lukeba,100.0,auto,RB Leipzig
+415174.0,Tino Livramento,,Tino Livramento,100.0,auto,Newcastle United
+415181.0,Arda Güler,,Arda Güler,100.0,auto,Real Madrid
+415277.0,Antoine Mendy,,Antoine Mendy,100.0,auto,OGC Nice
+415341.0,David Møller Wolfe,,David Møller Wolfe,100.0,auto,Wolverhampton Wanderers
+415344.0,Carlos Domínguez,,Carlos Domínguez,100.0,auto,Celta de Vigo
+415345.0,Hugo Sotelo,,Hugo Sotelo,100.0,auto,Celta de Vigo
+415415.0,Andy Diouf,,Andy Diouf,100.0,auto,Inter Milan
+415817.0,William Mikelbrencis,,William Mikelbrencis,100.0,auto,Hamburger SV
+415955.0,Morgan Guilavogui,,Bryan Gil,70.0,manual_needed,
+416030.0,Antonio Nusa,,Antonio Nusa,100.0,auto,RB Leipzig
+416148.0,Deiver Machado,,Deiver Machado,100.0,auto,FC Nantes
+416149.0,Anthony Rouault,,Anthony Rouault,100.0,auto,Stade Rennais FC
+416207.0,Hannibal Mejbri,,Hannibal,90.0,auto,Burnley FC
+416208.0,Tim Iroegbunam,,Tim Iroegbunam,100.0,auto,Everton FC
+416209.0,William Osula,,William Osula,100.0,auto,Newcastle United
+416238.0,Nicolò Bertola,,Nicolò Bertola,100.0,auto,Udinese Calcio
+416242.0,Moustapha Mbow,,Moustapha Mbow,100.0,auto,Paris FC
+416959.0,Alejandro Francés,,Alejandro Francés,100.0,auto,Girona FC
+417747.0,Julio Enciso,,Julio Enciso,100.0,auto,RC Strasbourg Alsace
+418579.0,Emil Holm,,Emil Holm,100.0,auto,Juventus FC
+418584.0,Daniel Svensson,,Daniel Svensson,100.0,auto,Borussia Dortmund
+418587.0,Nicolas Seiwald,,Nicolas Seiwald,100.0,auto,RB Leipzig
+418588.0,Alexander Prass,,Alexander Prass,100.0,auto,TSG 1899 Hoffenheim
+418589.0,Patrick Wimmer,,Patric,90.0,auto,SS Lazio
+418590.0,Junior Adamu,,Junior Dina Ebimbe,85.5,auto,Stade Brestois 29
+419341.0,Valentín Barco,,Valentín Barco,100.0,auto,RC Strasbourg Alsace
+419552.0,Marius Broholm,,Marius Broholm,100.0,auto,LOSC Lille
+419580.0,Obed Vargas,,Obed Vargas,100.0,auto,Atlético de Madrid
+419616.0,Federico Redondo,,Federico Redondo,100.0,auto,Elche CF
+419917.0,Ameen Al Dakhil,,Ameen Al-Dakhil,93.3,auto,VfB Stuttgart
+419935.0,Clemens Riedel,,Clemens Riedel,100.0,auto,RCD Espanyol Barcelona
+419942.0,Thomas Keller,,Thomas Meunier,74.1,manual_needed,
+419945.0,Merlin Röhl,,Merlin Röhl,100.0,auto,Everton FC
+420243.0,Kilian Fischer,,Kilian Fischer,100.0,auto,VfL Wolfsburg
+420245.0,Nicolas Kühn,,Nicolas Kühn,100.0,auto,Como 1907
+420405.0,Senne Lynen,,Senne Lynen,100.0,auto,SV Werder Bremen
+421081.0,Santiago Castro,,Santiago Castro,100.0,auto,Bologna FC 1909
+421351.0,Levi Colwill,,Levi Colwill,100.0,auto,Chelsea FC
+421405.0,El Chadaille Bitshiabu,,El Chadaille Bitshiabu,100.0,auto,RB Leipzig
+421975.0,Yan Couto,,Yan Couto,100.0,auto,Borussia Dortmund
+421983.0,Alieu Fadera,,Alieu Fadera,100.0,auto,US Sassuolo
+422135.0,Kamaldeen Sulemana,,Kamaldeen Sulemana,100.0,auto,Atalanta BC
+422183.0,Dango Ouattara,,Dango Ouattara,100.0,auto,Brentford FC
+422186.0,Ilan Kebbal,,Ilan Kebbal,100.0,auto,Paris FC
+422187.0,Bradley Locko,,Bradley Locko,100.0,auto,Stade Brestois 29
+422189.0,Salis Abdul Samed,,Salis Abdul Samed,100.0,auto,OGC Nice
+422192.0,Alidu Seidu,,Alidu Seidu,100.0,auto,Stade Rennais FC
+422224.0,Mathias Løvik,,Mathias Pereira Lage,85.5,auto,FC St. Pauli
+422240.0,Bilal Nadir,,Bilal Nadir,100.0,auto,Olympique Marseille
+422365.0,Jobe Bellingham,,Jobe Bellingham,100.0,auto,Borussia Dortmund
+422637.0,Jay Idzes,,Jay Idzes,100.0,auto,US Sassuolo
+422656.0,Diego López,,Diego López,100.0,auto,Valencia CF
+422662.0,Bamo Meïté,,Bamo Meïté,100.0,auto,FC Lorient
+422716.0,Patrick Osterhage,,Patrick Osterhage,100.0,auto,SC Freiburg
+422717.0,Hiroki Ito,,Hiroki Ito,100.0,auto,Bayern Munich
+422737.0,Ernest Poku,,Ernest Poku,100.0,auto,Bayer 04 Leverkusen
+422739.0,Sam Beukema,,Sam Beukema,100.0,auto,SSC Napoli
+422818.0,Habib Diarra,,Habib Diarra,100.0,auto,Sunderland AFC
+422820.0,Jesús Areso,,Jesús Areso,100.0,auto,Athletic Bilbao
+422851.0,Ismaël Koné,,Ismaël Koné,100.0,auto,US Sassuolo
+422864.0,Issa Soumaré,,Issa Soumaré,100.0,auto,Le Havre AC
+422873.0,Tasos Douvikas,,Anastasios Douvikas,78.8,auto,Como 1907
+422885.0,Mathys Tel,,Mathys Tel,100.0,auto,Tottenham Hotspur
+422909.0,Ramon Hendriks,,Ramon Hendriks,100.0,auto,VfB Stuttgart
+422918.0,Giuliano Simeone,,Giuliano Simeone,100.0,auto,Atlético de Madrid
+422923.0,Joel Mvuka,,Joel Chima Fujita,85.5,auto,FC St. Pauli
+422937.0,Gavi,,Gavi,100.0,auto,FC Barcelona
+422938.0,Alejandro Balde,,Alejandro Balde,100.0,auto,FC Barcelona
+422939.0,Nico González,,Nico Paz,85.5,auto,Como 1907
+422956.0,José Ángel Carmona,,José Ángel Carmona,100.0,auto,Sevilla FC
+422957.0,Fran García,,Fran García,100.0,auto,Real Madrid
+422958.0,Óscar Valentín,,Óscar Valentín,100.0,auto,Rayo Vallecano
+422959.0,Isi Palazón,,Isi Palazón,100.0,auto,Rayo Vallecano
+422960.0,Randy Nteka,,Randy Nteka,100.0,auto,Rayo Vallecano
+422963.0,Pathé Ciss,,Pathé Ciss,100.0,auto,Rayo Vallecano
+423109.0,Nico Serrano,,Nico Serrano,100.0,auto,Athletic Bilbao
+423282.0,David Affengruber,,David Affengruber,100.0,auto,Elche CF
+423347.0,Ao Tanaka,,Ao Tanaka,100.0,auto,Leeds United
+423440.0,Andrea Cambiaso,,Andrea Cambiaso,100.0,auto,Juventus FC
+423449.0,Simone Canestrelli,,Simone Canestrelli,100.0,auto,Pisa Sporting Club
+423450.0,Kristjan Asllani,,Kristjan Asllani,56.2,manual,Inter Milan
+423451.0,Mattia Viti,,Mattia Felici,75.0,manual_needed,
+423508.0,Nadir Zortea,,Nadir Zortea,100.0,auto,Bologna FC 1909
+423515.0,Alessandro Zanoli,,Alessandro Zanoli,100.0,auto,Udinese Calcio
+423720.0,Evan Ferguson,,Evan Ferguson,100.0,auto,AS Roma
+423857.0,Pasquale Mazzocchi,,Pasquale Mazzocchi,100.0,auto,SSC Napoli
+423863.0,Tijjani Noslin,,Tijjani Noslin,100.0,auto,SS Lazio
+423918.0,Fabiano Parisi,,Fabiano Parisi,100.0,auto,ACF Fiorentina
+423962.0,Théo Le Bris,,Théo Le Bris,100.0,auto,FC Lorient
+424039.0,Jhon Arias,,Silas,67.5,manual_needed,
+424191.0,Benjamin Sesko,,Benjamin Sesko,100.0,auto,Manchester United
+424252.0,Hákon Haraldsson,,Hákon Arnar Haraldsson,95.0,auto,LOSC Lille
+424273.0,Milos Kerkez,,Milos Kerkez,100.0,auto,Liverpool FC
+424280.0,Omri Gandelman,,Omri Gandelman,100.0,auto,US Lecce
+424468.0,Adrian Benedyczak,,Adrian Beck,85.5,auto,1.FC Heidenheim 1846
+424495.0,Jake O'Brien,,Jake O'Brien,100.0,auto,Everton FC
+424514.0,Trai Hume,,Trai Hume,100.0,auto,Sunderland AFC
+424534.0,Adam Obert,,Adam Obert,100.0,auto,Cagliari Calcio
+424575.0,Ville Koski,,Ville Koski,100.0,auto,Deportivo Alavés
+424628.0,Bryan Okoh,,Bryan Okoh,100.0,auto,AJ Auxerre
+424806.0,Morten Frendrup,,Morten Frendrup,100.0,auto,Genoa CFC
+424809.0,Albert Grønbæk,,Albert Grønbaek,100.0,auto,Hamburger SV
+424819.0,Lorenzo Lucca,,Lorenzo Lucca,100.0,auto,Nottingham Forest
+424834.0,Mikael Ellertsson,,Mikael Egill Ellertsson,95.0,auto,Genoa CFC
+424945.0,Conor Bradley,,Conor Bradley,100.0,auto,Liverpool FC
+425018.0,Moritz Jenz,,Moritz Jenz,100.0,auto,VfL Wolfsburg
+425056.0,Tommaso Baldanzi,,Tommaso Baldanzi,100.0,auto,Genoa CFC
+425060.0,Yerson Mosquera,,Yerson Mosquera,100.0,auto,Wolverhampton Wanderers
+425079.0,Matías Soulé,,Matías Soulé,100.0,auto,AS Roma
+425080.0,Fabio Miretti,,Fabio Miretti,100.0,auto,Juventus FC
+425092.0,Antonio Sánchez,,Antonio Sánchez,100.0,auto,RCD Mallorca
+425115.0,Johan Vásquez,,Johan Vásquez,100.0,auto,Genoa CFC
+425118.0,Loum Tchaouna,,Loum Tchaouna,100.0,auto,Burnley FC
+425142.0,Kaoru Mitoma,,Kaoru Mitoma,100.0,auto,Brighton & Hove Albion
+425220.0,Daouda Guindo,,Daouda Guindo,100.0,auto,Stade Brestois 29
+425229.0,Micky van de Ven,,Micky van de Ven,100.0,auto,Tottenham Hotspur
+425234.0,Sebastian Nanasi,,Sebastian Nanasi,100.0,auto,RC Strasbourg Alsace
+425319.0,Roméo Lavia,,Roméo Lavia,100.0,auto,Chelsea FC
+425366.0,Bradley Barcola,,Bradley Barcola,100.0,auto,Paris Saint-Germain
+425568.0,Tyler Morton,,Tyler Morton,100.0,auto,Olympique Lyon
+425574.0,CJ Egan-Riley,,CJ Egan-Riley,100.0,auto,Olympique Marseille
+425576.0,James McAtee,,James McAtee,100.0,auto,Nottingham Forest
+425591.0,Cristhian Mosquera,,Cristhian Mosquera,100.0,auto,Arsenal FC
+426050.0,Nicolas Jackson,,Nicolas Jackson,100.0,auto,Bayern Munich
+426226.0,Andrias Edmundsson,,Andrias Edmundsson,100.0,auto,Hellas Verona
+426239.0,Andrej Ilic,,Andrej Ilic,100.0,auto,1.FC Union Berlin
+426647.0,Félix Lemaréchal,,Felix Nmecha,64.3,manual_needed,
+426648.0,Maghnes Akliouche,,Maghnes Akliouche,100.0,auto,AS Monaco
+426757.0,Rubén Sánchez,,Rubén Sánchez,100.0,auto,RCD Espanyol Barcelona
+426904.0,Sambou Soumano,,Sambou Soumano,100.0,auto,FC Lorient
+426905.0,Romano Floriani Mussolini,,Romano Floriani Mussolini,100.0,auto,US Cremonese
+427001.0,Hugo Álvarez,,Hugo Álvarez,100.0,auto,Celta de Vigo
+427130.0,Cristian Volpato,,Cristian Volpato,100.0,auto,US Sassuolo
+427132.0,Daniel Oyegoke,,Daniel Oyegoke,100.0,auto,Hellas Verona
+427262.0,Iker Bravo,,Iker Benito,66.7,manual_needed,
+427283.0,Abde Ezzalzouli,,Abde Ezzalzouli,100.0,auto,Real Betis Balompié
+427360.0,Carlos Martín,,Carlos Martín,100.0,auto,Rayo Vallecano
+427362.0,Kamory Doumbia,,Kamory Doumbia,100.0,auto,Stade Brestois 29
+427502.0,Leopold Querfeld,,Leopold Querfeld,100.0,auto,1.FC Union Berlin
+427824.0,Johan Bakayoko,,Johan Bakayoko,100.0,auto,RB Leipzig
+427831.0,César Tárrega,,César Tárrega,100.0,auto,Valencia CF
+428031.0,Robin Hranác,,Robin Hranac,100.0,auto,TSG 1899 Hoffenheim
+428066.0,Orri Óskarsson,,Orri Óskarsson,100.0,auto,Real Sociedad
+428330.0,Rômulo,,Rômulo,100.0,auto,RB Leipzig
+428426.0,Fisnik Asllani,,Fisnik Asllani,100.0,auto,TSG 1899 Hoffenheim
+428499.0,Fabio Chiarodia,,Fabio Chiarodia,100.0,auto,Borussia Mönchengladbach
+428500.0,Ilias Akhomach,,Ilias Akhomach,100.0,auto,Rayo Vallecano
+428593.0,Javi Llabrés,,Javi Llabrés,100.0,auto,RCD Mallorca
+428633.0,Benja Domínguez,,Benja Domínguez,100.0,auto,Bologna FC 1909
+428694.0,Jenson Seelt,,Jenson Seelt,100.0,auto,VfL Wolfsburg
+429174.0,Kevin,,Kevin,100.0,auto,Fulham FC
+429273.0,Bryan Zaragoza,,Bryan Zaragoza,100.0,auto,AS Roma
+429336.0,Keke Topp,,Keke Topp,100.0,auto,SV Werder Bremen
+429481.0,Wesley,,Wesley,100.0,auto,AS Roma
+429529.0,Antonio Vergara,,Antonio Vergara,100.0,auto,SSC Napoli
+429534.0,Freddie Potts,,Freddie Potts,100.0,auto,West Ham United
+429556.0,Emersonn,,Emersonn,100.0,auto,FC Toulouse
+429683.0,Diego Coppola,,Diego Coppola,100.0,auto,Paris FC
+429723.0,Jonathan Rowe,,Jonathan Rowe,100.0,auto,Bologna FC 1909
+429922.0,Archie Gray,,Archie Gray,100.0,auto,Tottenham Hotspur
+430019.0,Jarell Quansah,,Jarell Quansah,100.0,auto,Bayer 04 Leverkusen
+430148.0,Marc Pubill,,Marc Pubill,100.0,auto,Atlético de Madrid
+430294.0,Lewis Hall,,Lewis Hall,100.0,auto,Newcastle United
+430297.0,Frank Magri,,Frank Magri,100.0,auto,FC Toulouse
+430301.0,Rafa Marín,,Rafa Marín,100.0,auto,Villarreal CF
+430451.0,Jofre Carreras,,Jofre Carreras,100.0,auto,RCD Espanyol Barcelona
+430704.0,Arijon Ibrahimovic,,Arijon Ibrahimovic,100.0,auto,1.FC Heidenheim 1846
+430709.0,Oscar Bobb,,Oscar Bobb,100.0,auto,Fulham FC
+430710.0,Jacques Ekomié,,Jacques Ekomié,100.0,auto,Angers SCO
+430774.0,Adam Wharton,,Adam Wharton,100.0,auto,Crystal Palace
+430900.0,Emirhan Ilkhan,,Emirhan İlkhan,100.0,auto,Torino FC
+430908.0,Omari Hutchinson,,Omari Hutchinson,100.0,auto,Nottingham Forest
+430909.0,Mika Biereth,,Mika Biereth,100.0,auto,AS Monaco
+431045.0,Mohammed Amoura,,Mohamed Amoura,96.6,auto,VfL Wolfsburg
+431167.0,Saúl Coco,,Saúl Coco,100.0,auto,Torino FC
+431275.0,Jens Castrop,,Jens Castrop,100.0,auto,Borussia Mönchengladbach
+431281.0,Anton Kade,,Anton Kade,100.0,auto,FC Augsburg
+431282.0,Tom Bischof,,Tom Bischof,100.0,auto,Bayern Munich
+431283.0,Toti Gomes,,Toti,90.0,auto,Wolverhampton Wanderers
+431302.0,Louis Mouton,,Louis Mouton,100.0,auto,Angers SCO
+431340.0,Jeanuël Belocian,,Jeanuël Belocian,100.0,auto,VfL Wolfsburg
+431346.0,Lassine Sinayoko,,Lassine Sinayoko,100.0,auto,AJ Auxerre
+431359.0,Jacopo Fazzini,,Jacopo Fazzini,100.0,auto,ACF Fiorentina
+431507.0,Javi Guerra,,Javi Guerra,100.0,auto,Valencia CF
+431509.0,Kike Salas,,Kike Salas,100.0,auto,Sevilla FC
+431573.0,Brooke Norton-Cuffy,,Brooke Norton-Cuffy,100.0,auto,Genoa CFC
+431666.0,Samuele Angori,,Samuele Angori,100.0,auto,Pisa Sporting Club
+431667.0,Pablo Pagis,,Pablo Pagis,100.0,auto,FC Lorient
+431791.0,Cameron Puertas,,Cameron Puertas,100.0,auto,SV Werder Bremen
+432157.0,Zito Luvumbo,,Zito Luvumbo,100.0,auto,RCD Mallorca
+432173.0,Ismaël Doukouré,,Ismaël Doukouré,100.0,auto,RC Strasbourg Alsace
+432214.0,Ugo Raghouber,,Ugo Raghouber,100.0,auto,Levante UD
+432378.0,Willian Pacho,,Willian Pacho,100.0,auto,Paris Saint-Germain
+432475.0,Nelson Deossa,,Nelson Deossa,100.0,auto,Real Betis Balompié
+432552.0,Giovanni Bonfanti,,Giovane,83.1,manual_needed,
+433183.0,Désiré Doué,,Désiré Doué,100.0,auto,Paris Saint-Germain
+433219.0,Cesare Casadei,,Cesare Casadei,100.0,auto,Torino FC
+433286.0,Valentín Gómez,,Valentín Gómez,100.0,auto,Real Betis Balompié
+433488.0,Kervin Arriaga,,Kervin Arriaga,100.0,auto,Levante UD
+433572.0,Bilal El Khannouss,,Bilal El Khannouss,100.0,auto,VfB Stuttgart
+433579.0,Soumaïla Coulibaly,,Soumaïla Coulibaly,100.0,auto,Stade Brestois 29
+433937.0,Abdoul Ouattara,,Abdoul Ouattara,100.0,auto,RC Strasbourg Alsace
+433972.0,Máximo Perrone,,Máximo Perrone,100.0,auto,Como 1907
+434076.0,Rodrigo Ribeiro,,Rodrigo Ribeiro,100.0,auto,FC Augsburg
+434077.0,Renato Veiga,,Renato Veiga,100.0,auto,Villarreal CF
+434138.0,Pablo Barrios,,Pablo Barrios,100.0,auto,Atlético de Madrid
+43415.0,Benjamin André,,Benjamin André,100.0,auto,LOSC Lille
+434179.0,Yannik Engelhardt,,Yannik Engelhardt,100.0,auto,Borussia Mönchengladbach
+434710.0,Yassin Belkhdim,,Yassin Belkhdim,100.0,auto,Angers SCO
+435100.0,Ardon Jashari,,Ardon Jashari,100.0,auto,AC Milan
+435108.0,Gvidas Gineitis,,Gvidas Gineitis,100.0,auto,Torino FC
+435529.0,Roony Bardghji,,Roony Bardghji,100.0,auto,FC Barcelona
+435530.0,Jacob Ondrejka,,Jacob Ondrejka,100.0,auto,Parma Calcio 1913
+435987.0,Abu Kamara,,Abu Kamara,100.0,auto,Getafe CF
+436048.0,Carlos Baleba,,Carlos Baleba,100.0,auto,Brighton & Hove Albion
+436425.0,Jamie Gittens,,Jamie Gittens,100.0,auto,Chelsea FC
+436501.0,Lucas Pires,,Lucas Pires,100.0,auto,Burnley FC
+436553.0,Igor Paixão,,Igor Paixão,100.0,auto,Olympique Marseille
+436617.0,Alemão,,Alemão,100.0,auto,Rayo Vallecano
+436627.0,Giovane,,Giovane,100.0,auto,SSC Napoli
+436646.0,Arthur Chaves,,Arthur Chaves,100.0,auto,FC Augsburg
+437020.0,Tom Rothe,,Tom Rothe,100.0,auto,1.FC Union Berlin
+437022.0,Alejandro Garnacho,,Alejandro Garnacho,100.0,auto,Chelsea FC
+437299.0,Leny Yoro,,Leny Yoro,100.0,auto,Manchester United
+437449.0,Noah Sadiki,,Noah Sadiki,100.0,auto,Sunderland AFC
+437583.0,Álvaro Carreras,,Álvaro Carreras,100.0,auto,Real Madrid
+437646.0,Mario Gila,,Mario Gila,100.0,auto,SS Lazio
+437687.0,Tiago Gouveia,,Tiago Gouveia,100.0,auto,OGC Nice
+437724.0,Arthur,,Arthur,100.0,auto,Bayer 04 Leverkusen
+437747.0,Santiago Hidalgo,,Santiago Hidalgo,100.0,auto,FC Toulouse
+437775.0,Junior Mwanga,,Junior Mwanga,100.0,auto,RC Strasbourg Alsace
+438066.0,Justin Njinmah,,Justin Njinmah,100.0,auto,SV Werder Bremen
+438067.0,Tyler Dibling,,Tyler Dibling,100.0,auto,Everton FC
+438102.0,Malick Fofana,,Malick Fofana,100.0,auto,Olympique Lyon
+438297.0,Dermane Karim,,Dermane Karim,100.0,auto,FC Lorient
+438349.0,Diego Moreira,,Diego Moreira,100.0,auto,RC Strasbourg Alsace
+438351.0,Martim Neto,,Martim Neto,100.0,auto,Elche CF
+438654.0,Ousmane Camara,,Ousmane Camara,100.0,auto,Angers SCO
+438655.0,Samir Chergui,,Samir Chergui,100.0,auto,Paris FC
+438661.0,Rassoul Ndiaye,,Rassoul Ndiaye,100.0,auto,Le Havre AC
+438897.0,Alexsandro Ribeiro,,Alexsandro,90.0,auto,LOSC Lille
+438959.0,Luca Koleosho,,Luca Koleosho,100.0,auto,Paris FC
+439236.0,Jacen Russell-Rowe,,Jacen Russell-Rowe,100.0,auto,FC Toulouse
+439533.0,Tarik Muharemovic,,Tarik Muharemović,100.0,auto,US Sassuolo
+439534.0,Petar Sucic,,Petar Sučić,81.8,manual,Inter Milan
+439584.0,Rasmus Højlund,,Rasmus Højlund,100.0,auto,SSC Napoli
+439607.0,Medon Berisha,,Medon Berisha,100.0,auto,US Lecce
+439636.0,Wilfried Gnonto,,Wilfried Gnonto,100.0,auto,Leeds United
+439736.0,Gaetano Oristanio,,Gaetano Oristanio,100.0,auto,Parma Calcio 1913
+439909.0,Federico Gatti,,Federico Gatti,100.0,auto,Juventus FC
+440029.0,Thomas Kristensen,,Thomas Kristensen,100.0,auto,Udinese Calcio
+440085.0,Beraldo,,Lucas Beraldo,90.0,auto,Paris Saint-Germain
+440159.0,Alex Freeman,,Alex Freeman,100.0,auto,Villarreal CF
+44055.0,Pedro,,Pedro,100.0,auto,SS Lazio
+44120.0,Pierre-Emerick Aubameyang,,Pierre-Emerick Aubameyang,100.0,auto,Olympique Marseille
+441888.0,Jones El Abdellaoui,,Jones El-Abdellaoui,94.7,auto,Celta de Vigo
+442253.0,Julian Niehues,,Julian Niehues,100.0,auto,1.FC Heidenheim 1846
+442302.0,Connor Metcalfe,,Connor Metcalfe,100.0,auto,FC St. Pauli
+442403.0,Daniel Elfadli,,Daniel Elfadli,100.0,auto,Hamburger SV
+442404.0,Léo Scienza,,Loïs Openda,54.5,manual_needed,
+442494.0,Sirlord Conteh,,Sirlord Conteh,100.0,auto,1.FC Heidenheim 1846
+442971.0,Mamadou Sangaré,,Mamadou Sangaré,100.0,auto,RC Lens
+443004.0,Simon Adingra,,Simon Adingra,100.0,auto,AS Monaco
+443064.0,Nilson Angulo,,Nilson Angulo,100.0,auto,Sunderland AFC
+443540.0,Yáser Asprilla,,Murillo,60.0,manual_needed,
+443545.0,Jair Cunha,,Jair Cunha,100.0,auto,Nottingham Forest
+443784.0,Igor Thiago,,Igor Thiago,100.0,auto,Brentford FC
+443796.0,Hugo Larsson,,Hugo Larsson,100.0,auto,Eintracht Frankfurt
+443815.0,Soungoutou Magassa,,Soungoutou Magassa,100.0,auto,West Ham United
+443980.0,Oussama El Azzouzi,,Oussama El Azzouzi,100.0,auto,AJ Auxerre
+444094.0,Isak Vural,,İsak Vural,100.0,auto,Pisa Sporting Club
+444157.0,Étienne Youté,,Étienne Youté Kinkoué,90.0,auto,Le Havre AC
+44417.0,Timothée Kolodziejczak,,Timothée Kolodziejczak,100.0,auto,Paris FC
+444227.0,Williot Swedberg,,Williot Swedberg,100.0,auto,Celta de Vigo
+444239.0,Arnau Martínez,,Arnau Martínez,100.0,auto,Girona FC
+444241.0,Santiago Bueno,,Santiago Bueno,100.0,auto,Wolverhampton Wanderers
+444242.0,Joel Roca,,Joel Roca,100.0,auto,Girona FC
+444244.0,Ramon Terrats,,Ramón Terrats,100.0,auto,RCD Espanyol Barcelona
+444247.0,Álex Sala,,Álex Sala,100.0,auto,US Lecce
+444252.0,Copete,,José Copete,90.0,auto,Valencia CF
+444253.0,Jorge Herrando,,Jorge Herrando,100.0,auto,CA Osasuna
+444254.0,Pablo Ibáñez,,Pablo Ibáñez,100.0,auto,Deportivo Alavés
+444265.0,Fran Pérez,,Fran Pérez,100.0,auto,Rayo Vallecano
+444269.0,Denis Huseinbasic,,Denis Huseinbasic,100.0,auto,1.FC Köln
+444280.0,Aaron Zehnter,,Aaron Zehnter,100.0,auto,VfL Wolfsburg
+444285.0,Lukas Ullrich,,Lukas Ullrich,100.0,auto,Borussia Mönchengladbach
+444289.0,Derry Scherhant,,Derry Scherhant,100.0,auto,SC Freiburg
+444298.0,Dzenan Pejcinovic,,Dzenan Pejcinovic,100.0,auto,VfL Wolfsburg
+444304.0,Yehor Yarmoliuk,,Yegor Yarmolyuk,86.7,auto,Brentford FC
+444334.0,Oliver Sonne,,Oliver Christensen,85.5,auto,ACF Fiorentina
+444509.0,Johann Lepenant,,Johann Lepenant,100.0,auto,FC Nantes
+444548.0,Muhammed Damar,,Muhammed Damar,100.0,auto,TSG 1899 Hoffenheim
+444558.0,Kieron Bowie,,Kieron Bowie,100.0,auto,Hellas Verona
+444598.0,Eliesse Ben Seghir,,Eliesse Ben Seghir,100.0,auto,Bayer 04 Leverkusen
+444679.0,Warren Zaïre-Emery,,Warren Bondo,85.5,auto,US Cremonese
+444691.0,Christian Ordóñez,,Christian Ordóñez,100.0,auto,Parma Calcio 1913
+444725.0,Farès Chaïbi,,Farès Chaïbi,100.0,auto,Eintracht Frankfurt
+444739.0,Quilindschy Hartman,,Quilindschy Hartman,100.0,auto,Burnley FC
+444748.0,Jean-Mattéo Bahoya,,Jean-Mattéo Bahoya,100.0,auto,Eintracht Frankfurt
+444751.0,Wilson Odobert,,Wilson Odobert,100.0,auto,Tottenham Hotspur
+444755.0,Kévin Danois,,Kévin Danois,100.0,auto,AJ Auxerre
+444780.0,Mayckel Lahdo,,Marc Aguado,58.3,manual_needed,
+444789.0,Darlin Yongwa,,Darlin Yongwa,100.0,auto,FC Lorient
+444791.0,Rico Lewis,,Rico Lewis,100.0,auto,Manchester City
+444938.0,Danilo Veiga,,Danilo Veiga,100.0,auto,US Lecce
+445059.0,Mats Wieffer,,Mats Wieffer,100.0,auto,Brighton & Hove Albion
+445061.0,Santiago Giménez,,Santiago Gimenez,100.0,auto,AC Milan
+445092.0,Pablo Torre,,Pablo Torre,100.0,auto,RCD Mallorca
+445095.0,Karl Etta Eyong,,Karl Etta Eyong,100.0,auto,Levante UD
+445292.0,Tani Oluwaseyi,,Tani Oluwaseyi,100.0,auto,Villarreal CF
+445322.0,Juan Cabal,,Juan Cabal,100.0,auto,Juventus FC
+445345.0,Jhon Solís,,John Stones,66.7,manual_needed,
+445354.0,Nathaniel Brown,,Nathaniel Brown,100.0,auto,Eintracht Frankfurt
+445424.0,Murillo,,Murillo,100.0,auto,Nottingham Forest
+445430.0,Arthur Vermeeren,,Arthur Vermeeren,100.0,auto,Olympique Marseille
+445480.0,Alan Matturro,,Alan Matturro,100.0,auto,Levante UD
+445649.0,Endrick,,Endrick,100.0,auto,Olympique Lyon
+446133.0,Diego Gómez,,Diego Gómez,100.0,auto,Brighton & Hove Albion
+446529.0,Robin Fellhauer,,Robin Fellhauer,100.0,auto,FC Augsburg
+446729.0,Thiago Fernández,,Thiago Fernández,100.0,auto,Real Oviedo
+446865.0,Valentín Carboni,,Valentín Barco,80.0,manual_needed,
+446940.0,Tommaso Barbieri,,Tommaso Barbieri,100.0,auto,US Cremonese
+446953.0,Federico Baschirotto,,Federico Baschirotto,100.0,auto,US Cremonese
+446958.0,Warren Bondo,,Warren Bondo,100.0,auto,US Cremonese
+446991.0,Ibrahim Sulemana,,Ibrahim Sulemana,100.0,auto,Cagliari Calcio
+447009.0,Michele Collocolo,,Michele Collocolo,100.0,auto,US Cremonese
+447025.0,Tiago Santos,,Tiago Santos,100.0,auto,LOSC Lille
+447045.0,Himad Abdelli,,Himad Abdelli,100.0,auto,Olympique Marseille
+447146.0,Walid Cheddira,,Walid Cheddira,100.0,auto,US Lecce
+447231.0,Mateus Fernandes,,Mateus Fernandes,100.0,auto,West Ham United
+447444.0,Luca Moro,,Luca Moro,100.0,auto,US Sassuolo
+447445.0,Gennaro Borrelli,,Gennaro Borrelli,100.0,auto,Cagliari Calcio
+447449.0,Guéla Doué,,Guéla Doué,100.0,auto,RC Strasbourg Alsace
+447452.0,Patrizio Masini,,Patrizio Masini,100.0,auto,Genoa CFC
+447486.0,Alessandro Circati,,Alessandro Circati,100.0,auto,Parma Calcio 1913
+447489.0,Ange-Yoan Bonny,,Ange-Yoan Bonny,100.0,auto,Inter Milan
+447492.0,Woyo Coulibaly,,Woyo Coulibaly,100.0,auto,US Sassuolo
+447496.0,Edoardo Iannoni,,Edoardo Iannoni,100.0,auto,US Sassuolo
+447510.0,Gabriele Piccinini,,Gabriele Piccinini,100.0,auto,Pisa Sporting Club
+447528.0,Giovanni Fabbian,,Giovanni Fabbian,100.0,auto,ACF Fiorentina
+447544.0,Matteo Prati,,Matteo Prati,100.0,auto,Torino FC
+447584.0,Joel Chima Fujita,,Joel Chima Fujita,100.0,auto,FC St. Pauli
+447590.0,Shuto Machino,,Shuto Machino,100.0,auto,Borussia Mönchengladbach
+447689.0,Lamine Camara,,Lamine Camara,100.0,auto,AS Monaco
+447835.0,Abde Rebbach,,Abde Rebbach,100.0,auto,Deportivo Alavés
+447842.0,Enzo Boyomo,,Enzo Boyomo,100.0,auto,CA Osasuna
+448050.0,Marc Aguado,,Marc Oliver Kempf,85.5,auto,Como 1907
+448209.0,Sergi Cardona,,Sergi Cardona,100.0,auto,Villarreal CF
+448211.0,Alberto Moleiro,,Alberto Moleiro,100.0,auto,Villarreal CF
+448231.0,Roger Brugué,,Roger Brugué,100.0,auto,Levante UD
+448284.0,Andrés Castrín,,Andrés Castrín,100.0,auto,Sevilla FC
+448296.0,Roberto Fernández,,Roberto Fernández,100.0,auto,RCD Espanyol Barcelona
+448447.0,Oier Luengo,,Bernd Leno,66.7,manual_needed,
+448468.0,Pep Chavarría,,Pep Chavarría,100.0,auto,Rayo Vallecano
+448514.0,Pedro Díaz,,Pedro,90.0,auto,SS Lazio
+448659.0,Nico Paz,,Nico Paz,100.0,auto,Como 1907
+44868.0,Juan Cuadrado,,Juan Cuadrado,100.0,auto,Pisa Sporting Club
+448936.0,Santiago Mouriño,,Santiago Mouriño,100.0,auto,Villarreal CF
+449021.0,Malthe Højholt,,Malthe Højholt,100.0,auto,Pisa Sporting Club
+449357.0,Hong Hyun-Seok,,Koke,60.0,manual_needed,
+449410.0,Omar El Hilali,,Omar El Hilali,100.0,auto,RCD Espanyol Barcelona
+449839.0,Luca Lipani,,Luca Lipani,100.0,auto,US Sassuolo
+450125.0,Nnamdi Collins,,Nnamdi Collins,100.0,auto,Eintracht Frankfurt
+450142.0,Zé Pedro,,Zé Pedro,100.0,auto,Cagliari Calcio
+450254.0,Romaine Mundle,,Romaine Mundle,100.0,auto,Sunderland AFC
+450271.0,Aurèle Amenda,,Aurèle Amenda,100.0,auto,Eintracht Frankfurt
+450289.0,Nicolò Savona,,Nicolò Savona,100.0,auto,Nottingham Forest
+450295.0,Hugo Bolin,,Hugo Bolin,100.0,auto,Borussia Mönchengladbach
+450950.0,Justin Devenny,,Justin Devenny,100.0,auto,Crystal Palace
+4511.0,James Milner,,James Milner,100.0,auto,Brighton & Hove Albion
+451236.0,Andrey Santos,,Andrey Santos,100.0,auto,Chelsea FC
+451881.0,Samuel Essende,,Samuel Gigot,63.3,manual_needed,
+451945.0,Andy Irving,,André,67.5,manual_needed,
+452020.0,Mattia Felici,,Mattia Felici,100.0,auto,Cagliari Calcio
+452107.0,Nikola Stulic,,Nikola Stulic,100.0,auto,US Lecce
+4522.0,Santi Cazorla,,Santi Cazorla,100.0,auto,Real Oviedo
+452407.0,Álvaro Fidalgo,,Álvaro Fidalgo,100.0,auto,Real Betis Balompié
+454321.0,Samson Baidoo,,Samson Baidoo,100.0,auto,RC Lens
+454341.0,Álex Valle,,Álex Valle,100.0,auto,Como 1907
+454342.0,Chadi Riad,,Chadi Riad,100.0,auto,Crystal Palace
+454343.0,Marc Casadó,,Marc Casadó,100.0,auto,FC Barcelona
+454356.0,Davide Bartesaghi,,Davide Bartesaghi,100.0,auto,AC Milan
+454467.0,Badredine Bouanani,,Badredine Bouanani,100.0,auto,VfB Stuttgart
+454674.0,Abu Francis,,Abu Francis,100.0,auto,FC Toulouse
+454749.0,Martial Godo,,Martial Godo,100.0,auto,RC Strasbourg Alsace
+454901.0,Lennon Miller,,Lennon Miller,100.0,auto,Udinese Calcio
+454908.0,Isak Hien,,Isak Hien,100.0,auto,Atalanta BC
+454985.0,Reda Belahyane,,Reda Belahyane,100.0,auto,SS Lazio
+455320.0,Ali Youssif,,Ali Youssif,100.0,auto,FC Nantes
+455459.0,Junior Diaz,,Junior Diaz,100.0,auto,Stade Brestois 29
+455470.0,Rémy Labeau Lascary,,Rémy Labeau Lascary,100.0,auto,Stade Brestois 29
+455521.0,Saël Kumbedi,,Saël Kumbedi,100.0,auto,VfL Wolfsburg
+455785.0,Aljoscha Kemlein,,Aljoscha Kemlein,100.0,auto,1.FC Union Berlin
+456006.0,Rahim Alhassane,,Rahim Alhassane,100.0,auto,Real Oviedo
+456749.0,Christian Mawissa,,Christian Mawissa,100.0,auto,AS Monaco
+456771.0,Ethan Nwaneri,,Ethan Nwaneri,100.0,auto,Olympique Marseille
+456795.0,Ismaëlo Ganiou,,Ismaëlo Ganiou,100.0,auto,RC Lens
+457079.0,Ayumu Seko,,Ayumu Seko,100.0,auto,Le Havre AC
+457103.0,Saud Abdulhamid,,Saud Abdulhamid,100.0,auto,RC Lens
+457171.0,Semih Kiliçsoy,,Semih Kılıçsoy,100.0,auto,Cagliari Calcio
+457282.0,Konstantinos Koulierakis,,Konstantinos Koulierakis,100.0,auto,VfL Wolfsburg
+458728.0,Joaquín Panichelli,,Joaquín Panichelli,100.0,auto,RC Strasbourg Alsace
+459062.0,Nelson Weiper,,Nelson Weiper,100.0,auto,1.FSV Mainz 05
+459082.0,Pablo Durán,,Pablo Durán,100.0,auto,Celta de Vigo
+459677.0,Pablo Marín,,Pablo Marín,100.0,auto,Real Sociedad
+459708.0,Ollie Scarles,,Oliver Scarles,88.9,auto,West Ham United
+460260.0,Kobbie Mainoo,,Kobbie Mainoo,100.0,auto,Manchester United
+460456.0,Giorgi Gocholeishvili,,Giorgi Gocholeishvili,100.0,auto,Hamburger SV
+460772.0,Álvaro Rodríguez,,Álvaro Rodríguez,100.0,auto,Elche CF
+461771.0,Abel Bretones,,Abel Bretones,100.0,auto,CA Osasuna
+462111.0,Pape Diop,,Pape Demba Diop,85.5,auto,FC Toulouse
+462768.0,Miguel Román,,Miguel Román,100.0,auto,Celta de Vigo
+462861.0,Carlos Vicente,,Carlos Vicente Robles,100.0,manual,Birmingham City
+463233.0,Mateo Joseph,,Mateo Joseph,100.0,auto,RCD Mallorca
+463347.0,Kialonda Gaspar,,Gaspar,90.0,auto,US Lecce
+463426.0,Kwasi Sibo,,Kwasi Sibo,100.0,auto,Real Oviedo
+463431.0,Urko Izeta,,Urko Izeta,100.0,auto,Athletic Bilbao
+463588.0,Javi Rueda,,Javi Rueda,100.0,auto,Celta de Vigo
+463821.0,Alberto Reina,,Alberto Reina,100.0,auto,Real Oviedo
+463838.0,Fermín López,,Fermín López,100.0,auto,FC Barcelona
+463844.0,Alex Sancris,,Álex Sancris,100.0,auto,Getafe CF
+463938.0,Rodrigo Mendoza,,Rodrigo Mendoza,100.0,auto,Atlético de Madrid
+463961.0,Jon Aramburu,,Jon Aramburu,100.0,auto,Real Sociedad
+463966.0,Victor Parada,,Victor Parada,100.0,auto,Deportivo Alavés
+464860.0,Tuomas Ollila,,Tuomas Ollila,100.0,auto,Paris FC
+464952.0,Peque Fernández,,Peque Fernández,100.0,auto,Sevilla FC
+465388.0,João Neves,,João Neves,100.0,auto,Paris Saint-Germain
+467072.0,Kassoum Ouattara,,Kassoum Ouattara,100.0,auto,AS Monaco
+467083.0,Gaby Jean,,Gaby Jean,100.0,auto,US Lecce
+467223.0,Amine Sbaï,,Amine Sbaï,100.0,auto,Angers SCO
+467299.0,Oumar Ngom,,Oumar Ngom,100.0,auto,US Lecce
+467302.0,Julien Le Cardinal,,Enzo Le Fée,85.5,auto,Sunderland AFC
+467452.0,Mohamed Kaba,,Mohamed Kaba,100.0,auto,FC Nantes
+467715.0,Jorrel Hato,,Jorrel Hato,100.0,auto,Chelsea FC
+467769.0,Maxi Oyedele,,Maxi Oyedele,100.0,auto,RC Strasbourg Alsace
+467776.0,Can Uzun,,Can Uzun,100.0,auto,Eintracht Frankfurt
+467913.0,Mamadou Sarr,,Mamadou Sarr,100.0,auto,Chelsea FC
+467918.0,Myles Lewis-Skelly,,Myles Lewis-Skelly,100.0,auto,Arsenal FC
+467968.0,Bashir Humphreys,,Bashir Humphreys,100.0,auto,Burnley FC
+468089.0,Yago Santiago,,Yago Santiago,100.0,auto,Elche CF
+468190.0,Arthur Avom,,Arthur Avom,100.0,auto,FC Lorient
+468827.0,Jérémy Jacquet,,Jérémy Jacquet,100.0,auto,Stade Rennais FC
+468829.0,Djaoui Cissé,,Djaoui Cissé,100.0,auto,Stade Rennais FC
+468847.0,Nico O'Reilly,,Nico O'Reilly,100.0,auto,Manchester City
+468852.0,Dean Huijsen,,Dean Huijsen,100.0,auto,Real Madrid
+468855.0,Samuel Mbangula,,Samuel Mbangula,100.0,auto,SV Werder Bremen
+468859.0,Ethan Mbappé,,Ethan Mbappé,100.0,auto,LOSC Lille
+468931.0,Carlos Romero,,Carlos Romero,100.0,auto,RCD Espanyol Barcelona
+468938.0,Ngal'ayel Mukau,,Ngal'ayel Mukau,100.0,auto,LOSC Lille
+469368.0,Godson Kyeremeh,,Godson Kyeremeh,100.0,auto,Le Havre AC
+469372.0,Lamine Sy,,Lamine Sy,100.0,auto,AJ Auxerre
+469506.0,Emmanuel Biumla,,Emmanuel Biumla,100.0,auto,Angers SCO
+469507.0,Arthur Atta,,Arthur Atta,100.0,auto,Udinese Calcio
+469508.0,Nobel Mendy,,Nobel Mendy,100.0,auto,Rayo Vallecano
+469547.0,Manu Bueno,,Manu Bueno,100.0,auto,Sevilla FC
+469629.0,Jack Hinshelwood,,Jack Hinshelwood,100.0,auto,Brighton & Hove Albion
+469645.0,Chris Rigg,,Chris Rigg,100.0,auto,Sunderland AFC
+469950.0,Goduine Koyalipou,,Goduine Koyalipou,100.0,auto,Angers SCO
+470031.0,Michael Kayode,,Michael Kayode,100.0,auto,Brentford FC
+470043.0,Lucas Michal,,Lucas Michal,100.0,auto,FC Metz
+470182.0,Yassine Benhattab,,Yassine Kechta,77.4,manual_needed,
+470606.0,Malick Mbaye,,El Hadji Malick Diouf,85.5,auto,West Ham United
+470690.0,Yasin Ayari,,Yasin Ayari,100.0,auto,Brighton & Hove Albion
+470816.0,Hamza Igamane,,Hamza Igamane,100.0,auto,LOSC Lille
+470978.0,George Ilenikhena,,Valentin Gendrey,57.6,manual_needed,
+471047.0,Mario Martín,,Mario Martín,100.0,auto,Getafe CF
+471064.0,Lilian Raolisoa,,Lilian Raolisoa,100.0,auto,Angers SCO
+471784.0,Brajan Gruda,,Brajan Gruda,100.0,auto,RB Leipzig
+472122.0,Rayan,,Rayan,100.0,auto,AFC Bournemouth
+472205.0,Elias Saad,,Elias Baum,70.0,manual_needed,
+472299.0,Rafiu Durosinmi,,Rafiu Durosinmi,100.0,auto,Pisa Sporting Club
+472403.0,Yuito Suzuki,,Yuito Suzuki,100.0,auto,SC Freiburg
+472895.0,Alex Amorim,,Amorim,90.0,auto,Genoa CFC
+472995.0,Gift Orban,,Gift Orban,100.0,auto,Hellas Verona
+474042.0,Mathieu Acapandié,,Mathieu Cafaro,64.5,manual_needed,
+474264.0,Lewis Miley,,Lewis Miley,100.0,auto,Newcastle United
+474267.0,Iker Muñoz,,Iker Muñoz,100.0,auto,CA Osasuna
+474412.0,Mert Kömür,,Mert Kömür,100.0,auto,FC Augsburg
+475046.0,Haissem Hassan,,Haissem Hassan,100.0,auto,Real Oviedo
+475462.0,Matias Fernandez-Pardo,,Matías Fernández-Pardo,100.0,auto,LOSC Lille
+475534.0,Damion Downs,,Damion Downs,100.0,auto,Hamburger SV
+476109.0,Cher Ndour,,Cher Ndour,100.0,auto,ACF Fiorentina
+476110.0,Chemsdine Talbi,,Chemsdine Talbi,100.0,auto,Sunderland AFC
+476440.0,Niccolò Pisilli,,Niccolò Pisilli,100.0,auto,AS Roma
+476469.0,Juan Arizala,,Juan Arizala,100.0,auto,Udinese Calcio
+476789.0,Petar Ratkov,,Petar Ratkov,100.0,auto,SS Lazio
+477122.0,Yassine Kechta,,Yassine Kechta,100.0,auto,Le Havre AC
+477772.0,Kendry Páez,,Kevin,67.5,manual_needed,
+477985.0,Ibrahim Maza,,Ibrahim Maza,100.0,auto,Bayer 04 Leverkusen
+478033.0,Afonso Moreira,,Afonso Moreira,100.0,auto,Olympique Lyon
+478113.0,Justin Kalumba,,Justin Kalumba,100.0,auto,RCD Mallorca
+478241.0,Claudio Echeverri,,Claudio Echeverri,100.0,auto,Girona FC
+478314.0,Vitor Reis,,Vitor Reis,100.0,auto,Girona FC
+478378.0,Juan Rodríguez,,Juan Rodríguez,100.0,auto,Cagliari Calcio
+479170.0,Junior Kroupi,,Junior Kroupi,100.0,auto,AFC Bournemouth
+479288.0,El Hadji Malick Diouf,,El Hadji Malick Diouf,100.0,auto,West Ham United
+479328.0,Nesta Elphege,,Nesta Elphege,100.0,auto,Parma Calcio 1913
+479902.0,Tom Louchet,,Tom Louchet,100.0,auto,OGC Nice
+480033.0,Lorenzo Bernasconi,,Lorenzo Bernasconi,100.0,auto,Atalanta BC
+480249.0,Lamine Yamal,,Lamine Yamal,100.0,auto,FC Barcelona
+480619.0,Unai Gómez,,Unai Gómez,100.0,auto,Athletic Bilbao
+481079.0,Aleksandar Pavlovic,,Aleksandar Pavlovic,100.0,auto,Bayern Munich
+481154.0,Marco Palestra,,Marco Palestra,100.0,auto,Cagliari Calcio
+481851.0,Hugo Rincón,,Hugo Rincón,100.0,auto,Girona FC
+482049.0,Mamadou Coulibaly,,Mamadou Coulibaly,100.0,auto,AS Monaco
+482321.0,Francesco Coppola,,Francesco Coppola,100.0,auto,Pisa Sporting Club
+482453.0,Ebenezer Akinsanmiro,,Ebenezer Akinsanmiro,100.0,auto,Pisa Sporting Club
+482895.0,Sam Amo-Ameyaw,,Samuel Amo-Ameyaw,90.3,auto,RC Strasbourg Alsace
+482951.0,Matías Moreno,,Matías Moreno,100.0,auto,Levante UD
+483206.0,Héctor Fort,,Héctor Fort,100.0,auto,Elche CF
+483208.0,Marc Guiu,,Marc Guiu,100.0,auto,Chelsea FC
+483577.0,Dehmaine Tabibou,,Dehmaine Tabibou,100.0,auto,FC Nantes
+484175.0,Yankuba Minteh,,Yankuba Minteh,100.0,auto,Brighton & Hove Albion
+484211.0,Aaron Anselmino,,Aarón Anselmino,100.0,auto,RC Strasbourg Alsace
+484251.0,Sebastián Boselli,,Sebastián Boselli,100.0,auto,Getafe CF
+484254.0,Federico Viñas,,Federico Viñas,100.0,auto,Real Oviedo
+484371.0,Sota Kawasaki,,Sota Kawasaki,100.0,auto,1.FSV Mainz 05
+484428.0,Vasilije Adzic,,Vasilije Adžić,100.0,auto,Juventus FC
+484491.0,Oliver Provstgaard,,Oliver Provstgaard,100.0,auto,SS Lazio
+484859.0,Kristoffer Lund,,Kristoffer Lund,100.0,auto,1.FC Köln
+485051.0,Luca Kerber,,Luca Kerber,100.0,auto,1.FC Heidenheim 1846
+485118.0,Nicolai Remberg,,Nicolai Remberg,100.0,auto,Hamburger SV
+485184.0,Benedict Hollerbach,,Benedict Hollerbach,100.0,auto,1.FSV Mainz 05
+485191.0,Omar Haktab Traoré,,Omar Traoré,85.5,auto,1.FC Heidenheim 1846
+485929.0,Ezechiel Banzuzi,,Ezechiel Banzuzi,100.0,auto,RB Leipzig
+486031.0,Arouna Sangante,,Arouna Sangante,100.0,auto,Le Havre AC
+486033.0,Simon Ebonog,,Simon Ebonog,100.0,auto,Le Havre AC
+486042.0,Josué Casimir,,Josué Casimir,100.0,auto,AJ Auxerre
+486734.0,Neil El Aynaoui,,Neil El Aynaoui,100.0,auto,AS Roma
+486741.0,Jovan Milosevic,,Jovan Milosevic,100.0,auto,SV Werder Bremen
+486744.0,Daniele Ghilardi,,Daniele Ghilardi,100.0,auto,AS Roma
+486753.0,Rafik Belghali,,Rafik Belghali,100.0,auto,Hellas Verona
+486768.0,Louis Oppie,,Louis Oppie,100.0,auto,FC St. Pauli
+486776.0,Philipp Treu,,Philipp Treu,100.0,auto,SC Freiburg
+486906.0,Eivind Helland,,Eivind Helland,100.0,auto,Bologna FC 1909
+487063.0,Assan Ouédraogo,,Assan Ouédraogo,100.0,auto,RB Leipzig
+489232.0,Sergi Altimira,,Sergi Altimira,100.0,auto,Real Betis Balompié
+492362.0,Isaac Romero,,Isaac Romero,100.0,auto,Sevilla FC
+492430.0,Pathé Mboup,,Pathé Mboup,100.0,auto,Stade Brestois 29
+492867.0,Oscar Højlund,,Oscar Højlund,100.0,auto,Eintracht Frankfurt
+492955.0,Kosta Nedeljkovic,,Kosta Nedeljkovic,100.0,auto,RB Leipzig
+493103.0,Sadibou Sané,,Sadibou Sané,100.0,auto,FC Metz
+493104.0,Ibou Sané,,Sadibou Sané,76.2,auto,FC Metz
+493169.0,Kwon Hyeok-Kyu,,Koke,51.4,manual_needed,
+493206.0,Abdukodir Khusanov,,Abdukodir Khusanov,100.0,auto,Manchester City
+494147.0,Ilyas Ansah,,Ilyas Ansah,100.0,auto,1.FC Union Berlin
+494264.0,Panos Katseris,,Panos Katseris,100.0,auto,FC Lorient
+494398.0,Alessandro Marcandalli,,Alessandro Marcandalli,100.0,auto,Genoa CFC
+494519.0,Mikayil Faye,,Mikayil Faye,100.0,auto,US Cremonese
+494525.0,Kenan Yildiz,,Kenan Yıldız,83.3,manual,Juventus FC
+494664.0,Mariano Troilo,,Mariano Troilo,100.0,auto,Parma Calcio 1913
+494670.0,Eliezer Mayenda,,Eliezer Mayenda,100.0,auto,Sunderland AFC
+495260.0,Patrick Dorgu,,Patrick Dorgu,100.0,auto,Manchester United
+495291.0,Livan Burcu,,Livan Burcu,100.0,auto,1.FC Union Berlin
+495459.0,Jon Martín,,Jon Martín,100.0,auto,Real Sociedad
+495542.0,Ilyas Chaira,,Ilyas Chaira,100.0,auto,Real Oviedo
+495757.0,Pietro Comuzzo,,Pietro Comuzzo,100.0,auto,ACF Fiorentina
+495906.0,Henrik Meister,,Henrik Meister,100.0,auto,Pisa Sporting Club
+496170.0,Noah Edjouma,,Noah Edjouma,100.0,auto,LOSC Lille
+496922.0,Jordy Makengo,,Jordy Makengo,100.0,auto,SC Freiburg
+496923.0,Max Rosenfelder,,Max Rosenfelder,100.0,auto,SC Freiburg
+496994.0,Nikolas Veratschnig,,Nikolas Veratschnig,100.0,auto,1.FSV Mainz 05
+497110.0,Luca Marianucci,,Luca Marianucci,100.0,auto,Torino FC
+497217.0,Alieu Njie,,Alieu Njie,100.0,auto,Torino FC
+497222.0,Francesco Pio Esposito,,Pio Esposito,90.0,auto,Inter Milan
+497295.0,Álex Jiménez,,Álex Jiménez,100.0,auto,AFC Bournemouth
+497562.0,Max Finkgräfe,,Max Finkgräfe,100.0,auto,RB Leipzig
+498183.0,Mateus Lusuardi,,Mateus Mané,67.1,manual_needed,
+498386.0,Pau Cubarsí,,Pau Cubarsí,100.0,auto,FC Barcelona
+498798.0,Gonzalo García,,Gonzalo García,100.0,auto,Real Madrid
+498812.0,Abdoulaye Faye,,Abdoulaye Faye,100.0,auto,FC Lorient
+498982.0,Saba Goglichidze,,Brice Samba,56.3,manual_needed,
+498983.0,Giorgi Abuashvili,,Giorgi Abuashvili,100.0,auto,FC Metz
+499622.0,Arkadiusz Pyrka,,Arkadiusz Pyrka,100.0,auto,FC St. Pauli
+499667.0,Felipe Loyola,,Felipe Loyola,100.0,auto,Pisa Sporting Club
+499786.0,Idrissa Gueye,,Idrissa Gueye,100.0,auto,Udinese Calcio
+499979.0,Luca Jaquez,,Luca Jaquez,100.0,auto,VfB Stuttgart
+499996.0,Zachary Athekame,,Zachary Athekame,100.0,auto,AC Milan
+502424.0,David López,,David López,100.0,auto,RCD Mallorca
+502427.0,Assane Diao,,Assane Diao,100.0,auto,Como 1907
+502951.0,Aboubakar Nagida,,Boubacar Kamara,58.1,manual_needed,
+504671.0,Javier Boñar,,Gavi,67.5,manual_needed,
+504830.0,Ayyoub Bouaddi,,Ayyoub Bouaddi,100.0,auto,LOSC Lille
+505295.0,Lucas Bergvall,,Lucas Bergvall,100.0,auto,Tottenham Hotspur
+505567.0,Sebastian Otoa,,Sebastian Otoa,100.0,auto,Genoa CFC
+505924.0,Jozhua Vertrouwd,,Jozhua Vertrouwd,100.0,auto,Rayo Vallecano
+506011.0,Antoniu Roca,,Antoniu Roca,100.0,auto,RCD Espanyol Barcelona
+506205.0,Ángel Pérez,,Ángel Pérez,100.0,auto,Deportivo Alavés
+507717.0,Finn Jeltsch,,Finn Jeltsch,100.0,auto,VfB Stuttgart
+508286.0,Otto Stange,,Otto Stange,100.0,auto,Hamburger SV
+508331.0,Javi Rodríguez,,Javi Rodríguez,100.0,auto,Celta de Vigo
+509815.0,Kaishu Sano,,Kaishu Sano,100.0,auto,1.FSV Mainz 05
+509876.0,Álvaro Núñez,,Álvaro Núñez,100.0,auto,Celta de Vigo
+510234.0,Leon Avdullahu,,Leon Avdullahu,100.0,auto,TSG 1899 Hoffenheim
+510360.0,Buba Sangaré,,Buba Sangaré,100.0,auto,Elche CF
+510527.0,Francesco Camarda,,Francesco Camarda,100.0,auto,US Lecce
+510581.0,Jayden Addai,,Jayden Addai,100.0,auto,Como 1907
+510728.0,Estêvão,,Estêvão,100.0,auto,Chelsea FC
+510940.0,Veljko Milosavljevic,,Veljko Milosavljevic,100.0,auto,AFC Bournemouth
+511064.0,Oso,,Oso,100.0,auto,Sevilla FC
+511120.0,Mikel Jauregizar,,Mikel Jauregizar,100.0,auto,Athletic Bilbao
+511225.0,Luck Zogbé,,Luck Zogbé,100.0,auto,Stade Brestois 29
+511364.0,Mathis Amougou,,Mathis Amougou,100.0,auto,RC Strasbourg Alsace
+511377.0,Marius Courcoul,,Marius Courcoul,100.0,auto,Angers SCO
+511378.0,Sidiki Cherif,,Samir Chergui,61.5,manual_needed,
+511380.0,Clément Akpa,,Clément Akpa,100.0,auto,AJ Auxerre
+511411.0,Tidiam Gomis,,Tidiam Gomis,100.0,auto,RB Leipzig
+511559.0,Adama Camara,,Adama Camara,100.0,auto,Paris FC
+511597.0,Noah Cadiou,,Noah Cadiou,100.0,auto,FC Lorient
+511603.0,Andréas Hountondji,,Andréas Hountondji,100.0,auto,FC St. Pauli
+511691.0,Robinio Vaz,,Robinio Vaz,100.0,auto,AS Roma
+512740.0,Samir El Mourabet,,Samir El Mourabet,100.0,auto,RC Strasbourg Alsace
+512773.0,Hamidou Makalou,,Hamidou Makalou,100.0,auto,Stade Brestois 29
+512879.0,Gerard Martín,,Gerard Martín,100.0,auto,FC Barcelona
+513011.0,Juma Bah,,Juma Bah,100.0,auto,OGC Nice
+513146.0,Nicolás Fonseca,,Nicolás Fonseca,100.0,auto,Real Oviedo
+513409.0,Gessime Yassine,,Gessime Yassine,100.0,auto,RC Strasbourg Alsace
+513547.0,Kail Boudache,,Kaïl Boudache,100.0,auto,OGC Nice
+513632.0,Nhoa Sangui,,Nhoa Sangui,100.0,auto,Paris FC
+513640.0,Álex Forés,,Álex Forés,100.0,auto,Real Oviedo
+513665.0,Senny Mayulu,,Senny Mayulu,100.0,auto,Paris Saint-Germain
+514499.0,Adam Daghim,,Adam Daghim,100.0,auto,VfL Wolfsburg
+514810.0,Franco Mastantuono,,Franco Mastantuono,100.0,auto,Real Madrid
+515307.0,Adama Boiro,,Adama Boiro,100.0,auto,Athletic Bilbao
+515492.0,Nathaniel Adjei,,Nathaniel Adjei,100.0,auto,FC Lorient
+515493.0,Mohamed Bamba,,Mohamed Bamba,100.0,auto,FC Lorient
+515577.0,Estéban Lepaul,,Estéban Lepaul,100.0,auto,Stade Rennais FC
+515580.0,Tiago Gabriel,,Tiago Gabriel,100.0,auto,US Lecce
+515754.0,Morgan Bokele,,Morgan Rogers,69.2,manual_needed,
+515865.0,Josh King,,Josh King,100.0,auto,Fulham FC
+516341.0,Carlos Espí,,Carlos Espí,100.0,auto,Levante UD
+516374.0,Jacobo Ramón,,Jacobo Ramón,100.0,auto,Como 1907
+516414.0,Lucas Cepeda,,Lucas Cepeda,100.0,auto,Elche CF
+517341.0,Ayden Heaven,,Ayden Heaven,100.0,auto,Manchester United
+517371.0,Saïd El Mala,,Said El Mala,100.0,auto,1.FC Köln
+517609.0,Max Moerstedt,,Max Moerstedt,100.0,auto,TSG 1899 Hoffenheim
+517618.0,Iñigo Arguibide,,Iñigo Arguibide,100.0,auto,CA Osasuna
+518057.0,Jorge Cabello,,Jorge Cestero,69.2,manual_needed,
+518604.0,Josh Acheampong,,Josh Acheampong,100.0,auto,Chelsea FC
+518928.0,Asier Osambela,,Asier Osambela,100.0,auto,CA Osasuna
+519104.0,Adrián Liso,,Adrián Liso,100.0,auto,Getafe CF
+519276.0,Michel Mboula,,Michel Mboula,100.0,auto,FC Metz
+519755.0,Ibrahim Osman,,Ibrahim Sulemana,75.9,manual_needed,
+519969.0,Youssef Enríquez,,Youssef Enríquez,100.0,auto,Deportivo Alavés
+520491.0,Rosen Bozhinov,,Rosen Bozhinov,100.0,auto,Pisa Sporting Club
+523597.0,Tyrique George,,Tyrique George,100.0,auto,Everton FC
+525757.0,Rafik Messali,,Rafik Messali,100.0,auto,FC Toulouse
+526625.0,Niccolò Fortini,,Niccolò Fortini,100.0,auto,ACF Fiorentina
+527354.0,Alexander Røssing-Lelesiit,,Alexander Røssing-Lelesiit,100.0,auto,Hamburger SV
+528001.0,Yoel Lago,,Yoel Lago,100.0,auto,Celta de Vigo
+530864.0,Terry Yegbe,,Terry Yegbe,100.0,auto,FC Metz
+531064.0,Nils Zätterström,,Nils Zätterström,100.0,auto,Genoa CFC
+531127.0,Ivan Smolcic,,Ivan Smolcic,100.0,auto,Como 1907
+531674.0,Christantus Uche,,Christantus Uche,100.0,auto,Crystal Palace
+531676.0,Jaydee Canvot,,Jaydee Canvot,100.0,auto,Crystal Palace
+531773.0,Lasso Coulibaly,,Lasso Coulibaly,100.0,auto,AJ Auxerre
+531846.0,Martijn Kaars,,Martijn Kaars,100.0,auto,FC St. Pauli
+532224.0,Yanis Zouaoui,,Yanis Zouaoui,100.0,auto,Le Havre AC
+532226.0,Daniel Mosquera,,Daniel Mosquera,100.0,auto,Hellas Verona
+532504.0,Francesco Folino,,Francesco Folino,100.0,auto,US Cremonese
+532542.0,Riyad Idrissi,,Riyad Idrissi,100.0,auto,Cagliari Calcio
+532577.0,Johan Manzambi,,Johan Manzambi,100.0,auto,SC Freiburg
+532785.0,Noahkai Banks,,Noahkai Banks,100.0,auto,FC Augsburg
+532910.0,Martin Frese,,Martin Frese,100.0,auto,Hellas Verona
+532920.0,Pedro Lima,,Pedro Lima,100.0,auto,Wolverhampton Wanderers
+533010.0,Luka Vuskovic,,Luka Vuskovic,100.0,auto,Hamburger SV
+533129.0,Bruno Ogbus,,Bruno Ogbus,100.0,auto,SC Freiburg
+533923.0,Charalampos Kostoulas,,Charalampos Kostoulas,100.0,auto,Brighton & Hove Albion
+534072.0,Jahmai Simpson-Pusey,,Jahmai Simpson-Pusey,100.0,auto,1.FC Köln
+534461.0,Dayann Methalie,,Dayann Methalie,100.0,auto,FC Toulouse
+534796.0,Marc Bernal,,Marc Bernal,100.0,auto,FC Barcelona
+534807.0,Nidal Celik,,Nidal Celik,100.0,auto,RC Lens
+534899.0,Raúl Asencio,,Raúl Asencio,100.0,auto,Real Madrid
+535020.0,Fabio Baldé,,Fábio Baldé,100.0,auto,Hamburger SV
+535536.0,Ibrahim Mbaye,,Ibrahim Mbaye,100.0,auto,Paris Saint-Germain
+535607.0,Louis Leroux,,Louis Leroux,100.0,auto,FC Nantes
+535735.0,Honest Ahanor,,Honest Ahanor,100.0,auto,Atalanta BC
+535736.0,Jeff Ekhator,,Jeff Ekhator,100.0,auto,Genoa CFC
+535879.0,Harrison Armstrong,,Harrison Armstrong,100.0,auto,Everton FC
+536138.0,Herba Guirassy,,Herba Guirassy,100.0,auto,FC Nantes
+537023.0,Lorenzo Venturino,,Lorenzo Venturino,100.0,auto,AS Roma
+537076.0,Marc Domenech,,Marcão,72.0,manual_needed,
+537235.0,Pau Navarro,,Pau Navarro,100.0,auto,Villarreal CF
+537713.0,Thierno Barry,,Thierno Barry,100.0,auto,Everton FC
+538340.0,Kento Shiogai,,Kento Shiogai,100.0,auto,VfL Wolfsburg
+538407.0,Isaac Schmidt,,Isaac Schmidt,100.0,auto,SV Werder Bremen
+538555.0,Coba da Costa,,Eric da Silva Moreira,85.5,auto,Nottingham Forest
+538807.0,Conrad Harder,,Conrad Harder,100.0,auto,RB Leipzig
+538841.0,Luís Balbo,,Luis Balbo,100.0,auto,ACF Fiorentina
+538873.0,Noah Nartey,,Noah Nartey,100.0,auto,Olympique Lyon
+538927.0,Andrija Bulatovic,,Andrija Bulatovic,100.0,auto,RC Lens
+539085.0,Abdelhamid Aït Boudlal,,Abdelhamid Ait Boudlal,100.0,auto,Stade Rennais FC
+539559.0,Jesús Rodríguez,,Jesús Rodríguez,100.0,auto,Como 1907
+539663.0,Chema Andres,,Chema Andrés,100.0,auto,VfB Stuttgart
+541331.0,Kyllian Antonio,,Kyllian Antonio,100.0,auto,RC Lens
+541704.0,Maroan Sannadi,,Maroan Sannadi,100.0,auto,Athletic Bilbao
+541854.0,Paco Cortés,,Paco Cortés,100.0,auto,Levante UD
+541871.0,Jon Gorrotxategi,,Jon Gorrotxategi,100.0,auto,Real Sociedad
+542892.0,Marius Louër,,Marius Louër,100.0,auto,Angers SCO
+544982.0,Fer López,,Fer López,100.0,auto,Celta de Vigo
+545675.0,Ángel Ortiz,,Ángel Ortiz,100.0,auto,Real Betis Balompié
+545888.0,Mohamed Meïté,,Mohamed Kaba,70.0,manual_needed,
+546354.0,Tobias Slotsager,,Tobias Slotsager,100.0,auto,Hellas Verona
+546589.0,Aladji Bamba,,Aladji Bamba,100.0,auto,AS Monaco
+546604.0,Axel Tape,,Axel Tape,100.0,auto,Bayer 04 Leverkusen
+547543.0,Owen Kouassi,,Arsène Kouassi,70.0,manual_needed,
+547575.0,Alpha Touré,,Alpha Touré,100.0,auto,FC Metz
+547622.0,Cyriaque Irié,,Cyriaque Irié,100.0,auto,SC Freiburg
+547648.0,Mário Sauer,,Mario Sauer,100.0,auto,FC Toulouse
+548106.0,Víctor Muñoz,,Víctor Muñoz,100.0,auto,CA Osasuna
+548299.0,Raphaël Le Guen,,Raphaël Le Guen,100.0,auto,Stade Brestois 29
+548566.0,Rio Ngumoha,,Rio Ngumoha,100.0,auto,Liverpool FC
+549133.0,Patrice Covic,,Patrice Covic,100.0,auto,SV Werder Bremen
+54968.0,Francesco Acerbi,,Francesco Acerbi,100.0,auto,Inter Milan
+550465.0,Christian Kofane,,Christian Kofane,100.0,auto,Bayer 04 Leverkusen
+550581.0,Joël Schmied,,Joël Schmied,100.0,auto,1.FC Köln
+551088.0,Hennes Behrens,,Hennes Behrens,100.0,auto,1.FC Heidenheim 1846
+551186.0,Pablo García,,Pablo García,100.0,auto,Real Betis Balompié
+551965.0,Bazoumana Touré,,Bazoumana Touré,100.0,auto,TSG 1899 Hoffenheim
+553350.0,Soriba Diaoune,,Soriba Diaoune,100.0,auto,LOSC Lille
+554310.0,Mateus Mané,,Mateus Mané,100.0,auto,Wolverhampton Wanderers
+554472.0,Karim Coulibaly,,Karim Coulibaly,100.0,auto,SV Werder Bremen
+554519.0,Rayan Fofana,,Rayan Fofana,100.0,auto,RC Lens
+555179.0,Lucas Høgsberg,,Lucas Høgsberg,100.0,auto,RC Strasbourg Alsace
+555611.0,Stephan Zagadou,,Stephan Zagadou,100.0,auto,Le Havre AC
+556058.0,Arsène Kouassi,,Arsène Kouassi,100.0,auto,FC Lorient
+557000.0,Yan Diomande,,Yan Diomande,100.0,auto,RB Leipzig
+557549.0,Alisson Santos,,Alisson Santos,100.0,auto,SSC Napoli
+557706.0,Lennart Karl,,Lennart Karl,100.0,auto,Bayern Munich
+557883.0,Rudy Matondo,,Rudy Matondo,100.0,auto,Paris FC
+558190.0,Mathys de Carvalho,,Mathys De Carvalho,100.0,auto,Olympique Lyon
+558845.0,Telli Siwe,,Telli Siwe,100.0,auto,AJ Auxerre
+559360.0,Prosper Peter,,Prosper Peter,100.0,auto,Angers SCO
+559978.0,Lanroy Machine,,Lanroy Machine,100.0,auto,Angers SCO
+560362.0,Alejandro Rego,,Alejandro Rego,100.0,auto,Athletic Bilbao
+560493.0,Quentin Ndjantou,,Quentin Ndjantou,100.0,auto,Paris Saint-Germain
+56057.0,Yuri Berchiche,,Yuri Berchiche,100.0,auto,Athletic Bilbao
+560833.0,Kota Takai,,Kota Takai,100.0,auto,Borussia Mönchengladbach
+561278.0,Jan Bürger,,Jan Bürger,100.0,auto,VfL Wolfsburg
+565430.0,Rafael Luís,,Rafael Luís,100.0,auto,RC Strasbourg Alsace
+565461.0,Samuele Inácio,,Samuele Inácio,100.0,auto,Borussia Dortmund
+566483.0,Tochukwu Nnadi,,Tochukwu Nnadi,100.0,auto,Olympique Marseille
+566741.0,Jan Ziólkowski,,Jan Ziolkowski,100.0,auto,AS Roma
+568737.0,Davinchi,,Davinchi,100.0,auto,Getafe CF
+569759.0,Salim Musah,,Salim Musah,100.0,auto,SV Werder Bremen
+570083.0,Tomoya Ando,,Tomoya Ando,100.0,auto,FC St. Pauli
+572003.0,Joseph Liteta,,Joseph Liteta,100.0,auto,Cagliari Calcio
+572375.0,Dro Fernández,,Dro Fernández,100.0,auto,Paris Saint-Germain
+573388.0,Kojo Peprah Oppong,,Kojo Peprah Oppong,100.0,auto,OGC Nice
+573881.0,Kacper Potulski,,Kacper Potulski,100.0,auto,1.FSV Mainz 05
+574364.0,Seny Koumbassa,,Seny Koumbassa,100.0,auto,FC Toulouse
+574367.0,Alexis Vossah,,Alexis Vossah,100.0,auto,FC Toulouse
+575108.0,Khalis Merah,,Khalis Merah,100.0,auto,Olympique Lyon
+575428.0,Philip Otele,,Philip Otele,100.0,auto,Hamburger SV
+575655.0,Wael Mohya,,Wael Mohya,100.0,auto,Borussia Mönchengladbach
+576497.0,Montrell Culbreath,,Montrell Culbreath,100.0,auto,Bayer 04 Leverkusen
+577085.0,Tylel Tati,,Tylel Tati,100.0,auto,FC Nantes
+577208.0,Bahmed Deuff,,Bahmed Deuff,100.0,auto,FC Nantes
+577403.0,Thiago Pitarch,,Thiago Pitarch,100.0,auto,Real Madrid
+578374.0,Manu Fernández,,Manu Fernández,100.0,auto,Celta de Vigo
+578610.0,Fallou Cham,,Fallou Cham,100.0,auto,Hellas Verona
+578793.0,Julián Vignolo,,Julián Vignolo,100.0,auto,FC Toulouse
+581362.0,Sascha Britschgi,,Sascha Britschgi,100.0,auto,Parma Calcio 1913
+581683.0,Jan Virgili,,Jan Virgili,100.0,auto,RCD Mallorca
+582892.0,Branimir Mlacic,,Branimir Mlacic,100.0,auto,Udinese Calcio
+584098.0,Enzo Koffi,,Enzo Koffi,100.0,auto,Le Havre AC
+591723.0,Harouna Djibirin,,Harouna Djibirin,100.0,auto,Angers SCO
+596751.0,Believe Munongo,,Believe Munongo,100.0,auto,FC Metz
+599259.0,Selton Sánchez,,Selton Sánchez,100.0,auto,Athletic Bilbao
+604247.0,Kenny Quetant,,Kenny Quetant,100.0,auto,Le Havre AC
+604365.0,Kareem Tunde,,Kareem Tunde,100.0,auto,Levante UD
+605059.0,Nathan Mbala,,Nathan Mbala,100.0,auto,FC Metz
+605380.0,Ayoube Amaimouni-Echghouyab,,Ayoube Amaimouni-Echghouyab,100.0,auto,Eintracht Frankfurt
+605436.0,Julio Díaz,,Junior Diaz,76.2,manual_needed,
+605763.0,Youssoupha Niang,,Youssoupha Niang,100.0,auto,1.FC Köln
+607607.0,Ibrahim Diabate,,Ibrahim Diabate,100.0,auto,Deportivo Alavés
+608138.0,Luca Reggiani,,Luca Reggiani,100.0,auto,Borussia Dortmund
+608421.0,Paul Mendy,,Jan Paul van Hecke,85.5,auto,Brighton & Hove Albion
+61610.0,Ricardo Rodríguez,,Ricardo Rodríguez,100.0,auto,Real Betis Balompié
+6683.0,Dante,,Dante,100.0,auto,OGC Nice
+68393.0,Christian Kabasele,,Christian Kabasele,100.0,auto,Udinese Calcio
+68659.0,Jordan Henderson,,Jordan Henderson,100.0,auto,Brentford FC
+69344.0,Christian Eriksen,,Christian Eriksen,100.0,auto,VfL Wolfsburg
+69375.0,Nathaniel Clyne,,Nathaniel Clyne,100.0,auto,Crystal Palace
+69738.0,Francis Coquelin,,Francis Coquelin,100.0,auto,FC Nantes
+69778.0,Kyle Walker,,Kyle Walker,100.0,auto,Burnley FC
+69877.0,Adam Smith,,Adam Smith,100.0,auto,AFC Bournemouth
+70033.0,Daley Blind,,Daley Blind,100.0,auto,Girona FC
+70080.0,Youssef El-Arabi,,Youssef El Arabi,93.8,auto,FC Nantes
+70087.0,Stephan El Shaarawy,,Stephan El Shaarawy,100.0,auto,AS Roma
+70141.0,Ciro Immobile,,Ciro Immobile,100.0,auto,Paris FC
+71757.0,Christopher Trimmel,,Christopher Trimmel,100.0,auto,1.FC Union Berlin
+71824.0,Pascal Groß,,Pascal Groß,100.0,auto,Brighton & Hove Albion
+73084.0,Kevin De Bruyne,,Kevin De Bruyne,100.0,auto,SSC Napoli
+73265.0,Leandro Cabrera,,Leandro Cabrera,100.0,auto,RCD Espanyol Barcelona
+73380.0,Chris Wood,,Chris Wood,100.0,auto,Nottingham Forest
+75217.0,Andrej Kramaric,,Andrej Kramaric,100.0,auto,TSG 1899 Hoffenheim
+75919.0,Kiko Femenía,,Kiko Femenía,100.0,auto,Getafe CF
+77417.0,Nemanja Gudelj,,Nemanja Gudelj,100.0,auto,Sevilla FC
+77963.0,Loïc Négo,,Loïc Nego,100.0,auto,Le Havre AC
+79583.0,Tom Cairney,,Tom Cairney,100.0,auto,Fulham FC
+79840.0,Kike García,,Kike García,100.0,auto,RCD Espanyol Barcelona
+80241.0,Antoine Griezmann,,Antoine Griezmann,100.0,auto,Atlético de Madrid
+80382.0,Mario Götze,,Mario Götze,100.0,auto,Eintracht Frankfurt
+80464.0,Idrissa Gueye,,Idrissa Gueye,100.0,auto,Everton FC
+80758.0,Florian Lejeune,,Florian Lejeune,100.0,auto,Rayo Vallecano
+80764.0,Koke,,Koke,100.0,auto,Atlético de Madrid
+82277.0,Dan Burn,,Dan Burn,100.0,auto,Newcastle United
+82399.0,Stefan de Vrij,,Stefan de Vrij,100.0,auto,Inter Milan
+82726.0,Fabian Schär,,Fabian Schär,100.0,auto,Newcastle United
+82989.0,Isco,,Isco,100.0,auto,Real Betis Balompié
+83078.0,Kieran Trippier,,Kieran Trippier,100.0,auto,Newcastle United
+83303.0,Benjamin Stambouli,,Benjamin Stambouli,100.0,auto,FC Metz
+83467.0,Stefan Bell,,Stefan Bell,100.0,auto,1.FSV Mainz 05
+83532.0,Harry Kane,,Harry Kane,100.0,auto,Bayern Munich
+83686.0,Marc Bartra,,Marc Bartra,100.0,auto,Real Betis Balompié
+83719.0,Antonio Caracciolo,,Antonio Caracciolo,100.0,auto,Pisa Sporting Club
+83809.0,Nicolás Tagliafico,,Nicolás Tagliafico,100.0,auto,Olympique Lyon
+84008.0,Marcos Alonso,,Marcos Alonso,100.0,auto,Celta de Vigo
+84603.0,Juan Jesus,,Juan Jesus,100.0,auto,SSC Napoli
+84919.0,Michael Gregoritsch,,Michael Gregoritsch,100.0,auto,FC Augsburg
+85070.0,Marten de Roon,,Marten de Roon,100.0,auto,Atalanta BC
+85693.0,Rémy Cabella,,Rémy Cabella,100.0,auto,FC Nantes
+86441.0,Lewis Dunk,,Lewis Dunk,100.0,auto,Brighton & Hove Albion
+86513.0,Cédric Bakambu,,Cédric Bakambu,100.0,auto,Real Betis Balompié
+86829.0,Wataru Endo,,Wataru Endo,100.0,auto,Liverpool FC
+88526.0,Casemiro,,Casemiro,100.0,auto,Manchester United
+89401.0,Granit Xhaka,,Granit Xhaka,100.0,auto,Sunderland AFC
+89925.0,Lucas Digne,,Lucas Digne,100.0,auto,Aston Villa
+90115.0,Aïssa Mandi,,Aïssa Mandi,100.0,auto,LOSC Lille
+90782.0,Sergi Roberto,,Sergi Roberto,100.0,auto,Como 1907
+90982.0,Nicolas Höfler,,Nicolas Höfler,100.0,auto,SC Freiburg
+91213.0,Álvaro Morata,,Álvaro Morata,100.0,auto,Como 1907
+91242.0,Iago Aspas,,Iago Aspas,100.0,auto,Celta de Vigo
+91434.0,Allan Nyom,,Allan Nyom,100.0,auto,Getafe CF
+91926.0,Maxime Colin,,Maxime Colin,100.0,auto,FC Metz
+91978.0,Geoffrey Kondogbia,,Geoffrey Kondogbia,100.0,auto,Olympique Marseille
+92051.0,Marcel Sabitzer,,Marcel Sabitzer,100.0,auto,Borussia Dortmund
+92329.0,Leonardo Spinazzola,,Leonardo Spinazzola,100.0,auto,SSC Napoli
+92531.0,Abdoulaye Bamba,,Abdoulaye Bamba,100.0,auto,Angers SCO
+92547.0,Ross Barkley,,Ross Barkley,100.0,auto,Aston Villa
+92691.0,David López,,David López,100.0,auto,Girona FC
+93935.0,Cristiano Biraghi,,Cristiano Biraghi,100.0,auto,Torino FC
+94042.0,Matt Doherty,,Matt Doherty,100.0,auto,Wolverhampton Wanderers
+94934.0,Danny da Costa,,Danny da Costa,100.0,auto,1.FSV Mainz 05
+95408.0,Virgil van Dijk,,Virgil van Dijk,100.0,auto,Liverpool FC
+95423.0,Rachid Ghezzal,,Rachid Ghezzal,100.0,auto,Olympique Lyon
+95822.0,Leonardo Pavoletti,,Leonardo Pavoletti,100.0,auto,Cagliari Calcio
+96566.0,Juan Cruz,,Juan Cruz,100.0,auto,CA Osasuna
+97203.0,Federico Ceccherini,,Federico Ceccherini,100.0,auto,US Cremonese
+97351.0,Jeffrey Gouweleeuw,,Jeffrey Gouweleeuw,100.0,auto,FC Augsburg
+97659.0,Gerard Moreno,,Gerard Moreno,100.0,auto,Villarreal CF
+98126.0,Ante Budimir,,Ante Budimir,100.0,auto,CA Osasuna
+99143.0,Florian Thauvin,,Florian Thauvin,100.0,auto,RC Lens
+99487.0,Harry Maguire,,Harry Maguire,100.0,auto,Manchester United

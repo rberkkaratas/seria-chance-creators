@@ -20,15 +20,22 @@ from core.theme import D_TEXT, D_GRID, D_TICK, dark_layout
 
 class CompareTab(TabRenderer):
     def render(self, state: AppState) -> None:
-        df = state.df
+        df = state.group_df
         has_roles = state.has_roles
         has_league_col = state.has_league_col
         score_col = state.score_col
         all_roles = state.all_roles
-        role_score_cols = state.role_score_cols
+        role_score_cols = state.active_role_score_cols
         core_metrics = state.core_metrics
         active_pct_suffix = state.active_pct_suffix
         league_mode = state.league_mode
+        active_primary_role_col = state.active_primary_role_col
+        role_weights = state.group_cfg["roles"]
+
+        def _active_role_col(role: str) -> str:
+            league_col = f"{config.ROLE_SCORE_COL_PREFIX}{role}_league"
+            base_col = role_score_col(role)
+            return league_col if league_col in role_score_cols else base_col
 
         # ── Selector ──────────────────────────────────────────────────────
         st.markdown('<p class="section-title">Scouting Dossier</p>', unsafe_allow_html=True)
@@ -79,7 +86,7 @@ class CompareTab(TabRenderer):
             for _ci, _pn in enumerate(selected_players):
                 _pr      = compare_df[compare_df["player_name"] == _pn].iloc[0]
                 _pc      = _cmp_colors[_pn]
-                _pr_role = _pr.get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
+                _pr_role = _pr.get(active_primary_role_col, "") if has_roles else ""
                 _rc      = role_color(_pr_role) if _pr_role else _pc
                 _pr_sc   = float(_pr.get(score_col, 0) or 0)
                 _pr_age  = int(_pr["age"]) if "age" in _pr and pd.notna(_pr["age"]) else "—"
@@ -131,8 +138,8 @@ class CompareTab(TabRenderer):
 
             # ── Similarity helper ──
             _sim_metrics_cmp = list(dict.fromkeys(
-                list(config.CHANCE_CREATION_METRICS) +
-                [m for w in config.ROLE_WEIGHTS.values() for m in w]
+                list(core_metrics) +
+                [m for w in role_weights.values() for m in w]
             ))
             _sim_metrics_cmp = [m for m in _sim_metrics_cmp if f"{m}_pct" in compare_df.columns]
 
@@ -150,8 +157,8 @@ class CompareTab(TabRenderer):
             # ── Scout Brief ────────────────────────────────────────────────
             if len(selected_players) == 2:
                 _sb_p1, _sb_p2 = selected_players
-                _sb_r1 = compare_df[compare_df["player_name"] == _sb_p1].iloc[0].get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
-                _sb_r2 = compare_df[compare_df["player_name"] == _sb_p2].iloc[0].get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
+                _sb_r1 = compare_df[compare_df["player_name"] == _sb_p1].iloc[0].get(active_primary_role_col, "") if has_roles else ""
+                _sb_r2 = compare_df[compare_df["player_name"] == _sb_p2].iloc[0].get(active_primary_role_col, "") if has_roles else ""
                 _sb_sim = _pairwise_sim(_sb_p1, _sb_p2)
                 if _sb_r1 == _sb_r2 and _sb_r1:
                     _sb_role_line = (
@@ -163,7 +170,7 @@ class CompareTab(TabRenderer):
                         f'<b style="color:{_cmp_colors[_sb_p1]}">{_sb_p1.split()[-1]}</b> operates as a '
                         f'<b style="color:{role_color(_sb_r1)}">{_sb_r1}</b> while '
                         f'<b style="color:{_cmp_colors[_sb_p2]}">{_sb_p2.split()[-1]}</b> is a '
-                        f'<b style="color:{role_color(_sb_r2)}">{_sb_r2}</b> — two different routes to progressing the team.'
+                        f'<b style="color:{role_color(_sb_r2)}">{_sb_r2}</b> — two different routes to solving the role need.'
                     )
                 else:
                     _sb_role_line = "Two profiles matched head-to-head."
@@ -191,7 +198,7 @@ class CompareTab(TabRenderer):
                 )
                 _sb_ranked_html = " → ".join(
                     f'<b style="color:{_cmp_colors[p]}">{p.split()[-1]}</b>'
-                    + (f' <span style="color:{role_color(compare_df[compare_df["player_name"]==p].iloc[0].get(config.PRIMARY_ROLE_COL,""))};font-size:0.76rem">({compare_df[compare_df["player_name"]==p].iloc[0].get(config.PRIMARY_ROLE_COL,"—")})</span>' if has_roles else "")
+                    + (f' <span style="color:{role_color(compare_df[compare_df["player_name"]==p].iloc[0].get(active_primary_role_col,""))};font-size:0.76rem">({compare_df[compare_df["player_name"]==p].iloc[0].get(active_primary_role_col,"—")})</span>' if has_roles else "")
                     for p in _sb_roles_ranked
                 )
                 st.markdown(
@@ -225,8 +232,8 @@ class CompareTab(TabRenderer):
                 _p2_edge = min(_gaps, key=lambda x: x[1])
                 _c1, _c2 = _cmp_colors[_p1], _cmp_colors[_p2]
                 _sim_color = "#22c55e" if _sim >= 80 else "#f59e0b" if _sim >= 70 else "#94a3b8"
-                _r1_dna = compare_df[compare_df["player_name"] == _p1].iloc[0].get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
-                _r2_dna = compare_df[compare_df["player_name"] == _p2].iloc[0].get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
+                _r1_dna = compare_df[compare_df["player_name"] == _p1].iloc[0].get(active_primary_role_col, "") if has_roles else ""
+                _r2_dna = compare_df[compare_df["player_name"] == _p2].iloc[0].get(active_primary_role_col, "") if has_roles else ""
                 _sim_implication = (
                     "Signing either covers the same tactical need." if _sim >= 80 else
                     "Both fit a similar role, but different ceiling metrics may tip the decision." if _sim >= 70 else
@@ -324,7 +331,7 @@ class CompareTab(TabRenderer):
             st.markdown('<p class="section-title">Tactical Fingerprint</p>', unsafe_allow_html=True)
             _pct_lbl = "within-league" if league_mode else "cross-league"
             st.caption(
-                f"Percentile ranks ({_pct_lbl}) across 8 creation metrics. "
+                f"Percentile ranks ({_pct_lbl}) across the active group radar metrics. "
                 "Overlapping fills show shared strengths. Gaps between traces reveal where one player "
                 "covers ground the other doesn't."
             )
@@ -377,8 +384,8 @@ class CompareTab(TabRenderer):
                     for _pn in selected_players:
                         _pr    = compare_df[compare_df["player_name"] == _pn].iloc[0]
                         _pc    = _cmp_colors[_pn]
-                        _prim  = _pr.get(config.PRIMARY_ROLE_COL, "")
-                        _yvals = [float(_pr.get(role_score_col(r), 0) or 0) for r in all_roles]
+                        _prim  = _pr.get(active_primary_role_col, "")
+                        _yvals = [float(_pr.get(_active_role_col(r), 0) or 0) for r in all_roles]
                         _is_prim = [r == _prim for r in all_roles]
                         fig_role_fit.add_trace(go.Bar(
                             name=_pn, x=_shared_xlabels, y=_yvals,
@@ -404,8 +411,8 @@ class CompareTab(TabRenderer):
                         _rf_r2 = compare_df[compare_df["player_name"] == _rf_p2].iloc[0]
                         _rf_lines = []
                         for r in all_roles:
-                            _s1 = float(_rf_r1.get(role_score_col(r), 0) or 0)
-                            _s2 = float(_rf_r2.get(role_score_col(r), 0) or 0)
+                            _s1 = float(_rf_r1.get(_active_role_col(r), 0) or 0)
+                            _s2 = float(_rf_r2.get(_active_role_col(r), 0) or 0)
                             _gap = abs(_s1 - _s2)
                             if _gap > 8:
                                 _rf_winner = _rf_p1 if _s1 > _s2 else _rf_p2
@@ -427,10 +434,10 @@ class CompareTab(TabRenderer):
                     _hm_z, _hm_text = [], []
                     for _pn in selected_players:
                         _pr   = compare_df[compare_df["player_name"] == _pn].iloc[0]
-                        _prim = _pr.get(config.PRIMARY_ROLE_COL, "")
+                        _prim = _pr.get(active_primary_role_col, "")
                         _row_z, _row_t = [], []
                         for r in all_roles:
-                            v = float(_pr.get(role_score_col(r), 0) or 0)
+                            v = float(_pr.get(_active_role_col(r), 0) or 0)
                             _row_z.append(v)
                             _row_t.append(f"{'★ ' if r == _prim else ''}{v:.0f}")
                         _hm_z.append(_row_z)
@@ -461,7 +468,7 @@ class CompareTab(TabRenderer):
                     for _rdi, _rdn in enumerate(all_roles):
                         _rdc = role_color(_rdn)
                         _rd_desc = ROLE_DESCRIPTIONS.get(_rdn, "")
-                        _rd_metrics = list(config.ROLE_WEIGHTS.get(_rdn, {}).keys())[:2]
+                        _rd_metrics = list(role_weights.get(_rdn, {}).keys())[:2]
                         _rd_metric_labels = ", ".join(label(m) for m in _rd_metrics)
                         with _rd_cols[_rdi]:
                             st.markdown(
@@ -482,8 +489,8 @@ class CompareTab(TabRenderer):
             st.markdown('<p class="section-title">Where the Gap Opens</p>', unsafe_allow_html=True)
 
             _battle_metrics = list(dict.fromkeys(
-                list(config.CHANCE_CREATION_METRICS) +
-                [m for w in config.ROLE_WEIGHTS.values() for m in w]
+                list(core_metrics) +
+                [m for w in role_weights.values() for m in w]
             ))
             _battle_avail = [m for m in _battle_metrics if f"{m}{active_pct_suffix}" in compare_df.columns]
             _verdict_winner = None
@@ -554,7 +561,7 @@ class CompareTab(TabRenderer):
                         _vw_best_gap = _bwv - max(_bov)
                         _vw_best_m = _bm
 
-                _role_metric_map = {r: set(config.ROLE_WEIGHTS.get(r, {}).keys()) for r in all_roles}
+                _role_metric_map = {r: set(role_weights.get(r, {}).keys()) for r in all_roles}
                 _player_role_wins: dict[str, dict[str, int]] = {p: {r: 0 for r in all_roles} for p in selected_players}
                 for _bm in _battle_sorted:
                     _bcol = f"{_bm}{active_pct_suffix}"
@@ -627,10 +634,10 @@ class CompareTab(TabRenderer):
                 _ss_r1 = compare_df[compare_df["player_name"] == _ss_p1].iloc[0]
                 _ss_r2 = compare_df[compare_df["player_name"] == _ss_p2].iloc[0]
                 _ss_c1, _ss_c2 = _cmp_colors[_ss_p1], _cmp_colors[_ss_p2]
-                _ss_role1 = _ss_r1.get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
-                _ss_role2 = _ss_r2.get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
-                _ss_score1 = float(_ss_r1.get(role_score_col(_ss_role1), 0) or 0) if _ss_role1 else 0.0
-                _ss_score2 = float(_ss_r2.get(role_score_col(_ss_role2), 0) or 0) if _ss_role2 else 0.0
+                _ss_role1 = _ss_r1.get(active_primary_role_col, "") if has_roles else ""
+                _ss_role2 = _ss_r2.get(active_primary_role_col, "") if has_roles else ""
+                _ss_score1 = float(_ss_r1.get(_active_role_col(_ss_role1), 0) or 0) if _ss_role1 else 0.0
+                _ss_score2 = float(_ss_r2.get(_active_role_col(_ss_role2), 0) or 0) if _ss_role2 else 0.0
                 _ss_age1 = int(_ss_r1["age"]) if "age" in _ss_r1 and pd.notna(_ss_r1["age"]) else None
                 _ss_age2 = int(_ss_r2["age"]) if "age" in _ss_r2 and pd.notna(_ss_r2["age"]) else None
                 _ss_mins1 = int(_ss_r1.get("minutes_played", 0) or 0)
@@ -644,10 +651,8 @@ class CompareTab(TabRenderer):
                 )
 
                 _ss_narrative_intros = {
-                    "Creator":         "unlocks defences through dangerous deliveries — key passes, through balls, and crosses",
-                    "Ball Progressor": "drives the team forward through direct carrying and dribbling",
-                    "Box Threat":      "generates constant threat through high box-touch volume and direct shooting",
-                    "Deep Builder":    "controls tempo from deep with accurate, forward-oriented passing",
+                    role: ROLE_DESCRIPTIONS.get(role, "contributes to the active tactical role set").lower()
+                    for role in all_roles
                 }
 
                 _ss_lines = []

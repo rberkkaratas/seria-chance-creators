@@ -566,12 +566,72 @@ def parse_arguments():
         "--season", default=config.SEASON,
         help="Season string, e.g. 2025-2026 (default: %(default)s)"
     )
+    parser.add_argument(
+        "--append",
+        action="store_true",
+        help=(
+            "Append processed rows from the current event CSVs to existing "
+            "processed tables, de-duplicating by table keys. Use this when "
+            "data/events contains only newly scraped matches."
+        ),
+    )
     return parser.parse_args()
 
 
 # ─── Main Build Pipeline ─────────────────────────────────────────────
 
-def build_all_tables(league: str = config.LEAGUE, season: str = config.SEASON):
+def _concat_dedupe(
+    existing: pd.DataFrame,
+    new: pd.DataFrame,
+    subset: list[str],
+) -> pd.DataFrame:
+    """Concat existing/new tables and de-duplicate by stringified key columns."""
+    if existing.empty:
+        return new
+    if new.empty:
+        return existing
+
+    combined = pd.concat([existing, new], ignore_index=True, sort=False)
+    missing = [col for col in subset if col not in combined.columns]
+    if missing:
+        return combined.drop_duplicates()
+
+    key = combined[subset].astype(str).agg("|".join, axis=1)
+    return (
+        combined.assign(_dedupe_key=key)
+        .drop_duplicates("_dedupe_key", keep="last")
+        .drop(columns="_dedupe_key")
+        .reset_index(drop=True)
+    )
+
+
+def _append_existing_tables(
+    out_dir: Path,
+    df_matches: pd.DataFrame,
+    df_players: pd.DataFrame,
+    df_teams: pd.DataFrame,
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Merge new processed rows into existing processed tables."""
+    matches_path = out_dir / "matches.csv"
+    players_path = out_dir / "players.csv"
+    teams_path = out_dir / "teams.csv"
+
+    existing_matches = pd.read_csv(matches_path) if matches_path.exists() else pd.DataFrame()
+    existing_players = pd.read_csv(players_path) if players_path.exists() else pd.DataFrame()
+    existing_teams = pd.read_csv(teams_path) if teams_path.exists() else pd.DataFrame()
+
+    return (
+        _concat_dedupe(existing_matches, df_matches, ["match_id"]),
+        _concat_dedupe(existing_players, df_players, ["match_id", "player_id", "team_id"]),
+        _concat_dedupe(existing_teams, df_teams, ["match_id", "team_id"]),
+    )
+
+
+def build_all_tables(
+    league: str = config.LEAGUE,
+    season: str = config.SEASON,
+    append: bool = False,
+):
     """
     Read all event CSVs → aggregate → save matches.csv, players.csv, teams.csv
     Output path: data/processed/{league}/{season}/
@@ -581,6 +641,7 @@ def build_all_tables(league: str = config.LEAGUE, season: str = config.SEASON):
     csv_files = sorted(event_dir.glob("*.csv")) if event_dir.exists() else []
 
     print(f"League: {league}  Season: {season}")
+    print(f"Mode: {'append' if append else 'rebuild'}")
     print(f"Found {len(csv_files)} event CSVs in {event_dir}")
 
     if not csv_files:
@@ -625,6 +686,11 @@ def build_all_tables(league: str = config.LEAGUE, season: str = config.SEASON):
     out_dir = config.get_processed_path(league, season)
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    if append:
+        df_matches, df_players, df_teams = _append_existing_tables(
+            out_dir, df_matches, df_players, df_teams
+        )
+
     df_matches.to_csv(out_dir / "matches.csv", index=False)
     df_players.to_csv(out_dir / "players.csv", index=False)
     df_teams.to_csv(out_dir / "teams.csv", index=False)
@@ -645,8 +711,8 @@ if __name__ == "__main__":
         leagues = list(config.LEAGUES.keys())
         print(f"Building tables for all {len(leagues)} leagues: {', '.join(leagues)}\n")
         for league in leagues:
-            build_all_tables(league=league, season=args.season)
+            build_all_tables(league=league, season=args.season, append=args.append)
             print()
         print("All leagues done.")
     else:
-        build_all_tables(league=args.league, season=args.season)
+        build_all_tables(league=args.league, season=args.season, append=args.append)

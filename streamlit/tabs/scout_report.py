@@ -25,19 +25,27 @@ from core.data_loader import DataLoader
 class ScoutReportTab(TabRenderer):
     def render(self, state: AppState) -> None:
         filtered = state.filtered
-        df = state.df
+        df = state.group_df
         has_roles = state.has_roles
         has_archetypes = state.has_archetypes
         has_tm_data = state.has_tm_data
         has_league_col = state.has_league_col
         score_col = state.score_col
-        role_score_cols = state.role_score_cols
+        active_role_score_cols = state.active_role_score_cols
         core_metrics = state.core_metrics
         pct_cols = state.pct_cols
         active_pct_suffix = state.active_pct_suffix
         league_mode = state.league_mode
         raw_players_df = state.raw_players_df
         matches_df = state.matches_df
+        active_primary_role_col = state.active_primary_role_col
+        role_weights = state.group_cfg["roles"]
+        all_roles = list(role_weights.keys())
+
+        def _active_role_col(role: str) -> str:
+            league_col = f"{config.ROLE_SCORE_COL_PREFIX}{role}_league"
+            base_col = role_score_col(role)
+            return league_col if league_col in active_role_score_cols else base_col
 
         st.markdown('<p class="section-title">Scout Report</p>', unsafe_allow_html=True)
 
@@ -54,15 +62,15 @@ class ScoutReportTab(TabRenderer):
         selected_player = st.selectbox(
             "Select a player", options=player_options,
             index=default_idx,
-            help="Players sorted by CC score",
+            help="Players sorted by overall score",
         )
-        st.caption("Radar shows percentile ranks within the filtered midfielder group.")
+        st.caption("Radar shows percentile ranks within the active position group.")
 
         if selected_player:
             row       = filtered[filtered["player_name"] == selected_player].iloc[0]
             score_val = float(row.get(score_col, 0) or 0)
             arch      = row.get("archetype", "") if has_archetypes else ""
-            prim_role = row.get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
+            prim_role = row.get(active_primary_role_col, "") if has_roles else ""
             bar_col   = role_color(prim_role) if prim_role else (archetype_color(arch) if arch else "#0095FF")
 
             # League and global ranks
@@ -85,6 +93,9 @@ class ScoutReportTab(TabRenderer):
             pos_str  = str(row["position"])      if "position" in row and pd.notna(row["position"]) else "—"
             mins_val = int(row["minutes_played"]) if "minutes_played" in row and pd.notna(row["minutes_played"]) else 0
             apps_val = int(row["appearances"])    if "appearances"    in row and pd.notna(row["appearances"])    else 0
+            starts_val = int(row["starts"]) if "starts" in row and pd.notna(row["starts"]) else 0
+            conf_val = float(row.get(config.SCORE_CONFIDENCE_COL, 100) or 0)
+            sample_tier = str(row.get(config.SAMPLE_TIER_COL, "")) if config.SAMPLE_TIER_COL in row else ""
 
             # ── Header banner ──
             if has_tm_data:
@@ -158,6 +169,9 @@ class ScoutReportTab(TabRenderer):
                 f'</p>'
                 f'<p style="margin:6px 0 0;color:#64748b;font-size:0.82rem">'
                 f'{mins_val:,} minutes played &nbsp;·&nbsp; {apps_val} appearances'
+                f' &nbsp;·&nbsp; {starts_val} starts'
+                f' &nbsp;·&nbsp; {conf_val:.0f}% score confidence'
+                f'{("&nbsp;·&nbsp;" + sample_tier) if sample_tier else ""}'
                 f'</p>'
                 f'{tm_html}'
                 f'</div>'
@@ -180,15 +194,13 @@ class ScoutReportTab(TabRenderer):
 
             # ── Build narrative & strength data ──────────────────────
             _narrative_intros = {
-                "Creator":         "unlocks defences through dangerous deliveries into the box — whether centrally through key passes and through balls or from wide through crosses",
-                "Ball Progressor": "drives the team forward through direct carrying and dribbling, turning possession into penetration",
-                "Box Threat":      "constantly arrives in the penalty area, combining relentless box presence with a direct shooting threat",
-                "Deep Builder":    "controls the tempo from deep with high-volume, accurate, forward-oriented passing",
+                role: config.ALL_ROLE_DESCRIPTIONS.get(role, "contributes to the active tactical role set").lower()
+                for role in all_roles
             }
-            _role_score_val = float(row.get(f"{config.ROLE_SCORE_COL_PREFIX}{prim_role}", 0) or 0) if prim_role else 0.0
+            _role_score_val = float(row.get(_active_role_col(prim_role), 0) or 0) if prim_role else 0.0
             _surname = selected_player.split()[-1]
 
-            _role_met_list = list(config.ROLE_WEIGHTS.get(prim_role, {}).keys()) if prim_role else []
+            _role_met_list = list(role_weights.get(prim_role, {}).keys()) if prim_role else []
             _role_mpcts = sorted(
                 [(label(m), float(row.get(f"{m}{active_pct_suffix}", 0) or 0))
                  for m in _role_met_list if f"{m}{active_pct_suffix}" in row.index],
@@ -196,7 +208,7 @@ class ScoutReportTab(TabRenderer):
             )
             _narrative = ""
             if prim_role:
-                _intro = _narrative_intros.get(prim_role, "contributes across the midfield")
+                _intro = _narrative_intros.get(prim_role, "contributes to the active tactical role set")
                 _narrative = f"Rated **{_role_score_val:.0f}/100** as a **{prim_role}**, {_surname} {_intro}."
                 if len(_role_mpcts) >= 2:
                     _narrative += (
@@ -211,7 +223,7 @@ class ScoutReportTab(TabRenderer):
 
             _all_mpcts: list[tuple[str, float, str]] = []
             _seen_m: set[str] = set()
-            for _m in list({m2 for w in config.ROLE_WEIGHTS.values() for m2 in w} | set(config.CHANCE_CREATION_METRICS)):
+            for _m in list({m2 for w in role_weights.values() for m2 in w} | set(core_metrics)):
                 _pc = f"{_m}{active_pct_suffix}"
                 if _pc in row.index and pd.notna(row[_pc]) and _m not in _seen_m:
                     _all_mpcts.append((label(_m), float(row[_pc]), _m))
@@ -235,15 +247,15 @@ class ScoutReportTab(TabRenderer):
 
             with col_right:
                 # ── Role scores — compact HTML bars ────────────────────────
-                if has_roles and role_score_cols:
+                if has_roles and active_role_score_cols:
                     def _hex_to_rgba(hex_color: str, alpha: float) -> str:
                         h = hex_color.lstrip("#")
                         rv, gv, bv = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
                         return f"rgba({rv},{gv},{bv},{alpha})"
 
                     _role_bars_html = ""
-                    for _rc in role_score_cols:
-                        _rn  = _rc.replace(config.ROLE_SCORE_COL_PREFIX, "")
+                    for _rc in active_role_score_cols:
+                        _rn  = _rc.replace(config.ROLE_SCORE_COL_PREFIX, "").replace("_league", "")
                         _rv  = float(row.get(_rc, 0) or 0)
                         _rc2 = role_color(_rn)
                         _is_prim = (_rn == prim_role)
@@ -269,6 +281,8 @@ class ScoutReportTab(TabRenderer):
                     _peer_rank_html = ""
                     if prim_role:
                         _role_col = f"{config.ROLE_SCORE_COL_PREFIX}{prim_role}"
+                        if _active_role_col(prim_role) in filtered.columns:
+                            _role_col = _active_role_col(prim_role)
                         if _role_col in filtered.columns:
                             _sorted_peers = filtered.sort_values(_role_col, ascending=False).reset_index(drop=True)
                             _peer_match   = _sorted_peers[_sorted_peers["player_name"] == selected_player]
@@ -326,8 +340,11 @@ class ScoutReportTab(TabRenderer):
             TOTAL_META = [
                 ("key_passes",               "Key Passes",           "key_passes_p90"),
                 ("assists",                  "Assists",              "assists_p90"),
+                ("goals",                    "Goals",                "goals_p90"),
+                ("shot_creating_actions",    "Shot-Creating Actions","shot_creating_actions_p90"),
                 ("passes_into_penalty_area", "Passes into Box",      "passes_into_penalty_area_p90"),
                 ("through_balls",            "Through Balls",        "through_balls_p90"),
+                ("long_balls",               "Long Balls",           "long_balls_p90"),
                 ("crosses",                  "Crosses",              "crosses_p90"),
                 ("progressive_passes",       "Progressive Passes",   "progressive_passes_p90"),
                 ("carries_into_final_third", "Carries F3",           "carries_into_final_third_p90"),
@@ -335,6 +352,13 @@ class ScoutReportTab(TabRenderer):
                 ("shots",                    "Shots",                "shots_p90"),
                 ("penalty_area_touches",     "Box Touches",          "penalty_area_touches_p90"),
                 ("half_space_passes",        "Half-Space Passes",    "half_space_passes_p90"),
+                ("tackles",                  "Tackles",              "tackles_p90"),
+                ("interceptions",            "Interceptions",        "interceptions_p90"),
+                ("clearances",               "Clearances",           "clearances_p90"),
+                ("ball_recoveries",          "Recoveries",           "ball_recoveries_p90"),
+                ("aerials_won",              "Aerials Won",          "aerials_won_p90"),
+                ("shots_blocked",            "Shots Blocked",        "shots_blocked_p90"),
+                ("possession_won_final_third","High Regains",        "possession_won_final_third_p90"),
             ]
 
             totals = [
@@ -402,7 +426,7 @@ class ScoutReportTab(TabRenderer):
 
             _SIM_SUFFIX = "_pct"
             _all_sim_metrics = list(dict.fromkeys(
-                m for _rw in config.ROLE_WEIGHTS.values() for m in _rw
+                m for _rw in role_weights.values() for m in _rw
             ))
             _sim_metrics_sr = [m for m in _all_sim_metrics if f"{m}{_SIM_SUFFIX}" in df.columns]
             _n_sim          = len(_sim_metrics_sr) or 1
@@ -432,7 +456,7 @@ class ScoutReportTab(TabRenderer):
                 for _si, (_srow, _ssim, _sov) in enumerate(_top_similar):
                     _sname     = _srow["player_name"]
                     _steam     = _srow.get("team_name", "")
-                    _srole     = _srow.get(config.PRIMARY_ROLE_COL, "") if has_roles else ""
+                    _srole     = _srow.get(active_primary_role_col, "") if has_roles else ""
                     _src       = role_color(_srole) if _srole else "#334155"
                     _sscore    = float(_srow.get(score_col, 0) or 0)
                     _sage_raw  = _srow.get("age")
@@ -591,6 +615,22 @@ class ScoutReportTab(TabRenderer):
                         "Ball Progressor": "successful_dribbles",
                         "Box Threat":      "shots",
                         "Deep Builder":    "progressive_passes",
+                        "Ball Winner":     "tackles",
+                        "Stopper":         "tackles",
+                        "Aerial Dominator": "aerials_won",
+                        "Ball-Playing Defender": "progressive_passes",
+                        "Defensive Fullback": "tackles",
+                        "Attacking Fullback": "crosses",
+                        "Inverted Fullback": "progressive_passes",
+                        "Crossing Fullback": "crosses",
+                        "Touchline Winger": "successful_dribbles",
+                        "Inside Forward":  "shots",
+                        "Wide Creator":    "key_passes",
+                        "Pressing Winger": "possession_won_final_third",
+                        "Finisher":        "goals",
+                        "Target Man":      "aerials_won",
+                        "Creative Forward": "key_passes",
+                        "Pressing Forward": "possession_won_final_third",
                     }
                     _form_col = _form_metric_candidates.get(prim_role, "key_passes")
                     _form_col = _form_col if _form_col in _played.columns else (
@@ -800,6 +840,22 @@ class ScoutReportTab(TabRenderer):
                         "Ball Progressor": "progressive_passes",
                         "Box Threat":      "key_passes",
                         "Deep Builder":    "key_passes",
+                        "Ball Winner":     "interceptions",
+                        "Stopper":         "interceptions",
+                        "Aerial Dominator": "clearances",
+                        "Ball-Playing Defender": "long_balls",
+                        "Defensive Fullback": "interceptions",
+                        "Attacking Fullback": "carries_into_final_third",
+                        "Inverted Fullback": "total_passes",
+                        "Crossing Fullback": "passes_into_penalty_area",
+                        "Touchline Winger": "crosses",
+                        "Inside Forward":  "penalty_area_touches",
+                        "Wide Creator":    "shot_creating_actions",
+                        "Pressing Winger": "ball_recoveries",
+                        "Finisher":        "shots",
+                        "Target Man":      "penalty_area_touches",
+                        "Creative Forward": "shot_creating_actions",
+                        "Pressing Forward": "ball_recoveries",
                     }
                     _form_col2 = _form_col2_candidates.get(prim_role, "assists")
                     _form_col2 = (

@@ -29,11 +29,23 @@ PLAYER_COLORS = [
 METRIC_LABELS = {
     "key_passes_p90":               "Key Passes",
     "through_balls_p90":            "Through Balls",
+    "goals_p90":                    "Goals",
+    "shots_p90":                    "Shots",
     "passes_into_final_third_p90":  "Into Final Third",
     "passes_into_penalty_area_p90": "Into Box",
     "shot_creating_actions_p90":    "Shot-Creating Actions",
     "successful_dribbles_p90":      "Dribbles",
     "progressive_passes_p90":       "Progressive Passes",
+    "def_actions_p90":              "Def. Actions",
+    "tackles_p90":                  "Tackles",
+    "interceptions_p90":            "Interceptions",
+    "clearances_p90":               "Clearances",
+    "aerial_win_rate":              "Aerial Win Rate",
+    "shots_blocked_p90":            "Shots Blocked",
+    "long_balls_p90":               "Long Balls",
+    "carries_into_final_third_p90": "Carries F3",
+    "penalty_area_touches_p90":     "Box Touches",
+    "crosses_p90":                  "Crosses",
 }
 
 
@@ -69,7 +81,7 @@ def create_radar_chart(
 ) -> go.Figure:
     """Single-player radar chart — dark theme, hover shows value + percentile."""
     if metrics is None:
-        metrics = config.CHANCE_CREATION_METRICS
+        metrics = config.POSITION_GROUPS["MID"]["radar_metrics"]
 
     fill_color, line_color = PLAYER_COLORS[color_index % len(PLAYER_COLORS)]
     display_names = [_display_name(m) for m in metrics]
@@ -114,7 +126,7 @@ def create_comparison_radar(
 ) -> go.Figure:
     """Multi-player overlay radar — dark theme, hover shows value + percentile."""
     if metrics is None:
-        metrics = config.CHANCE_CREATION_METRICS
+        metrics = config.POSITION_GROUPS["MID"]["radar_metrics"]
 
     display_names = [_display_name(m) for m in metrics]
     fig = go.Figure()

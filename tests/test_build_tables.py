@@ -16,6 +16,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.processing.build_tables import (
+    _concat_dedupe,
     enrich_events,
     has_qualifier,
     parse_qualifiers,
@@ -76,6 +77,26 @@ def test_has_qualifier_case_sensitive_longball():
     quals = _make_quals("Longball")
     assert has_qualifier(quals, "Longball") is True
     assert has_qualifier(quals, "LongBall") is False
+
+
+def test_concat_dedupe_append_keeps_newer_keyed_rows():
+    existing = pd.DataFrame([
+        {"match_id": "1", "player_id": "10", "team_id": "100", "minutes_played": 80},
+        {"match_id": "2", "player_id": "20", "team_id": "200", "minutes_played": 90},
+    ])
+    new = pd.DataFrame([
+        {"match_id": "1", "player_id": "10", "team_id": "100", "minutes_played": 90},
+        {"match_id": "3", "player_id": "30", "team_id": "300", "minutes_played": 70},
+    ])
+
+    result = _concat_dedupe(existing, new, ["match_id", "player_id", "team_id"])
+
+    assert len(result) == 3
+    updated = result[
+        (result["match_id"].astype(str) == "1") &
+        (result["player_id"].astype(str) == "10")
+    ].iloc[0]
+    assert updated["minutes_played"] == 90
 
 
 def test_has_qualifier_case_sensitive_assist():
