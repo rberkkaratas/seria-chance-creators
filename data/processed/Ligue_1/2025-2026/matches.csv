@@ -1,307 +1,307 @@
-league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events
-Ligue_1,1911444,1022026,614,Angers,314,Metz,1,0,1605
-Ligue_1,1911447,1022026,228,Lyon,607,Lille,1,0,1575
-Ligue_1,1911449,1022026,613,Nice,2332,Brest,2,2,1585
-Ligue_1,1911451,1022026,148,Strasbourg,304,PSG,1,2,1569
-Ligue_1,1911452,1022026,308,Auxerre,246,Toulouse,0,0,1571
-Ligue_1,1911481,1032026,302,Nantes,607,Lille,0,1,1502
-Ligue_1,1911482,1032026,308,Auxerre,146,Lorient,2,2,1539
-Ligue_1,1911483,1032026,249,Marseille,228,Lyon,3,2,1538
-Ligue_1,1911484,1032026,314,Metz,2332,Brest,0,1,1607
-Ligue_1,1911486,1032026,613,Nice,2832,Paris FC,0,1,1536
-Ligue_1,1911347,1112025,249,Marseille,308,Auxerre,1,0,1460
-Ligue_1,1911355,1112025,2832,Paris FC,248,Monaco,1,0,1495
-Ligue_1,1911359,1112025,613,Nice,304,PSG,0,1,1699
-Ligue_1,1911425,2012026,246,Toulouse,309,Lens,0,3,1452
-Ligue_1,1911349,2112025,2332,Brest,228,Lyon,0,0,1440
-Ligue_1,1911351,2112025,309,Lens,146,Lorient,3,0,1622
-Ligue_1,1911353,2112025,614,Angers,607,Lille,0,1,1666
-Ligue_1,1911357,2112025,314,Metz,302,Nantes,2,0,1358
-Ligue_1,1911361,2112025,148,Strasbourg,313,Rennes,1,4,1625
-Ligue_1,1911363,2112025,246,Toulouse,217,Le Havre,0,0,1472
-Ligue_1,1911419,3012026,607,Lille,313,Rennes,0,2,1568
-Ligue_1,1911422,3012026,228,Lyon,248,Monaco,3,1,1455
-Ligue_1,1911423,3012026,613,Nice,148,Strasbourg,1,1,1613
-Ligue_1,1911534,3042026,246,Toulouse,304,PSG,1,3,1672
-Ligue_1,1911317,3102025,2832,Paris FC,146,Lorient,2,0,1661
-Ligue_1,1911416,4012026,2332,Brest,308,Auxerre,2,0,1566
-Ligue_1,1911418,4012026,614,Angers,217,Le Havre,1,2,1516
-Ligue_1,1911420,4012026,146,Lorient,314,Metz,1,1,1537
-Ligue_1,1911421,4012026,249,Marseille,302,Nantes,0,2,1459
-Ligue_1,1911424,4012026,2832,Paris FC,304,PSG,1,2,1673
-Ligue_1,1911523,4042026,2332,Brest,313,Rennes,3,4,1426
-Ligue_1,1911530,4042026,309,Lens,607,Lille,0,3,1407
-Ligue_1,1911535,4042026,148,Strasbourg,613,Nice,3,1,1621
-Ligue_1,1911301,4102025,309,Lens,308,Auxerre,2,1,1587
-Ligue_1,1911303,4102025,302,Nantes,2332,Brest,0,0,1411
-Ligue_1,1911312,4102025,314,Metz,249,Marseille,0,3,1504
-Ligue_1,1911521,5042026,614,Angers,228,Lyon,0,0,1495
-Ligue_1,1911529,5042026,217,Le Havre,308,Auxerre,1,1,1369
-Ligue_1,1911531,5042026,146,Lorient,2832,Paris FC,1,1,1490
-Ligue_1,1911532,5042026,302,Nantes,314,Metz,0,0,1514
-Ligue_1,1911533,5042026,249,Marseille,248,Monaco,1,2,1427
-Ligue_1,1911305,5102025,217,Le Havre,313,Rennes,2,2,1570
-Ligue_1,1911307,5102025,607,Lille,304,PSG,1,1,1599
-Ligue_1,1911309,5102025,246,Toulouse,228,Lyon,1,2,1454
-Ligue_1,1911314,5102025,248,Monaco,613,Nice,2,2,1455
-Ligue_1,1911320,5102025,148,Strasbourg,614,Angers,5,0,1816
-Ligue_1,1911382,5122025,248,Monaco,2332,Brest,0,1,1452
-Ligue_1,1911386,5122025,607,Lille,249,Marseille,1,0,1613
-Ligue_1,1911458,6022026,314,Metz,607,Lille,0,0,1420
-Ligue_1,1911496,6032026,248,Monaco,304,PSG,3,1,1636
-Ligue_1,1911389,6122025,309,Lens,302,Nantes,2,1,1539
-Ligue_1,1911394,6122025,304,PSG,313,Rennes,5,0,1590
-Ligue_1,1911396,6122025,148,Strasbourg,246,Toulouse,0,1,1587
-Ligue_1,1911455,7022026,146,Lorient,2332,Brest,0,2,1528
-Ligue_1,1911457,7022026,309,Lens,313,Rennes,3,1,1481
-Ligue_1,1911459,7022026,228,Lyon,302,Nantes,1,0,1488
-Ligue_1,1911489,7032026,148,Strasbourg,308,Auxerre,0,0,1491
-Ligue_1,1911494,7032026,614,Angers,302,Nantes,1,0,1477
-Ligue_1,1911497,7032026,246,Toulouse,249,Marseille,0,1,1529
-Ligue_1,1911381,7112025,313,Rennes,2832,Paris FC,1,0,1477
-Ligue_1,1911380,7122025,308,Auxerre,314,Metz,3,1,1448
-Ligue_1,1911384,7122025,217,Le Havre,2832,Paris FC,0,0,1446
-Ligue_1,1911388,7122025,146,Lorient,228,Lyon,1,0,1294
-Ligue_1,1911391,7122025,613,Nice,614,Angers,0,1,1726
-Ligue_1,1911453,8022026,614,Angers,246,Toulouse,1,0,1593
-Ligue_1,1911454,8022026,2832,Paris FC,308,Auxerre,0,0,1455
-Ligue_1,1911456,8022026,217,Le Havre,148,Strasbourg,2,1,1457
-Ligue_1,1911460,8022026,613,Nice,248,Monaco,0,0,1449
-Ligue_1,1911461,8022026,249,Marseille,304,PSG,1,4,1507
-Ligue_1,1911490,8032026,217,Le Havre,2332,Brest,0,2,1521
-Ligue_1,1911491,8032026,309,Lens,314,Metz,3,0,1604
-Ligue_1,1911492,8032026,607,Lille,146,Lorient,1,1,1482
-Ligue_1,1911493,8032026,2832,Paris FC,228,Lyon,1,1,1498
-Ligue_1,1911495,8032026,613,Nice,313,Rennes,0,4,1679
-Ligue_1,1911367,8112025,302,Nantes,217,Le Havre,1,1,1422
-Ligue_1,1911373,8112025,249,Marseille,2332,Brest,3,0,1567
-Ligue_1,1911379,8112025,248,Monaco,309,Lens,1,4,1623
-Ligue_1,1911365,9112025,614,Angers,308,Auxerre,1,1,1511
-Ligue_1,1911369,9112025,246,Toulouse,146,Lorient,1,1,1436
-Ligue_1,1911371,9112025,304,PSG,228,Lyon,3,2,1539
-Ligue_1,1911375,9112025,613,Nice,314,Metz,1,2,1454
-Ligue_1,1911383,9112025,148,Strasbourg,607,Lille,2,0,1412
-Ligue_1,1911540,10042026,249,Marseille,314,Metz,3,1,1486
-Ligue_1,1911542,10042026,248,Monaco,2832,Paris FC,1,4,1607
-Ligue_1,1911536,11042026,302,Nantes,308,Auxerre,0,0,1437
-Ligue_1,1911543,11042026,614,Angers,313,Rennes,2,1,1595
-Ligue_1,1911539,12042026,146,Lorient,228,Lyon,0,2,1506
-Ligue_1,1911541,12042026,217,Le Havre,613,Nice,1,1,1414
-Ligue_1,1911544,12042026,246,Toulouse,607,Lille,1,3,1555
-Ligue_1,1911339,12092025,249,Marseille,146,Lorient,4,0,1603
-Ligue_1,1911397,12122025,614,Angers,302,Nantes,4,1,1492
-Ligue_1,1911468,13022026,248,Monaco,302,Nantes,3,1,1564
-Ligue_1,1911470,13022026,304,PSG,313,Rennes,1,3,1546
-Ligue_1,1911501,13032026,308,Auxerre,249,Marseille,0,1,1557
-Ligue_1,1911330,13092025,248,Monaco,308,Auxerre,3,0,1568
-Ligue_1,1911346,13092025,613,Nice,302,Nantes,1,0,1460
-Ligue_1,1911408,13122025,304,PSG,314,Metz,3,2,1702
-Ligue_1,1911410,13122025,2832,Paris FC,246,Toulouse,0,3,1506
-Ligue_1,1911412,13122025,2332,Brest,313,Rennes,1,3,1514
-Ligue_1,1911463,14022026,607,Lille,2332,Brest,1,1,1573
-Ligue_1,1911466,14022026,148,Strasbourg,249,Marseille,2,2,1618
-Ligue_1,1911469,14022026,309,Lens,2832,Paris FC,5,0,1675
-Ligue_1,1911498,14032026,613,Nice,614,Angers,2,0,1590
-Ligue_1,1911500,14032026,146,Lorient,309,Lens,2,1,1620
-Ligue_1,1911503,14032026,2332,Brest,248,Monaco,0,2,1614
-Ligue_1,1911333,14092025,2832,Paris FC,2332,Brest,2,1,1566
-Ligue_1,1911336,14092025,246,Toulouse,607,Lille,1,2,1422
-Ligue_1,1911343,14092025,314,Metz,614,Angers,1,1,1586
-Ligue_1,1911348,14092025,309,Lens,304,PSG,0,2,1640
-Ligue_1,1911350,14092025,228,Lyon,313,Rennes,2,2,1555
-Ligue_1,1911352,14092025,148,Strasbourg,217,Le Havre,1,0,1536
-Ligue_1,1911399,14122025,308,Auxerre,607,Lille,2,5,1440
-Ligue_1,1911402,14122025,309,Lens,613,Nice,2,0,1596
-Ligue_1,1911404,14122025,228,Lyon,217,Le Havre,1,0,1252
-Ligue_1,1911406,14122025,248,Monaco,249,Marseille,0,1,1508
-Ligue_1,1911414,14122025,146,Lorient,148,Strasbourg,0,0,1672
-Ligue_1,1911462,15022026,246,Toulouse,217,Le Havre,1,2,1519
-Ligue_1,1911464,15022026,614,Angers,146,Lorient,0,2,1612
-Ligue_1,1911465,15022026,613,Nice,228,Lyon,0,2,1624
-Ligue_1,1911467,15022026,314,Metz,308,Auxerre,3,1,1591
-Ligue_1,1911499,15032026,217,Le Havre,228,Lyon,0,0,1429
-Ligue_1,1911502,15032026,314,Metz,246,Toulouse,3,4,1570
-Ligue_1,1911505,15032026,313,Rennes,607,Lille,1,2,1606
-Ligue_1,1911506,15032026,2832,Paris FC,148,Strasbourg,0,0,1611
-Ligue_1,1911273,15082025,249,Marseille,313,Rennes,0,1,1583
-Ligue_1,1911429,16012026,248,Monaco,146,Lorient,1,3,1559
-Ligue_1,1911431,16012026,607,Lille,304,PSG,0,3,1685
-Ligue_1,1911284,16082025,228,Lyon,309,Lens,1,0,1503
-Ligue_1,1911290,16082025,248,Monaco,217,Le Havre,2,2,1606
-Ligue_1,1911296,16082025,246,Toulouse,613,Nice,1,0,1464
-Ligue_1,1911426,17012026,614,Angers,249,Marseille,2,5,1636
-Ligue_1,1911427,17012026,308,Auxerre,309,Lens,0,1,1563
-Ligue_1,1911434,17012026,246,Toulouse,613,Nice,5,1,1570
-Ligue_1,1911546,17042026,309,Lens,246,Toulouse,3,2,1495
-Ligue_1,1911275,17082025,2832,Paris FC,614,Angers,0,1,1435
-Ligue_1,1911278,17082025,146,Lorient,308,Auxerre,0,1,1458
-Ligue_1,1911281,17082025,607,Lille,2332,Brest,3,3,1449
-Ligue_1,1911287,17082025,314,Metz,148,Strasbourg,0,1,1631
-Ligue_1,1911293,17082025,304,PSG,302,Nantes,1,0,1617
-Ligue_1,1911341,17102025,148,Strasbourg,304,PSG,3,3,1647
-Ligue_1,1911428,18012026,2332,Brest,228,Lyon,1,2,1585
-Ligue_1,1911430,18012026,302,Nantes,2832,Paris FC,1,2,1571
-Ligue_1,1911432,18012026,313,Rennes,217,Le Havre,1,1,1460
-Ligue_1,1911433,18012026,148,Strasbourg,314,Metz,2,1,1596
-Ligue_1,1911545,18042026,217,Le Havre,614,Angers,1,1,1406
-Ligue_1,1911547,18042026,607,Lille,613,Nice,0,0,1570
-Ligue_1,1911548,18042026,146,Lorient,249,Marseille,2,0,1438
-Ligue_1,1911323,18102025,248,Monaco,614,Angers,1,1,1616
-Ligue_1,1911332,18102025,249,Marseille,217,Le Havre,6,2,1418
-Ligue_1,1911338,18102025,613,Nice,228,Lyon,3,2,1490
-Ligue_1,1911549,19042026,2832,Paris FC,314,Metz,3,1,1586
-Ligue_1,1911550,19042026,248,Monaco,308,Auxerre,2,2,1425
-Ligue_1,1911551,19042026,302,Nantes,2332,Brest,1,1,1336
-Ligue_1,1911552,19042026,228,Lyon,304,PSG,2,1,1667
-Ligue_1,1911553,19042026,313,Rennes,148,Strasbourg,3,0,1537
-Ligue_1,1911362,19092025,614,Angers,228,Lyon,0,1,1432
-Ligue_1,1911298,19102025,314,Metz,246,Toulouse,0,4,1457
-Ligue_1,1911326,19102025,309,Lens,2832,Paris FC,2,1,1639
-Ligue_1,1911329,19102025,2332,Brest,146,Lorient,2,4,1408
-Ligue_1,1911335,19102025,607,Lille,302,Nantes,2,0,1490
-Ligue_1,1911344,19102025,308,Auxerre,313,Rennes,2,2,1465
-Ligue_1,1911473,20022026,249,Marseille,2332,Brest,0,2,1595
-Ligue_1,1911508,20032026,614,Angers,309,Lens,1,5,1661
-Ligue_1,1911356,20092025,613,Nice,2332,Brest,1,4,1646
-Ligue_1,1911360,20092025,607,Lille,309,Lens,0,3,1573
-Ligue_1,1911368,20092025,313,Rennes,302,Nantes,2,2,1432
-Ligue_1,1911474,21022026,309,Lens,248,Monaco,2,3,1510
-Ligue_1,1911477,21022026,304,PSG,314,Metz,3,0,1568
-Ligue_1,1911479,21022026,2832,Paris FC,246,Toulouse,1,1,1546
-Ligue_1,1911507,21032026,308,Auxerre,2332,Brest,3,0,1311
-Ligue_1,1911513,21032026,613,Nice,304,PSG,0,4,1443
-Ligue_1,1911519,21032026,246,Toulouse,146,Lorient,1,0,1576
-Ligue_1,1911354,21092025,308,Auxerre,246,Toulouse,1,0,1400
-Ligue_1,1911358,21092025,146,Lorient,217,Le Havre,1,1,1596
-Ligue_1,1911366,21092025,248,Monaco,314,Metz,4,3,1579
-Ligue_1,1911370,21092025,2832,Paris FC,148,Strasbourg,2,3,1629
-Ligue_1,1911395,21112025,249,Marseille,613,Nice,5,1,1516
-Ligue_1,1911471,22022026,607,Lille,614,Angers,1,0,1579
-Ligue_1,1911472,22022026,313,Rennes,308,Auxerre,3,0,1559
-Ligue_1,1911475,22022026,217,Le Havre,302,Nantes,1,1,1441
-Ligue_1,1911476,22022026,613,Nice,146,Lorient,3,3,1579
-Ligue_1,1911478,22022026,228,Lyon,148,Strasbourg,1,3,1403
-Ligue_1,1911509,22032026,228,Lyon,248,Monaco,1,2,1518
-Ligue_1,1911510,22032026,607,Lille,249,Marseille,2,1,1466
-Ligue_1,1911511,22032026,148,Strasbourg,302,Nantes,3,2,1488
-Ligue_1,1911515,22032026,2832,Paris FC,217,Le Havre,2,3,1272
-Ligue_1,1911517,22032026,314,Metz,313,Rennes,0,0,1596
-Ligue_1,1911504,22042026,302,Nantes,304,PSG,0,3,1640
-Ligue_1,1911280,22082025,304,PSG,614,Angers,1,0,1740
-Ligue_1,1911364,22092025,304,PSG,249,Marseille,1,0,1548
-Ligue_1,1911390,22112025,309,Lens,148,Strasbourg,1,0,1648
-Ligue_1,1911398,22112025,304,PSG,217,Le Havre,3,0,1572
-Ligue_1,1911400,22112025,313,Rennes,248,Monaco,4,1,1606
-Ligue_1,1911435,23012026,304,PSG,308,Auxerre,1,0,1579
-Ligue_1,1911274,23082025,2832,Paris FC,249,Marseille,2,5,1414
-Ligue_1,1911277,23082025,613,Nice,308,Auxerre,2,2,1482
-Ligue_1,1911285,23082025,314,Metz,228,Lyon,0,3,1517
-Ligue_1,1911385,23112025,308,Auxerre,228,Lyon,0,0,1423
-Ligue_1,1911387,23112025,314,Metz,2332,Brest,1,4,1497
-Ligue_1,1911392,23112025,2832,Paris FC,607,Lille,2,4,1530
-Ligue_1,1911393,23112025,146,Lorient,302,Nantes,0,2,1505
-Ligue_1,1911401,23112025,246,Toulouse,614,Angers,0,1,1579
-Ligue_1,1911437,24012026,217,Le Havre,248,Monaco,0,0,1413
-Ligue_1,1911439,24012026,249,Marseille,309,Lens,3,1,1588
-Ligue_1,1911443,24012026,313,Rennes,146,Lorient,0,2,1461
-Ligue_1,1911276,24082025,309,Lens,217,Le Havre,2,1,1576
-Ligue_1,1911279,24082025,607,Lille,248,Monaco,1,0,1497
-Ligue_1,1911282,24082025,146,Lorient,313,Rennes,4,0,1511
-Ligue_1,1911283,24082025,302,Nantes,148,Strasbourg,0,1,1588
-Ligue_1,1911286,24082025,2332,Brest,246,Toulouse,0,2,1510
-Ligue_1,1911316,24102025,2832,Paris FC,302,Nantes,1,2,1460
-Ligue_1,1911436,25012026,2332,Brest,246,Toulouse,0,2,1578
-Ligue_1,1911438,25012026,148,Strasbourg,607,Lille,4,1,1483
-Ligue_1,1911440,25012026,314,Metz,228,Lyon,2,5,1471
-Ligue_1,1911441,25012026,613,Nice,302,Nantes,4,1,1592
-Ligue_1,1911442,25012026,2832,Paris FC,614,Angers,0,0,1548
-Ligue_1,1911304,25102025,304,PSG,2332,Brest,3,0,1615
-Ligue_1,1911306,25102025,249,Marseille,309,Lens,2,1,1739
-Ligue_1,1911313,25102025,246,Toulouse,248,Monaco,0,1,1494
-Ligue_1,1911297,26092025,249,Marseille,148,Strasbourg,2,1,1552
-Ligue_1,1911300,26102025,614,Angers,146,Lorient,2,0,1602
-Ligue_1,1911302,26102025,217,Le Havre,308,Auxerre,1,0,1353
-Ligue_1,1911308,26102025,607,Lille,314,Metz,6,1,1500
-Ligue_1,1911311,26102025,148,Strasbourg,228,Lyon,2,1,1335
-Ligue_1,1911319,26102025,313,Rennes,613,Nice,1,2,1502
-Ligue_1,1911488,27022026,148,Strasbourg,309,Lens,1,1,1573
-Ligue_1,1911291,27092025,304,PSG,308,Auxerre,2,0,1659
-Ligue_1,1911299,27092025,302,Nantes,246,Toulouse,2,2,1548
-Ligue_1,1911376,27092025,248,Monaco,146,Lorient,1,3,1653
-Ligue_1,1911480,28022026,217,Le Havre,304,PSG,0,1,1622
-Ligue_1,1911485,28022026,614,Angers,248,Monaco,0,2,1667
-Ligue_1,1911487,28022026,246,Toulouse,313,Rennes,0,1,1663
-Ligue_1,1911288,28092025,2832,Paris FC,613,Nice,1,1,1486
-Ligue_1,1911294,28092025,313,Rennes,309,Lens,0,0,1487
-Ligue_1,1911372,28092025,2332,Brest,614,Angers,2,0,1496
-Ligue_1,1911374,28092025,228,Lyon,607,Lille,1,0,1389
-Ligue_1,1911378,28092025,314,Metz,217,Le Havre,0,0,1408
-Ligue_1,1911413,28112025,313,Rennes,314,Metz,1,0,1533
-Ligue_1,1911295,29082025,2332,Brest,309,Lens,1,3,1566
-Ligue_1,1911322,29102025,217,Le Havre,2332,Brest,1,0,1588
-Ligue_1,1911325,29102025,146,Lorient,304,PSG,1,1,1596
-Ligue_1,1911327,29102025,614,Angers,249,Marseille,2,2,1671
-Ligue_1,1911331,29102025,309,Lens,314,Metz,0,2,1543
-Ligue_1,1911334,29102025,302,Nantes,248,Monaco,3,5,1449
-Ligue_1,1911337,29102025,607,Lille,613,Nice,0,2,1500
-Ligue_1,1911340,29102025,228,Lyon,2832,Paris FC,3,3,1492
-Ligue_1,1911342,29102025,148,Strasbourg,308,Auxerre,3,0,1623
-Ligue_1,1911345,29102025,246,Toulouse,313,Rennes,2,2,1400
-Ligue_1,1911411,29112025,246,Toulouse,249,Marseille,2,2,1547
-Ligue_1,1911415,29112025,304,PSG,248,Monaco,0,1,1518
-Ligue_1,1911417,29112025,2832,Paris FC,308,Auxerre,1,1,1517
-Ligue_1,1911445,30012026,309,Lens,217,Le Havre,1,0,1605
-Ligue_1,1911310,30082025,607,Lille,146,Lorient,7,1,1474
-Ligue_1,1911321,30082025,308,Auxerre,302,Nantes,0,1,1430
-Ligue_1,1911328,30082025,304,PSG,246,Toulouse,6,3,1670
-Ligue_1,1911377,30112025,2332,Brest,148,Strasbourg,2,1,1556
-Ligue_1,1911403,30112025,614,Angers,309,Lens,1,2,1646
-Ligue_1,1911405,30112025,607,Lille,217,Le Havre,1,0,1466
-Ligue_1,1911407,30112025,613,Nice,146,Lorient,0,4,1569
-Ligue_1,1911409,30112025,302,Nantes,228,Lyon,0,3,1380
-Ligue_1,1911446,31012026,302,Nantes,146,Lorient,1,2,1580
-Ligue_1,1911448,31012026,313,Rennes,248,Monaco,0,4,1517
-Ligue_1,1911450,31012026,2832,Paris FC,249,Marseille,2,2,1557
-Ligue_1,1911289,31082025,614,Angers,313,Rennes,1,1,1615
-Ligue_1,1911292,31082025,217,Le Havre,613,Nice,3,1,1422
-Ligue_1,1911315,31082025,249,Marseille,228,Lyon,0,1,1328
-Ligue_1,1911318,31082025,248,Monaco,148,Strasbourg,3,2,1554
-Ligue_1,1911324,31082025,2832,Paris FC,314,Metz,3,2,1569
-Ligue_1,1911566,02052026,314,Metz,248,Monaco,1,2,1502
-Ligue_1,1911567,02052026,249,Marseille,302,Nantes,0,3,1490
-Ligue_1,1911568,02052026,613,Nice,309,Lens,1,1,1543
-Ligue_1,1911570,02052026,146,Lorient,304,PSG,2,2,1418
-Ligue_1,1911563,03052026,614,Angers,308,Auxerre,1,3,1524
-Ligue_1,1911564,03052026,607,Lille,217,Le Havre,1,1,1457
-Ligue_1,1911565,03052026,228,Lyon,313,Rennes,4,2,1407
-Ligue_1,1911569,03052026,2332,Brest,2832,Paris FC,0,4,1442
-Ligue_1,1911571,03052026,246,Toulouse,148,Strasbourg,2,1,1512
-Ligue_1,1911575,08052026,309,Lens,302,Nantes,1,0,1441
-Ligue_1,1911512,10052026,2832,Paris FC,313,Rennes,2,1,1519
-Ligue_1,1911514,10052026,228,Lyon,246,Toulouse,1,2,1449
-Ligue_1,1911572,10052026,148,Strasbourg,614,Angers,1,1,1510
-Ligue_1,1911573,10052026,308,Auxerre,613,Nice,2,1,1537
-Ligue_1,1911574,10052026,217,Le Havre,249,Marseille,0,1,1416
-Ligue_1,1911576,10052026,314,Metz,146,Lorient,0,4,1476
-Ligue_1,1911577,10052026,248,Monaco,607,Lille,1,0,1460
-Ligue_1,1911578,10052026,2332,Brest,304,PSG,0,1,1660
-Ligue_1,1911537,13052026,148,Strasbourg,2332,Brest,2,1,1674
-Ligue_1,1911538,13052026,309,Lens,304,PSG,0,2,1799
-Ligue_1,1911516,17052026,2332,Brest,614,Angers,1,1,1463
-Ligue_1,1911518,17052026,308,Auxerre,607,Lille,2,0,1462
-Ligue_1,1911520,17052026,217,Le Havre,146,Lorient,1,1,1370
-Ligue_1,1911522,17052026,309,Lens,228,Lyon,4,0,1488
-Ligue_1,1911524,17052026,249,Marseille,313,Rennes,3,1,1602
-Ligue_1,1911525,17052026,302,Nantes,246,Toulouse,0,0,410
-Ligue_1,1911526,17052026,314,Metz,613,Nice,0,0,1692
-Ligue_1,1911527,17052026,304,PSG,2832,Paris FC,1,2,1686
-Ligue_1,1911528,17052026,148,Strasbourg,248,Monaco,6,3,1552
-Ligue_1,1911555,24042026,2332,Brest,309,Lens,3,3,1572
-Ligue_1,1911554,25042026,304,PSG,614,Angers,3,0,1666
-Ligue_1,1911558,25042026,228,Lyon,308,Auxerre,3,2,1444
-Ligue_1,1911562,25042026,246,Toulouse,248,Monaco,2,2,1694
-Ligue_1,1911556,26042026,314,Metz,217,Le Havre,4,4,1374
-Ligue_1,1911557,26042026,148,Strasbourg,146,Lorient,2,3,1412
-Ligue_1,1911559,26042026,613,Nice,249,Marseille,1,1,1558
-Ligue_1,1911560,26042026,607,Lille,2832,Paris FC,1,0,1507
-Ligue_1,1911561,26042026,313,Rennes,302,Nantes,2,1,1422
+league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events,competition_key,competition_type,competition_phase,phase_table_scope,source_stage_id,validation_status
+Ligue_1,1911444,1022026,614,Angers,314,Metz,1,0,1605,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911447,1022026,228,Lyon,607,Lille,1,0,1575,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911449,1022026,613,Nice,2332,Brest,2,2,1585,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911451,1022026,148,Strasbourg,304,PSG,1,2,1569,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911452,1022026,246,Toulouse,308,Auxerre,0,0,1571,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911481,1032026,607,Lille,302,Nantes,1,0,1502,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911482,1032026,146,Lorient,308,Auxerre,2,2,1539,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911483,1032026,249,Marseille,228,Lyon,3,2,1538,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911484,1032026,314,Metz,2332,Brest,0,1,1607,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911486,1032026,2832,Paris FC,613,Nice,1,0,1536,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911347,1112025,308,Auxerre,249,Marseille,0,1,1460,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911355,1112025,248,Monaco,2832,Paris FC,0,1,1495,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911359,1112025,304,PSG,613,Nice,1,0,1699,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911425,2012026,246,Toulouse,309,Lens,0,3,1452,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911349,2112025,2332,Brest,228,Lyon,0,0,1440,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911351,2112025,309,Lens,146,Lorient,3,0,1622,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911353,2112025,607,Lille,614,Angers,1,0,1666,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911357,2112025,302,Nantes,314,Metz,0,2,1358,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911361,2112025,313,Rennes,148,Strasbourg,4,1,1625,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911363,2112025,246,Toulouse,217,Le Havre,0,0,1472,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911419,3012026,607,Lille,313,Rennes,0,2,1568,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911422,3012026,248,Monaco,228,Lyon,1,3,1455,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911423,3012026,613,Nice,148,Strasbourg,1,1,1613,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911534,3042026,304,PSG,246,Toulouse,3,1,1672,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911317,3102025,2832,Paris FC,146,Lorient,2,0,1661,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911416,4012026,2332,Brest,308,Auxerre,2,0,1566,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911418,4012026,217,Le Havre,614,Angers,2,1,1516,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911420,4012026,146,Lorient,314,Metz,1,1,1537,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911421,4012026,249,Marseille,302,Nantes,0,2,1459,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911424,4012026,304,PSG,2832,Paris FC,2,1,1673,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911523,4042026,2332,Brest,313,Rennes,3,4,1426,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911530,4042026,607,Lille,309,Lens,3,0,1407,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911535,4042026,148,Strasbourg,613,Nice,3,1,1621,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911301,4102025,308,Auxerre,309,Lens,1,2,1587,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911303,4102025,2332,Brest,302,Nantes,0,0,1411,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911312,4102025,314,Metz,249,Marseille,0,3,1504,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911521,5042026,614,Angers,228,Lyon,0,0,1495,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911529,5042026,217,Le Havre,308,Auxerre,1,1,1369,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911531,5042026,146,Lorient,2832,Paris FC,1,1,1490,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911532,5042026,314,Metz,302,Nantes,0,0,1514,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911533,5042026,248,Monaco,249,Marseille,2,1,1427,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911305,5102025,217,Le Havre,313,Rennes,2,2,1570,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911307,5102025,607,Lille,304,PSG,1,1,1599,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911309,5102025,228,Lyon,246,Toulouse,1,2,1454,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911314,5102025,248,Monaco,613,Nice,2,2,1455,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911320,5102025,148,Strasbourg,614,Angers,5,0,1816,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911382,5122025,2332,Brest,248,Monaco,1,0,1452,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911386,5122025,607,Lille,249,Marseille,1,0,1613,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911458,6022026,314,Metz,607,Lille,0,0,1420,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911496,6032026,304,PSG,248,Monaco,1,3,1636,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911389,6122025,302,Nantes,309,Lens,1,2,1539,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911394,6122025,304,PSG,313,Rennes,5,0,1590,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911396,6122025,246,Toulouse,148,Strasbourg,1,0,1587,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911455,7022026,2332,Brest,146,Lorient,2,0,1528,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911457,7022026,309,Lens,313,Rennes,3,1,1481,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911459,7022026,302,Nantes,228,Lyon,0,1,1488,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911489,7032026,308,Auxerre,148,Strasbourg,0,0,1491,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911494,7032026,302,Nantes,614,Angers,0,1,1477,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911497,7032026,246,Toulouse,249,Marseille,0,1,1529,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911381,7112025,2832,Paris FC,313,Rennes,0,1,1477,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911380,7122025,308,Auxerre,314,Metz,3,1,1448,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911384,7122025,217,Le Havre,2832,Paris FC,0,0,1446,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911388,7122025,146,Lorient,228,Lyon,1,0,1294,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911391,7122025,613,Nice,614,Angers,0,1,1726,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911453,8022026,614,Angers,246,Toulouse,1,0,1593,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911454,8022026,308,Auxerre,2832,Paris FC,0,0,1455,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911456,8022026,217,Le Havre,148,Strasbourg,2,1,1457,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911460,8022026,613,Nice,248,Monaco,0,0,1449,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911461,8022026,304,PSG,249,Marseille,5,0,1507,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911490,8032026,2332,Brest,217,Le Havre,2,0,1521,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911491,8032026,309,Lens,314,Metz,3,0,1604,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911492,8032026,607,Lille,146,Lorient,1,1,1482,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911493,8032026,228,Lyon,2832,Paris FC,1,1,1498,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911495,8032026,613,Nice,313,Rennes,0,4,1679,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911367,8112025,217,Le Havre,302,Nantes,1,1,1422,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911373,8112025,249,Marseille,2332,Brest,3,0,1567,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911379,8112025,248,Monaco,309,Lens,1,4,1623,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911365,9112025,614,Angers,308,Auxerre,2,0,1511,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911369,9112025,146,Lorient,246,Toulouse,1,1,1436,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911371,9112025,228,Lyon,304,PSG,2,3,1539,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911375,9112025,314,Metz,613,Nice,2,1,1454,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911383,9112025,148,Strasbourg,607,Lille,2,0,1412,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911540,10042026,249,Marseille,314,Metz,3,1,1486,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911542,10042026,2832,Paris FC,248,Monaco,4,1,1607,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911536,11042026,308,Auxerre,302,Nantes,0,0,1437,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911543,11042026,313,Rennes,614,Angers,2,1,1595,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911539,12042026,228,Lyon,146,Lorient,2,0,1506,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911541,12042026,613,Nice,217,Le Havre,1,1,1414,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911544,12042026,246,Toulouse,607,Lille,0,4,1555,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911339,12092025,249,Marseille,146,Lorient,4,0,1603,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911397,12122025,614,Angers,302,Nantes,4,1,1492,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911468,13022026,248,Monaco,302,Nantes,3,1,1564,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911470,13022026,313,Rennes,304,PSG,3,1,1546,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911501,13032026,249,Marseille,308,Auxerre,1,0,1557,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911330,13092025,308,Auxerre,248,Monaco,1,2,1568,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911346,13092025,613,Nice,302,Nantes,1,0,1460,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911408,13122025,314,Metz,304,PSG,2,3,1702,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911410,13122025,2832,Paris FC,246,Toulouse,0,3,1506,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911412,13122025,313,Rennes,2332,Brest,3,1,1514,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911463,14022026,607,Lille,2332,Brest,1,1,1573,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911466,14022026,249,Marseille,148,Strasbourg,2,2,1618,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911469,14022026,2832,Paris FC,309,Lens,0,5,1675,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911498,14032026,614,Angers,613,Nice,0,2,1590,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911500,14032026,146,Lorient,309,Lens,2,1,1620,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911503,14032026,248,Monaco,2332,Brest,2,0,1614,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911333,14092025,2332,Brest,2832,Paris FC,1,2,1566,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911336,14092025,607,Lille,246,Toulouse,2,1,1422,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911343,14092025,314,Metz,614,Angers,1,1,1586,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911348,14092025,304,PSG,309,Lens,2,0,1640,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911350,14092025,313,Rennes,228,Lyon,3,1,1555,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911352,14092025,148,Strasbourg,217,Le Havre,1,0,1536,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911399,14122025,308,Auxerre,607,Lille,3,4,1440,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911402,14122025,309,Lens,613,Nice,2,0,1596,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911404,14122025,228,Lyon,217,Le Havre,1,0,1252,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911406,14122025,249,Marseille,248,Monaco,1,0,1508,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911414,14122025,148,Strasbourg,146,Lorient,0,0,1672,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911462,15022026,217,Le Havre,246,Toulouse,2,1,1519,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911464,15022026,146,Lorient,614,Angers,2,0,1612,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911465,15022026,228,Lyon,613,Nice,2,0,1624,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911467,15022026,314,Metz,308,Auxerre,1,3,1591,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911499,15032026,217,Le Havre,228,Lyon,0,0,1429,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911502,15032026,314,Metz,246,Toulouse,3,4,1570,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911505,15032026,313,Rennes,607,Lille,1,2,1606,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911506,15032026,148,Strasbourg,2832,Paris FC,0,0,1611,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911273,15082025,313,Rennes,249,Marseille,1,0,1583,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911429,16012026,248,Monaco,146,Lorient,1,3,1559,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911431,16012026,304,PSG,607,Lille,3,0,1685,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911284,16082025,309,Lens,228,Lyon,0,1,1503,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911290,16082025,248,Monaco,217,Le Havre,3,1,1606,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911296,16082025,613,Nice,246,Toulouse,0,1,1464,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911426,17012026,614,Angers,249,Marseille,2,5,1636,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911427,17012026,309,Lens,308,Auxerre,1,0,1563,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911434,17012026,246,Toulouse,613,Nice,5,1,1570,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911546,17042026,309,Lens,246,Toulouse,3,2,1495,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911275,17082025,614,Angers,2832,Paris FC,1,0,1435,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911278,17082025,308,Auxerre,146,Lorient,1,0,1458,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911281,17082025,2332,Brest,607,Lille,3,3,1449,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911287,17082025,314,Metz,148,Strasbourg,0,1,1631,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911293,17082025,302,Nantes,304,PSG,0,1,1617,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911341,17102025,304,PSG,148,Strasbourg,3,3,1647,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911428,18012026,228,Lyon,2332,Brest,2,1,1585,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911430,18012026,302,Nantes,2832,Paris FC,1,2,1571,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911432,18012026,313,Rennes,217,Le Havre,1,1,1460,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911433,18012026,148,Strasbourg,314,Metz,2,1,1596,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911545,18042026,614,Angers,217,Le Havre,1,1,1406,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911547,18042026,607,Lille,613,Nice,0,0,1570,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911548,18042026,146,Lorient,249,Marseille,2,0,1438,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911323,18102025,614,Angers,248,Monaco,1,1,1616,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911332,18102025,249,Marseille,217,Le Havre,6,2,1418,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911338,18102025,613,Nice,228,Lyon,3,2,1490,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911549,19042026,314,Metz,2832,Paris FC,1,3,1586,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911550,19042026,248,Monaco,308,Auxerre,2,2,1425,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911551,19042026,302,Nantes,2332,Brest,1,1,1336,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911552,19042026,304,PSG,228,Lyon,1,2,1667,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911553,19042026,148,Strasbourg,313,Rennes,0,3,1537,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911362,19092025,228,Lyon,614,Angers,1,0,1432,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911298,19102025,246,Toulouse,314,Metz,4,0,1457,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911326,19102025,309,Lens,2832,Paris FC,2,1,1639,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911329,19102025,146,Lorient,2332,Brest,3,3,1408,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911335,19102025,302,Nantes,607,Lille,0,2,1490,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911344,19102025,313,Rennes,308,Auxerre,2,2,1465,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911473,20022026,2332,Brest,249,Marseille,2,0,1595,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911508,20032026,309,Lens,614,Angers,5,1,1661,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911356,20092025,2332,Brest,613,Nice,4,1,1646,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911360,20092025,309,Lens,607,Lille,3,0,1573,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911368,20092025,302,Nantes,313,Rennes,2,2,1432,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911474,21022026,309,Lens,248,Monaco,2,3,1510,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911477,21022026,304,PSG,314,Metz,3,0,1568,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911479,21022026,246,Toulouse,2832,Paris FC,1,1,1546,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911507,21032026,308,Auxerre,2332,Brest,3,0,1311,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911513,21032026,613,Nice,304,PSG,0,4,1443,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911519,21032026,246,Toulouse,146,Lorient,1,0,1576,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911354,21092025,308,Auxerre,246,Toulouse,1,0,1400,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911358,21092025,217,Le Havre,146,Lorient,1,1,1596,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911366,21092025,248,Monaco,314,Metz,5,2,1579,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911370,21092025,2832,Paris FC,148,Strasbourg,2,3,1629,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911395,21112025,613,Nice,249,Marseille,1,5,1516,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911471,22022026,614,Angers,607,Lille,0,1,1579,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911472,22022026,308,Auxerre,313,Rennes,0,3,1559,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911475,22022026,302,Nantes,217,Le Havre,2,0,1441,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911476,22022026,613,Nice,146,Lorient,3,3,1579,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911478,22022026,148,Strasbourg,228,Lyon,3,1,1403,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911509,22032026,228,Lyon,248,Monaco,1,2,1518,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911510,22032026,249,Marseille,607,Lille,1,2,1466,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911511,22032026,302,Nantes,148,Strasbourg,2,3,1488,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911515,22032026,2832,Paris FC,217,Le Havre,3,2,1272,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911517,22032026,313,Rennes,314,Metz,0,0,1596,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911504,22042026,304,PSG,302,Nantes,3,0,1640,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911280,22082025,304,PSG,614,Angers,1,0,1740,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911364,22092025,249,Marseille,304,PSG,1,0,1548,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911390,22112025,309,Lens,148,Strasbourg,1,0,1648,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911398,22112025,304,PSG,217,Le Havre,3,0,1572,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911400,22112025,313,Rennes,248,Monaco,4,1,1606,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911435,23012026,308,Auxerre,304,PSG,0,1,1579,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911274,23082025,249,Marseille,2832,Paris FC,5,2,1414,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911277,23082025,613,Nice,308,Auxerre,3,1,1482,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911285,23082025,228,Lyon,314,Metz,3,0,1517,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911385,23112025,308,Auxerre,228,Lyon,0,0,1423,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911387,23112025,2332,Brest,314,Metz,3,2,1497,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911392,23112025,607,Lille,2832,Paris FC,4,2,1530,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911393,23112025,302,Nantes,146,Lorient,1,1,1505,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911401,23112025,246,Toulouse,614,Angers,0,1,1579,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911437,24012026,217,Le Havre,248,Monaco,0,0,1413,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911439,24012026,249,Marseille,309,Lens,3,1,1588,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911443,24012026,313,Rennes,146,Lorient,0,2,1461,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911276,24082025,217,Le Havre,309,Lens,1,2,1576,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911279,24082025,607,Lille,248,Monaco,1,0,1497,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911282,24082025,146,Lorient,313,Rennes,4,0,1511,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911283,24082025,148,Strasbourg,302,Nantes,1,0,1588,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911286,24082025,246,Toulouse,2332,Brest,2,0,1510,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911316,24102025,2832,Paris FC,302,Nantes,1,2,1460,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911436,25012026,2332,Brest,246,Toulouse,0,2,1578,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911438,25012026,607,Lille,148,Strasbourg,1,4,1483,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911440,25012026,314,Metz,228,Lyon,2,5,1471,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911441,25012026,302,Nantes,613,Nice,1,4,1592,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911442,25012026,2832,Paris FC,614,Angers,0,0,1548,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911304,25102025,2332,Brest,304,PSG,0,3,1615,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911306,25102025,309,Lens,249,Marseille,2,1,1739,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911313,25102025,248,Monaco,246,Toulouse,1,0,1494,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911297,26092025,148,Strasbourg,249,Marseille,1,2,1552,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911300,26102025,614,Angers,146,Lorient,2,0,1602,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911302,26102025,308,Auxerre,217,Le Havre,0,1,1353,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911308,26102025,607,Lille,314,Metz,6,1,1500,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911311,26102025,228,Lyon,148,Strasbourg,2,1,1335,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911319,26102025,313,Rennes,613,Nice,1,2,1502,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911488,27022026,148,Strasbourg,309,Lens,1,1,1573,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911291,27092025,304,PSG,308,Auxerre,2,0,1659,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911299,27092025,246,Toulouse,302,Nantes,2,2,1548,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911376,27092025,146,Lorient,248,Monaco,3,1,1653,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911480,28022026,217,Le Havre,304,PSG,0,1,1622,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911485,28022026,248,Monaco,614,Angers,2,0,1667,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911487,28022026,313,Rennes,246,Toulouse,1,0,1663,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911288,28092025,613,Nice,2832,Paris FC,1,1,1486,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911294,28092025,313,Rennes,309,Lens,0,0,1487,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911372,28092025,614,Angers,2332,Brest,0,2,1496,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911374,28092025,607,Lille,228,Lyon,0,1,1389,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911378,28092025,314,Metz,217,Le Havre,0,0,1408,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911413,28112025,314,Metz,313,Rennes,0,1,1533,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911295,29082025,309,Lens,2332,Brest,3,1,1566,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911322,29102025,217,Le Havre,2332,Brest,1,0,1588,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911325,29102025,146,Lorient,304,PSG,1,1,1596,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911327,29102025,249,Marseille,614,Angers,2,2,1671,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911331,29102025,314,Metz,309,Lens,2,0,1543,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911334,29102025,302,Nantes,248,Monaco,3,5,1449,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911337,29102025,613,Nice,607,Lille,2,0,1500,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911340,29102025,2832,Paris FC,228,Lyon,3,3,1492,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911342,29102025,148,Strasbourg,308,Auxerre,3,0,1623,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911345,29102025,246,Toulouse,313,Rennes,2,2,1400,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911411,29112025,249,Marseille,246,Toulouse,2,2,1547,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911415,29112025,248,Monaco,304,PSG,1,0,1518,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911417,29112025,2832,Paris FC,308,Auxerre,1,1,1517,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911445,30012026,309,Lens,217,Le Havre,1,0,1605,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911310,30082025,146,Lorient,607,Lille,1,7,1474,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911321,30082025,302,Nantes,308,Auxerre,1,0,1430,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911328,30082025,246,Toulouse,304,PSG,3,6,1670,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911377,30112025,148,Strasbourg,2332,Brest,1,2,1556,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911403,30112025,614,Angers,309,Lens,1,2,1646,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911405,30112025,217,Le Havre,607,Lille,0,1,1466,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911407,30112025,146,Lorient,613,Nice,3,1,1569,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911409,30112025,228,Lyon,302,Nantes,3,0,1380,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911446,31012026,146,Lorient,302,Nantes,2,1,1580,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911448,31012026,248,Monaco,313,Rennes,4,0,1517,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911450,31012026,2832,Paris FC,249,Marseille,2,2,1557,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911289,31082025,614,Angers,313,Rennes,1,1,1615,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911292,31082025,217,Le Havre,613,Nice,3,1,1422,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911315,31082025,228,Lyon,249,Marseille,1,0,1328,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911318,31082025,248,Monaco,148,Strasbourg,3,2,1554,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911324,31082025,2832,Paris FC,314,Metz,3,2,1569,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911566,2052026,314,Metz,248,Monaco,1,2,1502,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911567,2052026,302,Nantes,249,Marseille,3,0,1490,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911568,2052026,613,Nice,309,Lens,1,1,1543,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911570,2052026,304,PSG,146,Lorient,2,2,1418,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911563,3052026,308,Auxerre,614,Angers,3,1,1524,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911564,3052026,607,Lille,217,Le Havre,1,1,1457,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911565,3052026,228,Lyon,313,Rennes,4,2,1407,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911569,3052026,2832,Paris FC,2332,Brest,4,0,1442,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911571,3052026,148,Strasbourg,246,Toulouse,1,2,1512,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911575,8052026,309,Lens,302,Nantes,1,0,1441,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911512,10052026,313,Rennes,2832,Paris FC,2,1,1519,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911514,10052026,246,Toulouse,228,Lyon,2,1,1449,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911572,10052026,614,Angers,148,Strasbourg,1,1,1510,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911573,10052026,308,Auxerre,613,Nice,2,1,1537,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911574,10052026,217,Le Havre,249,Marseille,0,1,1416,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911576,10052026,314,Metz,146,Lorient,0,4,1476,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911577,10052026,248,Monaco,607,Lille,0,1,1460,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911578,10052026,304,PSG,2332,Brest,1,0,1660,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911537,13052026,2332,Brest,148,Strasbourg,1,2,1674,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911538,13052026,309,Lens,304,PSG,0,2,1799,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911516,17052026,2332,Brest,614,Angers,1,1,1463,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911518,17052026,607,Lille,308,Auxerre,0,2,1462,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911520,17052026,146,Lorient,217,Le Havre,0,2,1370,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911522,17052026,228,Lyon,309,Lens,0,4,1488,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911524,17052026,249,Marseille,313,Rennes,3,1,1602,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911525,17052026,302,Nantes,246,Toulouse,0,0,410,Ligue_1,domestic_league,regular_season,regular_season,,pending
+Ligue_1,1911526,17052026,613,Nice,314,Metz,0,0,1692,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911527,17052026,2832,Paris FC,304,PSG,2,1,1686,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911528,17052026,148,Strasbourg,248,Monaco,5,4,1552,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911555,24042026,2332,Brest,309,Lens,3,3,1572,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911554,25042026,614,Angers,304,PSG,0,3,1666,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911558,25042026,228,Lyon,308,Auxerre,3,2,1444,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911562,25042026,246,Toulouse,248,Monaco,2,2,1694,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911556,26042026,217,Le Havre,314,Metz,4,4,1374,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911557,26042026,146,Lorient,148,Strasbourg,2,3,1412,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911559,26042026,249,Marseille,613,Nice,1,1,1558,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911560,26042026,2832,Paris FC,607,Lille,0,1,1507,Ligue_1,domestic_league,regular_season,regular_season,,ok
+Ligue_1,1911561,26042026,313,Rennes,302,Nantes,2,1,1422,Ligue_1,domestic_league,regular_season,regular_season,,ok

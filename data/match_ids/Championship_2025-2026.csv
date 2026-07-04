@@ -1,468 +1,475 @@
-match_id,scraped
-1908320,True
-1908321,True
-1908322,True
-1908323,True
-1908324,True
-1908325,True
-1908326,True
-1908327,True
-1908328,True
-1908329,True
-1908330,True
-1908344,True
-1908345,True
-1908347,True
-1908348,True
-1908349,True
-1908350,True
-1908351,True
-1908352,True
-1908353,True
-1908354,True
-1908355,True
-1908356,True
-1908357,True
-1908358,True
-1908360,True
-1908361,True
-1908362,True
-1908363,True
-1908364,True
-1908365,True
-1908366,True
-1908367,True
-1908368,True
-1908369,True
-1908370,True
-1908371,True
-1908372,True
-1908375,True
-1908376,True
-1908377,True
-1908378,True
-1908379,True
-1908380,True
-1908381,True
-1908382,True
-1908383,True
-1908384,True
-1908385,True
-1908386,True
-1908387,True
-1908388,True
-1908389,True
-1908390,True
-1908391,True
-1908392,True
-1908393,True
-1908394,True
-1908395,True
-1908396,True
-1908397,True
-1908398,True
-1908399,True
-1908400,True
-1908401,True
-1908402,True
-1908403,True
-1908404,True
-1908405,True
-1908406,True
-1908407,True
-1908408,True
-1908409,True
-1908410,True
-1908411,True
-1908412,True
-1908413,True
-1908414,True
-1908415,True
-1908416,True
-1908417,True
-1908418,True
-1908419,True
-1908420,True
-1908421,True
-1908422,True
-1908423,True
-1908424,True
-1908425,True
-1908426,True
-1908427,True
-1908428,True
-1908429,True
-1908430,True
-1908431,True
-1908432,True
-1908433,True
-1908434,True
-1908435,True
-1908436,True
-1908437,True
-1908438,True
-1908439,True
-1908440,True
-1908441,True
-1908442,True
-1908443,True
-1908444,True
-1908445,True
-1908446,True
-1908447,True
-1908448,True
-1908449,True
-1908450,True
-1908451,True
-1908452,True
-1908453,True
-1908454,True
-1908455,True
-1908456,True
-1908457,True
-1908458,True
-1908459,True
-1908460,True
-1908461,True
-1908462,True
-1908463,True
-1908464,True
-1908465,True
-1908466,True
-1908467,True
-1908468,True
-1908469,True
-1908470,True
-1908471,True
-1908472,True
-1908473,True
-1908474,True
-1908475,True
-1908476,True
-1908477,True
-1908478,True
-1908479,True
-1908480,True
-1908481,True
-1908482,True
-1908483,True
-1908484,True
-1908485,True
-1908486,True
-1908487,True
-1908488,True
-1908489,True
-1908490,True
-1908491,True
-1908492,True
-1908493,True
-1908494,True
-1908495,True
-1908496,True
-1908497,True
-1908498,True
-1908499,True
-1908501,True
-1908502,True
-1908503,True
-1908504,True
-1908505,True
-1908506,True
-1908507,True
-1908508,True
-1908509,True
-1908510,True
-1908511,True
-1908512,True
-1908513,True
-1908514,True
-1908515,True
-1908516,True
-1908517,True
-1908518,True
-1908519,True
-1908520,True
-1908521,True
-1908522,True
-1908523,True
-1908524,True
-1908525,True
-1908526,True
-1908527,True
-1908528,True
-1908529,True
-1908530,True
-1908531,True
-1908532,True
-1908533,True
-1908534,True
-1908535,True
-1908536,True
-1908537,True
-1908538,True
-1908539,True
-1908540,True
-1908541,True
-1908542,True
-1908543,True
-1908544,True
-1908545,True
-1908546,True
-1908547,True
-1908548,True
-1908549,True
-1908550,True
-1908551,True
-1908552,True
-1908553,True
-1908554,True
-1908555,True
-1908556,True
-1908557,True
-1908558,True
-1908559,True
-1908560,True
-1908561,True
-1908562,True
-1908563,True
-1908564,True
-1908565,True
-1908566,True
-1908567,True
-1908568,True
-1908569,True
-1908570,True
-1908571,True
-1908572,True
-1908573,True
-1908574,True
-1908575,True
-1908576,True
-1908577,True
-1908578,True
-1908579,True
-1908580,True
-1908581,True
-1908582,True
-1908583,True
-1908584,True
-1908585,True
-1908586,True
-1908587,True
-1908588,True
-1908589,True
-1908590,True
-1908591,True
-1908592,True
-1908593,True
-1908594,True
-1908595,True
-1908596,True
-1908597,True
-1908598,True
-1908599,True
-1908600,True
-1908601,True
-1908602,True
-1908603,True
-1908604,True
-1908605,True
-1908606,True
-1908607,True
-1908608,True
-1908609,True
-1908610,True
-1908611,True
-1908612,True
-1908613,True
-1908614,True
-1908615,True
-1908616,True
-1908617,True
-1908618,True
-1908619,True
-1908620,True
-1908621,True
-1908622,True
-1908623,True
-1908624,True
-1908625,True
-1908626,True
-1908627,True
-1908628,True
-1908629,True
-1908630,True
-1908631,True
-1908632,True
-1908633,True
-1908634,True
-1908635,True
-1908636,True
-1908637,True
-1908638,True
-1908639,True
-1908640,True
-1908641,True
-1908642,True
-1908643,True
-1908644,True
-1908645,True
-1908646,True
-1908647,True
-1908648,True
-1908649,True
-1908650,True
-1908651,True
-1908652,True
-1908653,True
-1908654,True
-1908655,True
-1908656,True
-1908657,True
-1908658,True
-1908659,True
-1908660,True
-1908661,True
-1908662,True
-1908663,True
-1908664,True
-1908665,True
-1908666,True
-1908667,True
-1908668,True
-1908669,True
-1908670,True
-1908671,True
-1908672,True
-1908673,True
-1908674,True
-1908675,True
-1908676,True
-1908677,True
-1908678,True
-1908679,True
-1908680,True
-1908681,True
-1908682,True
-1908683,True
-1908684,True
-1908685,True
-1908686,True
-1908687,True
-1908688,True
-1908689,True
-1908690,True
-1908691,True
-1908692,True
-1908693,True
-1908694,True
-1908695,True
-1908696,True
-1908697,True
-1908698,True
-1908699,True
-1908700,True
-1908701,True
-1908702,True
-1908703,True
-1908704,True
-1908705,True
-1908706,True
-1908707,True
-1908708,True
-1908709,True
-1908710,True
-1908711,True
-1908712,True
-1908713,True
-1908714,True
-1908715,True
-1908716,True
-1908717,True
-1908718,True
-1908719,True
-1908720,True
-1908721,True
-1908722,True
-1908723,True
-1908724,True
-1908725,True
-1908726,True
-1908727,True
-1908728,True
-1908729,True
-1908730,True
-1908731,True
-1908732,True
-1908733,True
-1908734,True
-1908735,True
-1908736,True
-1908737,True
-1908738,True
-1908739,True
-1908740,True
-1908741,True
-1908742,True
-1908743,True
-1908744,True
-1908745,True
-1908746,True
-1908747,True
-1908748,True
-1908749,True
-1908750,True
-1908751,True
-1908752,True
-1908753,True
-1908754,True
-1908755,True
-1908756,True
-1908757,True
-1908758,True
-1908759,True
-1908761,True
-1908762,True
-1908763,True
-1908764,True
-1908765,True
-1908766,True
-1908767,True
-1908768,True
-1908769,True
-1908770,True
-1908771,True
-1908772,True
-1908773,True
-1908774,True
-1908775,True
-1908776,True
-1908777,True
-1908778,True
-1908779,True
-1908780,True
-1908781,True
-1908782,True
-1908783,True
-1908784,True
-1908785,True
-1908786,True
-1908787,True
-1908788,True
-1908789,True
-1908790,True
-1908791,True
-1908792,True
-1908793,True
-1908794,True
-1908795,True
-1908796,True
-1908797,True
-1908798,True
-1908799,True
-1908800,True
-1979299,True
-1979300,True
-1979301,True
-1979302,True
-1979932,True
+match_id,scraped,competition_key,competition_type,source_stage_id,competition_phase,source_url,validation_status,validated_home_team,validated_away_team
+1908320,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Ipswich
+1908321,True,Championship,domestic_league,,regular_season,,ok,Charlton,Watford
+1908322,True,Championship,domestic_league,,regular_season,,ok,Coventry,Hull
+1908323,True,Championship,domestic_league,,regular_season,,ok,Southampton,Wrexham
+1908324,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Swansea
+1908325,True,Championship,domestic_league,,regular_season,,ok,Norwich,Millwall
+1908326,True,Championship,domestic_league,,regular_season,,ok,Oxford,Portsmouth
+1908327,True,Championship,domestic_league,,regular_season,,ok,QPR,Preston
+1908328,True,Championship,domestic_league,,regular_season,,ok,Stoke,Derby
+1908329,True,Championship,domestic_league,,regular_season,,ok,WBA,Blackburn
+1908330,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Bristol City
+1908331,False,Championship,domestic_league,,regular_season,,pending,,
+1908344,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Birmingham
+1908345,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Charlton
+1908346,False,Championship,domestic_league,,regular_season,,pending,,
+1908347,True,Championship,domestic_league,,regular_season,,ok,Hull,Oxford
+1908348,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Southampton
+1908349,True,Championship,domestic_league,,regular_season,,ok,Millwall,Middlesbrough
+1908350,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Norwich
+1908351,True,Championship,domestic_league,,regular_season,,ok,Preston,Leicester
+1908352,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Stoke
+1908353,True,Championship,domestic_league,,regular_season,,ok,Swansea,Sheff Utd
+1908354,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Sheff Utd
+1908355,True,Championship,domestic_league,,regular_season,,ok,Derby,Preston
+1908356,True,Championship,domestic_league,,regular_season,,ok,Oxford,Leicester
+1908357,True,Championship,domestic_league,,regular_season,,ok,Hull,Southampton
+1908358,True,Championship,domestic_league,,regular_season,,ok,Preston,Middlesbrough
+1908359,False,Championship,domestic_league,,regular_season,,pending,,
+1908360,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Bristol City
+1908361,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,WBA
+1908362,True,Championship,domestic_league,,regular_season,,ok,Southampton,Portsmouth
+1908363,True,Championship,domestic_league,,regular_season,,ok,Millwall,Watford
+1908364,True,Championship,domestic_league,,regular_season,,ok,Stoke,Birmingham
+1908365,True,Championship,domestic_league,,regular_season,,ok,Swansea,Hull
+1908366,True,Championship,domestic_league,,regular_season,,ok,Norwich,Wrexham
+1908367,True,Championship,domestic_league,,regular_season,,ok,Watford,Blackburn
+1908368,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Sheff Wed
+1908369,True,Championship,domestic_league,,regular_season,,ok,WBA,Derby
+1908370,True,Championship,domestic_league,,regular_season,,ok,QPR,Stoke
+1908371,True,Championship,domestic_league,,regular_season,,ok,Wrexham,QPR
+1908372,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Charlton
+1908373,False,Championship,domestic_league,,regular_season,,pending,,
+1908374,False,Championship,domestic_league,,regular_season,,pending,,
+1908375,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Ipswich
+1908376,True,Championship,domestic_league,,regular_season,,ok,Coventry,Birmingham
+1908377,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Oxford
+1908378,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Portsmouth
+1908379,True,Championship,domestic_league,,regular_season,,ok,Charlton,WBA
+1908380,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Sheff Wed
+1908381,True,Championship,domestic_league,,regular_season,,ok,Preston,Birmingham
+1908382,True,Championship,domestic_league,,regular_season,,ok,Coventry,Sheff Utd
+1908383,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Middlesbrough
+1908384,True,Championship,domestic_league,,regular_season,,ok,Derby,Hull
+1908385,True,Championship,domestic_league,,regular_season,,ok,Swansea,QPR
+1908386,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Norwich
+1908387,True,Championship,domestic_league,,regular_season,,ok,Watford,WBA
+1908388,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Hull
+1908389,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Watford
+1908390,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Derby
+1908391,True,Championship,domestic_league,,regular_season,,ok,Leicester,Middlesbrough
+1908392,True,Championship,domestic_league,,regular_season,,ok,Leicester,Birmingham
+1908393,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Sheff Utd
+1908394,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Oxford
+1908395,True,Championship,domestic_league,,regular_season,,ok,Millwall,Wrexham
+1908396,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Southampton
+1908397,True,Championship,domestic_league,,regular_season,,ok,Oxford,Coventry
+1908398,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Birmingham
+1908399,True,Championship,domestic_league,,regular_season,,ok,Oxford,Stoke
+1908400,True,Championship,domestic_league,,regular_season,,ok,Coventry,Watford
+1908401,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Preston
+1908402,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Wrexham
+1908403,True,Championship,domestic_league,,regular_season,,ok,Derby,QPR
+1908404,True,Championship,domestic_league,,regular_season,,ok,QPR,Charlton
+1908405,True,Championship,domestic_league,,regular_season,,ok,Hull,Charlton
+1908406,True,Championship,domestic_league,,regular_season,,ok,Preston,Swansea
+1908407,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Swansea
+1908408,True,Championship,domestic_league,,regular_season,,ok,Ipswich,WBA
+1908409,True,Championship,domestic_league,,regular_season,,ok,Stoke,WBA
+1908410,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Wrexham
+1908411,True,Championship,domestic_league,,regular_season,,ok,QPR,Southampton
+1908412,True,Championship,domestic_league,,regular_season,,ok,Watford,Southampton
+1908413,True,Championship,domestic_league,,regular_season,,ok,Millwall,Leicester
+1908414,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Norwich
+1908415,True,Championship,domestic_league,,regular_season,,ok,Charlton,Millwall
+1908416,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Stoke
+1908417,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Derby
+1908418,True,Championship,domestic_league,,regular_season,,ok,Coventry,Norwich
+1908419,True,Championship,domestic_league,,regular_season,,ok,Hull,Portsmouth
+1908420,True,Championship,domestic_league,,regular_season,,ok,Preston,Sheff Utd
+1908421,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Watford
+1908422,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Oxford
+1908423,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Birmingham
+1908424,True,Championship,domestic_league,,regular_season,,ok,QPR,Oxford
+1908425,True,Championship,domestic_league,,regular_season,,ok,Swansea,Norwich
+1908426,True,Championship,domestic_league,,regular_season,,ok,Millwall,Preston
+1908427,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Stoke
+1908428,True,Championship,domestic_league,,regular_season,,ok,Norwich,Leicester
+1908429,True,Championship,domestic_league,,regular_season,,ok,Bristol City,QPR
+1908430,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Portsmouth
+1908431,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,QPR
+1908432,True,Championship,domestic_league,,regular_season,,ok,Derby,Southampton
+1908433,True,Championship,domestic_league,,regular_season,,ok,Charlton,Swansea
+1908434,True,Championship,domestic_league,,regular_season,,ok,Southampton,Sheff Wed
+1908435,True,Championship,domestic_league,,regular_season,,ok,Hull,Sheff Utd
+1908436,True,Championship,domestic_league,,regular_season,,ok,Leicester,Blackburn
+1908437,True,Championship,domestic_league,,regular_season,,ok,Stoke,Coventry
+1908438,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Norwich
+1908439,True,Championship,domestic_league,,regular_season,,ok,Norwich,Hull
+1908440,True,Championship,domestic_league,,regular_season,,ok,Swansea,Ipswich
+1908441,True,Championship,domestic_league,,regular_season,,ok,Millwall,WBA
+1908442,True,Championship,domestic_league,,regular_season,,ok,Oxford,Millwall
+1908443,True,Championship,domestic_league,,regular_season,,ok,Watford,Bristol City
+1908444,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Middlesbrough
+1908445,True,Championship,domestic_league,,regular_season,,ok,QPR,Ipswich
+1908446,True,Championship,domestic_league,,regular_season,,ok,Preston,Charlton
+1908447,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Derby
+1908448,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Coventry
+1908449,True,Championship,domestic_league,,regular_season,,ok,WBA,Oxford
+1908450,True,Championship,domestic_league,,regular_season,,ok,Southampton,Preston
+1908451,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Charlton
+1908452,True,Championship,domestic_league,,regular_season,,ok,Swansea,Leicester
+1908453,True,Championship,domestic_league,,regular_season,,ok,Stoke,Bristol City
+1908454,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Norwich
+1908455,True,Championship,domestic_league,,regular_season,,ok,Watford,Middlesbrough
+1908456,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Swansea
+1908457,True,Championship,domestic_league,,regular_season,,ok,Watford,Oxford
+1908458,True,Championship,domestic_league,,regular_season,,ok,WBA,Sheff Wed
+1908459,True,Championship,domestic_league,,regular_season,,ok,Charlton,Southampton
+1908460,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Birmingham
+1908461,True,Championship,domestic_league,,regular_season,,ok,Coventry,WBA
+1908462,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Coventry
+1908463,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Hull
+1908464,True,Championship,domestic_league,,regular_season,,ok,Derby,Watford
+1908465,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Millwall
+1908466,True,Championship,domestic_league,,regular_season,,ok,Charlton,Sheff Wed
+1908467,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Wrexham
+1908468,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Blackburn
+1908469,True,Championship,domestic_league,,regular_season,,ok,Coventry,Blackburn
+1908470,True,Championship,domestic_league,,regular_season,,ok,Leicester,Stoke
+1908471,True,Championship,domestic_league,,regular_season,,ok,Leicester,Portsmouth
+1908472,True,Championship,domestic_league,,regular_season,,ok,Oxford,Middlesbrough
+1908473,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Ipswich
+1908474,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Millwall
+1908475,True,Championship,domestic_league,,regular_season,,ok,Hull,Wrexham
+1908476,True,Championship,domestic_league,,regular_season,,ok,Norwich,Bristol City
+1908477,True,Championship,domestic_league,,regular_season,,ok,Preston,Blackburn
+1908478,True,Championship,domestic_league,,regular_season,,ok,QPR,Hull
+1908479,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Stoke
+1908480,True,Championship,domestic_league,,regular_season,,ok,Oxford,Derby
+1908481,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Sheff Utd
+1908482,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Charlton
+1908483,True,Championship,domestic_league,,regular_season,,ok,QPR,Millwall
+1908484,True,Championship,domestic_league,,regular_season,,ok,Hull,Ipswich
+1908485,True,Championship,domestic_league,,regular_season,,ok,Coventry,Bristol City
+1908486,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Watford
+1908487,True,Championship,domestic_league,,regular_season,,ok,Leicester,Ipswich
+1908488,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Coventry
+1908489,True,Championship,domestic_league,,regular_season,,ok,Southampton,Swansea
+1908490,True,Championship,domestic_league,,regular_season,,ok,Millwall,Sheff Wed
+1908491,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,QPR
+1908492,True,Championship,domestic_league,,regular_season,,ok,Stoke,Wrexham
+1908493,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Portsmouth
+1908494,True,Championship,domestic_league,,regular_season,,ok,Millwall,Hull
+1908495,True,Championship,domestic_league,,regular_season,,ok,WBA,Preston
+1908496,True,Championship,domestic_league,,regular_season,,ok,Southampton,Leicester
+1908497,True,Championship,domestic_league,,regular_season,,ok,Norwich,Southampton
+1908498,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Sheff Utd
+1908499,True,Championship,domestic_league,,regular_season,,ok,Stoke,Charlton
+1908500,False,Championship,domestic_league,,regular_season,,pending,,
+1908501,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Southampton
+1908502,True,Championship,domestic_league,,regular_season,,ok,Swansea,Derby
+1908503,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Blackburn
+1908504,True,Championship,domestic_league,,regular_season,,ok,Derby,Norwich
+1908505,True,Championship,domestic_league,,regular_season,,ok,Watford,Preston
+1908506,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Derby
+1908507,True,Championship,domestic_league,,regular_season,,ok,Hull,Leicester
+1908508,True,Championship,domestic_league,,regular_season,,ok,Blackburn,QPR
+1908509,True,Championship,domestic_league,,regular_season,,ok,Stoke,Swansea
+1908510,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Charlton
+1908511,True,Championship,domestic_league,,regular_season,,ok,Norwich,Oxford
+1908512,True,Championship,domestic_league,,regular_season,,ok,WBA,Sheff Utd
+1908513,True,Championship,domestic_league,,regular_season,,ok,Millwall,Stoke
+1908514,True,Championship,domestic_league,,regular_season,,ok,WBA,Birmingham
+1908515,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Watford
+1908516,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Coventry
+1908517,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Bristol City
+1908518,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Millwall
+1908519,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Watford
+1908520,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Middlesbrough
+1908521,True,Championship,domestic_league,,regular_season,,ok,Coventry,Charlton
+1908522,True,Championship,domestic_league,,regular_season,,ok,Charlton,Oxford
+1908523,True,Championship,domestic_league,,regular_season,,ok,Leicester,Sheff Utd
+1908524,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Derby
+1908525,True,Championship,domestic_league,,regular_season,,ok,Derby,Portsmouth
+1908526,True,Championship,domestic_league,,regular_season,,ok,Millwall,Southampton
+1908527,True,Championship,domestic_league,,regular_season,,ok,Hull,WBA
+1908528,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Sheff Wed
+1908529,True,Championship,domestic_league,,regular_season,,ok,Norwich,QPR
+1908530,True,Championship,domestic_league,,regular_season,,ok,Oxford,Ipswich
+1908531,True,Championship,domestic_league,,regular_season,,ok,Preston,Norwich
+1908532,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Bristol City
+1908533,True,Championship,domestic_league,,regular_season,,ok,QPR,Leicester
+1908534,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Preston
+1908535,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Birmingham
+1908536,True,Championship,domestic_league,,regular_season,,ok,Stoke,Hull
+1908537,True,Championship,domestic_league,,regular_season,,ok,Southampton,Coventry
+1908538,True,Championship,domestic_league,,regular_season,,ok,Swansea,Wrexham
+1908539,True,Championship,domestic_league,,regular_season,,ok,WBA,Swansea
+1908540,True,Championship,domestic_league,,regular_season,,ok,Watford,Stoke
+1908541,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Blackburn
+1908542,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Derby
+1908543,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Sheff Wed
+1908544,True,Championship,domestic_league,,regular_season,,ok,Coventry,Swansea
+1908545,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Millwall
+1908546,True,Championship,domestic_league,,regular_season,,ok,Leicester,Watford
+1908547,True,Championship,domestic_league,,regular_season,,ok,Charlton,Portsmouth
+1908548,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Blackburn
+1908549,True,Championship,domestic_league,,regular_season,,ok,Derby,Leicester
+1908550,True,Championship,domestic_league,,regular_season,,ok,Millwall,Ipswich
+1908551,True,Championship,domestic_league,,regular_season,,ok,Hull,Middlesbrough
+1908552,True,Championship,domestic_league,,regular_season,,ok,Norwich,Charlton
+1908553,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Coventry
+1908554,True,Championship,domestic_league,,regular_season,,ok,Oxford,Southampton
+1908555,True,Championship,domestic_league,,regular_season,,ok,Preston,Wrexham
+1908556,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,QPR
+1908557,True,Championship,domestic_league,,regular_season,,ok,QPR,WBA
+1908558,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Hull
+1908559,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Stoke
+1908560,True,Championship,domestic_league,,regular_season,,ok,Stoke,Preston
+1908561,True,Championship,domestic_league,,regular_season,,ok,WBA,Bristol City
+1908562,True,Championship,domestic_league,,regular_season,,ok,Southampton,Birmingham
+1908563,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Sheff Utd
+1908564,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Southampton
+1908565,True,Championship,domestic_league,,regular_season,,ok,Coventry,Ipswich
+1908566,True,Championship,domestic_league,,regular_season,,ok,Swansea,Oxford
+1908567,True,Championship,domestic_league,,regular_season,,ok,Leicester,Derby
+1908568,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Hull
+1908569,True,Championship,domestic_league,,regular_season,,ok,Watford,Norwich
+1908570,True,Championship,domestic_league,,regular_season,,ok,Millwall,Bristol City
+1908571,True,Championship,domestic_league,,regular_season,,ok,Norwich,Watford
+1908572,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Oxford
+1908573,True,Championship,domestic_league,,regular_season,,ok,Oxford,Swansea
+1908574,True,Championship,domestic_league,,regular_season,,ok,Charlton,Middlesbrough
+1908575,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Charlton
+1908576,True,Championship,domestic_league,,regular_season,,ok,Preston,Coventry
+1908577,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Blackburn
+1908578,True,Championship,domestic_league,,regular_season,,ok,QPR,Birmingham
+1908579,True,Championship,domestic_league,,regular_season,,ok,Stoke,Sheff Utd
+1908580,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Norwich
+1908581,True,Championship,domestic_league,,regular_season,,ok,WBA,QPR
+1908582,True,Championship,domestic_league,,regular_season,,ok,Southampton,WBA
+1908583,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Preston
+1908584,True,Championship,domestic_league,,regular_season,,ok,Swansea,Portsmouth
+1908585,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Wrexham
+1908586,True,Championship,domestic_league,,regular_season,,ok,Watford,Sheff Wed
+1908587,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Portsmouth
+1908588,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Leicester
+1908589,True,Championship,domestic_league,,regular_season,,ok,Charlton,Coventry
+1908590,True,Championship,domestic_league,,regular_season,,ok,Derby,Millwall
+1908591,True,Championship,domestic_league,,regular_season,,ok,Derby,Middlesbrough
+1908592,True,Championship,domestic_league,,regular_season,,ok,Hull,Stoke
+1908593,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Oxford
+1908594,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Oxford
+1908595,True,Championship,domestic_league,,regular_season,,ok,Oxford,Sheff Utd
+1908596,True,Championship,domestic_league,,regular_season,,ok,Charlton,Leicester
+1908597,True,Championship,domestic_league,,regular_season,,ok,Preston,Bristol City
+1908598,True,Championship,domestic_league,,regular_season,,ok,Coventry,QPR
+1908599,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,QPR
+1908600,True,Championship,domestic_league,,regular_season,,ok,Derby,Bristol City
+1908601,True,Championship,domestic_league,,regular_season,,ok,Southampton,Middlesbrough
+1908602,True,Championship,domestic_league,,regular_season,,ok,Hull,Blackburn
+1908603,True,Championship,domestic_league,,regular_season,,ok,Stoke,Norwich
+1908604,True,Championship,domestic_league,,regular_season,,ok,Norwich,Middlesbrough
+1908605,True,Championship,domestic_league,,regular_season,,ok,Swansea,Millwall
+1908606,True,Championship,domestic_league,,regular_season,,ok,Preston,Ipswich
+1908607,True,Championship,domestic_league,,regular_season,,ok,Watford,Hull
+1908608,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Millwall
+1908609,True,Championship,domestic_league,,regular_season,,ok,WBA,Leicester
+1908610,True,Championship,domestic_league,,regular_season,,ok,Southampton,Stoke
+1908611,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Derby
+1908612,True,Championship,domestic_league,,regular_season,,ok,Watford,QPR
+1908613,True,Championship,domestic_league,,regular_season,,ok,Swansea,Watford
+1908614,True,Championship,domestic_league,,regular_season,,ok,Wrexham,WBA
+1908615,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Sheff Wed
+1908616,True,Championship,domestic_league,,regular_season,,ok,WBA,Portsmouth
+1908617,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Swansea
+1908618,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Ipswich
+1908619,True,Championship,domestic_league,,regular_season,,ok,Derby,Charlton
+1908620,True,Championship,domestic_league,,regular_season,,ok,Hull,Preston
+1908621,True,Championship,domestic_league,,regular_season,,ok,Leicester,Wrexham
+1908622,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Stoke
+1908623,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Southampton
+1908624,True,Championship,domestic_league,,regular_season,,ok,Millwall,Coventry
+1908625,True,Championship,domestic_league,,regular_season,,ok,Norwich,WBA
+1908626,True,Championship,domestic_league,,regular_season,,ok,Preston,Sheff Wed
+1908627,True,Championship,domestic_league,,regular_season,,ok,QPR,Norwich
+1908628,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Leicester
+1908629,True,Championship,domestic_league,,regular_season,,ok,Southampton,Millwall
+1908630,True,Championship,domestic_league,,regular_season,,ok,Swansea,WBA
+1908631,True,Championship,domestic_league,,regular_season,,ok,Watford,Birmingham
+1908632,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Coventry
+1908633,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Charlton
+1908634,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Preston
+1908635,True,Championship,domestic_league,,regular_season,,ok,Derby,Wrexham
+1908636,True,Championship,domestic_league,,regular_season,,ok,Hull,Watford
+1908637,True,Championship,domestic_league,,regular_season,,ok,Leicester,WBA
+1908638,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Southampton
+1908639,True,Championship,domestic_league,,regular_season,,ok,Millwall,Swansea
+1908640,True,Championship,domestic_league,,regular_season,,ok,Norwich,Stoke
+1908641,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Ipswich
+1908642,True,Championship,domestic_league,,regular_season,,ok,QPR,Sheff Wed
+1908643,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Oxford
+1908644,True,Championship,domestic_league,,regular_season,,ok,Charlton,Sheff Utd
+1908645,True,Championship,domestic_league,,regular_season,,ok,Coventry,Leicester
+1908646,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Blackburn
+1908647,True,Championship,domestic_league,,regular_season,,ok,Oxford,Bristol City
+1908648,True,Championship,domestic_league,,regular_season,,ok,Preston,Derby
+1908649,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Portsmouth
+1908650,True,Championship,domestic_league,,regular_season,,ok,Southampton,Hull
+1908651,True,Championship,domestic_league,,regular_season,,ok,Stoke,QPR
+1908652,True,Championship,domestic_league,,regular_season,,ok,Swansea,Birmingham
+1908653,True,Championship,domestic_league,,regular_season,,ok,Watford,Millwall
+1908654,True,Championship,domestic_league,,regular_season,,ok,WBA,Middlesbrough
+1908655,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Norwich
+1908656,True,Championship,domestic_league,,regular_season,,ok,Coventry,Millwall
+1908657,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Bristol City
+1908658,True,Championship,domestic_league,,regular_season,,ok,Oxford,QPR
+1908659,True,Championship,domestic_league,,regular_season,,ok,Preston,Hull
+1908660,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Birmingham
+1908661,True,Championship,domestic_league,,regular_season,,ok,Swansea,Blackburn
+1908662,True,Championship,domestic_league,,regular_season,,ok,WBA,Norwich
+1908663,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Leicester
+1908664,True,Championship,domestic_league,,regular_season,,ok,Charlton,Derby
+1908665,True,Championship,domestic_league,,regular_season,,ok,Southampton,Sheff Utd
+1908666,True,Championship,domestic_league,,regular_season,,ok,Stoke,Middlesbrough
+1908667,True,Championship,domestic_league,,regular_season,,ok,Watford,Portsmouth
+1908668,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Stoke
+1908669,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Watford
+1908670,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Sheff Wed
+1908671,True,Championship,domestic_league,,regular_season,,ok,Derby,WBA
+1908672,True,Championship,domestic_league,,regular_season,,ok,Hull,Swansea
+1908673,True,Championship,domestic_league,,regular_season,,ok,Leicester,Oxford
+1908674,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Preston
+1908675,True,Championship,domestic_league,,regular_season,,ok,Millwall,Charlton
+1908676,True,Championship,domestic_league,,regular_season,,ok,Norwich,Coventry
+1908677,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Southampton
+1908678,True,Championship,domestic_league,,regular_season,,ok,QPR,Wrexham
+1908679,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Ipswich
+1908680,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Hull
+1908681,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Derby
+1908682,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Preston
+1908683,True,Championship,domestic_league,,regular_season,,ok,Leicester,Charlton
+1908684,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Norwich
+1908685,True,Championship,domestic_league,,regular_season,,ok,Millwall,Sheff Utd
+1908686,True,Championship,domestic_league,,regular_season,,ok,Oxford,Birmingham
+1908687,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,WBA
+1908688,True,Championship,domestic_league,,regular_season,,ok,QPR,Coventry
+1908689,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Wrexham
+1908690,True,Championship,domestic_league,,regular_season,,ok,Stoke,Southampton
+1908691,True,Championship,domestic_league,,regular_season,,ok,Watford,Swansea
+1908692,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Leicester
+1908693,True,Championship,domestic_league,,regular_season,,ok,Charlton,QPR
+1908694,True,Championship,domestic_league,,regular_season,,ok,Coventry,Oxford
+1908695,True,Championship,domestic_league,,regular_season,,ok,Derby,Ipswich
+1908696,True,Championship,domestic_league,,regular_season,,ok,Hull,Bristol City
+1908697,True,Championship,domestic_league,,regular_season,,ok,Norwich,Blackburn
+1908698,True,Championship,domestic_league,,regular_season,,ok,Preston,Portsmouth
+1908699,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Middlesbrough
+1908700,True,Championship,domestic_league,,regular_season,,ok,Southampton,Watford
+1908701,True,Championship,domestic_league,,regular_season,,ok,Swansea,Sheff Wed
+1908702,True,Championship,domestic_league,,regular_season,,ok,WBA,Stoke
+1908703,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Millwall
+1908704,True,Championship,domestic_league,,regular_season,,ok,Birmingham,WBA
+1908705,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Wrexham
+1908706,True,Championship,domestic_league,,regular_season,,ok,Charlton,Stoke
+1908707,True,Championship,domestic_league,,regular_season,,ok,Coventry,Middlesbrough
+1908708,True,Championship,domestic_league,,regular_season,,ok,Derby,Swansea
+1908709,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Hull
+1908710,True,Championship,domestic_league,,regular_season,,ok,Leicester,Southampton
+1908711,True,Championship,domestic_league,,regular_season,,ok,Oxford,Norwich
+1908712,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Sheff Utd
+1908713,True,Championship,domestic_league,,regular_season,,ok,Preston,Watford
+1908714,True,Championship,domestic_league,,regular_season,,ok,QPR,Blackburn
+1908715,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Millwall
+1908716,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Preston
+1908717,True,Championship,domestic_league,,regular_season,,ok,Hull,QPR
+1908718,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Oxford
+1908719,True,Championship,domestic_league,,regular_season,,ok,Millwall,Portsmouth
+1908720,True,Championship,domestic_league,,regular_season,,ok,Norwich,Birmingham
+1908721,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Sheff Wed
+1908722,True,Championship,domestic_league,,regular_season,,ok,Southampton,Charlton
+1908723,True,Championship,domestic_league,,regular_season,,ok,Stoke,Leicester
+1908724,True,Championship,domestic_league,,regular_season,,ok,Swansea,Bristol City
+1908725,True,Championship,domestic_league,,regular_season,,ok,Watford,Derby
+1908726,True,Championship,domestic_league,,regular_season,,ok,WBA,Coventry
+1908727,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Ipswich
+1908728,True,Championship,domestic_league,,regular_season,,ok,Hull,Derby
+1908729,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Leicester
+1908730,True,Championship,domestic_league,,regular_season,,ok,Southampton,QPR
+1908731,True,Championship,domestic_league,,regular_season,,ok,Stoke,Oxford
+1908732,True,Championship,domestic_league,,regular_season,,ok,Swansea,Preston
+1908733,True,Championship,domestic_league,,regular_season,,ok,Watford,Ipswich
+1908734,True,Championship,domestic_league,,regular_season,,ok,WBA,Charlton
+1908735,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Portsmouth
+1908736,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Bristol City
+1908737,True,Championship,domestic_league,,regular_season,,ok,Millwall,Birmingham
+1908738,True,Championship,domestic_league,,regular_season,,ok,Norwich,Sheff Wed
+1908739,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Coventry
+1908740,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Middlesbrough
+1908741,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Watford
+1908742,True,Championship,domestic_league,,regular_season,,ok,Charlton,Wrexham
+1908743,True,Championship,domestic_league,,regular_season,,ok,Coventry,Stoke
+1908744,True,Championship,domestic_league,,regular_season,,ok,Derby,Blackburn
+1908745,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Swansea
+1908746,True,Championship,domestic_league,,regular_season,,ok,Leicester,Norwich
+1908747,True,Championship,domestic_league,,regular_season,,ok,Oxford,WBA
+1908748,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Hull
+1908749,True,Championship,domestic_league,,regular_season,,ok,Preston,Millwall
+1908750,True,Championship,domestic_league,,regular_season,,ok,QPR,Sheff Utd
+1908751,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,Southampton
+1908752,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Portsmouth
+1908753,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Coventry
+1908754,True,Championship,domestic_league,,regular_season,,ok,Charlton,Birmingham
+1908755,True,Championship,domestic_league,,regular_season,,ok,Derby,Sheff Wed
+1908756,True,Championship,domestic_league,,regular_season,,ok,Hull,Millwall
+1908757,True,Championship,domestic_league,,regular_season,,ok,Ipswich,Leicester
+1908758,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Sheff Wed
+1908759,True,Championship,domestic_league,,regular_season,,ok,Norwich,Derby
+1908760,False,Championship,domestic_league,,regular_season,,pending,,
+1908761,True,Championship,domestic_league,,regular_season,,ok,QPR,Swansea
+1908762,True,Championship,domestic_league,,regular_season,,ok,Southampton,Bristol City
+1908763,True,Championship,domestic_league,,regular_season,,ok,Stoke,Millwall
+1908764,True,Championship,domestic_league,,regular_season,,ok,WBA,Watford
+1908765,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Preston
+1908766,True,Championship,domestic_league,,regular_season,,ok,Charlton,Ipswich
+1908767,True,Championship,domestic_league,,regular_season,,ok,Leicester,Hull
+1908768,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Blackburn
+1908769,True,Championship,domestic_league,,regular_season,,ok,Birmingham,Bristol City
+1908770,True,Championship,domestic_league,,regular_season,,ok,Charlton,Hull
+1908771,True,Championship,domestic_league,,regular_season,,ok,Coventry,Wrexham
+1908772,True,Championship,domestic_league,,regular_season,,ok,Leicester,Millwall
+1908773,True,Championship,domestic_league,,regular_season,,ok,Middlesbrough,Watford
+1908774,True,Championship,domestic_league,,regular_season,,ok,Norwich,Swansea
+1908775,True,Championship,domestic_league,,regular_season,,ok,Oxford,Sheff Wed
+1908776,True,Championship,domestic_league,,regular_season,,ok,QPR,Derby
+1908777,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,Preston
+1908778,True,Championship,domestic_league,,regular_season,,ok,Southampton,Blackburn
+1908779,True,Championship,domestic_league,,regular_season,,ok,Stoke,Portsmouth
+1908780,True,Championship,domestic_league,,regular_season,,ok,WBA,Ipswich
+1908781,True,Championship,domestic_league,,regular_season,,ok,Blackburn,Leicester
+1908782,True,Championship,domestic_league,,regular_season,,ok,Bristol City,Stoke
+1908783,True,Championship,domestic_league,,regular_season,,ok,Derby,Sheff Utd
+1908784,True,Championship,domestic_league,,regular_season,,ok,Hull,Norwich
+1908785,True,Championship,domestic_league,,regular_season,,ok,Ipswich,QPR
+1908786,True,Championship,domestic_league,,regular_season,,ok,Millwall,Oxford
+1908787,True,Championship,domestic_league,,regular_season,,ok,Portsmouth,Birmingham
+1908788,True,Championship,domestic_league,,regular_season,,ok,Preston,Southampton
+1908789,True,Championship,domestic_league,,regular_season,,ok,Sheff Wed,WBA
+1908790,True,Championship,domestic_league,,regular_season,,ok,Swansea,Charlton
+1908791,True,Championship,domestic_league,,regular_season,,ok,Watford,Coventry
+1908792,True,Championship,domestic_league,,regular_season,,ok,Wrexham,Middlesbrough
+1908793,True,Championship,domestic_league,,regular_season,,ok,Preston,Oxford
+1908794,True,Championship,domestic_league,,regular_season,,ok,QPR,Middlesbrough
+1908795,True,Championship,domestic_league,,regular_season,,ok,Sheff Utd,WBA
+1908796,True,Championship,domestic_league,,regular_season,,ok,Southampton,Norwich
+1908797,True,Championship,domestic_league,,regular_season,,ok,Swansea,Stoke
+1908798,True,Championship,domestic_league,,regular_season,,ok,Watford,Wrexham
+1908799,True,Championship,domestic_league,,regular_season,,ok,Birmingham,QPR
+1908800,True,Championship,domestic_league,,regular_season,,ok,Leicester,Bristol City
+1979299,True,Championship,domestic_league,,promotion_playoff,,pending,,
+1979300,True,Championship,domestic_league,,promotion_playoff,,pending,,
+1979301,True,Championship,domestic_league,,promotion_playoff,,pending,,
+1979302,True,Championship,domestic_league,,promotion_playoff,,pending,,
+1979932,True,Championship,domestic_league,,promotion_playoff,,pending,,

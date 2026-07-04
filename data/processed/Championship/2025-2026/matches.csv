@@ -1,468 +1,468 @@
-league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events
-Championship,1908585,01012026,199,Wrexham,158,Blackburn,2,0,1570
-Championship,1908587,01012026,182,Bristol City,169,Portsmouth,5,0,1551
-Championship,1908589,01012026,160,Charlton,17,Coventry,1,1,1379
-Championship,1908591,01012026,21,Middlesbrough,20,Derby,0,1,1375
-Championship,1908592,01012026,96,Stoke,214,Hull,1,0,1494
-Championship,1908593,01012026,165,Ipswich,197,Oxford,2,1,1402
-Championship,1908626,01012026,25,Sheff Wed,181,Preston,0,3,1513
-Championship,1908627,01012026,171,QPR,168,Norwich,1,2,1506
-Championship,1908628,01012026,163,Sheff Utd,14,Leicester,3,1,1525
-Championship,1908629,01012026,18,Southampton,192,Millwall,0,0,1488
-Championship,1908630,01012026,259,Swansea,175,WBA,1,0,1534
-Championship,1908631,01012026,157,Birmingham,27,Watford,0,3,1510
-Championship,1908421,01102025,27,Watford,169,Portsmouth,2,2,1406
-Championship,1908424,01102025,171,QPR,197,Oxford,0,0,1533
-Championship,1908624,01102025,17,Coventry,192,Millwall,4,0,1466
-Championship,1908625,01102025,175,WBA,168,Norwich,1,0,1590
-Championship,1908430,01112025,169,Portsmouth,157,Birmingham,0,4,1474
-Championship,1908433,01112025,259,Swansea,160,Charlton,1,1,1508
-Championship,1908436,01112025,158,Blackburn,14,Leicester,2,0,1578
-Championship,1908439,01112025,214,Hull,168,Norwich,2,0,1471
-Championship,1908442,01112025,197,Oxford,192,Millwall,2,2,1549
-Championship,1908445,01112025,165,Ipswich,171,QPR,4,1,1374
-Championship,1908447,01112025,20,Derby,163,Sheff Utd,3,1,1522
-Championship,1908450,01112025,181,Preston,18,Southampton,2,0,1459
-Championship,1908453,01112025,182,Bristol City,96,Stoke,1,5,1403
-Championship,1908455,01112025,27,Watford,21,Middlesbrough,3,0,1517
-Championship,1908458,01112025,25,Sheff Wed,175,WBA,0,0,1557
-Championship,1908519,01122025,27,Watford,157,Birmingham,1,2,1483
-Championship,1908740,02032026,157,Birmingham,21,Middlesbrough,1,3,1509
-Championship,1908781,02052026,158,Blackburn,14,Leicester,0,1,1535
-Championship,1908782,02052026,96,Stoke,182,Bristol City,0,2,1432
-Championship,1908783,02052026,20,Derby,163,Sheff Utd,1,2,1430
-Championship,1908784,02052026,168,Norwich,214,Hull,1,2,1375
-Championship,1908785,02052026,165,Ipswich,171,QPR,3,0,1399
-Championship,1908786,02052026,192,Millwall,197,Oxford,2,0,1466
-Championship,1908787,02052026,169,Portsmouth,157,Birmingham,1,1,1231
-Championship,1908788,02052026,181,Preston,18,Southampton,1,3,1500
-Championship,1908789,02052026,25,Sheff Wed,175,WBA,2,1,1528
-Championship,1908790,02052026,160,Charlton,259,Swansea,1,3,1436
-Championship,1908791,02052026,27,Watford,17,Coventry,0,4,1479
-Championship,1908792,02052026,21,Middlesbrough,199,Wrexham,2,2,1612
-Championship,1908375,02122025,158,Blackburn,165,Ipswich,1,0,1181
-Championship,1908543,03022026,25,Sheff Wed,158,Blackburn,0,1,912
-Championship,1908636,03022026,27,Watford,214,Hull,0,0,1597
-Championship,1908643,03022026,197,Oxford,163,Sheff Utd,1,3,1491
-Championship,1908709,03032026,214,Hull,165,Ipswich,0,1,1516
-Championship,1908460,03102025,199,Wrexham,157,Birmingham,1,1,1560
-Championship,1908632,04012026,17,Coventry,157,Birmingham,2,3,1391
-Championship,1908633,04012026,160,Charlton,158,Blackburn,2,2,1416
-Championship,1908634,04012026,182,Bristol City,181,Preston,0,2,1639
-Championship,1908635,04012026,199,Wrexham,20,Derby,2,1,1525
-Championship,1908638,04012026,18,Southampton,21,Middlesbrough,0,4,1560
-Championship,1908639,04012026,192,Millwall,259,Swansea,2,1,1544
-Championship,1908640,04012026,96,Stoke,168,Norwich,2,0,1487
-Championship,1908642,04012026,171,QPR,25,Sheff Wed,3,0,1546
-Championship,1908427,04102025,96,Stoke,158,Blackburn,1,1,1480
-Championship,1908429,04102025,171,QPR,182,Bristol City,2,1,1498
-Championship,1908432,04102025,20,Derby,18,Southampton,1,1,1528
-Championship,1908435,04102025,214,Hull,163,Sheff Utd,1,0,1490
-Championship,1908441,04102025,175,WBA,192,Millwall,0,3,1479
-Championship,1908444,04102025,169,Portsmouth,21,Middlesbrough,1,0,1470
-Championship,1908446,04102025,160,Charlton,181,Preston,0,2,1346
-Championship,1908448,04102025,25,Sheff Wed,17,Coventry,0,5,1506
-Championship,1908452,04102025,14,Leicester,259,Swansea,3,1,1532
-Championship,1908457,04102025,27,Watford,197,Oxford,3,0,1468
-Championship,1908379,04112025,175,WBA,160,Charlton,0,1,1558
-Championship,1908382,04112025,163,Sheff Utd,17,Coventry,1,3,1371
-Championship,1908384,04112025,214,Hull,20,Derby,1,2,1456
-Championship,1908389,04112025,165,Ipswich,27,Watford,1,1,1473
-Championship,1908391,04112025,21,Middlesbrough,14,Leicester,1,1,1523
-Championship,1908399,04112025,96,Stoke,197,Oxford,3,0,1391
-Championship,1908465,04112025,157,Birmingham,192,Millwall,4,0,1457
-Championship,1908468,04112025,182,Bristol City,158,Blackburn,0,1,1545
-Championship,1908637,05012026,175,WBA,14,Leicester,1,2,1711
-Championship,1908438,05102025,168,Norwich,165,Ipswich,1,3,1353
-Championship,1908402,05112025,199,Wrexham,169,Portsmouth,0,0,1433
-Championship,1908406,05112025,259,Swansea,181,Preston,1,2,1470
-Championship,1908411,05112025,171,QPR,18,Southampton,1,2,1433
-Championship,1908414,05112025,25,Sheff Wed,168,Norwich,1,1,1396
-Championship,1908551,05122025,21,Middlesbrough,214,Hull,4,1,1583
-Championship,1908693,06022026,171,QPR,160,Charlton,0,0,1497
-Championship,1908793,06032026,197,Oxford,181,Preston,3,1,1421
-Championship,1908545,06122025,182,Bristol City,192,Millwall,0,1,1423
-Championship,1908549,06122025,20,Derby,14,Leicester,1,3,1473
-Championship,1908553,06122025,17,Coventry,165,Ipswich,0,3,1452
-Championship,1908555,06122025,199,Wrexham,181,Preston,1,1,1490
-Championship,1908557,06122025,175,WBA,171,QPR,1,3,1526
-Championship,1908559,06122025,163,Sheff Utd,96,Stoke,4,0,1345
-Championship,1908562,06122025,157,Birmingham,18,Southampton,1,3,1339
-Championship,1908566,06122025,259,Swansea,197,Oxford,2,0,1364
-Championship,1908569,06122025,27,Watford,168,Norwich,3,2,1677
-Championship,1908692,07022026,14,Leicester,157,Birmingham,1,2,1437
-Championship,1908694,07022026,197,Oxford,17,Coventry,0,0,1400
-Championship,1908695,07022026,165,Ipswich,20,Derby,1,2,1379
-Championship,1908696,07022026,182,Bristol City,214,Hull,3,2,1612
-Championship,1908697,07022026,158,Blackburn,168,Norwich,0,2,1514
-Championship,1908698,07022026,169,Portsmouth,181,Preston,0,1,1313
-Championship,1908700,07022026,27,Watford,18,Southampton,0,1,1524
-Championship,1908702,07022026,96,Stoke,175,WBA,0,0,1518
-Championship,1908703,07022026,199,Wrexham,192,Millwall,1,1,1468
-Championship,1908752,07032026,158,Blackburn,169,Portsmouth,1,1,1540
-Championship,1908753,07032026,182,Bristol City,17,Coventry,0,2,1491
-Championship,1908754,07032026,160,Charlton,157,Birmingham,1,0,1435
-Championship,1908755,07032026,25,Sheff Wed,20,Derby,1,2,1342
-Championship,1908756,07032026,192,Millwall,214,Hull,3,1,1522
-Championship,1908757,07032026,14,Leicester,165,Ipswich,1,1,1573
-Championship,1908795,07032026,175,WBA,163,Sheff Utd,2,0,1564
-Championship,1908797,07032026,96,Stoke,259,Swansea,0,2,1410
-Championship,1908443,07112025,182,Bristol City,27,Watford,1,1,1499
-Championship,1908701,08022026,259,Swansea,25,Sheff Wed,4,0,1508
-Championship,1908794,08032026,21,Middlesbrough,171,QPR,4,0,1628
-Championship,1979301,08052026,192,Millwall,214,Hull,0,0,1352
-Championship,1908320,08082025,157,Birmingham,165,Ipswich,1,1,1295
-Championship,1908417,08112025,20,Derby,158,Blackburn,2,1,1430
-Championship,1908419,08112025,214,Hull,169,Portsmouth,3,2,1359
-Championship,1908423,08112025,157,Birmingham,21,Middlesbrough,1,2,1415
-Championship,1908426,08112025,181,Preston,192,Millwall,1,1,1378
-Championship,1908428,08112025,168,Norwich,14,Leicester,1,2,1528
-Championship,1908431,08112025,163,Sheff Utd,171,QPR,0,0,1444
-Championship,1908434,08112025,25,Sheff Wed,18,Southampton,1,3,1471
-Championship,1908437,08112025,96,Stoke,17,Coventry,0,1,1236
-Championship,1908440,08112025,165,Ipswich,259,Swansea,2,3,1455
-Championship,1908449,08112025,175,WBA,197,Oxford,1,2,1648
-Championship,1908451,08112025,199,Wrexham,160,Charlton,1,0,1504
-Championship,1908699,09022026,163,Sheff Utd,21,Middlesbrough,1,2,1474
-Championship,1979302,09052026,21,Middlesbrough,18,Southampton,0,0,1522
-Championship,1908321,09082025,160,Charlton,27,Watford,1,0,1296
-Championship,1908322,09082025,214,Hull,17,Coventry,0,0,1315
-Championship,1908323,09082025,18,Southampton,199,Wrexham,2,1,1458
-Championship,1908324,09082025,21,Middlesbrough,259,Swansea,1,0,1496
-Championship,1908325,09082025,168,Norwich,192,Millwall,1,2,1408
-Championship,1908326,09082025,197,Oxford,169,Portsmouth,0,1,1429
-Championship,1908327,09082025,181,Preston,171,QPR,2,0,1346
-Championship,1908328,09082025,96,Stoke,20,Derby,3,1,1211
-Championship,1908329,09082025,175,WBA,158,Blackburn,1,0,1450
-Championship,1908330,09082025,163,Sheff Utd,182,Bristol City,1,4,1437
-Championship,1908572,09122025,158,Blackburn,197,Oxford,1,1,1489
-Championship,1908574,09122025,21,Middlesbrough,160,Charlton,3,0,1374
-Championship,1908576,09122025,17,Coventry,181,Preston,0,2,1320
-Championship,1908578,09122025,171,QPR,157,Birmingham,2,1,1429
-Championship,1908580,09122025,168,Norwich,163,Sheff Utd,0,2,1581
-Championship,1908582,09122025,175,WBA,18,Southampton,2,3,1627
-Championship,1908584,09122025,259,Swansea,169,Portsmouth,1,0,1360
-Championship,1908586,09122025,27,Watford,25,Sheff Wed,1,1,1555
-Championship,1908704,10022026,175,WBA,157,Birmingham,0,0,1492
-Championship,1908710,10022026,18,Southampton,14,Leicester,4,3,1511
-Championship,1908711,10022026,168,Norwich,197,Oxford,3,0,1489
-Championship,1908800,10032026,182,Bristol City,14,Leicester,0,2,1624
-Championship,1908475,10122025,214,Hull,199,Wrexham,2,0,1528
-Championship,1908479,10122025,96,Stoke,165,Ipswich,0,1,1545
-Championship,1908588,10122025,182,Bristol City,14,Leicester,2,2,1441
-Championship,1908590,10122025,192,Millwall,20,Derby,1,1,1425
-Championship,1908706,11022026,96,Stoke,160,Charlton,0,1,1402
-Championship,1908799,11032026,157,Birmingham,171,QPR,1,0,1578
-Championship,1979299,11052026,214,Hull,192,Millwall,2,0,1367
-Championship,1979300,12052026,21,Middlesbrough,18,Southampton,1,2,1856
-Championship,1908354,12092025,165,Ipswich,163,Sheff Utd,5,0,1472
-Championship,1908512,12122025,175,WBA,163,Sheff Utd,2,0,1572
-Championship,1908356,13092025,14,Leicester,197,Oxford,3,1,1501
-Championship,1908358,13092025,181,Preston,21,Middlesbrough,2,2,1465
-Championship,1908360,13092025,182,Bristol City,25,Sheff Wed,2,1,1491
-Championship,1908364,13092025,157,Birmingham,96,Stoke,0,1,1437
-Championship,1908365,13092025,259,Swansea,214,Hull,2,2,1577
-Championship,1908367,13092025,158,Blackburn,27,Watford,1,0,1416
-Championship,1908369,13092025,175,WBA,20,Derby,0,1,1536
-Championship,1908371,13092025,199,Wrexham,171,QPR,2,2,1461
-Championship,1908415,13092025,160,Charlton,192,Millwall,1,1,1360
-Championship,1908418,13092025,168,Norwich,17,Coventry,1,1,1496
-Championship,1908482,13122025,160,Charlton,157,Birmingham,1,1,1400
-Championship,1908485,13122025,182,Bristol City,17,Coventry,0,1,1442
-Championship,1908487,13122025,165,Ipswich,14,Leicester,1,3,1537
-Championship,1908491,13122025,171,QPR,21,Middlesbrough,1,3,1456
-Championship,1908494,13122025,214,Hull,192,Millwall,3,1,1449
-Championship,1908497,13122025,168,Norwich,18,Southampton,2,1,1511
-Championship,1908503,13122025,169,Portsmouth,158,Blackburn,2,1,1407
-Championship,1908509,13122025,96,Stoke,259,Swansea,2,1,1368
-Championship,1908515,13122025,199,Wrexham,27,Watford,2,2,1701
-Championship,1908708,14022026,259,Swansea,20,Derby,0,2,1414
-Championship,1908712,14022026,163,Sheff Utd,169,Portsmouth,1,0,1460
-Championship,1908713,14022026,27,Watford,181,Preston,1,3,1534
-Championship,1908714,14022026,171,QPR,158,Blackburn,1,3,1637
-Championship,1908715,14022026,192,Millwall,25,Sheff Wed,1,2,1285
-Championship,1908641,14042026,165,Ipswich,169,Portsmouth,0,2,1475
-Championship,1908778,14042026,158,Blackburn,18,Southampton,0,3,1618
-Championship,1908362,14092025,169,Portsmouth,18,Southampton,0,0,1364
-Championship,1908506,15122025,20,Derby,25,Sheff Wed,3,0,1515
-Championship,1908654,16012026,21,Middlesbrough,175,WBA,2,3,1517
-Championship,1908707,16022026,17,Coventry,21,Middlesbrough,3,1,1573
-Championship,1908344,16082025,157,Birmingham,158,Blackburn,2,1,1407
-Championship,1908345,16082025,160,Charlton,182,Bristol City,0,0,1351
-Championship,1908349,16082025,192,Millwall,21,Middlesbrough,0,3,1460
-Championship,1908350,16082025,169,Portsmouth,168,Norwich,1,2,1609
-Championship,1908351,16082025,14,Leicester,181,Preston,1,2,1347
-Championship,1908352,16082025,96,Stoke,25,Sheff Wed,3,0,1397
-Championship,1908353,16082025,259,Swansea,163,Sheff Utd,1,0,1374
-Championship,1908612,16082025,27,Watford,171,QPR,2,1,1476
-Championship,1908614,16082025,175,WBA,199,Wrexham,3,2,1566
-Championship,1908644,17012026,160,Charlton,163,Sheff Utd,1,0,1338
-Championship,1908645,17012026,14,Leicester,17,Coventry,1,2,1544
-Championship,1908646,17012026,158,Blackburn,165,Ipswich,1,2,1522
-Championship,1908647,17012026,197,Oxford,182,Bristol City,0,0,1508
-Championship,1908648,17012026,181,Preston,20,Derby,0,1,1426
-Championship,1908649,17012026,169,Portsmouth,25,Sheff Wed,1,0,1387
-Championship,1908650,17012026,214,Hull,18,Southampton,2,1,1520
-Championship,1908651,17012026,96,Stoke,171,QPR,0,0,1401
-Championship,1908652,17012026,259,Swansea,157,Birmingham,1,1,1494
-Championship,1908653,17012026,27,Watford,192,Millwall,0,2,1388
-Championship,1908655,17012026,199,Wrexham,168,Norwich,1,2,1592
-Championship,1908547,17022026,169,Portsmouth,160,Charlton,0,0,165
-Championship,1908705,17022026,199,Wrexham,182,Bristol City,1,3,1560
-Championship,1908798,17032026,27,Watford,199,Wrexham,3,1,1607
-Championship,1908347,17082025,214,Hull,197,Oxford,3,2,1527
-Championship,1908348,17082025,165,Ipswich,18,Southampton,0,2,1321
-Championship,1908473,17102025,165,Ipswich,21,Middlesbrough,2,1,1411
-Championship,1908796,18032026,168,Norwich,18,Southampton,0,1,1482
-Championship,1908463,18102025,157,Birmingham,214,Hull,3,2,1482
-Championship,1908466,18102025,160,Charlton,25,Sheff Wed,2,1,1433
-Championship,1908469,18102025,17,Coventry,158,Blackburn,2,0,1538
-Championship,1908471,18102025,14,Leicester,169,Portsmouth,1,1,1491
-Championship,1908476,18102025,182,Bristol City,168,Norwich,1,0,1600
-Championship,1908480,18102025,20,Derby,197,Oxford,0,1,1350
-Championship,1908483,18102025,192,Millwall,171,QPR,2,1,1538
-Championship,1908486,18102025,27,Watford,163,Sheff Utd,0,1,1526
-Championship,1908489,18102025,259,Swansea,18,Southampton,0,0,1491
-Championship,1908492,18102025,199,Wrexham,96,Stoke,0,1,1533
-Championship,1908495,18102025,181,Preston,175,WBA,1,2,1504
-Championship,1908361,19092025,175,WBA,21,Middlesbrough,1,2,1639
-Championship,1908538,19122025,259,Swansea,199,Wrexham,3,0,1597
-Championship,1908656,20012026,192,Millwall,17,Coventry,1,2,1393
-Championship,1908657,20012026,165,Ipswich,182,Bristol City,2,0,1534
-Championship,1908658,20012026,171,QPR,197,Oxford,0,0,1418
-Championship,1908659,20012026,181,Preston,214,Hull,0,3,1476
-Championship,1908660,20012026,157,Birmingham,25,Sheff Wed,2,0,1579
-Championship,1908661,20012026,158,Blackburn,259,Swansea,2,2,1668
-Championship,1908662,20012026,175,WBA,168,Norwich,0,5,1514
-Championship,1908663,20012026,14,Leicester,199,Wrexham,1,1,1583
-Championship,1908664,20012026,160,Charlton,20,Derby,2,1,1386
-Championship,1908716,20022026,158,Blackburn,181,Preston,1,0,1472
-Championship,1908355,20092025,181,Preston,20,Derby,1,0,1538
-Championship,1908357,20092025,214,Hull,18,Southampton,3,1,1511
-Championship,1908366,20092025,199,Wrexham,168,Norwich,3,2,1589
-Championship,1908368,20092025,25,Sheff Wed,169,Portsmouth,2,0,1471
-Championship,1908370,20092025,96,Stoke,171,QPR,0,1,1287
-Championship,1908372,20092025,160,Charlton,163,Sheff Utd,1,0,1416
-Championship,1908518,20122025,192,Millwall,158,Blackburn,0,2,1441
-Championship,1908520,20122025,21,Middlesbrough,182,Bristol City,0,2,1525
-Championship,1908522,20122025,160,Charlton,197,Oxford,1,0,1384
-Championship,1908525,20122025,169,Portsmouth,20,Derby,2,0,1484
-Championship,1908527,20122025,214,Hull,175,WBA,1,0,1406
-Championship,1908528,20122025,165,Ipswich,25,Sheff Wed,3,1,1366
-Championship,1908531,20122025,168,Norwich,181,Preston,1,1,1316
-Championship,1908533,20122025,171,QPR,14,Leicester,4,1,1393
-Championship,1908535,20122025,163,Sheff Utd,157,Birmingham,3,0,1539
-Championship,1908537,20122025,18,Southampton,17,Coventry,1,1,1481
-Championship,1908540,20122025,96,Stoke,27,Watford,0,1,1415
-Championship,1908665,21012026,18,Southampton,163,Sheff Utd,1,0,1464
-Championship,1908666,21012026,21,Middlesbrough,96,Stoke,2,1,1465
-Championship,1908667,21012026,169,Portsmouth,27,Watford,1,1,1521
-Championship,1908717,21022026,214,Hull,171,QPR,2,2,1464
-Championship,1908718,21022026,21,Middlesbrough,197,Oxford,0,0,1578
-Championship,1908719,21022026,192,Millwall,169,Portsmouth,1,3,1383
-Championship,1908720,21022026,168,Norwich,157,Birmingham,1,2,1505
-Championship,1908722,21022026,18,Southampton,160,Charlton,1,1,1492
-Championship,1908723,21022026,14,Leicester,96,Stoke,2,2,1334
-Championship,1908724,21022026,182,Bristol City,259,Swansea,0,1,1507
-Championship,1908725,21022026,27,Watford,20,Derby,2,0,1459
-Championship,1908726,21022026,17,Coventry,175,WBA,2,0,1637
-Championship,1908727,21022026,199,Wrexham,165,Ipswich,5,3,1493
-Championship,1908759,21042026,20,Derby,168,Norwich,1,2,1502
-Championship,1908761,21042026,171,QPR,259,Swansea,1,2,1741
-Championship,1908762,21042026,18,Southampton,182,Bristol City,2,2,1562
-Championship,1908763,21042026,192,Millwall,96,Stoke,4,0,1395
-Championship,1908764,21042026,27,Watford,175,WBA,0,3,1543
-Championship,1908767,21042026,214,Hull,14,Leicester,2,2,1549
-Championship,1908377,21092025,197,Oxford,182,Bristol City,3,1,1435
-Championship,1908381,21102025,157,Birmingham,181,Preston,1,0,1508
-Championship,1908498,21102025,163,Sheff Utd,158,Blackburn,2,2,1431
-Championship,1908501,21102025,182,Bristol City,18,Southampton,3,1,1425
-Championship,1908504,21102025,20,Derby,168,Norwich,1,0,1552
-Championship,1908507,21102025,14,Leicester,214,Hull,1,2,1572
-Championship,1908510,21102025,165,Ipswich,160,Charlton,0,3,1333
-Championship,1908513,21102025,96,Stoke,192,Millwall,0,2,1471
-Championship,1908516,21102025,17,Coventry,169,Portsmouth,2,1,1482
-Championship,1908477,21112025,158,Blackburn,181,Preston,2,1,1485
-Championship,1908721,22022026,163,Sheff Utd,25,Sheff Wed,2,1,1237
-Championship,1908758,22042026,21,Middlesbrough,25,Sheff Wed,1,0,1593
-Championship,1908765,22042026,181,Preston,157,Birmingham,1,2,1415
-Championship,1908766,22042026,165,Ipswich,160,Charlton,2,1,1517
-Championship,1908768,22042026,163,Sheff Utd,158,Blackburn,1,3,1815
-Championship,1908600,22082025,20,Derby,182,Bristol City,1,1,1592
-Championship,1908363,22092025,192,Millwall,27,Watford,1,0,1631
-Championship,1908383,22102025,25,Sheff Wed,21,Middlesbrough,0,1,1625
-Championship,1908385,22102025,171,QPR,259,Swansea,1,0,1583
-Championship,1908387,22102025,175,WBA,27,Watford,1,2,1577
-Championship,1908394,22102025,197,Oxford,199,Wrexham,0,1,1489
-Championship,1908454,22112025,157,Birmingham,168,Norwich,4,1,1480
-Championship,1908456,22112025,259,Swansea,182,Bristol City,0,3,1593
-Championship,1908459,22112025,18,Southampton,160,Charlton,5,1,1385
-Championship,1908461,22112025,175,WBA,17,Coventry,2,3,1512
-Championship,1908464,22112025,20,Derby,27,Watford,2,3,1356
-Championship,1908467,22112025,165,Ipswich,199,Wrexham,0,0,1505
-Championship,1908470,22112025,14,Leicester,96,Stoke,2,1,1352
-Championship,1908472,22112025,21,Middlesbrough,197,Oxford,1,1,1513
-Championship,1908474,22112025,192,Millwall,169,Portsmouth,1,3,1412
-Championship,1908478,22112025,171,QPR,214,Hull,3,2,1456
-Championship,1908671,23012026,20,Derby,175,WBA,1,1,1360
-Championship,1979932,23052026,21,Middlesbrough,214,Hull,0,1,1484
-Championship,1908380,23082025,25,Sheff Wed,199,Wrexham,2,2,1490
-Championship,1908594,23082025,157,Birmingham,197,Oxford,1,0,1520
-Championship,1908596,23082025,160,Charlton,14,Leicester,0,1,1360
-Championship,1908598,23082025,171,QPR,17,Coventry,1,7,1379
-Championship,1908602,23082025,214,Hull,158,Blackburn,0,3,1563
-Championship,1908604,23082025,168,Norwich,21,Middlesbrough,1,2,1613
-Championship,1908606,23082025,165,Ipswich,181,Preston,0,1,1431
-Championship,1908608,23082025,192,Millwall,163,Sheff Utd,1,0,1497
-Championship,1908610,23082025,96,Stoke,18,Southampton,2,1,1354
-Championship,1908613,23082025,259,Swansea,27,Watford,1,1,1401
-Championship,1908616,23082025,175,WBA,169,Portsmouth,1,1,1569
-Championship,1908481,23112025,25,Sheff Wed,163,Sheff Utd,0,3,1387
-Championship,1908668,24012026,157,Birmingham,96,Stoke,2,0,1370
-Championship,1908669,24012026,158,Blackburn,27,Watford,1,1,1562
-Championship,1908670,24012026,182,Bristol City,25,Sheff Wed,2,0,1439
-Championship,1908672,24012026,214,Hull,259,Swansea,2,1,1443
-Championship,1908673,24012026,14,Leicester,197,Oxford,1,2,1440
-Championship,1908674,24012026,21,Middlesbrough,181,Preston,4,0,1398
-Championship,1908675,24012026,160,Charlton,192,Millwall,1,3,1396
-Championship,1908678,24012026,171,QPR,199,Wrexham,2,3,1520
-Championship,1908679,24012026,165,Ipswich,163,Sheff Utd,1,3,1380
-Championship,1908728,24022026,214,Hull,20,Derby,3,3,1284
-Championship,1908729,24022026,21,Middlesbrough,14,Leicester,1,1,1625
-Championship,1908730,24022026,171,QPR,18,Southampton,0,5,1513
-Championship,1908732,24022026,259,Swansea,181,Preston,1,1,1457
-Championship,1908733,24022026,27,Watford,165,Ipswich,0,2,1453
-Championship,1908734,24022026,175,WBA,160,Charlton,1,1,1505
-Championship,1908735,24022026,169,Portsmouth,199,Wrexham,1,2,1435
-Championship,1908736,24022026,182,Bristol City,158,Blackburn,2,1,1613
-Championship,1908772,24042026,14,Leicester,192,Millwall,0,2,1508
-Championship,1908420,24102025,181,Preston,163,Sheff Utd,2,3,1474
-Championship,1908677,25012026,169,Portsmouth,18,Southampton,1,1,1385
-Championship,1908731,25022026,96,Stoke,197,Oxford,2,1,1429
-Championship,1908737,25022026,192,Millwall,157,Birmingham,3,0,1348
-Championship,1908738,25022026,168,Norwich,25,Sheff Wed,2,0,1524
-Championship,1908739,25022026,17,Coventry,163,Sheff Utd,2,1,1479
-Championship,1908769,25042026,182,Bristol City,157,Birmingham,1,2,1473
-Championship,1908770,25042026,214,Hull,160,Charlton,1,2,1328
-Championship,1908773,25042026,27,Watford,21,Middlesbrough,1,5,1518
-Championship,1908774,25042026,259,Swansea,168,Norwich,1,1,1468
-Championship,1908775,25042026,197,Oxford,25,Sheff Wed,4,1,1425
-Championship,1908776,25042026,20,Derby,171,QPR,3,2,1335
-Championship,1908777,25042026,181,Preston,163,Sheff Utd,3,2,1407
-Championship,1908779,25042026,169,Portsmouth,96,Stoke,3,1,1345
-Championship,1908780,25042026,165,Ipswich,175,WBA,0,0,1423
-Championship,1908396,25102025,158,Blackburn,18,Southampton,2,1,1531
-Championship,1908398,25102025,182,Bristol City,157,Birmingham,1,0,1517
-Championship,1908400,25102025,27,Watford,17,Coventry,1,3,1455
-Championship,1908403,25102025,20,Derby,171,QPR,1,0,1516
-Championship,1908405,25102025,214,Hull,160,Charlton,1,1,1445
-Championship,1908408,25102025,175,WBA,165,Ipswich,0,1,1545
-Championship,1908410,25102025,21,Middlesbrough,199,Wrexham,1,1,1648
-Championship,1908413,25102025,192,Millwall,14,Leicester,1,0,1400
-Championship,1908416,25102025,96,Stoke,169,Portsmouth,0,1,1322
-Championship,1908422,25102025,197,Oxford,25,Sheff Wed,2,1,1563
-Championship,1908425,25102025,259,Swansea,168,Norwich,2,1,1582
-Championship,1908484,25112025,165,Ipswich,214,Hull,2,0,1508
-Championship,1908488,25112025,17,Coventry,21,Middlesbrough,5,1,1580
-Championship,1908496,25112025,14,Leicester,18,Southampton,0,3,1450
-Championship,1908499,25112025,160,Charlton,96,Stoke,0,3,1295
-Championship,1908502,25112025,259,Swansea,20,Derby,1,2,1614
-Championship,1908505,25112025,181,Preston,27,Watford,1,1,1558
-Championship,1908511,25112025,168,Norwich,197,Oxford,1,1,1445
-Championship,1908676,26012026,168,Norwich,17,Coventry,2,1,1552
-Championship,1908771,26042026,199,Wrexham,17,Coventry,1,3,1395
-Championship,1908609,26092025,14,Leicester,175,WBA,0,2,1527
-Championship,1908490,26112025,192,Millwall,25,Sheff Wed,1,0,1516
-Championship,1908493,26112025,163,Sheff Utd,169,Portsmouth,3,0,1316
-Championship,1908508,26112025,158,Blackburn,171,QPR,0,1,1377
-Championship,1908514,26112025,157,Birmingham,175,WBA,1,1,1488
-Championship,1908517,26112025,199,Wrexham,182,Bristol City,1,1,1613
-Championship,1908542,26122025,157,Birmingham,20,Derby,1,1,1518
-Championship,1908544,26122025,17,Coventry,259,Swansea,1,0,1507
-Championship,1908546,26122025,27,Watford,14,Leicester,2,1,1531
-Championship,1908548,26122025,158,Blackburn,21,Middlesbrough,0,0,1592
-Championship,1908550,26122025,165,Ipswich,192,Millwall,0,0,1397
-Championship,1908552,26122025,168,Norwich,160,Charlton,1,0,1463
-Championship,1908554,26122025,18,Southampton,197,Oxford,1,2,1555
-Championship,1908556,26122025,171,QPR,169,Portsmouth,1,1,1615
-Championship,1908558,26122025,25,Sheff Wed,214,Hull,2,2,1486
-Championship,1908560,26122025,96,Stoke,181,Preston,0,0,1385
-Championship,1908561,26122025,182,Bristol City,175,WBA,2,1,1590
-Championship,1908563,26122025,163,Sheff Utd,199,Wrexham,4,4,1607
-Championship,1908741,27022026,27,Watford,182,Bristol City,2,1,1580
-Championship,1908376,27092025,17,Coventry,157,Birmingham,2,1,1365
-Championship,1908378,27092025,169,Portsmouth,165,Ipswich,1,2,1441
-Championship,1908595,27092025,163,Sheff Utd,197,Oxford,1,0,1557
-Championship,1908597,27092025,181,Preston,182,Bristol City,0,0,1387
-Championship,1908599,27092025,171,QPR,25,Sheff Wed,1,1,1408
-Championship,1908601,27092025,18,Southampton,21,Middlesbrough,1,1,1535
-Championship,1908603,27092025,96,Stoke,168,Norwich,1,1,1517
-Championship,1908605,27092025,259,Swansea,192,Millwall,1,1,1562
-Championship,1908607,27092025,214,Hull,27,Watford,1,2,1344
-Championship,1908611,27092025,20,Derby,199,Wrexham,1,1,1499
-Championship,1908742,28022026,199,Wrexham,160,Charlton,1,0,1584
-Championship,1908743,28022026,17,Coventry,96,Stoke,2,1,1563
-Championship,1908744,28022026,20,Derby,158,Blackburn,3,1,1371
-Championship,1908745,28022026,165,Ipswich,259,Swansea,3,0,1575
-Championship,1908746,28022026,14,Leicester,168,Norwich,0,2,1628
-Championship,1908747,28022026,197,Oxford,175,WBA,2,1,1509
-Championship,1908748,28022026,214,Hull,169,Portsmouth,1,0,1454
-Championship,1908749,28022026,192,Millwall,181,Preston,2,0,1437
-Championship,1908750,28022026,171,QPR,163,Sheff Utd,0,2,1546
-Championship,1908751,28022026,18,Southampton,25,Sheff Wed,3,1,1399
-Championship,1908530,28112025,197,Oxford,165,Ipswich,2,1,1404
-Championship,1908392,29082025,157,Birmingham,14,Leicester,0,2,1484
-Championship,1908521,29112025,160,Charlton,17,Coventry,1,3,1428
-Championship,1908523,29112025,163,Sheff Utd,14,Leicester,3,2,1511
-Championship,1908524,29112025,20,Derby,21,Middlesbrough,1,2,1340
-Championship,1908526,29112025,192,Millwall,18,Southampton,3,2,1437
-Championship,1908529,29112025,171,QPR,168,Norwich,2,2,1461
-Championship,1908532,29112025,169,Portsmouth,182,Bristol City,0,1,1422
-Championship,1908534,29112025,181,Preston,25,Sheff Wed,3,2,1411
-Championship,1908536,29112025,96,Stoke,214,Hull,1,2,1390
-Championship,1908539,29112025,259,Swansea,175,WBA,2,3,1609
-Championship,1908541,29112025,158,Blackburn,199,Wrexham,1,1,1574
-Championship,1908564,29122025,157,Birmingham,18,Southampton,1,1,1477
-Championship,1908565,29122025,17,Coventry,165,Ipswich,0,2,1319
-Championship,1908567,29122025,14,Leicester,20,Derby,2,1,1428
-Championship,1908568,29122025,214,Hull,21,Middlesbrough,1,0,1432
-Championship,1908570,29122025,192,Millwall,182,Bristol City,2,1,1518
-Championship,1908571,29122025,168,Norwich,27,Watford,0,1,1453
-Championship,1908573,29122025,197,Oxford,259,Swansea,0,1,1595
-Championship,1908575,29122025,160,Charlton,169,Portsmouth,1,2,1410
-Championship,1908577,29122025,158,Blackburn,25,Sheff Wed,0,0,1502
-Championship,1908579,29122025,96,Stoke,163,Sheff Utd,1,2,1524
-Championship,1908581,29122025,175,WBA,171,QPR,3,0,1547
-Championship,1908583,29122025,199,Wrexham,181,Preston,2,1,1501
-Championship,1908681,30012026,20,Derby,182,Bristol City,5,0,1501
-Championship,1908386,30082025,158,Blackburn,168,Norwich,0,2,1395
-Championship,1908388,30082025,214,Hull,182,Bristol City,2,4,1556
-Championship,1908390,30082025,20,Derby,165,Ipswich,2,2,1379
-Championship,1908393,30082025,163,Sheff Utd,21,Middlesbrough,0,1,1609
-Championship,1908395,30082025,192,Millwall,199,Wrexham,0,2,1450
-Championship,1908397,30082025,197,Oxford,17,Coventry,2,2,1395
-Championship,1908401,30082025,169,Portsmouth,181,Preston,1,0,1387
-Championship,1908404,30082025,171,QPR,160,Charlton,3,1,1437
-Championship,1908407,30082025,25,Sheff Wed,259,Swansea,0,2,1461
-Championship,1908409,30082025,175,WBA,96,Stoke,1,0,1455
-Championship,1908412,30082025,27,Watford,18,Southampton,2,2,1354
-Championship,1908615,30092025,25,Sheff Wed,157,Birmingham,2,2,1404
-Championship,1908617,30092025,158,Blackburn,259,Swansea,1,2,1476
-Championship,1908618,30092025,165,Ipswich,182,Bristol City,1,1,1465
-Championship,1908619,30092025,160,Charlton,20,Derby,1,1,1511
-Championship,1908620,30092025,181,Preston,214,Hull,2,2,1398
-Championship,1908621,30092025,14,Leicester,199,Wrexham,1,1,1604
-Championship,1908622,30092025,96,Stoke,21,Middlesbrough,0,0,1516
-Championship,1908623,30092025,163,Sheff Utd,18,Southampton,1,2,1560
-Championship,1908680,31012026,214,Hull,158,Blackburn,1,0,1681
-Championship,1908682,31012026,181,Preston,165,Ipswich,1,1,1464
-Championship,1908683,31012026,160,Charlton,14,Leicester,2,0,1461
-Championship,1908684,31012026,168,Norwich,21,Middlesbrough,0,1,1539
-Championship,1908685,31012026,192,Millwall,163,Sheff Utd,1,1,1419
-Championship,1908686,31012026,197,Oxford,157,Birmingham,1,1,1502
-Championship,1908687,31012026,175,WBA,169,Portsmouth,0,3,1551
-Championship,1908688,31012026,171,QPR,17,Coventry,2,1,1494
-Championship,1908689,31012026,25,Sheff Wed,199,Wrexham,0,1,1521
-Championship,1908690,31012026,18,Southampton,96,Stoke,2,0,1615
-Championship,1908691,31012026,259,Swansea,27,Watford,2,0,1468
-Championship,1908462,31102025,199,Wrexham,17,Coventry,3,2,1479
+league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events,competition_key,competition_type,competition_phase,phase_table_scope,source_stage_id,validation_status
+Championship,1908585,1012026,158,Blackburn,199,Wrexham,0,2,1570,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908587,1012026,182,Bristol City,169,Portsmouth,5,0,1551,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908589,1012026,160,Charlton,17,Coventry,1,1,1379,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908591,1012026,20,Derby,21,Middlesbrough,1,0,1375,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908592,1012026,214,Hull,96,Stoke,0,1,1494,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908593,1012026,165,Ipswich,197,Oxford,2,1,1402,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908626,1012026,181,Preston,25,Sheff Wed,3,0,1513,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908627,1012026,171,QPR,168,Norwich,1,2,1506,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908628,1012026,163,Sheff Utd,14,Leicester,3,1,1525,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908629,1012026,18,Southampton,192,Millwall,0,0,1488,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908630,1012026,259,Swansea,175,WBA,1,0,1534,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908631,1012026,27,Watford,157,Birmingham,3,0,1510,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908421,1102025,169,Portsmouth,27,Watford,2,2,1406,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908424,1102025,171,QPR,197,Oxford,0,0,1533,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908624,1102025,192,Millwall,17,Coventry,0,4,1466,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908625,1102025,168,Norwich,175,WBA,0,1,1590,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908430,1112025,157,Birmingham,169,Portsmouth,4,0,1474,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908433,1112025,160,Charlton,259,Swansea,1,1,1508,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908436,1112025,14,Leicester,158,Blackburn,0,2,1578,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908439,1112025,168,Norwich,214,Hull,0,2,1471,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908442,1112025,197,Oxford,192,Millwall,2,2,1549,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908445,1112025,171,QPR,165,Ipswich,1,4,1374,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908447,1112025,163,Sheff Utd,20,Derby,1,3,1522,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908450,1112025,18,Southampton,181,Preston,0,2,1459,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908453,1112025,96,Stoke,182,Bristol City,5,1,1403,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908455,1112025,27,Watford,21,Middlesbrough,3,0,1517,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908458,1112025,175,WBA,25,Sheff Wed,0,0,1557,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908519,1122025,157,Birmingham,27,Watford,2,1,1483,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908740,2032026,157,Birmingham,21,Middlesbrough,1,3,1509,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908781,2052026,158,Blackburn,14,Leicester,0,1,1535,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908782,2052026,182,Bristol City,96,Stoke,2,0,1432,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908783,2052026,20,Derby,163,Sheff Utd,1,2,1430,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908784,2052026,214,Hull,168,Norwich,2,1,1375,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908785,2052026,165,Ipswich,171,QPR,3,0,1399,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908786,2052026,192,Millwall,197,Oxford,2,0,1466,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908787,2052026,169,Portsmouth,157,Birmingham,1,1,1231,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908788,2052026,181,Preston,18,Southampton,1,3,1500,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908789,2052026,25,Sheff Wed,175,WBA,2,1,1528,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908790,2052026,259,Swansea,160,Charlton,3,1,1436,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908791,2052026,27,Watford,17,Coventry,0,4,1479,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908792,2052026,199,Wrexham,21,Middlesbrough,2,2,1612,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908375,2122025,158,Blackburn,165,Ipswich,1,1,1181,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908543,3022026,158,Blackburn,25,Sheff Wed,1,0,912,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908636,3022026,214,Hull,27,Watford,0,0,1597,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908643,3022026,163,Sheff Utd,197,Oxford,3,1,1491,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908709,3032026,165,Ipswich,214,Hull,1,0,1516,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908460,3102025,199,Wrexham,157,Birmingham,1,1,1560,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908632,4012026,157,Birmingham,17,Coventry,3,2,1391,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908633,4012026,158,Blackburn,160,Charlton,2,2,1416,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908634,4012026,182,Bristol City,181,Preston,0,2,1639,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908635,4012026,20,Derby,199,Wrexham,1,2,1525,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908638,4012026,21,Middlesbrough,18,Southampton,4,0,1560,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908639,4012026,192,Millwall,259,Swansea,2,1,1544,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908640,4012026,168,Norwich,96,Stoke,0,2,1487,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908642,4012026,171,QPR,25,Sheff Wed,3,0,1546,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908427,4102025,158,Blackburn,96,Stoke,1,1,1480,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908429,4102025,182,Bristol City,171,QPR,1,2,1498,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908432,4102025,20,Derby,18,Southampton,1,1,1528,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908435,4102025,214,Hull,163,Sheff Utd,1,0,1490,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908441,4102025,192,Millwall,175,WBA,3,0,1479,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908444,4102025,169,Portsmouth,21,Middlesbrough,1,0,1470,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908446,4102025,181,Preston,160,Charlton,2,0,1346,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908448,4102025,25,Sheff Wed,17,Coventry,0,5,1506,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908452,4102025,259,Swansea,14,Leicester,1,3,1532,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908457,4102025,27,Watford,197,Oxford,2,1,1468,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908379,4112025,160,Charlton,175,WBA,1,0,1558,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908382,4112025,17,Coventry,163,Sheff Utd,3,1,1371,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908384,4112025,20,Derby,214,Hull,2,1,1456,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908389,4112025,165,Ipswich,27,Watford,1,1,1473,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908391,4112025,14,Leicester,21,Middlesbrough,1,1,1523,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908399,4112025,197,Oxford,96,Stoke,0,3,1391,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908465,4112025,157,Birmingham,192,Millwall,4,0,1457,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908468,4112025,182,Bristol City,158,Blackburn,0,1,1545,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908637,5012026,14,Leicester,175,WBA,2,1,1711,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908438,5102025,165,Ipswich,168,Norwich,3,1,1353,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908402,5112025,169,Portsmouth,199,Wrexham,0,0,1433,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908406,5112025,181,Preston,259,Swansea,2,1,1470,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908411,5112025,171,QPR,18,Southampton,1,2,1433,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908414,5112025,25,Sheff Wed,168,Norwich,1,1,1396,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908551,5122025,214,Hull,21,Middlesbrough,1,4,1583,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908693,6022026,160,Charlton,171,QPR,0,0,1497,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908793,6032026,181,Preston,197,Oxford,1,3,1421,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908545,6122025,182,Bristol City,192,Millwall,0,1,1423,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908549,6122025,20,Derby,14,Leicester,1,3,1473,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908553,6122025,165,Ipswich,17,Coventry,3,0,1452,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908555,6122025,181,Preston,199,Wrexham,1,1,1490,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908557,6122025,171,QPR,175,WBA,3,1,1526,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908559,6122025,163,Sheff Utd,96,Stoke,4,0,1345,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908562,6122025,18,Southampton,157,Birmingham,3,1,1339,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908566,6122025,259,Swansea,197,Oxford,2,0,1364,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908569,6122025,27,Watford,168,Norwich,3,2,1677,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908692,7022026,157,Birmingham,14,Leicester,2,1,1437,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908694,7022026,17,Coventry,197,Oxford,0,0,1400,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908695,7022026,20,Derby,165,Ipswich,1,2,1379,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908696,7022026,214,Hull,182,Bristol City,2,3,1612,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908697,7022026,168,Norwich,158,Blackburn,2,0,1514,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908698,7022026,181,Preston,169,Portsmouth,1,0,1313,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908700,7022026,18,Southampton,27,Watford,1,0,1524,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908702,7022026,175,WBA,96,Stoke,0,0,1518,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908703,7022026,199,Wrexham,192,Millwall,0,2,1468,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908752,7032026,158,Blackburn,169,Portsmouth,1,1,1540,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908753,7032026,182,Bristol City,17,Coventry,0,2,1491,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908754,7032026,160,Charlton,157,Birmingham,1,0,1435,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908755,7032026,20,Derby,25,Sheff Wed,2,1,1342,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908756,7032026,214,Hull,192,Millwall,1,3,1522,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908757,7032026,165,Ipswich,14,Leicester,1,1,1573,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908795,7032026,163,Sheff Utd,175,WBA,1,1,1564,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908797,7032026,259,Swansea,96,Stoke,2,0,1410,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908443,7112025,27,Watford,182,Bristol City,1,1,1499,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908701,8022026,259,Swansea,25,Sheff Wed,4,0,1508,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908794,8032026,171,QPR,21,Middlesbrough,0,4,1628,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1979301,8052026,192,Millwall,214,Hull,0,0,1352,Championship,domestic_league,promotion_playoff,playoff,,pending
+Championship,1908320,8082025,157,Birmingham,165,Ipswich,1,1,1295,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908417,8112025,158,Blackburn,20,Derby,1,2,1430,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908419,8112025,214,Hull,169,Portsmouth,3,2,1359,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908423,8112025,21,Middlesbrough,157,Birmingham,2,1,1415,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908426,8112025,192,Millwall,181,Preston,1,1,1378,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908428,8112025,168,Norwich,14,Leicester,1,2,1528,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908431,8112025,163,Sheff Utd,171,QPR,0,0,1444,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908434,8112025,18,Southampton,25,Sheff Wed,3,1,1471,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908437,8112025,96,Stoke,17,Coventry,0,1,1236,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908440,8112025,259,Swansea,165,Ipswich,1,4,1455,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908449,8112025,175,WBA,197,Oxford,2,1,1648,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908451,8112025,199,Wrexham,160,Charlton,1,0,1504,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908699,9022026,163,Sheff Utd,21,Middlesbrough,1,2,1474,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1979302,9052026,21,Middlesbrough,18,Southampton,0,0,1522,Championship,domestic_league,promotion_playoff,playoff,,pending
+Championship,1908321,9082025,160,Charlton,27,Watford,1,0,1296,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908322,9082025,17,Coventry,214,Hull,0,0,1315,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908323,9082025,18,Southampton,199,Wrexham,2,1,1458,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908324,9082025,21,Middlesbrough,259,Swansea,1,0,1496,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908325,9082025,168,Norwich,192,Millwall,1,2,1408,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908326,9082025,197,Oxford,169,Portsmouth,0,1,1429,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908327,9082025,171,QPR,181,Preston,1,1,1346,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908328,9082025,96,Stoke,20,Derby,3,1,1211,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908329,9082025,175,WBA,158,Blackburn,1,0,1450,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908330,9082025,163,Sheff Utd,182,Bristol City,1,4,1437,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908572,9122025,158,Blackburn,197,Oxford,1,1,1489,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908574,9122025,160,Charlton,21,Middlesbrough,1,2,1374,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908576,9122025,181,Preston,17,Coventry,1,1,1320,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908578,9122025,171,QPR,157,Birmingham,2,1,1429,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908580,9122025,163,Sheff Utd,168,Norwich,1,1,1581,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908582,9122025,18,Southampton,175,WBA,3,2,1627,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908584,9122025,259,Swansea,169,Portsmouth,1,0,1360,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908586,9122025,27,Watford,25,Sheff Wed,1,1,1555,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908704,10022026,157,Birmingham,175,WBA,0,0,1492,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908710,10022026,14,Leicester,18,Southampton,3,4,1511,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908711,10022026,197,Oxford,168,Norwich,0,3,1489,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908800,10032026,14,Leicester,182,Bristol City,2,0,1624,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908475,10122025,214,Hull,199,Wrexham,2,0,1528,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908479,10122025,165,Ipswich,96,Stoke,1,0,1545,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908588,10122025,182,Bristol City,14,Leicester,2,2,1441,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908590,10122025,20,Derby,192,Millwall,1,1,1425,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908706,11022026,160,Charlton,96,Stoke,1,0,1402,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908799,11032026,157,Birmingham,171,QPR,1,0,1578,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1979299,11052026,214,Hull,192,Millwall,2,0,1367,Championship,domestic_league,promotion_playoff,playoff,,pending
+Championship,1979300,12052026,21,Middlesbrough,18,Southampton,1,2,1856,Championship,domestic_league,promotion_playoff,playoff,,pending
+Championship,1908354,12092025,165,Ipswich,163,Sheff Utd,5,0,1472,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908512,12122025,175,WBA,163,Sheff Utd,2,0,1572,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908356,13092025,197,Oxford,14,Leicester,2,2,1501,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908358,13092025,181,Preston,21,Middlesbrough,2,2,1465,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908360,13092025,25,Sheff Wed,182,Bristol City,0,3,1491,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908364,13092025,96,Stoke,157,Birmingham,1,0,1437,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908365,13092025,259,Swansea,214,Hull,2,2,1577,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908367,13092025,27,Watford,158,Blackburn,0,1,1416,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908369,13092025,175,WBA,20,Derby,0,1,1536,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908371,13092025,199,Wrexham,171,QPR,1,3,1461,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908415,13092025,160,Charlton,192,Millwall,1,1,1360,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908418,13092025,17,Coventry,168,Norwich,1,1,1496,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908482,13122025,157,Birmingham,160,Charlton,1,1,1400,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908485,13122025,17,Coventry,182,Bristol City,1,0,1442,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908487,13122025,14,Leicester,165,Ipswich,3,1,1537,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908491,13122025,21,Middlesbrough,171,QPR,3,1,1456,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908494,13122025,192,Millwall,214,Hull,1,3,1449,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908497,13122025,168,Norwich,18,Southampton,2,1,1511,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908503,13122025,169,Portsmouth,158,Blackburn,2,1,1407,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908509,13122025,96,Stoke,259,Swansea,2,1,1368,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908515,13122025,199,Wrexham,27,Watford,2,2,1701,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908708,14022026,20,Derby,259,Swansea,2,0,1414,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908712,14022026,169,Portsmouth,163,Sheff Utd,0,1,1460,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908713,14022026,181,Preston,27,Watford,2,2,1534,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908714,14022026,171,QPR,158,Blackburn,1,3,1637,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908715,14022026,25,Sheff Wed,192,Millwall,1,2,1285,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908641,14042026,169,Portsmouth,165,Ipswich,2,0,1475,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908778,14042026,18,Southampton,158,Blackburn,3,0,1618,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908362,14092025,18,Southampton,169,Portsmouth,0,0,1364,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908506,15122025,25,Sheff Wed,20,Derby,0,3,1515,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908654,16012026,175,WBA,21,Middlesbrough,2,3,1517,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908707,16022026,17,Coventry,21,Middlesbrough,3,1,1573,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908344,16082025,158,Blackburn,157,Birmingham,1,2,1407,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908345,16082025,182,Bristol City,160,Charlton,0,0,1351,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908349,16082025,192,Millwall,21,Middlesbrough,0,3,1460,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908350,16082025,169,Portsmouth,168,Norwich,1,2,1609,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908351,16082025,181,Preston,14,Leicester,2,1,1347,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908352,16082025,25,Sheff Wed,96,Stoke,0,3,1397,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908353,16082025,259,Swansea,163,Sheff Utd,1,0,1374,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908612,16082025,27,Watford,171,QPR,2,1,1476,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908614,16082025,199,Wrexham,175,WBA,2,3,1566,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908644,17012026,160,Charlton,163,Sheff Utd,1,0,1338,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908645,17012026,17,Coventry,14,Leicester,2,1,1544,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908646,17012026,165,Ipswich,158,Blackburn,3,0,1522,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908647,17012026,197,Oxford,182,Bristol City,0,0,1508,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908648,17012026,181,Preston,20,Derby,0,1,1426,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908649,17012026,25,Sheff Wed,169,Portsmouth,0,1,1387,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908650,17012026,18,Southampton,214,Hull,1,2,1520,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908651,17012026,96,Stoke,171,QPR,0,0,1401,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908652,17012026,259,Swansea,157,Birmingham,1,1,1494,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908653,17012026,27,Watford,192,Millwall,0,2,1388,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908655,17012026,199,Wrexham,168,Norwich,1,2,1592,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908547,17022026,160,Charlton,169,Portsmouth,1,3,165,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908705,17022026,182,Bristol City,199,Wrexham,2,2,1560,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908798,17032026,27,Watford,199,Wrexham,3,1,1607,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908347,17082025,214,Hull,197,Oxford,3,2,1527,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908348,17082025,165,Ipswich,18,Southampton,1,1,1321,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908473,17102025,21,Middlesbrough,165,Ipswich,2,1,1411,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908796,18032026,18,Southampton,168,Norwich,1,0,1482,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908463,18102025,157,Birmingham,214,Hull,2,3,1482,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908466,18102025,160,Charlton,25,Sheff Wed,2,1,1433,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908469,18102025,17,Coventry,158,Blackburn,2,0,1538,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908471,18102025,14,Leicester,169,Portsmouth,1,1,1491,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908476,18102025,168,Norwich,182,Bristol City,0,1,1600,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908480,18102025,197,Oxford,20,Derby,1,0,1350,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908483,18102025,171,QPR,192,Millwall,1,2,1538,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908486,18102025,163,Sheff Utd,27,Watford,1,0,1526,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908489,18102025,18,Southampton,259,Swansea,0,0,1491,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908492,18102025,96,Stoke,199,Wrexham,1,0,1533,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908495,18102025,175,WBA,181,Preston,2,1,1504,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908361,19092025,21,Middlesbrough,175,WBA,2,1,1639,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908538,19122025,259,Swansea,199,Wrexham,2,1,1597,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908656,20012026,17,Coventry,192,Millwall,2,1,1393,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908657,20012026,165,Ipswich,182,Bristol City,2,0,1534,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908658,20012026,197,Oxford,171,QPR,0,0,1418,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908659,20012026,181,Preston,214,Hull,0,3,1476,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908660,20012026,25,Sheff Wed,157,Birmingham,0,2,1579,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908661,20012026,259,Swansea,158,Blackburn,3,1,1668,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908662,20012026,175,WBA,168,Norwich,0,5,1514,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908663,20012026,199,Wrexham,14,Leicester,1,1,1583,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908664,20012026,160,Charlton,20,Derby,1,2,1386,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908716,20022026,158,Blackburn,181,Preston,1,0,1472,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908355,20092025,20,Derby,181,Preston,0,1,1538,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908357,20092025,214,Hull,18,Southampton,3,1,1511,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908366,20092025,168,Norwich,199,Wrexham,2,3,1589,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908368,20092025,169,Portsmouth,25,Sheff Wed,0,2,1471,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908370,20092025,171,QPR,96,Stoke,1,0,1287,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908372,20092025,163,Sheff Utd,160,Charlton,0,1,1416,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908518,20122025,158,Blackburn,192,Millwall,2,0,1441,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908520,20122025,182,Bristol City,21,Middlesbrough,2,0,1525,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908522,20122025,160,Charlton,197,Oxford,1,0,1384,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908525,20122025,20,Derby,169,Portsmouth,1,1,1484,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908527,20122025,214,Hull,175,WBA,1,0,1406,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908528,20122025,165,Ipswich,25,Sheff Wed,3,1,1366,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908531,20122025,181,Preston,168,Norwich,1,1,1316,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908533,20122025,171,QPR,14,Leicester,4,1,1393,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908535,20122025,163,Sheff Utd,157,Birmingham,3,0,1539,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908537,20122025,18,Southampton,17,Coventry,1,1,1481,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908540,20122025,27,Watford,96,Stoke,1,0,1415,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908665,21012026,18,Southampton,163,Sheff Utd,1,0,1464,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908666,21012026,96,Stoke,21,Middlesbrough,1,2,1465,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908667,21012026,27,Watford,169,Portsmouth,1,1,1521,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908717,21022026,214,Hull,171,QPR,1,3,1464,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908718,21022026,21,Middlesbrough,197,Oxford,0,0,1578,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908719,21022026,192,Millwall,169,Portsmouth,1,3,1383,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908720,21022026,168,Norwich,157,Birmingham,1,2,1505,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908722,21022026,18,Southampton,160,Charlton,1,1,1492,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908723,21022026,96,Stoke,14,Leicester,2,2,1334,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908724,21022026,259,Swansea,182,Bristol City,1,0,1507,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908725,21022026,27,Watford,20,Derby,2,0,1459,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908726,21022026,175,WBA,17,Coventry,0,2,1637,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908727,21022026,199,Wrexham,165,Ipswich,5,3,1493,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908759,21042026,168,Norwich,20,Derby,2,1,1502,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908761,21042026,171,QPR,259,Swansea,1,2,1741,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908762,21042026,18,Southampton,182,Bristol City,2,2,1562,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908763,21042026,96,Stoke,192,Millwall,1,3,1395,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908764,21042026,175,WBA,27,Watford,3,0,1543,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908767,21042026,14,Leicester,214,Hull,2,2,1549,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908377,21092025,182,Bristol City,197,Oxford,1,3,1435,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908381,21102025,181,Preston,157,Birmingham,0,1,1508,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908498,21102025,158,Blackburn,163,Sheff Utd,1,3,1431,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908501,21102025,182,Bristol City,18,Southampton,3,1,1425,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908504,21102025,20,Derby,168,Norwich,1,0,1552,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908507,21102025,214,Hull,14,Leicester,2,1,1572,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908510,21102025,165,Ipswich,160,Charlton,0,3,1333,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908513,21102025,192,Millwall,96,Stoke,2,0,1471,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908516,21102025,169,Portsmouth,17,Coventry,1,2,1482,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908477,21112025,181,Preston,158,Blackburn,1,2,1485,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908721,22022026,163,Sheff Utd,25,Sheff Wed,2,1,1237,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908758,22042026,21,Middlesbrough,25,Sheff Wed,1,0,1593,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908765,22042026,157,Birmingham,181,Preston,2,1,1415,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908766,22042026,160,Charlton,165,Ipswich,1,2,1517,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908768,22042026,163,Sheff Utd,158,Blackburn,1,3,1815,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908600,22082025,20,Derby,182,Bristol City,1,1,1592,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908363,22092025,192,Millwall,27,Watford,1,0,1631,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908383,22102025,25,Sheff Wed,21,Middlesbrough,0,1,1625,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908385,22102025,259,Swansea,171,QPR,0,1,1583,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908387,22102025,27,Watford,175,WBA,2,1,1577,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908394,22102025,199,Wrexham,197,Oxford,1,0,1489,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908454,22112025,157,Birmingham,168,Norwich,4,1,1480,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908456,22112025,182,Bristol City,259,Swansea,3,0,1593,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908459,22112025,160,Charlton,18,Southampton,1,5,1385,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908461,22112025,17,Coventry,175,WBA,3,2,1512,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908464,22112025,20,Derby,27,Watford,2,3,1356,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908467,22112025,165,Ipswich,199,Wrexham,0,0,1505,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908470,22112025,14,Leicester,96,Stoke,2,1,1352,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908472,22112025,197,Oxford,21,Middlesbrough,1,1,1513,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908474,22112025,169,Portsmouth,192,Millwall,3,1,1412,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908478,22112025,171,QPR,214,Hull,3,2,1456,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908671,23012026,20,Derby,175,WBA,1,1,1360,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1979932,23052026,21,Middlesbrough,214,Hull,0,1,1484,Championship,domestic_league,promotion_playoff,playoff,,pending
+Championship,1908380,23082025,199,Wrexham,25,Sheff Wed,2,2,1490,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908594,23082025,157,Birmingham,197,Oxford,1,0,1520,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908596,23082025,160,Charlton,14,Leicester,0,1,1360,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908598,23082025,17,Coventry,171,QPR,7,1,1379,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908602,23082025,214,Hull,158,Blackburn,0,3,1563,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908604,23082025,168,Norwich,21,Middlesbrough,1,2,1613,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908606,23082025,181,Preston,165,Ipswich,1,0,1431,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908608,23082025,163,Sheff Utd,192,Millwall,0,1,1497,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908610,23082025,18,Southampton,96,Stoke,1,2,1354,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908613,23082025,259,Swansea,27,Watford,1,1,1401,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908616,23082025,175,WBA,169,Portsmouth,1,1,1569,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908481,23112025,25,Sheff Wed,163,Sheff Utd,0,3,1387,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908668,24012026,157,Birmingham,96,Stoke,1,1,1370,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908669,24012026,158,Blackburn,27,Watford,1,1,1562,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908670,24012026,182,Bristol City,25,Sheff Wed,2,0,1439,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908672,24012026,214,Hull,259,Swansea,2,1,1443,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908673,24012026,14,Leicester,197,Oxford,1,2,1440,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908674,24012026,21,Middlesbrough,181,Preston,4,0,1398,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908675,24012026,192,Millwall,160,Charlton,4,0,1396,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908678,24012026,171,QPR,199,Wrexham,2,3,1520,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908679,24012026,163,Sheff Utd,165,Ipswich,3,1,1380,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908728,24022026,214,Hull,20,Derby,4,2,1284,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908729,24022026,21,Middlesbrough,14,Leicester,1,1,1625,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908730,24022026,18,Southampton,171,QPR,5,0,1513,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908732,24022026,259,Swansea,181,Preston,1,1,1457,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908733,24022026,27,Watford,165,Ipswich,0,2,1453,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908734,24022026,175,WBA,160,Charlton,1,1,1505,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908735,24022026,199,Wrexham,169,Portsmouth,2,1,1435,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908736,24022026,158,Blackburn,182,Bristol City,1,2,1613,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908772,24042026,14,Leicester,192,Millwall,1,1,1508,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908420,24102025,181,Preston,163,Sheff Utd,3,2,1474,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908677,25012026,169,Portsmouth,18,Southampton,1,1,1385,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908731,25022026,96,Stoke,197,Oxford,2,1,1429,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908737,25022026,192,Millwall,157,Birmingham,3,0,1348,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908738,25022026,168,Norwich,25,Sheff Wed,2,0,1524,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908739,25022026,163,Sheff Utd,17,Coventry,1,2,1479,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908769,25042026,157,Birmingham,182,Bristol City,2,1,1473,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908770,25042026,160,Charlton,214,Hull,2,1,1328,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908773,25042026,21,Middlesbrough,27,Watford,5,1,1518,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908774,25042026,168,Norwich,259,Swansea,1,1,1468,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908775,25042026,197,Oxford,25,Sheff Wed,4,1,1425,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908776,25042026,171,QPR,20,Derby,2,3,1335,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908777,25042026,163,Sheff Utd,181,Preston,2,3,1407,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908779,25042026,96,Stoke,169,Portsmouth,1,3,1345,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908780,25042026,175,WBA,165,Ipswich,0,0,1423,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908396,25102025,158,Blackburn,18,Southampton,2,1,1531,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908398,25102025,182,Bristol City,157,Birmingham,1,0,1517,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908400,25102025,17,Coventry,27,Watford,3,1,1455,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908403,25102025,20,Derby,171,QPR,1,0,1516,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908405,25102025,214,Hull,160,Charlton,1,1,1445,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908408,25102025,165,Ipswich,175,WBA,1,0,1545,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908410,25102025,21,Middlesbrough,199,Wrexham,1,1,1648,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908413,25102025,192,Millwall,14,Leicester,1,0,1400,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908416,25102025,169,Portsmouth,96,Stoke,0,1,1322,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908422,25102025,25,Sheff Wed,197,Oxford,1,2,1563,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908425,25102025,259,Swansea,168,Norwich,2,1,1582,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908484,25112025,214,Hull,165,Ipswich,0,2,1508,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908488,25112025,21,Middlesbrough,17,Coventry,2,4,1580,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908496,25112025,18,Southampton,14,Leicester,3,0,1450,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908499,25112025,96,Stoke,160,Charlton,3,0,1295,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908502,25112025,259,Swansea,20,Derby,1,2,1614,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908505,25112025,27,Watford,181,Preston,1,1,1558,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908511,25112025,168,Norwich,197,Oxford,1,1,1445,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908676,26012026,168,Norwich,17,Coventry,2,1,1552,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908771,26042026,17,Coventry,199,Wrexham,3,1,1395,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908609,26092025,175,WBA,14,Leicester,1,1,1527,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908490,26112025,192,Millwall,25,Sheff Wed,1,0,1516,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908493,26112025,163,Sheff Utd,169,Portsmouth,3,0,1316,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908508,26112025,158,Blackburn,171,QPR,0,1,1377,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908514,26112025,175,WBA,157,Birmingham,1,1,1488,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908517,26112025,199,Wrexham,182,Bristol City,2,0,1613,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908542,26122025,157,Birmingham,20,Derby,1,1,1518,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908544,26122025,17,Coventry,259,Swansea,1,0,1507,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908546,26122025,14,Leicester,27,Watford,1,2,1531,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908548,26122025,21,Middlesbrough,158,Blackburn,0,0,1592,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908550,26122025,192,Millwall,165,Ipswich,0,0,1397,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908552,26122025,168,Norwich,160,Charlton,1,0,1463,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908554,26122025,197,Oxford,18,Southampton,2,1,1555,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908556,26122025,169,Portsmouth,171,QPR,1,1,1615,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908558,26122025,25,Sheff Wed,214,Hull,2,2,1486,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908560,26122025,96,Stoke,181,Preston,0,0,1385,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908561,26122025,175,WBA,182,Bristol City,1,2,1590,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908563,26122025,199,Wrexham,163,Sheff Utd,5,3,1607,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908741,27022026,182,Bristol City,27,Watford,1,2,1580,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908376,27092025,17,Coventry,157,Birmingham,3,0,1365,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908378,27092025,165,Ipswich,169,Portsmouth,2,1,1441,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908595,27092025,197,Oxford,163,Sheff Utd,0,1,1557,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908597,27092025,181,Preston,182,Bristol City,0,0,1387,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908599,27092025,25,Sheff Wed,171,QPR,1,1,1408,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908601,27092025,18,Southampton,21,Middlesbrough,1,1,1535,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908603,27092025,96,Stoke,168,Norwich,1,1,1517,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908605,27092025,259,Swansea,192,Millwall,1,1,1562,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908607,27092025,27,Watford,214,Hull,2,1,1344,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908611,27092025,199,Wrexham,20,Derby,1,1,1499,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908742,28022026,160,Charlton,199,Wrexham,0,1,1584,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908743,28022026,17,Coventry,96,Stoke,2,1,1563,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908744,28022026,20,Derby,158,Blackburn,3,1,1371,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908745,28022026,165,Ipswich,259,Swansea,3,0,1575,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908746,28022026,14,Leicester,168,Norwich,0,2,1628,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908747,28022026,197,Oxford,175,WBA,2,1,1509,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908748,28022026,169,Portsmouth,214,Hull,0,1,1454,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908749,28022026,181,Preston,192,Millwall,0,2,1437,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908750,28022026,171,QPR,163,Sheff Utd,0,2,1546,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908751,28022026,25,Sheff Wed,18,Southampton,1,3,1399,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908530,28112025,197,Oxford,165,Ipswich,2,1,1404,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908392,29082025,14,Leicester,157,Birmingham,2,0,1484,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908521,29112025,17,Coventry,160,Charlton,3,1,1428,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908523,29112025,14,Leicester,163,Sheff Utd,2,3,1511,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908524,29112025,21,Middlesbrough,20,Derby,2,1,1340,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908526,29112025,192,Millwall,18,Southampton,3,2,1437,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908529,29112025,168,Norwich,171,QPR,3,1,1461,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908532,29112025,169,Portsmouth,182,Bristol City,0,1,1422,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908534,29112025,25,Sheff Wed,181,Preston,2,3,1411,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908536,29112025,96,Stoke,214,Hull,1,2,1390,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908539,29112025,175,WBA,259,Swansea,3,2,1609,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908541,29112025,199,Wrexham,158,Blackburn,1,1,1574,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908564,29122025,157,Birmingham,18,Southampton,1,1,1477,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908565,29122025,17,Coventry,165,Ipswich,0,2,1319,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908567,29122025,14,Leicester,20,Derby,2,1,1428,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908568,29122025,21,Middlesbrough,214,Hull,0,1,1432,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908570,29122025,192,Millwall,182,Bristol City,2,1,1518,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908571,29122025,168,Norwich,27,Watford,0,1,1453,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908573,29122025,197,Oxford,259,Swansea,0,1,1595,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908575,29122025,169,Portsmouth,160,Charlton,2,1,1410,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908577,29122025,25,Sheff Wed,158,Blackburn,0,0,1502,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908579,29122025,96,Stoke,163,Sheff Utd,1,2,1524,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908581,29122025,175,WBA,171,QPR,2,1,1547,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908583,29122025,199,Wrexham,181,Preston,2,1,1501,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908681,30012026,182,Bristol City,20,Derby,0,5,1501,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908386,30082025,158,Blackburn,168,Norwich,0,2,1395,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908388,30082025,182,Bristol City,214,Hull,4,2,1556,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908390,30082025,165,Ipswich,20,Derby,2,2,1379,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908393,30082025,21,Middlesbrough,163,Sheff Utd,1,0,1609,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908395,30082025,192,Millwall,199,Wrexham,0,2,1450,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908397,30082025,197,Oxford,17,Coventry,2,2,1395,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908401,30082025,169,Portsmouth,181,Preston,1,0,1387,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908404,30082025,171,QPR,160,Charlton,3,1,1437,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908407,30082025,25,Sheff Wed,259,Swansea,0,2,1461,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908409,30082025,96,Stoke,175,WBA,0,1,1455,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908412,30082025,27,Watford,18,Southampton,2,2,1354,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908615,30092025,157,Birmingham,25,Sheff Wed,2,2,1404,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908617,30092025,158,Blackburn,259,Swansea,1,2,1476,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908618,30092025,182,Bristol City,165,Ipswich,1,1,1465,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908619,30092025,20,Derby,160,Charlton,1,1,1511,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908620,30092025,214,Hull,181,Preston,2,2,1398,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908621,30092025,14,Leicester,199,Wrexham,1,1,1604,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908622,30092025,21,Middlesbrough,96,Stoke,0,0,1516,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908623,30092025,163,Sheff Utd,18,Southampton,1,2,1560,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908680,31012026,158,Blackburn,214,Hull,0,1,1681,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908682,31012026,165,Ipswich,181,Preston,1,1,1464,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908683,31012026,14,Leicester,160,Charlton,0,2,1461,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908684,31012026,21,Middlesbrough,168,Norwich,1,0,1539,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908685,31012026,192,Millwall,163,Sheff Utd,1,1,1419,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908686,31012026,197,Oxford,157,Birmingham,0,2,1502,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908687,31012026,169,Portsmouth,175,WBA,3,0,1551,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908688,31012026,171,QPR,17,Coventry,2,1,1494,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908689,31012026,25,Sheff Wed,199,Wrexham,0,1,1521,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908690,31012026,96,Stoke,18,Southampton,0,2,1615,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908691,31012026,27,Watford,259,Swansea,0,2,1468,Championship,domestic_league,regular_season,regular_season,,ok
+Championship,1908462,31102025,199,Wrexham,17,Coventry,3,2,1479,Championship,domestic_league,regular_season,regular_season,,ok

@@ -1,0 +1,17 @@
+competition_key,competition_type,competition_phase,phase_table_scope,expected_matches,expected_team_matches,manifest_matches,processed_matches,pending_count,pending_ids,manifest_not_processed_count,manifest_not_processed_ids,wrong_competition_count,wrong_competition_ids,team_matches_min,team_matches_max,completeness_status
+Serie_A,domestic_league,regular_season,regular_season,380,38.0,380,380,0,,0,,0,,38.0,38.0,complete
+Premier_League,domestic_league,regular_season,regular_season,380,38.0,380,380,0,,0,,1,1903233,1.0,38.0,invalid_matches
+La_Liga,domestic_league,regular_season,regular_season,380,38.0,380,380,0,,0,,0,,38.0,38.0,complete
+Bundesliga,domestic_league,regular_season,regular_season,306,34.0,306,306,0,,0,,0,,34.0,34.0,complete
+Ligue_1,domestic_league,regular_season,regular_season,306,34.0,306,306,0,,0,,0,,34.0,34.0,complete
+Championship,domestic_league,promotion_playoff,playoff,5,,5,5,0,,0,,0,,2.0,3.0,complete
+Championship,domestic_league,regular_season,regular_season,552,46.0,469,462,7,1908331 1908346 1908359 1908373 1908374 1908500 1908760,7,1908331 1908346 1908359 1908373 1908374 1908500 1908760,0,,36.0,40.0,incomplete
+Primeira_Liga,domestic_league,regular_season,regular_season,306,34.0,302,302,0,,0,,0,,31.0,34.0,incomplete
+Eredivisie,domestic_league,regular_season,regular_season,306,34.0,306,306,0,,0,,0,,34.0,34.0,complete
+Belgium_Pro_League,domestic_league,championship_playoff,playoff,30,10.0,0,0,0,,0,,0,,,,missing
+Belgium_Pro_League,domestic_league,europe_decider,playoff,1,1.0,0,0,0,,0,,0,,,,missing
+Belgium_Pro_League,domestic_league,europe_playoff,playoff,30,10.0,0,0,0,,0,,0,,,,missing
+Belgium_Pro_League,domestic_league,promotion_relegation_playoff,playoff,2,2.0,0,0,0,,0,,0,,,,missing
+Belgium_Pro_League,domestic_league,regular_season,regular_season,240,30.0,253,218,35,1975463 1975466 1975469 1975472 1975475 1975478 1975479 1975480 1975481 1975483 1975484 1975486 1975488 1975490 1975491 1975492 1975494 1975497 1975499 1975500 1975502 1975504 1975505 1975506 1975508 1975509 1975510 1975511 1975513 1975518 1975530 1975531 1975532 1975533 1980418,35,1975463 1975466 1975469 1975472 1975475 1975478 1975479 1975480 1975481 1975483 1975484 1975486 1975488 1975490 1975491 1975492 1975494 1975497 1975499 1975500 1975502 1975504 1975505 1975506 1975508 1975509 1975510 1975511 1975513 1975518 1975530 1975531 1975532 1975533 1980418,1,1904939,1.0,29.0,invalid_matches
+Belgium_Pro_League,domestic_league,relegation_playoff,playoff,12,6.0,0,0,0,,0,,0,,,,missing
+Super_Lig,domestic_league,regular_season,regular_season,306,34.0,306,306,0,,0,,0,,34.0,34.0,complete

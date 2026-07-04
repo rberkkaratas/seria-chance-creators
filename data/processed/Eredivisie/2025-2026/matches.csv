@@ -1,307 +1,307 @@
-league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events
-Eredivisie,1903844,01022026,130,Ajax,867,Excelsior,2,2,1512
-Eredivisie,1903847,01022026,874,Go Ahead Eagles,762,FC Volendam,1,1,1456
-Eredivisie,1903850,01022026,128,FC Utrecht,287,SC Heerenveen,1,1,1595
-Eredivisie,1903853,01022026,242,Fortuna Sittard,870,Heracles,1,2,1471
-Eredivisie,1903859,01022026,256,Feyenoord,129,PSV Eindhoven,0,3,1530
-Eredivisie,1903884,01032026,867,Excelsior,874,Go Ahead Eagles,0,1,1540
-Eredivisie,1903887,01032026,762,FC Volendam,758,FC Groningen,3,2,1356
-Eredivisie,1903897,01032026,113,Twente,256,Feyenoord,2,0,1478
-Eredivisie,1903899,01032026,128,FC Utrecht,243,AZ Alkmaar,2,0,1513
-Eredivisie,1903901,01032026,130,Ajax,868,PEC Zwolle,0,0,1465
-Eredivisie,1904028,01112025,762,FC Volendam,256,Feyenoord,1,3,1485
-Eredivisie,1904031,01112025,874,Go Ahead Eagles,783,NAC Breda,0,1,1480
-Eredivisie,1904032,01112025,130,Ajax,287,SC Heerenveen,1,1,1575
-Eredivisie,1904033,01112025,867,Excelsior,876,Telstar,2,2,1391
-Eredivisie,1903898,02052026,129,PSV Eindhoven,130,Ajax,2,2,1578
-Eredivisie,1903904,02052026,867,Excelsior,758,FC Groningen,3,2,1420
-Eredivisie,1903906,02052026,876,Telstar,116,NEC Nijmegen,1,1,1437
-Eredivisie,1903910,02052026,783,NAC Breda,128,FC Utrecht,0,2,1442
-Eredivisie,1904034,02112025,870,Heracles,868,PEC Zwolle,8,2,1370
-Eredivisie,1904035,02112025,758,FC Groningen,113,Twente,1,1,1523
-Eredivisie,1904036,02112025,243,AZ Alkmaar,303,Sparta Rotterdam,1,0,1482
-Eredivisie,1904037,02112025,128,FC Utrecht,116,NEC Nijmegen,1,0,1440
-Eredivisie,1903832,02122025,758,FC Groningen,130,Ajax,0,2,1609
-Eredivisie,1903900,03052026,243,AZ Alkmaar,113,Twente,3,1,1582
-Eredivisie,1903902,03052026,287,SC Heerenveen,762,FC Volendam,2,0,1429
-Eredivisie,1903907,03052026,242,Fortuna Sittard,256,Feyenoord,1,2,1436
-Eredivisie,1903909,03052026,303,Sparta Rotterdam,874,Go Ahead Eagles,2,2,1452
-Eredivisie,1903911,03052026,868,PEC Zwolle,870,Heracles,1,0,1429
-Eredivisie,1904019,03102025,783,NAC Breda,758,FC Groningen,1,2,1557
-Eredivisie,1903973,04042026,113,Twente,130,Ajax,2,1,1609
-Eredivisie,1903974,04042026,242,Fortuna Sittard,243,AZ Alkmaar,0,2,1483
-Eredivisie,1903975,04042026,116,NEC Nijmegen,867,Excelsior,2,0,1451
-Eredivisie,1903980,04042026,129,PSV Eindhoven,128,FC Utrecht,4,3,1473
-Eredivisie,1903981,04042026,758,FC Groningen,876,Telstar,2,0,1477
-Eredivisie,1904021,04102025,130,Ajax,303,Sparta Rotterdam,3,3,1503
-Eredivisie,1904023,04102025,242,Fortuna Sittard,762,FC Volendam,1,0,1457
-Eredivisie,1904025,04102025,868,PEC Zwolle,129,PSV Eindhoven,0,4,1596
-Eredivisie,1904027,04102025,867,Excelsior,287,SC Heerenveen,1,2,1538
-Eredivisie,1903976,05042026,256,Feyenoord,762,FC Volendam,0,0,1508
-Eredivisie,1903977,05042026,868,PEC Zwolle,874,Go Ahead Eagles,0,5,1430
-Eredivisie,1903978,05042026,870,Heracles,287,SC Heerenveen,2,3,1460
-Eredivisie,1903979,05042026,783,NAC Breda,303,Sparta Rotterdam,0,0,1440
-Eredivisie,1903994,05102025,256,Feyenoord,128,FC Utrecht,3,2,1475
-Eredivisie,1903995,05102025,116,NEC Nijmegen,874,Go Ahead Eagles,0,2,1390
-Eredivisie,1904029,05102025,870,Heracles,113,Twente,1,2,1504
-Eredivisie,1904030,05102025,243,AZ Alkmaar,876,Telstar,2,1,1451
-Eredivisie,1903861,05122025,867,Excelsior,758,FC Groningen,0,2,1582
-Eredivisie,1903878,06022026,867,Excelsior,783,NAC Breda,2,0,1566
-Eredivisie,1903912,06032026,870,Heracles,128,FC Utrecht,0,0,1518
-Eredivisie,1903788,06122025,242,Fortuna Sittard,130,Ajax,3,1,1492
-Eredivisie,1903867,06122025,256,Feyenoord,868,PEC Zwolle,6,1,1319
-Eredivisie,1903870,06122025,287,SC Heerenveen,129,PSV Eindhoven,0,2,1577
-Eredivisie,1903873,06122025,876,Telstar,870,Heracles,1,1,1426
-Eredivisie,1903880,07022026,116,NEC Nijmegen,870,Heracles,4,1,1309
-Eredivisie,1903882,07022026,303,Sparta Rotterdam,242,Fortuna Sittard,2,2,1615
-Eredivisie,1903883,07022026,287,SC Heerenveen,113,Twente,0,5,1541
-Eredivisie,1903914,07022026,868,PEC Zwolle,762,FC Volendam,1,2,1483
-Eredivisie,1903903,07032026,867,Excelsior,287,SC Heerenveen,1,2,1495
-Eredivisie,1903908,07032026,130,Ajax,758,FC Groningen,1,3,1600
-Eredivisie,1903925,07032026,129,PSV Eindhoven,243,AZ Alkmaar,1,2,1599
-Eredivisie,1904038,07112025,113,Twente,876,Telstar,0,0,1587
-Eredivisie,1903796,07122025,783,NAC Breda,303,Sparta Rotterdam,0,1,1538
-Eredivisie,1903799,07122025,128,FC Utrecht,113,Twente,1,1,1455
-Eredivisie,1903858,07122025,243,AZ Alkmaar,874,Go Ahead Eagles,1,3,1491
-Eredivisie,1903864,07122025,116,NEC Nijmegen,762,FC Volendam,3,2,1302
-Eredivisie,1903869,08022026,243,AZ Alkmaar,130,Ajax,1,1,1503
-Eredivisie,1903872,08022026,876,Telstar,874,Go Ahead Eagles,1,1,1384
-Eredivisie,1903875,08022026,758,FC Groningen,129,PSV Eindhoven,1,2,1594
-Eredivisie,1903885,08022026,128,FC Utrecht,256,Feyenoord,0,1,1536
-Eredivisie,1903905,08032026,113,Twente,874,Go Ahead Eagles,3,2,1538
-Eredivisie,1903919,08032026,256,Feyenoord,783,NAC Breda,3,3,1443
-Eredivisie,1903922,08032026,762,FC Volendam,116,NEC Nijmegen,0,3,1526
-Eredivisie,1903927,08032026,876,Telstar,242,Fortuna Sittard,4,1,1454
-Eredivisie,1903929,08032026,303,Sparta Rotterdam,868,PEC Zwolle,1,1,1484
-Eredivisie,1903733,08082025,242,Fortuna Sittard,874,Go Ahead Eagles,3,1,1351
-Eredivisie,1903789,08112025,870,Heracles,867,Excelsior,2,1,1396
-Eredivisie,1903790,08112025,783,NAC Breda,762,FC Volendam,0,3,1390
-Eredivisie,1903792,08112025,287,SC Heerenveen,242,Fortuna Sittard,0,2,1488
-Eredivisie,1903793,08112025,868,PEC Zwolle,303,Sparta Rotterdam,1,0,1577
-Eredivisie,1903734,09082025,867,Excelsior,116,NEC Nijmegen,0,5,1455
-Eredivisie,1903735,09082025,256,Feyenoord,783,NAC Breda,2,0,1443
-Eredivisie,1903736,09082025,762,FC Volendam,287,SC Heerenveen,1,1,1389
-Eredivisie,1903737,09082025,129,PSV Eindhoven,303,Sparta Rotterdam,6,1,1631
-Eredivisie,1903795,09112025,130,Ajax,128,FC Utrecht,1,2,1631
-Eredivisie,1903797,09112025,243,AZ Alkmaar,129,PSV Eindhoven,1,5,1536
-Eredivisie,1903801,09112025,758,FC Groningen,116,NEC Nijmegen,0,2,1456
-Eredivisie,1903804,09112025,256,Feyenoord,874,Go Ahead Eagles,1,2,1505
-Eredivisie,1903857,10012026,762,FC Volendam,243,AZ Alkmaar,0,1,1607
-Eredivisie,1903862,10012026,783,NAC Breda,758,FC Groningen,0,0,1591
-Eredivisie,1903871,10012026,867,Excelsior,129,PSV Eindhoven,1,5,1608
-Eredivisie,1903879,10012026,868,PEC Zwolle,113,Twente,1,1,1576
-Eredivisie,1903988,10042026,762,FC Volendam,113,Twente,1,2,1564
-Eredivisie,1903913,10052026,130,Ajax,128,FC Utrecht,1,2,1688
-Eredivisie,1903915,10052026,762,FC Volendam,867,Excelsior,2,0,1373
-Eredivisie,1903917,10052026,243,AZ Alkmaar,256,Feyenoord,1,1,1526
-Eredivisie,1903920,10052026,129,PSV Eindhoven,874,Go Ahead Eagles,4,1,1419
-Eredivisie,1903923,10052026,116,NEC Nijmegen,758,FC Groningen,1,2,1429
-Eredivisie,1903933,10052026,242,Fortuna Sittard,868,PEC Zwolle,3,2,1447
-Eredivisie,1903936,10052026,876,Telstar,870,Heracles,3,0,1162
-Eredivisie,1903939,10052026,113,Twente,303,Sparta Rotterdam,4,0,1591
-Eredivisie,1903738,10082025,868,PEC Zwolle,113,Twente,1,0,1485
-Eredivisie,1903739,10082025,876,Telstar,130,Ajax,0,2,1570
-Eredivisie,1903740,10082025,243,AZ Alkmaar,758,FC Groningen,3,2,1419
-Eredivisie,1903741,10082025,128,FC Utrecht,870,Heracles,4,0,1352
-Eredivisie,1903860,11012026,242,Fortuna Sittard,874,Go Ahead Eagles,2,2,1461
-Eredivisie,1903865,11012026,256,Feyenoord,287,SC Heerenveen,2,2,1586
-Eredivisie,1903874,11012026,870,Heracles,303,Sparta Rotterdam,0,2,1443
-Eredivisie,1903877,11012026,130,Ajax,876,Telstar,4,1,1592
-Eredivisie,1903821,11022026,287,SC Heerenveen,874,Go Ahead Eagles,3,1,1474
-Eredivisie,1903868,11022026,128,FC Utrecht,116,NEC Nijmegen,3,1,1562
-Eredivisie,1903983,11042026,874,Go Ahead Eagles,758,FC Groningen,0,0,1520
-Eredivisie,1903984,11042026,130,Ajax,870,Heracles,3,0,1445
-Eredivisie,1903987,11042026,129,PSV Eindhoven,303,Sparta Rotterdam,2,0,1558
-Eredivisie,1903989,11042026,128,FC Utrecht,876,Telstar,4,1,1351
-Eredivisie,1903930,11052026,287,SC Heerenveen,783,NAC Breda,0,2,1540
-Eredivisie,1903982,12042026,243,AZ Alkmaar,287,SC Heerenveen,3,0,1491
-Eredivisie,1903985,12042026,116,NEC Nijmegen,256,Feyenoord,1,1,1356
-Eredivisie,1903986,12042026,783,NAC Breda,242,Fortuna Sittard,1,1,1459
-Eredivisie,1903990,12042026,868,PEC Zwolle,867,Excelsior,2,2,1504
-Eredivisie,1903921,13022026,762,FC Volendam,129,PSV Eindhoven,2,1,1526
-Eredivisie,1903952,13032026,868,PEC Zwolle,758,FC Groningen,1,1,1519
-Eredivisie,1903768,13092025,868,PEC Zwolle,130,Ajax,1,3,1484
-Eredivisie,1903769,13092025,762,FC Volendam,874,Go Ahead Eagles,0,3,1408
-Eredivisie,1903770,13092025,116,NEC Nijmegen,129,PSV Eindhoven,3,5,1493
-Eredivisie,1903771,13092025,256,Feyenoord,287,SC Heerenveen,1,0,1380
-Eredivisie,1903772,13092025,783,NAC Breda,113,Twente,2,2,1446
-Eredivisie,1903807,13122025,762,FC Volendam,758,FC Groningen,0,3,1363
-Eredivisie,1903813,13122025,129,PSV Eindhoven,870,Heracles,4,3,1442
-Eredivisie,1903818,13122025,116,NEC Nijmegen,876,Telstar,2,2,1403
-Eredivisie,1903823,13122025,242,Fortuna Sittard,868,PEC Zwolle,0,1,1463
-Eredivisie,1903916,14022026,242,Fortuna Sittard,130,Ajax,0,5,1648
-Eredivisie,1903918,14022026,867,Excelsior,243,AZ Alkmaar,1,2,1634
-Eredivisie,1903926,14022026,758,FC Groningen,128,FC Utrecht,1,2,1532
-Eredivisie,1903932,14022026,783,NAC Breda,870,Heracles,1,0,1407
-Eredivisie,1903931,14032026,303,Sparta Rotterdam,130,Ajax,1,3,1532
-Eredivisie,1903937,14032026,242,Fortuna Sittard,762,FC Volendam,2,1,1475
-Eredivisie,1903944,14032026,287,SC Heerenveen,876,Telstar,3,0,1546
-Eredivisie,1903947,14032026,129,PSV Eindhoven,116,NEC Nijmegen,2,3,1547
-Eredivisie,1903773,14092025,303,Sparta Rotterdam,867,Excelsior,1,0,1556
-Eredivisie,1903774,14092025,870,Heracles,243,AZ Alkmaar,1,2,1447
-Eredivisie,1903775,14092025,128,FC Utrecht,758,FC Groningen,0,1,1491
-Eredivisie,1903776,14092025,242,Fortuna Sittard,876,Telstar,3,1,1504
-Eredivisie,1903802,14122025,256,Feyenoord,130,Ajax,0,2,1540
-Eredivisie,1903810,14122025,783,NAC Breda,128,FC Utrecht,1,1,1554
-Eredivisie,1903816,14122025,287,SC Heerenveen,303,Sparta Rotterdam,2,1,1516
-Eredivisie,1903820,14122025,113,Twente,874,Go Ahead Eagles,2,0,1472
-Eredivisie,1903924,15022026,874,Go Ahead Eagles,256,Feyenoord,0,1,1372
-Eredivisie,1903928,15022026,287,SC Heerenveen,868,PEC Zwolle,4,2,1518
-Eredivisie,1903938,15022026,113,Twente,876,Telstar,1,1,1730
-Eredivisie,1903934,15032026,870,Heracles,243,AZ Alkmaar,0,4,1449
-Eredivisie,1903940,15032026,256,Feyenoord,867,Excelsior,2,1,1474
-Eredivisie,1903942,15032026,783,NAC Breda,874,Go Ahead Eagles,0,6,1457
-Eredivisie,1903950,15032026,113,Twente,128,FC Utrecht,0,2,1604
-Eredivisie,1903742,15082025,868,PEC Zwolle,876,Telstar,2,0,1458
-Eredivisie,1903743,16082025,287,SC Heerenveen,758,FC Groningen,1,2,1599
-Eredivisie,1903744,16082025,256,Feyenoord,867,Excelsior,2,1,1581
-Eredivisie,1903745,16082025,116,NEC Nijmegen,870,Heracles,4,1,1407
-Eredivisie,1903803,17012026,116,NEC Nijmegen,783,NAC Breda,4,3,1464
-Eredivisie,1903806,17012026,129,PSV Eindhoven,242,Fortuna Sittard,2,1,1579
-Eredivisie,1903808,17012026,243,AZ Alkmaar,868,PEC Zwolle,1,3,1483
-Eredivisie,1903876,17012026,876,Telstar,867,Excelsior,2,2,1490
-Eredivisie,1903881,17012026,874,Go Ahead Eagles,130,Ajax,2,2,1516
-Eredivisie,1903935,17022026,303,Sparta Rotterdam,116,NEC Nijmegen,1,1,1537
-Eredivisie,1903941,17052026,243,AZ Alkmaar,783,NAC Breda,3,3,1453
-Eredivisie,1903943,17052026,762,FC Volendam,876,Telstar,1,2,1417
-Eredivisie,1903946,17052026,130,Ajax,287,SC Heerenveen,0,0,1746
-Eredivisie,1903948,17052026,758,FC Groningen,870,Heracles,2,1,1347
-Eredivisie,1903951,17052026,116,NEC Nijmegen,874,Go Ahead Eagles,2,1,1464
-Eredivisie,1903954,17052026,129,PSV Eindhoven,113,Twente,5,1,1378
-Eredivisie,1903957,17052026,867,Excelsior,303,Sparta Rotterdam,2,3,1468
-Eredivisie,1903960,17052026,128,FC Utrecht,242,Fortuna Sittard,2,0,1444
-Eredivisie,1903962,17052026,256,Feyenoord,868,PEC Zwolle,2,0,1417
-Eredivisie,1903746,17082025,874,Go Ahead Eagles,130,Ajax,2,2,1532
-Eredivisie,1903747,17082025,128,FC Utrecht,303,Sparta Rotterdam,1,2,1590
-Eredivisie,1903748,17082025,113,Twente,129,PSV Eindhoven,1,1,1665
-Eredivisie,1903749,17082025,243,AZ Alkmaar,762,FC Volendam,2,2,1497
-Eredivisie,1903750,17082025,242,Fortuna Sittard,783,NAC Breda,1,2,1452
-Eredivisie,1903777,17092025,256,Feyenoord,242,Fortuna Sittard,2,0,1440
-Eredivisie,1903791,18012026,128,FC Utrecht,762,FC Volendam,1,2,1499
-Eredivisie,1903794,18012026,303,Sparta Rotterdam,256,Feyenoord,4,3,1580
-Eredivisie,1903798,18012026,758,FC Groningen,287,SC Heerenveen,1,1,1550
-Eredivisie,1903800,18012026,113,Twente,870,Heracles,2,0,1453
-Eredivisie,1903997,18102025,129,PSV Eindhoven,874,Go Ahead Eagles,2,1,1530
-Eredivisie,1903998,18102025,128,FC Utrecht,762,FC Volendam,3,1,1473
-Eredivisie,1903999,18102025,130,Ajax,243,AZ Alkmaar,0,2,1523
-Eredivisie,1904000,18102025,783,NAC Breda,868,PEC Zwolle,2,2,1602
-Eredivisie,1904005,18102025,113,Twente,116,NEC Nijmegen,4,2,1308
-Eredivisie,1903778,19092025,303,Sparta Rotterdam,113,Twente,1,5,1362
-Eredivisie,1903996,19102025,256,Feyenoord,870,Heracles,7,0,1459
-Eredivisie,1904001,19102025,758,FC Groningen,303,Sparta Rotterdam,0,2,1512
-Eredivisie,1904002,19102025,242,Fortuna Sittard,867,Excelsior,0,1,1525
-Eredivisie,1904003,19102025,287,SC Heerenveen,876,Telstar,3,2,1419
-Eredivisie,1903965,20022026,242,Fortuna Sittard,867,Excelsior,2,1,1502
-Eredivisie,1903958,20032026,870,Heracles,867,Excelsior,1,1,1417
-Eredivisie,1903779,20092025,762,FC Volendam,867,Excelsior,1,2,1355
-Eredivisie,1903780,20092025,758,FC Groningen,876,Telstar,2,0,1433
-Eredivisie,1903781,20092025,128,FC Utrecht,242,Fortuna Sittard,0,1,1639
-Eredivisie,1903782,20092025,870,Heracles,783,NAC Breda,1,2,1453
-Eredivisie,1903826,20122025,867,Excelsior,868,PEC Zwolle,2,1,1541
-Eredivisie,1903842,20122025,870,Heracles,287,SC Heerenveen,0,3,1479
-Eredivisie,1903845,20122025,783,NAC Breda,876,Telstar,0,1,1537
-Eredivisie,1903848,20122025,130,Ajax,116,NEC Nijmegen,3,1,1487
-Eredivisie,1903805,21012026,867,Excelsior,243,AZ Alkmaar,1,1,1691
-Eredivisie,1903945,21022026,130,Ajax,116,NEC Nijmegen,1,1,1522
-Eredivisie,1903961,21022026,762,FC Volendam,783,NAC Breda,0,1,1399
-Eredivisie,1903964,21022026,129,PSV Eindhoven,287,SC Heerenveen,3,1,1611
-Eredivisie,1903968,21032026,242,Fortuna Sittard,113,Twente,1,2,1469
-Eredivisie,1903969,21032026,762,FC Volendam,303,Sparta Rotterdam,0,2,1456
-Eredivisie,1903972,21032026,868,PEC Zwolle,783,NAC Breda,2,1,1545
-Eredivisie,1903783,21092025,868,PEC Zwolle,874,Go Ahead Eagles,0,2,1440
-Eredivisie,1903784,21092025,116,NEC Nijmegen,287,SC Heerenveen,2,3,1419
-Eredivisie,1903785,21092025,130,Ajax,129,PSV Eindhoven,2,2,1447
-Eredivisie,1903786,21092025,256,Feyenoord,243,AZ Alkmaar,3,3,1490
-Eredivisie,1903830,21122025,303,Sparta Rotterdam,762,FC Volendam,1,0,1342
-Eredivisie,1903836,21122025,256,Feyenoord,113,Twente,1,1,1565
-Eredivisie,1903839,21122025,758,FC Groningen,874,Go Ahead Eagles,1,1,1407
-Eredivisie,1903851,21122025,243,AZ Alkmaar,242,Fortuna Sittard,3,4,1365
-Eredivisie,1903854,21122025,129,PSV Eindhoven,128,FC Utrecht,2,1,1522
-Eredivisie,1903949,22022026,303,Sparta Rotterdam,243,AZ Alkmaar,1,3,1519
-Eredivisie,1903955,22022026,256,Feyenoord,876,Telstar,2,1,1449
-Eredivisie,1903959,22022026,874,Go Ahead Eagles,870,Heracles,4,0,1410
-Eredivisie,1903966,22022026,758,FC Groningen,113,Twente,1,2,1574
-Eredivisie,1903967,22022026,128,FC Utrecht,868,PEC Zwolle,1,1,1545
-Eredivisie,1903953,22032026,256,Feyenoord,130,Ajax,1,1,1518
-Eredivisie,1903956,22032026,758,FC Groningen,243,AZ Alkmaar,3,0,1511
-Eredivisie,1903963,22032026,116,NEC Nijmegen,287,SC Heerenveen,2,2,1585
-Eredivisie,1903970,22032026,129,PSV Eindhoven,876,Telstar,1,3,1439
-Eredivisie,1903971,22032026,128,FC Utrecht,874,Go Ahead Eagles,2,0,1485
-Eredivisie,1903894,22042026,303,Sparta Rotterdam,876,Telstar,1,4,1407
-Eredivisie,1903809,22112025,867,Excelsior,130,Ajax,2,1,1672
-Eredivisie,1903811,22112025,762,FC Volendam,113,Twente,1,1,1444
-Eredivisie,1903822,22112025,874,Go Ahead Eagles,870,Heracles,2,4,1491
-Eredivisie,1903824,22112025,129,PSV Eindhoven,783,NAC Breda,1,0,1469
-Eredivisie,1903827,22112025,242,Fortuna Sittard,303,Sparta Rotterdam,1,1,1568
-Eredivisie,1903893,23042026,868,PEC Zwolle,129,PSV Eindhoven,2,5,1597
-Eredivisie,1903993,23042026,874,Go Ahead Eagles,243,AZ Alkmaar,0,0,1472
-Eredivisie,1903751,23082025,303,Sparta Rotterdam,874,Go Ahead Eagles,3,0,1395
-Eredivisie,1903752,23082025,129,PSV Eindhoven,758,FC Groningen,4,2,1524
-Eredivisie,1903753,23082025,876,Telstar,762,FC Volendam,2,2,1548
-Eredivisie,1903815,23112025,116,NEC Nijmegen,256,Feyenoord,4,2,1480
-Eredivisie,1903817,23112025,868,PEC Zwolle,758,FC Groningen,2,2,1592
-Eredivisie,1903819,23112025,243,AZ Alkmaar,287,SC Heerenveen,1,3,1653
-Eredivisie,1903829,23112025,128,FC Utrecht,876,Telstar,1,1,1555
-Eredivisie,1903812,24012026,762,FC Volendam,130,Ajax,0,2,1639
-Eredivisie,1903828,24012026,868,PEC Zwolle,116,NEC Nijmegen,1,2,1547
-Eredivisie,1903831,24012026,783,NAC Breda,129,PSV Eindhoven,2,2,1567
-Eredivisie,1903835,24012026,867,Excelsior,113,Twente,0,0,1614
-Eredivisie,1903755,24082025,287,SC Heerenveen,113,Twente,1,2,1608
-Eredivisie,1903756,24082025,783,NAC Breda,116,NEC Nijmegen,0,3,1499
-Eredivisie,1903757,24082025,867,Excelsior,128,FC Utrecht,1,4,1416
-Eredivisie,1903758,24082025,130,Ajax,870,Heracles,2,0,1561
-Eredivisie,1903754,24092025,243,AZ Alkmaar,868,PEC Zwolle,2,2,1506
-Eredivisie,1904007,24102025,287,SC Heerenveen,783,NAC Breda,2,4,1472
-Eredivisie,1903814,25012026,870,Heracles,256,Feyenoord,2,4,1447
-Eredivisie,1903825,25012026,242,Fortuna Sittard,758,FC Groningen,2,1,1570
-Eredivisie,1903833,25012026,243,AZ Alkmaar,876,Telstar,1,0,1521
-Eredivisie,1903838,25012026,303,Sparta Rotterdam,128,FC Utrecht,1,0,1492
-Eredivisie,1903886,25042026,242,Fortuna Sittard,287,SC Heerenveen,1,2,1669
-Eredivisie,1903891,25042026,130,Ajax,783,NAC Breda,2,0,1597
-Eredivisie,1903896,25042026,113,Twente,116,NEC Nijmegen,1,1,1537
-Eredivisie,1903992,25042026,256,Feyenoord,758,FC Groningen,3,1,1427
-Eredivisie,1904009,25102025,758,FC Groningen,242,Fortuna Sittard,2,1,1476
-Eredivisie,1904011,25102025,870,Heracles,762,FC Volendam,0,3,1409
-Eredivisie,1904014,25102025,876,Telstar,303,Sparta Rotterdam,0,1,1513
-Eredivisie,1904016,25102025,116,NEC Nijmegen,868,PEC Zwolle,2,2,1370
-Eredivisie,1903888,26042026,870,Heracles,762,FC Volendam,0,2,1335
-Eredivisie,1903991,26042026,128,FC Utrecht,867,Excelsior,0,5,1497
-Eredivisie,1903787,26092025,113,Twente,242,Fortuna Sittard,3,2,1587
-Eredivisie,1904018,26102025,130,Ajax,113,Twente,3,2,1540
-Eredivisie,1904020,26102025,129,PSV Eindhoven,256,Feyenoord,3,2,1564
-Eredivisie,1904022,26102025,867,Excelsior,874,Go Ahead Eagles,0,2,1506
-Eredivisie,1904024,26102025,128,FC Utrecht,243,AZ Alkmaar,1,4,1584
-Eredivisie,1903895,27022026,783,NAC Breda,876,Telstar,0,3,1393
-Eredivisie,1904006,27092025,130,Ajax,783,NAC Breda,2,1,1573
-Eredivisie,1904008,27092025,868,PEC Zwolle,762,FC Volendam,1,2,1328
-Eredivisie,1904010,27092025,129,PSV Eindhoven,867,Excelsior,2,1,1590
-Eredivisie,1904013,27092025,303,Sparta Rotterdam,870,Heracles,0,3,1517
-Eredivisie,1903889,28022026,303,Sparta Rotterdam,287,SC Heerenveen,1,2,1614
-Eredivisie,1903890,28022026,870,Heracles,129,PSV Eindhoven,1,3,1523
-Eredivisie,1903892,28022026,242,Fortuna Sittard,116,NEC Nijmegen,3,2,1522
-Eredivisie,1904004,28092025,256,Feyenoord,758,FC Groningen,1,0,1537
-Eredivisie,1904012,28092025,243,AZ Alkmaar,116,NEC Nijmegen,1,2,1470
-Eredivisie,1904015,28092025,287,SC Heerenveen,128,FC Utrecht,2,2,1491
-Eredivisie,1904017,28092025,876,Telstar,874,Go Ahead Eagles,4,2,1361
-Eredivisie,1903855,28112025,287,SC Heerenveen,868,PEC Zwolle,1,2,1524
-Eredivisie,1903759,29082025,758,FC Groningen,870,Heracles,4,0,1391
-Eredivisie,1903834,29112025,783,NAC Breda,867,Excelsior,0,1,1429
-Eredivisie,1903840,29112025,303,Sparta Rotterdam,116,NEC Nijmegen,1,3,1421
-Eredivisie,1903846,29112025,870,Heracles,242,Fortuna Sittard,1,1,1232
-Eredivisie,1903856,30012026,113,Twente,783,NAC Breda,2,2,1620
-Eredivisie,1903760,30082025,130,Ajax,762,FC Volendam,1,1,1522
-Eredivisie,1903761,30082025,287,SC Heerenveen,874,Go Ahead Eagles,2,2,1516
-Eredivisie,1903762,30082025,129,PSV Eindhoven,876,Telstar,0,2,1494
-Eredivisie,1903763,30082025,867,Excelsior,113,Twente,1,0,1502
-Eredivisie,1903837,30112025,874,Go Ahead Eagles,128,FC Utrecht,2,2,1511
-Eredivisie,1903843,30112025,762,FC Volendam,129,PSV Eindhoven,0,3,1637
-Eredivisie,1903849,30112025,256,Feyenoord,876,Telstar,2,1,1610
-Eredivisie,1903852,30112025,243,AZ Alkmaar,113,Twente,0,1,1479
-Eredivisie,1903841,31012026,116,NEC Nijmegen,243,AZ Alkmaar,3,1,1564
-Eredivisie,1903863,31012026,758,FC Groningen,303,Sparta Rotterdam,0,2,1572
-Eredivisie,1903866,31012026,876,Telstar,868,PEC Zwolle,1,4,1484
-Eredivisie,1903764,31082025,242,Fortuna Sittard,116,NEC Nijmegen,3,2,1448
-Eredivisie,1903765,31082025,256,Feyenoord,303,Sparta Rotterdam,4,0,1383
-Eredivisie,1903766,31082025,868,PEC Zwolle,128,FC Utrecht,0,2,1492
-Eredivisie,1903767,31082025,783,NAC Breda,243,AZ Alkmaar,0,1,1375
-Eredivisie,1904026,31102025,129,PSV Eindhoven,242,Fortuna Sittard,5,2,1602
+league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events,competition_key,competition_type,competition_phase,phase_table_scope,source_stage_id,validation_status
+Eredivisie,1903844,1022026,867,Excelsior,130,Ajax,2,2,1512,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903847,1022026,762,FC Volendam,874,Go Ahead Eagles,1,1,1456,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903850,1022026,287,SC Heerenveen,128,FC Utrecht,1,1,1595,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903853,1022026,870,Heracles,242,Fortuna Sittard,2,1,1471,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903859,1022026,129,PSV Eindhoven,256,Feyenoord,3,0,1530,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903884,1032026,867,Excelsior,874,Go Ahead Eagles,0,1,1540,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903887,1032026,762,FC Volendam,758,FC Groningen,3,2,1356,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903897,1032026,113,Twente,256,Feyenoord,2,0,1478,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903899,1032026,128,FC Utrecht,243,AZ Alkmaar,2,0,1513,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903901,1032026,868,PEC Zwolle,130,Ajax,0,0,1465,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904028,1112025,256,Feyenoord,762,FC Volendam,3,1,1485,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904031,1112025,783,NAC Breda,874,Go Ahead Eagles,1,0,1480,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904032,1112025,130,Ajax,287,SC Heerenveen,1,1,1575,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904033,1112025,876,Telstar,867,Excelsior,2,2,1391,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903898,2052026,130,Ajax,129,PSV Eindhoven,2,2,1578,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903904,2052026,758,FC Groningen,867,Excelsior,2,3,1420,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903906,2052026,116,NEC Nijmegen,876,Telstar,1,1,1437,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903910,2052026,128,FC Utrecht,783,NAC Breda,2,0,1442,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904034,2112025,870,Heracles,868,PEC Zwolle,8,2,1370,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904035,2112025,758,FC Groningen,113,Twente,1,1,1523,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904036,2112025,303,Sparta Rotterdam,243,AZ Alkmaar,0,1,1482,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904037,2112025,128,FC Utrecht,116,NEC Nijmegen,1,0,1440,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903832,2122025,130,Ajax,758,FC Groningen,2,0,1609,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903900,3052026,243,AZ Alkmaar,113,Twente,2,2,1582,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903902,3052026,762,FC Volendam,287,SC Heerenveen,0,2,1429,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903907,3052026,242,Fortuna Sittard,256,Feyenoord,1,2,1436,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903909,3052026,303,Sparta Rotterdam,874,Go Ahead Eagles,2,2,1452,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903911,3052026,868,PEC Zwolle,870,Heracles,1,0,1429,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904019,3102025,783,NAC Breda,758,FC Groningen,1,2,1557,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903973,4042026,130,Ajax,113,Twente,1,2,1609,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903974,4042026,243,AZ Alkmaar,242,Fortuna Sittard,2,0,1483,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903975,4042026,867,Excelsior,116,NEC Nijmegen,0,2,1451,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903980,4042026,129,PSV Eindhoven,128,FC Utrecht,4,3,1473,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903981,4042026,876,Telstar,758,FC Groningen,0,2,1477,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904021,4102025,303,Sparta Rotterdam,130,Ajax,3,3,1503,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904023,4102025,242,Fortuna Sittard,762,FC Volendam,1,0,1457,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904025,4102025,868,PEC Zwolle,129,PSV Eindhoven,0,4,1596,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904027,4102025,287,SC Heerenveen,867,Excelsior,2,1,1538,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903976,5042026,762,FC Volendam,256,Feyenoord,0,0,1508,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903977,5042026,874,Go Ahead Eagles,868,PEC Zwolle,5,0,1430,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903978,5042026,287,SC Heerenveen,870,Heracles,4,1,1460,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903979,5042026,783,NAC Breda,303,Sparta Rotterdam,0,0,1440,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903994,5102025,256,Feyenoord,128,FC Utrecht,3,2,1475,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903995,5102025,874,Go Ahead Eagles,116,NEC Nijmegen,1,1,1390,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904029,5102025,113,Twente,870,Heracles,2,1,1504,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904030,5102025,243,AZ Alkmaar,876,Telstar,2,1,1451,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903861,5122025,867,Excelsior,758,FC Groningen,0,2,1582,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903878,6022026,783,NAC Breda,867,Excelsior,0,2,1566,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903912,6032026,870,Heracles,128,FC Utrecht,0,0,1518,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903788,6122025,242,Fortuna Sittard,130,Ajax,1,3,1492,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903867,6122025,256,Feyenoord,868,PEC Zwolle,6,1,1319,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903870,6122025,287,SC Heerenveen,129,PSV Eindhoven,0,2,1577,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903873,6122025,870,Heracles,876,Telstar,1,1,1426,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903880,7022026,116,NEC Nijmegen,870,Heracles,4,1,1309,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903882,7022026,242,Fortuna Sittard,303,Sparta Rotterdam,2,2,1615,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903883,7022026,113,Twente,287,SC Heerenveen,5,0,1541,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903914,7022026,868,PEC Zwolle,762,FC Volendam,1,2,1483,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903903,7032026,867,Excelsior,287,SC Heerenveen,1,2,1495,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903908,7032026,758,FC Groningen,130,Ajax,3,1,1600,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903925,7032026,129,PSV Eindhoven,243,AZ Alkmaar,2,1,1599,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904038,7112025,113,Twente,876,Telstar,0,0,1587,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903796,7122025,303,Sparta Rotterdam,783,NAC Breda,1,0,1538,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903799,7122025,128,FC Utrecht,113,Twente,1,1,1455,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903858,7122025,243,AZ Alkmaar,874,Go Ahead Eagles,2,2,1491,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903864,7122025,762,FC Volendam,116,NEC Nijmegen,2,3,1302,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903869,8022026,243,AZ Alkmaar,130,Ajax,1,1,1503,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903872,8022026,874,Go Ahead Eagles,876,Telstar,1,1,1384,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903875,8022026,758,FC Groningen,129,PSV Eindhoven,1,2,1594,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903885,8022026,128,FC Utrecht,256,Feyenoord,0,1,1536,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903905,8032026,874,Go Ahead Eagles,113,Twente,1,4,1538,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903919,8032026,783,NAC Breda,256,Feyenoord,3,3,1443,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903922,8032026,116,NEC Nijmegen,762,FC Volendam,3,0,1526,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903927,8032026,242,Fortuna Sittard,876,Telstar,1,4,1454,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903929,8032026,303,Sparta Rotterdam,868,PEC Zwolle,1,1,1484,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903733,8082025,242,Fortuna Sittard,874,Go Ahead Eagles,2,2,1351,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903789,8112025,867,Excelsior,870,Heracles,1,2,1396,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903790,8112025,762,FC Volendam,783,NAC Breda,2,1,1390,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903792,8112025,242,Fortuna Sittard,287,SC Heerenveen,2,0,1488,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903793,8112025,868,PEC Zwolle,303,Sparta Rotterdam,1,0,1577,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903734,9082025,116,NEC Nijmegen,867,Excelsior,5,0,1455,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903735,9082025,256,Feyenoord,783,NAC Breda,2,0,1443,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903736,9082025,287,SC Heerenveen,762,FC Volendam,1,1,1389,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903737,9082025,129,PSV Eindhoven,303,Sparta Rotterdam,6,1,1631,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903795,9112025,128,FC Utrecht,130,Ajax,2,1,1631,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903797,9112025,243,AZ Alkmaar,129,PSV Eindhoven,1,5,1536,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903801,9112025,116,NEC Nijmegen,758,FC Groningen,2,0,1456,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903804,9112025,874,Go Ahead Eagles,256,Feyenoord,2,1,1505,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903857,10012026,243,AZ Alkmaar,762,FC Volendam,1,0,1607,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903862,10012026,758,FC Groningen,783,NAC Breda,0,0,1591,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903871,10012026,129,PSV Eindhoven,867,Excelsior,5,1,1608,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903879,10012026,113,Twente,868,PEC Zwolle,1,1,1576,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903988,10042026,113,Twente,762,FC Volendam,2,1,1564,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903913,10052026,130,Ajax,128,FC Utrecht,1,2,1688,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903915,10052026,867,Excelsior,762,FC Volendam,1,1,1373,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903917,10052026,256,Feyenoord,243,AZ Alkmaar,1,1,1526,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903920,10052026,874,Go Ahead Eagles,129,PSV Eindhoven,1,4,1419,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903923,10052026,758,FC Groningen,116,NEC Nijmegen,2,1,1429,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903933,10052026,242,Fortuna Sittard,868,PEC Zwolle,3,2,1447,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903936,10052026,876,Telstar,870,Heracles,3,0,1162,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903939,10052026,113,Twente,303,Sparta Rotterdam,4,0,1591,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903738,10082025,868,PEC Zwolle,113,Twente,1,0,1485,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903739,10082025,130,Ajax,876,Telstar,2,0,1570,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903740,10082025,243,AZ Alkmaar,758,FC Groningen,4,1,1419,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903741,10082025,128,FC Utrecht,870,Heracles,4,0,1352,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903860,11012026,874,Go Ahead Eagles,242,Fortuna Sittard,2,2,1461,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903865,11012026,287,SC Heerenveen,256,Feyenoord,2,2,1586,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903874,11012026,303,Sparta Rotterdam,870,Heracles,2,0,1443,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903877,11012026,876,Telstar,130,Ajax,2,3,1592,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903821,11022026,874,Go Ahead Eagles,287,SC Heerenveen,1,3,1474,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903868,11022026,116,NEC Nijmegen,128,FC Utrecht,1,3,1562,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903983,11042026,758,FC Groningen,874,Go Ahead Eagles,0,0,1520,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903984,11042026,870,Heracles,130,Ajax,0,3,1445,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903987,11042026,303,Sparta Rotterdam,129,PSV Eindhoven,0,2,1558,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903989,11042026,128,FC Utrecht,876,Telstar,4,1,1351,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903930,11052026,783,NAC Breda,287,SC Heerenveen,2,0,1540,Eredivisie,domestic_league,regular_season,regular_season,,pending
+Eredivisie,1903982,12042026,243,AZ Alkmaar,287,SC Heerenveen,3,0,1491,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903985,12042026,116,NEC Nijmegen,256,Feyenoord,1,1,1356,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903986,12042026,242,Fortuna Sittard,783,NAC Breda,1,1,1459,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903990,12042026,868,PEC Zwolle,867,Excelsior,2,2,1504,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903921,13022026,762,FC Volendam,129,PSV Eindhoven,2,1,1526,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903952,13032026,868,PEC Zwolle,758,FC Groningen,1,1,1519,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903768,13092025,130,Ajax,868,PEC Zwolle,3,1,1484,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903769,13092025,874,Go Ahead Eagles,762,FC Volendam,3,0,1408,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903770,13092025,116,NEC Nijmegen,129,PSV Eindhoven,3,5,1493,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903771,13092025,256,Feyenoord,287,SC Heerenveen,1,0,1380,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903772,13092025,113,Twente,783,NAC Breda,2,2,1446,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903807,13122025,758,FC Groningen,762,FC Volendam,3,0,1363,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903813,13122025,129,PSV Eindhoven,870,Heracles,4,3,1442,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903818,13122025,876,Telstar,116,NEC Nijmegen,2,2,1403,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903823,13122025,868,PEC Zwolle,242,Fortuna Sittard,1,0,1463,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903916,14022026,130,Ajax,242,Fortuna Sittard,4,1,1648,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903918,14022026,867,Excelsior,243,AZ Alkmaar,1,2,1634,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903926,14022026,758,FC Groningen,128,FC Utrecht,1,2,1532,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903932,14022026,870,Heracles,783,NAC Breda,0,1,1407,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903931,14032026,130,Ajax,303,Sparta Rotterdam,4,0,1532,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903937,14032026,762,FC Volendam,242,Fortuna Sittard,1,2,1475,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903944,14032026,287,SC Heerenveen,876,Telstar,3,0,1546,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903947,14032026,129,PSV Eindhoven,116,NEC Nijmegen,2,3,1547,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903773,14092025,867,Excelsior,303,Sparta Rotterdam,0,1,1556,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903774,14092025,870,Heracles,243,AZ Alkmaar,1,2,1447,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903775,14092025,128,FC Utrecht,758,FC Groningen,0,1,1491,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903776,14092025,876,Telstar,242,Fortuna Sittard,1,3,1504,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903802,14122025,130,Ajax,256,Feyenoord,2,0,1540,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903810,14122025,783,NAC Breda,128,FC Utrecht,1,1,1554,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903816,14122025,303,Sparta Rotterdam,287,SC Heerenveen,0,3,1516,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903820,14122025,113,Twente,874,Go Ahead Eagles,2,0,1472,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903924,15022026,256,Feyenoord,874,Go Ahead Eagles,1,0,1372,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903928,15022026,287,SC Heerenveen,868,PEC Zwolle,4,2,1518,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903938,15022026,876,Telstar,113,Twente,1,1,1730,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903934,15032026,243,AZ Alkmaar,870,Heracles,4,0,1449,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903940,15032026,256,Feyenoord,867,Excelsior,2,1,1474,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903942,15032026,874,Go Ahead Eagles,783,NAC Breda,6,0,1457,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903950,15032026,113,Twente,128,FC Utrecht,0,2,1604,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903742,15082025,876,Telstar,868,PEC Zwolle,0,2,1458,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903743,16082025,758,FC Groningen,287,SC Heerenveen,2,1,1599,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903744,16082025,867,Excelsior,256,Feyenoord,1,2,1581,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903745,16082025,870,Heracles,116,NEC Nijmegen,1,4,1407,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903803,17012026,783,NAC Breda,116,NEC Nijmegen,3,4,1464,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903806,17012026,242,Fortuna Sittard,129,PSV Eindhoven,1,2,1579,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903808,17012026,868,PEC Zwolle,243,AZ Alkmaar,3,1,1483,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903876,17012026,867,Excelsior,876,Telstar,2,2,1490,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903881,17012026,130,Ajax,874,Go Ahead Eagles,2,2,1516,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903935,17022026,303,Sparta Rotterdam,116,NEC Nijmegen,1,1,1537,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903941,17052026,243,AZ Alkmaar,783,NAC Breda,3,3,1453,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903943,17052026,762,FC Volendam,876,Telstar,1,2,1417,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903946,17052026,287,SC Heerenveen,130,Ajax,0,0,1746,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903948,17052026,870,Heracles,758,FC Groningen,1,2,1347,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903951,17052026,116,NEC Nijmegen,874,Go Ahead Eagles,2,1,1464,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903954,17052026,129,PSV Eindhoven,113,Twente,5,1,1378,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903957,17052026,303,Sparta Rotterdam,867,Excelsior,2,3,1468,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903960,17052026,128,FC Utrecht,242,Fortuna Sittard,2,0,1444,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903962,17052026,868,PEC Zwolle,256,Feyenoord,0,2,1417,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903746,17082025,874,Go Ahead Eagles,130,Ajax,2,2,1532,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903747,17082025,303,Sparta Rotterdam,128,FC Utrecht,2,1,1590,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903748,17082025,113,Twente,129,PSV Eindhoven,0,2,1665,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903749,17082025,762,FC Volendam,243,AZ Alkmaar,2,2,1497,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903750,17082025,783,NAC Breda,242,Fortuna Sittard,2,1,1452,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903777,17092025,256,Feyenoord,242,Fortuna Sittard,2,0,1440,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903791,18012026,762,FC Volendam,128,FC Utrecht,2,1,1499,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903794,18012026,256,Feyenoord,303,Sparta Rotterdam,3,4,1580,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903798,18012026,287,SC Heerenveen,758,FC Groningen,0,2,1550,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903800,18012026,870,Heracles,113,Twente,0,2,1453,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903997,18102025,129,PSV Eindhoven,874,Go Ahead Eagles,2,1,1530,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903998,18102025,128,FC Utrecht,762,FC Volendam,3,1,1473,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903999,18102025,130,Ajax,243,AZ Alkmaar,0,2,1523,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904000,18102025,783,NAC Breda,868,PEC Zwolle,2,2,1602,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904005,18102025,116,NEC Nijmegen,113,Twente,3,3,1308,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903778,19092025,303,Sparta Rotterdam,113,Twente,1,5,1362,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903996,19102025,870,Heracles,256,Feyenoord,0,7,1459,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904001,19102025,758,FC Groningen,303,Sparta Rotterdam,0,2,1512,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904002,19102025,867,Excelsior,242,Fortuna Sittard,1,0,1525,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904003,19102025,876,Telstar,287,SC Heerenveen,2,3,1419,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903965,20022026,242,Fortuna Sittard,867,Excelsior,2,1,1502,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903958,20032026,870,Heracles,867,Excelsior,1,1,1417,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903779,20092025,762,FC Volendam,867,Excelsior,1,2,1355,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903780,20092025,758,FC Groningen,876,Telstar,2,0,1433,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903781,20092025,242,Fortuna Sittard,128,FC Utrecht,1,0,1639,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903782,20092025,783,NAC Breda,870,Heracles,2,1,1453,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903826,20122025,867,Excelsior,868,PEC Zwolle,2,1,1541,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903842,20122025,870,Heracles,287,SC Heerenveen,0,3,1479,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903845,20122025,783,NAC Breda,876,Telstar,0,1,1537,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903848,20122025,116,NEC Nijmegen,130,Ajax,2,2,1487,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903805,21012026,243,AZ Alkmaar,867,Excelsior,1,1,1691,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903945,21022026,130,Ajax,116,NEC Nijmegen,1,1,1522,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903961,21022026,783,NAC Breda,762,FC Volendam,1,0,1399,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903964,21022026,129,PSV Eindhoven,287,SC Heerenveen,3,1,1611,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903968,21032026,242,Fortuna Sittard,113,Twente,1,2,1469,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903969,21032026,303,Sparta Rotterdam,762,FC Volendam,2,0,1456,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903972,21032026,868,PEC Zwolle,783,NAC Breda,2,1,1545,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903783,21092025,868,PEC Zwolle,874,Go Ahead Eagles,0,2,1440,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903784,21092025,287,SC Heerenveen,116,NEC Nijmegen,3,2,1419,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903785,21092025,129,PSV Eindhoven,130,Ajax,2,2,1447,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903786,21092025,243,AZ Alkmaar,256,Feyenoord,3,3,1490,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903830,21122025,762,FC Volendam,303,Sparta Rotterdam,0,1,1342,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903836,21122025,256,Feyenoord,113,Twente,1,1,1565,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903839,21122025,874,Go Ahead Eagles,758,FC Groningen,1,1,1407,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903851,21122025,242,Fortuna Sittard,243,AZ Alkmaar,4,3,1365,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903854,21122025,128,FC Utrecht,129,PSV Eindhoven,1,2,1522,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903949,22022026,243,AZ Alkmaar,303,Sparta Rotterdam,3,1,1519,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903955,22022026,256,Feyenoord,876,Telstar,2,1,1449,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903959,22022026,874,Go Ahead Eagles,870,Heracles,4,0,1410,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903966,22022026,113,Twente,758,FC Groningen,2,1,1574,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903967,22022026,128,FC Utrecht,868,PEC Zwolle,1,1,1545,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903953,22032026,256,Feyenoord,130,Ajax,1,1,1518,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903956,22032026,758,FC Groningen,243,AZ Alkmaar,3,0,1511,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903963,22032026,116,NEC Nijmegen,287,SC Heerenveen,2,2,1585,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903970,22032026,876,Telstar,129,PSV Eindhoven,3,1,1439,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903971,22032026,128,FC Utrecht,874,Go Ahead Eagles,2,0,1485,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903894,22042026,876,Telstar,303,Sparta Rotterdam,4,1,1407,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903809,22112025,130,Ajax,867,Excelsior,1,2,1672,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903811,22112025,762,FC Volendam,113,Twente,1,1,1444,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903822,22112025,870,Heracles,874,Go Ahead Eagles,4,2,1491,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903824,22112025,783,NAC Breda,129,PSV Eindhoven,0,1,1469,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903827,22112025,303,Sparta Rotterdam,242,Fortuna Sittard,1,1,1568,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903893,23042026,129,PSV Eindhoven,868,PEC Zwolle,6,1,1597,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903993,23042026,874,Go Ahead Eagles,243,AZ Alkmaar,0,0,1472,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903751,23082025,874,Go Ahead Eagles,303,Sparta Rotterdam,0,3,1395,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903752,23082025,129,PSV Eindhoven,758,FC Groningen,4,2,1524,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903753,23082025,876,Telstar,762,FC Volendam,2,2,1548,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903815,23112025,256,Feyenoord,116,NEC Nijmegen,2,4,1480,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903817,23112025,758,FC Groningen,868,PEC Zwolle,2,2,1592,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903819,23112025,287,SC Heerenveen,243,AZ Alkmaar,3,1,1653,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903829,23112025,876,Telstar,128,FC Utrecht,1,1,1555,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903812,24012026,130,Ajax,762,FC Volendam,2,0,1639,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903828,24012026,116,NEC Nijmegen,868,PEC Zwolle,2,1,1547,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903831,24012026,129,PSV Eindhoven,783,NAC Breda,2,2,1567,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903835,24012026,113,Twente,867,Excelsior,0,0,1614,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903755,24082025,287,SC Heerenveen,113,Twente,1,2,1608,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903756,24082025,116,NEC Nijmegen,783,NAC Breda,3,0,1499,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903757,24082025,128,FC Utrecht,867,Excelsior,4,1,1416,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903758,24082025,130,Ajax,870,Heracles,2,0,1561,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903754,24092025,243,AZ Alkmaar,868,PEC Zwolle,2,2,1506,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904007,24102025,287,SC Heerenveen,783,NAC Breda,3,3,1472,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903814,25012026,256,Feyenoord,870,Heracles,4,2,1447,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903825,25012026,758,FC Groningen,242,Fortuna Sittard,1,2,1570,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903833,25012026,876,Telstar,243,AZ Alkmaar,0,1,1521,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903838,25012026,128,FC Utrecht,303,Sparta Rotterdam,0,1,1492,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903886,25042026,287,SC Heerenveen,242,Fortuna Sittard,2,1,1669,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903891,25042026,783,NAC Breda,130,Ajax,0,2,1597,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903896,25042026,113,Twente,116,NEC Nijmegen,1,1,1537,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903992,25042026,256,Feyenoord,758,FC Groningen,3,1,1427,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904009,25102025,242,Fortuna Sittard,758,FC Groningen,1,2,1476,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904011,25102025,762,FC Volendam,870,Heracles,3,0,1409,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904014,25102025,303,Sparta Rotterdam,876,Telstar,1,0,1513,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904016,25102025,868,PEC Zwolle,116,NEC Nijmegen,2,2,1370,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903888,26042026,870,Heracles,762,FC Volendam,0,2,1335,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903991,26042026,867,Excelsior,128,FC Utrecht,5,0,1497,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903787,26092025,113,Twente,242,Fortuna Sittard,3,2,1587,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904018,26102025,113,Twente,130,Ajax,2,3,1540,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904020,26102025,256,Feyenoord,129,PSV Eindhoven,2,3,1564,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904022,26102025,874,Go Ahead Eagles,867,Excelsior,2,0,1506,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904024,26102025,243,AZ Alkmaar,128,FC Utrecht,4,1,1584,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903895,27022026,876,Telstar,783,NAC Breda,3,0,1393,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904006,27092025,130,Ajax,783,NAC Breda,2,1,1573,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904008,27092025,762,FC Volendam,868,PEC Zwolle,2,1,1328,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904010,27092025,867,Excelsior,129,PSV Eindhoven,1,2,1590,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904013,27092025,870,Heracles,303,Sparta Rotterdam,3,0,1517,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903889,28022026,287,SC Heerenveen,303,Sparta Rotterdam,2,1,1614,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903890,28022026,870,Heracles,129,PSV Eindhoven,1,3,1523,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903892,28022026,116,NEC Nijmegen,242,Fortuna Sittard,2,3,1522,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904004,28092025,758,FC Groningen,256,Feyenoord,0,1,1537,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904012,28092025,116,NEC Nijmegen,243,AZ Alkmaar,2,1,1470,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904015,28092025,128,FC Utrecht,287,SC Heerenveen,2,2,1491,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904017,28092025,876,Telstar,874,Go Ahead Eagles,4,2,1361,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903855,28112025,868,PEC Zwolle,287,SC Heerenveen,2,1,1524,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903759,29082025,758,FC Groningen,870,Heracles,4,0,1391,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903834,29112025,867,Excelsior,783,NAC Breda,1,0,1429,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903840,29112025,116,NEC Nijmegen,303,Sparta Rotterdam,3,1,1421,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903846,29112025,242,Fortuna Sittard,870,Heracles,1,1,1232,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903856,30012026,783,NAC Breda,113,Twente,2,2,1620,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903760,30082025,762,FC Volendam,130,Ajax,1,1,1522,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903761,30082025,287,SC Heerenveen,874,Go Ahead Eagles,2,2,1516,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903762,30082025,129,PSV Eindhoven,876,Telstar,0,2,1494,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903763,30082025,867,Excelsior,113,Twente,1,0,1502,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903837,30112025,874,Go Ahead Eagles,128,FC Utrecht,2,2,1511,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903843,30112025,129,PSV Eindhoven,762,FC Volendam,3,0,1637,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903849,30112025,876,Telstar,256,Feyenoord,1,2,1610,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903852,30112025,113,Twente,243,AZ Alkmaar,1,0,1479,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903841,31012026,243,AZ Alkmaar,116,NEC Nijmegen,1,3,1564,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903863,31012026,303,Sparta Rotterdam,758,FC Groningen,2,0,1572,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903866,31012026,868,PEC Zwolle,876,Telstar,4,1,1484,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903764,31082025,242,Fortuna Sittard,116,NEC Nijmegen,3,2,1448,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903765,31082025,303,Sparta Rotterdam,256,Feyenoord,0,4,1383,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903766,31082025,868,PEC Zwolle,128,FC Utrecht,0,2,1492,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1903767,31082025,783,NAC Breda,243,AZ Alkmaar,0,1,1375,Eredivisie,domestic_league,regular_season,regular_season,,ok
+Eredivisie,1904026,31102025,129,PSV Eindhoven,242,Fortuna Sittard,5,2,1602,Eredivisie,domestic_league,regular_season,regular_season,,ok

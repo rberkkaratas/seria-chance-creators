@@ -1,219 +1,219 @@
-league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events
-Belgium_Pro_League,1905035,01022026,881,FCV Dender EH,140,Genk,1,2,1621
-Belgium_Pro_League,1905037,01022026,237,KV Mechelen,1406,OH Leuven,2,2,1434
-Belgium_Pro_League,1905042,01022026,2647,Union St.Gilloise,124,Club Brugge,1,0,1551
-Belgium_Pro_League,1905044,01022026,261,Standard Liege,240,Anderlecht,2,0,1534
-Belgium_Pro_League,1905086,01032026,885,Cercle Bruges,881,FCV Dender EH,0,0,1558
-Belgium_Pro_League,1905088,01032026,124,Club Brugge,260,Sporting Charleroi,2,1,1487
-Belgium_Pro_League,1905090,01032026,140,Genk,231,Gent,3,0,1491
-Belgium_Pro_League,1905096,01032026,238,Westerlo,2647,Union St.Gilloise,0,0,1511
-Belgium_Pro_League,1904999,01112025,237,KV Mechelen,240,Anderlecht,1,3,1575
-Belgium_Pro_League,1905002,01112025,881,FCV Dender EH,124,Club Brugge,1,2,1639
-Belgium_Pro_League,1905016,01112025,2647,Union St.Gilloise,2164,Zulte Waregem,4,1,1572
-Belgium_Pro_League,1905123,02082025,238,Westerlo,2164,Zulte Waregem,3,1,1470
-Belgium_Pro_League,1905124,02082025,881,FCV Dender EH,261,Standard Liege,1,1,1590
-Belgium_Pro_League,1905125,02082025,231,Gent,29561,RAAL La Louviere,1,0,1491
-Belgium_Pro_League,1905004,02112025,1406,OH Leuven,231,Gent,4,0,1385
-Belgium_Pro_League,1905013,02112025,752,Royal Antwerp,239,St.Truiden,0,1,1442
-Belgium_Pro_League,1905019,02112025,238,Westerlo,140,Genk,0,1,1654
-Belgium_Pro_League,1904906,03082025,239,St.Truiden,260,Sporting Charleroi,1,1,1299
-Belgium_Pro_League,1905126,03082025,752,Royal Antwerp,140,Genk,1,1,1540
-Belgium_Pro_League,1905127,03082025,885,Cercle Bruges,240,Anderlecht,0,2,1567
-Belgium_Pro_League,1905128,03082025,2647,Union St.Gilloise,1406,OH Leuven,5,0,1372
-Belgium_Pro_League,1905022,03102025,231,Gent,260,Sporting Charleroi,2,1,1550
-Belgium_Pro_League,1905015,04102025,885,Cercle Bruges,752,Royal Antwerp,1,1,1448
-Belgium_Pro_League,1905025,04102025,237,KV Mechelen,239,St.Truiden,0,4,1505
-Belgium_Pro_League,1905028,04102025,2164,Zulte Waregem,29561,RAAL La Louviere,0,0,1342
-Belgium_Pro_League,1905011,05102025,240,Anderlecht,261,Standard Liege,1,0,1523
-Belgium_Pro_League,1905017,05102025,2647,Union St.Gilloise,124,Club Brugge,0,1,1400
-Belgium_Pro_League,1905020,05102025,881,FCV Dender EH,140,Genk,1,2,1596
-Belgium_Pro_League,1905030,05102025,238,Westerlo,1406,OH Leuven,2,0,1411
-Belgium_Pro_League,1904980,05122025,881,FCV Dender EH,29561,RAAL La Louviere,2,1,1535
-Belgium_Pro_League,1905056,06022026,238,Westerlo,239,St.Truiden,0,4,1416
-Belgium_Pro_League,1905110,06032026,29561,RAAL La Louviere,752,Royal Antwerp,0,0,1543
-Belgium_Pro_League,1904970,06122025,885,Cercle Bruges,261,Standard Liege,2,1,1528
-Belgium_Pro_League,1904984,06122025,231,Gent,2647,Union St.Gilloise,1,1,1562
-Belgium_Pro_League,1905047,07022026,260,Sporting Charleroi,885,Cercle Bruges,3,4,1421
-Belgium_Pro_League,1905052,07022026,1406,OH Leuven,231,Gent,3,1,1405
-Belgium_Pro_League,1905055,07022026,2164,Zulte Waregem,881,FCV Dender EH,1,0,1447
-Belgium_Pro_League,1905104,07032026,260,Sporting Charleroi,881,FCV Dender EH,2,2,1501
-Belgium_Pro_League,1905108,07032026,238,Westerlo,1406,OH Leuven,1,0,1310
-Belgium_Pro_League,1905111,07032026,140,Genk,2647,Union St.Gilloise,1,2,1599
-Belgium_Pro_League,1905038,07112025,881,FCV Dender EH,2164,Zulte Waregem,2,2,1562
-Belgium_Pro_League,1904967,07122025,752,Royal Antwerp,140,Genk,3,0,1639
-Belgium_Pro_League,1904972,07122025,260,Sporting Charleroi,237,KV Mechelen,0,1,1470
-Belgium_Pro_League,1904974,07122025,2164,Zulte Waregem,1406,OH Leuven,1,1,1454
-Belgium_Pro_League,1904993,07122025,240,Anderlecht,238,Westerlo,0,4,1544
-Belgium_Pro_League,1905049,08022026,261,Standard Liege,124,Club Brugge,1,2,1705
-Belgium_Pro_League,1905051,08022026,140,Genk,240,Anderlecht,2,0,1472
-Belgium_Pro_League,1905053,08022026,237,KV Mechelen,752,Royal Antwerp,2,0,1571
-Belgium_Pro_League,1905054,08022026,2647,Union St.Gilloise,29561,RAAL La Louviere,2,1,1459
-Belgium_Pro_League,1905099,08032026,124,Club Brugge,240,Anderlecht,2,2,1553
-Belgium_Pro_League,1905106,08032026,231,Gent,237,KV Mechelen,3,1,1533
-Belgium_Pro_League,1905112,08032026,239,St.Truiden,885,Cercle Bruges,2,1,1654
-Belgium_Pro_League,1905113,08032026,2164,Zulte Waregem,261,Standard Liege,0,1,1613
-Belgium_Pro_League,1904910,08082025,239,St.Truiden,881,FCV Dender EH,2,0,1601
-Belgium_Pro_League,1905027,08112025,752,Royal Antwerp,29561,RAAL La Louviere,3,1,1423
-Belgium_Pro_League,1905032,08112025,885,Cercle Bruges,1406,OH Leuven,1,2,1514
-Belgium_Pro_League,1904913,09082025,885,Cercle Bruges,124,Club Brugge,0,2,1434
-Belgium_Pro_League,1904916,09082025,237,KV Mechelen,238,Westerlo,1,0,1482
-Belgium_Pro_League,1904919,09082025,2647,Union St.Gilloise,231,Gent,3,2,1539
-Belgium_Pro_League,1905023,09112025,240,Anderlecht,124,Club Brugge,0,1,1422
-Belgium_Pro_League,1905039,09112025,140,Genk,231,Gent,1,1,1691
-Belgium_Pro_League,1905041,09112025,237,KV Mechelen,2647,Union St.Gilloise,1,1,1484
-Belgium_Pro_League,1905043,09112025,261,Standard Liege,239,St.Truiden,0,1,1476
-Belgium_Pro_League,1904922,10082025,29561,RAAL La Louviere,260,Sporting Charleroi,0,1,1407
-Belgium_Pro_League,1904925,10082025,240,Anderlecht,2164,Zulte Waregem,1,4,1483
-Belgium_Pro_League,1904931,10082025,752,Royal Antwerp,1406,OH Leuven,3,1,1341
-Belgium_Pro_League,1904935,12092025,261,Standard Liege,237,KV Mechelen,1,1,1410
-Belgium_Pro_League,1905012,12122025,261,Standard Liege,1406,OH Leuven,0,1,1434
-Belgium_Pro_League,1905061,13022026,140,Genk,237,KV Mechelen,3,2,1499
-Belgium_Pro_League,1905118,13032026,2164,Zulte Waregem,231,Gent,0,2,1468
-Belgium_Pro_League,1904947,13092025,2164,Zulte Waregem,1406,OH Leuven,2,0,1443
-Belgium_Pro_League,1904953,13092025,2647,Union St.Gilloise,881,FCV Dender EH,1,0,1533
-Belgium_Pro_League,1904955,13092025,29561,RAAL La Louviere,124,Club Brugge,1,0,1463
-Belgium_Pro_League,1904939,13122025,199,Wrexham,27,Watford,2,2,1701
-Belgium_Pro_League,1904994,13122025,239,St.Truiden,240,Anderlecht,1,2,1453
-Belgium_Pro_League,1904997,13122025,885,Cercle Bruges,237,KV Mechelen,2,3,1515
-Belgium_Pro_League,1905014,13122025,2164,Zulte Waregem,29561,RAAL La Louviere,2,2,1492
-Belgium_Pro_League,1905060,14022026,260,Sporting Charleroi,231,Gent,2,3,1490
-Belgium_Pro_League,1905062,14022026,1406,OH Leuven,881,FCV Dender EH,3,2,1490
-Belgium_Pro_League,1905116,14032026,260,Sporting Charleroi,1406,OH Leuven,0,2,1397
-Belgium_Pro_League,1905120,14032026,2647,Union St.Gilloise,881,FCV Dender EH,2,0,1568
-Belgium_Pro_League,1905121,14032026,124,Club Brugge,238,Westerlo,2,1,1523
-Belgium_Pro_League,1904958,14092025,231,Gent,752,Royal Antwerp,2,1,1476
-Belgium_Pro_League,1904960,14092025,885,Cercle Bruges,260,Sporting Charleroi,2,3,1549
-Belgium_Pro_League,1904964,14092025,239,St.Truiden,238,Westerlo,0,3,1551
-Belgium_Pro_League,1905000,14122025,260,Sporting Charleroi,2647,Union St.Gilloise,1,1,1438
-Belgium_Pro_League,1905003,14122025,881,FCV Dender EH,124,Club Brugge,1,5,1506
-Belgium_Pro_League,1905006,14122025,140,Genk,238,Westerlo,1,1,1578
-Belgium_Pro_League,1905009,14122025,231,Gent,752,Royal Antwerp,0,2,1624
-Belgium_Pro_League,1905057,15022026,240,Anderlecht,29561,RAAL La Louviere,0,0,1551
-Belgium_Pro_League,1905058,15022026,752,Royal Antwerp,238,Westerlo,0,2,1366
-Belgium_Pro_League,1905059,15022026,885,Cercle Bruges,124,Club Brugge,1,2,1531
-Belgium_Pro_League,1905064,15022026,2164,Zulte Waregem,239,St.Truiden,2,3,1557
-Belgium_Pro_League,1905114,15032026,752,Royal Antwerp,261,Standard Liege,1,1,1501
-Belgium_Pro_League,1905115,15032026,885,Cercle Bruges,29561,RAAL La Louviere,1,3,1536
-Belgium_Pro_League,1905117,15032026,140,Genk,239,St.Truiden,1,0,1589
-Belgium_Pro_League,1905119,15032026,237,KV Mechelen,240,Anderlecht,1,0,1453
-Belgium_Pro_League,1905089,16012026,29561,RAAL La Louviere,124,Club Brugge,3,2,1455
-Belgium_Pro_League,1904907,16082025,231,Gent,237,KV Mechelen,1,1,1560
-Belgium_Pro_League,1904909,16082025,261,Standard Liege,2647,Union St.Gilloise,0,3,1481
-Belgium_Pro_League,1904937,16082025,2164,Zulte Waregem,124,Club Brugge,0,1,1561
-Belgium_Pro_League,1905095,17012026,2647,Union St.Gilloise,237,KV Mechelen,1,0,1504
-Belgium_Pro_League,1905098,17012026,2164,Zulte Waregem,140,Genk,2,1,1559
-Belgium_Pro_League,1905100,17012026,885,Cercle Bruges,238,Westerlo,1,1,1606
-Belgium_Pro_League,1904912,17082025,881,FCV Dender EH,240,Anderlecht,0,2,1543
-Belgium_Pro_League,1904915,17082025,239,St.Truiden,29561,RAAL La Louviere,2,1,1617
-Belgium_Pro_League,1904918,17082025,752,Royal Antwerp,260,Sporting Charleroi,1,1,1324
-Belgium_Pro_League,1904921,17082025,885,Cercle Bruges,238,Westerlo,4,1,1473
-Belgium_Pro_League,1904927,17092025,260,Sporting Charleroi,140,Genk,1,0,1579
-Belgium_Pro_League,1905087,18012026,261,Standard Liege,260,Sporting Charleroi,0,2,1540
-Belgium_Pro_League,1905091,18012026,752,Royal Antwerp,881,FCV Dender EH,0,1,1508
-Belgium_Pro_League,1905093,18012026,240,Anderlecht,231,Gent,2,4,1427
-Belgium_Pro_League,1905097,18012026,1406,OH Leuven,239,St.Truiden,0,1,1594
-Belgium_Pro_League,1904946,18102025,1406,OH Leuven,124,Club Brugge,0,1,1478
-Belgium_Pro_League,1904949,18102025,29561,RAAL La Louviere,238,Westerlo,0,0,1458
-Belgium_Pro_League,1904951,18102025,2647,Union St.Gilloise,260,Sporting Charleroi,3,1,1542
-Belgium_Pro_League,1904977,19092025,231,Gent,881,FCV Dender EH,3,0,1603
-Belgium_Pro_League,1904941,19102025,140,Genk,885,Cercle Bruges,2,2,1645
-Belgium_Pro_League,1904944,19102025,237,KV Mechelen,881,FCV Dender EH,3,1,1489
-Belgium_Pro_League,1904968,19102025,240,Anderlecht,239,St.Truiden,2,2,1566
-Belgium_Pro_League,1904973,19102025,2164,Zulte Waregem,231,Gent,3,2,1590
-Belgium_Pro_League,1905071,20022026,231,Gent,885,Cercle Bruges,0,1,1542
-Belgium_Pro_League,1904966,20092025,752,Royal Antwerp,240,Anderlecht,0,0,1537
-Belgium_Pro_League,1904969,20092025,2164,Zulte Waregem,260,Sporting Charleroi,2,1,1406
-Belgium_Pro_League,1904982,20092025,29561,RAAL La Louviere,1406,OH Leuven,2,1,1320
-Belgium_Pro_League,1904957,20102025,261,Standard Liege,752,Royal Antwerp,1,0,1484
-Belgium_Pro_League,1905026,20122025,881,FCV Dender EH,261,Standard Liege,0,1,1358
-Belgium_Pro_League,1905066,20122025,2647,Union St.Gilloise,2164,Zulte Waregem,2,0,1668
-Belgium_Pro_League,1905070,20122025,238,Westerlo,29561,RAAL La Louviere,1,2,1595
-Belgium_Pro_League,1905065,21022026,1406,OH Leuven,124,Club Brugge,1,2,1490
-Belgium_Pro_League,1905067,21022026,239,St.Truiden,881,FCV Dender EH,4,1,1534
-Belgium_Pro_League,1905075,21022026,752,Royal Antwerp,2647,Union St.Gilloise,2,1,1527
-Belgium_Pro_League,1904971,21092025,239,St.Truiden,124,Club Brugge,0,2,1708
-Belgium_Pro_League,1904975,21092025,2647,Union St.Gilloise,140,Genk,2,1,1492
-Belgium_Pro_League,1904979,21092025,885,Cercle Bruges,237,KV Mechelen,0,0,1472
-Belgium_Pro_League,1904985,21092025,238,Westerlo,261,Standard Liege,0,2,1516
-Belgium_Pro_League,1904945,21112025,261,Standard Liege,2164,Zulte Waregem,0,0,1498
-Belgium_Pro_League,1905018,21122025,752,Royal Antwerp,240,Anderlecht,2,2,1446
-Belgium_Pro_League,1905024,21122025,124,Club Brugge,231,Gent,2,1,1534
-Belgium_Pro_League,1905029,21122025,885,Cercle Bruges,1406,OH Leuven,2,0,1460
-Belgium_Pro_League,1905068,21122025,237,KV Mechelen,239,St.Truiden,0,1,1613
-Belgium_Pro_League,1905069,22022026,140,Genk,261,Standard Liege,0,3,1571
-Belgium_Pro_League,1905073,22022026,29561,RAAL La Louviere,237,KV Mechelen,0,2,1416
-Belgium_Pro_League,1905078,22022026,240,Anderlecht,2164,Zulte Waregem,4,2,1584
-Belgium_Pro_League,1905080,22022026,238,Westerlo,260,Sporting Charleroi,2,1,1362
-Belgium_Pro_League,1905129,22032026,885,Cercle Bruges,240,Anderlecht,3,2,1612
-Belgium_Pro_League,1905130,22032026,124,Club Brugge,237,KV Mechelen,4,1,1482
-Belgium_Pro_League,1905131,22032026,881,FCV Dender EH,231,Gent,1,3,1472
-Belgium_Pro_League,1905132,22032026,752,Royal Antwerp,1406,OH Leuven,0,1,1371
-Belgium_Pro_League,1905133,22032026,140,Genk,29561,RAAL La Louviere,6,4,1571
-Belgium_Pro_League,1905134,22032026,238,Westerlo,261,Standard Liege,0,0,1377
-Belgium_Pro_League,1905135,22032026,2647,Union St.Gilloise,239,St.Truiden,3,1,1726
-Belgium_Pro_League,1905136,22032026,260,Sporting Charleroi,2164,Zulte Waregem,0,1,1559
-Belgium_Pro_League,1904943,22112025,885,Cercle Bruges,2647,Union St.Gilloise,0,2,1623
-Belgium_Pro_League,1905050,22112025,124,Club Brugge,260,Sporting Charleroi,1,0,1451
-Belgium_Pro_League,1905033,23012026,261,Standard Liege,231,Gent,0,4,1589
-Belgium_Pro_League,1904930,23082025,885,Cercle Bruges,261,Standard Liege,3,0,1615
-Belgium_Pro_League,1904933,23082025,239,St.Truiden,2164,Zulte Waregem,2,0,1441
-Belgium_Pro_League,1904938,23112025,237,KV Mechelen,140,Genk,1,0,1605
-Belgium_Pro_League,1904940,23112025,1406,OH Leuven,239,St.Truiden,1,2,1440
-Belgium_Pro_League,1904942,23112025,240,Anderlecht,29561,RAAL La Louviere,1,0,1524
-Belgium_Pro_League,1905048,23112025,881,FCV Dender EH,752,Royal Antwerp,2,1,1486
-Belgium_Pro_League,1905031,24012026,29561,RAAL La Louviere,239,St.Truiden,1,2,1450
-Belgium_Pro_League,1905103,24012026,124,Club Brugge,2164,Zulte Waregem,4,3,1526
-Belgium_Pro_League,1905109,24012026,1406,OH Leuven,2647,Union St.Gilloise,0,0,1493
-Belgium_Pro_League,1904905,24082025,29561,RAAL La Louviere,2647,Union St.Gilloise,0,0,1521
-Belgium_Pro_League,1904908,24082025,881,FCV Dender EH,1406,OH Leuven,0,1,1501
-Belgium_Pro_League,1904936,24082025,237,KV Mechelen,752,Royal Antwerp,1,2,1372
-Belgium_Pro_League,1904924,24092025,238,Westerlo,124,Club Brugge,6,4,1635
-Belgium_Pro_League,1904981,24102025,240,Anderlecht,260,Sporting Charleroi,0,1,1445
-Belgium_Pro_League,1905101,25012026,881,FCV Dender EH,240,Anderlecht,0,0,1456
-Belgium_Pro_League,1905102,25012026,260,Sporting Charleroi,752,Royal Antwerp,2,0,1435
-Belgium_Pro_League,1905105,25012026,885,Cercle Bruges,140,Genk,1,1,1583
-Belgium_Pro_League,1905107,25012026,237,KV Mechelen,238,Westerlo,1,1,1529
-Belgium_Pro_League,1904986,25102025,261,Standard Liege,231,Gent,0,4,1543
-Belgium_Pro_League,1904988,25102025,1406,OH Leuven,237,KV Mechelen,1,1,1434
-Belgium_Pro_League,1904996,25102025,238,Westerlo,881,FCV Dender EH,1,1,1428
-Belgium_Pro_League,1904995,26092025,1406,OH Leuven,240,Anderlecht,1,1,1470
-Belgium_Pro_League,1904978,26102025,885,Cercle Bruges,2164,Zulte Waregem,1,1,1553
-Belgium_Pro_League,1904983,26102025,29561,RAAL La Louviere,140,Genk,1,1,1563
-Belgium_Pro_League,1904992,26102025,239,St.Truiden,2647,Union St.Gilloise,0,2,1417
-Belgium_Pro_League,1905072,26122025,240,Anderlecht,260,Sporting Charleroi,1,2,1454
-Belgium_Pro_League,1905076,26122025,885,Cercle Bruges,2647,Union St.Gilloise,1,1,1544
-Belgium_Pro_League,1905085,26122025,261,Standard Liege,239,St.Truiden,1,2,1582
-Belgium_Pro_League,1905094,27022026,29561,RAAL La Louviere,261,Standard Liege,1,1,1475
-Belgium_Pro_League,1904998,27092025,238,Westerlo,2647,Union St.Gilloise,0,2,1459
-Belgium_Pro_League,1905001,27092025,124,Club Brugge,261,Standard Liege,2,1,1414
-Belgium_Pro_League,1905008,27092025,752,Royal Antwerp,2164,Zulte Waregem,0,2,1433
-Belgium_Pro_League,1905074,27122025,2164,Zulte Waregem,752,Royal Antwerp,1,2,1424
-Belgium_Pro_League,1905079,27122025,231,Gent,238,Westerlo,2,0,1515
-Belgium_Pro_League,1905081,27122025,881,FCV Dender EH,237,KV Mechelen,1,1,1589
-Belgium_Pro_League,1905083,27122025,1406,OH Leuven,29561,RAAL La Louviere,0,0,1403
-Belgium_Pro_League,1905082,28022026,1406,OH Leuven,240,Anderlecht,2,4,1422
-Belgium_Pro_League,1905084,28022026,239,St.Truiden,752,Royal Antwerp,0,1,1471
-Belgium_Pro_League,1904987,28092025,231,Gent,885,Cercle Bruges,4,2,1451
-Belgium_Pro_League,1904989,28092025,237,KV Mechelen,260,Sporting Charleroi,2,0,1471
-Belgium_Pro_League,1904991,28092025,881,FCV Dender EH,29561,RAAL La Louviere,0,0,1474
-Belgium_Pro_League,1905005,28092025,239,St.Truiden,140,Genk,0,3,1572
-Belgium_Pro_League,1904963,28112025,237,KV Mechelen,261,Standard Liege,0,1,1572
-Belgium_Pro_League,1904911,29082025,239,St.Truiden,885,Cercle Bruges,1,1,1481
-Belgium_Pro_League,1904952,29112025,260,Sporting Charleroi,29561,RAAL La Louviere,0,0,1441
-Belgium_Pro_League,1904956,29112025,238,Westerlo,881,FCV Dender EH,2,2,1429
-Belgium_Pro_League,1904965,29112025,885,Cercle Bruges,2164,Zulte Waregem,0,2,1413
-Belgium_Pro_League,1905040,30012026,29561,RAAL La Louviere,231,Gent,1,1,1403
-Belgium_Pro_League,1904914,30082025,29561,RAAL La Louviere,237,KV Mechelen,0,5,1398
-Belgium_Pro_League,1904926,30082025,881,FCV Dender EH,260,Sporting Charleroi,1,3,1614
-Belgium_Pro_League,1904950,30112025,240,Anderlecht,2647,Union St.Gilloise,1,0,1597
-Belgium_Pro_League,1904954,30112025,752,Royal Antwerp,124,Club Brugge,1,0,1531
-Belgium_Pro_League,1904959,30112025,1406,OH Leuven,140,Genk,1,2,1488
-Belgium_Pro_League,1904961,30112025,231,Gent,239,St.Truiden,1,2,1573
-Belgium_Pro_League,1905034,31012026,885,Cercle Bruges,752,Royal Antwerp,0,4,1440
-Belgium_Pro_League,1905045,31012026,239,St.Truiden,260,Sporting Charleroi,0,2,1498
-Belgium_Pro_League,1905046,31012026,238,Westerlo,2164,Zulte Waregem,1,0,1617
-Belgium_Pro_League,1904920,31082025,261,Standard Liege,1406,OH Leuven,1,0,1417
-Belgium_Pro_League,1904923,31082025,231,Gent,124,Club Brugge,1,1,1598
-Belgium_Pro_League,1904929,31082025,240,Anderlecht,2647,Union St.Gilloise,0,2,1403
-Belgium_Pro_League,1904932,31082025,140,Genk,2164,Zulte Waregem,3,2,1392
-Belgium_Pro_League,1905010,31102025,261,Standard Liege,260,Sporting Charleroi,2,2,1408
+league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events,competition_key,competition_type,competition_phase,phase_table_scope,source_stage_id,validation_status
+Belgium_Pro_League,1905035,1022026,881,FCV Dender EH,140,Genk,1,2,1621,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905037,1022026,237,KV Mechelen,1406,OH Leuven,2,2,1434,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905042,1022026,2647,Union St.Gilloise,124,Club Brugge,1,0,1551,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905044,1022026,261,Standard Liege,240,Anderlecht,2,0,1534,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905086,1032026,885,Cercle Bruges,881,FCV Dender EH,0,0,1558,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905088,1032026,124,Club Brugge,260,Sporting Charleroi,2,1,1487,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905090,1032026,140,Genk,231,Gent,3,0,1491,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905096,1032026,238,Westerlo,2647,Union St.Gilloise,0,0,1511,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904999,1112025,237,KV Mechelen,240,Anderlecht,1,3,1575,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905002,1112025,881,FCV Dender EH,124,Club Brugge,1,2,1639,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905016,1112025,2647,Union St.Gilloise,2164,Zulte Waregem,4,1,1572,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905123,2082025,238,Westerlo,2164,Zulte Waregem,3,1,1470,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905124,2082025,881,FCV Dender EH,261,Standard Liege,1,1,1590,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905125,2082025,231,Gent,29561,RAAL La Louviere,1,0,1491,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905004,2112025,1406,OH Leuven,231,Gent,4,0,1385,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905013,2112025,752,Royal Antwerp,239,St.Truiden,0,1,1442,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905019,2112025,238,Westerlo,140,Genk,0,1,1654,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904906,3082025,239,St.Truiden,260,Sporting Charleroi,1,1,1299,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905126,3082025,752,Royal Antwerp,140,Genk,1,1,1540,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905127,3082025,885,Cercle Bruges,240,Anderlecht,0,2,1567,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905128,3082025,2647,Union St.Gilloise,1406,OH Leuven,5,0,1372,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905022,3102025,231,Gent,260,Sporting Charleroi,2,1,1550,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905015,4102025,885,Cercle Bruges,752,Royal Antwerp,1,1,1448,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905025,4102025,237,KV Mechelen,239,St.Truiden,0,4,1505,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905028,4102025,2164,Zulte Waregem,29561,RAAL La Louviere,0,0,1342,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905011,5102025,240,Anderlecht,261,Standard Liege,1,0,1523,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905017,5102025,2647,Union St.Gilloise,124,Club Brugge,0,1,1400,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905020,5102025,881,FCV Dender EH,140,Genk,1,2,1596,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905030,5102025,238,Westerlo,1406,OH Leuven,2,0,1411,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904980,5122025,881,FCV Dender EH,29561,RAAL La Louviere,2,1,1535,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905056,6022026,238,Westerlo,239,St.Truiden,0,4,1416,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905110,6032026,29561,RAAL La Louviere,752,Royal Antwerp,0,0,1543,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904970,6122025,885,Cercle Bruges,261,Standard Liege,2,1,1528,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904984,6122025,231,Gent,2647,Union St.Gilloise,1,1,1562,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905047,7022026,260,Sporting Charleroi,885,Cercle Bruges,3,4,1421,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905052,7022026,1406,OH Leuven,231,Gent,3,1,1405,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905055,7022026,2164,Zulte Waregem,881,FCV Dender EH,1,0,1447,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905104,7032026,260,Sporting Charleroi,881,FCV Dender EH,2,2,1501,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905108,7032026,238,Westerlo,1406,OH Leuven,1,0,1310,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905111,7032026,140,Genk,2647,Union St.Gilloise,1,2,1599,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905038,7112025,881,FCV Dender EH,2164,Zulte Waregem,2,2,1562,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904967,7122025,752,Royal Antwerp,140,Genk,3,0,1639,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904972,7122025,260,Sporting Charleroi,237,KV Mechelen,0,1,1470,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904974,7122025,2164,Zulte Waregem,1406,OH Leuven,1,1,1454,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904993,7122025,240,Anderlecht,238,Westerlo,0,4,1544,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905049,8022026,261,Standard Liege,124,Club Brugge,1,2,1705,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905051,8022026,140,Genk,240,Anderlecht,2,0,1472,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905053,8022026,237,KV Mechelen,752,Royal Antwerp,2,0,1571,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905054,8022026,2647,Union St.Gilloise,29561,RAAL La Louviere,2,1,1459,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905099,8032026,124,Club Brugge,240,Anderlecht,2,2,1553,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905106,8032026,231,Gent,237,KV Mechelen,3,1,1533,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905112,8032026,239,St.Truiden,885,Cercle Bruges,2,1,1654,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905113,8032026,2164,Zulte Waregem,261,Standard Liege,0,1,1613,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904910,8082025,239,St.Truiden,881,FCV Dender EH,2,0,1601,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905027,8112025,752,Royal Antwerp,29561,RAAL La Louviere,3,1,1423,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905032,8112025,885,Cercle Bruges,1406,OH Leuven,1,2,1514,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904913,9082025,885,Cercle Bruges,124,Club Brugge,0,2,1434,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904916,9082025,237,KV Mechelen,238,Westerlo,1,0,1482,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904919,9082025,2647,Union St.Gilloise,231,Gent,3,2,1539,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905023,9112025,240,Anderlecht,124,Club Brugge,0,1,1422,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905039,9112025,140,Genk,231,Gent,1,1,1691,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905041,9112025,237,KV Mechelen,2647,Union St.Gilloise,1,1,1484,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905043,9112025,261,Standard Liege,239,St.Truiden,0,1,1476,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904922,10082025,29561,RAAL La Louviere,260,Sporting Charleroi,0,1,1407,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904925,10082025,240,Anderlecht,2164,Zulte Waregem,1,4,1483,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904931,10082025,752,Royal Antwerp,1406,OH Leuven,3,1,1341,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904935,12092025,261,Standard Liege,237,KV Mechelen,1,1,1410,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905012,12122025,261,Standard Liege,1406,OH Leuven,0,1,1434,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905061,13022026,140,Genk,237,KV Mechelen,3,2,1499,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905118,13032026,2164,Zulte Waregem,231,Gent,0,2,1468,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904947,13092025,2164,Zulte Waregem,1406,OH Leuven,2,0,1443,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904953,13092025,2647,Union St.Gilloise,881,FCV Dender EH,1,0,1533,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904955,13092025,29561,RAAL La Louviere,124,Club Brugge,1,0,1463,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904939,13122025,199,Wrexham,27,Watford,2,2,1701,Belgium_Pro_League,domestic_league,regular_season,regular_season,,wrong_competition
+Belgium_Pro_League,1904994,13122025,239,St.Truiden,240,Anderlecht,1,2,1453,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904997,13122025,885,Cercle Bruges,237,KV Mechelen,2,3,1515,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905014,13122025,2164,Zulte Waregem,29561,RAAL La Louviere,2,2,1492,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905060,14022026,260,Sporting Charleroi,231,Gent,2,3,1490,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905062,14022026,1406,OH Leuven,881,FCV Dender EH,3,2,1490,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905116,14032026,260,Sporting Charleroi,1406,OH Leuven,0,2,1397,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905120,14032026,2647,Union St.Gilloise,881,FCV Dender EH,2,0,1568,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905121,14032026,124,Club Brugge,238,Westerlo,2,1,1523,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904958,14092025,231,Gent,752,Royal Antwerp,2,1,1476,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904960,14092025,885,Cercle Bruges,260,Sporting Charleroi,2,3,1549,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904964,14092025,239,St.Truiden,238,Westerlo,0,3,1551,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905000,14122025,260,Sporting Charleroi,2647,Union St.Gilloise,1,1,1438,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905003,14122025,881,FCV Dender EH,124,Club Brugge,1,5,1506,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905006,14122025,140,Genk,238,Westerlo,1,1,1578,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905009,14122025,231,Gent,752,Royal Antwerp,0,2,1624,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905057,15022026,240,Anderlecht,29561,RAAL La Louviere,0,0,1551,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905058,15022026,752,Royal Antwerp,238,Westerlo,0,2,1366,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905059,15022026,885,Cercle Bruges,124,Club Brugge,1,2,1531,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905064,15022026,2164,Zulte Waregem,239,St.Truiden,2,3,1557,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905114,15032026,752,Royal Antwerp,261,Standard Liege,1,1,1501,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905115,15032026,885,Cercle Bruges,29561,RAAL La Louviere,1,3,1536,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905117,15032026,140,Genk,239,St.Truiden,1,0,1589,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905119,15032026,237,KV Mechelen,240,Anderlecht,1,0,1453,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905089,16012026,29561,RAAL La Louviere,124,Club Brugge,3,2,1455,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904907,16082025,231,Gent,237,KV Mechelen,1,1,1560,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904909,16082025,261,Standard Liege,2647,Union St.Gilloise,0,3,1481,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904937,16082025,2164,Zulte Waregem,124,Club Brugge,0,1,1561,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905095,17012026,2647,Union St.Gilloise,237,KV Mechelen,1,0,1504,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905098,17012026,2164,Zulte Waregem,140,Genk,2,1,1559,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905100,17012026,885,Cercle Bruges,238,Westerlo,1,1,1606,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904912,17082025,881,FCV Dender EH,240,Anderlecht,0,2,1543,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904915,17082025,239,St.Truiden,29561,RAAL La Louviere,2,1,1617,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904918,17082025,752,Royal Antwerp,260,Sporting Charleroi,1,1,1324,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904921,17082025,885,Cercle Bruges,238,Westerlo,4,1,1473,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904927,17092025,260,Sporting Charleroi,140,Genk,1,0,1579,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905087,18012026,261,Standard Liege,260,Sporting Charleroi,0,2,1540,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905091,18012026,752,Royal Antwerp,881,FCV Dender EH,0,1,1508,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905093,18012026,240,Anderlecht,231,Gent,2,4,1427,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905097,18012026,1406,OH Leuven,239,St.Truiden,0,1,1594,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904946,18102025,1406,OH Leuven,124,Club Brugge,0,1,1478,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904949,18102025,29561,RAAL La Louviere,238,Westerlo,0,0,1458,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904951,18102025,2647,Union St.Gilloise,260,Sporting Charleroi,3,1,1542,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904977,19092025,231,Gent,881,FCV Dender EH,3,0,1603,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904941,19102025,140,Genk,885,Cercle Bruges,2,2,1645,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904944,19102025,237,KV Mechelen,881,FCV Dender EH,3,1,1489,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904968,19102025,240,Anderlecht,239,St.Truiden,2,2,1566,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904973,19102025,2164,Zulte Waregem,231,Gent,3,2,1590,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905071,20022026,231,Gent,885,Cercle Bruges,0,1,1542,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904966,20092025,752,Royal Antwerp,240,Anderlecht,0,0,1537,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904969,20092025,2164,Zulte Waregem,260,Sporting Charleroi,2,1,1406,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904982,20092025,29561,RAAL La Louviere,1406,OH Leuven,2,1,1320,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904957,20102025,261,Standard Liege,752,Royal Antwerp,1,0,1484,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905026,20122025,881,FCV Dender EH,261,Standard Liege,0,1,1358,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905066,20122025,2647,Union St.Gilloise,2164,Zulte Waregem,2,0,1668,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905070,20122025,238,Westerlo,29561,RAAL La Louviere,1,2,1595,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905065,21022026,1406,OH Leuven,124,Club Brugge,1,2,1490,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905067,21022026,239,St.Truiden,881,FCV Dender EH,4,1,1534,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905075,21022026,752,Royal Antwerp,2647,Union St.Gilloise,2,1,1527,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904971,21092025,239,St.Truiden,124,Club Brugge,0,2,1708,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904975,21092025,2647,Union St.Gilloise,140,Genk,2,1,1492,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904979,21092025,885,Cercle Bruges,237,KV Mechelen,0,0,1472,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904985,21092025,238,Westerlo,261,Standard Liege,0,2,1516,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904945,21112025,261,Standard Liege,2164,Zulte Waregem,0,0,1498,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905018,21122025,752,Royal Antwerp,240,Anderlecht,2,2,1446,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905024,21122025,124,Club Brugge,231,Gent,2,1,1534,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905029,21122025,885,Cercle Bruges,1406,OH Leuven,2,0,1460,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905068,21122025,237,KV Mechelen,239,St.Truiden,0,1,1613,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905069,22022026,140,Genk,261,Standard Liege,0,3,1571,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905073,22022026,29561,RAAL La Louviere,237,KV Mechelen,0,2,1416,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905078,22022026,240,Anderlecht,2164,Zulte Waregem,4,2,1584,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905080,22022026,238,Westerlo,260,Sporting Charleroi,2,1,1362,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905129,22032026,885,Cercle Bruges,240,Anderlecht,3,2,1612,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905130,22032026,124,Club Brugge,237,KV Mechelen,4,1,1482,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905131,22032026,881,FCV Dender EH,231,Gent,1,3,1472,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905132,22032026,752,Royal Antwerp,1406,OH Leuven,0,1,1371,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905133,22032026,140,Genk,29561,RAAL La Louviere,6,4,1571,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905134,22032026,238,Westerlo,261,Standard Liege,0,0,1377,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905135,22032026,2647,Union St.Gilloise,239,St.Truiden,3,1,1726,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905136,22032026,260,Sporting Charleroi,2164,Zulte Waregem,0,1,1559,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904943,22112025,885,Cercle Bruges,2647,Union St.Gilloise,0,2,1623,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905050,22112025,124,Club Brugge,260,Sporting Charleroi,1,0,1451,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905033,23012026,261,Standard Liege,231,Gent,0,4,1589,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904930,23082025,885,Cercle Bruges,261,Standard Liege,3,0,1615,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904933,23082025,239,St.Truiden,2164,Zulte Waregem,2,0,1441,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904938,23112025,237,KV Mechelen,140,Genk,1,0,1605,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904940,23112025,1406,OH Leuven,239,St.Truiden,1,2,1440,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904942,23112025,240,Anderlecht,29561,RAAL La Louviere,1,0,1524,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905048,23112025,881,FCV Dender EH,752,Royal Antwerp,2,1,1486,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905031,24012026,29561,RAAL La Louviere,239,St.Truiden,1,2,1450,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905103,24012026,124,Club Brugge,2164,Zulte Waregem,4,3,1526,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905109,24012026,1406,OH Leuven,2647,Union St.Gilloise,0,0,1493,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904905,24082025,29561,RAAL La Louviere,2647,Union St.Gilloise,0,0,1521,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904908,24082025,881,FCV Dender EH,1406,OH Leuven,0,1,1501,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904936,24082025,237,KV Mechelen,752,Royal Antwerp,1,2,1372,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904924,24092025,238,Westerlo,124,Club Brugge,6,4,1635,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904981,24102025,240,Anderlecht,260,Sporting Charleroi,0,1,1445,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905101,25012026,881,FCV Dender EH,240,Anderlecht,0,0,1456,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905102,25012026,260,Sporting Charleroi,752,Royal Antwerp,2,0,1435,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905105,25012026,885,Cercle Bruges,140,Genk,1,1,1583,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905107,25012026,237,KV Mechelen,238,Westerlo,1,1,1529,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904986,25102025,261,Standard Liege,231,Gent,0,4,1543,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904988,25102025,1406,OH Leuven,237,KV Mechelen,1,1,1434,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904996,25102025,238,Westerlo,881,FCV Dender EH,1,1,1428,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904995,26092025,1406,OH Leuven,240,Anderlecht,1,1,1470,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904978,26102025,885,Cercle Bruges,2164,Zulte Waregem,1,1,1553,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904983,26102025,29561,RAAL La Louviere,140,Genk,1,1,1563,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904992,26102025,239,St.Truiden,2647,Union St.Gilloise,0,2,1417,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905072,26122025,240,Anderlecht,260,Sporting Charleroi,1,2,1454,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905076,26122025,885,Cercle Bruges,2647,Union St.Gilloise,1,1,1544,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905085,26122025,261,Standard Liege,239,St.Truiden,1,2,1582,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905094,27022026,29561,RAAL La Louviere,261,Standard Liege,1,1,1475,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904998,27092025,238,Westerlo,2647,Union St.Gilloise,0,2,1459,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905001,27092025,124,Club Brugge,261,Standard Liege,2,1,1414,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905008,27092025,752,Royal Antwerp,2164,Zulte Waregem,0,2,1433,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905074,27122025,2164,Zulte Waregem,752,Royal Antwerp,1,2,1424,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905079,27122025,231,Gent,238,Westerlo,2,0,1515,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905081,27122025,881,FCV Dender EH,237,KV Mechelen,1,1,1589,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905083,27122025,1406,OH Leuven,29561,RAAL La Louviere,0,0,1403,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905082,28022026,1406,OH Leuven,240,Anderlecht,2,4,1422,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905084,28022026,239,St.Truiden,752,Royal Antwerp,0,1,1471,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904987,28092025,231,Gent,885,Cercle Bruges,4,2,1451,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904989,28092025,237,KV Mechelen,260,Sporting Charleroi,2,0,1471,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904991,28092025,881,FCV Dender EH,29561,RAAL La Louviere,0,0,1474,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905005,28092025,239,St.Truiden,140,Genk,0,3,1572,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904963,28112025,237,KV Mechelen,261,Standard Liege,0,1,1572,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904911,29082025,239,St.Truiden,885,Cercle Bruges,1,1,1481,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904952,29112025,260,Sporting Charleroi,29561,RAAL La Louviere,0,0,1441,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904956,29112025,238,Westerlo,881,FCV Dender EH,2,2,1429,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904965,29112025,885,Cercle Bruges,2164,Zulte Waregem,0,2,1413,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905040,30012026,29561,RAAL La Louviere,231,Gent,1,1,1403,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904914,30082025,29561,RAAL La Louviere,237,KV Mechelen,0,5,1398,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904926,30082025,881,FCV Dender EH,260,Sporting Charleroi,1,3,1614,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904950,30112025,240,Anderlecht,2647,Union St.Gilloise,1,0,1597,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904954,30112025,752,Royal Antwerp,124,Club Brugge,1,0,1531,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904959,30112025,1406,OH Leuven,140,Genk,1,2,1488,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904961,30112025,231,Gent,239,St.Truiden,1,2,1573,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905034,31012026,885,Cercle Bruges,752,Royal Antwerp,0,4,1440,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905045,31012026,239,St.Truiden,260,Sporting Charleroi,0,2,1498,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905046,31012026,238,Westerlo,2164,Zulte Waregem,1,0,1617,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904920,31082025,261,Standard Liege,1406,OH Leuven,1,0,1417,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904923,31082025,231,Gent,124,Club Brugge,1,1,1598,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904929,31082025,240,Anderlecht,2647,Union St.Gilloise,0,2,1403,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1904932,31082025,140,Genk,2164,Zulte Waregem,3,2,1392,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending
+Belgium_Pro_League,1905010,31102025,261,Standard Liege,260,Sporting Charleroi,2,2,1408,Belgium_Pro_League,domestic_league,regular_season,regular_season,,pending

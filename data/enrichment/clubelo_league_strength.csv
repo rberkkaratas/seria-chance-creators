@@ -1,11 +1,11 @@
 league,country_code,level,n_clubs,mean_elo,snapshot_date,fetched_at,source
-Serie_A,ITA,1,20,1691.1,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-Premier_League,ENG,1,20,1821.3,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-La_Liga,ESP,1,20,1687.3,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-Bundesliga,GER,1,18,1695.2,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-Ligue_1,FRA,1,18,1665.8,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-Championship,ENG,2,24,1511.2,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-Primeira_Liga,POR,1,18,1521.7,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-Eredivisie,NED,1,18,1466.9,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-Belgium_Pro_League,BEL,1,16,1494.9,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
-Super_Lig,TUR,1,18,1433.2,2026-01-14,2026-07-04T07:32:24+00:00,github.com/tonyelhabr/club-rankings mirror (api.clubelo.com unreachable)
+Serie_A,ITA,1,20,1691.1,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,ENG,1,20,1821.3,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,ESP,1,20,1687.3,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,GER,1,18,1695.2,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,FRA,1,18,1665.8,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,ENG,2,24,1511.2,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,POR,1,18,1521.7,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,NED,1,18,1466.9,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,BEL,1,16,1494.9,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,TUR,1,18,1433.2,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror

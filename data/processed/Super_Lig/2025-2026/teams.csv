@@ -1,196 +1,196 @@
 league,match_id,team_id,team_name,is_home,total_passes,accurate_passes,total_shots,goals,key_passes,tackles,interceptions
-Super_Lig,1915391,294,Galatasaray,True,695,621,23,3,17,12,13
-Super_Lig,1915391,2200,Kayserispor,False,344,271,10,1,6,10,9
+Super_Lig,1915391,294,Galatasaray,True,695,621,23,4,17,12,13
+Super_Lig,1915391,2200,Kayserispor,False,344,271,10,0,6,10,9
 Super_Lig,1915394,156,Genclerbirligi,True,301,214,13,2,9,16,14
 Super_Lig,1915394,2319,Gaziantep FK,False,518,432,14,1,12,19,6
 Super_Lig,1915457,227,Antalyaspor,True,295,200,10,2,6,17,3
 Super_Lig,1915457,223,Fenerbahce,False,570,452,16,2,12,27,8
-Super_Lig,1915464,2200,Kayserispor,True,380,284,10,0,7,11,10
-Super_Lig,1915464,156,Genclerbirligi,False,437,347,10,0,7,10,7
+Super_Lig,1915464,2200,Kayserispor,False,380,284,10,0,7,11,10
+Super_Lig,1915464,156,Genclerbirligi,True,437,347,10,0,7,10,7
 Super_Lig,1915475,154,Samsunspor,True,541,437,12,0,10,20,13
 Super_Lig,1915475,2319,Gaziantep FK,False,360,268,6,0,5,21,17
 Super_Lig,1915480,2319,Gaziantep FK,True,363,287,17,0,14,15,11
 Super_Lig,1915480,133,Besiktas,False,637,563,12,2,9,14,9
 Super_Lig,1915491,750,Rizespor,True,506,412,15,3,11,8,12
 Super_Lig,1915491,2006,Konyaspor,False,411,313,11,2,9,21,16
-Super_Lig,1915348,226,Trabzonspor,True,327,253,9,0,8,15,8
-Super_Lig,1915348,294,Galatasaray,False,454,374,23,0,19,12,4
+Super_Lig,1915348,226,Trabzonspor,False,327,253,9,0,8,15,8
+Super_Lig,1915348,294,Galatasaray,True,454,374,23,0,19,12,4
 Super_Lig,1915351,254,Goztepe,True,358,251,15,1,11,15,8
 Super_Lig,1915351,156,Genclerbirligi,False,337,238,13,0,8,23,12
-Super_Lig,1915339,3473,Alanyaspor,True,451,381,10,1,5,12,7
-Super_Lig,1915339,154,Samsunspor,False,489,408,7,1,7,20,4
-Super_Lig,1915409,294,Galatasaray,True,374,283,6,1,5,18,5
-Super_Lig,1915409,223,Fenerbahce,False,473,361,17,1,10,18,12
+Super_Lig,1915339,3473,Alanyaspor,False,451,381,10,1,5,12,7
+Super_Lig,1915339,154,Samsunspor,True,489,408,7,1,7,20,4
+Super_Lig,1915409,294,Galatasaray,False,374,283,6,1,5,18,5
+Super_Lig,1915409,223,Fenerbahce,True,473,361,17,1,10,18,12
 Super_Lig,1915462,224,Kocaelispor,True,532,437,12,0,10,15,4
 Super_Lig,1915462,223,Fenerbahce,False,362,274,9,2,6,16,18
 Super_Lig,1915478,223,Fenerbahce,True,436,349,22,3,20,12,10
 Super_Lig,1915478,2201,Istanbul Basaksehir,False,459,378,15,1,12,13,11
-Super_Lig,1915493,294,Galatasaray,True,350,266,14,1,8,11,8
-Super_Lig,1915493,154,Samsunspor,False,425,362,13,4,8,17,10
+Super_Lig,1915493,294,Galatasaray,False,350,266,14,1,8,11,8
+Super_Lig,1915493,154,Samsunspor,True,425,362,13,4,8,17,10
 Super_Lig,1915495,226,Trabzonspor,True,439,346,10,1,8,21,7
 Super_Lig,1915495,254,Goztepe,False,325,251,18,1,12,21,10
 Super_Lig,1915343,133,Besiktas,True,306,216,9,2,7,15,9
 Super_Lig,1915343,223,Fenerbahce,False,649,566,23,3,16,10,7
-Super_Lig,1915354,3475,Kasimpasa,True,452,358,11,2,8,10,6
-Super_Lig,1915354,2200,Kayserispor,False,355,261,11,3,7,12,5
-Super_Lig,1915357,154,Samsunspor,True,334,242,12,2,10,23,3
-Super_Lig,1915357,2006,Konyaspor,False,481,384,24,2,19,15,8
-Super_Lig,1915476,3473,Alanyaspor,True,383,284,8,0,7,14,5
-Super_Lig,1915476,227,Antalyaspor,False,474,373,7,0,4,18,15
-Super_Lig,1915484,156,Genclerbirligi,True,618,518,13,0,9,12,5
-Super_Lig,1915484,2719,Fatih Karagumruk,False,367,267,6,1,6,15,9
-Super_Lig,1915486,224,Kocaelispor,True,306,228,5,1,3,9,9
-Super_Lig,1915486,3475,Kasimpasa,False,459,380,13,1,6,13,5
+Super_Lig,1915354,3475,Kasimpasa,False,452,358,11,2,8,10,6
+Super_Lig,1915354,2200,Kayserispor,True,355,261,11,3,7,12,5
+Super_Lig,1915357,154,Samsunspor,False,334,242,12,3,10,23,3
+Super_Lig,1915357,2006,Konyaspor,True,481,384,24,1,19,15,8
+Super_Lig,1915476,3473,Alanyaspor,False,383,284,8,0,7,14,5
+Super_Lig,1915476,227,Antalyaspor,True,474,373,7,0,4,18,15
+Super_Lig,1915484,156,Genclerbirligi,False,618,518,13,0,9,12,5
+Super_Lig,1915484,2719,Fatih Karagumruk,True,367,267,6,1,6,15,9
+Super_Lig,1915486,224,Kocaelispor,False,306,228,5,1,3,9,9
+Super_Lig,1915486,3475,Kasimpasa,True,459,380,13,1,6,13,5
 Super_Lig,1915489,2200,Kayserispor,True,441,327,21,1,19,13,13
 Super_Lig,1915489,3476,Eyupspor,False,358,268,11,1,11,14,7
-Super_Lig,1915551,750,Rizespor,True,472,409,14,5,13,17,4
-Super_Lig,1915551,227,Antalyaspor,False,497,428,15,2,10,17,12
-Super_Lig,1915563,2200,Kayserispor,True,438,346,17,0,13,14,12
-Super_Lig,1915563,226,Trabzonspor,False,467,398,25,4,22,8,13
-Super_Lig,1915338,2319,Gaziantep FK,True,440,374,13,0,13,22,19
-Super_Lig,1915338,3473,Alanyaspor,False,523,445,8,0,6,16,10
-Super_Lig,1915345,227,Antalyaspor,True,364,296,7,1,6,16,3
-Super_Lig,1915345,3476,Eyupspor,False,544,445,15,0,9,12,8
+Super_Lig,1915551,750,Rizespor,False,472,409,14,5,13,17,4
+Super_Lig,1915551,227,Antalyaspor,True,497,428,15,2,10,17,12
+Super_Lig,1915563,2200,Kayserispor,False,438,346,17,0,13,14,12
+Super_Lig,1915563,226,Trabzonspor,True,467,398,25,4,22,8,13
+Super_Lig,1915338,2319,Gaziantep FK,False,440,374,13,0,13,22,19
+Super_Lig,1915338,3473,Alanyaspor,True,523,445,8,0,6,16,10
+Super_Lig,1915345,227,Antalyaspor,False,364,296,7,1,6,16,3
+Super_Lig,1915345,3476,Eyupspor,True,544,445,15,0,9,12,8
 Super_Lig,1915360,750,Rizespor,True,577,459,13,1,10,10,8
 Super_Lig,1915360,2719,Fatih Karagumruk,False,367,249,14,0,9,11,14
-Super_Lig,1915415,294,Galatasaray,True,503,420,19,1,16,14,8
-Super_Lig,1915415,226,Trabzonspor,False,288,221,13,2,10,16,9
+Super_Lig,1915415,294,Galatasaray,False,503,420,19,1,16,14,8
+Super_Lig,1915415,226,Trabzonspor,True,288,221,13,2,10,16,9
 Super_Lig,1915537,2319,Gaziantep FK,True,524,450,15,1,13,11,15
 Super_Lig,1915537,3473,Alanyaspor,False,398,300,8,1,6,14,8
-Super_Lig,1915538,254,Goztepe,True,255,168,9,2,6,14,7
-Super_Lig,1915538,156,Genclerbirligi,False,425,330,11,0,7,11,4
-Super_Lig,1915540,2200,Kayserispor,True,549,441,4,0,3,11,4
-Super_Lig,1915540,3475,Kasimpasa,False,334,243,8,2,6,14,8
-Super_Lig,1915552,133,Besiktas,True,364,285,11,1,8,12,4
-Super_Lig,1915552,294,Galatasaray,False,418,350,14,1,12,8,8
-Super_Lig,1915554,3473,Alanyaspor,True,369,287,12,2,8,14,6
-Super_Lig,1915554,156,Genclerbirligi,False,451,364,11,2,7,15,9
+Super_Lig,1915538,254,Goztepe,False,255,168,9,2,6,14,7
+Super_Lig,1915538,156,Genclerbirligi,True,425,330,11,0,7,11,4
+Super_Lig,1915540,2200,Kayserispor,False,549,441,4,0,3,11,4
+Super_Lig,1915540,3475,Kasimpasa,True,334,243,8,2,6,14,8
+Super_Lig,1915552,133,Besiktas,False,364,285,11,1,8,12,4
+Super_Lig,1915552,294,Galatasaray,True,418,350,14,1,12,8,8
+Super_Lig,1915554,3473,Alanyaspor,False,369,287,12,2,8,14,6
+Super_Lig,1915554,156,Genclerbirligi,True,451,364,11,2,7,15,9
 Super_Lig,1915560,224,Kocaelispor,True,338,259,9,1,5,16,7
 Super_Lig,1915560,3476,Eyupspor,False,397,301,12,0,8,19,12
-Super_Lig,1915413,2006,Konyaspor,True,328,247,9,2,5,14,6
-Super_Lig,1915413,154,Samsunspor,False,540,461,18,2,15,7,7
-Super_Lig,1915535,3476,Eyupspor,True,332,256,8,0,7,16,7
-Super_Lig,1915535,227,Antalyaspor,False,391,310,20,3,18,18,10
+Super_Lig,1915413,2006,Konyaspor,False,328,247,9,2,5,14,6
+Super_Lig,1915413,154,Samsunspor,True,540,461,18,2,15,7,7
+Super_Lig,1915535,3476,Eyupspor,False,332,256,8,0,7,16,7
+Super_Lig,1915535,227,Antalyaspor,True,391,310,20,3,18,18,10
 Super_Lig,1915536,223,Fenerbahce,True,511,410,13,1,8,26,17
 Super_Lig,1915536,133,Besiktas,False,403,302,14,0,7,23,14
-Super_Lig,1915539,750,Rizespor,True,600,503,11,1,9,18,10
-Super_Lig,1915539,2719,Fatih Karagumruk,False,347,264,10,2,8,19,19
-Super_Lig,1915555,2201,Istanbul Basaksehir,True,614,503,11,0,10,20,11
-Super_Lig,1915555,254,Goztepe,False,241,145,9,1,7,14,23
-Super_Lig,1915557,2319,Gaziantep FK,True,431,342,17,2,12,21,12
-Super_Lig,1915557,2719,Fatih Karagumruk,False,352,266,13,0,9,11,13
-Super_Lig,1915558,2006,Konyaspor,True,425,341,7,1,5,7,8
-Super_Lig,1915558,3475,Kasimpasa,False,426,339,10,1,10,7,5
+Super_Lig,1915539,750,Rizespor,False,600,503,11,1,9,18,10
+Super_Lig,1915539,2719,Fatih Karagumruk,True,347,264,10,2,8,19,19
+Super_Lig,1915555,2201,Istanbul Basaksehir,False,614,503,11,0,10,20,11
+Super_Lig,1915555,254,Goztepe,True,241,145,9,1,7,14,23
+Super_Lig,1915557,2319,Gaziantep FK,False,431,342,17,2,12,21,12
+Super_Lig,1915557,2719,Fatih Karagumruk,True,352,266,13,0,9,11,13
+Super_Lig,1915558,2006,Konyaspor,False,425,341,7,1,5,7,8
+Super_Lig,1915558,3475,Kasimpasa,True,426,339,10,1,10,7,5
 Super_Lig,1915562,154,Samsunspor,True,418,322,12,0,8,15,16
 Super_Lig,1915562,223,Fenerbahce,False,460,374,6,0,5,14,10
-Super_Lig,1915355,154,Samsunspor,True,412,336,13,2,11,11,4
-Super_Lig,1915355,294,Galatasaray,False,553,476,13,3,12,17,7
+Super_Lig,1915355,154,Samsunspor,False,412,336,13,2,11,11,4
+Super_Lig,1915355,294,Galatasaray,True,553,476,13,3,12,17,7
 Super_Lig,1915411,224,Kocaelispor,True,309,211,11,0,8,14,7
 Super_Lig,1915411,2201,Istanbul Basaksehir,False,583,490,13,0,9,1,5
-Super_Lig,1915346,223,Fenerbahce,True,390,288,10,1,9,15,3
-Super_Lig,1915346,2201,Istanbul Basaksehir,False,428,333,18,1,14,14,8
+Super_Lig,1915346,223,Fenerbahce,False,390,288,10,1,9,15,3
+Super_Lig,1915346,2201,Istanbul Basaksehir,True,428,333,18,1,14,14,8
 Super_Lig,1915352,3476,Eyupspor,True,507,421,16,1,10,11,4
 Super_Lig,1915352,2200,Kayserispor,False,354,271,8,1,8,15,6
 Super_Lig,1915364,2006,Konyaspor,True,462,363,11,1,7,10,7
 Super_Lig,1915364,750,Rizespor,False,498,411,11,1,9,15,8
-Super_Lig,1915469,227,Antalyaspor,True,475,386,9,0,7,15,6
-Super_Lig,1915469,2719,Fatih Karagumruk,False,350,253,16,1,10,19,5
-Super_Lig,1915479,226,Trabzonspor,True,446,387,17,3,12,20,8
-Super_Lig,1915479,154,Samsunspor,False,486,413,11,0,8,22,6
-Super_Lig,1915487,254,Goztepe,True,338,229,23,1,16,15,11
-Super_Lig,1915487,2201,Istanbul Basaksehir,False,410,301,7,2,6,15,8
+Super_Lig,1915469,227,Antalyaspor,False,475,386,9,0,7,15,6
+Super_Lig,1915469,2719,Fatih Karagumruk,True,350,253,16,1,10,19,5
+Super_Lig,1915479,226,Trabzonspor,False,446,387,17,3,12,20,8
+Super_Lig,1915479,154,Samsunspor,True,486,413,11,0,8,22,6
+Super_Lig,1915487,254,Goztepe,False,338,229,23,1,16,15,11
+Super_Lig,1915487,2201,Istanbul Basaksehir,True,410,301,7,2,6,15,8
 Super_Lig,1915488,133,Besiktas,True,569,462,24,0,18,18,5
 Super_Lig,1915488,294,Galatasaray,False,378,287,12,1,7,6,11
-Super_Lig,1915372,2201,Istanbul Basaksehir,True,588,497,19,1,14,11,6
-Super_Lig,1915372,156,Genclerbirligi,False,234,166,15,2,8,13,6
+Super_Lig,1915372,2201,Istanbul Basaksehir,False,588,497,19,1,14,11,6
+Super_Lig,1915372,156,Genclerbirligi,True,234,166,15,2,8,13,6
 Super_Lig,1915358,156,Genclerbirligi,True,294,210,19,3,13,15,8
 Super_Lig,1915358,2719,Fatih Karagumruk,False,436,350,8,0,6,15,10
-Super_Lig,1915361,226,Trabzonspor,True,434,348,18,2,11,17,3
-Super_Lig,1915361,254,Goztepe,False,275,191,21,1,9,13,4
-Super_Lig,1915579,3475,Kasimpasa,True,260,166,4,0,3,10,9
-Super_Lig,1915579,224,Kocaelispor,False,520,399,9,0,5,12,9
+Super_Lig,1915361,226,Trabzonspor,False,434,348,18,2,11,17,3
+Super_Lig,1915361,254,Goztepe,True,275,191,21,1,9,13,4
+Super_Lig,1915579,3475,Kasimpasa,False,260,166,4,0,3,10,9
+Super_Lig,1915579,224,Kocaelispor,True,520,399,9,0,5,12,9
 Super_Lig,1915401,133,Besiktas,True,569,483,20,2,16,17,9
 Super_Lig,1915401,3473,Alanyaspor,False,263,178,7,2,6,3,10
-Super_Lig,1915403,2201,Istanbul Basaksehir,True,547,473,26,2,21,11,9
-Super_Lig,1915403,3476,Eyupspor,False,449,365,6,1,6,15,6
-Super_Lig,1915474,254,Goztepe,True,277,176,7,0,3,11,6
-Super_Lig,1915474,2006,Konyaspor,False,483,374,11,0,9,20,5
+Super_Lig,1915403,2201,Istanbul Basaksehir,False,547,473,26,2,21,11,9
+Super_Lig,1915403,3476,Eyupspor,True,449,365,6,1,6,15,6
+Super_Lig,1915474,254,Goztepe,False,277,176,7,0,3,11,6
+Super_Lig,1915474,2006,Konyaspor,True,483,374,11,0,9,20,5
 Super_Lig,1915477,750,Rizespor,True,402,315,15,0,8,20,8
 Super_Lig,1915477,294,Galatasaray,False,586,517,19,3,16,8,5
 Super_Lig,1915492,223,Fenerbahce,True,498,392,14,3,12,13,8
 Super_Lig,1915492,154,Samsunspor,False,399,294,12,2,9,29,9
-Super_Lig,1915494,2719,Fatih Karagumruk,True,460,360,14,1,11,14,8
-Super_Lig,1915494,2319,Gaziantep FK,False,431,351,14,1,9,9,6
+Super_Lig,1915494,2719,Fatih Karagumruk,False,460,360,14,1,11,14,8
+Super_Lig,1915494,2319,Gaziantep FK,True,431,351,14,1,9,9,6
 Super_Lig,1915498,2006,Konyaspor,True,518,408,11,1,7,17,9
 Super_Lig,1915498,3475,Kasimpasa,False,290,195,6,1,4,20,13
-Super_Lig,1915500,227,Antalyaspor,True,450,345,10,0,7,26,10
-Super_Lig,1915500,750,Rizespor,False,364,264,13,1,8,19,14
-Super_Lig,1915531,294,Galatasaray,True,539,435,7,2,6,15,7
-Super_Lig,1915531,254,Goztepe,False,268,171,18,2,12,11,17
+Super_Lig,1915500,227,Antalyaspor,False,450,345,10,0,7,26,10
+Super_Lig,1915500,750,Rizespor,True,364,264,13,1,8,19,14
+Super_Lig,1915531,294,Galatasaray,False,539,435,7,3,6,15,7
+Super_Lig,1915531,254,Goztepe,True,268,171,18,1,12,11,17
 Super_Lig,1915277,2319,Gaziantep FK,True,345,283,5,0,3,14,4
 Super_Lig,1915277,294,Galatasaray,False,505,444,15,3,10,17,10
-Super_Lig,1915363,133,Besiktas,True,516,426,13,3,11,15,10
-Super_Lig,1915363,227,Antalyaspor,False,432,352,5,1,3,17,7
-Super_Lig,1915369,750,Rizespor,True,353,270,11,1,7,15,10
-Super_Lig,1915369,2319,Gaziantep FK,False,513,429,16,3,13,13,12
-Super_Lig,1915378,254,Goztepe,True,227,134,15,2,11,18,9
-Super_Lig,1915378,3475,Kasimpasa,False,491,373,12,0,5,14,3
+Super_Lig,1915363,133,Besiktas,False,516,426,13,3,11,15,10
+Super_Lig,1915363,227,Antalyaspor,True,432,352,5,1,3,17,7
+Super_Lig,1915369,750,Rizespor,False,353,270,11,2,7,15,10
+Super_Lig,1915369,2319,Gaziantep FK,True,513,429,16,2,13,13,12
+Super_Lig,1915378,254,Goztepe,False,227,134,15,2,11,18,9
+Super_Lig,1915378,3475,Kasimpasa,True,491,373,12,0,5,14,3
 Super_Lig,1915383,226,Trabzonspor,True,577,498,16,1,12,12,5
 Super_Lig,1915383,3473,Alanyaspor,False,415,341,24,1,19,10,9
-Super_Lig,1915344,227,Antalyaspor,True,369,288,6,0,6,18,7
-Super_Lig,1915344,3473,Alanyaspor,False,443,355,9,0,7,13,8
-Super_Lig,1915349,2319,Gaziantep FK,True,357,275,9,2,8,15,12
-Super_Lig,1915349,133,Besiktas,False,476,386,29,2,23,27,9
+Super_Lig,1915344,227,Antalyaspor,False,369,288,6,0,6,18,7
+Super_Lig,1915344,3473,Alanyaspor,True,443,355,9,0,7,13,8
+Super_Lig,1915349,2319,Gaziantep FK,False,357,275,9,2,8,15,12
+Super_Lig,1915349,133,Besiktas,True,476,386,29,2,23,27,9
 Super_Lig,1915405,223,Fenerbahce,True,514,434,19,3,9,16,9
 Super_Lig,1915405,156,Genclerbirligi,False,319,236,13,1,8,12,10
-Super_Lig,1915407,3475,Kasimpasa,True,419,335,9,1,6,14,10
-Super_Lig,1915407,2319,Gaziantep FK,False,347,276,4,2,4,15,7
+Super_Lig,1915407,3475,Kasimpasa,False,419,335,9,1,6,14,10
+Super_Lig,1915407,2319,Gaziantep FK,True,347,276,4,2,4,15,7
 Super_Lig,1915472,2200,Kayserispor,True,490,371,20,1,11,15,6
 Super_Lig,1915472,224,Kocaelispor,False,370,297,10,2,7,11,7
 Super_Lig,1915483,3473,Alanyaspor,True,625,537,18,0,13,11,8
 Super_Lig,1915483,156,Genclerbirligi,False,442,356,3,0,1,15,4
-Super_Lig,1915490,224,Kocaelispor,True,291,192,5,1,2,19,14
-Super_Lig,1915490,3476,Eyupspor,False,598,499,11,0,8,28,14
-Super_Lig,1915496,2200,Kayserispor,True,322,261,15,2,12,11,5
-Super_Lig,1915496,226,Trabzonspor,False,671,611,18,2,15,10,4
-Super_Lig,1915534,154,Samsunspor,True,451,379,15,1,11,19,6
-Super_Lig,1915534,750,Rizespor,False,389,318,13,4,11,9,8
-Super_Lig,1915497,2200,Kayserispor,True,483,404,19,1,16,12,7
-Super_Lig,1915497,3473,Alanyaspor,False,410,332,13,3,9,9,3
-Super_Lig,1915499,154,Samsunspor,True,486,390,9,0,9,10,5
-Super_Lig,1915499,2201,Istanbul Basaksehir,False,331,248,19,3,17,13,8
-Super_Lig,1915501,226,Trabzonspor,True,309,249,10,2,6,16,12
-Super_Lig,1915501,133,Besiktas,False,535,448,21,1,18,13,4
-Super_Lig,1915503,750,Rizespor,True,542,459,14,0,7,11,6
-Super_Lig,1915503,3476,Eyupspor,False,334,268,11,4,7,17,6
+Super_Lig,1915490,224,Kocaelispor,False,291,192,5,1,2,19,14
+Super_Lig,1915490,3476,Eyupspor,True,598,499,11,0,8,28,14
+Super_Lig,1915496,2200,Kayserispor,True,322,261,15,1,12,11,5
+Super_Lig,1915496,226,Trabzonspor,False,671,611,18,3,15,10,4
+Super_Lig,1915534,154,Samsunspor,False,451,379,15,1,11,19,6
+Super_Lig,1915534,750,Rizespor,True,389,318,13,4,11,9,8
+Super_Lig,1915497,2200,Kayserispor,False,483,404,19,1,16,12,7
+Super_Lig,1915497,3473,Alanyaspor,True,410,332,13,3,9,9,3
+Super_Lig,1915499,154,Samsunspor,False,486,390,9,0,9,10,5
+Super_Lig,1915499,2201,Istanbul Basaksehir,True,331,248,19,3,17,13,8
+Super_Lig,1915501,226,Trabzonspor,False,309,249,10,2,6,16,12
+Super_Lig,1915501,133,Besiktas,True,535,448,21,1,18,13,4
+Super_Lig,1915503,750,Rizespor,False,542,459,14,0,7,11,6
+Super_Lig,1915503,3476,Eyupspor,True,334,268,11,4,7,17,6
 Super_Lig,1915505,294,Galatasaray,True,573,477,23,4,17,9,4
 Super_Lig,1915505,227,Antalyaspor,False,259,169,8,2,4,13,11
-Super_Lig,1915506,3475,Kasimpasa,True,280,189,10,2,7,12,8
-Super_Lig,1915506,156,Genclerbirligi,False,413,297,14,3,13,8,5
-Super_Lig,1915508,2319,Gaziantep FK,True,427,318,15,2,9,11,7
-Super_Lig,1915508,254,Goztepe,False,270,176,19,1,14,12,16
-Super_Lig,1915509,2719,Fatih Karagumruk,True,343,253,6,1,4,13,9
-Super_Lig,1915509,224,Kocaelispor,False,614,524,8,0,6,9,7
-Super_Lig,1915510,223,Fenerbahce,True,526,469,23,3,18,20,4
-Super_Lig,1915510,2006,Konyaspor,False,393,329,10,0,8,14,4
+Super_Lig,1915506,3475,Kasimpasa,False,280,189,10,2,7,12,8
+Super_Lig,1915506,156,Genclerbirligi,True,413,297,14,3,13,8,5
+Super_Lig,1915508,2319,Gaziantep FK,False,427,318,15,1,9,11,7
+Super_Lig,1915508,254,Goztepe,True,270,176,19,2,14,12,16
+Super_Lig,1915509,2719,Fatih Karagumruk,False,343,253,6,1,4,13,9
+Super_Lig,1915509,224,Kocaelispor,True,614,524,8,0,6,9,7
+Super_Lig,1915510,223,Fenerbahce,False,526,469,23,3,18,20,4
+Super_Lig,1915510,2006,Konyaspor,True,393,329,10,0,8,14,4
 Super_Lig,1915274,227,Antalyaspor,True,280,196,16,2,12,6,12
 Super_Lig,1915274,3475,Kasimpasa,False,468,368,10,1,8,7,6
 Super_Lig,1915281,154,Samsunspor,True,561,477,9,2,5,15,2
 Super_Lig,1915281,156,Genclerbirligi,False,352,274,8,1,6,16,10
-Super_Lig,1915366,2200,Kayserispor,True,359,280,5,2,5,5,10
-Super_Lig,1915366,223,Fenerbahce,False,574,505,28,4,21,14,10
-Super_Lig,1915375,2006,Konyaspor,True,535,422,11,0,8,11,14
-Super_Lig,1915375,2719,Fatih Karagumruk,False,403,294,10,2,7,6,7
-Super_Lig,1915380,3476,Eyupspor,True,322,252,2,0,2,19,12
-Super_Lig,1915380,154,Samsunspor,False,541,441,17,1,12,14,3
+Super_Lig,1915366,2200,Kayserispor,False,359,280,5,2,5,5,10
+Super_Lig,1915366,223,Fenerbahce,True,574,505,28,4,21,14,10
+Super_Lig,1915375,2006,Konyaspor,False,535,422,11,0,8,11,14
+Super_Lig,1915375,2719,Fatih Karagumruk,True,403,294,10,2,7,6,7
+Super_Lig,1915380,3476,Eyupspor,False,322,252,2,0,2,19,12
+Super_Lig,1915380,154,Samsunspor,True,541,441,17,1,12,14,3
 Super_Lig,1915577,224,Kocaelispor,True,303,222,9,1,7,11,11
 Super_Lig,1915577,294,Galatasaray,False,568,461,12,0,9,18,3
-Super_Lig,1915420,227,Antalyaspor,True,285,204,11,2,5,19,12
-Super_Lig,1915420,133,Besiktas,False,513,432,21,4,16,12,10
-Super_Lig,1915275,2006,Konyaspor,True,296,209,16,4,12,22,6
-Super_Lig,1915275,3476,Eyupspor,False,492,400,16,1,13,13,7
-Super_Lig,1915280,254,Goztepe,True,328,211,17,3,13,19,10
-Super_Lig,1915280,750,Rizespor,False,407,311,13,0,10,18,13
+Super_Lig,1915420,227,Antalyaspor,False,285,204,11,2,5,19,12
+Super_Lig,1915420,133,Besiktas,True,513,432,21,4,16,12,10
+Super_Lig,1915275,2006,Konyaspor,False,296,209,16,4,12,22,6
+Super_Lig,1915275,3476,Eyupspor,True,492,400,16,1,13,13,7
+Super_Lig,1915280,254,Goztepe,False,328,211,17,3,13,19,10
+Super_Lig,1915280,750,Rizespor,True,407,311,13,0,10,18,13
 Super_Lig,1915416,3473,Alanyaspor,True,419,348,8,1,6,9,6
 Super_Lig,1915416,226,Trabzonspor,False,611,533,17,1,13,7,5
 Super_Lig,1915418,2201,Istanbul Basaksehir,True,469,396,21,3,13,11,7
@@ -201,200 +201,200 @@ Super_Lig,1915282,226,Trabzonspor,True,474,396,11,1,11,18,12
 Super_Lig,1915282,224,Kocaelispor,False,386,296,12,0,6,22,13
 Super_Lig,1915424,294,Galatasaray,True,656,557,13,1,11,11,9
 Super_Lig,1915424,224,Kocaelispor,False,328,238,8,1,5,9,11
-Super_Lig,1915426,254,Goztepe,True,387,258,19,4,13,11,4
-Super_Lig,1915426,3475,Kasimpasa,False,334,213,8,2,5,11,8
-Super_Lig,1915431,2719,Fatih Karagumruk,True,500,393,11,0,6,10,9
-Super_Lig,1915431,2006,Konyaspor,False,434,342,10,3,9,16,15
+Super_Lig,1915426,254,Goztepe,True,387,258,19,3,13,11,4
+Super_Lig,1915426,3475,Kasimpasa,False,334,213,8,3,5,11,8
+Super_Lig,1915431,2719,Fatih Karagumruk,False,500,393,11,0,6,10,9
+Super_Lig,1915431,2006,Konyaspor,True,434,342,10,3,9,16,15
 Super_Lig,1915379,3475,Kasimpasa,True,428,332,10,0,8,21,9
 Super_Lig,1915379,156,Genclerbirligi,False,446,358,6,0,5,12,7
-Super_Lig,1915425,294,Galatasaray,True,565,500,21,4,16,19,11
-Super_Lig,1915425,3476,Eyupspor,False,350,281,7,2,3,23,4
-Super_Lig,1915485,154,Samsunspor,True,516,409,13,1,6,16,4
-Super_Lig,1915485,227,Antalyaspor,False,281,211,13,3,9,17,11
-Super_Lig,1915502,2319,Gaziantep FK,True,279,200,12,4,6,21,13
-Super_Lig,1915502,227,Antalyaspor,False,422,345,12,1,9,20,5
+Super_Lig,1915425,294,Galatasaray,True,565,500,21,5,16,19,11
+Super_Lig,1915425,3476,Eyupspor,False,350,281,7,1,3,23,4
+Super_Lig,1915485,154,Samsunspor,False,516,409,13,1,6,16,4
+Super_Lig,1915485,227,Antalyaspor,True,281,211,13,3,9,17,11
+Super_Lig,1915502,2319,Gaziantep FK,False,279,200,12,4,6,21,13
+Super_Lig,1915502,227,Antalyaspor,True,422,345,12,1,9,20,5
 Super_Lig,1915519,2719,Fatih Karagumruk,True,326,240,9,2,6,19,7
 Super_Lig,1915519,223,Fenerbahce,False,679,561,16,0,13,18,10
-Super_Lig,1915422,154,Samsunspor,True,667,577,13,2,11,12,7
-Super_Lig,1915422,3476,Eyupspor,False,292,211,9,1,5,12,10
+Super_Lig,1915422,154,Samsunspor,False,667,577,13,2,11,12,7
+Super_Lig,1915422,3476,Eyupspor,True,292,211,9,1,5,12,10
 Super_Lig,1915433,750,Rizespor,True,526,426,24,2,17,18,11
 Super_Lig,1915433,2319,Gaziantep FK,False,345,264,10,1,6,23,8
 Super_Lig,1915290,133,Besiktas,True,469,390,21,2,18,15,9
 Super_Lig,1915290,2201,Istanbul Basaksehir,False,410,332,11,1,9,17,8
-Super_Lig,1915293,294,Galatasaray,True,605,531,21,2,16,27,7
-Super_Lig,1915293,3476,Eyupspor,False,336,255,9,0,6,14,10
-Super_Lig,1915300,2719,Fatih Karagumruk,True,645,512,15,1,10,12,5
-Super_Lig,1915300,3475,Kasimpasa,False,268,162,8,0,4,15,13
+Super_Lig,1915293,294,Galatasaray,False,605,531,21,2,16,27,7
+Super_Lig,1915293,3476,Eyupspor,True,336,255,9,0,6,14,10
+Super_Lig,1915300,2719,Fatih Karagumruk,True,645,512,15,0,10,12,5
+Super_Lig,1915300,3475,Kasimpasa,False,268,162,8,1,4,15,13
 Super_Lig,1915304,2006,Konyaspor,True,563,455,13,1,12,13,6
 Super_Lig,1915304,3473,Alanyaspor,False,293,214,7,2,4,13,12
 Super_Lig,1915309,154,Samsunspor,True,561,460,16,1,12,10,6
 Super_Lig,1915309,227,Antalyaspor,False,330,252,6,2,4,14,6
-Super_Lig,1915367,294,Galatasaray,True,610,534,13,4,10,15,7
-Super_Lig,1915367,227,Antalyaspor,False,374,291,11,1,6,15,9
+Super_Lig,1915367,294,Galatasaray,False,610,534,13,4,10,15,7
+Super_Lig,1915367,227,Antalyaspor,True,374,291,11,1,6,15,9
 Super_Lig,1915381,2200,Kayserispor,True,350,278,10,0,7,15,7
 Super_Lig,1915381,3473,Alanyaspor,False,502,425,14,0,14,13,8
-Super_Lig,1915382,3476,Eyupspor,True,458,365,7,0,5,12,8
-Super_Lig,1915382,750,Rizespor,False,368,281,14,3,10,21,13
-Super_Lig,1915427,750,Rizespor,True,401,310,16,3,11,25,8
-Super_Lig,1915427,156,Genclerbirligi,False,265,188,12,1,9,12,10
+Super_Lig,1915382,3476,Eyupspor,False,458,365,7,0,5,12,8
+Super_Lig,1915382,750,Rizespor,True,368,281,14,3,10,21,13
+Super_Lig,1915427,750,Rizespor,False,401,310,16,2,11,25,8
+Super_Lig,1915427,156,Genclerbirligi,True,265,188,12,2,9,12,10
 Super_Lig,1915436,226,Trabzonspor,True,460,394,17,2,13,16,5
 Super_Lig,1915436,223,Fenerbahce,False,332,264,9,3,7,10,8
 Super_Lig,1915482,3473,Alanyaspor,True,416,346,19,2,11,14,8
 Super_Lig,1915482,2006,Konyaspor,False,587,511,9,1,7,8,10
-Super_Lig,1915504,2201,Istanbul Basaksehir,True,277,185,7,0,4,18,6
-Super_Lig,1915504,294,Galatasaray,False,566,480,19,3,17,11,7
+Super_Lig,1915504,2201,Istanbul Basaksehir,False,277,185,7,0,4,18,6
+Super_Lig,1915504,294,Galatasaray,True,566,480,19,3,17,11,7
 Super_Lig,1915515,254,Goztepe,True,254,172,13,2,11,15,15
 Super_Lig,1915515,3473,Alanyaspor,False,552,450,17,2,13,12,7
 Super_Lig,1915522,224,Kocaelispor,True,347,252,10,1,5,9,8
 Super_Lig,1915522,2006,Konyaspor,False,495,387,19,2,13,18,4
-Super_Lig,1915525,750,Rizespor,True,403,327,11,0,9,13,10
-Super_Lig,1915525,226,Trabzonspor,False,507,416,10,1,7,15,5
-Super_Lig,1915295,226,Trabzonspor,True,258,177,1,0,0,16,6
-Super_Lig,1915295,223,Fenerbahce,False,664,572,29,1,19,32,9
-Super_Lig,1915298,224,Kocaelispor,True,381,281,3,0,1,17,8
-Super_Lig,1915298,2319,Gaziantep FK,False,352,269,14,2,9,21,12
-Super_Lig,1915302,254,Goztepe,True,338,237,13,1,7,7,10
-Super_Lig,1915302,2200,Kayserispor,False,384,269,8,1,5,10,4
-Super_Lig,1915373,254,Goztepe,True,284,182,15,1,10,20,9
-Super_Lig,1915373,2319,Gaziantep FK,False,384,285,19,0,14,15,11
-Super_Lig,1915376,224,Kocaelispor,True,610,512,16,1,12,26,9
-Super_Lig,1915376,2719,Fatih Karagumruk,False,340,266,8,1,7,12,13
-Super_Lig,1915384,2201,Istanbul Basaksehir,True,453,358,12,2,6,12,5
-Super_Lig,1915384,154,Samsunspor,False,502,405,15,0,11,18,5
-Super_Lig,1915387,133,Besiktas,True,217,141,9,3,7,18,6
-Super_Lig,1915387,226,Trabzonspor,False,667,577,34,3,27,13,6
-Super_Lig,1915423,133,Besiktas,True,331,245,13,3,11,12,7
-Super_Lig,1915423,2201,Istanbul Basaksehir,False,428,338,14,2,11,7,11
-Super_Lig,1915430,2200,Kayserispor,True,351,246,10,0,5,22,7
-Super_Lig,1915430,254,Goztepe,False,433,313,17,0,10,19,9
+Super_Lig,1915525,750,Rizespor,False,403,327,11,0,9,13,10
+Super_Lig,1915525,226,Trabzonspor,True,507,416,10,1,7,15,5
+Super_Lig,1915295,226,Trabzonspor,False,258,177,1,0,0,16,6
+Super_Lig,1915295,223,Fenerbahce,True,664,572,29,1,19,32,9
+Super_Lig,1915298,224,Kocaelispor,False,381,281,3,0,1,17,8
+Super_Lig,1915298,2319,Gaziantep FK,True,352,269,14,2,9,21,12
+Super_Lig,1915302,254,Goztepe,False,338,237,13,1,7,7,10
+Super_Lig,1915302,2200,Kayserispor,True,384,269,8,1,5,10,4
+Super_Lig,1915373,254,Goztepe,False,284,182,15,1,10,20,9
+Super_Lig,1915373,2319,Gaziantep FK,True,384,285,19,0,14,15,11
+Super_Lig,1915376,224,Kocaelispor,False,610,512,16,1,12,26,9
+Super_Lig,1915376,2719,Fatih Karagumruk,True,340,266,8,1,7,12,13
+Super_Lig,1915384,2201,Istanbul Basaksehir,False,453,358,12,2,6,12,5
+Super_Lig,1915384,154,Samsunspor,True,502,405,15,0,11,18,5
+Super_Lig,1915387,133,Besiktas,False,217,141,9,3,7,18,6
+Super_Lig,1915387,226,Trabzonspor,True,667,577,34,3,27,13,6
+Super_Lig,1915423,133,Besiktas,False,331,245,13,3,11,12,7
+Super_Lig,1915423,2201,Istanbul Basaksehir,True,428,338,14,2,11,7,11
+Super_Lig,1915430,2200,Kayserispor,False,351,246,10,0,5,22,7
+Super_Lig,1915430,254,Goztepe,True,433,313,17,0,10,19,9
 Super_Lig,1915434,224,Kocaelispor,True,437,352,14,3,12,15,8
 Super_Lig,1915434,2319,Gaziantep FK,False,301,218,7,0,6,13,9
-Super_Lig,1915507,133,Besiktas,True,528,459,24,2,15,20,5
-Super_Lig,1915507,156,Genclerbirligi,False,252,178,11,0,8,22,7
+Super_Lig,1915507,133,Besiktas,False,528,459,24,2,15,20,5
+Super_Lig,1915507,156,Genclerbirligi,True,252,178,11,0,8,22,7
 Super_Lig,1915520,3475,Kasimpasa,True,364,251,9,1,7,10,10
 Super_Lig,1915520,3476,Eyupspor,False,431,319,8,0,5,10,14
-Super_Lig,1915524,2200,Kayserispor,True,281,191,11,0,6,18,9
-Super_Lig,1915524,154,Samsunspor,False,585,486,19,3,14,16,11
+Super_Lig,1915524,2200,Kayserispor,False,281,191,11,1,6,18,9
+Super_Lig,1915524,154,Samsunspor,True,585,486,19,2,14,16,11
 Super_Lig,1915518,750,Rizespor,True,442,362,22,2,13,12,12
 Super_Lig,1915518,133,Besiktas,False,505,421,23,2,17,17,16
-Super_Lig,1915286,294,Galatasaray,True,639,562,28,2,21,17,4
-Super_Lig,1915286,2719,Fatih Karagumruk,False,254,180,7,1,4,18,6
+Super_Lig,1915286,294,Galatasaray,True,639,562,28,3,21,17,4
+Super_Lig,1915286,2719,Fatih Karagumruk,False,254,180,7,0,4,18,6
 Super_Lig,1915306,750,Rizespor,True,390,319,15,1,13,14,10
 Super_Lig,1915306,156,Genclerbirligi,False,420,323,15,0,9,18,9
-Super_Lig,1915370,2006,Konyaspor,True,437,371,17,0,11,16,10
-Super_Lig,1915370,223,Fenerbahce,False,510,441,17,4,11,22,8
-Super_Lig,1915432,2719,Fatih Karagumruk,True,502,411,11,2,9,9,3
-Super_Lig,1915432,3475,Kasimpasa,False,375,289,12,3,10,23,9
+Super_Lig,1915370,2006,Konyaspor,False,437,371,17,0,11,16,10
+Super_Lig,1915370,223,Fenerbahce,True,510,441,17,4,11,22,8
+Super_Lig,1915432,2719,Fatih Karagumruk,False,502,411,11,2,9,9,3
+Super_Lig,1915432,3475,Kasimpasa,True,375,289,12,3,10,23,9
 Super_Lig,1915513,2319,Gaziantep FK,True,493,422,11,1,8,14,9
 Super_Lig,1915513,2201,Istanbul Basaksehir,False,435,367,9,2,7,18,15
-Super_Lig,1915514,3473,Alanyaspor,True,584,511,11,1,8,7,14
-Super_Lig,1915514,2719,Fatih Karagumruk,False,448,374,8,2,5,14,6
-Super_Lig,1915521,254,Goztepe,True,277,182,22,0,10,17,9
-Super_Lig,1915521,154,Samsunspor,False,421,329,14,3,10,17,14
-Super_Lig,1915283,750,Rizespor,True,532,449,7,0,5,14,6
-Super_Lig,1915283,3473,Alanyaspor,False,403,314,9,0,4,13,5
-Super_Lig,1915543,223,Fenerbahce,True,448,361,12,0,7,9,8
-Super_Lig,1915543,254,Goztepe,False,310,215,12,0,8,12,10
-Super_Lig,1915547,224,Kocaelispor,True,277,180,14,1,7,10,8
-Super_Lig,1915547,154,Samsunspor,False,417,335,13,0,13,6,11
+Super_Lig,1915514,3473,Alanyaspor,False,584,511,11,1,8,7,14
+Super_Lig,1915514,2719,Fatih Karagumruk,True,448,374,8,2,5,14,6
+Super_Lig,1915521,254,Goztepe,False,277,182,22,0,10,17,9
+Super_Lig,1915521,154,Samsunspor,True,421,329,14,3,10,17,14
+Super_Lig,1915283,750,Rizespor,False,532,449,7,0,5,14,6
+Super_Lig,1915283,3473,Alanyaspor,True,403,314,9,0,4,13,5
+Super_Lig,1915543,223,Fenerbahce,False,448,361,12,0,7,9,8
+Super_Lig,1915543,254,Goztepe,True,310,215,12,0,8,12,10
+Super_Lig,1915547,224,Kocaelispor,True,277,180,14,0,7,10,8
+Super_Lig,1915547,154,Samsunspor,False,417,335,13,1,13,6,11
 Super_Lig,1915325,294,Galatasaray,True,622,518,17,1,14,25,12
 Super_Lig,1915325,2319,Gaziantep FK,False,307,223,10,1,8,18,23
 Super_Lig,1915421,2201,Istanbul Basaksehir,True,622,532,12,2,9,11,15
 Super_Lig,1915421,2719,Fatih Karagumruk,False,386,303,11,1,9,13,7
 Super_Lig,1915530,223,Fenerbahce,True,610,528,19,4,15,14,9
 Super_Lig,1915530,2319,Gaziantep FK,False,347,276,11,1,11,14,7
-Super_Lig,1915435,2006,Konyaspor,True,375,289,9,2,7,17,4
-Super_Lig,1915435,227,Antalyaspor,False,452,365,13,0,13,17,6
+Super_Lig,1915435,2006,Konyaspor,False,375,289,9,2,7,17,4
+Super_Lig,1915435,227,Antalyaspor,True,452,365,13,0,13,17,6
 Super_Lig,1915437,223,Fenerbahce,True,489,380,15,2,9,18,9
 Super_Lig,1915437,750,Rizespor,False,335,252,6,2,6,12,9
-Super_Lig,1915511,224,Kocaelispor,True,458,363,7,0,5,10,10
-Super_Lig,1915511,227,Antalyaspor,False,322,243,16,1,10,24,9
+Super_Lig,1915511,224,Kocaelispor,False,458,363,7,0,5,10,10
+Super_Lig,1915511,227,Antalyaspor,True,322,243,16,1,10,24,9
 Super_Lig,1915512,223,Fenerbahce,True,777,666,19,3,16,16,8
 Super_Lig,1915512,3476,Eyupspor,False,230,154,6,3,6,17,12
-Super_Lig,1915516,294,Galatasaray,True,709,631,12,0,11,6,6
-Super_Lig,1915516,3475,Kasimpasa,False,293,227,5,1,5,11,8
+Super_Lig,1915516,294,Galatasaray,False,709,631,12,0,11,6,6
+Super_Lig,1915516,3475,Kasimpasa,True,293,227,5,1,5,11,8
 Super_Lig,1915517,2200,Kayserispor,True,416,329,15,2,14,7,12
 Super_Lig,1915517,2006,Konyaspor,False,422,340,16,1,12,13,13
 Super_Lig,1915523,226,Trabzonspor,True,582,509,11,0,10,17,6
 Super_Lig,1915523,156,Genclerbirligi,False,345,270,13,3,11,18,15
-Super_Lig,1915284,2200,Kayserispor,True,393,302,9,1,6,17,9
-Super_Lig,1915284,2201,Istanbul Basaksehir,False,517,442,13,1,9,16,10
+Super_Lig,1915284,2200,Kayserispor,False,393,302,9,1,6,17,9
+Super_Lig,1915284,2201,Istanbul Basaksehir,True,517,442,13,1,9,16,10
 Super_Lig,1915285,133,Besiktas,True,463,397,18,2,14,19,5
 Super_Lig,1915285,3476,Eyupspor,False,402,321,11,1,9,20,8
 Super_Lig,1915287,156,Genclerbirligi,True,421,327,14,0,11,12,9
 Super_Lig,1915287,227,Antalyaspor,False,498,401,8,1,5,13,3
-Super_Lig,1915549,2319,Gaziantep FK,True,418,355,17,0,15,16,12
-Super_Lig,1915549,2006,Konyaspor,False,420,353,15,3,12,18,5
-Super_Lig,1915276,3473,Alanyaspor,True,383,305,5,2,5,11,12
-Super_Lig,1915276,223,Fenerbahce,False,613,514,19,2,14,21,4
-Super_Lig,1915278,2201,Istanbul Basaksehir,True,448,355,4,1,4,15,12
-Super_Lig,1915278,2719,Fatih Karagumruk,False,415,323,7,1,5,12,7
-Super_Lig,1915296,3475,Kasimpasa,True,377,279,17,0,12,14,10
-Super_Lig,1915296,154,Samsunspor,False,562,460,10,0,4,11,3
-Super_Lig,1915328,154,Samsunspor,True,419,326,18,1,13,12,12
-Super_Lig,1915328,156,Genclerbirligi,False,453,359,7,1,5,16,8
-Super_Lig,1915334,227,Antalyaspor,True,340,239,6,0,5,12,14
-Super_Lig,1915334,3475,Kasimpasa,False,486,370,11,0,10,14,8
-Super_Lig,1915419,223,Fenerbahce,True,585,490,12,3,7,16,5
-Super_Lig,1915419,3473,Alanyaspor,False,472,396,9,2,5,11,11
+Super_Lig,1915549,2319,Gaziantep FK,False,418,355,17,0,15,16,12
+Super_Lig,1915549,2006,Konyaspor,True,420,353,15,3,12,18,5
+Super_Lig,1915276,3473,Alanyaspor,False,383,305,5,2,5,11,12
+Super_Lig,1915276,223,Fenerbahce,True,613,514,19,2,14,21,4
+Super_Lig,1915278,2201,Istanbul Basaksehir,False,448,355,4,2,4,15,12
+Super_Lig,1915278,2719,Fatih Karagumruk,True,415,323,7,0,5,12,7
+Super_Lig,1915296,3475,Kasimpasa,False,377,279,17,0,12,14,10
+Super_Lig,1915296,154,Samsunspor,True,562,460,10,0,4,11,3
+Super_Lig,1915328,154,Samsunspor,False,419,326,18,1,13,12,12
+Super_Lig,1915328,156,Genclerbirligi,True,453,359,7,1,5,16,8
+Super_Lig,1915334,227,Antalyaspor,False,340,239,6,0,5,12,14
+Super_Lig,1915334,3475,Kasimpasa,True,486,370,11,0,10,14,8
+Super_Lig,1915419,223,Fenerbahce,False,585,490,12,3,7,16,5
+Super_Lig,1915419,3473,Alanyaspor,True,472,396,9,2,5,11,11
 Super_Lig,1915440,224,Kocaelispor,True,397,305,17,1,10,19,18
 Super_Lig,1915440,226,Trabzonspor,False,494,419,10,2,8,30,9
-Super_Lig,1915526,224,Kocaelispor,True,509,415,6,0,3,7,12
-Super_Lig,1915526,3473,Alanyaspor,False,338,259,10,5,8,11,10
+Super_Lig,1915526,224,Kocaelispor,False,509,415,6,0,3,7,12
+Super_Lig,1915526,3473,Alanyaspor,True,338,259,10,5,8,11,10
 Super_Lig,1915527,2201,Istanbul Basaksehir,True,550,448,17,0,16,12,9
 Super_Lig,1915527,227,Antalyaspor,False,272,180,7,0,7,16,10
-Super_Lig,1915529,226,Trabzonspor,True,499,402,10,1,8,24,11
-Super_Lig,1915529,3476,Eyupspor,False,488,387,7,0,7,18,8
+Super_Lig,1915529,226,Trabzonspor,False,499,402,10,1,8,24,11
+Super_Lig,1915529,3476,Eyupspor,True,488,387,7,0,7,18,8
 Super_Lig,1915442,156,Genclerbirligi,True,371,280,11,1,7,13,5
 Super_Lig,1915442,294,Galatasaray,False,456,362,9,2,6,12,9
-Super_Lig,1915444,3476,Eyupspor,True,344,255,6,1,5,13,13
-Super_Lig,1915444,2719,Fatih Karagumruk,False,559,438,13,2,10,21,7
-Super_Lig,1915448,254,Goztepe,True,219,122,7,1,3,12,3
-Super_Lig,1915448,224,Kocaelispor,False,497,370,21,1,17,16,3
+Super_Lig,1915444,3476,Eyupspor,False,344,255,6,2,5,13,13
+Super_Lig,1915444,2719,Fatih Karagumruk,True,559,438,13,1,10,21,7
+Super_Lig,1915448,254,Goztepe,False,219,122,7,1,3,12,3
+Super_Lig,1915448,224,Kocaelispor,True,497,370,21,1,17,16,3
 Super_Lig,1915545,3475,Kasimpasa,True,348,269,8,0,6,25,10
 Super_Lig,1915545,226,Trabzonspor,False,442,364,11,1,5,14,5
 Super_Lig,1915565,2201,Istanbul Basaksehir,True,411,316,5,1,4,11,7
 Super_Lig,1915565,294,Galatasaray,False,489,397,16,2,15,11,6
-Super_Lig,1915566,133,Besiktas,True,569,464,12,2,9,12,8
-Super_Lig,1915566,156,Genclerbirligi,False,355,253,5,1,3,14,10
-Super_Lig,1915571,224,Kocaelispor,True,338,250,7,3,6,15,8
-Super_Lig,1915571,2006,Konyaspor,False,432,342,12,2,8,18,7
+Super_Lig,1915566,133,Besiktas,True,569,464,12,1,9,12,8
+Super_Lig,1915566,156,Genclerbirligi,False,355,253,5,2,3,14,10
+Super_Lig,1915571,224,Kocaelispor,False,338,250,7,3,6,15,8
+Super_Lig,1915571,2006,Konyaspor,True,432,342,12,2,8,18,7
 Super_Lig,1915572,750,Rizespor,True,522,435,22,1,11,19,6
 Super_Lig,1915572,226,Trabzonspor,False,423,357,8,2,5,16,8
 Super_Lig,1915322,133,Besiktas,True,695,591,31,1,26,16,8
 Super_Lig,1915322,2200,Kayserispor,False,317,213,9,0,7,16,9
-Super_Lig,1915331,750,Rizespor,True,465,364,16,1,12,10,11
-Super_Lig,1915331,254,Goztepe,False,236,138,13,3,7,18,6
-Super_Lig,1915337,3476,Eyupspor,True,275,180,10,1,6,20,20
-Super_Lig,1915337,2006,Konyaspor,False,638,514,18,1,14,14,7
-Super_Lig,1915528,3475,Kasimpasa,True,461,359,6,1,5,15,13
-Super_Lig,1915528,133,Besiktas,False,467,374,14,2,10,8,5
-Super_Lig,1915532,2719,Fatih Karagumruk,True,359,256,6,0,3,14,7
-Super_Lig,1915532,2200,Kayserispor,False,562,482,16,1,11,11,12
-Super_Lig,1915533,156,Genclerbirligi,True,397,314,3,0,2,13,11
-Super_Lig,1915533,2006,Konyaspor,False,482,386,14,1,11,17,6
-Super_Lig,1915446,3473,Alanyaspor,True,535,449,8,0,8,6,5
-Super_Lig,1915446,3475,Kasimpasa,False,442,344,7,1,4,13,9
-Super_Lig,1915450,133,Besiktas,True,515,434,14,1,8,10,9
-Super_Lig,1915450,154,Samsunspor,False,493,412,14,2,11,13,4
+Super_Lig,1915331,750,Rizespor,False,465,364,16,1,12,10,11
+Super_Lig,1915331,254,Goztepe,True,236,138,13,3,7,18,6
+Super_Lig,1915337,3476,Eyupspor,False,275,180,10,1,6,20,20
+Super_Lig,1915337,2006,Konyaspor,True,638,514,18,1,14,14,7
+Super_Lig,1915528,3475,Kasimpasa,False,461,359,6,1,5,15,13
+Super_Lig,1915528,133,Besiktas,True,467,374,14,2,10,8,5
+Super_Lig,1915532,2719,Fatih Karagumruk,False,359,256,6,0,3,14,7
+Super_Lig,1915532,2200,Kayserispor,True,562,482,16,1,11,11,12
+Super_Lig,1915533,156,Genclerbirligi,False,397,314,3,0,2,13,11
+Super_Lig,1915533,2006,Konyaspor,True,482,386,14,1,11,17,6
+Super_Lig,1915446,3473,Alanyaspor,False,535,449,8,0,8,6,5
+Super_Lig,1915446,3475,Kasimpasa,True,442,344,7,1,4,13,9
+Super_Lig,1915450,133,Besiktas,False,515,434,14,1,8,10,9
+Super_Lig,1915450,154,Samsunspor,True,493,412,14,2,11,13,4
 Super_Lig,1915452,226,Trabzonspor,True,466,380,11,1,9,14,11
 Super_Lig,1915452,2201,Istanbul Basaksehir,False,405,317,17,1,11,20,7
-Super_Lig,1915292,133,Besiktas,True,523,404,13,0,10,17,11
-Super_Lig,1915292,254,Goztepe,False,237,131,13,3,9,17,13
-Super_Lig,1915564,254,Goztepe,True,346,255,10,0,8,7,13
-Super_Lig,1915564,3473,Alanyaspor,False,506,398,15,1,9,10,4
+Super_Lig,1915292,133,Besiktas,False,523,404,13,0,10,17,11
+Super_Lig,1915292,254,Goztepe,True,237,131,13,3,9,17,13
+Super_Lig,1915564,254,Goztepe,False,346,255,10,0,8,7,13
+Super_Lig,1915564,3473,Alanyaspor,True,506,398,15,1,9,10,4
 Super_Lig,1915568,223,Fenerbahce,True,485,389,21,2,12,24,15
 Super_Lig,1915568,2719,Fatih Karagumruk,False,350,256,16,1,10,17,7
-Super_Lig,1915569,227,Antalyaspor,True,298,234,7,2,6,14,5
-Super_Lig,1915569,2319,Gaziantep FK,False,662,607,22,3,16,21,5
+Super_Lig,1915569,227,Antalyaspor,False,298,234,7,2,6,14,5
+Super_Lig,1915569,2319,Gaziantep FK,True,662,607,22,3,16,21,5
 Super_Lig,1915570,2200,Kayserispor,True,468,373,14,1,7,13,3
 Super_Lig,1915570,154,Samsunspor,False,385,306,13,3,11,16,6
 Super_Lig,1915429,224,Kocaelispor,True,389,295,7,2,6,20,6
 Super_Lig,1915429,227,Antalyaspor,False,455,353,6,1,4,28,13
 Super_Lig,1915455,750,Rizespor,True,406,328,11,2,9,15,12
 Super_Lig,1915455,224,Kocaelispor,False,455,369,13,0,7,19,9
-Super_Lig,1915439,2319,Gaziantep FK,True,542,485,20,2,19,9,7
-Super_Lig,1915439,2200,Kayserispor,False,446,374,18,1,15,16,10
+Super_Lig,1915439,2319,Gaziantep FK,True,542,485,20,3,19,9,7
+Super_Lig,1915439,2200,Kayserispor,False,446,374,18,0,15,16,10
 Super_Lig,1915289,156,Genclerbirligi,True,250,183,11,1,7,21,5
 Super_Lig,1915289,3476,Eyupspor,False,472,388,20,0,16,16,6
 Super_Lig,1915310,226,Trabzonspor,True,447,368,27,1,23,23,13
@@ -403,64 +403,64 @@ Super_Lig,1915312,227,Antalyaspor,True,448,361,13,1,13,8,9
 Super_Lig,1915312,2200,Kayserispor,False,406,312,14,1,12,14,14
 Super_Lig,1915567,3476,Eyupspor,True,557,461,18,2,15,12,10
 Super_Lig,1915567,3475,Kasimpasa,False,441,350,9,0,8,17,11
-Super_Lig,1915400,750,Rizespor,True,317,227,17,0,13,15,10
-Super_Lig,1915400,133,Besiktas,False,478,382,16,1,13,19,8
+Super_Lig,1915400,750,Rizespor,False,317,227,17,0,13,15,10
+Super_Lig,1915400,133,Besiktas,True,478,382,16,1,13,19,8
 Super_Lig,1915408,3476,Eyupspor,True,393,323,8,0,5,11,6
 Super_Lig,1915408,223,Fenerbahce,False,516,459,23,3,19,13,9
 Super_Lig,1915417,2006,Konyaspor,True,542,463,16,1,13,11,11
 Super_Lig,1915417,2200,Kayserispor,False,402,322,13,1,10,17,8
-Super_Lig,1915438,2201,Istanbul Basaksehir,True,459,381,13,2,9,7,8
-Super_Lig,1915438,3473,Alanyaspor,False,506,417,13,1,11,12,8
-Super_Lig,1915443,156,Genclerbirligi,True,353,272,13,0,9,18,15
-Super_Lig,1915443,3476,Eyupspor,False,469,398,10,1,6,14,9
+Super_Lig,1915438,2201,Istanbul Basaksehir,False,459,381,13,2,9,7,8
+Super_Lig,1915438,3473,Alanyaspor,True,506,417,13,1,11,12,8
+Super_Lig,1915443,156,Genclerbirligi,False,353,272,13,0,9,18,15
+Super_Lig,1915443,3476,Eyupspor,True,469,398,10,1,6,14,9
 Super_Lig,1915453,2006,Konyaspor,True,336,263,9,2,6,12,9
 Super_Lig,1915453,294,Galatasaray,False,515,433,6,0,4,15,4
 Super_Lig,1915294,3475,Kasimpasa,True,315,234,17,1,14,19,8
 Super_Lig,1915294,223,Fenerbahce,False,594,494,9,1,7,20,8
-Super_Lig,1915297,750,Rizespor,True,331,235,8,1,6,12,13
-Super_Lig,1915297,224,Kocaelispor,False,465,338,16,1,11,17,13
+Super_Lig,1915297,750,Rizespor,False,331,235,8,1,6,12,13
+Super_Lig,1915297,224,Kocaelispor,True,465,338,16,1,11,17,13
 Super_Lig,1915307,154,Samsunspor,True,392,296,15,3,9,21,10
 Super_Lig,1915307,2719,Fatih Karagumruk,False,411,310,12,2,6,11,10
-Super_Lig,1915316,3473,Alanyaspor,True,421,330,13,1,9,9,6
-Super_Lig,1915316,2201,Istanbul Basaksehir,False,472,379,13,1,9,10,12
+Super_Lig,1915316,3473,Alanyaspor,False,421,330,13,1,9,9,6
+Super_Lig,1915316,2201,Istanbul Basaksehir,True,472,379,13,1,9,10,12
 Super_Lig,1915389,3473,Alanyaspor,True,461,386,11,2,5,10,9
 Super_Lig,1915389,2719,Fatih Karagumruk,False,588,504,9,0,7,11,12
-Super_Lig,1915410,3475,Kasimpasa,True,248,173,1,0,0,18,7
-Super_Lig,1915410,294,Galatasaray,False,604,530,27,3,22,17,10
-Super_Lig,1915414,154,Samsunspor,True,527,411,5,0,5,16,5
-Super_Lig,1915414,254,Goztepe,False,310,201,10,2,7,8,7
-Super_Lig,1915441,254,Goztepe,True,319,208,8,0,6,15,6
-Super_Lig,1915441,133,Besiktas,False,455,353,12,4,10,11,9
+Super_Lig,1915410,3475,Kasimpasa,False,248,173,1,0,0,18,7
+Super_Lig,1915410,294,Galatasaray,True,604,530,27,3,22,17,10
+Super_Lig,1915414,154,Samsunspor,False,527,411,5,0,5,16,5
+Super_Lig,1915414,254,Goztepe,True,310,201,10,2,7,8,7
+Super_Lig,1915441,254,Goztepe,False,319,208,8,0,6,15,6
+Super_Lig,1915441,133,Besiktas,True,455,353,12,4,10,11,9
 Super_Lig,1915447,2319,Gaziantep FK,True,484,412,15,1,12,11,14
 Super_Lig,1915447,226,Trabzonspor,False,427,353,13,2,9,17,13
-Super_Lig,1915449,154,Samsunspor,True,719,626,7,0,6,12,10
-Super_Lig,1915449,2719,Fatih Karagumruk,False,384,298,12,0,9,12,14
-Super_Lig,1915451,227,Antalyaspor,True,343,241,11,0,11,8,6
-Super_Lig,1915451,2200,Kayserispor,False,387,281,15,1,10,13,4
-Super_Lig,1915559,254,Goztepe,True,278,179,16,2,9,24,11
-Super_Lig,1915559,2719,Fatih Karagumruk,False,486,395,11,0,7,11,6
-Super_Lig,1915324,2006,Konyaspor,True,440,340,14,1,10,9,10
-Super_Lig,1915324,294,Galatasaray,False,483,387,13,3,10,23,12
-Super_Lig,1915288,133,Besiktas,True,252,178,9,2,6,16,5
-Super_Lig,1915288,2006,Konyaspor,False,630,520,22,0,18,13,4
-Super_Lig,1915291,2201,Istanbul Basaksehir,True,458,369,15,0,9,29,5
-Super_Lig,1915291,750,Rizespor,False,412,318,14,0,8,16,5
+Super_Lig,1915449,154,Samsunspor,False,719,626,7,0,6,12,10
+Super_Lig,1915449,2719,Fatih Karagumruk,True,384,298,12,0,9,12,14
+Super_Lig,1915451,227,Antalyaspor,False,343,241,11,0,11,8,6
+Super_Lig,1915451,2200,Kayserispor,True,387,281,15,1,10,13,4
+Super_Lig,1915559,254,Goztepe,False,278,179,16,2,9,24,11
+Super_Lig,1915559,2719,Fatih Karagumruk,True,486,395,11,0,7,11,6
+Super_Lig,1915324,2006,Konyaspor,False,440,340,14,1,10,9,10
+Super_Lig,1915324,294,Galatasaray,True,483,387,13,3,10,23,12
+Super_Lig,1915288,133,Besiktas,False,252,178,9,2,6,16,5
+Super_Lig,1915288,2006,Konyaspor,True,630,520,22,0,18,13,4
+Super_Lig,1915291,2201,Istanbul Basaksehir,False,458,369,15,0,9,29,5
+Super_Lig,1915291,750,Rizespor,True,412,318,14,0,8,16,5
 Super_Lig,1915392,3476,Eyupspor,True,485,393,12,1,8,24,13
 Super_Lig,1915392,2719,Fatih Karagumruk,False,419,322,9,1,8,18,17
-Super_Lig,1915395,156,Genclerbirligi,True,266,189,11,2,8,17,9
-Super_Lig,1915395,294,Galatasaray,False,672,588,28,3,20,13,2
-Super_Lig,1915399,2319,Gaziantep FK,True,355,279,6,3,5,9,6
-Super_Lig,1915399,2200,Kayserispor,False,472,395,15,0,11,14,11
-Super_Lig,1915393,2201,Istanbul Basaksehir,True,544,472,17,4,14,15,5
-Super_Lig,1915393,2319,Gaziantep FK,False,399,338,15,2,14,16,4
+Super_Lig,1915395,156,Genclerbirligi,False,266,189,11,2,8,17,9
+Super_Lig,1915395,294,Galatasaray,True,672,588,28,3,20,13,2
+Super_Lig,1915399,2319,Gaziantep FK,False,355,279,6,3,5,9,6
+Super_Lig,1915399,2200,Kayserispor,True,472,395,15,0,11,14,11
+Super_Lig,1915393,2201,Istanbul Basaksehir,True,544,472,17,5,14,15,5
+Super_Lig,1915393,2319,Gaziantep FK,False,399,338,15,1,14,16,4
 Super_Lig,1915412,156,Genclerbirligi,True,305,216,18,4,15,12,8
 Super_Lig,1915412,226,Trabzonspor,False,502,422,14,3,12,18,4
 Super_Lig,1915368,226,Trabzonspor,True,547,476,15,2,12,11,8
 Super_Lig,1915368,3475,Kasimpasa,False,410,330,6,1,6,18,4
-Super_Lig,1915445,3475,Kasimpasa,True,293,187,5,1,4,25,8
-Super_Lig,1915445,223,Fenerbahce,False,622,522,21,1,15,15,7
-Super_Lig,1915553,224,Kocaelispor,True,326,251,7,1,3,8,9
-Super_Lig,1915553,223,Fenerbahce,False,432,350,21,3,17,25,3
+Super_Lig,1915445,3475,Kasimpasa,False,293,187,5,1,4,25,8
+Super_Lig,1915445,223,Fenerbahce,True,622,522,21,1,15,15,7
+Super_Lig,1915553,224,Kocaelispor,False,326,251,7,1,3,8,9
+Super_Lig,1915553,223,Fenerbahce,True,432,350,21,3,17,25,3
 Super_Lig,1915556,2319,Gaziantep FK,True,554,472,25,2,18,14,3
 Super_Lig,1915556,156,Genclerbirligi,False,229,158,7,1,4,12,8
 Super_Lig,1915386,3473,Alanyaspor,True,646,549,17,1,12,16,7
@@ -469,54 +469,54 @@ Super_Lig,1915390,133,Besiktas,True,575,466,14,1,11,10,8
 Super_Lig,1915390,154,Samsunspor,False,361,265,14,1,11,20,10
 Super_Lig,1915397,254,Goztepe,True,293,191,8,0,7,21,12
 Super_Lig,1915397,224,Kocaelispor,False,408,290,10,0,8,18,6
-Super_Lig,1915404,223,Fenerbahce,True,496,433,28,5,20,15,4
-Super_Lig,1915404,750,Rizespor,False,347,261,6,2,3,19,5
+Super_Lig,1915404,223,Fenerbahce,False,496,433,28,5,20,15,4
+Super_Lig,1915404,750,Rizespor,True,347,261,6,2,3,19,5
 Super_Lig,1915356,2719,Fatih Karagumruk,True,388,301,10,1,6,14,11
 Super_Lig,1915356,294,Galatasaray,False,661,581,11,3,11,22,8
-Super_Lig,1915359,2200,Kayserispor,True,385,296,8,1,7,10,12
-Super_Lig,1915359,2201,Istanbul Basaksehir,False,468,394,13,2,10,6,11
-Super_Lig,1915365,224,Kocaelispor,True,336,250,7,0,6,15,16
-Super_Lig,1915365,154,Samsunspor,False,588,479,16,0,9,18,4
+Super_Lig,1915359,2200,Kayserispor,True,385,296,8,0,7,10,12
+Super_Lig,1915359,2201,Istanbul Basaksehir,False,468,394,13,3,10,6,11
+Super_Lig,1915365,224,Kocaelispor,False,336,250,7,0,6,15,16
+Super_Lig,1915365,154,Samsunspor,True,588,479,16,0,9,18,4
 Super_Lig,1915456,2201,Istanbul Basaksehir,True,629,563,14,4,11,6,1
 Super_Lig,1915456,3475,Kasimpasa,False,300,225,5,0,5,13,3
-Super_Lig,1915299,227,Antalyaspor,True,457,361,7,0,7,15,7
-Super_Lig,1915299,226,Trabzonspor,False,449,365,17,1,9,10,5
-Super_Lig,1915561,294,Galatasaray,True,570,490,19,4,16,11,4
-Super_Lig,1915561,2200,Kayserispor,False,310,212,8,0,6,12,6
-Super_Lig,1915279,133,Besiktas,True,442,346,13,4,11,10,16
-Super_Lig,1915279,2200,Kayserispor,False,450,342,6,0,6,15,9
-Super_Lig,1915326,2200,Kayserispor,True,459,336,13,2,10,23,13
-Super_Lig,1915326,2719,Fatih Karagumruk,False,403,302,10,2,5,21,8
+Super_Lig,1915299,227,Antalyaspor,False,457,361,7,0,7,15,7
+Super_Lig,1915299,226,Trabzonspor,True,449,365,17,1,9,10,5
+Super_Lig,1915561,294,Galatasaray,False,570,490,19,4,16,11,4
+Super_Lig,1915561,2200,Kayserispor,True,310,212,8,0,6,12,6
+Super_Lig,1915279,133,Besiktas,False,442,346,13,4,11,10,16
+Super_Lig,1915279,2200,Kayserispor,True,450,342,6,0,6,15,9
+Super_Lig,1915326,2200,Kayserispor,False,459,336,13,2,10,23,13
+Super_Lig,1915326,2719,Fatih Karagumruk,True,403,302,10,2,5,21,8
 Super_Lig,1915388,2201,Istanbul Basaksehir,True,271,193,9,3,6,19,10
 Super_Lig,1915388,226,Trabzonspor,False,477,407,22,4,16,13,7
 Super_Lig,1915402,2006,Konyaspor,True,511,411,12,0,10,18,11
 Super_Lig,1915402,227,Antalyaspor,False,360,263,4,0,4,12,5
 Super_Lig,1915340,227,Antalyaspor,True,332,228,11,2,7,14,10
 Super_Lig,1915340,156,Genclerbirligi,False,356,266,12,1,9,15,7
-Super_Lig,1915350,254,Goztepe,True,175,101,14,1,8,19,16
-Super_Lig,1915350,223,Fenerbahce,False,773,669,21,1,18,18,1
-Super_Lig,1915353,2006,Konyaspor,True,454,375,11,1,8,20,15
-Super_Lig,1915353,2319,Gaziantep FK,False,332,239,15,1,10,15,13
+Super_Lig,1915350,254,Goztepe,False,175,101,14,1,8,19,16
+Super_Lig,1915350,223,Fenerbahce,True,773,669,21,1,18,18,1
+Super_Lig,1915353,2006,Konyaspor,False,454,375,11,1,8,20,15
+Super_Lig,1915353,2319,Gaziantep FK,True,332,239,15,1,10,15,13
 Super_Lig,1915362,750,Rizespor,True,281,217,6,1,4,9,10
 Super_Lig,1915362,3473,Alanyaspor,False,477,412,23,1,15,9,6
 Super_Lig,1915460,3476,Eyupspor,True,486,409,14,3,10,15,9
 Super_Lig,1915460,2319,Gaziantep FK,False,454,384,11,0,7,24,15
-Super_Lig,1915468,227,Antalyaspor,True,544,440,19,0,13,14,9
-Super_Lig,1915468,254,Goztepe,False,207,115,16,2,10,20,6
-Super_Lig,1915471,750,Rizespor,True,376,298,12,0,8,11,2
-Super_Lig,1915471,2200,Kayserispor,False,291,202,17,2,14,18,5
+Super_Lig,1915468,227,Antalyaspor,False,544,440,19,0,13,14,9
+Super_Lig,1915468,254,Goztepe,True,207,115,16,2,10,20,6
+Super_Lig,1915471,750,Rizespor,False,376,298,12,0,8,11,2
+Super_Lig,1915471,2200,Kayserispor,True,291,202,17,2,14,18,5
 Super_Lig,1915550,3476,Eyupspor,True,394,324,5,2,5,14,6
 Super_Lig,1915550,3473,Alanyaspor,False,521,428,12,1,9,12,4
 Super_Lig,1915335,226,Trabzonspor,True,502,431,14,2,13,14,5
 Super_Lig,1915335,3476,Eyupspor,False,387,313,10,0,8,18,5
 Super_Lig,1915576,224,Kocaelispor,True,449,359,14,2,10,16,14
 Super_Lig,1915576,3473,Alanyaspor,False,413,328,9,0,5,16,9
-Super_Lig,1915347,133,Besiktas,True,547,429,17,2,7,19,14
-Super_Lig,1915347,3476,Eyupspor,False,356,259,15,2,11,15,14
-Super_Lig,1915463,223,Fenerbahce,True,299,220,5,0,3,13,9
-Super_Lig,1915463,294,Galatasaray,False,495,419,21,3,18,19,7
-Super_Lig,1915465,224,Kocaelispor,True,500,404,7,0,4,10,3
-Super_Lig,1915465,156,Genclerbirligi,False,285,196,8,1,3,16,4
+Super_Lig,1915347,133,Besiktas,False,547,429,17,2,7,19,14
+Super_Lig,1915347,3476,Eyupspor,True,356,259,15,2,11,15,14
+Super_Lig,1915463,223,Fenerbahce,False,299,220,5,0,3,13,9
+Super_Lig,1915463,294,Galatasaray,True,495,419,21,3,18,19,7
+Super_Lig,1915465,224,Kocaelispor,False,500,404,7,0,4,10,3
+Super_Lig,1915465,156,Genclerbirligi,True,285,196,8,1,3,16,4
 Super_Lig,1915313,3473,Alanyaspor,True,505,399,22,0,15,8,7
 Super_Lig,1915313,294,Galatasaray,False,575,498,7,1,6,11,11
 Super_Lig,1915323,156,Genclerbirligi,True,434,354,15,1,9,17,7
@@ -527,76 +527,76 @@ Super_Lig,1915573,227,Antalyaspor,True,331,261,10,0,5,18,5
 Super_Lig,1915573,2201,Istanbul Basaksehir,False,620,564,19,4,15,7,5
 Super_Lig,1915574,294,Galatasaray,True,651,560,27,3,20,12,8
 Super_Lig,1915574,254,Goztepe,False,182,88,5,1,4,17,11
-Super_Lig,1915459,2006,Konyaspor,True,389,283,11,0,7,12,9
-Super_Lig,1915459,2201,Istanbul Basaksehir,False,449,342,12,2,8,13,4
-Super_Lig,1915481,2719,Fatih Karagumruk,True,456,380,11,1,10,10,17
-Super_Lig,1915481,226,Trabzonspor,False,774,684,13,3,11,10,13
-Super_Lig,1915454,154,Samsunspor,True,458,375,12,3,9,23,6
-Super_Lig,1915454,3473,Alanyaspor,False,438,363,17,2,13,11,3
-Super_Lig,1915458,2719,Fatih Karagumruk,True,311,238,12,0,10,15,14
-Super_Lig,1915458,133,Besiktas,False,730,641,20,0,15,9,4
-Super_Lig,1915473,226,Trabzonspor,True,543,469,23,1,19,13,5
-Super_Lig,1915473,2006,Konyaspor,False,309,231,12,2,8,15,10
-Super_Lig,1915318,254,Goztepe,True,319,218,16,0,8,17,12
-Super_Lig,1915318,3476,Eyupspor,False,434,316,6,0,5,18,12
+Super_Lig,1915459,2006,Konyaspor,False,389,283,11,0,7,12,9
+Super_Lig,1915459,2201,Istanbul Basaksehir,True,449,342,12,2,8,13,4
+Super_Lig,1915481,2719,Fatih Karagumruk,False,456,380,11,1,10,10,17
+Super_Lig,1915481,226,Trabzonspor,True,774,684,13,3,11,10,13
+Super_Lig,1915454,154,Samsunspor,False,458,375,12,3,9,23,6
+Super_Lig,1915454,3473,Alanyaspor,True,438,363,17,2,13,11,3
+Super_Lig,1915458,2719,Fatih Karagumruk,False,311,238,12,0,10,15,14
+Super_Lig,1915458,133,Besiktas,True,730,641,20,0,15,9,4
+Super_Lig,1915473,226,Trabzonspor,False,543,469,23,1,19,13,5
+Super_Lig,1915473,2006,Konyaspor,True,309,231,12,2,8,15,10
+Super_Lig,1915318,254,Goztepe,False,319,218,16,0,8,17,12
+Super_Lig,1915318,3476,Eyupspor,True,434,316,6,0,5,18,12
 Super_Lig,1915541,2319,Gaziantep FK,True,571,490,30,2,24,12,6
 Super_Lig,1915541,154,Samsunspor,False,249,161,9,2,6,21,9
 Super_Lig,1915542,2719,Fatih Karagumruk,True,381,273,13,3,10,21,12
 Super_Lig,1915542,226,Trabzonspor,False,483,392,22,4,18,11,7
-Super_Lig,1915332,750,Rizespor,True,406,330,8,1,7,17,6
-Super_Lig,1915332,154,Samsunspor,False,503,421,27,1,22,16,6
+Super_Lig,1915332,750,Rizespor,False,406,330,8,1,7,17,6
+Super_Lig,1915332,154,Samsunspor,True,503,421,27,1,22,16,6
 Super_Lig,1915575,2319,Gaziantep FK,True,468,384,8,0,5,12,5
 Super_Lig,1915575,223,Fenerbahce,False,336,251,20,4,10,31,10
 Super_Lig,1915461,294,Galatasaray,True,597,525,14,3,10,14,8
 Super_Lig,1915461,3473,Alanyaspor,False,414,354,11,1,9,11,11
-Super_Lig,1915466,3476,Eyupspor,True,370,256,6,0,2,26,10
-Super_Lig,1915466,254,Goztepe,False,347,217,12,0,8,23,10
-Super_Lig,1915467,750,Rizespor,True,414,322,14,3,10,14,14
-Super_Lig,1915467,3475,Kasimpasa,False,457,351,13,0,11,16,9
+Super_Lig,1915466,3476,Eyupspor,False,370,256,6,0,2,26,10
+Super_Lig,1915466,254,Goztepe,True,347,217,12,0,8,23,10
+Super_Lig,1915467,750,Rizespor,False,414,322,14,3,10,14,14
+Super_Lig,1915467,3475,Kasimpasa,True,457,351,13,0,11,16,9
 Super_Lig,1915470,224,Kocaelispor,True,462,363,10,0,4,13,12
 Super_Lig,1915470,133,Besiktas,False,458,352,11,1,7,24,8
 Super_Lig,1915320,223,Fenerbahce,True,622,550,19,2,13,24,15
 Super_Lig,1915320,227,Antalyaspor,False,320,244,4,0,4,16,3
 Super_Lig,1915544,2200,Kayserispor,True,511,407,23,1,17,11,4
 Super_Lig,1915544,156,Genclerbirligi,False,202,127,2,1,2,10,7
-Super_Lig,1915546,2006,Konyaspor,True,260,194,13,1,12,13,13
-Super_Lig,1915546,2201,Istanbul Basaksehir,False,598,506,18,2,15,13,5
+Super_Lig,1915546,2006,Konyaspor,True,260,194,13,2,12,13,13
+Super_Lig,1915546,2201,Istanbul Basaksehir,False,598,506,18,1,15,13,5
 Super_Lig,1915548,750,Rizespor,True,538,436,13,1,12,14,3
 Super_Lig,1915548,3475,Kasimpasa,False,325,214,8,2,7,27,12
-Super_Lig,1915578,156,Genclerbirligi,True,471,407,5,0,5,15,11
-Super_Lig,1915578,224,Kocaelispor,False,530,447,15,1,11,10,8
-Super_Lig,1915314,2006,Konyaspor,True,514,413,10,1,9,22,5
-Super_Lig,1915314,254,Goztepe,False,276,192,18,1,13,15,12
-Super_Lig,1915315,133,Besiktas,True,377,279,13,2,9,22,11
-Super_Lig,1915315,224,Kocaelispor,False,515,415,8,2,4,8,7
+Super_Lig,1915578,156,Genclerbirligi,False,471,407,5,0,5,15,11
+Super_Lig,1915578,224,Kocaelispor,True,530,447,15,1,11,10,8
+Super_Lig,1915314,2006,Konyaspor,False,514,413,10,1,9,22,5
+Super_Lig,1915314,254,Goztepe,True,276,192,18,1,13,15,12
+Super_Lig,1915315,133,Besiktas,True,377,279,13,3,9,22,11
+Super_Lig,1915315,224,Kocaelispor,False,515,415,8,1,4,8,7
 Super_Lig,1915327,2319,Gaziantep FK,True,449,357,13,1,11,14,14
 Super_Lig,1915327,3476,Eyupspor,False,310,225,17,2,11,29,7
-Super_Lig,1915333,2201,Istanbul Basaksehir,True,393,310,11,3,6,15,4
-Super_Lig,1915333,3475,Kasimpasa,False,413,300,16,1,11,13,3
+Super_Lig,1915333,2201,Istanbul Basaksehir,False,393,310,11,3,6,15,4
+Super_Lig,1915333,3475,Kasimpasa,True,413,300,16,1,11,13,3
 Super_Lig,1915336,750,Rizespor,True,575,470,16,0,11,12,8
 Super_Lig,1915336,2200,Kayserispor,False,399,306,10,1,9,17,11
-Super_Lig,1915342,2006,Konyaspor,True,430,344,16,0,11,26,8
-Super_Lig,1915342,226,Trabzonspor,False,481,409,20,4,13,14,6
+Super_Lig,1915342,2006,Konyaspor,False,430,344,16,1,11,26,8
+Super_Lig,1915342,226,Trabzonspor,True,481,409,20,3,13,14,6
 Super_Lig,1915374,227,Antalyaspor,True,238,168,4,1,3,17,15
 Super_Lig,1915374,226,Trabzonspor,False,507,433,14,1,11,22,11
 Super_Lig,1915398,3475,Kasimpasa,True,509,420,11,0,8,7,5
 Super_Lig,1915398,154,Samsunspor,False,470,405,8,1,6,6,9
 Super_Lig,1915303,227,Antalyaspor,True,412,323,8,1,7,15,6
 Super_Lig,1915303,2719,Fatih Karagumruk,False,434,355,17,2,14,10,11
-Super_Lig,1915308,750,Rizespor,True,323,244,9,1,5,20,6
-Super_Lig,1915308,294,Galatasaray,False,574,488,16,3,11,24,6
+Super_Lig,1915308,750,Rizespor,False,323,244,9,1,5,20,6
+Super_Lig,1915308,294,Galatasaray,True,574,488,16,3,11,24,6
 Super_Lig,1915317,3475,Kasimpasa,True,505,416,20,2,13,12,9
 Super_Lig,1915317,2319,Gaziantep FK,False,329,231,9,3,8,16,3
 Super_Lig,1915319,224,Kocaelispor,True,371,266,10,1,7,11,5
 Super_Lig,1915319,2200,Kayserispor,False,468,367,12,1,8,14,7
-Super_Lig,1915330,133,Besiktas,True,499,407,27,2,23,19,18
-Super_Lig,1915330,2719,Fatih Karagumruk,False,311,223,7,0,6,8,7
-Super_Lig,1915406,254,Goztepe,True,358,229,16,2,12,9,7
-Super_Lig,1915406,227,Antalyaspor,False,352,244,8,1,7,26,7
+Super_Lig,1915330,133,Besiktas,False,499,407,27,2,23,19,18
+Super_Lig,1915330,2719,Fatih Karagumruk,True,311,223,7,0,6,8,7
+Super_Lig,1915406,254,Goztepe,False,358,229,16,2,12,9,7
+Super_Lig,1915406,227,Antalyaspor,True,352,244,8,1,7,26,7
 Super_Lig,1915371,3473,Alanyaspor,True,413,334,17,1,13,9,10
 Super_Lig,1915371,3476,Eyupspor,False,559,485,13,3,12,12,9
-Super_Lig,1915377,750,Rizespor,True,409,329,13,2,9,13,11
-Super_Lig,1915377,2201,Istanbul Basaksehir,False,535,456,10,2,7,11,8
+Super_Lig,1915377,750,Rizespor,False,409,329,13,2,9,13,11
+Super_Lig,1915377,2201,Istanbul Basaksehir,True,535,456,10,2,7,11,8
 Super_Lig,1915385,133,Besiktas,True,486,386,22,2,13,16,9
 Super_Lig,1915385,2006,Konyaspor,False,331,237,9,1,7,10,11
 Super_Lig,1915396,254,Goztepe,True,337,235,19,2,14,12,6
@@ -605,9 +605,9 @@ Super_Lig,1915301,3473,Alanyaspor,True,363,287,9,2,7,12,10
 Super_Lig,1915301,133,Besiktas,False,613,527,15,0,13,15,14
 Super_Lig,1915305,2201,Istanbul Basaksehir,True,425,338,10,0,7,15,5
 Super_Lig,1915305,3476,Eyupspor,False,406,339,12,0,9,6,5
-Super_Lig,1915311,156,Genclerbirligi,True,390,326,10,2,6,5,8
-Super_Lig,1915311,223,Fenerbahce,False,616,534,13,2,11,16,7
+Super_Lig,1915311,156,Genclerbirligi,True,390,326,10,1,6,5,8
+Super_Lig,1915311,223,Fenerbahce,False,616,534,13,3,11,16,7
 Super_Lig,1915321,226,Trabzonspor,True,474,396,9,1,6,17,1
 Super_Lig,1915321,154,Samsunspor,False,384,307,13,1,10,19,6
-Super_Lig,1915341,224,Kocaelispor,True,351,276,11,0,10,17,2
-Super_Lig,1915341,2201,Istanbul Basaksehir,False,480,409,16,1,9,11,11
+Super_Lig,1915341,224,Kocaelispor,False,351,276,11,0,10,17,2
+Super_Lig,1915341,2201,Istanbul Basaksehir,True,480,409,16,1,9,11,11

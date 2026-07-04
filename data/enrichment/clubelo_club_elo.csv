@@ -1,0 +1,191 @@
+league,club,country_code,level,elo,snapshot_date,fetched_at,source
+Serie_A,Inter,ITA,1,1926.47961426,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Napoli,ITA,1,1828.88757324,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Juventus,ITA,1,1819.40539551,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Milan,ITA,1,1816.54406738,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Atalanta,ITA,1,1816.09460449,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Roma,ITA,1,1809.36682129,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Lazio,ITA,1,1739.46899414,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Bologna,ITA,1,1734.66015625,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Como,ITA,1,1723.64111328,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Fiorentina,ITA,1,1657.67797852,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Torino,ITA,1,1649.96887207,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Genoa,ITA,1,1633.93066406,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Udinese,ITA,1,1618.97705078,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Sassuolo,ITA,1,1615.45007324,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Parma,ITA,1,1601.89465332,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Cagliari,ITA,1,1593.71362305,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Cremonese,ITA,1,1577.35351562,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Verona,ITA,1,1568.21862793,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Lecce,ITA,1,1559.77490234,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Serie_A,Pisa,ITA,1,1530.50500488,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Arsenal,ENG,1,2052.35058594,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Man City,ENG,1,1982.90136719,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Liverpool,ENG,1,1940.71777344,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Aston Villa,ENG,1,1923.92321777,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Chelsea,ENG,1,1882.60693359,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Newcastle,ENG,1,1876.20507812,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Brentford,ENG,1,1841.53430176,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Brighton,ENG,1,1838.91809082,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Man United,ENG,1,1824.42858887,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Fulham,ENG,1,1809.49279785,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Tottenham,ENG,1,1803.93261719,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Crystal Palace,ENG,1,1799.60217285,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Bournemouth,ENG,1,1799.17553711,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Everton,ENG,1,1796.4831543,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Forest,ENG,1,1767.03259277,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Leeds,ENG,1,1751.14916992,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,West Ham,ENG,1,1699.84399414,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Burnley,ENG,1,1687.70825195,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Sunderland,ENG,1,1680.29211426,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Premier_League,Wolves,ENG,1,1666.98193359,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Barcelona,ESP,1,1949.32958984,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Real Madrid,ESP,1,1916.71838379,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Atletico,ESP,1,1870.58642578,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Villarreal,ESP,1,1777.80822754,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Betis,ESP,1,1751.81640625,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Bilbao,ESP,1,1710.68200684,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Celta,ESP,1,1708.39294434,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Espanyol,ESP,1,1677.43798828,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Sociedad,ESP,1,1651.88317871,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Osasuna,ESP,1,1651.50708008,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Rayo Vallecano,ESP,1,1640.06970215,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Valencia,ESP,1,1634.76416016,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Mallorca,ESP,1,1617.79968262,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Girona,ESP,1,1613.44250488,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Elche,ESP,1,1610.79699707,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Sevilla,ESP,1,1608.20361328,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Alaves,ESP,1,1607.42871094,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Getafe,ESP,1,1606.20336914,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Levante,ESP,1,1590.41723633,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+La_Liga,Oviedo,ESP,1,1550.79650879,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Bayern,GER,1,1996.34960938,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Dortmund,GER,1,1858.96459961,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Leverkusen,GER,1,1836.62121582,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Stuttgart,GER,1,1763.90783691,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,RB Leipzig,GER,1,1760.5579834,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Frankfurt,GER,1,1729.96228027,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Freiburg,GER,1,1726.53820801,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Hoffenheim,GER,1,1690.6229248,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Werder,GER,1,1661.1607666,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Gladbach,GER,1,1656.04382324,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Mainz,GER,1,1653.68530273,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Union Berlin,GER,1,1648.53833008,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Wolfsburg,GER,1,1639.75415039,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Augsburg,GER,1,1606.23059082,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Koeln,GER,1,1584.99169922,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Hamburg,GER,1,1579.8034668,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,St Pauli,GER,1,1567.62573242,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Bundesliga,Heidenheim,GER,1,1551.87487793,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Paris SG,FRA,1,1968.61633301,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Lens,FRA,1,1766.29040527,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Marseille,FRA,1,1764.95349121,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Lyon,FRA,1,1752.10424805,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Lille,FRA,1,1744.03051758,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Rennes,FRA,1,1707.56188965,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Monaco,FRA,1,1701.26806641,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Strasbourg,FRA,1,1699.10693359,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Brest,FRA,1,1662.82141113,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Toulouse,FRA,1,1654.83496094,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Nice,FRA,1,1602.31689453,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Lorient,FRA,1,1600.32678223,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Angers,FRA,1,1574.65002441,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Auxerre,FRA,1,1573.51574707,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Nantes,FRA,1,1564.40380859,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Le Havre,FRA,1,1564.09130859,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Metz,FRA,1,1545.94519043,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Ligue_1,Paris FC,FRA,1,1538.29296875,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Ipswich,ENG,2,1621.49938965,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Coventry,ENG,2,1606.5604248,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Middlesbrough,ENG,2,1564.43908691,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Sheffield United,ENG,2,1563.8972168,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Leicester,ENG,2,1562.34179688,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Preston,ENG,2,1539.23327637,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Watford,ENG,2,1537.58654785,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Bristol City,ENG,2,1532.92944336,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Southampton,ENG,2,1530.35192871,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Millwall,ENG,2,1528.94641113,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Hull,ENG,2,1527.57373047,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Stoke,ENG,2,1524.30383301,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Wrexham,ENG,2,1512.74243164,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,QPR,ENG,2,1504.94848633,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,West Brom,ENG,2,1495.15783691,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Swansea,ENG,2,1492.60998535,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Derby,ENG,2,1492.4083252,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Blackburn,ENG,2,1485.53796387,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Birmingham,ENG,2,1467.80688477,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Norwich,ENG,2,1462.2265625,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Portsmouth,ENG,2,1450.12780762,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Charlton,ENG,2,1447.28820801,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Oxford,ENG,2,1436.62145996,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Championship,Sheffield Weds,ENG,2,1381.8572998,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Sporting,POR,1,1821.43566895,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Benfica,POR,1,1807.31542969,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Porto,POR,1,1776.61352539,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Braga,POR,1,1672.9810791,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Guimaraes,POR,1,1558.51293945,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Famalicao,POR,1,1533.05029297,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Gil Vicente,POR,1,1505.74255371,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Moreirense,POR,1,1504.05517578,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Estoril,POR,1,1489.82861328,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Rio Ave,POR,1,1467.39477539,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Santa Clara,POR,1,1466.49963379,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Arouca,POR,1,1430.8001709,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Casa Pia,POR,1,1425.62988281,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Estrela Amadora,POR,1,1422.3840332,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Nacional,POR,1,1419.8939209,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Alverca,POR,1,1409.24890137,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,Tondela,POR,1,1371.34643555,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Primeira_Liga,AVS Futebol,POR,1,1307.43383789,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,PSV,NED,1,1807.53601074,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Feyenoord,NED,1,1618.62084961,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Ajax,NED,1,1603.22009277,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Alkmaar,NED,1,1562.84875488,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Twente,NED,1,1538.77331543,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Utrecht,NED,1,1520.79321289,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Nijmegen,NED,1,1516.74389648,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Heerenveen,NED,1,1454.88452148,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Go Ahead Eagles,NED,1,1444.50915527,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Sparta Rotterdam,NED,1,1442.28833008,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Groningen,NED,1,1421.38793945,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Zwolle,NED,1,1410.74414062,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Sittard,NED,1,1403.77075195,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Heracles,NED,1,1354.54284668,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Telstar,NED,1,1333.4050293,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Excelsior,NED,1,1332.22033691,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Breda,NED,1,1320.17687988,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Eredivisie,Volendam,NED,1,1317.81616211,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Brugge,BEL,1,1716.35644531,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,St Gillis,BEL,1,1699.25744629,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Genk,BEL,1,1575.73095703,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Anderlecht,BEL,1,1563.14587402,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Antwerp,BEL,1,1530.76013184,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,St Truiden,BEL,1,1516.98608398,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Mechelen,BEL,1,1494.0604248,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Charleroi,BEL,1,1493.83447266,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Gent,BEL,1,1477.54553223,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Westerlo,BEL,1,1467.3079834,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Standard,BEL,1,1440.10644531,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Cercle Brugge,BEL,1,1429.97241211,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Leuven,BEL,1,1413.09655762,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Zulte Waregem,BEL,1,1381.09643555,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,Dender,BEL,1,1367.92407227,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Belgium_Pro_League,RAAL,BEL,1,1351.40124512,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Galatasaray,TUR,1,1718.75927734,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Fenerbahce,TUR,1,1702.97949219,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Trabzonspor,TUR,1,1515.1451416,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Besiktas,TUR,1,1503.39880371,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Bueyueksehir,TUR,1,1481.52307129,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Goeztepe,TUR,1,1463.14086914,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Samsunspor,TUR,1,1443.88000488,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Alanyaspor,TUR,1,1419.68188477,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Gaziantep FK,TUR,1,1386.63293457,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Kasimpasa,TUR,1,1386.41772461,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Rizespor,TUR,1,1385.88464355,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Kocaelispor,TUR,1,1368.64111328,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Konyaspor,TUR,1,1365.9576416,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Kayseri,TUR,1,1360.8293457,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Genclerbirligi,TUR,1,1348.91699219,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Eyupspor,TUR,1,1335.84716797,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Antalyaspor,TUR,1,1326.67504883,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror
+Super_Lig,Fatih Karaguemruek,TUR,1,1282.46044922,2026-01-14,2026-07-04T09:46:43+00:00,github.com/tonyelhabr/club-rankings mirror

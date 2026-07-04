@@ -1,90 +1,90 @@
 league,match_id,team_id,team_name,is_home,total_passes,accurate_passes,total_shots,goals,key_passes,tackles,interceptions
 Primeira_Liga,1915720,296,Sporting,True,598,491,16,2,11,13,4
 Primeira_Liga,1915720,936,Nacional,False,367,280,5,1,4,20,14
-Primeira_Liga,1915729,935,Famalicao,True,387,313,4,0,2,18,10
-Primeira_Liga,1915729,290,Gil Vicente,False,498,445,17,5,11,15,7
-Primeira_Liga,1915730,299,Benfica,True,675,547,24,0,19,14,6
-Primeira_Liga,1915730,8071,Tondela,False,214,134,6,0,3,25,9
-Primeira_Liga,1915758,935,Famalicao,True,449,339,10,0,9,25,19
-Primeira_Liga,1915758,121,Rio Ave,False,381,291,16,0,8,17,11
+Primeira_Liga,1915729,935,Famalicao,False,387,313,4,0,2,18,10
+Primeira_Liga,1915729,290,Gil Vicente,True,498,445,17,5,11,15,7
+Primeira_Liga,1915730,299,Benfica,False,675,547,24,0,19,14,6
+Primeira_Liga,1915730,8071,Tondela,True,214,134,6,0,3,25,9
+Primeira_Liga,1915758,935,Famalicao,False,449,339,10,0,9,25,19
+Primeira_Liga,1915758,121,Rio Ave,True,381,291,16,0,8,17,11
 Primeira_Liga,1915762,8071,Tondela,True,293,208,11,2,7,18,4
 Primeira_Liga,1915762,251,Santa Clara,False,414,318,17,2,11,13,5
 Primeira_Liga,1915774,9509,Casa Pia AC,True,324,235,7,1,5,15,5
 Primeira_Liga,1915774,108,Moreirense,False,560,471,12,1,9,15,7
-Primeira_Liga,1915675,299,Benfica,True,592,527,24,3,17,9,8
-Primeira_Liga,1915675,107,Vitoria de Guimaraes,False,305,232,10,0,10,15,10
-Primeira_Liga,1915896,28635,Estrela da Amadora,True,335,261,12,5,8,13,7
-Primeira_Liga,1915896,9509,Casa Pia AC,False,429,330,10,3,5,8,8
+Primeira_Liga,1915675,299,Benfica,False,592,527,24,3,17,9,8
+Primeira_Liga,1915675,107,Vitoria de Guimaraes,True,305,232,10,0,10,15,10
+Primeira_Liga,1915896,28635,Estrela da Amadora,False,335,261,12,5,8,13,7
+Primeira_Liga,1915896,9509,Casa Pia AC,True,429,330,10,3,5,8,8
 Primeira_Liga,1915898,121,Rio Ave,True,455,384,2,0,1,14,9
 Primeira_Liga,1915898,2188,Estoril,False,663,577,24,4,19,11,8
 Primeira_Liga,1915900,936,Nacional,True,319,234,8,0,6,15,12
 Primeira_Liga,1915900,935,Famalicao,False,415,316,20,1,14,19,9
-Primeira_Liga,1915700,5948,Arouca,True,186,125,5,2,1,7,9
-Primeira_Liga,1915700,288,Braga,False,967,896,18,2,13,6,5
+Primeira_Liga,1915700,5948,Arouca,True,186,125,5,0,1,7,9
+Primeira_Liga,1915700,288,Braga,False,967,896,18,4,13,6,5
 Primeira_Liga,1915775,290,Gil Vicente,True,295,210,19,1,13,16,9
 Primeira_Liga,1915775,296,Sporting,False,499,425,14,1,10,14,9
 Primeira_Liga,1915792,107,Vitoria de Guimaraes,True,435,348,9,2,9,15,9
 Primeira_Liga,1915792,936,Nacional,False,330,245,15,1,12,20,9
-Primeira_Liga,1915734,288,Braga,True,724,643,10,4,9,21,3
-Primeira_Liga,1915734,2343,AVS Futebol SAD,False,367,279,8,0,8,18,7
-Primeira_Liga,1915736,9509,Casa Pia AC,True,290,200,5,1,3,7,14
-Primeira_Liga,1915736,297,Porto,False,638,524,16,2,11,11,8
+Primeira_Liga,1915734,288,Braga,False,724,643,10,4,9,21,3
+Primeira_Liga,1915734,2343,AVS Futebol SAD,True,367,279,8,0,8,18,7
+Primeira_Liga,1915736,9509,Casa Pia AC,True,290,200,5,2,3,7,14
+Primeira_Liga,1915736,297,Porto,False,638,524,16,1,11,11,8
 Primeira_Liga,1915768,290,Gil Vicente,True,427,336,13,1,9,17,14
 Primeira_Liga,1915768,299,Benfica,False,444,335,10,2,6,11,6
-Primeira_Liga,1915825,2343,AVS Futebol SAD,True,245,160,19,2,11,19,15
-Primeira_Liga,1915825,936,Nacional,False,503,400,25,1,20,22,11
+Primeira_Liga,1915825,2343,AVS Futebol SAD,False,245,160,19,2,11,19,15
+Primeira_Liga,1915825,936,Nacional,True,503,400,25,1,20,22,11
 Primeira_Liga,1915826,108,Moreirense,True,606,522,14,3,10,14,12
 Primeira_Liga,1915826,28635,Estrela da Amadora,False,316,222,10,2,6,17,13
-Primeira_Liga,1915827,291,Alverca,True,381,298,10,0,5,19,2
-Primeira_Liga,1915827,297,Porto,False,481,407,13,1,10,15,8
-Primeira_Liga,1915829,299,Benfica,True,349,265,8,2,5,17,10
-Primeira_Liga,1915829,935,Famalicao,False,451,373,15,2,14,16,8
+Primeira_Liga,1915827,291,Alverca,False,381,298,10,0,5,19,2
+Primeira_Liga,1915827,297,Porto,True,481,407,13,1,10,15,8
+Primeira_Liga,1915829,299,Benfica,False,349,265,8,2,5,17,10
+Primeira_Liga,1915829,935,Famalicao,True,451,373,15,2,14,16,8
 Primeira_Liga,1915839,5948,Arouca,True,462,400,9,2,8,13,5
 Primeira_Liga,1915839,251,Santa Clara,False,455,381,11,2,10,8,4
-Primeira_Liga,1915674,288,Braga,True,720,625,10,1,9,9,13
-Primeira_Liga,1915674,297,Porto,False,325,231,9,2,9,16,11
+Primeira_Liga,1915674,288,Braga,False,720,625,10,1,9,9,13
+Primeira_Liga,1915674,297,Porto,True,325,231,9,2,9,16,11
 Primeira_Liga,1915895,2343,AVS Futebol SAD,True,432,322,15,2,13,9,4
 Primeira_Liga,1915895,8071,Tondela,False,346,255,10,2,5,25,8
 Primeira_Liga,1915897,5948,Arouca,True,613,511,11,0,9,20,13
 Primeira_Liga,1915897,108,Moreirense,False,449,345,7,2,7,17,7
-Primeira_Liga,1915772,108,Moreirense,True,570,472,12,2,7,12,5
-Primeira_Liga,1915772,2343,AVS Futebol SAD,False,396,298,9,0,8,16,5
-Primeira_Liga,1915785,2188,Estoril,True,424,348,9,1,4,15,14
-Primeira_Liga,1915785,299,Benfica,False,445,355,20,3,13,20,8
-Primeira_Liga,1915799,5948,Arouca,True,632,521,11,1,6,12,5
-Primeira_Liga,1915799,8071,Tondela,False,273,185,5,3,4,14,13
-Primeira_Liga,1915802,288,Braga,True,545,455,10,3,7,15,5
-Primeira_Liga,1915802,28635,Estrela da Amadora,False,404,304,11,3,8,12,14
+Primeira_Liga,1915772,108,Moreirense,False,570,472,12,2,7,12,5
+Primeira_Liga,1915772,2343,AVS Futebol SAD,True,396,298,9,0,8,16,5
+Primeira_Liga,1915785,2188,Estoril,False,424,348,9,1,4,15,14
+Primeira_Liga,1915785,299,Benfica,True,445,355,20,3,13,20,8
+Primeira_Liga,1915799,5948,Arouca,False,632,521,11,1,6,12,5
+Primeira_Liga,1915799,8071,Tondela,True,273,185,5,3,4,14,13
+Primeira_Liga,1915802,288,Braga,False,545,455,10,3,7,15,5
+Primeira_Liga,1915802,28635,Estrela da Amadora,True,404,304,11,3,8,12,14
 Primeira_Liga,1915871,290,Gil Vicente,True,527,443,16,3,9,14,5
 Primeira_Liga,1915871,2343,AVS Futebol SAD,False,365,286,11,0,8,23,6
-Primeira_Liga,1915875,251,Santa Clara,True,242,182,7,2,7,19,5
-Primeira_Liga,1915875,296,Sporting,False,585,517,22,4,20,20,6
+Primeira_Liga,1915875,251,Santa Clara,False,242,182,7,2,7,19,5
+Primeira_Liga,1915875,296,Sporting,True,585,517,22,4,20,20,6
 Primeira_Liga,1915879,107,Vitoria de Guimaraes,True,424,348,12,5,9,21,7
 Primeira_Liga,1915879,8071,Tondela,False,401,323,3,0,2,12,9
-Primeira_Liga,1915828,290,Gil Vicente,True,481,377,13,0,9,13,9
-Primeira_Liga,1915828,121,Rio Ave,False,391,293,18,0,16,20,6
-Primeira_Liga,1915837,8071,Tondela,True,424,343,9,1,3,11,8
-Primeira_Liga,1915837,9509,Casa Pia AC,False,397,285,4,0,3,12,8
+Primeira_Liga,1915828,290,Gil Vicente,False,481,377,13,0,9,13,9
+Primeira_Liga,1915828,121,Rio Ave,True,391,293,18,0,16,20,6
+Primeira_Liga,1915837,8071,Tondela,False,424,343,9,1,3,11,8
+Primeira_Liga,1915837,9509,Casa Pia AC,True,397,285,4,0,3,12,8
 Primeira_Liga,1915841,288,Braga,True,506,417,10,1,6,14,10
 Primeira_Liga,1915841,2188,Estoril,False,510,420,10,1,7,16,10
-Primeira_Liga,1915663,2188,Estoril,True,430,304,10,2,6,10,2
-Primeira_Liga,1915663,9509,Casa Pia AC,False,437,327,11,2,8,15,9
-Primeira_Liga,1915779,297,Porto,True,463,378,8,1,4,18,4
-Primeira_Liga,1915779,251,Santa Clara,False,361,261,12,0,7,18,6
+Primeira_Liga,1915663,2188,Estoril,False,430,304,10,2,6,10,2
+Primeira_Liga,1915663,9509,Casa Pia AC,True,437,327,11,2,8,15,9
+Primeira_Liga,1915779,297,Porto,False,463,378,8,1,4,18,4
+Primeira_Liga,1915779,251,Santa Clara,True,361,261,12,0,7,18,6
 Primeira_Liga,1915796,121,Rio Ave,True,388,295,12,3,8,12,11
 Primeira_Liga,1915796,9509,Casa Pia AC,False,358,274,15,1,11,21,4
 Primeira_Liga,1915803,291,Alverca,True,421,337,10,1,5,13,6
 Primeira_Liga,1915803,935,Famalicao,False,546,451,14,0,9,18,6
 Primeira_Liga,1915872,936,Nacional,True,351,273,16,2,11,17,3
 Primeira_Liga,1915872,28635,Estrela da Amadora,False,375,283,11,0,6,18,3
-Primeira_Liga,1915873,291,Alverca,True,450,367,14,2,12,26,10
-Primeira_Liga,1915873,121,Rio Ave,False,494,389,18,1,13,16,6
-Primeira_Liga,1915874,935,Famalicao,True,438,346,11,2,7,22,5
-Primeira_Liga,1915874,297,Porto,False,462,372,8,2,7,6,9
-Primeira_Liga,1915876,288,Braga,True,677,589,10,1,9,11,6
-Primeira_Liga,1915876,108,Moreirense,False,452,365,12,0,7,24,7
-Primeira_Liga,1915834,107,Vitoria de Guimaraes,True,490,398,13,0,10,14,13
-Primeira_Liga,1915834,296,Sporting,False,521,442,15,6,12,21,10
+Primeira_Liga,1915873,291,Alverca,False,450,367,14,2,12,26,10
+Primeira_Liga,1915873,121,Rio Ave,True,494,389,18,1,13,16,6
+Primeira_Liga,1915874,935,Famalicao,False,438,346,11,2,7,22,5
+Primeira_Liga,1915874,297,Porto,True,462,372,8,2,7,6,9
+Primeira_Liga,1915876,288,Braga,False,677,589,10,1,9,11,6
+Primeira_Liga,1915876,108,Moreirense,True,452,365,12,0,7,24,7
+Primeira_Liga,1915834,107,Vitoria de Guimaraes,False,490,398,13,1,10,14,13
+Primeira_Liga,1915834,296,Sporting,True,521,442,15,5,12,21,10
 Primeira_Liga,1915662,2343,AVS Futebol SAD,True,477,376,5,1,4,19,5
 Primeira_Liga,1915662,291,Alverca,False,480,385,12,3,8,19,12
 Primeira_Liga,1915666,290,Gil Vicente,True,356,270,15,2,10,11,10
@@ -93,170 +93,170 @@ Primeira_Liga,1915667,936,Nacional,True,409,322,17,3,10,12,5
 Primeira_Liga,1915667,108,Moreirense,False,301,226,10,2,9,8,2
 Primeira_Liga,1915668,107,Vitoria de Guimaraes,True,469,362,14,2,7,13,12
 Primeira_Liga,1915668,251,Santa Clara,False,448,352,13,1,8,17,15
-Primeira_Liga,1915664,935,Famalicao,True,409,311,14,1,11,15,5
-Primeira_Liga,1915664,5948,Arouca,False,351,269,7,1,6,15,4
+Primeira_Liga,1915664,935,Famalicao,False,409,311,14,1,11,15,5
+Primeira_Liga,1915664,5948,Arouca,True,351,269,7,1,6,15,4
 Primeira_Liga,1915665,121,Rio Ave,True,406,335,13,3,8,15,14
 Primeira_Liga,1915665,8071,Tondela,False,456,360,13,0,10,16,5
-Primeira_Liga,1915669,288,Braga,True,577,499,11,1,9,15,10
-Primeira_Liga,1915669,296,Sporting,False,458,368,13,1,10,18,12
-Primeira_Liga,1915670,299,Benfica,True,442,348,4,0,2,18,7
-Primeira_Liga,1915670,297,Porto,False,477,391,8,0,6,11,8
-Primeira_Liga,1915750,296,Sporting,True,552,476,5,1,4,19,8
-Primeira_Liga,1915750,299,Benfica,False,384,311,10,1,7,25,11
+Primeira_Liga,1915669,288,Braga,False,577,499,11,1,9,15,10
+Primeira_Liga,1915669,296,Sporting,True,458,368,13,1,10,18,12
+Primeira_Liga,1915670,299,Benfica,False,442,348,4,0,2,18,7
+Primeira_Liga,1915670,297,Porto,True,477,391,8,0,6,11,8
+Primeira_Liga,1915750,296,Sporting,False,552,476,5,1,4,19,8
+Primeira_Liga,1915750,299,Benfica,True,384,311,10,1,7,25,11
 Primeira_Liga,1915781,935,Famalicao,True,499,403,12,1,9,18,10
 Primeira_Liga,1915781,5948,Arouca,False,424,354,10,0,8,10,9
 Primeira_Liga,1915877,9509,Casa Pia AC,True,189,85,8,1,3,13,10
 Primeira_Liga,1915877,299,Benfica,False,662,553,18,1,14,15,4
 Primeira_Liga,1915878,5948,Arouca,True,450,363,12,3,7,14,13
 Primeira_Liga,1915878,2188,Estoril,False,520,424,12,2,11,10,4
-Primeira_Liga,1915624,251,Santa Clara,True,343,254,16,1,8,15,5
-Primeira_Liga,1915624,2188,Estoril,False,515,424,15,0,13,18,4
+Primeira_Liga,1915624,251,Santa Clara,False,343,254,16,1,8,15,5
+Primeira_Liga,1915624,2188,Estoril,True,515,424,15,0,13,18,4
 Primeira_Liga,1915733,2343,AVS Futebol SAD,True,266,194,9,1,5,13,4
 Primeira_Liga,1915733,121,Rio Ave,False,488,392,17,2,10,11,3
 Primeira_Liga,1915746,251,Santa Clara,True,329,237,11,1,9,9,9
 Primeira_Liga,1915746,9509,Casa Pia AC,False,421,305,5,0,1,16,7
-Primeira_Liga,1915763,288,Braga,True,515,421,22,1,18,15,6
-Primeira_Liga,1915763,935,Famalicao,False,398,308,8,2,6,13,10
+Primeira_Liga,1915763,288,Braga,False,515,421,22,2,18,15,6
+Primeira_Liga,1915763,935,Famalicao,True,398,308,8,1,6,13,10
 Primeira_Liga,1915757,108,Moreirense,True,400,310,3,1,2,16,2
 Primeira_Liga,1915757,290,Gil Vicente,False,561,469,15,2,11,19,4
-Primeira_Liga,1915760,251,Santa Clara,True,491,396,17,0,15,22,7
-Primeira_Liga,1915760,28635,Estrela da Amadora,False,400,326,12,1,9,16,16
+Primeira_Liga,1915760,251,Santa Clara,False,491,396,17,0,15,22,7
+Primeira_Liga,1915760,28635,Estrela da Amadora,True,400,326,12,1,9,16,16
 Primeira_Liga,1915764,2188,Estoril,True,719,615,15,2,11,14,7
 Primeira_Liga,1915764,8071,Tondela,False,344,251,6,2,5,22,12
 Primeira_Liga,1915767,5948,Arouca,True,429,323,10,3,8,27,11
 Primeira_Liga,1915767,107,Vitoria de Guimaraes,False,416,312,14,2,8,15,4
-Primeira_Liga,1915777,9509,Casa Pia AC,True,337,249,9,0,4,18,7
-Primeira_Liga,1915777,2188,Estoril,False,576,495,9,0,6,12,10
+Primeira_Liga,1915777,9509,Casa Pia AC,False,337,249,9,0,4,18,7
+Primeira_Liga,1915777,2188,Estoril,True,576,495,9,0,6,12,10
 Primeira_Liga,1915791,108,Moreirense,True,417,329,7,1,6,9,11
 Primeira_Liga,1915791,936,Nacional,False,487,372,20,1,12,20,7
-Primeira_Liga,1915798,296,Sporting,True,366,306,14,2,11,10,10
-Primeira_Liga,1915798,288,Braga,False,690,614,10,2,8,14,10
-Primeira_Liga,1915824,2343,AVS Futebol SAD,True,251,160,12,0,7,32,7
-Primeira_Liga,1915824,291,Alverca,False,567,453,17,0,6,11,7
-Primeira_Liga,1915694,2188,Estoril,True,455,348,19,3,17,14,14
-Primeira_Liga,1915694,5948,Arouca,False,528,424,11,4,6,14,7
+Primeira_Liga,1915798,296,Sporting,False,366,306,14,2,11,10,10
+Primeira_Liga,1915798,288,Braga,True,690,614,10,2,8,14,10
+Primeira_Liga,1915824,2343,AVS Futebol SAD,False,251,160,12,0,7,32,7
+Primeira_Liga,1915824,291,Alverca,True,567,453,17,0,6,11,7
+Primeira_Liga,1915694,2188,Estoril,True,455,348,19,4,17,14,14
+Primeira_Liga,1915694,5948,Arouca,False,528,424,11,3,6,14,7
 Primeira_Liga,1915740,2188,Estoril,True,431,346,9,3,7,15,10
 Primeira_Liga,1915740,108,Moreirense,False,545,460,8,3,7,6,10
-Primeira_Liga,1915756,5948,Arouca,True,309,224,9,1,5,16,6
-Primeira_Liga,1915756,28635,Estrela da Amadora,False,497,424,24,3,19,16,5
+Primeira_Liga,1915756,5948,Arouca,False,309,224,9,1,5,16,6
+Primeira_Liga,1915756,28635,Estrela da Amadora,True,497,424,24,3,19,16,5
 Primeira_Liga,1915759,8071,Tondela,True,249,182,11,0,8,16,11
 Primeira_Liga,1915759,297,Porto,False,698,602,11,2,6,11,3
-Primeira_Liga,1915751,9509,Casa Pia AC,True,269,175,9,0,6,22,12
-Primeira_Liga,1915751,936,Nacional,False,554,441,21,0,15,13,6
-Primeira_Liga,1915754,291,Alverca,True,310,225,6,1,6,18,12
-Primeira_Liga,1915754,299,Benfica,False,514,418,29,2,22,21,5
+Primeira_Liga,1915751,9509,Casa Pia AC,False,269,175,9,0,6,22,12
+Primeira_Liga,1915751,936,Nacional,True,554,441,21,0,15,13,6
+Primeira_Liga,1915754,291,Alverca,False,310,225,6,1,6,18,12
+Primeira_Liga,1915754,299,Benfica,True,514,418,29,2,22,21,5
 Primeira_Liga,1915773,288,Braga,True,739,654,15,3,12,20,9
 Primeira_Liga,1915773,121,Rio Ave,False,428,361,7,0,1,16,12
-Primeira_Liga,1915788,290,Gil Vicente,True,445,361,19,2,9,14,7
-Primeira_Liga,1915788,28635,Estrela da Amadora,False,400,326,9,2,4,20,10
-Primeira_Liga,1915795,251,Santa Clara,True,332,216,6,1,4,21,11
-Primeira_Liga,1915795,107,Vitoria de Guimaraes,False,506,379,15,1,5,14,5
-Primeira_Liga,1915801,297,Porto,True,343,260,14,2,11,24,17
-Primeira_Liga,1915801,299,Benfica,False,499,393,20,2,16,20,7
-Primeira_Liga,1915599,296,Sporting,True,600,515,27,2,18,12,4
-Primeira_Liga,1915599,9509,Casa Pia AC,False,297,225,7,0,6,13,7
+Primeira_Liga,1915788,290,Gil Vicente,False,445,361,19,2,9,14,7
+Primeira_Liga,1915788,28635,Estrela da Amadora,True,400,326,9,2,4,20,10
+Primeira_Liga,1915795,251,Santa Clara,True,332,216,6,2,4,21,11
+Primeira_Liga,1915795,107,Vitoria de Guimaraes,False,506,379,15,0,5,14,5
+Primeira_Liga,1915801,297,Porto,False,343,260,14,2,11,24,17
+Primeira_Liga,1915801,299,Benfica,True,499,393,20,2,16,20,7
+Primeira_Liga,1915599,296,Sporting,False,600,515,27,2,18,12,4
+Primeira_Liga,1915599,9509,Casa Pia AC,True,297,225,7,0,6,13,7
 Primeira_Liga,1915684,251,Santa Clara,True,270,179,5,1,2,25,10
 Primeira_Liga,1915684,296,Sporting,False,713,608,21,2,14,16,4
 Primeira_Liga,1915696,8071,Tondela,True,434,331,15,0,9,14,6
 Primeira_Liga,1915696,107,Vitoria de Guimaraes,False,442,354,11,1,6,10,3
-Primeira_Liga,1915753,290,Gil Vicente,True,365,278,6,0,3,8,3
-Primeira_Liga,1915753,107,Vitoria de Guimaraes,False,394,304,10,0,6,7,7
+Primeira_Liga,1915753,290,Gil Vicente,False,365,278,6,0,3,8,3
+Primeira_Liga,1915753,107,Vitoria de Guimaraes,True,394,304,10,0,6,7,7
 Primeira_Liga,1915748,935,Famalicao,True,560,459,14,3,11,14,9
 Primeira_Liga,1915748,2343,AVS Futebol SAD,False,297,206,7,1,1,14,7
-Primeira_Liga,1915770,296,Sporting,True,503,418,11,1,8,15,11
-Primeira_Liga,1915770,297,Porto,False,414,339,8,1,3,14,11
-Primeira_Liga,1915783,121,Rio Ave,True,496,415,9,1,7,15,14
-Primeira_Liga,1915783,8071,Tondela,False,453,352,6,0,6,23,9
+Primeira_Liga,1915770,296,Sporting,False,503,418,11,1,8,15,11
+Primeira_Liga,1915770,297,Porto,True,414,339,8,1,3,14,11
+Primeira_Liga,1915783,121,Rio Ave,False,496,415,9,1,7,15,14
+Primeira_Liga,1915783,8071,Tondela,True,453,352,6,0,6,23,9
 Primeira_Liga,1915602,5948,Arouca,True,503,417,9,3,7,14,5
 Primeira_Liga,1915602,2343,AVS Futebol SAD,False,433,351,15,1,11,9,10
-Primeira_Liga,1915605,290,Gil Vicente,True,236,143,12,2,7,10,7
-Primeira_Liga,1915605,936,Nacional,False,344,242,14,0,9,15,6
+Primeira_Liga,1915605,290,Gil Vicente,False,236,143,12,2,7,10,7
+Primeira_Liga,1915605,936,Nacional,True,344,242,14,0,9,15,6
 Primeira_Liga,1915677,2343,AVS Futebol SAD,True,390,295,16,1,11,12,15
 Primeira_Liga,1915677,290,Gil Vicente,False,483,378,12,1,9,18,14
-Primeira_Liga,1915679,936,Nacional,True,312,210,17,1,11,17,13
-Primeira_Liga,1915679,28635,Estrela da Amadora,False,496,384,14,1,9,12,4
-Primeira_Liga,1915682,297,Porto,True,477,392,19,1,14,15,7
-Primeira_Liga,1915682,935,Famalicao,False,405,311,8,0,3,22,11
+Primeira_Liga,1915679,936,Nacional,False,312,210,17,1,11,17,13
+Primeira_Liga,1915679,28635,Estrela da Amadora,True,496,384,14,1,9,12,4
+Primeira_Liga,1915682,297,Porto,False,477,392,19,1,14,15,7
+Primeira_Liga,1915682,935,Famalicao,True,405,311,8,0,3,22,11
 Primeira_Liga,1915687,288,Braga,True,530,441,11,2,9,23,9
 Primeira_Liga,1915687,108,Moreirense,False,480,399,11,1,9,18,6
-Primeira_Liga,1915690,299,Benfica,True,605,515,20,3,12,14,6
-Primeira_Liga,1915690,9509,Casa Pia AC,False,319,244,7,1,4,15,4
+Primeira_Liga,1915690,299,Benfica,True,605,515,20,2,12,14,6
+Primeira_Liga,1915690,9509,Casa Pia AC,False,319,244,7,2,4,15,4
 Primeira_Liga,1915886,935,Famalicao,True,575,456,18,1,12,8,2
 Primeira_Liga,1915886,108,Moreirense,False,333,249,2,1,2,20,8
 Primeira_Liga,1915848,2343,AVS Futebol SAD,True,276,187,9,3,7,22,11
 Primeira_Liga,1915848,297,Porto,False,606,504,20,1,15,8,5
 Primeira_Liga,1915851,291,Alverca,True,387,309,8,1,6,14,8
 Primeira_Liga,1915851,2188,Estoril,False,547,460,11,1,6,15,4
-Primeira_Liga,1915600,8071,Tondela,True,310,241,7,0,3,22,13
-Primeira_Liga,1915600,288,Braga,False,662,590,8,3,7,5,6
+Primeira_Liga,1915600,8071,Tondela,False,310,241,7,0,3,22,13
+Primeira_Liga,1915600,288,Braga,True,662,590,8,3,7,5,6
 Primeira_Liga,1915604,108,Moreirense,True,550,459,10,2,10,22,9
 Primeira_Liga,1915604,291,Alverca,False,405,315,7,1,4,17,9
 Primeira_Liga,1915606,935,Famalicao,True,414,332,6,3,5,19,7
 Primeira_Liga,1915606,251,Santa Clara,False,478,404,7,0,6,7,6
 Primeira_Liga,1915735,108,Moreirense,True,598,506,7,1,5,6,5
 Primeira_Liga,1915735,8071,Tondela,False,431,346,8,0,6,6,13
-Primeira_Liga,1915761,251,Santa Clara,True,464,359,22,3,9,17,4
-Primeira_Liga,1915761,936,Nacional,False,388,299,12,3,9,12,13
-Primeira_Liga,1915782,121,Rio Ave,True,379,278,4,1,4,21,14
-Primeira_Liga,1915782,251,Santa Clara,False,453,333,14,1,5,21,11
-Primeira_Liga,1915882,107,Vitoria de Guimaraes,True,474,377,14,1,8,17,6
-Primeira_Liga,1915882,2343,AVS Futebol SAD,False,316,222,17,1,10,15,7
+Primeira_Liga,1915761,251,Santa Clara,False,464,359,22,3,9,17,4
+Primeira_Liga,1915761,936,Nacional,True,388,299,12,3,9,12,13
+Primeira_Liga,1915782,121,Rio Ave,False,379,278,4,2,4,21,14
+Primeira_Liga,1915782,251,Santa Clara,True,453,333,14,0,5,21,11
+Primeira_Liga,1915882,107,Vitoria de Guimaraes,False,474,377,14,1,8,17,6
+Primeira_Liga,1915882,2343,AVS Futebol SAD,True,316,222,17,1,10,15,7
 Primeira_Liga,1915884,28635,Estrela da Amadora,True,316,241,9,0,6,15,19
 Primeira_Liga,1915884,296,Sporting,False,627,532,10,1,7,9,4
-Primeira_Liga,1915843,9509,Casa Pia AC,True,242,145,11,1,6,16,15
-Primeira_Liga,1915843,107,Vitoria de Guimaraes,False,558,454,15,0,10,17,8
+Primeira_Liga,1915843,9509,Casa Pia AC,False,242,145,11,1,6,16,15
+Primeira_Liga,1915843,107,Vitoria de Guimaraes,True,558,454,15,0,10,17,8
 Primeira_Liga,1915845,290,Gil Vicente,True,398,333,15,1,11,9,8
 Primeira_Liga,1915845,5948,Arouca,False,496,410,13,3,12,20,6
-Primeira_Liga,1915847,108,Moreirense,True,588,488,10,0,8,19,11
-Primeira_Liga,1915847,8071,Tondela,False,394,310,14,2,9,14,7
+Primeira_Liga,1915847,108,Moreirense,False,588,488,10,0,8,19,11
+Primeira_Liga,1915847,8071,Tondela,True,394,310,14,2,9,14,7
 Primeira_Liga,1915849,28635,Estrela da Amadora,True,336,239,4,0,4,17,12
 Primeira_Liga,1915849,935,Famalicao,False,534,438,15,0,10,18,6
-Primeira_Liga,1915852,296,Sporting,True,567,503,16,3,13,11,2
-Primeira_Liga,1915852,121,Rio Ave,False,325,262,13,2,9,14,5
-Primeira_Liga,1915853,936,Nacional,True,494,389,13,1,11,12,5
-Primeira_Liga,1915853,251,Santa Clara,False,340,249,12,1,8,22,8
+Primeira_Liga,1915852,296,Sporting,False,567,503,16,4,13,11,2
+Primeira_Liga,1915852,121,Rio Ave,True,325,262,13,1,9,14,5
+Primeira_Liga,1915853,936,Nacional,False,494,389,13,0,11,12,5
+Primeira_Liga,1915853,251,Santa Clara,True,340,249,12,2,8,22,8
 Primeira_Liga,1915855,299,Benfica,True,518,421,24,2,19,16,9
 Primeira_Liga,1915855,288,Braga,False,469,376,5,2,5,17,8
-Primeira_Liga,1915603,28635,Estrela da Amadora,True,299,212,9,1,7,18,9
-Primeira_Liga,1915603,2188,Estoril,False,559,457,8,1,4,15,8
-Primeira_Liga,1915607,107,Vitoria de Guimaraes,True,444,362,10,0,7,18,5
-Primeira_Liga,1915607,297,Porto,False,424,356,17,3,12,6,8
-Primeira_Liga,1915786,936,Nacional,True,369,295,7,0,7,25,6
-Primeira_Liga,1915786,299,Benfica,False,519,437,24,2,15,13,7
-Primeira_Liga,1915880,5948,Arouca,True,412,329,9,0,6,12,7
-Primeira_Liga,1915880,288,Braga,False,681,600,6,1,5,6,6
-Primeira_Liga,1915883,297,Porto,True,404,303,20,2,17,19,15
-Primeira_Liga,1915883,2188,Estoril,False,498,381,10,2,6,20,10
-Primeira_Liga,1915885,9509,Casa Pia AC,True,279,161,15,1,8,18,3
-Primeira_Liga,1915885,291,Alverca,False,427,325,11,3,7,14,7
-Primeira_Liga,1915636,8071,Tondela,True,426,327,15,1,10,21,9
-Primeira_Liga,1915636,291,Alverca,False,398,314,12,0,6,21,10
+Primeira_Liga,1915603,28635,Estrela da Amadora,False,299,212,9,1,7,18,9
+Primeira_Liga,1915603,2188,Estoril,True,559,457,8,1,4,15,8
+Primeira_Liga,1915607,107,Vitoria de Guimaraes,False,444,362,10,0,7,18,5
+Primeira_Liga,1915607,297,Porto,True,424,356,17,3,12,6,8
+Primeira_Liga,1915786,936,Nacional,False,369,295,7,0,7,25,6
+Primeira_Liga,1915786,299,Benfica,True,519,437,24,2,15,13,7
+Primeira_Liga,1915880,5948,Arouca,False,412,329,9,0,6,12,7
+Primeira_Liga,1915880,288,Braga,True,681,600,6,1,5,6,6
+Primeira_Liga,1915883,297,Porto,False,404,303,20,3,17,19,15
+Primeira_Liga,1915883,2188,Estoril,True,498,381,10,1,6,20,10
+Primeira_Liga,1915885,9509,Casa Pia AC,False,279,161,15,1,8,18,3
+Primeira_Liga,1915885,291,Alverca,True,427,325,11,3,7,14,7
+Primeira_Liga,1915636,8071,Tondela,False,426,327,15,0,10,21,9
+Primeira_Liga,1915636,291,Alverca,True,398,314,12,1,6,21,10
 Primeira_Liga,1915641,299,Benfica,True,796,692,19,1,16,17,3
 Primeira_Liga,1915641,251,Santa Clara,False,236,154,9,1,5,12,10
-Primeira_Liga,1915695,299,Benfica,True,434,329,10,1,8,20,14
-Primeira_Liga,1915695,251,Santa Clara,False,480,376,10,2,8,28,11
-Primeira_Liga,1915780,291,Alverca,True,368,286,10,1,9,19,10
-Primeira_Liga,1915780,8071,Tondela,False,538,439,18,1,12,22,13
-Primeira_Liga,1915881,290,Gil Vicente,True,417,334,14,2,9,8,10
-Primeira_Liga,1915881,8071,Tondela,False,450,350,10,2,6,20,7
-Primeira_Liga,1915638,296,Sporting,True,502,428,9,2,6,12,7
-Primeira_Liga,1915638,935,Famalicao,False,392,289,9,1,6,21,9
-Primeira_Liga,1915639,121,Rio Ave,True,449,374,15,1,13,10,5
-Primeira_Liga,1915639,108,Moreirense,False,539,454,15,3,14,19,9
+Primeira_Liga,1915695,299,Benfica,False,434,329,10,2,8,20,14
+Primeira_Liga,1915695,251,Santa Clara,True,480,376,10,1,8,28,11
+Primeira_Liga,1915780,291,Alverca,False,368,286,10,1,9,19,10
+Primeira_Liga,1915780,8071,Tondela,True,538,439,18,1,12,22,13
+Primeira_Liga,1915881,290,Gil Vicente,False,417,334,14,2,9,8,10
+Primeira_Liga,1915881,8071,Tondela,True,450,350,10,2,6,20,7
+Primeira_Liga,1915638,296,Sporting,False,502,428,9,2,6,12,7
+Primeira_Liga,1915638,935,Famalicao,True,392,289,9,1,6,21,9
+Primeira_Liga,1915639,121,Rio Ave,False,449,374,15,1,13,10,5
+Primeira_Liga,1915639,108,Moreirense,True,539,454,15,3,14,19,9
 Primeira_Liga,1915642,2188,Estoril,True,439,336,15,3,13,13,8
 Primeira_Liga,1915642,2343,AVS Futebol SAD,False,459,341,12,1,6,17,4
-Primeira_Liga,1915643,936,Nacional,True,270,161,6,0,2,23,18
-Primeira_Liga,1915643,297,Porto,False,581,472,11,1,8,20,4
-Primeira_Liga,1915697,107,Vitoria de Guimaraes,True,537,451,16,1,13,16,8
-Primeira_Liga,1915697,121,Rio Ave,False,401,332,8,0,6,17,7
-Primeira_Liga,1915766,290,Gil Vicente,True,549,437,11,1,6,8,2
-Primeira_Liga,1915766,9509,Casa Pia AC,False,274,199,3,1,3,11,14
+Primeira_Liga,1915643,936,Nacional,False,270,161,6,0,2,23,18
+Primeira_Liga,1915643,297,Porto,True,581,472,11,1,8,20,4
+Primeira_Liga,1915697,107,Vitoria de Guimaraes,False,537,451,16,1,13,16,8
+Primeira_Liga,1915697,121,Rio Ave,True,401,332,8,0,6,17,7
+Primeira_Liga,1915766,290,Gil Vicente,False,549,437,11,1,6,8,2
+Primeira_Liga,1915766,9509,Casa Pia AC,True,274,199,3,1,3,11,14
 Primeira_Liga,1915787,296,Sporting,True,576,486,24,6,13,10,7
 Primeira_Liga,1915787,2343,AVS Futebol SAD,False,286,212,7,0,6,17,10
-Primeira_Liga,1915681,9509,Casa Pia AC,True,251,162,12,4,4,14,3
-Primeira_Liga,1915681,5948,Arouca,False,563,457,8,1,6,13,12
-Primeira_Liga,1915691,288,Braga,True,453,357,11,1,9,19,9
-Primeira_Liga,1915691,290,Gil Vicente,False,461,355,15,2,12,14,6
+Primeira_Liga,1915681,9509,Casa Pia AC,True,251,162,12,3,4,14,3
+Primeira_Liga,1915681,5948,Arouca,False,563,457,8,2,6,13,12
+Primeira_Liga,1915691,288,Braga,False,453,357,11,1,9,19,9
+Primeira_Liga,1915691,290,Gil Vicente,True,461,355,15,2,12,14,6
 Primeira_Liga,1915776,107,Vitoria de Guimaraes,True,483,387,20,2,14,22,13
 Primeira_Liga,1915776,28635,Estrela da Amadora,False,415,326,6,1,4,19,13
 Primeira_Liga,1915833,290,Gil Vicente,True,445,370,10,2,8,18,7
@@ -265,78 +265,78 @@ Primeira_Liga,1915835,107,Vitoria de Guimaraes,True,401,323,12,1,7,16,12
 Primeira_Liga,1915835,935,Famalicao,False,495,403,13,2,9,14,8
 Primeira_Liga,1915842,5948,Arouca,True,324,250,12,1,9,13,7
 Primeira_Liga,1915842,299,Benfica,False,506,412,22,2,19,18,8
-Primeira_Liga,1915635,107,Vitoria de Guimaraes,True,308,229,14,2,11,15,9
-Primeira_Liga,1915635,28635,Estrela da Amadora,False,434,355,10,0,7,11,1
+Primeira_Liga,1915635,107,Vitoria de Guimaraes,False,308,229,14,2,11,15,9
+Primeira_Liga,1915635,28635,Estrela da Amadora,True,434,355,10,0,7,11,1
 Primeira_Liga,1915637,5948,Arouca,True,486,394,9,0,5,11,4
 Primeira_Liga,1915637,9509,Casa Pia AC,False,251,163,9,2,8,22,3
 Primeira_Liga,1915640,288,Braga,True,611,492,11,0,9,11,11
 Primeira_Liga,1915640,290,Gil Vicente,False,345,240,12,1,8,18,14
 Primeira_Liga,1915689,5948,Arouca,True,669,560,18,1,13,13,13
 Primeira_Liga,1915689,291,Alverca,False,320,225,5,0,3,9,7
-Primeira_Liga,1915693,299,Benfica,True,498,425,10,4,8,16,10
-Primeira_Liga,1915693,108,Moreirense,False,560,477,10,0,7,15,2
-Primeira_Liga,1915790,2188,Estoril,True,400,294,10,0,9,8,17
-Primeira_Liga,1915790,935,Famalicao,False,470,371,20,4,13,17,8
+Primeira_Liga,1915693,299,Benfica,False,498,425,10,4,8,16,10
+Primeira_Liga,1915693,108,Moreirense,True,560,477,10,0,7,15,2
+Primeira_Liga,1915790,2188,Estoril,False,400,294,10,0,9,8,17
+Primeira_Liga,1915790,935,Famalicao,True,470,371,20,4,13,17,8
 Primeira_Liga,1915685,296,Sporting,True,651,562,22,1,18,12,11
 Primeira_Liga,1915685,935,Famalicao,False,281,202,2,0,1,19,10
-Primeira_Liga,1915698,2188,Estoril,True,663,538,12,0,8,14,6
-Primeira_Liga,1915698,2343,AVS Futebol SAD,False,271,175,15,3,8,28,20
+Primeira_Liga,1915698,2188,Estoril,False,663,538,12,0,8,14,6
+Primeira_Liga,1915698,2343,AVS Futebol SAD,True,271,175,15,3,8,28,20
 Primeira_Liga,1915702,936,Nacional,True,341,243,9,0,8,22,8
 Primeira_Liga,1915702,297,Porto,False,383,289,8,1,6,10,7
 Primeira_Liga,1915830,936,Nacional,True,462,333,16,0,14,20,12
 Primeira_Liga,1915830,2188,Estoril,False,383,284,11,1,9,14,8
 Primeira_Liga,1915832,121,Rio Ave,True,407,319,18,2,14,14,15
 Primeira_Liga,1915832,28635,Estrela da Amadora,False,511,424,11,1,6,19,7
-Primeira_Liga,1915836,108,Moreirense,True,429,357,3,0,3,15,16
-Primeira_Liga,1915836,297,Porto,False,578,499,17,3,15,17,7
-Primeira_Liga,1915840,251,Santa Clara,True,423,318,12,1,8,12,8
-Primeira_Liga,1915840,2343,AVS Futebol SAD,False,352,248,10,0,8,15,12
-Primeira_Liga,1915608,9509,Casa Pia AC,True,334,226,10,2,6,12,9
-Primeira_Liga,1915608,2343,AVS Futebol SAD,False,357,256,10,0,6,17,7
-Primeira_Liga,1915778,8071,Tondela,True,410,300,21,1,12,5,4
-Primeira_Liga,1915778,936,Nacional,False,324,229,8,3,6,7,3
-Primeira_Liga,1915784,251,Santa Clara,True,395,316,5,0,4,9,11
-Primeira_Liga,1915784,288,Braga,False,804,721,6,1,6,16,5
+Primeira_Liga,1915836,108,Moreirense,False,429,357,3,0,3,15,16
+Primeira_Liga,1915836,297,Porto,True,578,499,17,3,15,17,7
+Primeira_Liga,1915840,251,Santa Clara,False,423,318,12,1,8,12,8
+Primeira_Liga,1915840,2343,AVS Futebol SAD,True,352,248,10,0,8,15,12
+Primeira_Liga,1915608,9509,Casa Pia AC,False,334,226,10,2,6,12,9
+Primeira_Liga,1915608,2343,AVS Futebol SAD,True,357,256,10,0,6,17,7
+Primeira_Liga,1915778,8071,Tondela,False,410,300,21,1,12,5,4
+Primeira_Liga,1915778,936,Nacional,True,324,229,8,3,6,7,3
+Primeira_Liga,1915784,251,Santa Clara,False,395,316,5,0,4,9,11
+Primeira_Liga,1915784,288,Braga,True,804,721,6,1,6,16,5
 Primeira_Liga,1915794,297,Porto,True,599,506,21,3,9,23,21
 Primeira_Liga,1915794,28635,Estrela da Amadora,False,326,244,6,1,5,20,12
-Primeira_Liga,1915804,9509,Casa Pia AC,True,344,267,6,0,5,17,13
-Primeira_Liga,1915804,296,Sporting,False,520,450,16,3,12,15,4
+Primeira_Liga,1915804,9509,Casa Pia AC,False,344,267,6,0,5,17,13
+Primeira_Liga,1915804,296,Sporting,True,520,450,16,3,12,15,4
 Primeira_Liga,1915688,121,Rio Ave,True,600,486,18,1,10,17,12
 Primeira_Liga,1915688,108,Moreirense,False,404,324,6,2,4,19,11
 Primeira_Liga,1915856,108,Moreirense,True,592,506,13,0,9,14,15
 Primeira_Liga,1915856,2343,AVS Futebol SAD,False,335,246,8,0,5,19,14
-Primeira_Liga,1915858,291,Alverca,True,464,390,7,0,4,10,7
-Primeira_Liga,1915858,935,Famalicao,False,457,377,11,1,8,14,8
+Primeira_Liga,1915858,291,Alverca,False,464,390,7,0,4,10,7
+Primeira_Liga,1915858,935,Famalicao,True,457,377,11,1,8,14,8
 Primeira_Liga,1915860,296,Sporting,True,603,538,15,3,13,18,7
 Primeira_Liga,1915860,290,Gil Vicente,False,382,309,10,0,6,22,5
-Primeira_Liga,1915861,297,Porto,True,431,348,14,0,10,16,11
-Primeira_Liga,1915861,251,Santa Clara,False,397,304,12,1,8,21,10
+Primeira_Liga,1915861,297,Porto,True,431,348,14,1,10,16,11
+Primeira_Liga,1915861,251,Santa Clara,False,397,304,12,0,8,21,10
 Primeira_Liga,1915863,2188,Estoril,True,459,376,16,1,14,15,10
 Primeira_Liga,1915863,299,Benfica,False,508,421,19,3,11,16,7
 Primeira_Liga,1915865,936,Nacional,True,249,161,5,2,2,8,7
 Primeira_Liga,1915865,107,Vitoria de Guimaraes,False,449,362,13,0,10,11,7
-Primeira_Liga,1915866,121,Rio Ave,True,465,373,6,1,4,14,8
-Primeira_Liga,1915866,9509,Casa Pia AC,False,337,230,20,1,12,12,9
+Primeira_Liga,1915866,121,Rio Ave,False,465,373,6,1,4,14,8
+Primeira_Liga,1915866,9509,Casa Pia AC,True,337,230,20,1,12,12,9
 Primeira_Liga,1915867,5948,Arouca,True,504,400,16,3,14,20,5
 Primeira_Liga,1915867,8071,Tondela,False,451,352,11,1,7,15,8
-Primeira_Liga,1915870,28635,Estrela da Amadora,True,266,198,6,2,3,18,13
-Primeira_Liga,1915870,288,Braga,False,734,656,14,2,7,14,6
-Primeira_Liga,1915613,107,Vitoria de Guimaraes,True,450,356,17,4,7,21,3
-Primeira_Liga,1915613,2188,Estoril,False,374,283,11,1,6,11,2
+Primeira_Liga,1915870,28635,Estrela da Amadora,False,266,198,6,2,3,18,13
+Primeira_Liga,1915870,288,Braga,True,734,656,14,2,7,14,6
+Primeira_Liga,1915613,107,Vitoria de Guimaraes,True,450,356,17,3,7,21,3
+Primeira_Liga,1915613,2188,Estoril,False,374,283,11,2,6,11,2
 Primeira_Liga,1915615,8071,Tondela,True,403,313,15,0,9,16,16
 Primeira_Liga,1915615,935,Famalicao,False,420,316,14,1,10,18,5
-Primeira_Liga,1915616,299,Benfica,True,403,316,14,1,10,10,4
-Primeira_Liga,1915616,28635,Estrela da Amadora,False,308,231,15,0,9,14,5
+Primeira_Liga,1915616,299,Benfica,False,403,316,14,1,10,10,4
+Primeira_Liga,1915616,28635,Estrela da Amadora,True,308,231,15,0,9,14,5
 Primeira_Liga,1915673,290,Gil Vicente,True,398,295,16,2,13,16,2
 Primeira_Liga,1915673,936,Nacional,False,338,251,13,1,9,17,10
-Primeira_Liga,1915808,121,Rio Ave,True,388,312,8,1,5,16,6
-Primeira_Liga,1915808,299,Benfica,False,644,565,24,1,17,19,10
-Primeira_Liga,1915810,5948,Arouca,True,645,551,18,1,13,14,4
-Primeira_Liga,1915810,2343,AVS Futebol SAD,False,376,274,12,0,9,14,7
+Primeira_Liga,1915808,121,Rio Ave,True,388,312,8,0,5,16,6
+Primeira_Liga,1915808,299,Benfica,False,644,565,24,2,17,19,10
+Primeira_Liga,1915810,5948,Arouca,False,645,551,18,1,13,14,4
+Primeira_Liga,1915810,2343,AVS Futebol SAD,True,376,274,12,0,9,14,7
 Primeira_Liga,1915815,291,Alverca,True,416,338,15,2,12,16,2
 Primeira_Liga,1915815,108,Moreirense,False,580,509,10,1,7,9,4
-Primeira_Liga,1915789,2343,AVS Futebol SAD,True,286,188,13,2,9,21,16
-Primeira_Liga,1915789,121,Rio Ave,False,537,445,20,2,11,15,9
+Primeira_Liga,1915789,2343,AVS Futebol SAD,False,286,188,13,2,9,21,16
+Primeira_Liga,1915789,121,Rio Ave,True,537,445,20,2,11,15,9
 Primeira_Liga,1915609,291,Alverca,True,331,244,12,0,10,10,6
 Primeira_Liga,1915609,288,Braga,False,627,542,12,3,8,14,3
 Primeira_Liga,1915611,251,Santa Clara,True,521,423,12,0,8,16,8
@@ -345,20 +345,20 @@ Primeira_Liga,1915612,121,Rio Ave,True,474,390,20,1,9,24,2
 Primeira_Liga,1915612,936,Nacional,False,299,199,13,1,8,15,11
 Primeira_Liga,1915614,296,Sporting,True,603,531,19,6,15,14,6
 Primeira_Liga,1915614,5948,Arouca,False,453,374,7,0,6,25,8
-Primeira_Liga,1915676,935,Famalicao,True,418,318,7,1,6,19,13
-Primeira_Liga,1915676,251,Santa Clara,False,432,342,15,0,12,14,8
+Primeira_Liga,1915676,935,Famalicao,False,418,318,7,1,6,19,13
+Primeira_Liga,1915676,251,Santa Clara,True,432,342,15,0,12,14,8
 Primeira_Liga,1915678,107,Vitoria de Guimaraes,True,415,305,20,0,11,13,14
 Primeira_Liga,1915678,297,Porto,False,414,334,12,1,5,20,11
-Primeira_Liga,1915806,288,Braga,True,621,514,11,1,6,9,4
-Primeira_Liga,1915806,8071,Tondela,False,326,235,7,0,5,18,7
-Primeira_Liga,1915797,291,Alverca,True,452,353,7,0,3,6,5
-Primeira_Liga,1915797,936,Nacional,False,431,340,10,1,8,25,6
-Primeira_Liga,1915800,251,Santa Clara,True,477,381,5,0,5,7,1
-Primeira_Liga,1915800,9509,Casa Pia AC,False,240,141,10,0,7,15,4
-Primeira_Liga,1915807,107,Vitoria de Guimaraes,True,390,289,11,1,9,22,12
-Primeira_Liga,1915807,290,Gil Vicente,False,422,313,12,0,7,10,12
-Primeira_Liga,1915610,297,Porto,True,526,453,15,2,13,11,7
-Primeira_Liga,1915610,290,Gil Vicente,False,370,294,14,0,6,16,5
+Primeira_Liga,1915806,288,Braga,False,621,514,11,1,6,9,4
+Primeira_Liga,1915806,8071,Tondela,True,326,235,7,0,5,18,7
+Primeira_Liga,1915797,291,Alverca,False,452,353,7,0,3,6,5
+Primeira_Liga,1915797,936,Nacional,True,431,340,10,1,8,25,6
+Primeira_Liga,1915800,251,Santa Clara,False,477,381,5,0,5,7,1
+Primeira_Liga,1915800,9509,Casa Pia AC,True,240,141,10,0,7,15,4
+Primeira_Liga,1915807,107,Vitoria de Guimaraes,False,390,289,11,1,9,22,12
+Primeira_Liga,1915807,290,Gil Vicente,True,422,313,12,0,7,10,12
+Primeira_Liga,1915610,297,Porto,False,526,453,15,2,13,11,7
+Primeira_Liga,1915610,290,Gil Vicente,True,370,294,14,0,6,16,5
 Primeira_Liga,1915672,28635,Estrela da Amadora,True,387,305,6,0,5,15,10
 Primeira_Liga,1915672,2188,Estoril,False,573,493,11,5,9,18,10
 Primeira_Liga,1915805,296,Sporting,True,533,453,19,1,13,20,3
@@ -369,52 +369,52 @@ Primeira_Liga,1915811,297,Porto,True,557,475,22,2,14,16,3
 Primeira_Liga,1915811,8071,Tondela,False,367,292,5,0,3,25,2
 Primeira_Liga,1915812,288,Braga,True,787,704,10,2,8,9,5
 Primeira_Liga,1915812,935,Famalicao,False,372,296,6,2,4,16,8
-Primeira_Liga,1915650,297,Porto,True,523,439,19,3,14,10,10
-Primeira_Liga,1915650,121,Rio Ave,False,483,406,7,0,6,9,12
+Primeira_Liga,1915650,297,Porto,False,523,439,19,3,14,10,10
+Primeira_Liga,1915650,121,Rio Ave,True,483,406,7,0,6,9,12
 Primeira_Liga,1915723,2188,Estoril,True,351,255,13,1,11,10,9
 Primeira_Liga,1915723,288,Braga,False,732,623,12,0,8,14,2
-Primeira_Liga,1915725,8071,Tondela,True,275,205,11,2,8,18,6
-Primeira_Liga,1915725,28635,Estrela da Amadora,False,544,475,14,0,10,8,6
-Primeira_Liga,1915850,9509,Casa Pia AC,True,395,298,8,0,6,16,11
-Primeira_Liga,1915850,28635,Estrela da Amadora,False,438,352,23,4,16,13,14
+Primeira_Liga,1915725,8071,Tondela,False,275,205,11,2,8,18,6
+Primeira_Liga,1915725,28635,Estrela da Amadora,True,544,475,14,0,10,8,6
+Primeira_Liga,1915850,9509,Casa Pia AC,False,395,298,8,0,6,16,11
+Primeira_Liga,1915850,28635,Estrela da Amadora,True,438,352,23,4,16,13,14
 Primeira_Liga,1915793,108,Moreirense,True,426,326,11,1,9,15,15
 Primeira_Liga,1915793,2188,Estoril,False,567,451,4,0,3,23,11
-Primeira_Liga,1915644,299,Benfica,True,562,497,19,3,13,20,9
-Primeira_Liga,1915644,2343,AVS Futebol SAD,False,336,248,8,0,6,24,6
+Primeira_Liga,1915644,299,Benfica,False,562,497,19,3,13,20,9
+Primeira_Liga,1915644,2343,AVS Futebol SAD,True,336,248,8,0,6,24,6
 Primeira_Liga,1915648,251,Santa Clara,True,470,374,14,2,10,8,5
 Primeira_Liga,1915648,291,Alverca,False,382,293,3,1,3,14,9
 Primeira_Liga,1915649,936,Nacional,True,403,304,15,1,9,12,9
 Primeira_Liga,1915649,5948,Arouca,False,285,202,10,2,8,9,4
 Primeira_Liga,1915652,107,Vitoria de Guimaraes,True,376,280,11,1,5,8,13
 Primeira_Liga,1915652,288,Braga,False,612,515,17,1,13,8,5
-Primeira_Liga,1915705,108,Moreirense,True,444,344,16,0,9,14,5
-Primeira_Liga,1915705,28635,Estrela da Amadora,False,426,339,13,0,9,16,8
-Primeira_Liga,1915709,290,Gil Vicente,True,422,339,24,3,15,15,7
-Primeira_Liga,1915709,121,Rio Ave,False,349,266,3,1,1,17,4
+Primeira_Liga,1915705,108,Moreirense,False,444,344,16,0,9,14,5
+Primeira_Liga,1915705,28635,Estrela da Amadora,True,426,339,13,0,9,16,8
+Primeira_Liga,1915709,290,Gil Vicente,True,422,339,24,2,15,15,7
+Primeira_Liga,1915709,121,Rio Ave,False,349,266,3,2,1,17,4
 Primeira_Liga,1915707,299,Benfica,True,592,497,22,3,13,10,6
 Primeira_Liga,1915707,2343,AVS Futebol SAD,False,329,220,3,0,1,25,7
 Primeira_Liga,1915731,5948,Arouca,True,490,415,10,3,7,5,8
 Primeira_Liga,1915731,936,Nacional,False,314,233,15,0,13,7,6
-Primeira_Liga,1915742,296,Sporting,True,629,541,15,3,10,12,4
-Primeira_Liga,1915742,108,Moreirense,False,374,308,6,0,5,13,8
-Primeira_Liga,1915745,107,Vitoria de Guimaraes,True,513,435,9,1,7,14,11
-Primeira_Liga,1915745,288,Braga,False,433,349,8,4,6,16,8
-Primeira_Liga,1915814,251,Santa Clara,True,474,396,16,1,14,17,8
-Primeira_Liga,1915814,291,Alverca,False,384,290,7,1,4,15,4
+Primeira_Liga,1915742,296,Sporting,False,629,541,15,3,10,12,4
+Primeira_Liga,1915742,108,Moreirense,True,374,308,6,0,5,13,8
+Primeira_Liga,1915745,107,Vitoria de Guimaraes,False,513,435,9,2,7,14,11
+Primeira_Liga,1915745,288,Braga,True,433,349,8,3,6,16,8
+Primeira_Liga,1915814,251,Santa Clara,False,474,396,16,1,14,17,8
+Primeira_Liga,1915814,291,Alverca,True,384,290,7,1,4,15,4
 Primeira_Liga,1915846,8071,Tondela,True,482,387,14,0,14,18,8
 Primeira_Liga,1915846,2343,AVS Futebol SAD,False,340,240,10,0,8,16,4
 Primeira_Liga,1915854,108,Moreirense,True,471,379,7,0,5,12,7
 Primeira_Liga,1915854,5948,Arouca,False,488,398,14,1,10,10,5
-Primeira_Liga,1915862,936,Nacional,True,408,328,9,0,7,21,11
-Primeira_Liga,1915862,935,Famalicao,False,475,391,14,1,10,18,6
-Primeira_Liga,1915864,290,Gil Vicente,True,354,242,8,0,5,10,8
-Primeira_Liga,1915864,251,Santa Clara,False,414,304,8,1,4,19,10
-Primeira_Liga,1915869,299,Benfica,True,477,402,12,2,11,18,8
-Primeira_Liga,1915869,107,Vitoria de Guimaraes,False,497,431,17,1,10,18,9
-Primeira_Liga,1915645,935,Famalicao,True,357,273,11,1,8,14,4
-Primeira_Liga,1915645,9509,Casa Pia AC,False,398,303,10,1,8,15,4
-Primeira_Liga,1915646,2188,Estoril,True,369,270,7,0,7,25,7
-Primeira_Liga,1915646,290,Gil Vicente,False,397,277,16,2,8,20,5
+Primeira_Liga,1915862,936,Nacional,False,408,328,9,0,7,21,11
+Primeira_Liga,1915862,935,Famalicao,True,475,391,14,1,10,18,6
+Primeira_Liga,1915864,290,Gil Vicente,False,354,242,8,0,5,10,8
+Primeira_Liga,1915864,251,Santa Clara,True,414,304,8,1,4,19,10
+Primeira_Liga,1915869,299,Benfica,True,477,402,12,3,11,18,8
+Primeira_Liga,1915869,107,Vitoria de Guimaraes,False,497,431,17,0,10,18,9
+Primeira_Liga,1915645,935,Famalicao,False,357,273,11,1,8,14,4
+Primeira_Liga,1915645,9509,Casa Pia AC,True,398,303,10,1,8,15,4
+Primeira_Liga,1915646,2188,Estoril,False,369,270,7,0,7,25,7
+Primeira_Liga,1915646,290,Gil Vicente,True,397,277,16,2,8,20,5
 Primeira_Liga,1915647,8071,Tondela,True,432,341,17,0,15,22,6
 Primeira_Liga,1915647,28635,Estrela da Amadora,False,366,264,8,0,6,8,12
 Primeira_Liga,1915701,2343,AVS Futebol SAD,True,301,195,16,2,10,12,12
@@ -425,116 +425,116 @@ Primeira_Liga,1915719,251,Santa Clara,True,471,373,9,0,8,9,12
 Primeira_Liga,1915719,5948,Arouca,False,432,331,8,0,5,8,9
 Primeira_Liga,1915722,2188,Estoril,True,384,271,10,3,9,13,14
 Primeira_Liga,1915722,290,Gil Vicente,False,417,309,12,1,10,24,15
-Primeira_Liga,1915738,121,Rio Ave,True,428,346,6,0,5,28,20
-Primeira_Liga,1915738,297,Porto,False,527,430,16,1,11,21,4
+Primeira_Liga,1915738,121,Rio Ave,False,428,346,6,0,5,28,20
+Primeira_Liga,1915738,297,Porto,True,527,430,16,1,11,21,4
 Primeira_Liga,1915857,2188,Estoril,True,503,396,13,1,11,16,8
 Primeira_Liga,1915857,121,Rio Ave,False,408,308,13,2,6,17,8
-Primeira_Liga,1915859,296,Sporting,True,741,667,15,4,10,12,7
-Primeira_Liga,1915859,291,Alverca,False,338,271,12,1,7,21,9
-Primeira_Liga,1915868,297,Porto,True,334,263,12,2,6,19,7
-Primeira_Liga,1915868,288,Braga,False,527,451,6,1,5,13,5
-Primeira_Liga,1915651,108,Moreirense,True,407,329,4,0,4,18,11
-Primeira_Liga,1915651,296,Sporting,False,620,532,25,3,19,17,8
-Primeira_Liga,1915712,935,Famalicao,True,468,383,4,0,2,15,16
-Primeira_Liga,1915712,299,Benfica,False,558,469,10,1,9,23,6
+Primeira_Liga,1915859,296,Sporting,False,741,667,15,4,10,12,7
+Primeira_Liga,1915859,291,Alverca,True,338,271,12,1,7,21,9
+Primeira_Liga,1915868,297,Porto,False,334,263,12,2,6,19,7
+Primeira_Liga,1915868,288,Braga,True,527,451,6,1,5,13,5
+Primeira_Liga,1915651,108,Moreirense,False,407,329,4,0,4,18,11
+Primeira_Liga,1915651,296,Sporting,True,620,532,25,3,19,17,8
+Primeira_Liga,1915712,935,Famalicao,False,468,383,4,0,2,15,16
+Primeira_Liga,1915712,299,Benfica,True,558,469,10,1,9,23,6
 Primeira_Liga,1915680,9509,Casa Pia AC,True,258,122,9,3,6,4,8
 Primeira_Liga,1915680,2343,AVS Futebol SAD,False,350,172,28,3,15,14,4
 Primeira_Liga,1915715,935,Famalicao,True,497,399,24,2,12,14,9
 Primeira_Liga,1915715,9509,Casa Pia AC,False,316,207,7,0,3,13,13
 Primeira_Liga,1915838,9509,Casa Pia AC,True,351,240,7,0,5,13,11
 Primeira_Liga,1915838,288,Braga,False,763,661,8,1,7,11,3
-Primeira_Liga,1915617,296,Sporting,True,542,455,27,4,20,12,6
-Primeira_Liga,1915617,936,Nacional,False,203,125,3,1,3,19,12
+Primeira_Liga,1915617,296,Sporting,False,542,455,27,4,20,12,6
+Primeira_Liga,1915617,936,Nacional,True,203,125,3,1,3,19,12
 Primeira_Liga,1915618,5948,Arouca,True,523,435,14,3,8,18,5
 Primeira_Liga,1915618,121,Rio Ave,False,415,345,15,3,12,11,8
 Primeira_Liga,1915620,299,Benfica,True,602,512,21,3,18,13,11
 Primeira_Liga,1915620,8071,Tondela,False,323,247,9,0,5,10,6
-Primeira_Liga,1915625,107,Vitoria de Guimaraes,True,432,323,11,0,7,14,11
-Primeira_Liga,1915625,108,Moreirense,False,406,314,10,2,9,9,8
+Primeira_Liga,1915625,107,Vitoria de Guimaraes,False,432,323,11,0,7,14,11
+Primeira_Liga,1915625,108,Moreirense,True,406,314,10,2,9,9,8
 Primeira_Liga,1915601,299,Benfica,True,623,521,19,1,14,25,9
 Primeira_Liga,1915601,121,Rio Ave,False,286,207,4,1,4,24,9
-Primeira_Liga,1915714,296,Sporting,True,453,391,16,3,12,22,3
-Primeira_Liga,1915714,107,Vitoria de Guimaraes,False,361,285,18,2,14,20,4
-Primeira_Liga,1915692,251,Santa Clara,True,421,315,8,0,8,16,12
-Primeira_Liga,1915692,108,Moreirense,False,412,323,3,1,2,11,2
-Primeira_Liga,1915703,107,Vitoria de Guimaraes,True,403,321,13,2,12,16,6
-Primeira_Liga,1915703,2188,Estoril,False,489,415,16,4,11,10,6
-Primeira_Liga,1915706,296,Sporting,True,658,578,16,2,11,7,9
-Primeira_Liga,1915706,5948,Arouca,False,369,284,11,1,8,16,7
+Primeira_Liga,1915714,296,Sporting,False,453,391,16,4,12,22,3
+Primeira_Liga,1915714,107,Vitoria de Guimaraes,True,361,285,18,1,14,20,4
+Primeira_Liga,1915692,251,Santa Clara,False,421,315,8,0,8,16,12
+Primeira_Liga,1915692,108,Moreirense,True,412,323,3,1,2,11,2
+Primeira_Liga,1915703,107,Vitoria de Guimaraes,False,403,321,13,2,12,16,6
+Primeira_Liga,1915703,2188,Estoril,True,489,415,16,4,11,10,6
+Primeira_Liga,1915706,296,Sporting,False,658,578,16,2,11,7,9
+Primeira_Liga,1915706,5948,Arouca,True,369,284,11,1,8,16,7
 Primeira_Liga,1915821,291,Alverca,True,351,257,7,2,6,8,6
 Primeira_Liga,1915821,5948,Arouca,False,642,534,14,1,9,12,10
 Primeira_Liga,1915619,935,Famalicao,True,390,295,11,0,8,21,6
 Primeira_Liga,1915619,290,Gil Vicente,False,464,380,20,0,13,12,4
-Primeira_Liga,1915621,2343,AVS Futebol SAD,True,247,147,4,2,3,13,9
-Primeira_Liga,1915621,288,Braga,False,744,627,21,2,16,14,10
+Primeira_Liga,1915621,2343,AVS Futebol SAD,False,247,147,4,2,3,13,9
+Primeira_Liga,1915621,288,Braga,True,744,627,21,2,16,14,10
 Primeira_Liga,1915622,297,Porto,True,610,538,20,4,15,11,7
 Primeira_Liga,1915622,9509,Casa Pia AC,False,332,256,7,0,5,20,15
-Primeira_Liga,1915888,290,Gil Vicente,True,348,273,12,4,8,18,7
-Primeira_Liga,1915888,291,Alverca,False,443,370,6,0,4,26,5
+Primeira_Liga,1915888,290,Gil Vicente,False,348,273,12,4,8,18,7
+Primeira_Liga,1915888,291,Alverca,True,443,370,6,0,4,26,5
 Primeira_Liga,1915683,288,Braga,True,778,712,17,5,12,13,11
 Primeira_Liga,1915683,291,Alverca,False,371,303,4,0,2,19,5
-Primeira_Liga,1915699,121,Rio Ave,True,443,371,11,0,10,11,11
-Primeira_Liga,1915699,936,Nacional,False,385,302,14,4,13,18,7
-Primeira_Liga,1915710,8071,Tondela,True,347,255,2,0,1,19,9
-Primeira_Liga,1915710,935,Famalicao,False,527,441,9,3,4,14,8
+Primeira_Liga,1915699,121,Rio Ave,False,443,371,11,0,10,11,11
+Primeira_Liga,1915699,936,Nacional,True,385,302,14,4,13,18,7
+Primeira_Liga,1915710,8071,Tondela,False,347,255,2,0,1,19,9
+Primeira_Liga,1915710,935,Famalicao,True,527,441,9,3,4,14,8
 Primeira_Liga,1915716,299,Benfica,True,517,433,15,4,9,18,4
 Primeira_Liga,1915716,28635,Estrela da Amadora,False,266,186,3,0,0,25,17
-Primeira_Liga,1915816,8071,Tondela,True,517,414,23,1,19,15,12
-Primeira_Liga,1915816,936,Nacional,False,314,202,17,1,11,19,13
-Primeira_Liga,1915822,108,Moreirense,True,388,305,8,1,7,12,12
-Primeira_Liga,1915822,299,Benfica,False,523,438,17,4,17,13,9
-Primeira_Liga,1915823,121,Rio Ave,True,422,315,5,0,4,18,11
-Primeira_Liga,1915823,107,Vitoria de Guimaraes,False,533,419,11,2,9,26,9
+Primeira_Liga,1915816,8071,Tondela,True,517,414,23,0,19,15,12
+Primeira_Liga,1915816,936,Nacional,False,314,202,17,2,11,19,13
+Primeira_Liga,1915822,108,Moreirense,False,388,305,8,1,7,12,12
+Primeira_Liga,1915822,299,Benfica,True,523,438,17,4,17,13,9
+Primeira_Liga,1915823,121,Rio Ave,False,422,315,5,0,4,18,11
+Primeira_Liga,1915823,107,Vitoria de Guimaraes,True,533,419,11,2,9,26,9
 Primeira_Liga,1915623,28635,Estrela da Amadora,True,355,264,19,2,12,16,4
 Primeira_Liga,1915623,291,Alverca,False,279,191,6,2,3,20,11
-Primeira_Liga,1915887,121,Rio Ave,True,368,299,8,2,8,16,9
-Primeira_Liga,1915887,28635,Estrela da Amadora,False,472,388,16,1,13,16,7
-Primeira_Liga,1915892,2343,AVS Futebol SAD,True,357,252,7,0,3,14,4
-Primeira_Liga,1915892,251,Santa Clara,False,522,427,20,2,15,18,8
+Primeira_Liga,1915887,121,Rio Ave,False,368,299,8,2,8,16,9
+Primeira_Liga,1915887,28635,Estrela da Amadora,True,472,388,16,1,13,16,7
+Primeira_Liga,1915892,2343,AVS Futebol SAD,False,357,252,7,0,3,14,4
+Primeira_Liga,1915892,251,Santa Clara,True,522,427,20,2,15,18,8
 Primeira_Liga,1915893,299,Benfica,True,491,409,17,5,12,13,12
 Primeira_Liga,1915893,5948,Arouca,False,449,359,5,0,4,16,8
 Primeira_Liga,1915686,297,Porto,True,481,392,14,3,11,12,10
 Primeira_Liga,1915686,290,Gil Vicente,False,358,272,11,0,8,15,9
-Primeira_Liga,1915817,288,Braga,True,558,473,3,1,2,15,5
-Primeira_Liga,1915817,251,Santa Clara,False,337,244,14,2,11,16,10
-Primeira_Liga,1915818,296,Sporting,True,657,555,20,1,13,15,5
-Primeira_Liga,1915818,2343,AVS Futebol SAD,False,219,148,11,1,7,14,12
-Primeira_Liga,1915819,935,Famalicao,True,397,305,6,1,4,14,5
-Primeira_Liga,1915819,2188,Estoril,False,474,389,9,0,8,15,7
+Primeira_Liga,1915817,288,Braga,False,558,473,3,1,2,15,5
+Primeira_Liga,1915817,251,Santa Clara,True,337,244,14,2,11,16,10
+Primeira_Liga,1915818,296,Sporting,False,657,555,20,1,13,15,5
+Primeira_Liga,1915818,2343,AVS Futebol SAD,True,219,148,11,1,7,14,12
+Primeira_Liga,1915819,935,Famalicao,False,397,305,6,1,4,14,5
+Primeira_Liga,1915819,2188,Estoril,True,474,389,9,0,8,15,7
 Primeira_Liga,1915820,28635,Estrela da Amadora,True,381,292,11,1,10,17,7
 Primeira_Liga,1915820,297,Porto,False,433,345,11,2,7,16,9
-Primeira_Liga,1915659,290,Gil Vicente,True,447,341,16,1,12,29,3
-Primeira_Liga,1915659,299,Benfica,False,398,303,10,2,5,15,7
-Primeira_Liga,1915671,936,Nacional,True,313,208,9,1,6,22,9
-Primeira_Liga,1915671,2188,Estoril,False,456,330,13,1,8,12,9
-Primeira_Liga,1915889,107,Vitoria de Guimaraes,True,395,307,13,0,9,14,6
-Primeira_Liga,1915889,935,Famalicao,False,402,304,15,2,12,16,10
+Primeira_Liga,1915659,290,Gil Vicente,False,447,341,16,1,12,29,3
+Primeira_Liga,1915659,299,Benfica,True,398,303,10,2,5,15,7
+Primeira_Liga,1915671,936,Nacional,False,313,208,9,1,6,22,9
+Primeira_Liga,1915671,2188,Estoril,True,456,330,13,1,8,12,9
+Primeira_Liga,1915889,107,Vitoria de Guimaraes,False,395,307,13,0,9,14,6
+Primeira_Liga,1915889,935,Famalicao,True,402,304,15,2,12,16,10
 Primeira_Liga,1915891,288,Braga,True,584,510,15,4,9,11,8
 Primeira_Liga,1915891,9509,Casa Pia AC,False,384,309,3,0,2,12,10
 Primeira_Liga,1915894,8071,Tondela,True,315,232,9,0,7,24,15
 Primeira_Liga,1915894,296,Sporting,False,609,517,29,3,23,12,3
 Primeira_Liga,1915749,296,Sporting,True,557,476,14,3,10,25,10
 Primeira_Liga,1915749,2188,Estoril,False,498,423,7,0,5,16,6
-Primeira_Liga,1915755,5948,Arouca,True,401,325,7,1,4,26,12
-Primeira_Liga,1915755,297,Porto,False,534,449,20,3,14,17,12
+Primeira_Liga,1915755,5948,Arouca,False,401,325,7,1,4,26,12
+Primeira_Liga,1915755,297,Porto,True,534,449,20,3,14,17,12
 Primeira_Liga,1915813,290,Gil Vicente,True,445,341,12,2,4,11,11
 Primeira_Liga,1915813,9509,Casa Pia AC,False,356,256,7,1,6,20,9
-Primeira_Liga,1915653,296,Sporting,True,640,549,9,1,8,22,5
-Primeira_Liga,1915653,2188,Estoril,False,391,296,7,0,5,15,14
+Primeira_Liga,1915653,296,Sporting,False,640,549,9,1,8,22,5
+Primeira_Liga,1915653,2188,Estoril,True,391,296,7,0,5,15,14
 Primeira_Liga,1915657,251,Santa Clara,True,434,328,11,1,9,13,8
 Primeira_Liga,1915657,8071,Tondela,False,376,269,12,2,9,21,15
 Primeira_Liga,1915660,28635,Estrela da Amadora,True,488,394,11,3,9,13,5
 Primeira_Liga,1915660,2343,AVS Futebol SAD,False,408,318,11,0,7,15,13
 Primeira_Liga,1915661,108,Moreirense,True,459,366,12,2,7,11,5
 Primeira_Liga,1915661,9509,Casa Pia AC,False,380,283,20,1,14,19,7
-Primeira_Liga,1915890,297,Porto,True,536,442,16,2,9,8,13
-Primeira_Liga,1915890,108,Moreirense,False,345,261,8,1,4,15,9
-Primeira_Liga,1915739,935,Famalicao,True,501,405,22,1,17,24,4
-Primeira_Liga,1915739,28635,Estrela da Amadora,False,320,233,7,4,3,11,13
-Primeira_Liga,1915743,291,Alverca,True,370,280,13,3,8,19,9
-Primeira_Liga,1915743,2188,Estoril,False,659,579,9,2,6,22,21
-Primeira_Liga,1915752,291,Alverca,True,439,346,11,1,10,21,10
-Primeira_Liga,1915752,107,Vitoria de Guimaraes,False,490,411,15,1,8,17,12
+Primeira_Liga,1915890,297,Porto,False,536,442,16,2,9,8,13
+Primeira_Liga,1915890,108,Moreirense,True,345,261,8,1,4,15,9
+Primeira_Liga,1915739,935,Famalicao,True,501,405,22,2,17,24,4
+Primeira_Liga,1915739,28635,Estrela da Amadora,False,320,233,7,3,3,11,13
+Primeira_Liga,1915743,291,Alverca,False,370,280,13,1,8,19,9
+Primeira_Liga,1915743,2188,Estoril,True,659,579,9,4,6,22,21
+Primeira_Liga,1915752,291,Alverca,False,439,346,11,1,10,21,10
+Primeira_Liga,1915752,107,Vitoria de Guimaraes,True,490,411,15,1,8,17,12
 Primeira_Liga,1915765,936,Nacional,True,380,276,14,1,12,13,7
 Primeira_Liga,1915765,288,Braga,False,630,529,20,2,17,14,10
 Primeira_Liga,1915771,2343,AVS Futebol SAD,True,337,215,11,0,9,17,6
@@ -547,59 +547,59 @@ Primeira_Liga,1915658,288,Braga,True,678,538,9,0,7,23,8
 Primeira_Liga,1915658,936,Nacional,False,450,329,13,1,8,13,15
 Primeira_Liga,1915708,107,Vitoria de Guimaraes,True,381,310,11,4,9,18,10
 Primeira_Liga,1915708,2343,AVS Futebol SAD,False,447,383,9,0,7,7,9
-Primeira_Liga,1915728,107,Vitoria de Guimaraes,True,417,300,13,0,8,9,3
-Primeira_Liga,1915728,9509,Casa Pia AC,False,322,231,5,0,5,12,5
+Primeira_Liga,1915728,107,Vitoria de Guimaraes,False,417,300,13,0,8,9,3
+Primeira_Liga,1915728,9509,Casa Pia AC,True,322,231,5,0,5,12,5
 Primeira_Liga,1915732,5948,Arouca,True,328,226,9,2,5,15,20
 Primeira_Liga,1915732,290,Gil Vicente,False,400,293,17,2,10,9,6
-Primeira_Liga,1915747,121,Rio Ave,True,424,358,5,0,5,13,7
-Primeira_Liga,1915747,296,Sporting,False,621,549,23,4,17,29,11
-Primeira_Liga,1915769,299,Benfica,True,535,437,14,2,11,16,8
-Primeira_Liga,1915769,288,Braga,False,519,429,11,2,5,10,13
-Primeira_Liga,1915844,8071,Tondela,True,413,327,10,2,6,28,7
-Primeira_Liga,1915844,296,Sporting,False,734,653,17,2,12,16,9
+Primeira_Liga,1915747,121,Rio Ave,False,424,358,5,0,5,13,7
+Primeira_Liga,1915747,296,Sporting,True,621,549,23,4,17,29,11
+Primeira_Liga,1915769,299,Benfica,False,535,437,14,2,11,16,8
+Primeira_Liga,1915769,288,Braga,True,519,429,11,2,5,10,13
+Primeira_Liga,1915844,8071,Tondela,False,413,327,10,2,6,28,7
+Primeira_Liga,1915844,296,Sporting,True,734,653,17,2,12,16,9
 Primeira_Liga,1915629,290,Gil Vicente,True,439,349,12,2,7,12,8
 Primeira_Liga,1915629,108,Moreirense,False,510,437,10,0,6,13,11
-Primeira_Liga,1915655,297,Porto,True,436,352,16,4,11,13,5
-Primeira_Liga,1915655,5948,Arouca,False,391,304,13,0,9,8,5
-Primeira_Liga,1915704,8071,Tondela,True,291,206,5,1,2,11,11
-Primeira_Liga,1915704,290,Gil Vicente,False,535,418,15,0,10,11,2
-Primeira_Liga,1915717,291,Alverca,True,467,375,10,2,9,10,6
-Primeira_Liga,1915717,9509,Casa Pia AC,False,509,396,5,0,3,13,7
+Primeira_Liga,1915655,297,Porto,False,436,352,16,4,11,13,5
+Primeira_Liga,1915655,5948,Arouca,True,391,304,13,0,9,8,5
+Primeira_Liga,1915704,8071,Tondela,False,291,206,5,1,2,11,11
+Primeira_Liga,1915704,290,Gil Vicente,True,535,418,15,0,10,11,2
+Primeira_Liga,1915717,291,Alverca,False,467,375,10,2,9,10,6
+Primeira_Liga,1915717,9509,Casa Pia AC,True,509,396,5,0,3,13,7
 Primeira_Liga,1915721,108,Moreirense,True,436,356,11,2,9,15,2
 Primeira_Liga,1915721,935,Famalicao,False,453,358,17,2,14,22,4
 Primeira_Liga,1915727,936,Nacional,True,284,185,6,1,5,13,9
 Primeira_Liga,1915727,299,Benfica,False,667,548,30,2,26,12,6
-Primeira_Liga,1915737,2343,AVS Futebol SAD,True,267,164,7,0,4,25,12
-Primeira_Liga,1915737,297,Porto,False,615,504,18,2,11,18,3
-Primeira_Liga,1915744,108,Moreirense,True,531,426,10,0,10,11,12
-Primeira_Liga,1915744,107,Vitoria de Guimaraes,False,396,299,14,1,6,16,13
-Primeira_Liga,1915626,935,Famalicao,True,430,326,11,1,8,10,7
-Primeira_Liga,1915626,2343,AVS Futebol SAD,False,353,256,13,0,10,16,9
-Primeira_Liga,1915627,936,Nacional,True,326,230,9,2,6,13,8
-Primeira_Liga,1915627,9509,Casa Pia AC,False,506,386,9,0,4,24,1
-Primeira_Liga,1915632,5948,Arouca,True,402,314,9,1,6,8,11
-Primeira_Liga,1915632,107,Vitoria de Guimaraes,False,474,372,12,1,8,13,7
-Primeira_Liga,1915633,296,Sporting,True,513,406,20,0,16,22,4
-Primeira_Liga,1915633,297,Porto,False,359,290,15,3,10,11,9
-Primeira_Liga,1915711,2188,Estoril,True,512,415,11,0,7,22,9
-Primeira_Liga,1915711,297,Porto,False,475,391,12,1,9,25,14
+Primeira_Liga,1915737,2343,AVS Futebol SAD,False,267,164,7,0,4,25,12
+Primeira_Liga,1915737,297,Porto,True,615,504,18,2,11,18,3
+Primeira_Liga,1915744,108,Moreirense,False,531,426,10,0,10,11,12
+Primeira_Liga,1915744,107,Vitoria de Guimaraes,True,396,299,14,1,6,16,13
+Primeira_Liga,1915626,935,Famalicao,False,430,326,11,1,8,10,7
+Primeira_Liga,1915626,2343,AVS Futebol SAD,True,353,256,13,0,10,16,9
+Primeira_Liga,1915627,936,Nacional,False,326,230,9,2,6,13,8
+Primeira_Liga,1915627,9509,Casa Pia AC,True,506,386,9,0,4,24,1
+Primeira_Liga,1915632,5948,Arouca,False,402,314,9,1,6,8,11
+Primeira_Liga,1915632,107,Vitoria de Guimaraes,True,474,372,12,1,8,13,7
+Primeira_Liga,1915633,296,Sporting,True,513,406,20,1,16,22,4
+Primeira_Liga,1915633,297,Porto,False,359,290,15,2,10,11,9
+Primeira_Liga,1915711,2188,Estoril,False,512,415,11,0,7,22,9
+Primeira_Liga,1915711,297,Porto,True,475,391,12,1,9,25,14
 Primeira_Liga,1915713,296,Sporting,True,631,569,19,4,14,22,7
 Primeira_Liga,1915713,28635,Estrela da Amadora,False,376,320,5,0,5,27,12
-Primeira_Liga,1915724,251,Santa Clara,True,355,268,9,1,4,19,15
-Primeira_Liga,1915724,121,Rio Ave,False,483,406,9,1,6,10,10
-Primeira_Liga,1915726,5948,Arouca,True,440,374,18,3,13,18,9
-Primeira_Liga,1915726,121,Rio Ave,False,464,397,8,0,6,17,5
+Primeira_Liga,1915724,251,Santa Clara,False,355,268,9,1,4,19,15
+Primeira_Liga,1915724,121,Rio Ave,True,483,406,9,1,6,10,10
+Primeira_Liga,1915726,5948,Arouca,False,440,374,18,3,13,18,9
+Primeira_Liga,1915726,121,Rio Ave,True,464,397,8,0,6,17,5
 Primeira_Liga,1915741,251,Santa Clara,True,371,286,14,2,13,18,7
 Primeira_Liga,1915741,2188,Estoril,False,330,250,11,4,5,8,8
 Primeira_Liga,1915831,291,Alverca,True,461,368,8,1,6,18,3
 Primeira_Liga,1915831,28635,Estrela da Amadora,False,329,269,5,1,4,18,7
-Primeira_Liga,1915628,299,Benfica,True,521,460,6,2,4,15,8
-Primeira_Liga,1915628,291,Alverca,False,459,386,11,1,6,12,4
+Primeira_Liga,1915628,299,Benfica,False,521,460,6,2,4,15,8
+Primeira_Liga,1915628,291,Alverca,True,459,386,11,1,6,12,4
 Primeira_Liga,1915630,251,Santa Clara,True,473,378,13,0,7,16,7
 Primeira_Liga,1915630,28635,Estrela da Amadora,False,382,300,3,0,3,20,10
 Primeira_Liga,1915631,8071,Tondela,True,381,261,14,2,8,20,7
 Primeira_Liga,1915631,2188,Estoril,False,364,243,21,2,14,10,7
-Primeira_Liga,1915634,288,Braga,True,724,622,20,2,16,16,3
-Primeira_Liga,1915634,121,Rio Ave,False,290,199,5,2,2,12,8
-Primeira_Liga,1915899,291,Alverca,True,346,277,8,0,5,16,14
-Primeira_Liga,1915899,296,Sporting,False,687,607,27,2,23,19,3
+Primeira_Liga,1915634,288,Braga,False,724,622,20,2,16,16,3
+Primeira_Liga,1915634,121,Rio Ave,True,290,199,5,2,2,12,8
+Primeira_Liga,1915899,291,Alverca,False,346,277,8,0,5,16,14
+Primeira_Liga,1915899,296,Sporting,True,687,607,27,2,23,19,3
