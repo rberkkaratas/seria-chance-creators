@@ -18,7 +18,7 @@ class AboutTab(TabRenderer):
     def render(self, state: AppState) -> None:
         st.markdown("## About This Project")
         st.markdown(
-            "This dashboard profiles outfield players across major European leagues "
+            "SquadLens profiles outfield players and teams across ten European leagues "
             "using WhoScored match event data. Goalkeepers are intentionally excluded until GK-specific "
             "events such as saves, claims, and punches are parsed."
         )

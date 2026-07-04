@@ -1,6 +1,6 @@
-# Player Scout 2025/26
+# SquadLens
 
-Role-based scouting dashboard for outfield players across selected European leagues. The pipeline turns WhoScored match events into per-90 metrics, sample-adjusted group percentiles, tactical role scores, a `primary_role`, and a group-specific `overall_score`.
+Football analytics platform covering player and team performance across ten European leagues for the 2025/26 season. The pipeline turns WhoScored match events into per-90 metrics, sample-adjusted group percentiles, tactical role scores, a `primary_role`, and a group-specific `overall_score`.
 
 Goalkeepers are excluded for now because GK-specific event parsing is not implemented.
 
@@ -28,6 +28,7 @@ WhoScored fixture pages
   -> src/features/player_features.py
   -> src/features/merge_leagues.py   <- src/enrichment/league_strength.py (ClubElo, cached)
   -> src/enrichment/transfermarkt.py
+  -> src/features/team_features.py
   -> streamlit/app.py
 ```
 
@@ -40,6 +41,7 @@ python -m src.processing.build_tables --league all --season 2025-2026
 python -m src.enrichment.league_strength --refresh   # once per season
 python -m src.features.player_features --league all --season 2025-2026
 python -m src.enrichment.transfermarkt
+python -m src.features.team_features --season 2025-2026
 streamlit run streamlit/app.py
 ```
 
@@ -50,6 +52,7 @@ Run from existing processed data without scraping:
 ```bash
 python -m src.features.player_features --league all --season 2025-2026
 python -m src.enrichment.transfermarkt
+python -m src.features.team_features --season 2025-2026
 streamlit run streamlit/app.py
 ```
 
@@ -58,6 +61,7 @@ Single league refresh:
 ```bash
 python -m src.features.player_features --league Bundesliga --season 2025-2026
 python -m src.features.merge_leagues --season 2025-2026
+python -m src.features.team_features --season 2025-2026
 ```
 
 ## Outputs
@@ -67,10 +71,20 @@ python -m src.features.merge_leagues --season 2025-2026
 | `data/final/{league}_{season}.csv` | Per-league feature output with league/group percentiles |
 | `data/final/all_leagues_{season}.csv` | Merged output with league-adjusted global percentiles and global role scores |
 | `data/final/all_leagues_{season}_enriched.csv` | Merged output plus Transfermarkt data |
+| `data/final/teams_{season}.csv` | Team results, style metrics, squad profile, ratings, and ranks |
 | `data/final/last_updated.txt` | ISO date written after feature/merge runs |
 | `data/enrichment/clubelo_league_strength.csv` | Cached ClubElo league mean Elos (committed; merge needs no network) |
+| `data/enrichment/clubelo_club_elo.csv` | Cached per-club ClubElo rows used as an optional team reference column |
 
-The Streamlit app loads only the merged all-leagues outputs, preferring the enriched file when present.
+The Streamlit app loads the merged all-leagues player output, preferring the enriched file when present, and loads `teams_{season}.csv` for the team tabs when available.
+
+## Team Analytics
+
+`src/features/team_features.py` builds one row per club from existing processed match/team/player tables plus the merged player scores. It does not require a new scrape.
+
+Team strength converts each scored `(player_id, position_group)` row's `overall_score` to a clipped latent z-score, minutes-weights those rows inside the club, then percentile-ranks clubs globally into `team_rating`. There is no fixed position-group weighting: a wingback-heavy or striker-light system is rated by the minutes it actually played. Group sub-ratings (`rating_DEF`, `rating_FB`, `rating_MID`, `rating_WING`, `rating_FW`) are profile indicators only and become blank below the configured group-minute threshold.
+
+`perf_delta_rank = league_rank_points - league_rank_rating`: negative values mean results are ahead of squad-quality rank; positive values mean results lag the rating rank. Low coverage is flagged with `low_coverage` and never dropped.
 
 ## Tests
 
@@ -86,5 +100,6 @@ Tests cover WhoScored qualifier parsing, position-group-aware inclusion filterin
 |--------|-----|
 | WhoScored | Match events and player metadata |
 | Transfermarkt | Market value, contract expiry, and feasibility |
+| ClubElo | League-strength offsets and optional club Elo reference |
 
 This project is for personal educational and portfolio purposes only.

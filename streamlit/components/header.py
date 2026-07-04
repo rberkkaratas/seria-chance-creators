@@ -44,7 +44,7 @@ def render_header(placeholder, state: AppState) -> None:
         # Title block
         f'<div style="padding:12px 0 28px">'
         f'<div style="font-size:0.75rem;font-weight:600;color:#0095FF;letter-spacing:2px;'
-        f'text-transform:uppercase;margin-bottom:12px">Player Scout</div>'
+        f'text-transform:uppercase;margin-bottom:12px">SquadLens</div>'
         f'<div style="font-size:2.8rem;font-weight:800;color:#f1f5f9;letter-spacing:-1px;'
         f'line-height:1.1;margin-bottom:12px">{_league_label} · 2025/26</div>'
         f'<div style="font-size:0.95rem;color:#64748b;line-height:1.7;max-width:600px;margin-bottom:28px">'

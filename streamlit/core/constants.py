@@ -54,6 +54,61 @@ def label(col: str) -> str:
     return METRIC_LABELS.get(col, col.replace("_p90", "").replace("_", " ").title())
 
 
+TEAM_METRIC_LABELS = {
+    "team_rating":                    "Team Rating",
+    "team_strength_z":                "Squad Strength (z)",
+    "global_rank":                    "Global Rank",
+    "league_rank_rating":             "League Rank (Rating)",
+    "league_rank_points":             "League Rank (Points)",
+    "perf_delta_rank":                "Performance Δ",
+    "matches_played":                 "MP",
+    "wins":                           "W",
+    "draws":                          "D",
+    "losses":                         "L",
+    "goals_for":                      "GF",
+    "goals_against":                  "GA",
+    "goal_diff":                      "GD",
+    "points":                         "Pts",
+    "points_per_match":               "Pts / Match",
+    "possession_share":               "Possession (pass share)",
+    "pass_accuracy":                  "Pass Accuracy",
+    "passes_per_match":               "Passes / Match",
+    "shots_per_match":                "Shots / Match",
+    "shots_conceded_per_match":       "Shots Conceded / Match",
+    "goals_per_match":                "Goals / Match",
+    "goals_conceded_per_match":       "Goals Conceded / Match",
+    "shot_conversion":                "Shot Conversion",
+    "shot_conversion_against":        "Opp. Shot Conversion",
+    "key_passes_per_match":           "Key Passes / Match",
+    "ppda_proxy":                     "PPDA (proxy)",
+    "progressive_passes_pm":          "Progressive Passes / Match",
+    "passes_into_final_third_pm":     "Passes into Final Third / Match",
+    "long_ball_share":                "Long-Ball Share",
+    "forward_pass_pct":               "Forward Pass %",
+    "crosses_pm":                     "Crosses / Match",
+    "dribbles_pm":                    "Dribbles / Match",
+    "aerials_won_pm":                 "Aerials Won / Match",
+    "aerial_win_rate":                "Aerial Win %",
+    "ball_recoveries_pm":             "Ball Recoveries / Match",
+    "possession_won_final_third_pm":  "High Turnovers Won / Match",
+    "ball_winning_height":            "Ball-Winning Height",
+    "touches_final_third_pm":         "Final-Third Touches / Match",
+    "penalty_area_touches_pm":        "Box Touches / Match",
+    "squad_size":                     "Scored Players",
+    "age_weighted":                   "Avg Age (min-weighted)",
+    "age_median":                     "Median Age",
+    "market_value_total_eur":         "Squad Value (€)",
+    "market_value_median_eur":        "Median Value (€)",
+    "rating_coverage":                "Rating Coverage",
+    "qualified_players":              "Qualified Players",
+    "club_elo":                       "Club Elo",
+}
+
+
+def team_label(col: str) -> str:
+    return TEAM_METRIC_LABELS.get(col, col.replace("_pm", " / match").replace("_", " ").title())
+
+
 ARCHETYPE_COLORS = {
     "Final-Ball Specialist": "#007BFF",
     "Progressive Carrier":   "#FF5252",

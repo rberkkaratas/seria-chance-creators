@@ -56,6 +56,7 @@ class FilterService:
         filtered: pd.DataFrame,
         raw_players_df: pd.DataFrame,
         matches_df: pd.DataFrame,
+        teams_df: pd.DataFrame,
         state: FilterState,
         cfg,
     ) -> AppState:
@@ -96,6 +97,7 @@ class FilterService:
             group_df=group_df,
             raw_players_df=raw_players_df,
             matches_df=matches_df,
+            teams_df=teams_df,
             position_group=state.position_group,
             group_cfg=group_cfg,
             has_archetypes=has_archetypes,

@@ -62,6 +62,15 @@ def parse_arguments():
         "--skip-existing", action="store_true", default=True,
         help="Skip matches already extracted (default: True)"
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        default=False,
+        help=(
+            "Re-scrape requested IDs even when raw CSVs already exist. Existing "
+            "event/player/metadata files for those match IDs are removed first."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -74,24 +83,93 @@ def load_match_ids_from_csv(csv_path: str) -> list[str]:
 
 def load_match_ids_from_manifest(league: str, season: str) -> list[str]:
     """Load only un-scraped match IDs from the fixture manifest."""
+    rows = load_match_rows_from_manifest(league, season)
+    return [row["match_id"] for row in rows]
+
+
+def _default_manifest_row(league: str, match_id: str) -> dict:
+    competition = config.COMPETITIONS.get(league, {})
+    return {
+        "match_id": str(match_id),
+        "scraped": False,
+        "competition_key": league,
+        "competition_type": competition.get("competition_type", config.COMPETITION_TYPE_DOMESTIC),
+        "source_stage_id": "",
+        "competition_phase": config.PHASE_REGULAR_SEASON,
+        "source_url": "",
+        "validation_status": config.VALIDATION_PENDING,
+        "validated_home_team": "",
+        "validated_away_team": "",
+    }
+
+
+def _normalize_manifest(df: pd.DataFrame, league: str) -> pd.DataFrame:
+    df = df.copy()
+    for col in config.MANIFEST_COLUMNS:
+        if col not in df.columns:
+            df[col] = ""
+    df["match_id"] = df["match_id"].astype(str)
+    df["scraped"] = df["scraped"].fillna(False).astype(bool)
+    defaults = _default_manifest_row(league, "")
+    for col, value in defaults.items():
+        if col in ("match_id", "scraped"):
+            continue
+        # CSV round-trips turn empty cells into float NaN ("nan" once
+        # stringified) and numeric stage ids into floats ("24580.0");
+        # scrub both before applying defaults so stage_phases keys match.
+        cleaned = df[col].fillna("").astype(str).replace("nan", "")
+        if col == "source_stage_id":
+            cleaned = cleaned.str.replace(r"\.0$", "", regex=True)
+        df[col] = cleaned.replace("", pd.NA).fillna(value)
+    return df[config.MANIFEST_COLUMNS]
+
+
+def load_match_rows_from_manifest(league: str, season: str) -> list[dict]:
+    """Load only un-scraped manifest rows with competition metadata."""
     path = config.get_match_ids_path(league, season)
     if not path.exists():
         print(f"[!] Manifest not found: {path}")
         print(f"    Run fixture_scraper first: python -m src.scraper.fixture_scraper --league {league} --season {season}")
         return []
-    df = pd.read_csv(path, dtype={"match_id": str})
-    pending = df[~df["scraped"].astype(bool)]["match_id"].tolist()
+    df = pd.read_csv(path, dtype={"match_id": str, "source_stage_id": str})
+    df = _normalize_manifest(df, league)
+    pending_df = df[~df["scraped"].astype(bool)].copy()
+    pending = pending_df.to_dict("records")
     print(f"  Manifest: {len(df)} total, {len(pending)} not yet scraped.")
     return pending
 
 
-def mark_scraped_in_manifest(league: str, season: str, match_ids: list[str]):
+def mark_scraped_in_manifest(
+    league: str,
+    season: str,
+    match_ids: list[str],
+    metadata_by_id: dict[str, dict] | None = None,
+):
     """Set scraped=True for successfully extracted match IDs in the manifest."""
     path = config.get_match_ids_path(league, season)
     if not path.exists():
         return
-    df = pd.read_csv(path, dtype={"match_id": str})
+    df = pd.read_csv(path, dtype={"match_id": str, "source_stage_id": str})
+    df = _normalize_manifest(df, league)
     df.loc[df["match_id"].isin(match_ids), "scraped"] = True
+    metadata_by_id = metadata_by_id or {}
+    for match_id, metadata in metadata_by_id.items():
+        mask = df["match_id"] == str(match_id)
+        if not mask.any():
+            continue
+        for col in [
+            "competition_key",
+            "competition_type",
+            "source_stage_id",
+            "competition_phase",
+            "source_url",
+            "validation_status",
+            "validated_home_team",
+            "validated_away_team",
+        ]:
+            value = metadata.get(col)
+            if value is not None:
+                df.loc[mask, col] = value
     df.to_csv(path, index=False)
     print(f"  Marked {len(match_ids)} matches as scraped in manifest.")
 
@@ -107,6 +185,31 @@ def get_existing_match_ids(output_dir: str) -> set[str]:
                 if len(parts) >= 2:
                     existing.add(parts[-1])
     return existing
+
+
+def remove_existing_match_files(output_dir: str, match_id: str) -> None:
+    """Remove stale raw event/player/metadata files for one match before force re-scrape."""
+    base = os.path.abspath(output_dir)
+    targets = []
+    for subdir, suffix, id_index in (
+        ("", ".csv", -1),
+        ("players", "_players.csv", -2),
+        ("metadata", "_metadata.json", -2),
+    ):
+        directory = os.path.join(base, subdir) if subdir else base
+        if not os.path.isdir(directory):
+            continue
+        for filename in os.listdir(directory):
+            if not filename.endswith(suffix):
+                continue
+            stem = filename.removesuffix(suffix)
+            parts = stem.split("_")
+            if len(parts) >= abs(id_index) and parts[id_index] == str(match_id):
+                targets.append(os.path.join(directory, filename))
+
+    for path in targets:
+        os.remove(path)
+        print(f"  [force] Removed stale file: {path}")
 
 
 # ─── Core Scraper Logic (from your main.py) ──────────────────────────
@@ -270,28 +373,76 @@ def extract_player_metadata(match_data: dict) -> pd.DataFrame:
 
 # ─── Main Processing ─────────────────────────────────────────────────
 
-def process_match(match_id: str, output_dir: str) -> bool:
+def _match_metadata(match_id: str, match_data: dict, manifest_row: dict | None) -> dict:
+    """Metadata persisted beside raw event/player CSVs for table building."""
+    manifest_row = manifest_row or {}
+    competition_key = manifest_row.get("competition_key") or ""
+    competition = config.COMPETITIONS.get(competition_key, {})
+    competition_type = (
+        manifest_row.get("competition_type")
+        or competition.get("competition_type")
+        or config.COMPETITION_TYPE_DOMESTIC
+    )
+    phase = manifest_row.get("competition_phase") or config.PHASE_REGULAR_SEASON
+    phase_cfg = competition.get("phases", {}).get(phase, {})
+    return {
+        "match_id": str(match_id),
+        "start_time": match_data.get("startTime", ""),
+        "competition_key": competition_key,
+        "competition_type": competition_type,
+        "source_stage_id": str(manifest_row.get("source_stage_id") or ""),
+        "competition_phase": phase,
+        "phase_table_scope": phase_cfg.get(
+            "table_scope",
+            competition.get("default_table_scope", config.TABLE_SCOPE_REGULAR),
+        ),
+        "source_url": manifest_row.get("source_url", ""),
+        "validation_status": config.VALIDATION_OK,
+        "home_team_id": match_data.get("home", {}).get("teamId"),
+        "home_team_name": match_data.get("home", {}).get("name"),
+        "away_team_id": match_data.get("away", {}).get("teamId"),
+        "away_team_name": match_data.get("away", {}).get("name"),
+        "home_score": match_data.get("home", {}).get("scores", {}).get("fulltime"),
+        "away_score": match_data.get("away", {}).get("scores", {}).get("fulltime"),
+        "validated_home_team": match_data.get("home", {}).get("name") or "",
+        "validated_away_team": match_data.get("away", {}).get("name") or "",
+    }
+
+
+def _save_match_metadata(output_dir: str, date_str: str, match_id: str, metadata: dict) -> None:
+    metadata_dir = os.path.join(output_dir, "metadata")
+    os.makedirs(metadata_dir, exist_ok=True)
+    metadata_path = os.path.join(metadata_dir, f"{date_str}_{match_id}_metadata.json")
+    with open(metadata_path, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=2)
+
+
+def process_match(
+    match_id: str,
+    output_dir: str,
+    manifest_row: dict | None = None,
+) -> tuple[bool, dict]:
     """
     Full extraction pipeline for a single match.
     Returns True on success, False on failure.
     """
     html = download_match_html(match_id)
     if not html:
-        return False
+        return False, {}
 
     data_txt = extract_json(html)
     if not data_txt:
         print(f"  [-] Could not extract JSON for match {match_id}")
-        return False
+        return False, {}
 
     data = parse_match_json(data_txt)
     if not data:
-        return False
+        return False, {}
 
     match_data = data.get("matchCentreData")
     if not match_data:
         print(f"  [-] No matchCentreData found for {match_id}")
-        return False
+        return False, {}
 
     # Extract date for filename
     start_time_str = match_data.get("startTime", "")
@@ -306,7 +457,7 @@ def process_match(match_id: str, output_dir: str) -> bool:
     df = events_to_dataframe(match_data)
     if df is None:
         print(f"  [-] No events found for match {match_id}")
-        return False
+        return False, {}
 
     # Extract player metadata (position, age, minutes, etc.)
     df_players = extract_player_metadata(match_data)
@@ -324,8 +475,11 @@ def process_match(match_id: str, output_dir: str) -> bool:
     players_path = os.path.join(players_dir, players_filename)
     df_players.to_csv(players_path, index=False)
 
+    metadata = _match_metadata(match_id, match_data, manifest_row)
+    _save_match_metadata(output_dir, date_str, match_id, metadata)
+
     print(f"  [+] SUCCESS: Saved {len(df)} events + {len(df_players)} players to {output_dir}")
-    return True
+    return True, metadata
 
 
 def _extract_one_league(league: str, season: str, args) -> tuple[int, int]:
@@ -333,13 +487,18 @@ def _extract_one_league(league: str, season: str, args) -> tuple[int, int]:
     Extract matches for a single league.
     Returns (success_count, failed_count).
     """
-    # Collect match IDs
-    match_ids = list(args.ids)
+    # Collect match IDs and metadata rows.
+    match_rows = [_default_manifest_row(league, mid) for mid in args.ids]
     if args.csv:
-        match_ids.extend(load_match_ids_from_csv(args.csv))
+        match_rows.extend(_default_manifest_row(league, mid) for mid in load_match_ids_from_csv(args.csv))
     if args.manifest:
-        match_ids.extend(load_match_ids_from_manifest(league, season))
-    match_ids = list(dict.fromkeys(match_ids))  # dedupe, preserve order
+        match_rows.extend(load_match_rows_from_manifest(league, season))
+
+    deduped: dict[str, dict] = {}
+    for row in match_rows:
+        deduped.setdefault(str(row["match_id"]), row)
+    match_rows = list(deduped.values())
+    match_ids = [row["match_id"] for row in match_rows]
 
     if not match_ids:
         print(f"  [{league}] No match IDs found. Run fixture_scraper first.")
@@ -347,10 +506,11 @@ def _extract_one_league(league: str, season: str, args) -> tuple[int, int]:
 
     output_dir = str(config.get_events_path(league, season))
 
-    if args.skip_existing:
+    if args.skip_existing and not args.force:
         existing = get_existing_match_ids(output_dir)
         before = len(match_ids)
-        match_ids = [mid for mid in match_ids if mid not in existing]
+        match_rows = [row for row in match_rows if row["match_id"] not in existing]
+        match_ids = [row["match_id"] for row in match_rows]
         skipped = before - len(match_ids)
         if skipped:
             print(f"  [{league}] Skipping {skipped} already-extracted matches.")
@@ -358,10 +518,15 @@ def _extract_one_league(league: str, season: str, args) -> tuple[int, int]:
     print(f"  [{league}] Extracting {len(match_ids)} matches → {output_dir}\n")
 
     success_ids, failed = [], 0
-    for match_id in tqdm(match_ids, desc=f"{league}"):
-        ok = process_match(match_id, output_dir)
+    metadata_by_id = {}
+    for row in tqdm(match_rows, desc=f"{league}"):
+        match_id = row["match_id"]
+        if args.force:
+            remove_existing_match_files(output_dir, match_id)
+        ok, metadata = process_match(match_id, output_dir, row)
         if ok:
             success_ids.append(match_id)
+            metadata_by_id[str(match_id)] = metadata
         else:
             failed += 1
 
@@ -371,7 +536,7 @@ def _extract_one_league(league: str, season: str, args) -> tuple[int, int]:
     print(f"\n  [{league}] Done. Success: {len(success_ids)} | Failed: {failed}")
 
     if args.manifest and success_ids:
-        mark_scraped_in_manifest(league, season, success_ids)
+        mark_scraped_in_manifest(league, season, success_ids, metadata_by_id)
 
     return len(success_ids), failed
 

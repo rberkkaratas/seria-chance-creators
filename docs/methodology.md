@@ -100,9 +100,33 @@ All role weights sum to 1.0. The highest role score becomes `primary_role`.
 
 Pools smaller than 5 rows fall back to a plain weighted average of raw role scores. Overall rankings are group-specific: centre-backs, fullbacks, central midfielders, wingers, and forwards no longer share broad mixed-position formulas. Because the final step is a percentile rank, `overall_score` reads as "better than X% of the pool", not as an absolute quality grade.
 
+## Team Ratings
+
+`src/features/team_features.py` builds one row per club from processed match/team/player tables and the merged player score file. It uses existing data only; no new scrape is required.
+
+The rating input is each scored `(player_id, position_group)` row:
+
+```text
+player_z = inverse_normal_cdf(clip(overall_score, 0.5, 99.5) / 100)
+team_strength_z = sum(position_group_minutes * player_z) / sum(position_group_minutes)
+team_rating = percentile_rank(team_strength_z across all teams) * 100
+```
+
+There is deliberately no fixed DEF/FB/MID/WING/FW weighting. The team rating reflects the minutes a club actually played in each group, so wingback systems or striker-light systems are not penalized for a taxonomy artifact. Group ratings (`rating_DEF`, `rating_FB`, `rating_MID`, `rating_WING`, `rating_FW`) are profile indicators only; if a group has fewer than `TEAM_MIN_GROUP_MINUTES`, its sub-rating is blank.
+
+Coverage is guarded but not used as an exclusion rule:
+
+- `rating_coverage` = scored-player minutes divided by processed non-GK minutes.
+- `low_coverage` is true when coverage is below `TEAM_MIN_COVERAGE` or qualified player count is below `TEAM_MIN_QUALIFIED_PLAYERS`.
+- Low-coverage teams remain in the output.
+
+`perf_delta_rank = league_rank_points - league_rank_rating`. Negative values mean the points-table rank is better than the squad-quality rank; positive values mean the points rank lags the rating rank. League table ranking uses points, goal difference, then goals for, not head-to-head tiebreakers.
+
 ## Current Limitations
 
 - GK scouting is out of scope.
+- Team ratings exclude goalkeepers.
+- Team ratings assign all currently scored player minutes to the current team in the merged player file; mid-season transfers are not split by club unless the upstream player feature file is split.
 - Sub-only players with no known outfield position are excluded until a reliable external position source is added.
 - WhoScored positions are coarse labels and may not equal a player's real tactical role.
 - Winger and forward samples are smaller per league; global percentile mode is usually more stable for wide/forward analysis.

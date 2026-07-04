@@ -93,9 +93,8 @@ def load_league_files(leagues: list[str], season: str) -> pd.DataFrame:
 
 # ─── Global Percentiles ───────────────────────────────────────────────
 
-# Clipping keeps the latent z in ~[-2.58, +2.58], so no percentile maps to
-# ±inf and league offsets can still reorder tail players.
-PCT_CLIP = (0.5, 99.5)
+# Clip bounds live in config.PCT_CLIP (shared with team_features.py).
+PCT_CLIP = config.PCT_CLIP
 
 
 def compute_global_percentiles(df: pd.DataFrame, offsets: dict[str, float]) -> pd.DataFrame:

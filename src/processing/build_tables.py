@@ -17,6 +17,7 @@ Usage:
 """
 
 import ast
+import json
 import os
 import argparse
 from pathlib import Path
@@ -36,6 +37,7 @@ _Q_INTENTIONAL_ASSIST = "IntentionalAssist"
 _Q_THROUGH_BALL      = "Throughball"       # NOT "ThroughBall"
 _Q_LONG_BALL         = "Longball"          # NOT "LongBall"
 _Q_CROSS             = "Cross"
+_Q_OWN_GOAL          = "OwnGoal"
 
 
 # ─── Qualifier Helpers ────────────────────────────────────────────────
@@ -98,6 +100,14 @@ def enrich_events(df: pd.DataFrame) -> pd.DataFrame:
     df["is_take_on"] = df["type"] == "TakeOn"
     df["is_shot"] = df["type"].isin(["MissedShots", "SavedShot", "ShotOnPost", "Goal"])
     df["is_goal"] = df["type"] == "Goal"
+    # WhoScored attributes own-goal events to the scorer's own team. They
+    # must not count as the scorer's goal or shot; the goal is credited to
+    # the opponent at aggregation time (match scores and teams.csv).
+    df["is_own_goal"] = df["is_goal"] & df["_quals"].apply(
+        lambda q: has_qualifier(q, _Q_OWN_GOAL)
+    )
+    df["is_goal"] = df["is_goal"] & ~df["is_own_goal"]
+    df["is_shot"] = df["is_shot"] & ~df["is_own_goal"]
     df["is_tackle"] = df["type"] == "Tackle"
     df["is_interception"] = df["type"] == "Interception"
     df["is_clearance"] = df["type"] == "Clearance"
@@ -431,6 +441,32 @@ def aggregate_player_match_stats_simple(df: pd.DataFrame) -> pd.DataFrame:
 
 # ─── Load and Process a Single Match CSV ─────────────────────────────
 
+def _default_match_metadata(match_id: str) -> dict:
+    return {
+        "match_id": str(match_id),
+        "competition_key": "",
+        "competition_type": config.COMPETITION_TYPE_DOMESTIC,
+        "source_stage_id": "",
+        "competition_phase": config.PHASE_REGULAR_SEASON,
+        "phase_table_scope": config.TABLE_SCOPE_REGULAR,
+        "source_url": "",
+        "validation_status": config.VALIDATION_PENDING,
+    }
+
+
+def _load_match_metadata(filepath: Path, match_id: str) -> dict:
+    """Load extractor metadata for a match, or return backward-compatible defaults."""
+    metadata_file = filepath.parent / "metadata" / f"{filepath.stem}_metadata.json"
+    metadata = _default_match_metadata(match_id)
+    if metadata_file.exists():
+        try:
+            with metadata_file.open(encoding="utf-8") as f:
+                loaded = json.load(f)
+            metadata.update({k: v for k, v in loaded.items() if v is not None})
+        except Exception as exc:
+            print(f"  [!] Could not read metadata for {filepath.name}: {exc}")
+    return metadata
+
 def process_match_csv(filepath: Path) -> tuple[dict, pd.DataFrame, dict]:
     """
     Process a single event CSV into match info, player stats, and team stats.
@@ -445,31 +481,59 @@ def process_match_csv(filepath: Path) -> tuple[dict, pd.DataFrame, dict]:
     parts = stem.split("_")
     date_str = parts[0] if len(parts) >= 2 else "unknown"
     match_id = parts[-1] if len(parts) >= 2 else stem
+    metadata = _load_match_metadata(filepath, match_id)
 
     # Get team info
     home_team = None
     away_team = None
+    if metadata.get("home_team_id") and metadata.get("away_team_id"):
+        home_team = {
+            "teamId": metadata.get("home_team_id"),
+            "teamName": metadata.get("home_team_name"),
+        }
+        away_team = {
+            "teamId": metadata.get("away_team_id"),
+            "teamName": metadata.get("away_team_name"),
+        }
     if "teamName" in df.columns and "teamId" in df.columns:
         team_map = df[["teamId", "teamName"]].drop_duplicates()
         teams = team_map.to_dict("records")
-        if len(teams) >= 2:
+        if home_team is None and len(teams) >= 2:
             home_team = teams[0]
             away_team = teams[1]
-        elif len(teams) == 1:
+        elif home_team is None and len(teams) == 1:
             home_team = teams[0]
 
-    # Count goals per team
-    goals = df[df["type"] == "Goal"].groupby("teamId").size().to_dict() if "type" in df.columns else {}
+    # Count goals per team, crediting own goals to the opponent.
+    goals: dict = {}
+    if "type" in df.columns:
+        goal_rows = df[df["type"] == "Goal"]
+        if "qualifiers" in df.columns:
+            own_mask = goal_rows["qualifiers"].astype(str).str.contains(_Q_OWN_GOAL, na=False)
+        else:
+            own_mask = pd.Series(False, index=goal_rows.index)
+        team_ids = list(df["teamId"].dropna().unique()) if "teamId" in df.columns else []
+        opponent = dict(zip(team_ids, reversed(team_ids))) if len(team_ids) == 2 else {}
+        credited = goal_rows["teamId"].where(~own_mask, goal_rows["teamId"].map(opponent))
+        goals = credited.value_counts().to_dict()
+    home_score = metadata.get("home_score")
+    away_score = metadata.get("away_score")
 
     match_info = {
         "match_id": match_id,
         "date_str": date_str,
+        "competition_key": metadata.get("competition_key") or "",
+        "competition_type": metadata.get("competition_type") or config.COMPETITION_TYPE_DOMESTIC,
+        "competition_phase": metadata.get("competition_phase") or config.PHASE_REGULAR_SEASON,
+        "phase_table_scope": metadata.get("phase_table_scope") or config.TABLE_SCOPE_REGULAR,
+        "source_stage_id": metadata.get("source_stage_id") or "",
+        "validation_status": metadata.get("validation_status") or config.VALIDATION_PENDING,
         "home_team_id": home_team["teamId"] if home_team else None,
         "home_team_name": home_team["teamName"] if home_team else None,
         "away_team_id": away_team["teamId"] if away_team else None,
         "away_team_name": away_team["teamName"] if away_team else None,
-        "home_score": goals.get(home_team["teamId"], 0) if home_team else None,
-        "away_score": goals.get(away_team["teamId"], 0) if away_team else None,
+        "home_score": home_score if home_score is not None else (goals.get(home_team["teamId"], 0) if home_team else None),
+        "away_score": away_score if away_score is not None else (goals.get(away_team["teamId"], 0) if away_team else None),
         "total_events": len(df),
     }
 
@@ -479,6 +543,14 @@ def process_match_csv(filepath: Path) -> tuple[dict, pd.DataFrame, dict]:
     # Aggregate player stats
     player_stats = aggregate_player_match_stats_simple(df)
     player_stats["match_id"] = match_id
+    for col in [
+        "competition_key",
+        "competition_type",
+        "competition_phase",
+        "phase_table_scope",
+        "source_stage_id",
+    ]:
+        player_stats[col] = match_info[col]
 
     # Add player names (from the first event per player — WhoScored
     # doesn't always include playerName; adjust if your data has it)
@@ -530,19 +602,28 @@ def process_match_csv(filepath: Path) -> tuple[dict, pd.DataFrame, dict]:
 
     # Team-level stats
     team_stats = []
-    for team in [home_team, away_team]:
-        if team is None:
-            continue
+    present_teams = [t for t in [home_team, away_team] if t is not None]
+    for team in present_teams:
         team_events = df[df["teamId"] == team["teamId"]]
+        opponents = [t for t in present_teams if t["teamId"] != team["teamId"]]
+        opp_own_goals = (
+            df[df["teamId"] == opponents[0]["teamId"]]["is_own_goal"].sum()
+            if opponents and "is_own_goal" in df.columns else 0
+        )
         team_stats.append({
             "match_id": match_id,
+            "competition_key": match_info["competition_key"],
+            "competition_type": match_info["competition_type"],
+            "competition_phase": match_info["competition_phase"],
+            "phase_table_scope": match_info["phase_table_scope"],
+            "source_stage_id": match_info["source_stage_id"],
             "team_id": team["teamId"],
             "team_name": team["teamName"],
             "is_home": team == home_team,
             "total_passes": team_events["is_pass"].sum(),
             "accurate_passes": (team_events["is_pass"] & team_events["is_successful"]).sum(),
             "total_shots": team_events["is_shot"].sum(),
-            "goals": team_events["is_goal"].sum(),
+            "goals": team_events["is_goal"].sum() + opp_own_goals,
             "key_passes": team_events["is_key_pass"].sum(),
             "tackles": team_events["is_tackle"].sum(),
             "interceptions": team_events["is_interception"].sum(),

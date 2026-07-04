@@ -1,5 +1,5 @@
 """
-Central configuration for the European League Player Scout project.
+Central configuration for SquadLens — European league player and team analytics.
 All paths, thresholds, league definitions, position groups, and role taxonomies
 live here.
 """
@@ -26,6 +26,9 @@ def get_final_path(league: str, season: str) -> Path:
 def get_match_ids_path(league: str, season: str) -> Path:
     MATCH_IDS_DIR.mkdir(parents=True, exist_ok=True)
     return MATCH_IDS_DIR / f"{league}_{season}.csv"
+
+def get_teams_final_path(season: str) -> Path:
+    return DATA_FINAL / f"teams_{season}.csv"
 
 # ─── Supported Leagues ───────────────────────────────────────────────
 # fixture_url: the WhoScored fixtures page for this league/season.
@@ -104,6 +107,163 @@ LEAGUES = {
     },
 }
 
+# ─── Competition / Phase Metadata ─────────────────────────────────────
+# Domestic leagues remain available through LEAGUES for backward
+# compatibility. COMPETITIONS is the richer model used by fixture manifests,
+# processed match tables, team analytics scopes, and future UEFA competitions.
+COMPETITION_TYPE_DOMESTIC = "domestic_league"
+COMPETITION_TYPE_CONTINENTAL = "continental_cup"
+
+PHASE_REGULAR_SEASON = "regular_season"
+PHASE_PROMOTION_PLAYOFF = "promotion_playoff"
+PHASE_CHAMPIONSHIP_PLAYOFF = "championship_playoff"
+PHASE_EUROPE_PLAYOFF = "europe_playoff"
+PHASE_EUROPE_DECIDER = "europe_decider"
+PHASE_RELEGATION_PLAYOFF = "relegation_playoff"
+PHASE_PROMOTION_RELEGATION_PLAYOFF = "promotion_relegation_playoff"
+PHASE_LEAGUE_PHASE = "league_phase"
+PHASE_KNOCKOUT_PLAYOFF = "knockout_playoff"
+PHASE_ROUND_OF_16 = "round_of_16"
+PHASE_QUARTER_FINAL = "quarter_final"
+PHASE_SEMI_FINAL = "semi_final"
+PHASE_FINAL = "final"
+
+TABLE_SCOPE_REGULAR = "regular_season"
+TABLE_SCOPE_PLAYOFF = "playoff"
+TABLE_SCOPE_CONTINENTAL = "continental"
+
+DOMESTIC_EXPECTED_REGULAR_MATCHES = {
+    "Serie_A": 380,
+    "Premier_League": 380,
+    "La_Liga": 380,
+    "Bundesliga": 306,
+    "Ligue_1": 306,
+    "Championship": 552,
+    "Primeira_Liga": 306,
+    "Eredivisie": 306,
+    "Belgium_Pro_League": 240,
+    "Super_Lig": 306,
+}
+
+DOMESTIC_EXPECTED_TEAM_REGULAR_MATCHES = {
+    "Serie_A": 38,
+    "Premier_League": 38,
+    "La_Liga": 38,
+    "Bundesliga": 34,
+    "Ligue_1": 34,
+    "Championship": 46,
+    "Primeira_Liga": 34,
+    "Eredivisie": 34,
+    "Belgium_Pro_League": 30,
+    "Super_Lig": 34,
+}
+
+COMPETITIONS = {
+    league_key: {
+        "competition_key": league_key,
+        "display_name": league_cfg["display_name"],
+        "competition_type": COMPETITION_TYPE_DOMESTIC,
+        "default_table_scope": TABLE_SCOPE_REGULAR,
+        "phases": {
+            PHASE_REGULAR_SEASON: {
+                "table_scope": TABLE_SCOPE_REGULAR,
+                "expected_matches": DOMESTIC_EXPECTED_REGULAR_MATCHES[league_key],
+                "expected_team_matches": DOMESTIC_EXPECTED_TEAM_REGULAR_MATCHES[league_key],
+            },
+        },
+        "stage_phases": {},
+    }
+    for league_key, league_cfg in LEAGUES.items()
+}
+
+COMPETITIONS["Championship"]["phases"][PHASE_PROMOTION_PLAYOFF] = {
+    "table_scope": TABLE_SCOPE_PLAYOFF,
+    "expected_matches": 5,
+    "expected_team_matches": None,
+}
+COMPETITIONS["Championship"]["stage_phases"] = {
+    "24580": PHASE_REGULAR_SEASON,
+    "25405": PHASE_PROMOTION_PLAYOFF,
+}
+
+COMPETITIONS["Belgium_Pro_League"]["phases"].update({
+    PHASE_CHAMPIONSHIP_PLAYOFF: {
+        "table_scope": TABLE_SCOPE_PLAYOFF,
+        "expected_matches": 30,
+        "expected_team_matches": 10,
+    },
+    PHASE_EUROPE_PLAYOFF: {
+        "table_scope": TABLE_SCOPE_PLAYOFF,
+        "expected_matches": 30,
+        "expected_team_matches": 10,
+    },
+    PHASE_RELEGATION_PLAYOFF: {
+        "table_scope": TABLE_SCOPE_PLAYOFF,
+        "expected_matches": 12,
+        "expected_team_matches": 6,
+    },
+    PHASE_EUROPE_DECIDER: {
+        "table_scope": TABLE_SCOPE_PLAYOFF,
+        "expected_matches": 1,
+        "expected_team_matches": 1,
+    },
+    PHASE_PROMOTION_RELEGATION_PLAYOFF: {
+        "table_scope": TABLE_SCOPE_PLAYOFF,
+        "expected_matches": 2,
+        "expected_team_matches": 2,
+    },
+})
+COMPETITIONS["Belgium_Pro_League"]["stage_phases"] = {
+    "24549": PHASE_REGULAR_SEASON,
+    "25287": PHASE_CHAMPIONSHIP_PLAYOFF,
+    "25288": PHASE_EUROPE_PLAYOFF,
+    "25289": PHASE_RELEGATION_PLAYOFF,
+    "25500": PHASE_PROMOTION_RELEGATION_PLAYOFF,
+}
+
+for _league_key in ("Serie_A", "Premier_League", "La_Liga", "Bundesliga", "Ligue_1",
+                    "Primeira_Liga", "Eredivisie", "Super_Lig"):
+    _stage_id = LEAGUES[_league_key]["fixture_url"].split("/stages/", 1)[1].split("/", 1)[0]
+    COMPETITIONS[_league_key]["stage_phases"] = {_stage_id: PHASE_REGULAR_SEASON}
+
+for _competition_key in ("UCL", "UEL", "UECL"):
+    COMPETITIONS[_competition_key] = {
+        "competition_key": _competition_key,
+        "display_name": {
+            "UCL": "UEFA Champions League",
+            "UEL": "UEFA Europa League",
+            "UECL": "UEFA Conference League",
+        }[_competition_key],
+        "competition_type": COMPETITION_TYPE_CONTINENTAL,
+        "default_table_scope": TABLE_SCOPE_CONTINENTAL,
+        "phases": {
+            PHASE_LEAGUE_PHASE: {"table_scope": TABLE_SCOPE_CONTINENTAL, "expected_matches": 144, "expected_team_matches": 8},
+            PHASE_KNOCKOUT_PLAYOFF: {"table_scope": TABLE_SCOPE_CONTINENTAL, "expected_matches": 16, "expected_team_matches": None},
+            PHASE_ROUND_OF_16: {"table_scope": TABLE_SCOPE_CONTINENTAL, "expected_matches": 16, "expected_team_matches": None},
+            PHASE_QUARTER_FINAL: {"table_scope": TABLE_SCOPE_CONTINENTAL, "expected_matches": 8, "expected_team_matches": None},
+            PHASE_SEMI_FINAL: {"table_scope": TABLE_SCOPE_CONTINENTAL, "expected_matches": 4, "expected_team_matches": None},
+            PHASE_FINAL: {"table_scope": TABLE_SCOPE_CONTINENTAL, "expected_matches": 1, "expected_team_matches": 1},
+        },
+        "stage_phases": {},
+    }
+
+MANIFEST_COLUMNS = [
+    "match_id",
+    "scraped",
+    "competition_key",
+    "competition_type",
+    "source_stage_id",
+    "competition_phase",
+    "source_url",
+    "validation_status",
+    "validated_home_team",
+    "validated_away_team",
+]
+
+VALIDATION_PENDING = "pending"
+VALIDATION_OK = "ok"
+VALIDATION_WRONG_COMPETITION = "wrong_competition"
+
 # ─── League Strength (ClubElo) ───────────────────────────────────────
 # Cross-league scores are league-anchored: within-league percentiles are
 # mapped to latent z-scores and shifted by a per-league strength offset
@@ -132,6 +292,27 @@ LEAGUE_CLUBELO = {
 ELO_PER_SIGMA = 270.0                  # Elo points per 1 SD of player-quality offset
 CLUBELO_SNAPSHOT_DATE = "2026-05-01"   # end of season; update alongside fixture_urls
 LEAGUE_STRENGTH_OFFSET_COL = "league_strength_offset"
+
+# Percentile clip bounds applied before any inverse-normal transform.
+# Keeps latent z in ~[-2.58, +2.58] so no percentile maps to ±inf while
+# offsets can still reorder tail players. Shared by merge_leagues.py
+# (player percentiles) and team_features.py (team ratings).
+PCT_CLIP = (0.5, 99.5)
+
+# ─── Team Analytics ──────────────────────────────────────────────────
+# Team ratings aggregate player overall_score (a 0-100 within-group,
+# cross-league percentile) into a squad-strength figure: each qualified
+# (player, position_group) row is mapped to a latent z (inverse normal
+# CDF of the clipped percentile) and minutes-weighted into a team mean.
+# Deliberately NO position-group weight dict: minutes are the weights,
+# so back-three squads with zero WING minutes are not punished for a
+# taxonomy artifact.
+TEAM_RATING_COL = "team_rating"
+TEAM_STRENGTH_Z_COL = "team_strength_z"
+TEAM_MIN_GROUP_MINUTES = 450        # below this a group sub-rating is NaN
+TEAM_MIN_COVERAGE = 0.60            # qualified share of outfield minutes; below → low_coverage flag
+TEAM_MIN_QUALIFIED_PLAYERS = 10     # fewer qualified players → low_coverage flag
+GK_POSITIONS = ("GK",)              # excluded from the coverage denominator only
 
 # ─── Season & League ─────────────────────────────────────────────────
 SEASON = "2025-2026"
@@ -841,6 +1022,23 @@ def _validate_league_strength_config() -> None:
 
 
 _validate_league_strength_config()
+
+
+def _validate_team_config() -> None:
+    if not 0 < TEAM_MIN_COVERAGE <= 1:
+        raise ValueError(f"TEAM_MIN_COVERAGE must be in (0, 1], got {TEAM_MIN_COVERAGE}")
+    if TEAM_MIN_GROUP_MINUTES < 0:
+        raise ValueError(f"TEAM_MIN_GROUP_MINUTES must be >= 0, got {TEAM_MIN_GROUP_MINUTES}")
+    if TEAM_MIN_QUALIFIED_PLAYERS < 1:
+        raise ValueError(
+            f"TEAM_MIN_QUALIFIED_PLAYERS must be >= 1, got {TEAM_MIN_QUALIFIED_PLAYERS}"
+        )
+    lo, hi = PCT_CLIP
+    if not 0 < lo < hi < 100:
+        raise ValueError(f"PCT_CLIP bounds must satisfy 0 < lo < hi < 100, got {PCT_CLIP}")
+
+
+_validate_team_config()
 
 # ─── Transfermarkt Enrichment ─────────────────────────────────────────
 TM_CURRENT_SEASON_END_YEAR = int(SEASON.split("-")[1])   # e.g. 2026 from "2025-2026"

@@ -67,6 +67,15 @@ class DataLoader:
         return raw_players, matches
 
     @staticmethod
+    @st.cache_data
+    def load_teams() -> pd.DataFrame:
+        """Load the team analytics CSV, or an empty frame if it has not been built."""
+        path = config.get_teams_final_path(config.SEASON)
+        if path.exists():
+            return pd.read_csv(path)
+        return pd.DataFrame()
+
+    @staticmethod
     def _parse_date(date_int):
         """Parse WhoScored date integer (DDMMYYYY, no leading zero) to datetime."""
         try:

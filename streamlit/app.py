@@ -1,5 +1,5 @@
 """
-Player Scout — Streamlit entry point.
+SquadLens — Streamlit entry point.
 Wires together data loading, filtering, and tab rendering.
 """
 import sys
@@ -22,15 +22,18 @@ from tabs.scout_report import ScoutReportTab
 from tabs.compare import CompareTab
 from tabs.explore import ExploreTab
 from tabs.league_overview import LeagueOverviewTab
+from tabs.team_rankings import TeamRankingsTab
+from tabs.team_profile import TeamProfileTab
 from tabs.about import AboutTab
 
-st.set_page_config(page_title="Player Scout 2025/26", page_icon="⚽", layout="wide")
+st.set_page_config(page_title="SquadLens", page_icon="⚽", layout="wide")
 inject_css()
 
 # ── Data ──────────────────────────────────────────────────────────────
 df                         = DataLoader.load()
 df                         = DataLoader.enrich(df)
 raw_players_df, matches_df = DataLoader.load_raw()
+teams_df                   = DataLoader.load_teams()
 last_updated               = DataLoader.load_last_updated()
 
 if last_updated:
@@ -53,7 +56,7 @@ filter_state = render_filters(df, has_league_col, has_tm_data, all_leagues, conf
 
 # ── Apply filters + build AppState ────────────────────────────────────
 filtered  = FilterService.apply(df, filter_state, config.PRIMARY_ROLE_COL in df.columns, has_league_col, has_tm_data)
-app_state = FilterService.build_app_state(df, filtered, raw_players_df, matches_df, filter_state, config)
+app_state = FilterService.build_app_state(df, filtered, raw_players_df, matches_df, teams_df, filter_state, config)
 
 # ── Header (fills the slot above filters) ─────────────────────────────
 render_header(header_slot, app_state)
@@ -66,6 +69,8 @@ TABS = [
     ("🔍 Compare",         CompareTab()),
     ("📈 Explore",         ExploreTab()),
     ("🌍 League Overview", LeagueOverviewTab()),
+    ("🏆 Team Rankings",   TeamRankingsTab()),
+    ("🏟️ Team Profile",    TeamProfileTab()),
     ("ℹ️ About",           AboutTab()),
 ]
 
@@ -117,7 +122,7 @@ st.markdown(
             <a href="https://www.linkedin.com/in/rberkkaratas/" target="_blank">LinkedIn</a>
         </div>
         <div class="footer-links">
-            <span class="footer-badge">⚽ European Leagues 2025/26</span>
+            <span class="footer-badge">⚽ SquadLens · European Leagues 2025/26</span>
             <span class="footer-badge">📡 Events: WhoScored</span>
             <span class="footer-badge">💶 Values: Transfermarkt</span>
         </div>

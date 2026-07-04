@@ -20,6 +20,7 @@ from src.processing.build_tables import (
     enrich_events,
     has_qualifier,
     parse_qualifiers,
+    process_match_csv,
 )
 
 
@@ -408,3 +409,48 @@ def test_carry_into_final_third_already_inside_not_flagged():
     )
     out = enrich_events(rows)
     assert not out["is_carry_into_final_third"].iloc[1]
+
+
+# ─── Own goals ────────────────────────────────────────────────────────
+# WhoScored attributes the own-goal event to the scorer's own team; the
+# goal must be credited to the opponent and must not count as the
+# scorer's goal or shot. Regression for score/goal misattribution.
+
+_OG_QUALIFIERS = "[{'type': {'value': 28, 'displayName': 'OwnGoal'}}]"
+
+
+def test_enrich_events_own_goal_not_scorer_goal_or_shot():
+    rows = pd.DataFrame([
+        {"playerId": 1, "teamId": 10, "type": "Goal", "outcomeType": "Successful",
+         "qualifiers": "[]"},
+        {"playerId": 2, "teamId": 20, "type": "Goal", "outcomeType": "Successful",
+         "qualifiers": _OG_QUALIFIERS},
+    ])
+    out = enrich_events(rows)
+    assert list(out["is_own_goal"]) == [False, True]
+    assert list(out["is_goal"]) == [True, False]
+    assert list(out["is_shot"]) == [True, False]
+
+
+def test_process_match_csv_credits_own_goal_to_opponent(tmp_path):
+    events_path = tmp_path / "01012026_777.csv"
+    pd.DataFrame([
+        {"eventId": 1, "teamId": 10, "teamName": "Alpha", "playerId": 100,
+         "playerName": "A", "type": "Goal", "outcomeType": "Successful",
+         "qualifiers": "[]", "minute": 10},
+        # Beta player puts it into his own net: counts for Alpha.
+        {"eventId": 2, "teamId": 20, "teamName": "Beta", "playerId": 200,
+         "playerName": "B", "type": "Goal", "outcomeType": "Successful",
+         "qualifiers": _OG_QUALIFIERS, "minute": 40},
+    ]).to_csv(events_path, index=False)
+
+    match_info, player_stats, team_stats = process_match_csv(events_path)
+
+    assert match_info["home_score"] == 2  # Alpha: 1 scored + 1 opponent OG
+    assert match_info["away_score"] == 0
+    beta_player = player_stats[player_stats["playerId"] == 200].iloc[0]
+    assert beta_player["goals"] == 0
+    by_team = {row["team_name"]: row for row in team_stats}
+    assert by_team["Alpha"]["goals"] == 2
+    assert by_team["Beta"]["goals"] == 0
+    assert by_team["Beta"]["total_shots"] == 0

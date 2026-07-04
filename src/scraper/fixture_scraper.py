@@ -66,6 +66,7 @@ FINISHED_STATUS = 6
 # Both /live/ and /show/ point to the same match — capture either.
 MATCH_ID_HREF_PATTERN = re.compile(r"/matches/(\d+)/(?:live|show)/", re.IGNORECASE)
 MATCH_DATA_PATTERN = re.compile(r"matchCentreData", re.IGNORECASE)
+STAGE_ID_PATTERN = re.compile(r"/stages/(\d+)/", re.IGNORECASE)
 
 # Confirmed button IDs from live HTML inspection.
 BTN_PREV = "#dayChangeBtn-prev"
@@ -358,28 +359,119 @@ def scan_match_id_ranges(
 def load_existing_manifest(path) -> pd.DataFrame:
     """Load existing manifest or return empty DataFrame."""
     if path.exists():
-        return pd.read_csv(path, dtype={"match_id": str})
-    return pd.DataFrame(columns=["match_id", "scraped"])
+        df = pd.read_csv(path, dtype={"match_id": str, "source_stage_id": str})
+    else:
+        df = pd.DataFrame(columns=config.MANIFEST_COLUMNS)
+    return _normalize_manifest_columns(df)
 
 
-def merge_into_manifest(existing: pd.DataFrame, new_ids: list[str]) -> pd.DataFrame:
+def _normalize_manifest_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Return a manifest with the current schema, preserving old two-column files."""
+    df = df.copy()
+    for col in config.MANIFEST_COLUMNS:
+        if col not in df.columns:
+            df[col] = ""
+    if "scraped" in df.columns:
+        df["scraped"] = df["scraped"].fillna(False).astype(bool)
+    else:
+        df["scraped"] = False
+    # Force every metadata column to clean strings. A CSV round-trip turns
+    # empty cells into float NaN, which str() renders as the literal "nan"
+    # and which leaves all-NaN columns float64 — rejecting later string
+    # assignment. Numeric-looking stage ids also drift to "24580.0" when a
+    # reader omits dtype=str; strip the float suffix so stage_phases keys
+    # keep matching.
+    for col in config.MANIFEST_COLUMNS:
+        if col == "scraped":
+            continue
+        df[col] = df[col].fillna("").astype(str).replace("nan", "")
+    df["source_stage_id"] = df["source_stage_id"].str.replace(r"\.0$", "", regex=True)
+    return df[config.MANIFEST_COLUMNS]
+
+
+def _stage_id_from_url(source_url: str) -> str:
+    match = STAGE_ID_PATTERN.search(source_url or "")
+    return match.group(1) if match else ""
+
+
+def _manifest_defaults_for_match(
+    competition_key: str,
+    source_url: str = "",
+    stage_id: str | None = None,
+) -> dict:
+    """Competition metadata defaults for a manifest row."""
+    competition = config.COMPETITIONS.get(competition_key, {})
+    competition_type = competition.get("competition_type", config.COMPETITION_TYPE_DOMESTIC)
+    stage = stage_id if stage_id is not None else _stage_id_from_url(source_url)
+    phase = competition.get("stage_phases", {}).get(
+        str(stage), config.PHASE_REGULAR_SEASON
+    )
+    return {
+        "competition_key": competition_key,
+        "competition_type": competition_type,
+        "source_stage_id": str(stage or ""),
+        "competition_phase": phase,
+        "source_url": source_url,
+        "validation_status": config.VALIDATION_PENDING,
+        "validated_home_team": "",
+        "validated_away_team": "",
+    }
+
+
+def merge_into_manifest(
+    existing: pd.DataFrame,
+    new_ids: list[str],
+    competition_key: str,
+    records_by_id: dict[str, dict] | None = None,
+) -> pd.DataFrame:
     """
     Merge newly discovered match IDs into the existing manifest.
     Preserves scraped=True for already-processed rows.
     New IDs get scraped=False.
     """
+    existing = _normalize_manifest_columns(existing)
+    records_by_id = records_by_id or {}
     existing_ids = set(existing["match_id"].tolist())
     truly_new = [mid for mid in new_ids if mid not in existing_ids]
 
+    # Backfill metadata for legacy rows where only match_id/scraped existed.
+    # Values are clean strings after _normalize_manifest_columns; an empty
+    # stage id is passed as None so it can be re-derived from source_url.
+    for idx, row in existing.iterrows():
+        defaults = _manifest_defaults_for_match(
+            competition_key,
+            source_url=row.get("source_url") or "",
+            stage_id=row.get("source_stage_id") or None,
+        )
+        for col, value in defaults.items():
+            current = row.get(col)
+            if pd.isna(current) or current == "":
+                existing.at[idx, col] = value
+
     if not truly_new:
         print(f"  No new match IDs (all {len(new_ids)} already in manifest).")
-        return existing
+        return existing[config.MANIFEST_COLUMNS]
 
-    new_rows = pd.DataFrame({"match_id": truly_new, "scraped": False})
+    rows = []
+    for mid in truly_new:
+        record = records_by_id.get(str(mid), {})
+        row = {
+            "match_id": str(mid),
+            "scraped": False,
+            **_manifest_defaults_for_match(
+                competition_key,
+                source_url=record.get("source_url", ""),
+                stage_id=record.get("source_stage_id"),
+            ),
+        }
+        row.update({k: v for k, v in record.items() if k in config.MANIFEST_COLUMNS})
+        rows.append(row)
+
+    new_rows = pd.DataFrame(rows)
     combined = pd.concat([existing, new_rows], ignore_index=True)
     combined = combined.sort_values("match_id").reset_index(drop=True)
     print(f"  Added {len(truly_new)} new match IDs to manifest.")
-    return combined
+    return _normalize_manifest_columns(combined)
 
 
 # ─── Entry Point ─────────────────────────────────────────────────────
@@ -423,6 +515,7 @@ def _scrape_one_league(league: str, season: str, fixture_url_override: str | Non
     print(f"  Manifest: {manifest_path}\n")
 
     all_match_ids: set[str] = set()
+    records_by_id: dict[str, dict] = {}
     for idx, fixture_url in enumerate(fixture_urls, start=1):
         if len(fixture_urls) > 1:
             print(f"\n  Stage URL {idx}/{len(fixture_urls)}")
@@ -433,6 +526,9 @@ def _scrape_one_league(league: str, season: str, fixture_url_override: str | Non
         )
         new_ids = set(stage_ids) - all_match_ids
         all_match_ids.update(stage_ids)
+        defaults = _manifest_defaults_for_match(league, source_url=fixture_url)
+        for match_id in stage_ids:
+            records_by_id.setdefault(str(match_id), defaults.copy())
         print(f"  Stage IDs: {len(stage_ids)} found, +{len(new_ids)} new for league")
 
     league_cfg = config.LEAGUES[league]
@@ -443,13 +539,16 @@ def _scrape_one_league(league: str, season: str, fixture_url_override: str | Non
         scanned_ids = scan_match_id_ranges(scan_ranges, title_markers)
         new_ids = set(scanned_ids) - all_match_ids
         all_match_ids.update(scanned_ids)
+        defaults = _manifest_defaults_for_match(league)
+        for match_id in scanned_ids:
+            records_by_id.setdefault(str(match_id), defaults.copy())
         print(f"  Range scan IDs: {len(scanned_ids)} found, +{len(new_ids)} new for league")
 
     match_ids = sorted(all_match_ids)
     print(f"\nTotal match IDs found: {len(match_ids)}")
 
     existing = load_existing_manifest(manifest_path)
-    manifest = merge_into_manifest(existing, match_ids)
+    manifest = merge_into_manifest(existing, match_ids, league, records_by_id)
     manifest.to_csv(manifest_path, index=False)
 
     scraped_count = int(manifest["scraped"].sum())

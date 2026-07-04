@@ -30,6 +30,7 @@ class AppState:
     group_df: pd.DataFrame
     raw_players_df: pd.DataFrame
     matches_df: pd.DataFrame
+    teams_df: pd.DataFrame
     position_group: str
     group_cfg: dict
     # feature flags
