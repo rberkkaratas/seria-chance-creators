@@ -29,27 +29,21 @@ class ShortlistTab(TabRenderer):
         has_league_col = state.has_league_col
         has_tm_data = state.has_tm_data
         score_col = state.score_col
-        active_role_score_cols = state.active_role_score_cols
-        active_primary_role_col = state.active_primary_role_col
+        primary_role_col = config.PRIMARY_ROLE_COL
         all_roles = state.all_roles
         rename_map = state.rename_map
-        role_score_cols = state.active_role_score_cols
+        role_score_cols = state.role_score_cols
 
         st.markdown('<p class="section-title">Player Shortlist</p>', unsafe_allow_html=True)
-
-        def _active_role_col(role: str) -> str:
-            league_col = f"{config.ROLE_SCORE_COL_PREFIX}{role}_league"
-            base_col = role_score_col(role)
-            return league_col if league_col in active_role_score_cols else base_col
 
         # ── Sort pill buttons — Overall + per-role ─────────────────────────
         _sort_labels = ["Overall"] + [
             r for r in all_roles
-            if _active_role_col(r) in filtered.columns
+            if role_score_col(r) in filtered.columns
         ]
         _sort_keys = [score_col] + [
-            _active_role_col(r) for r in all_roles
-            if _active_role_col(r) in filtered.columns
+            role_score_col(r) for r in all_roles
+            if role_score_col(r) in filtered.columns
         ]
         _prev_label = st.session_state.get("sl_sort_label")
         _default_label = _prev_label if _prev_label in _sort_labels else _sort_labels[0]
@@ -107,7 +101,7 @@ class ShortlistTab(TabRenderer):
             medals = ["🥇", "🥈", "🥉"]
             pod_cols = st.columns(3)
             for ci, (_, pr) in enumerate(podium.iterrows()):
-                pr_role  = pr.get(active_primary_role_col, "") if has_roles else ""
+                pr_role  = pr.get(primary_role_col, "") if has_roles else ""
                 pr_rc    = role_color(pr_role) if pr_role else "#0095FF"
                 pr_score = pr.get(sort_col, 0)
                 pr_lg    = LEAGUE_FLAGS.get(pr.get("league", ""), "") if has_league_col else ""
@@ -148,15 +142,15 @@ class ShortlistTab(TabRenderer):
             )
 
         bar_color = (
-            top_n[active_primary_role_col].map(role_color)
-            if has_roles and active_primary_role_col in top_n.columns
+            top_n[primary_role_col].map(role_color)
+            if has_roles and primary_role_col in top_n.columns
             else (top_n["archetype"].map(archetype_color) if has_archetypes and "archetype" in top_n.columns else "#007BFF")
         )
 
         # Background track at the axis max so bars read as fills
         _x_max  = float(top_n[sort_col].max()) * 1.18
         _x_avg  = float(ranked[sort_col].mean())
-        _is_score = sort_col == score_col or sort_col in [_active_role_col(r) for r in all_roles]
+        _is_score = sort_col == score_col or sort_col in [role_score_col(r) for r in all_roles]
         _track_max = 100.0 if _is_score else _x_max
 
         fig_bar = go.Figure()
@@ -263,7 +257,7 @@ class ShortlistTab(TabRenderer):
             config.SAMPLE_TIER_COL,
         ]
         if has_roles:
-            display_cols.append(active_primary_role_col)
+            display_cols.append(primary_role_col)
         elif has_archetypes:
             display_cols.append("archetype")
         display_cols += [score_col] + [c for c in role_score_cols if c in ranked.columns]
@@ -275,8 +269,8 @@ class ShortlistTab(TabRenderer):
         tbl.index = range(1, len(tbl) + 1)
         if has_league_col:
             tbl["league"] = tbl["league"].map(lambda l: f"{LEAGUE_FLAGS.get(l,'')} {LEAGUE_DISPLAY.get(l, l.replace('_',' '))}")
-        if has_roles and active_primary_role_col in tbl.columns:
-            tbl[active_primary_role_col] = tbl[active_primary_role_col].map(
+        if has_roles and primary_role_col in tbl.columns:
+            tbl[primary_role_col] = tbl[primary_role_col].map(
                 lambda r: r if pd.notna(r) else r
             )
         tbl_rename = {

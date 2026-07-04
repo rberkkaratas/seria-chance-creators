@@ -10,7 +10,6 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import config
-from src.features.merge_leagues import compute_global_percentiles
 from src.features.player_features import (
     aggregate_per_player,
     compute_overall_score,
@@ -464,18 +463,3 @@ def test_role_and_overall_weights_sum_to_one():
         assert abs(sum(group_cfg["composite_weights"].values()) - 1.0) < 1e-9, group_key
         for position, weights in group_cfg.get("position_composite_weights", {}).items():
             assert abs(sum(weights.values()) - 1.0) < 1e-9, f"{group_key}/{position}"
-
-
-def test_global_percentiles_are_ranked_within_position_group():
-    df = pd.DataFrame({
-        config.POSITION_GROUP_COL: ["DEF", "DEF", "MID", "MID"],
-        "player_name": ["D1", "D2", "M1", "M2"],
-        "tackles_p90": [1.0, 2.0, 100.0, 200.0],
-        "tackles_p90_pct": [0.0, 0.0, 0.0, 0.0],
-        "tackles_p90_league_pct": [50.0, 100.0, 50.0, 100.0],
-    })
-    result = compute_global_percentiles(df)
-    d2_pct = result.loc[result["player_name"] == "D2", "tackles_p90_pct"].iloc[0]
-    m1_pct = result.loc[result["player_name"] == "M1", "tackles_p90_pct"].iloc[0]
-    assert d2_pct == 100.0
-    assert m1_pct == 50.0

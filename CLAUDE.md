@@ -4,7 +4,7 @@ Guidance for Claude Code when working in this repository.
 
 ## Project Overview
 
-This is a football analytics scouting tool for outfield players across Serie A, Premier League, La Liga, Bundesliga, and Ligue 1 for the 2025/26 season. It scores players inside five position groups:
+This is a football analytics scouting tool for outfield players across ten European leagues (Serie A, Premier League, La Liga, Bundesliga, Ligue 1, Championship, Liga Portugal, Eredivisie, Jupiler Pro League, Super Lig) for the 2025/26 season. It scores players inside five position groups:
 
 - `DEF`: DC
 - `FB`: DL, DR, DML, DMR
@@ -30,6 +30,7 @@ Full scrape pipeline:
 python -m src.scraper.fixture_scraper --league all --season 2025-2026
 python -m src.scraper.whoscored_extractor --league all --season 2025-2026 --manifest
 python -m src.processing.build_tables --league all --season 2025-2026
+python -m src.enrichment.league_strength --refresh   # once per season
 python -m src.features.player_features --league all --season 2025-2026
 python -m src.enrichment.transfermarkt
 ```
@@ -48,7 +49,7 @@ fixture_scraper.py
   -> whoscored_extractor.py
   -> build_tables.py
   -> player_features.py
-  -> merge_leagues.py
+  -> merge_leagues.py   <- league_strength.py (ClubElo coefficients, cached CSV)
   -> transfermarkt.py
   -> streamlit/app.py
 ```
@@ -59,8 +60,10 @@ fixture_scraper.py
 - Flattened lookups (`ALL_ROLE_WEIGHTS`, `ALL_ROLE_COLORS`, `ALL_ROLE_DESCRIPTIONS`, `POSITION_TO_GROUP`) are generated from `POSITION_GROUPS`.
 - All role and `overall_score` weights must sum to 1.0; config import validates this.
 - Percentiles are group-scoped:
-  - `{metric}_league_pct`: within league x position group
-  - `{metric}_pct`: global all-leagues x position group after merge
+  - `{metric}_league_pct`: within league x position group (merge input + debugging; not surfaced in the UI)
+  - `{metric}_pct`: league-anchored cross-league rank within the position group after merge
+- Cross-league anchoring: merge converts each `_league_pct` to a latent z (inverse normal CDF, clipped 0.5–99.5), adds the league's strength offset, and reranks globally. Offsets come from ClubElo mean club Elo per `config.LEAGUE_CLUBELO` (country, level); `config.ELO_PER_SIGMA` is the single calibration knob and only relative offsets matter. The cache `data/enrichment/clubelo_league_strength.csv` is committed — merge never needs network. Missing leagues in the cache are a hard error, never a silent zero offset.
+- The merged output has a single scoring structure: no `role_score_*_league` or `primary_role_league` columns, and the UI has no percentile-mode toggle. `config.LEAGUE_STRENGTH_OFFSET_COL` carries each row's offset for transparency.
 - A player can qualify in multiple groups. Do not assume `player_id` is unique in final files; use `(player_id, position_group)` for feature rows.
 - `DataLoader._CANDIDATE_PATHS` intentionally only loads `all_leagues_{season}_enriched.csv` and `all_leagues_{season}.csv`.
 - `chance_creation_score`, `chance_creators*` outputs, clustering, and `streamlit/app_legacy.py` are removed.

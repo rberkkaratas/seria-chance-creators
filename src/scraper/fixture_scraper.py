@@ -65,6 +65,7 @@ FINISHED_STATUS = 6
 # with hrefs like /matches/1910749/live/... or /matches/1910749/show/...
 # Both /live/ and /show/ point to the same match — capture either.
 MATCH_ID_HREF_PATTERN = re.compile(r"/matches/(\d+)/(?:live|show)/", re.IGNORECASE)
+MATCH_DATA_PATTERN = re.compile(r"matchCentreData", re.IGNORECASE)
 
 # Confirmed button IDs from live HTML inspection.
 BTN_PREV = "#dayChangeBtn-prev"
@@ -202,7 +203,16 @@ def _navigate_direction(
         changed = _wait_for_month_change(driver, before_month)
         after_month = _get_calendar_month(driver)
 
-        if not changed:
+        # WhoScored's React calendar can update match blocks without changing
+        # the visible month label, so always parse after a click and only treat
+        # it as empty when both the label is unchanged and no new IDs appear.
+        time.sleep(1.0)
+        html = driver.page_source
+        found = extract_match_ids_from_html(html)
+        new = found - all_ids
+        all_ids |= found
+
+        if not changed and not new:
             empty_streak += 1
             print(
                 f"  [{direction}] click {click_num}: month did not change "
@@ -214,12 +224,6 @@ def _navigate_direction(
             continue
 
         empty_streak = 0
-        # Brief extra wait for React to finish rendering new match hrefs.
-        time.sleep(1.0)
-        html = driver.page_source
-        found = extract_match_ids_from_html(html)
-        new = found - all_ids
-        all_ids |= found
         print(
             f"  [{direction}] click {click_num}: {before_month} → {after_month} "
             f"| +{len(new)} new IDs (total {len(all_ids)})"
@@ -282,6 +286,73 @@ def scrape_fixture_page(fixture_url: str, max_clicks: int = 20, include_future: 
     return sorted(all_ids)
 
 
+def scan_match_id_ranges(
+    id_ranges: list[tuple[int, int]],
+    title_markers: list[str],
+    wait_seconds: float = 1.25,
+) -> list[str]:
+    """
+    Fallback fixture discovery for WhoScored pages whose React pagination
+    cannot run because CDN assets fail to load.
+
+    WhoScored league fixtures are usually allocated in compact match-ID blocks,
+    but adjacent leagues can share the same numeric area. We therefore only
+    accept IDs whose match page title contains a configured league marker and
+    whose page contains matchCentreData, because this pipeline only needs event
+    data. Event extraction later verifies whether the page exposes
+    matchCentreData.
+    """
+    if not id_ranges or not title_markers:
+        return []
+
+    found: set[str] = set()
+    total_candidates = sum(end - start + 1 for start, end in id_ranges)
+    scanned = 0
+    driver = None
+
+    def _new_scan_driver():
+        scan_driver = Driver(uc=True, headless=True, page_load_strategy="none")
+        scan_driver.set_page_load_timeout(15)
+        scan_driver.command_executor._client_config.timeout = 10
+        return scan_driver
+
+    try:
+        driver = _new_scan_driver()
+
+        for start, end in id_ranges:
+            print(f"  Scanning match ID range {start}-{end} ({end - start + 1} candidates)")
+            for match_id in range(start, end + 1):
+                scanned += 1
+                if scanned == 1 or scanned % 50 == 0 or scanned == total_candidates:
+                    print(f"    scan progress: {scanned}/{total_candidates} | found {len(found)}")
+
+                try:
+                    open_url = driver.default_get if hasattr(driver, "default_get") else driver.get
+                    open_url(f"{WHOSCORED_BASE}/Matches/{match_id}/Live/")
+                    time.sleep(wait_seconds)
+                    driver.execute_script("window.stop();")
+                    title = driver.execute_script("return document.title || '';") or ""
+                    if not any(marker in title for marker in title_markers):
+                        continue
+
+                    found.add(str(match_id))
+                    print(f"    + {match_id}: {title}")
+                except Exception as exc:
+                    print(f"    [!] scan failed for {match_id}: {exc}")
+                    try:
+                        driver.quit()
+                    except Exception:
+                        pass
+                    time.sleep(1.0)
+                    driver = _new_scan_driver()
+                    continue
+    finally:
+        if driver:
+            driver.quit()
+
+    return sorted(found)
+
+
 # ─── Manifest Management ─────────────────────────────────────────────
 
 def load_existing_manifest(path) -> pd.DataFrame:
@@ -313,26 +384,68 @@ def merge_into_manifest(existing: pd.DataFrame, new_ids: list[str]) -> pd.DataFr
 
 # ─── Entry Point ─────────────────────────────────────────────────────
 
+def _normalize_fixture_url(fixture_url: str) -> str:
+    """Return a fully-qualified WhoScored fixtures URL."""
+    if fixture_url.startswith("http"):
+        return fixture_url
+    return WHOSCORED_BASE + fixture_url
+
+
+def _fixture_urls_for_league(league: str, fixture_url_override: str | None) -> list[str]:
+    """Return primary plus extra fixture URLs for a league, unless overridden."""
+    if fixture_url_override:
+        return [_normalize_fixture_url(fixture_url_override)]
+
+    league_cfg = config.LEAGUES[league]
+    raw_urls = [
+        league_cfg.get("fixture_url", ""),
+        *league_cfg.get("extra_fixture_urls", []),
+    ]
+    return [_normalize_fixture_url(url) for url in raw_urls if url]
+
+
 def _scrape_one_league(league: str, season: str, fixture_url_override: str | None, max_clicks: int, include_future: bool = False):
     """Scrape fixture IDs for a single league and write/update its manifest."""
-    fixture_url = fixture_url_override or config.LEAGUES[league].get("fixture_url", "")
-    if not fixture_url:
+    fixture_urls = _fixture_urls_for_league(league, fixture_url_override)
+    if not fixture_urls:
         print(
             f"[!] No fixture URL for {league} {season}.\n"
             f"    Set config.LEAGUES['{league}']['fixture_url'] or pass --fixture-url."
         )
         return
 
-    if not fixture_url.startswith("http"):
-        fixture_url = WHOSCORED_BASE + fixture_url
-
     manifest_path = config.get_match_ids_path(league, season)
 
     print(f"\nScraping fixtures: {config.LEAGUES[league]['display_name']} {season}")
-    print(f"  URL:      {fixture_url}")
+    print(f"  URLs:     {len(fixture_urls)}")
+    for idx, fixture_url in enumerate(fixture_urls, start=1):
+        print(f"    {idx}. {fixture_url}")
     print(f"  Manifest: {manifest_path}\n")
 
-    match_ids = scrape_fixture_page(fixture_url, max_clicks=max_clicks, include_future=include_future)
+    all_match_ids: set[str] = set()
+    for idx, fixture_url in enumerate(fixture_urls, start=1):
+        if len(fixture_urls) > 1:
+            print(f"\n  Stage URL {idx}/{len(fixture_urls)}")
+        stage_ids = scrape_fixture_page(
+            fixture_url,
+            max_clicks=max_clicks,
+            include_future=include_future,
+        )
+        new_ids = set(stage_ids) - all_match_ids
+        all_match_ids.update(stage_ids)
+        print(f"  Stage IDs: {len(stage_ids)} found, +{len(new_ids)} new for league")
+
+    league_cfg = config.LEAGUES[league]
+    scan_ranges = league_cfg.get("id_scan_ranges", [])
+    title_markers = league_cfg.get("match_title_markers", [])
+    if scan_ranges:
+        print("\n  Running match ID range scan fallback...")
+        scanned_ids = scan_match_id_ranges(scan_ranges, title_markers)
+        new_ids = set(scanned_ids) - all_match_ids
+        all_match_ids.update(scanned_ids)
+        print(f"  Range scan IDs: {len(scanned_ids)} found, +{len(new_ids)} new for league")
+
+    match_ids = sorted(all_match_ids)
     print(f"\nTotal match IDs found: {len(match_ids)}")
 
     existing = load_existing_manifest(manifest_path)

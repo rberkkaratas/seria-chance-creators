@@ -419,7 +419,7 @@ class ExploreTab(TabRenderer):
                                 best_quadrant=cfg["best_quadrant"],
                                 top_n_annotate=5,
                                 highlight_col=score_col,
-                                subtitle="Top 5 Leagues · 2025/26",
+                                subtitle="European Leagues · 2025/26",
                                 height=400,
                             )
                             st.plotly_chart(fig, use_container_width=True)

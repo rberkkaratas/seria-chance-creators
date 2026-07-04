@@ -18,7 +18,7 @@ class AboutTab(TabRenderer):
     def render(self, state: AppState) -> None:
         st.markdown("## About This Project")
         st.markdown(
-            "This dashboard profiles outfield players across the top 5 European leagues "
+            "This dashboard profiles outfield players across major European leagues "
             "using WhoScored match event data. Goalkeepers are intentionally excluded until GK-specific "
             "events such as saves, claims, and punches are parsed."
         )
@@ -38,7 +38,6 @@ class AboutTab(TabRenderer):
 | **Age range** | Restrict to an age window. |
 | **Positions** | Narrow within the active WhoScored position group. |
 | **Role** | Filter by primary role inside the selected group. |
-| **Percentile mode** | All-leagues global rank or within-league rank, both computed inside the active group. |
 | **Transfer filters** | Market value and feasibility when Transfermarkt enrichment is available. |
             """)
 
@@ -63,7 +62,7 @@ WhoScored fixture pages
   -> whoscored_extractor.py
   -> build_tables.py
   -> player_features.py
-  -> merge_leagues.py
+  -> merge_leagues.py   <- league_strength.py (ClubElo coefficients, cached)
   -> transfermarkt.py
   -> Streamlit dashboard
 ```
@@ -92,8 +91,13 @@ WhoScored fixture pages
                 "Before percentile ranking, low-sample metrics are shrunk toward the active pool median "
                 "using minutes, appearances, starts, and start rate. "
                 "Percentiles are computed within the active position group: per-league outputs write "
-                "`{metric}_league_pct`, and the merge step overwrites `{metric}_pct` with the global "
-                "rank inside the same group. Role scores are weighted averages of those percentile ranks. "
+                "`{metric}_league_pct`, and the merge step converts each within-league percentile to a "
+                "latent z-score (inverse normal CDF, clipped to 0.5–99.5), shifts it by a per-league "
+                "strength offset, and reranks within the cross-league group to produce `{metric}_pct`. "
+                f"Strength offsets come from ClubElo mean club Elo per league "
+                f"({config.ELO_PER_SIGMA:.0f} Elo per standard deviation), so equal within-league "
+                "standing counts for more in a stronger league. "
+                "Role scores are weighted averages of those percentile ranks. "
                 "Overall score is computed inside cleaner tactical pools: centre-backs, fullbacks, "
                 "central midfielders, wingers, and forwards use separate role blends. "
                 "Role and overall scores are also pulled toward 50 when score confidence is low."
@@ -115,7 +119,7 @@ WhoScored fixture pages
 - Goalkeepers are excluded because GK event parsing is not implemented yet.
 - Substitute appearances are assigned to the player's primary known outfield position; sub-only players without a known outfield position remain excluded.
 - WhoScored position labels can differ from a player's real tactical role.
-- Winger and forward pools are smaller per league, so all-leagues percentile mode is usually more stable for wide/forward scouting.
+- League strength offsets are league-wide constants: they correct the average level gap, not team-specific context inside a league.
 - Existing processed data is enough for the new role scores, but event-level fixes require newly scraped raw events.
             """)
 

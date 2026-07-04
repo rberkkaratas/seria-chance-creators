@@ -32,7 +32,6 @@ Position Group -> Filters -> Shortlist -> Scout Report -> Compare
 | Min. minutes | Counts only minutes played in the active group. Default is 180; 600 minutes is the full-sample confidence point. |
 | Positions | WhoScored positions inside the active group. |
 | Role | Primary roles from the active group only. |
-| Percentile mode | All-leagues or within-league percentiles, both group-scoped. |
 | Market filters | Available after Transfermarkt enrichment. |
 
 ## Tabs
@@ -46,12 +45,16 @@ Position Group -> Filters -> Shortlist -> Scout Report -> Compare
 | Explore | Group-specific lenses and statistical profile scatter plots. |
 | League Overview | League identity and role strength comparisons for the active group. |
 
-## Percentile Modes
+## Percentiles
 
-- `{metric}_league_pct`: rank within league x position group.
-- `{metric}_pct`: rank within all-leagues x position group after merge.
+- `{metric}_league_pct`: rank within league x position group. Kept in the CSVs as the merge input and for debugging; not shown in the dashboard.
+- `{metric}_pct`: league-adjusted cross-league rank within the position group. The merge step converts each within-league percentile to a latent z-score, shifts it by a per-league strength offset (ClubElo mean club Elo, `config.ELO_PER_SIGMA` Elo per SD), and reranks globally.
 
-The dashboard switches role scores and radar values between these two modes when league score columns are present.
+All role scores, radar values, and `overall_score` in the dashboard use the league-adjusted `_pct` columns — there is no percentile mode toggle. Refresh coefficients once per season with:
+
+```bash
+python -m src.enrichment.league_strength --refresh
+```
 
 ## Score Confidence
 

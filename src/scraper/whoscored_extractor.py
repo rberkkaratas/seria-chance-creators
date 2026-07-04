@@ -33,7 +33,7 @@ import config
 
 def parse_arguments():
     parser = argparse.ArgumentParser(
-        description="WhoScored Event Data Scraper — Top 5 Leagues"
+        description="WhoScored Event Data Scraper — configured leagues"
     )
     parser.add_argument(
         "--league", default=config.LEAGUE,

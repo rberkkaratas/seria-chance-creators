@@ -20,16 +20,11 @@ class LeagueOverviewTab(TabRenderer):
         df = state.group_df
         has_league_col = state.has_league_col
         has_roles = state.has_roles
-        role_score_cols = state.active_role_score_cols
+        role_score_cols = state.role_score_cols
         all_roles = state.all_roles
         score_col = state.score_col
-        active_primary_role_col = state.active_primary_role_col
+        primary_role_col = config.PRIMARY_ROLE_COL
         group_cfg = state.group_cfg
-
-        def _active_role_col(role: str) -> str:
-            league_col = f"{config.ROLE_SCORE_COL_PREFIX}{role}_league"
-            base_col = role_score_col(role)
-            return league_col if league_col in role_score_cols else base_col
 
         # Access filter values from df + filtered for the overview mask
         # The overview uses full df filtered only by minutes/age/position
@@ -62,11 +57,13 @@ class LeagueOverviewTab(TabRenderer):
             st.info("Load data for multiple leagues to see the League Overview.")
             return
 
+        _league_colors = [
+            "#0095FF", "#FF5252", "#00C896", "#FF9800", "#B450FF",
+            "#FFC400", "#14B8A6", "#EC4899", "#84CC16", "#38BDF8",
+        ]
         _lg_palette = {
-            lg: c for lg, c in zip(
-                leagues_in_ov,
-                ["#0095FF", "#FF5252", "#00C896", "#FF9800", "#B450FF", "#FFC400"],
-            )
+            lg: _league_colors[i % len(_league_colors)]
+            for i, lg in enumerate(leagues_in_ov)
         }
         _role_abbrev_lg = {role: role.replace("Ball-Playing ", "BP ") for role in all_roles}
 
@@ -79,7 +76,7 @@ class LeagueOverviewTab(TabRenderer):
         for _lg in leagues_in_ov:
             _lgdf = ov_df[ov_df["league"] == _lg]
             _lg_avgs[_lg] = {
-                r: (_lgdf[_active_role_col(r)].mean() if _active_role_col(r) in _lgdf.columns else 0.0)
+                r: (_lgdf[role_score_col(r)].mean() if role_score_col(r) in _lgdf.columns else 0.0)
                 for r in all_roles
             }
             if has_tm_data:
@@ -89,7 +86,7 @@ class LeagueOverviewTab(TabRenderer):
         # ── Header ──────────────────────────────────────────────────────────
         st.markdown('<p class="section-title">League Identity</p>', unsafe_allow_html=True)
         st.markdown(
-            f"Each of Europe's top five leagues has a distinct {group_cfg['display_name'].lower()} profile — shaped "
+            f"Each configured European league has a distinct {group_cfg['display_name'].lower()} profile — shaped "
             "by tactical culture, coaching philosophy, and recruitment patterns. "
             "This page reveals those identities through the active tactical role set."
         )
@@ -232,9 +229,9 @@ class LeagueOverviewTab(TabRenderer):
             for _lg in leagues_in_ov:
                 _ldf = ov_df[
                     (ov_df["league"] == _lg) &
-                    (ov_df.get(active_primary_role_col, pd.Series(dtype=str)) == _role)
-                ] if active_primary_role_col in ov_df.columns else pd.DataFrame()
-                _sc_r = _active_role_col(_role)
+                    (ov_df.get(primary_role_col, pd.Series(dtype=str)) == _role)
+                ] if primary_role_col in ov_df.columns else pd.DataFrame()
+                _sc_r = role_score_col(_role)
                 if len(_ldf) > 0 and _sc_r in _ldf.columns:
                     _best = _ldf.nlargest(1, _sc_r).iloc[0]
                     _row[league_badge(_lg)] = f"{_best['player_name']} · {_best[_sc_r]:.0f}"

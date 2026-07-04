@@ -81,7 +81,9 @@ WhoScored fixture pages
 
 - **`src/features/chance_creation.py`** — Filters midfielders using **position-aware minutes** (only midfield appearances count toward the 600-min threshold — a bug previously counted all-position minutes; tests `test_filter_midfielders_*` guard this). Computes per-90 rates and rate stats. Computes percentile ranks within the league. Runs `compute_role_scores()` which scores each player 0–100 on all 6 roles and assigns `primary_role`. Writes `last_updated.txt` after saving.
 
-- **`src/features/merge_leagues.py`** — Concatenates per-league CSVs, overwrites `{metric}_pct` with global (cross-league) percentile ranks (preserving `{metric}_league_pct`), recomputes global role scores, and renames per-league role columns to `{col}_league`. Writes `last_updated.txt` after saving.
+- **`src/features/merge_leagues.py`** — Concatenates per-league CSVs, overwrites `{metric}_pct` with league-anchored cross-league percentiles (each `{metric}_league_pct` → latent z via inverse normal CDF → + per-league ClubElo strength offset → rerank within position group; `_league_pct` is preserved as input/debug), then recomputes global role scores and `overall_score` in place — no `*_league` role-score copies. Writes `last_updated.txt` after saving.
+
+- **`src/enrichment/league_strength.py`** — Fetches ClubElo ratings, reduces them to mean Elo per league via `config.LEAGUE_CLUBELO` (country, level), and caches to `data/enrichment/clubelo_league_strength.csv` (committed — merge needs no network). Offsets are computed at merge time, centered on the loaded league pool; `config.ELO_PER_SIGMA` is the single calibration knob.
 
 - **`src/enrichment/transfermarkt.py`** — Scrapes market value, contract expiry, and transfer feasibility from Transfermarkt squad pages. Uses a local cache (`data/enrichment/tm_squads_cache.csv`) and persistent name-matching results (`data/enrichment/tm_player_mapping.csv`). Manual overrides in `data/enrichment/tm_manual_players.csv`.
 
@@ -110,7 +112,7 @@ WhoScored fixture pages
 - **Qualifier naming constants**: `build_tables.py` defines module-level constants (`_Q_KEY_PASS`, `_Q_THROUGH_BALL`, `_Q_LONG_BALL`, `_Q_CROSS`, `_Q_INTENTIONAL_ASSIST`) for all WhoScored displayName strings. Never use raw strings in new qualifier checks — add a constant.
 - **Assist detection dual-path**: Primary signal is event-type 92 in `satisfiedEventsTypes` (pass directly preceded a goal). Fallback to `IntentionalAssist` qualifier only when `satisfiedEventsTypes` is absent (unit test context). Do not use `IntentionalAssist` as the primary signal — it appears on all key passes, not just those that led to goals.
 - **Position-aware filtering**: `chance_creation.py` aggregates minutes per position before applying the 600-min threshold. Tests `test_filter_midfielders_*` guard this invariant.
-- **Dual percentile columns**: Each metric has `{metric}_league_pct` (within-league, permanent) and `{metric}_pct` (global, overwritten by merge step). The dashboard sidebar toggle controls which set is used.
+- **Percentile columns**: Each metric has `{metric}_league_pct` (within-league, permanent; merge input and debugging only) and `{metric}_pct` (league-anchored cross-league rank, overwritten by the merge step). The dashboard uses only the `_pct` set — there is no percentile-mode toggle.
 - **Role scoring**: Role scores are weighted averages of percentile ranks. All weights sum to 1.0 (enforced by test). All percentiles are computed within the filtered midfielder group.
 - **Composite weights** (`config.COMPOSITE_WEIGHTS`) are domain-driven and retained for backward compatibility (radar charts, legacy CSV). Do not change them without a specific reason.
 - **`DataLoader._CANDIDATE_PATHS`**: Adding a new output file format → append to this list. Do not add new `if path.exists()` branches.

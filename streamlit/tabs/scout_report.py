@@ -31,21 +31,14 @@ class ScoutReportTab(TabRenderer):
         has_tm_data = state.has_tm_data
         has_league_col = state.has_league_col
         score_col = state.score_col
-        active_role_score_cols = state.active_role_score_cols
+        role_score_cols = state.role_score_cols
         core_metrics = state.core_metrics
         pct_cols = state.pct_cols
-        active_pct_suffix = state.active_pct_suffix
-        league_mode = state.league_mode
         raw_players_df = state.raw_players_df
         matches_df = state.matches_df
-        active_primary_role_col = state.active_primary_role_col
+        primary_role_col = config.PRIMARY_ROLE_COL
         role_weights = state.group_cfg["roles"]
         all_roles = list(role_weights.keys())
-
-        def _active_role_col(role: str) -> str:
-            league_col = f"{config.ROLE_SCORE_COL_PREFIX}{role}_league"
-            base_col = role_score_col(role)
-            return league_col if league_col in active_role_score_cols else base_col
 
         st.markdown('<p class="section-title">Scout Report</p>', unsafe_allow_html=True)
 
@@ -70,7 +63,7 @@ class ScoutReportTab(TabRenderer):
             row       = filtered[filtered["player_name"] == selected_player].iloc[0]
             score_val = float(row.get(score_col, 0) or 0)
             arch      = row.get("archetype", "") if has_archetypes else ""
-            prim_role = row.get(active_primary_role_col, "") if has_roles else ""
+            prim_role = row.get(primary_role_col, "") if has_roles else ""
             bar_col   = role_color(prim_role) if prim_role else (archetype_color(arch) if arch else "#0095FF")
 
             # League and global ranks
@@ -133,6 +126,13 @@ class ScoutReportTab(TabRenderer):
                 f'{LEAGUE_FLAGS.get(player_league,"")} {LEAGUE_DISPLAY.get(player_league, player_league.replace("_"," "))}'
                 if player_league else ""
             )
+            _strength_off = row.get(config.LEAGUE_STRENGTH_OFFSET_COL)
+            if _league_badge_str and pd.notna(_strength_off):
+                _league_badge_str += (
+                    f' <span style="color:#64748b;font-size:0.72rem" '
+                    f'title="League strength offset applied to cross-league percentiles">'
+                    f'{float(_strength_off):+.2f}σ</span>'
+                )
             _role_arch_str = "&nbsp;·&nbsp;<em>" + (prim_role or arch) + "</em>" if (prim_role or arch) else ""
             _league_str    = "&nbsp;·&nbsp;" + _league_badge_str if _league_badge_str else ""
 
@@ -197,13 +197,13 @@ class ScoutReportTab(TabRenderer):
                 role: config.ALL_ROLE_DESCRIPTIONS.get(role, "contributes to the active tactical role set").lower()
                 for role in all_roles
             }
-            _role_score_val = float(row.get(_active_role_col(prim_role), 0) or 0) if prim_role else 0.0
+            _role_score_val = float(row.get(role_score_col(prim_role), 0) or 0) if prim_role else 0.0
             _surname = selected_player.split()[-1]
 
             _role_met_list = list(role_weights.get(prim_role, {}).keys()) if prim_role else []
             _role_mpcts = sorted(
-                [(label(m), float(row.get(f"{m}{active_pct_suffix}", 0) or 0))
-                 for m in _role_met_list if f"{m}{active_pct_suffix}" in row.index],
+                [(label(m), float(row.get(f"{m}_pct", 0) or 0))
+                 for m in _role_met_list if f"{m}_pct" in row.index],
                 key=lambda x: x[1], reverse=True,
             )
             _narrative = ""
@@ -224,7 +224,7 @@ class ScoutReportTab(TabRenderer):
             _all_mpcts: list[tuple[str, float, str]] = []
             _seen_m: set[str] = set()
             for _m in list({m2 for w in role_weights.values() for m2 in w} | set(core_metrics)):
-                _pc = f"{_m}{active_pct_suffix}"
+                _pc = f"{_m}_pct"
                 if _pc in row.index and pd.notna(row[_pc]) and _m not in _seen_m:
                     _all_mpcts.append((label(_m), float(row[_pc]), _m))
                     _seen_m.add(_m)
@@ -237,25 +237,24 @@ class ScoutReportTab(TabRenderer):
 
             with col_radar:
                 if pct_cols:
-                    _pct_label = "Within league" if league_mode else "All leagues"
-                    st.caption(f"Radar percentiles: {_pct_label}")
+                    st.caption("Radar percentiles: all leagues (league-adjusted)")
                     fig_radar = create_radar_chart(
-                        state.player_view_dict(row),
+                        row.to_dict(),
                         metrics=core_metrics, title="",
                     )
                     st.plotly_chart(fig_radar, use_container_width=True)
 
             with col_right:
                 # ── Role scores — compact HTML bars ────────────────────────
-                if has_roles and active_role_score_cols:
+                if has_roles and role_score_cols:
                     def _hex_to_rgba(hex_color: str, alpha: float) -> str:
                         h = hex_color.lstrip("#")
                         rv, gv, bv = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
                         return f"rgba({rv},{gv},{bv},{alpha})"
 
                     _role_bars_html = ""
-                    for _rc in active_role_score_cols:
-                        _rn  = _rc.replace(config.ROLE_SCORE_COL_PREFIX, "").replace("_league", "")
+                    for _rc in role_score_cols:
+                        _rn  = _rc.replace(config.ROLE_SCORE_COL_PREFIX, "")
                         _rv  = float(row.get(_rc, 0) or 0)
                         _rc2 = role_color(_rn)
                         _is_prim = (_rn == prim_role)
@@ -280,9 +279,7 @@ class ScoutReportTab(TabRenderer):
                     # Peer rank
                     _peer_rank_html = ""
                     if prim_role:
-                        _role_col = f"{config.ROLE_SCORE_COL_PREFIX}{prim_role}"
-                        if _active_role_col(prim_role) in filtered.columns:
-                            _role_col = _active_role_col(prim_role)
+                        _role_col = role_score_col(prim_role)
                         if _role_col in filtered.columns:
                             _sorted_peers = filtered.sort_values(_role_col, ascending=False).reset_index(drop=True)
                             _peer_match   = _sorted_peers[_sorted_peers["player_name"] == selected_player]
@@ -456,7 +453,7 @@ class ScoutReportTab(TabRenderer):
                 for _si, (_srow, _ssim, _sov) in enumerate(_top_similar):
                     _sname     = _srow["player_name"]
                     _steam     = _srow.get("team_name", "")
-                    _srole     = _srow.get(active_primary_role_col, "") if has_roles else ""
+                    _srole     = _srow.get(primary_role_col, "") if has_roles else ""
                     _src       = role_color(_srole) if _srole else "#334155"
                     _sscore    = float(_srow.get(score_col, 0) or 0)
                     _sage_raw  = _srow.get("age")

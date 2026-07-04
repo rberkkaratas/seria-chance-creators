@@ -17,6 +17,7 @@ Output:
 """
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 import re
 import sys
@@ -41,8 +42,10 @@ MANUAL_PLAYERS  = config.DATA_ENRICHMENT / "tm_manual_players.csv"
 TM_BASE         = "https://www.transfermarkt.com"
 TM_KADER_SEASON = int(config.SEASON.split("-")[0])   # e.g. 2025 from "2025-2026"
 
-# Keywords that identify the "contract until" column header in both EN and DE
-_CONTRACT_HEADER_KEYWORDS = {"contract until", "vertrag bis", "contract expires"}
+# Substrings that identify the contract-expiry column header in both EN and DE.
+# In-season kader pages label it "Contract" / "Contract until" / "Vertrag bis";
+# past-season pages drop the column entirely (contract data is then unavailable).
+_CONTRACT_HEADER_KEYWORDS = {"contract", "vertrag"}
 
 
 # ─── Persistent cache / mapping I/O ──────────────────────────────────
@@ -83,9 +86,122 @@ def _dedupe_mapping_by_player_id(mapping: pd.DataFrame) -> pd.DataFrame:
 
 # ─── Scraping ─────────────────────────────────────────────────────────
 
-def fetch_tm_squad_data(refresh: bool = False) -> pd.DataFrame:
+def _resolve_league_keys(leagues: Optional[list[str]]) -> list[str]:
+    if not leagues:
+        return list(config.TM_LEAGUE_URLS)
+
+    requested: list[str] = []
+    for raw in leagues:
+        requested.extend(part.strip() for part in raw.split(",") if part.strip())
+
+    if not requested or "all" in requested:
+        return list(config.TM_LEAGUE_URLS)
+
+    invalid = sorted(set(requested) - set(config.TM_LEAGUE_URLS))
+    if invalid:
+        valid = ", ".join(config.TM_LEAGUE_URLS)
+        raise ValueError(f"Unknown Transfermarkt league(s): {', '.join(invalid)}. Valid: {valid}")
+
+    return list(dict.fromkeys(requested))
+
+
+def _season_pinned_league_url(league_url: str) -> str:
     """
-    Return a DataFrame of squad players from all top-5 leagues with market
+    Pin a TM competition page to the configured season.
+
+    Without saison_id, TM serves the *current* season's team set — at season
+    boundaries that is the following season, which silently drops relegated /
+    otherwise-departed clubs from the scrape and leaves their players unmatched.
+    """
+    return f"{league_url.rstrip('/')}/plus/?saison_id={TM_KADER_SEASON}"
+
+
+def _scrape_league_with_driver(driver, league_key: str) -> list[dict]:
+    league_url = _season_pinned_league_url(config.TM_LEAGUE_URLS[league_key])
+    display = config.LEAGUES[league_key]["display_name"]
+    league_players: list[dict] = []
+
+    print(f"[TM] Opening {display} page …")
+    driver.get(league_url)
+    time.sleep(config.PAGE_LOAD_WAIT)
+    team_urls = _parse_team_urls(driver.page_source)
+    if not team_urls:
+        # Cloudflare interstitials / slow loads can leave an empty page — retry once
+        logger.warning("No team URLs parsed for %s — retrying once …", display)
+        driver.get(league_url)
+        time.sleep(config.PAGE_LOAD_WAIT + config.PAGE_LOAD_WAIT_EXTENDED)
+        team_urls = _parse_team_urls(driver.page_source)
+    print(f"[TM] Found {len(team_urls)} teams in {display}.")
+
+    if not team_urls:
+        logger.warning(
+            "Could not parse any team URLs for %s — skipping. "
+            "The page structure may have changed.", display
+        )
+        return league_players
+
+    for i, (team_name, kader_url) in enumerate(team_urls.items(), 1):
+        print(f"[TM] {display} ({i}/{len(team_urls)}) Scraping {team_name} …")
+        driver.get(kader_url)
+        time.sleep(config.PAGE_LOAD_WAIT)
+
+        players = _parse_kader_table(driver.page_source, team_name)
+        if not players:
+            logger.warning("[%s] No players parsed — retrying once …", team_name)
+            driver.get(kader_url)
+            time.sleep(config.PAGE_LOAD_WAIT + config.PAGE_LOAD_WAIT_EXTENDED)
+            players = _parse_kader_table(driver.page_source, team_name)
+        for player in players:
+            player["tm_league_key"] = league_key
+        league_players.extend(players)
+        print(f"         → {len(players)} players parsed")
+
+    return league_players
+
+
+def _scrape_single_league(league_key: str) -> pd.DataFrame:
+    from seleniumbase import Driver
+
+    driver = Driver(uc=True, headless=False)
+    try:
+        return pd.DataFrame(_scrape_league_with_driver(driver, league_key))
+    finally:
+        driver.quit()
+
+
+def _merge_scraped_squads_with_cache(scraped: pd.DataFrame, league_keys: list[str]) -> pd.DataFrame:
+    if not SQUADS_CACHE.exists():
+        return scraped
+
+    existing = pd.read_csv(SQUADS_CACHE)
+    if existing.empty:
+        return scraped
+
+    if "tm_league_key" in existing.columns:
+        existing = existing[~existing["tm_league_key"].isin(league_keys)].copy()
+
+    if "tm_team_name" in scraped.columns and "tm_team_name" in existing.columns:
+        scraped_teams = set(scraped["tm_team_name"].dropna())
+        existing = existing[~existing["tm_team_name"].isin(scraped_teams)].copy()
+
+    merged = pd.concat([existing, scraped], ignore_index=True)
+    sort_cols = [
+        col for col in ["tm_league_key", "tm_team_name", "tm_player_name"]
+        if col in merged.columns
+    ]
+    if sort_cols:
+        merged = merged.sort_values(sort_cols, kind="stable").reset_index(drop=True)
+    return merged
+
+
+def fetch_tm_squad_data(
+    refresh: bool = False,
+    leagues: Optional[list[str]] = None,
+    parallel: bool = False,
+    workers: Optional[int] = None,
+) -> pd.DataFrame:
+    """
+    Return a DataFrame of squad players from configured leagues with market
     value and contract expiry. Uses a local cache; pass refresh=True to re-scrape.
 
     Columns: tm_player_name, tm_team_name, market_value_eur, contract_expires
@@ -94,42 +210,44 @@ def fetch_tm_squad_data(refresh: bool = False) -> pd.DataFrame:
         logger.info("Loading TM squads from cache: %s", SQUADS_CACHE)
         return pd.read_csv(SQUADS_CACHE)
 
-    from seleniumbase import Driver
+    league_keys = _resolve_league_keys(leagues)
+    all_league_keys = list(config.TM_LEAGUE_URLS)
+    refresh_all = set(league_keys) == set(all_league_keys)
 
-    all_players: list[dict] = []
+    if parallel and len(league_keys) > 1:
+        max_workers = min(workers or len(league_keys), len(league_keys))
+        print(f"[TM] Parallel refresh for {len(league_keys)} league(s), workers={max_workers}")
+        frames: list[pd.DataFrame] = []
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {
+                executor.submit(_scrape_single_league, league_key): league_key
+                for league_key in league_keys
+            }
+            for future in as_completed(futures):
+                league_key = futures[future]
+                try:
+                    frames.append(future.result())
+                except Exception:
+                    logger.exception("Transfermarkt scrape failed for %s", league_key)
+                    raise
+        df = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+    else:
+        from seleniumbase import Driver
 
-    # headless=False: TM is stricter than WhoScored about headless detection.
-    # A browser window will be visible during the scrape, then close.
-    driver = Driver(uc=True, headless=False)
-    try:
-        for league_key, league_url in config.TM_LEAGUE_URLS.items():
-            display = config.LEAGUES[league_key]["display_name"]
-            print(f"[TM] Opening {display} page …")
-            driver.get(league_url)
-            time.sleep(config.PAGE_LOAD_WAIT)
-            team_urls = _parse_team_urls(driver.page_source)
-            print(f"[TM] Found {len(team_urls)} teams in {display}.")
+        all_players: list[dict] = []
+        # headless=False: TM is stricter than WhoScored about headless detection.
+        # A browser window will be visible during the scrape, then close.
+        driver = Driver(uc=True, headless=False)
+        try:
+            for league_key in league_keys:
+                all_players.extend(_scrape_league_with_driver(driver, league_key))
+        finally:
+            driver.quit()
+        df = pd.DataFrame(all_players)
 
-            if not team_urls:
-                logger.warning(
-                    "Could not parse any team URLs for %s — skipping. "
-                    "The page structure may have changed.", display
-                )
-                continue
+    if not refresh_all:
+        df = _merge_scraped_squads_with_cache(df, league_keys)
 
-            for i, (team_name, kader_url) in enumerate(team_urls.items(), 1):
-                print(f"[TM] ({i}/{len(team_urls)}) Scraping {team_name} …")
-                driver.get(kader_url)
-                time.sleep(config.PAGE_LOAD_WAIT)
-
-                players = _parse_kader_table(driver.page_source, team_name)
-                all_players.extend(players)
-                print(f"         → {len(players)} players parsed")
-
-    finally:
-        driver.quit()
-
-    df = pd.DataFrame(all_players)
     config.DATA_ENRICHMENT.mkdir(parents=True, exist_ok=True)
     df.to_csv(SQUADS_CACHE, index=False)
     print(f"[TM] Cached {len(df)} players → {SQUADS_CACHE}")
@@ -174,9 +292,11 @@ def _parse_team_urls(html: str) -> dict[str, str]:
                 continue
 
             seen.add(verein_id)
+            # /plus/1 requests the detailed squad view — the compact default
+            # no longer carries the "Contract until" column.
             kader_url = (
                 f"{TM_BASE}/{slug}/kader/verein/{verein_id}"
-                f"/saison_id/{TM_KADER_SEASON}"
+                f"/saison_id/{TM_KADER_SEASON}/plus/1"
             )
             team_urls[team_name] = kader_url
 
@@ -224,7 +344,8 @@ def _parse_kader_table(html: str, team_name: str) -> list[dict]:
     if thead:
         ths = thead.find_all("th")
         for i, th in enumerate(ths):
-            if th.get_text(strip=True).lower() in _CONTRACT_HEADER_KEYWORDS:
+            th_text = th.get_text(strip=True).lower()
+            if any(keyword in th_text for keyword in _CONTRACT_HEADER_KEYWORDS):
                 contract_col = i
                 break
 
@@ -240,12 +361,17 @@ def _parse_kader_table(html: str, team_name: str) -> list[dict]:
 
         # Player name: first td with class "hauptlink" (but not "rechts hauptlink")
         name: Optional[str] = None
+        tm_player_id: Optional[str] = None
         for td in tds:
             classes = td.get("class") or []
             if "hauptlink" in classes and "rechts" not in classes:
                 a_tag = td.find("a")
                 if a_tag:
                     name = a_tag.get_text(strip=True)
+                    href = a_tag.get("href", "")
+                    m = re.search(r"/profil/spieler/(\d+)", href)
+                    if m:
+                        tm_player_id = m.group(1)
                     break
 
         if not name:
@@ -259,23 +385,17 @@ def _parse_kader_table(html: str, team_name: str) -> list[dict]:
                 mv_eur = _parse_market_value(td.get_text(strip=True))
                 break
 
-        # Contract expiry: by detected column index first, then fallback scan
+        # Contract expiry: only from an explicitly detected contract column.
+        # Never scan other cells for years — the "Joined" column also holds
+        # dates, and misreading a January signing date as a contract expiry
+        # silently corrupts transfer_feasibility.
         contract_until: Optional[int] = None
         if contract_col is not None and contract_col < len(tds):
             contract_until = _parse_contract_year(tds[contract_col].get_text(strip=True))
 
-        if contract_until is None:
-            # Fallback: scan centered cells for a future year (avoids DOB years)
-            for td in tds:
-                if "zentriert" not in (td.get("class") or []):
-                    continue
-                year = _parse_contract_year(td.get_text(strip=True))
-                if year and year >= config.TM_CURRENT_SEASON_END_YEAR:
-                    contract_until = year
-                    break
-
         players.append({
             "tm_player_name":  name,
+            "tm_player_id":    tm_player_id,
             "tm_team_name":    team_name,
             "market_value_eur": mv_eur,
             "contract_expires": contract_until,
@@ -336,13 +456,32 @@ def _normalize_name(name: str) -> str:
     return normalized.encode("ascii", "ignore").decode("ascii").lower().strip()
 
 
-# WhoScored uses short/abbrev team names that fuzzy-matching can't resolve.
+# WhoScored uses short/abbrev team names that fuzzy-matching can't resolve
+# (or worse, resolves to the wrong club: "Sporting Charleroi" → "Sporting CP").
 # Map them explicitly to the TM full name.
 _WS_TEAM_ALIASES: dict[str, str] = {
-    "PSG":     "Paris Saint-Germain",
-    "Man Utd": "Manchester United",
-    "Rennes":  "Stade Rennais FC",
-    "RBL":     "RB Leipzig",
+    "PSG":       "Paris Saint-Germain",
+    "Man Utd":   "Manchester United",
+    "Man City":  "Manchester City",
+    "West Ham":  "West Ham United",
+    "Wolves":    "Wolverhampton Wanderers",
+    "Burnley":   "Burnley FC",
+    "Rennes":    "Stade Rennais FC",
+    "RBL":       "RB Leipzig",
+    "FC Koln":   "1.FC Köln",
+    "Borussia M.Gladbach": "Borussia Mönchengladbach",
+    "Athletic Club":       "Athletic Bilbao",
+    "QPR":       "Queens Park Rangers",
+    "WBA":       "West Bromwich Albion",
+    "Sheff Utd": "Sheffield United",
+    "Sheff Wed": "Sheffield Wednesday",
+    "OH Leuven":          "Oud-Heverlee Leuven",
+    "Sporting Charleroi": "Royal Charleroi SC",
+    "St.Truiden":         "Sint-Truidense VV",
+    "Union St.Gilloise":  "Union Saint-Gilloise",
+    "Estrela da Amadora": "CF Estrela Amadora",
+    "Vitoria de Guimaraes": "Vitória Guimarães SC",
+    "Istanbul Basaksehir":  "Basaksehir FK",
 }
 
 
@@ -399,12 +538,14 @@ def build_name_mapping(
     Matching strategy (in order):
     1. Exact match on normalized name (diacritics folded) → auto
     2. Team-scoped fuzzy match within the player's own club at threshold 75 → auto
-    3. Global fuzzy match at threshold TM_MATCH_THRESHOLD (85) → auto
-    4. Anything below → manual_needed
+    3. Anything else → manual_needed (best global candidate recorded for review)
 
     Team-scoped matching dramatically reduces false positives: matching
     "Modrić" within Real Madrid's 25-player squad is far more reliable than
-    matching globally against 500+ names.
+    matching globally against 500+ names. Global fuzzy matches are never
+    auto-verified: when a club is absent from the TM cache, a ≥85 global
+    score routinely lands on a different player at another club
+    (e.g. "Ben Johnson" → "Owen Johnson").
     """
     mapping    = _dedupe_mapping_by_player_id(existing_mapping)
     mapped_ids = set(mapping["player_id"].astype(str).tolist())
@@ -451,12 +592,6 @@ def build_name_mapping(
             team_candidates = team_map[ws_team]
             result = process.extractOne(ws_name, team_candidates, scorer=fuzz.WRatio)
             if result is not None and result[1] >= 75:
-                tm_name, score, _ = result
-
-        # ── Pass 3: global fuzzy match (threshold 85) ─────────────────────
-        if tm_name is None:
-            result = process.extractOne(ws_name, tm_all_names, scorer=fuzz.WRatio)
-            if result is not None and result[1] >= config.TM_MATCH_THRESHOLD:
                 tm_name, score, _ = result
 
         # ── Determine verification status ─────────────────────────────────
@@ -604,7 +739,11 @@ def enrich_players(
             on="player_id", how="left",
         )
         # Join TM squads on both name + team — unambiguous even for duplicate names
-        tm_slim = tm_squads[["tm_player_name", "tm_team_name", "market_value_eur", "contract_expires"]].copy()
+        tm_slim = (
+            tm_squads[["tm_player_name", "tm_team_name", "market_value_eur", "contract_expires"]]
+            .drop_duplicates(["tm_player_name", "tm_team_name"], keep="first")
+            .copy()
+        )
         df = df.merge(tm_slim, on=["tm_player_name", "tm_team_name"], how="left")
         df = df.drop(columns=["tm_player_name", "tm_team_name"], errors="ignore")
     else:
@@ -623,7 +762,12 @@ def enrich_players(
 
 # ─── Pipeline entry point ─────────────────────────────────────────────
 
-def run_enrichment(refresh: bool = False) -> None:
+def run_enrichment(
+    refresh: bool = False,
+    leagues: Optional[list[str]] = None,
+    parallel: bool = False,
+    workers: Optional[int] = None,
+) -> None:
     all_leagues_path = config.DATA_FINAL / f"all_leagues_{config.SEASON}.csv"
 
     if not all_leagues_path.exists():
@@ -639,7 +783,12 @@ def run_enrichment(refresh: bool = False) -> None:
     df = pd.read_csv(input_path)
     print(f"[TM] Loaded {len(df)} players from {input_path.name}")
 
-    tm_squads = fetch_tm_squad_data(refresh=refresh)
+    tm_squads = fetch_tm_squad_data(
+        refresh=refresh,
+        leagues=leagues,
+        parallel=parallel,
+        workers=workers,
+    )
     tm_squads = _merge_manual_players(tm_squads)
 
     mapping = _load_mapping()
@@ -704,6 +853,30 @@ if __name__ == "__main__":
         "--refresh", action="store_true",
         help="Force re-scrape from Transfermarkt even if cache exists",
     )
+    parser.add_argument(
+        "--league",
+        action="append",
+        help=(
+            "Limit Transfermarkt refresh to one or more league keys. "
+            "Repeat the flag or pass comma-separated keys. Use 'all' for every league."
+        ),
+    )
+    parser.add_argument(
+        "--parallel",
+        action="store_true",
+        help="Scrape selected leagues concurrently, one Selenium driver per worker.",
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=None,
+        help="Maximum parallel Selenium workers. Defaults to the number of selected leagues.",
+    )
     args = parser.parse_args()
 
-    run_enrichment(refresh=args.refresh)
+    run_enrichment(
+        refresh=args.refresh,
+        leagues=args.league,
+        parallel=args.parallel,
+        workers=args.workers,
+    )

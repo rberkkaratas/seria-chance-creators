@@ -38,5 +38,8 @@ Thumbs.db
 # SeleniumBase runtime files
 downloaded_files/
 
+# Pipeline logs
+logs/
+
 # Claude Code
 .claude/

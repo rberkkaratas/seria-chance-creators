@@ -73,6 +73,11 @@ LEAGUE_FLAGS = {
     "La_Liga":        "🇪🇸",
     "Bundesliga":     "🇩🇪",
     "Ligue_1":        "🇫🇷",
+    "Championship":   "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "Primeira_Liga":  "🇵🇹",
+    "Eredivisie":     "🇳🇱",
+    "Belgium_Pro_League": "🇧🇪",
+    "Super_Lig":      "🇹🇷",
 }
 
 

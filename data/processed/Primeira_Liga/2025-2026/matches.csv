@@ -1,0 +1,303 @@
+league,match_id,date_str,home_team_id,home_team_name,away_team_id,away_team_name,home_score,away_score,total_events
+Primeira_Liga,1915720,01022026,296,Sporting,936,Nacional,2,1,1576
+Primeira_Liga,1915729,01022026,935,Famalicao,290,Gil Vicente,0,5,1342
+Primeira_Liga,1915730,01022026,299,Benfica,8071,Tondela,0,0,1514
+Primeira_Liga,1915758,01032026,935,Famalicao,121,Rio Ave,0,0,1493
+Primeira_Liga,1915762,01032026,8071,Tondela,251,Santa Clara,2,2,1266
+Primeira_Liga,1915774,01032026,9509,Casa Pia AC,108,Moreirense,1,1,1437
+Primeira_Liga,1915675,01112025,299,Benfica,107,Vitoria de Guimaraes,3,0,1396
+Primeira_Liga,1915896,01112025,28635,Estrela da Amadora,9509,Casa Pia AC,5,3,1281
+Primeira_Liga,1915898,01112025,121,Rio Ave,2188,Estoril,0,4,1619
+Primeira_Liga,1915900,01112025,936,Nacional,935,Famalicao,0,1,1362
+Primeira_Liga,1915700,01122025,5948,Arouca,288,Braga,2,2,1524
+Primeira_Liga,1915775,02012026,290,Gil Vicente,296,Sporting,1,1,1400
+Primeira_Liga,1915792,02012026,107,Vitoria de Guimaraes,936,Nacional,2,1,1307
+Primeira_Liga,1915734,02022026,288,Braga,2343,AVS Futebol SAD,4,0,1615
+Primeira_Liga,1915736,02022026,9509,Casa Pia AC,297,Porto,1,2,1483
+Primeira_Liga,1915768,02032026,290,Gil Vicente,299,Benfica,1,2,1459
+Primeira_Liga,1915825,02052026,2343,AVS Futebol SAD,936,Nacional,2,1,1349
+Primeira_Liga,1915826,02052026,108,Moreirense,28635,Estrela da Amadora,3,2,1445
+Primeira_Liga,1915827,02052026,291,Alverca,297,Porto,0,1,1409
+Primeira_Liga,1915829,02052026,299,Benfica,935,Famalicao,2,2,1334
+Primeira_Liga,1915839,02052026,5948,Arouca,251,Santa Clara,2,2,1361
+Primeira_Liga,1915674,02112025,288,Braga,297,Porto,1,2,1554
+Primeira_Liga,1915895,02112025,2343,AVS Futebol SAD,8071,Tondela,2,2,1360
+Primeira_Liga,1915897,02112025,5948,Arouca,108,Moreirense,0,2,1628
+Primeira_Liga,1915772,03012026,108,Moreirense,2343,AVS Futebol SAD,2,0,1514
+Primeira_Liga,1915785,03012026,2188,Estoril,299,Benfica,1,3,1431
+Primeira_Liga,1915799,03012026,5948,Arouca,8071,Tondela,1,3,1463
+Primeira_Liga,1915802,03012026,288,Braga,28635,Estrela da Amadora,3,3,1442
+Primeira_Liga,1915871,03042026,290,Gil Vicente,2343,AVS Futebol SAD,3,0,1405
+Primeira_Liga,1915875,03042026,251,Santa Clara,296,Sporting,2,4,1374
+Primeira_Liga,1915879,03042026,107,Vitoria de Guimaraes,8071,Tondela,5,0,1323
+Primeira_Liga,1915828,03052026,290,Gil Vicente,121,Rio Ave,0,0,1476
+Primeira_Liga,1915837,03052026,8071,Tondela,9509,Casa Pia AC,1,0,1384
+Primeira_Liga,1915841,03052026,288,Braga,2188,Estoril,1,1,1529
+Primeira_Liga,1915663,03102025,2188,Estoril,9509,Casa Pia AC,2,2,1434
+Primeira_Liga,1915779,04012026,297,Porto,251,Santa Clara,1,0,1394
+Primeira_Liga,1915796,04012026,121,Rio Ave,9509,Casa Pia AC,3,1,1308
+Primeira_Liga,1915803,04012026,291,Alverca,935,Famalicao,1,0,1525
+Primeira_Liga,1915872,04042026,936,Nacional,28635,Estrela da Amadora,2,0,1313
+Primeira_Liga,1915873,04042026,291,Alverca,121,Rio Ave,2,1,1570
+Primeira_Liga,1915874,04042026,935,Famalicao,297,Porto,2,2,1479
+Primeira_Liga,1915876,04042026,288,Braga,108,Moreirense,1,0,1665
+Primeira_Liga,1915834,04052026,107,Vitoria de Guimaraes,296,Sporting,0,6,1561
+Primeira_Liga,1915662,04102025,2343,AVS Futebol SAD,291,Alverca,1,3,1513
+Primeira_Liga,1915666,04102025,290,Gil Vicente,28635,Estrela da Amadora,2,0,1350
+Primeira_Liga,1915667,04102025,936,Nacional,108,Moreirense,3,2,1228
+Primeira_Liga,1915668,04102025,107,Vitoria de Guimaraes,251,Santa Clara,2,1,1542
+Primeira_Liga,1915664,05102025,935,Famalicao,5948,Arouca,1,1,1332
+Primeira_Liga,1915665,05102025,121,Rio Ave,8071,Tondela,3,0,1458
+Primeira_Liga,1915669,05102025,288,Braga,296,Sporting,1,1,1594
+Primeira_Liga,1915670,05102025,299,Benfica,297,Porto,0,0,1399
+Primeira_Liga,1915750,05122025,296,Sporting,299,Benfica,1,1,1479
+Primeira_Liga,1915781,06032026,935,Famalicao,5948,Arouca,1,0,1453
+Primeira_Liga,1915877,06042026,9509,Casa Pia AC,299,Benfica,1,1,1428
+Primeira_Liga,1915878,06042026,5948,Arouca,2188,Estoril,3,2,1466
+Primeira_Liga,1915624,06092025,251,Santa Clara,2188,Estoril,1,0,1428
+Primeira_Liga,1915733,06122025,2343,AVS Futebol SAD,121,Rio Ave,1,2,1309
+Primeira_Liga,1915746,06122025,251,Santa Clara,9509,Casa Pia AC,1,0,1320
+Primeira_Liga,1915763,06122025,288,Braga,935,Famalicao,1,2,1497
+Primeira_Liga,1915757,07022026,108,Moreirense,290,Gil Vicente,1,2,1506
+Primeira_Liga,1915760,07022026,251,Santa Clara,28635,Estrela da Amadora,0,1,1485
+Primeira_Liga,1915764,07022026,2188,Estoril,8071,Tondela,2,2,1568
+Primeira_Liga,1915767,07022026,5948,Arouca,107,Vitoria de Guimaraes,3,2,1465
+Primeira_Liga,1915777,07032026,9509,Casa Pia AC,2188,Estoril,0,0,1459
+Primeira_Liga,1915791,07032026,108,Moreirense,936,Nacional,1,1,1480
+Primeira_Liga,1915798,07032026,296,Sporting,288,Braga,2,2,1528
+Primeira_Liga,1915824,07032026,2343,AVS Futebol SAD,291,Alverca,0,0,1468
+Primeira_Liga,1915694,07112025,2188,Estoril,5948,Arouca,3,4,1570
+Primeira_Liga,1915740,07122025,2188,Estoril,108,Moreirense,3,3,1480
+Primeira_Liga,1915756,07122025,5948,Arouca,28635,Estrela da Amadora,1,3,1345
+Primeira_Liga,1915759,07122025,8071,Tondela,297,Porto,0,2,1422
+Primeira_Liga,1915751,08022026,9509,Casa Pia AC,936,Nacional,0,0,1435
+Primeira_Liga,1915754,08022026,291,Alverca,299,Benfica,1,2,1452
+Primeira_Liga,1915773,08022026,288,Braga,121,Rio Ave,3,0,1674
+Primeira_Liga,1915788,08032026,290,Gil Vicente,28635,Estrela da Amadora,2,2,1432
+Primeira_Liga,1915795,08032026,251,Santa Clara,107,Vitoria de Guimaraes,1,1,1506
+Primeira_Liga,1915801,08032026,297,Porto,299,Benfica,2,2,1491
+Primeira_Liga,1915599,08082025,296,Sporting,9509,Casa Pia AC,2,0,1429
+Primeira_Liga,1915684,08112025,251,Santa Clara,296,Sporting,1,2,1606
+Primeira_Liga,1915696,08112025,8071,Tondela,107,Vitoria de Guimaraes,0,1,1405
+Primeira_Liga,1915753,08122025,290,Gil Vicente,107,Vitoria de Guimaraes,0,0,1277
+Primeira_Liga,1915748,09022026,935,Famalicao,2343,AVS Futebol SAD,3,1,1408
+Primeira_Liga,1915770,09022026,296,Sporting,297,Porto,1,1,1395
+Primeira_Liga,1915783,09032026,121,Rio Ave,8071,Tondela,1,0,1511
+Primeira_Liga,1915602,09082025,5948,Arouca,2343,AVS Futebol SAD,3,1,1405
+Primeira_Liga,1915605,09082025,290,Gil Vicente,936,Nacional,2,0,1169
+Primeira_Liga,1915677,09112025,2343,AVS Futebol SAD,290,Gil Vicente,1,1,1483
+Primeira_Liga,1915679,09112025,936,Nacional,28635,Estrela da Amadora,1,1,1413
+Primeira_Liga,1915682,09112025,297,Porto,935,Famalicao,1,0,1478
+Primeira_Liga,1915687,09112025,288,Braga,108,Moreirense,2,1,1515
+Primeira_Liga,1915690,09112025,299,Benfica,9509,Casa Pia AC,3,1,1427
+Primeira_Liga,1915886,10042026,935,Famalicao,108,Moreirense,1,1,1467
+Primeira_Liga,1915848,10052026,2343,AVS Futebol SAD,297,Porto,3,1,1481
+Primeira_Liga,1915851,10052026,291,Alverca,2188,Estoril,1,1,1455
+Primeira_Liga,1915600,10082025,8071,Tondela,288,Braga,0,3,1469
+Primeira_Liga,1915604,10082025,108,Moreirense,291,Alverca,2,1,1469
+Primeira_Liga,1915606,10082025,935,Famalicao,251,Santa Clara,3,0,1344
+Primeira_Liga,1915735,11012026,108,Moreirense,8071,Tondela,1,0,1498
+Primeira_Liga,1915761,11012026,251,Santa Clara,936,Nacional,3,3,1447
+Primeira_Liga,1915782,11042026,121,Rio Ave,251,Santa Clara,1,1,1491
+Primeira_Liga,1915882,11042026,107,Vitoria de Guimaraes,2343,AVS Futebol SAD,1,1,1367
+Primeira_Liga,1915884,11042026,28635,Estrela da Amadora,296,Sporting,0,1,1473
+Primeira_Liga,1915843,11052026,9509,Casa Pia AC,107,Vitoria de Guimaraes,1,0,1395
+Primeira_Liga,1915845,11052026,290,Gil Vicente,5948,Arouca,1,3,1414
+Primeira_Liga,1915847,11052026,108,Moreirense,8071,Tondela,0,2,1489
+Primeira_Liga,1915849,11052026,28635,Estrela da Amadora,935,Famalicao,0,0,1405
+Primeira_Liga,1915852,11052026,296,Sporting,121,Rio Ave,3,2,1339
+Primeira_Liga,1915853,11052026,936,Nacional,251,Santa Clara,1,1,1485
+Primeira_Liga,1915855,11052026,299,Benfica,288,Braga,2,2,1535
+Primeira_Liga,1915603,11082025,28635,Estrela da Amadora,2188,Estoril,1,1,1402
+Primeira_Liga,1915607,11082025,107,Vitoria de Guimaraes,297,Porto,0,3,1358
+Primeira_Liga,1915786,12042026,936,Nacional,299,Benfica,0,2,1503
+Primeira_Liga,1915880,12042026,5948,Arouca,288,Braga,0,1,1555
+Primeira_Liga,1915883,12042026,297,Porto,2188,Estoril,2,2,1501
+Primeira_Liga,1915885,12042026,9509,Casa Pia AC,291,Alverca,1,3,1305
+Primeira_Liga,1915636,12092025,8071,Tondela,291,Alverca,1,0,1437
+Primeira_Liga,1915641,12092025,299,Benfica,251,Santa Clara,1,1,1602
+Primeira_Liga,1915695,13022026,299,Benfica,251,Santa Clara,1,2,1543
+Primeira_Liga,1915780,13022026,291,Alverca,8071,Tondela,1,1,1529
+Primeira_Liga,1915881,13042026,290,Gil Vicente,8071,Tondela,2,2,1385
+Primeira_Liga,1915638,13092025,296,Sporting,935,Famalicao,2,1,1481
+Primeira_Liga,1915639,13092025,121,Rio Ave,108,Moreirense,1,3,1515
+Primeira_Liga,1915642,13092025,2188,Estoril,2343,AVS Futebol SAD,3,1,1506
+Primeira_Liga,1915643,13092025,936,Nacional,297,Porto,0,1,1498
+Primeira_Liga,1915697,13122025,107,Vitoria de Guimaraes,121,Rio Ave,1,0,1464
+Primeira_Liga,1915766,13122025,290,Gil Vicente,9509,Casa Pia AC,1,1,1334
+Primeira_Liga,1915787,13122025,296,Sporting,2343,AVS Futebol SAD,6,0,1411
+Primeira_Liga,1915681,14022026,9509,Casa Pia AC,5948,Arouca,4,1,1336
+Primeira_Liga,1915691,14022026,288,Braga,290,Gil Vicente,1,2,1474
+Primeira_Liga,1915776,14022026,107,Vitoria de Guimaraes,28635,Estrela da Amadora,2,1,1497
+Primeira_Liga,1915833,14032026,290,Gil Vicente,291,Alverca,2,2,1386
+Primeira_Liga,1915835,14032026,107,Vitoria de Guimaraes,935,Famalicao,1,2,1474
+Primeira_Liga,1915842,14032026,5948,Arouca,299,Benfica,1,2,1408
+Primeira_Liga,1915635,14092025,107,Vitoria de Guimaraes,28635,Estrela da Amadora,2,0,1200
+Primeira_Liga,1915637,14092025,5948,Arouca,9509,Casa Pia AC,0,2,1361
+Primeira_Liga,1915640,14092025,288,Braga,290,Gil Vicente,0,1,1553
+Primeira_Liga,1915689,14122025,5948,Arouca,291,Alverca,1,0,1542
+Primeira_Liga,1915693,14122025,299,Benfica,108,Moreirense,4,0,1549
+Primeira_Liga,1915790,14122025,2188,Estoril,935,Famalicao,0,4,1447
+Primeira_Liga,1915685,15022026,296,Sporting,935,Famalicao,1,0,1541
+Primeira_Liga,1915698,15022026,2188,Estoril,2343,AVS Futebol SAD,0,3,1603
+Primeira_Liga,1915702,15022026,936,Nacional,297,Porto,0,1,1322
+Primeira_Liga,1915830,15032026,936,Nacional,2188,Estoril,0,1,1537
+Primeira_Liga,1915832,15032026,121,Rio Ave,28635,Estrela da Amadora,2,1,1524
+Primeira_Liga,1915836,15032026,108,Moreirense,297,Porto,0,3,1512
+Primeira_Liga,1915840,15032026,251,Santa Clara,2343,AVS Futebol SAD,1,0,1373
+Primeira_Liga,1915608,15082025,9509,Casa Pia AC,2343,AVS Futebol SAD,2,0,1280
+Primeira_Liga,1915778,15122025,8071,Tondela,936,Nacional,1,3,1255
+Primeira_Liga,1915784,15122025,251,Santa Clara,288,Braga,0,1,1644
+Primeira_Liga,1915794,15122025,297,Porto,28635,Estrela da Amadora,3,1,1516
+Primeira_Liga,1915804,16012026,9509,Casa Pia AC,296,Sporting,0,3,1402
+Primeira_Liga,1915688,16022026,121,Rio Ave,108,Moreirense,1,2,1662
+Primeira_Liga,1915856,16052026,108,Moreirense,2343,AVS Futebol SAD,0,0,1479
+Primeira_Liga,1915858,16052026,291,Alverca,935,Famalicao,0,1,1395
+Primeira_Liga,1915860,16052026,296,Sporting,290,Gil Vicente,3,0,1495
+Primeira_Liga,1915861,16052026,297,Porto,251,Santa Clara,0,1,1385
+Primeira_Liga,1915863,16052026,2188,Estoril,299,Benfica,1,3,1525
+Primeira_Liga,1915865,16052026,936,Nacional,107,Vitoria de Guimaraes,2,0,1189
+Primeira_Liga,1915866,16052026,121,Rio Ave,9509,Casa Pia AC,1,1,1414
+Primeira_Liga,1915867,16052026,5948,Arouca,8071,Tondela,3,1,1542
+Primeira_Liga,1915870,16052026,28635,Estrela da Amadora,288,Braga,2,2,1462
+Primeira_Liga,1915613,16082025,107,Vitoria de Guimaraes,2188,Estoril,4,1,1390
+Primeira_Liga,1915615,16082025,8071,Tondela,935,Famalicao,0,1,1472
+Primeira_Liga,1915616,16082025,299,Benfica,28635,Estrela da Amadora,1,0,1270
+Primeira_Liga,1915673,17012026,290,Gil Vicente,936,Nacional,2,1,1362
+Primeira_Liga,1915808,17012026,121,Rio Ave,299,Benfica,1,1,1568
+Primeira_Liga,1915810,17012026,5948,Arouca,2343,AVS Futebol SAD,1,0,1610
+Primeira_Liga,1915815,17012026,291,Alverca,108,Moreirense,2,1,1452
+Primeira_Liga,1915789,17042026,2343,AVS Futebol SAD,121,Rio Ave,2,2,1478
+Primeira_Liga,1915609,17082025,291,Alverca,288,Braga,0,3,1421
+Primeira_Liga,1915611,17082025,251,Santa Clara,108,Moreirense,0,1,1463
+Primeira_Liga,1915612,17082025,121,Rio Ave,936,Nacional,1,1,1413
+Primeira_Liga,1915614,17082025,296,Sporting,5948,Arouca,6,0,1555
+Primeira_Liga,1915676,18012026,935,Famalicao,251,Santa Clara,1,0,1449
+Primeira_Liga,1915678,18012026,107,Vitoria de Guimaraes,297,Porto,0,1,1446
+Primeira_Liga,1915806,18012026,288,Braga,8071,Tondela,1,0,1505
+Primeira_Liga,1915797,18042026,291,Alverca,936,Nacional,0,1,1420
+Primeira_Liga,1915800,18042026,251,Santa Clara,9509,Casa Pia AC,0,0,1245
+Primeira_Liga,1915807,18042026,107,Vitoria de Guimaraes,290,Gil Vicente,1,0,1419
+Primeira_Liga,1915610,18082025,297,Porto,290,Gil Vicente,2,0,1414
+Primeira_Liga,1915672,19012026,28635,Estrela da Amadora,2188,Estoril,0,5,1498
+Primeira_Liga,1915805,19042026,296,Sporting,299,Benfica,1,2,1457
+Primeira_Liga,1915809,19042026,5948,Arouca,28635,Estrela da Amadora,1,0,1325
+Primeira_Liga,1915811,19042026,297,Porto,8071,Tondela,2,0,1470
+Primeira_Liga,1915812,19042026,288,Braga,935,Famalicao,2,2,1628
+Primeira_Liga,1915650,19092025,297,Porto,121,Rio Ave,3,0,1503
+Primeira_Liga,1915723,19122025,2188,Estoril,288,Braga,1,0,1647
+Primeira_Liga,1915725,20022026,8071,Tondela,28635,Estrela da Amadora,2,0,1323
+Primeira_Liga,1915850,20032026,9509,Casa Pia AC,28635,Estrela da Amadora,0,4,1434
+Primeira_Liga,1915793,20042026,108,Moreirense,2188,Estoril,1,0,1569
+Primeira_Liga,1915644,20092025,299,Benfica,2343,AVS Futebol SAD,3,0,1499
+Primeira_Liga,1915648,20092025,251,Santa Clara,291,Alverca,2,1,1400
+Primeira_Liga,1915649,20092025,936,Nacional,5948,Arouca,1,2,1255
+Primeira_Liga,1915652,20092025,107,Vitoria de Guimaraes,288,Braga,1,1,1516
+Primeira_Liga,1915705,20122025,108,Moreirense,28635,Estrela da Amadora,0,0,1465
+Primeira_Liga,1915709,20122025,290,Gil Vicente,121,Rio Ave,3,1,1355
+Primeira_Liga,1915707,21022026,299,Benfica,2343,AVS Futebol SAD,3,0,1492
+Primeira_Liga,1915731,21022026,5948,Arouca,936,Nacional,3,0,1317
+Primeira_Liga,1915742,21022026,296,Sporting,108,Moreirense,3,0,1480
+Primeira_Liga,1915745,21022026,107,Vitoria de Guimaraes,288,Braga,1,4,1447
+Primeira_Liga,1915814,21022026,251,Santa Clara,291,Alverca,1,1,1372
+Primeira_Liga,1915846,21032026,8071,Tondela,2343,AVS Futebol SAD,0,0,1460
+Primeira_Liga,1915854,21032026,108,Moreirense,5948,Arouca,0,1,1452
+Primeira_Liga,1915862,21032026,936,Nacional,935,Famalicao,0,1,1453
+Primeira_Liga,1915864,21032026,290,Gil Vicente,251,Santa Clara,0,1,1315
+Primeira_Liga,1915869,21032026,299,Benfica,107,Vitoria de Guimaraes,2,1,1472
+Primeira_Liga,1915645,21092025,935,Famalicao,9509,Casa Pia AC,1,1,1349
+Primeira_Liga,1915646,21092025,2188,Estoril,290,Gil Vicente,0,2,1390
+Primeira_Liga,1915647,21092025,8071,Tondela,28635,Estrela da Amadora,0,0,1405
+Primeira_Liga,1915701,21122025,2343,AVS Futebol SAD,936,Nacional,2,2,1415
+Primeira_Liga,1915718,21122025,8071,Tondela,9509,Casa Pia AC,1,2,1282
+Primeira_Liga,1915719,21122025,251,Santa Clara,5948,Arouca,0,0,1474
+Primeira_Liga,1915722,22022026,2188,Estoril,290,Gil Vicente,3,1,1421
+Primeira_Liga,1915738,22022026,121,Rio Ave,297,Porto,0,1,1558
+Primeira_Liga,1915857,22032026,2188,Estoril,121,Rio Ave,1,2,1537
+Primeira_Liga,1915859,22032026,296,Sporting,291,Alverca,4,1,1555
+Primeira_Liga,1915868,22032026,297,Porto,288,Braga,2,1,1342
+Primeira_Liga,1915651,22092025,108,Moreirense,296,Sporting,0,3,1610
+Primeira_Liga,1915712,22122025,935,Famalicao,299,Benfica,0,1,1605
+Primeira_Liga,1915680,23012026,9509,Casa Pia AC,2343,AVS Futebol SAD,3,3,1303
+Primeira_Liga,1915715,23022026,935,Famalicao,9509,Casa Pia AC,2,0,1437
+Primeira_Liga,1915838,23042026,9509,Casa Pia AC,288,Braga,0,1,1618
+Primeira_Liga,1915617,23082025,296,Sporting,936,Nacional,4,1,1296
+Primeira_Liga,1915618,23082025,5948,Arouca,121,Rio Ave,3,3,1434
+Primeira_Liga,1915620,23082025,299,Benfica,8071,Tondela,3,0,1492
+Primeira_Liga,1915625,23082025,107,Vitoria de Guimaraes,108,Moreirense,0,2,1391
+Primeira_Liga,1915601,23092025,299,Benfica,121,Rio Ave,1,1,1574
+Primeira_Liga,1915714,23122025,296,Sporting,107,Vitoria de Guimaraes,3,2,1405
+Primeira_Liga,1915692,24012026,251,Santa Clara,108,Moreirense,0,1,1378
+Primeira_Liga,1915703,24012026,107,Vitoria de Guimaraes,2188,Estoril,2,4,1433
+Primeira_Liga,1915706,24012026,296,Sporting,5948,Arouca,2,1,1560
+Primeira_Liga,1915821,24042026,291,Alverca,5948,Arouca,2,1,1520
+Primeira_Liga,1915619,24082025,935,Famalicao,290,Gil Vicente,0,0,1478
+Primeira_Liga,1915621,24082025,2343,AVS Futebol SAD,288,Braga,2,2,1543
+Primeira_Liga,1915622,24082025,297,Porto,9509,Casa Pia AC,4,0,1450
+Primeira_Liga,1915888,24102025,290,Gil Vicente,291,Alverca,4,0,1335
+Primeira_Liga,1915683,25012026,288,Braga,291,Alverca,5,0,1631
+Primeira_Liga,1915699,25012026,121,Rio Ave,936,Nacional,0,4,1376
+Primeira_Liga,1915710,25012026,8071,Tondela,935,Famalicao,0,3,1345
+Primeira_Liga,1915716,25012026,299,Benfica,28635,Estrela da Amadora,4,0,1369
+Primeira_Liga,1915816,25042026,8071,Tondela,936,Nacional,1,1,1478
+Primeira_Liga,1915822,25042026,108,Moreirense,299,Benfica,1,4,1441
+Primeira_Liga,1915823,25042026,121,Rio Ave,107,Vitoria de Guimaraes,0,2,1564
+Primeira_Liga,1915623,25082025,28635,Estrela da Amadora,291,Alverca,2,2,1221
+Primeira_Liga,1915887,25102025,121,Rio Ave,28635,Estrela da Amadora,2,1,1391
+Primeira_Liga,1915892,25102025,2343,AVS Futebol SAD,251,Santa Clara,0,2,1430
+Primeira_Liga,1915893,25102025,299,Benfica,5948,Arouca,5,0,1493
+Primeira_Liga,1915686,26012026,297,Porto,290,Gil Vicente,3,0,1392
+Primeira_Liga,1915817,26042026,288,Braga,251,Santa Clara,1,2,1438
+Primeira_Liga,1915818,26042026,296,Sporting,2343,AVS Futebol SAD,1,1,1418
+Primeira_Liga,1915819,26042026,935,Famalicao,2188,Estoril,1,0,1386
+Primeira_Liga,1915820,26042026,28635,Estrela da Amadora,297,Porto,1,2,1378
+Primeira_Liga,1915659,26092025,290,Gil Vicente,299,Benfica,1,2,1501
+Primeira_Liga,1915671,26102025,936,Nacional,2188,Estoril,1,1,1365
+Primeira_Liga,1915889,26102025,107,Vitoria de Guimaraes,935,Famalicao,0,2,1408
+Primeira_Liga,1915891,26102025,288,Braga,9509,Casa Pia AC,4,0,1423
+Primeira_Liga,1915894,26102025,8071,Tondela,296,Sporting,0,3,1547
+Primeira_Liga,1915749,27022026,296,Sporting,2188,Estoril,3,0,1579
+Primeira_Liga,1915755,27022026,5948,Arouca,297,Porto,1,3,1492
+Primeira_Liga,1915813,27042026,290,Gil Vicente,9509,Casa Pia AC,2,1,1396
+Primeira_Liga,1915653,27092025,296,Sporting,2188,Estoril,1,0,1584
+Primeira_Liga,1915657,27092025,251,Santa Clara,8071,Tondela,1,2,1403
+Primeira_Liga,1915660,27092025,28635,Estrela da Amadora,2343,AVS Futebol SAD,3,0,1435
+Primeira_Liga,1915661,27092025,108,Moreirense,9509,Casa Pia AC,2,1,1453
+Primeira_Liga,1915890,27102025,297,Porto,108,Moreirense,2,1,1434
+Primeira_Liga,1915739,27122025,935,Famalicao,28635,Estrela da Amadora,1,4,1432
+Primeira_Liga,1915743,27122025,291,Alverca,2188,Estoril,3,2,1571
+Primeira_Liga,1915752,28022026,291,Alverca,107,Vitoria de Guimaraes,1,1,1512
+Primeira_Liga,1915765,28022026,936,Nacional,288,Braga,1,2,1586
+Primeira_Liga,1915771,28022026,2343,AVS Futebol SAD,28635,Estrela da Amadora,0,0,1458
+Primeira_Liga,1915654,28092025,291,Alverca,107,Vitoria de Guimaraes,2,0,1316
+Primeira_Liga,1915656,28092025,935,Famalicao,121,Rio Ave,0,0,1602
+Primeira_Liga,1915658,28092025,288,Braga,936,Nacional,0,1,1798
+Primeira_Liga,1915708,28112025,107,Vitoria de Guimaraes,2343,AVS Futebol SAD,4,0,1303
+Primeira_Liga,1915728,28122025,107,Vitoria de Guimaraes,9509,Casa Pia AC,0,0,1270
+Primeira_Liga,1915732,28122025,5948,Arouca,290,Gil Vicente,2,2,1318
+Primeira_Liga,1915747,28122025,121,Rio Ave,296,Sporting,0,4,1593
+Primeira_Liga,1915769,28122025,299,Benfica,288,Braga,2,2,1557
+Primeira_Liga,1915844,29042026,8071,Tondela,296,Sporting,2,2,1714
+Primeira_Liga,1915629,29082025,290,Gil Vicente,108,Moreirense,2,0,1459
+Primeira_Liga,1915655,29092025,297,Porto,5948,Arouca,4,0,1326
+Primeira_Liga,1915704,29112025,8071,Tondela,290,Gil Vicente,1,0,1373
+Primeira_Liga,1915717,29112025,291,Alverca,9509,Casa Pia AC,2,0,1502
+Primeira_Liga,1915721,29112025,108,Moreirense,935,Famalicao,2,2,1438
+Primeira_Liga,1915727,29112025,936,Nacional,299,Benfica,1,2,1568
+Primeira_Liga,1915737,29122025,2343,AVS Futebol SAD,297,Porto,0,2,1477
+Primeira_Liga,1915744,30012026,108,Moreirense,107,Vitoria de Guimaraes,0,1,1481
+Primeira_Liga,1915626,30082025,935,Famalicao,2343,AVS Futebol SAD,1,0,1379
+Primeira_Liga,1915627,30082025,936,Nacional,9509,Casa Pia AC,2,0,1451
+Primeira_Liga,1915632,30082025,5948,Arouca,107,Vitoria de Guimaraes,1,1,1376
+Primeira_Liga,1915633,30082025,296,Sporting,297,Porto,0,3,1471
+Primeira_Liga,1915711,30112025,2188,Estoril,297,Porto,0,1,1600
+Primeira_Liga,1915713,30112025,296,Sporting,28635,Estrela da Amadora,4,0,1537
+Primeira_Liga,1915724,30112025,251,Santa Clara,121,Rio Ave,1,1,1338
+Primeira_Liga,1915726,31012026,5948,Arouca,121,Rio Ave,3,0,1401
+Primeira_Liga,1915741,31012026,251,Santa Clara,2188,Estoril,2,4,1219
+Primeira_Liga,1915831,31012026,291,Alverca,28635,Estrela da Amadora,1,1,1363
+Primeira_Liga,1915628,31082025,299,Benfica,291,Alverca,2,1,1461
+Primeira_Liga,1915630,31082025,251,Santa Clara,28635,Estrela da Amadora,0,0,1435
+Primeira_Liga,1915631,31082025,8071,Tondela,2188,Estoril,2,2,1366
+Primeira_Liga,1915634,31082025,288,Braga,121,Rio Ave,2,2,1533
+Primeira_Liga,1915899,31102025,291,Alverca,296,Sporting,0,2,1583

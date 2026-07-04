@@ -1,0 +1,613 @@
+league,match_id,team_id,team_name,is_home,total_passes,accurate_passes,total_shots,goals,key_passes,tackles,interceptions
+Eredivisie,1903844,130,Ajax,True,520,419,9,2,8,15,3
+Eredivisie,1903844,867,Excelsior,False,481,378,11,2,10,12,14
+Eredivisie,1903847,874,Go Ahead Eagles,True,348,249,13,1,9,16,7
+Eredivisie,1903847,762,FC Volendam,False,558,465,20,1,13,8,5
+Eredivisie,1903850,128,FC Utrecht,True,427,336,11,1,10,16,8
+Eredivisie,1903850,287,SC Heerenveen,False,635,549,19,1,14,14,4
+Eredivisie,1903853,242,Fortuna Sittard,True,470,350,12,1,10,14,9
+Eredivisie,1903853,870,Heracles,False,409,290,11,2,7,11,8
+Eredivisie,1903859,256,Feyenoord,True,412,333,8,0,7,16,10
+Eredivisie,1903859,129,PSV Eindhoven,False,625,530,14,3,11,20,10
+Eredivisie,1903884,867,Excelsior,True,574,459,19,0,10,15,4
+Eredivisie,1903884,874,Go Ahead Eagles,False,410,299,7,1,5,12,3
+Eredivisie,1903887,762,FC Volendam,True,378,287,12,3,10,17,7
+Eredivisie,1903887,758,FC Groningen,False,421,311,28,2,19,9,1
+Eredivisie,1903897,113,Twente,True,446,353,19,2,18,16,6
+Eredivisie,1903897,256,Feyenoord,False,402,307,8,0,6,17,12
+Eredivisie,1903899,128,FC Utrecht,True,378,273,11,2,7,21,14
+Eredivisie,1903899,243,AZ Alkmaar,False,522,424,10,0,8,25,9
+Eredivisie,1903901,130,Ajax,True,543,436,6,0,5,15,5
+Eredivisie,1903901,868,PEC Zwolle,False,360,255,9,0,9,23,9
+Eredivisie,1904028,762,FC Volendam,True,429,357,9,1,6,10,9
+Eredivisie,1904028,256,Feyenoord,False,513,424,37,3,31,14,8
+Eredivisie,1904031,874,Go Ahead Eagles,True,548,442,7,0,6,13,6
+Eredivisie,1904031,783,NAC Breda,False,428,330,8,1,7,16,4
+Eredivisie,1904032,130,Ajax,True,588,484,9,1,8,17,9
+Eredivisie,1904032,287,SC Heerenveen,False,439,349,17,1,11,20,20
+Eredivisie,1904033,867,Excelsior,True,454,351,21,2,15,9,5
+Eredivisie,1904033,876,Telstar,False,380,276,17,2,12,9,7
+Eredivisie,1903898,129,PSV Eindhoven,True,536,450,8,2,6,17,11
+Eredivisie,1903898,130,Ajax,False,519,429,13,2,10,14,10
+Eredivisie,1903904,867,Excelsior,True,396,285,18,3,10,9,10
+Eredivisie,1903904,758,FC Groningen,False,500,392,12,2,10,16,9
+Eredivisie,1903906,876,Telstar,True,272,173,10,1,7,15,9
+Eredivisie,1903906,116,NEC Nijmegen,False,594,489,21,1,17,11,7
+Eredivisie,1903910,783,NAC Breda,True,306,211,9,0,7,16,5
+Eredivisie,1903910,128,FC Utrecht,False,562,479,28,2,26,11,10
+Eredivisie,1904034,870,Heracles,True,481,374,24,8,17,18,10
+Eredivisie,1904034,868,PEC Zwolle,False,369,273,7,2,4,9,7
+Eredivisie,1904035,758,FC Groningen,True,527,438,18,1,12,20,6
+Eredivisie,1904035,113,Twente,False,436,346,10,1,7,17,10
+Eredivisie,1904036,243,AZ Alkmaar,True,526,426,20,1,18,13,7
+Eredivisie,1904036,303,Sparta Rotterdam,False,380,287,10,0,10,17,6
+Eredivisie,1904037,128,FC Utrecht,True,334,218,11,1,8,12,13
+Eredivisie,1904037,116,NEC Nijmegen,False,518,406,16,0,10,7,11
+Eredivisie,1903832,758,FC Groningen,True,576,483,17,0,14,12,9
+Eredivisie,1903832,130,Ajax,False,529,455,13,2,12,9,14
+Eredivisie,1903900,243,AZ Alkmaar,True,578,481,19,3,12,18,10
+Eredivisie,1903900,113,Twente,False,423,325,9,1,6,22,9
+Eredivisie,1903902,287,SC Heerenveen,True,428,329,11,2,10,13,12
+Eredivisie,1903902,762,FC Volendam,False,430,307,15,0,15,17,12
+Eredivisie,1903907,242,Fortuna Sittard,True,388,271,7,1,6,17,10
+Eredivisie,1903907,256,Feyenoord,False,442,334,19,2,13,11,8
+Eredivisie,1903909,303,Sparta Rotterdam,True,422,340,25,2,21,16,11
+Eredivisie,1903909,874,Go Ahead Eagles,False,480,391,16,2,13,9,9
+Eredivisie,1903911,868,PEC Zwolle,True,391,289,9,1,8,16,8
+Eredivisie,1903911,870,Heracles,False,475,374,14,0,11,5,4
+Eredivisie,1904019,783,NAC Breda,True,571,453,11,1,10,15,7
+Eredivisie,1904019,758,FC Groningen,False,373,283,14,2,9,19,8
+Eredivisie,1903973,113,Twente,True,517,426,16,2,12,17,9
+Eredivisie,1903973,130,Ajax,False,538,448,10,1,7,14,10
+Eredivisie,1903974,242,Fortuna Sittard,True,419,294,9,0,7,13,8
+Eredivisie,1903974,243,AZ Alkmaar,False,490,396,15,2,10,14,9
+Eredivisie,1903975,116,NEC Nijmegen,True,493,389,12,2,10,9,7
+Eredivisie,1903975,867,Excelsior,False,403,302,8,0,7,16,9
+Eredivisie,1903980,129,PSV Eindhoven,True,578,488,19,4,14,16,11
+Eredivisie,1903980,128,FC Utrecht,False,342,238,12,3,11,19,7
+Eredivisie,1903981,758,FC Groningen,True,442,336,24,2,16,6,8
+Eredivisie,1903981,876,Telstar,False,442,337,14,0,10,10,4
+Eredivisie,1904021,130,Ajax,True,630,542,17,3,11,14,5
+Eredivisie,1904021,303,Sparta Rotterdam,False,314,229,14,3,7,24,9
+Eredivisie,1904023,242,Fortuna Sittard,True,452,349,16,1,12,23,12
+Eredivisie,1904023,762,FC Volendam,False,413,325,8,0,7,25,7
+Eredivisie,1904025,868,PEC Zwolle,True,304,228,4,0,2,14,15
+Eredivisie,1904025,129,PSV Eindhoven,False,782,698,18,4,15,16,9
+Eredivisie,1904027,867,Excelsior,True,338,223,9,1,6,7,8
+Eredivisie,1904027,287,SC Heerenveen,False,646,527,19,2,15,12,10
+Eredivisie,1903976,256,Feyenoord,True,495,388,17,0,12,11,7
+Eredivisie,1903976,762,FC Volendam,False,391,284,13,0,11,32,12
+Eredivisie,1903977,868,PEC Zwolle,True,398,301,16,0,14,19,10
+Eredivisie,1903977,874,Go Ahead Eagles,False,440,320,15,5,12,12,4
+Eredivisie,1903978,870,Heracles,True,324,247,8,2,5,18,9
+Eredivisie,1903978,287,SC Heerenveen,False,625,537,24,3,18,9,2
+Eredivisie,1903979,783,NAC Breda,True,498,388,12,0,7,17,3
+Eredivisie,1903979,303,Sparta Rotterdam,False,391,306,6,0,6,17,7
+Eredivisie,1903994,256,Feyenoord,True,497,413,22,3,18,16,5
+Eredivisie,1903994,128,FC Utrecht,False,413,319,10,2,8,19,12
+Eredivisie,1903995,116,NEC Nijmegen,True,376,289,17,0,15,18,6
+Eredivisie,1903995,874,Go Ahead Eagles,False,439,329,9,2,7,11,3
+Eredivisie,1904029,870,Heracles,True,380,289,7,1,5,23,13
+Eredivisie,1904029,113,Twente,False,542,440,21,2,18,18,7
+Eredivisie,1904030,243,AZ Alkmaar,True,500,412,28,2,22,12,11
+Eredivisie,1904030,876,Telstar,False,348,257,14,1,10,22,10
+Eredivisie,1903861,867,Excelsior,True,447,347,16,0,10,16,7
+Eredivisie,1903861,758,FC Groningen,False,542,437,20,2,14,15,7
+Eredivisie,1903878,867,Excelsior,True,479,365,9,2,7,11,8
+Eredivisie,1903878,783,NAC Breda,False,472,326,15,0,12,10,8
+Eredivisie,1903912,870,Heracles,True,430,328,10,0,9,21,11
+Eredivisie,1903912,128,FC Utrecht,False,485,387,16,0,13,14,4
+Eredivisie,1903788,242,Fortuna Sittard,True,334,249,28,3,22,15,10
+Eredivisie,1903788,130,Ajax,False,586,491,13,1,9,13,3
+Eredivisie,1903867,256,Feyenoord,True,468,403,25,6,19,17,6
+Eredivisie,1903867,868,PEC Zwolle,False,362,281,7,1,7,9,6
+Eredivisie,1903870,287,SC Heerenveen,True,395,292,12,0,6,21,9
+Eredivisie,1903870,129,PSV Eindhoven,False,646,559,11,2,11,13,8
+Eredivisie,1903873,876,Telstar,True,433,334,11,1,7,14,6
+Eredivisie,1903873,870,Heracles,False,387,277,15,1,11,24,3
+Eredivisie,1903880,116,NEC Nijmegen,True,535,453,15,4,11,17,6
+Eredivisie,1903880,870,Heracles,False,256,176,10,1,8,21,8
+Eredivisie,1903882,303,Sparta Rotterdam,True,647,526,16,2,14,16,6
+Eredivisie,1903882,242,Fortuna Sittard,False,360,265,11,2,8,18,12
+Eredivisie,1903883,287,SC Heerenveen,True,385,287,7,0,7,17,6
+Eredivisie,1903883,113,Twente,False,567,478,29,5,22,17,16
+Eredivisie,1903914,868,PEC Zwolle,True,465,365,14,1,11,16,8
+Eredivisie,1903914,762,FC Volendam,False,352,242,15,2,11,20,10
+Eredivisie,1903903,867,Excelsior,True,454,328,21,1,14,18,7
+Eredivisie,1903903,287,SC Heerenveen,False,421,317,10,2,9,13,10
+Eredivisie,1903908,130,Ajax,True,597,478,13,1,10,11,15
+Eredivisie,1903908,758,FC Groningen,False,400,285,13,3,11,22,11
+Eredivisie,1903925,129,PSV Eindhoven,True,636,540,19,1,16,15,5
+Eredivisie,1903925,243,AZ Alkmaar,False,373,278,14,2,12,16,12
+Eredivisie,1904038,113,Twente,True,684,584,27,0,22,14,6
+Eredivisie,1904038,876,Telstar,False,357,273,6,0,6,10,10
+Eredivisie,1903796,783,NAC Breda,True,531,410,22,0,16,16,8
+Eredivisie,1903796,303,Sparta Rotterdam,False,374,294,12,1,9,25,9
+Eredivisie,1903799,128,FC Utrecht,True,331,234,12,1,8,21,11
+Eredivisie,1903799,113,Twente,False,549,446,21,1,9,16,4
+Eredivisie,1903858,243,AZ Alkmaar,True,447,352,23,1,16,19,5
+Eredivisie,1903858,874,Go Ahead Eagles,False,477,375,13,3,7,12,8
+Eredivisie,1903864,116,NEC Nijmegen,True,446,354,16,3,11,11,1
+Eredivisie,1903864,762,FC Volendam,False,330,244,13,2,7,17,4
+Eredivisie,1903869,243,AZ Alkmaar,True,369,270,14,1,10,18,9
+Eredivisie,1903869,130,Ajax,False,590,483,12,1,10,9,7
+Eredivisie,1903872,876,Telstar,True,338,235,12,1,8,14,8
+Eredivisie,1903872,874,Go Ahead Eagles,False,454,349,24,1,22,13,12
+Eredivisie,1903875,758,FC Groningen,True,363,248,8,1,5,20,7
+Eredivisie,1903875,129,PSV Eindhoven,False,611,517,15,2,11,14,7
+Eredivisie,1903885,128,FC Utrecht,True,453,334,6,0,5,12,7
+Eredivisie,1903885,256,Feyenoord,False,515,411,10,1,7,15,14
+Eredivisie,1903905,113,Twente,True,461,346,11,3,7,21,9
+Eredivisie,1903905,874,Go Ahead Eagles,False,485,375,16,2,10,16,6
+Eredivisie,1903919,256,Feyenoord,True,455,354,14,3,14,19,13
+Eredivisie,1903919,783,NAC Breda,False,336,233,12,3,9,15,9
+Eredivisie,1903922,762,FC Volendam,True,387,288,7,0,6,18,12
+Eredivisie,1903922,116,NEC Nijmegen,False,493,381,27,3,21,25,9
+Eredivisie,1903927,876,Telstar,True,322,224,14,4,11,23,2
+Eredivisie,1903927,242,Fortuna Sittard,False,446,338,21,1,12,26,10
+Eredivisie,1903929,303,Sparta Rotterdam,True,466,354,20,1,17,17,6
+Eredivisie,1903929,868,PEC Zwolle,False,443,352,15,1,9,19,13
+Eredivisie,1903733,242,Fortuna Sittard,True,553,465,37,3,22,15,6
+Eredivisie,1903733,874,Go Ahead Eagles,False,277,201,6,1,5,8,6
+Eredivisie,1903789,870,Heracles,True,456,329,10,2,8,12,7
+Eredivisie,1903789,867,Excelsior,False,366,250,12,1,7,12,10
+Eredivisie,1903790,783,NAC Breda,True,428,333,12,0,9,21,10
+Eredivisie,1903790,762,FC Volendam,False,434,346,13,3,10,13,6
+Eredivisie,1903792,287,SC Heerenveen,True,500,392,18,0,15,20,7
+Eredivisie,1903792,242,Fortuna Sittard,False,327,230,10,2,6,11,8
+Eredivisie,1903793,868,PEC Zwolle,True,357,272,11,1,8,17,15
+Eredivisie,1903793,303,Sparta Rotterdam,False,628,514,14,0,11,21,7
+Eredivisie,1903734,867,Excelsior,True,321,225,9,0,6,24,11
+Eredivisie,1903734,116,NEC Nijmegen,False,515,409,16,5,13,28,4
+Eredivisie,1903735,256,Feyenoord,True,516,421,20,2,11,22,7
+Eredivisie,1903735,783,NAC Breda,False,353,265,7,0,5,31,8
+Eredivisie,1903736,762,FC Volendam,True,383,298,6,1,4,7,11
+Eredivisie,1903736,287,SC Heerenveen,False,514,415,18,1,15,14,3
+Eredivisie,1903737,129,PSV Eindhoven,True,720,627,23,6,19,13,12
+Eredivisie,1903737,303,Sparta Rotterdam,False,364,278,8,1,6,10,11
+Eredivisie,1903795,130,Ajax,True,675,561,10,1,7,18,7
+Eredivisie,1903795,128,FC Utrecht,False,328,242,16,2,9,23,10
+Eredivisie,1903797,243,AZ Alkmaar,True,482,395,8,1,7,20,13
+Eredivisie,1903797,129,PSV Eindhoven,False,537,459,15,5,14,16,15
+Eredivisie,1903801,758,FC Groningen,True,366,264,10,0,8,27,10
+Eredivisie,1903801,116,NEC Nijmegen,False,439,323,13,2,10,28,7
+Eredivisie,1903804,256,Feyenoord,True,587,479,21,1,15,8,9
+Eredivisie,1903804,874,Go Ahead Eagles,False,384,284,9,2,6,6,7
+Eredivisie,1903857,762,FC Volendam,True,495,400,7,0,6,28,9
+Eredivisie,1903857,243,AZ Alkmaar,False,470,381,17,1,10,34,12
+Eredivisie,1903862,783,NAC Breda,True,437,322,10,0,5,16,10
+Eredivisie,1903862,758,FC Groningen,False,534,416,16,0,7,12,8
+Eredivisie,1903871,867,Excelsior,True,520,425,8,1,6,12,8
+Eredivisie,1903871,129,PSV Eindhoven,False,525,445,16,5,14,23,8
+Eredivisie,1903879,868,PEC Zwolle,True,358,259,3,1,2,27,8
+Eredivisie,1903879,113,Twente,False,637,523,26,1,22,16,3
+Eredivisie,1903988,762,FC Volendam,True,415,323,8,1,7,17,4
+Eredivisie,1903988,113,Twente,False,573,476,23,2,20,17,11
+Eredivisie,1903913,130,Ajax,True,694,601,15,1,12,27,8
+Eredivisie,1903913,128,FC Utrecht,False,398,314,14,2,13,19,12
+Eredivisie,1903915,762,FC Volendam,True,280,175,9,2,5,15,8
+Eredivisie,1903915,867,Excelsior,False,567,461,8,0,5,12,5
+Eredivisie,1903917,243,AZ Alkmaar,True,587,509,13,1,8,15,10
+Eredivisie,1903917,256,Feyenoord,False,397,304,10,1,8,23,11
+Eredivisie,1903920,129,PSV Eindhoven,True,506,437,24,4,21,15,5
+Eredivisie,1903920,874,Go Ahead Eagles,False,349,260,11,1,8,15,4
+Eredivisie,1903923,116,NEC Nijmegen,True,401,287,12,1,6,13,7
+Eredivisie,1903923,758,FC Groningen,False,391,272,11,2,9,13,10
+Eredivisie,1903933,242,Fortuna Sittard,True,422,333,12,3,4,11,9
+Eredivisie,1903933,868,PEC Zwolle,False,501,407,8,2,7,20,5
+Eredivisie,1903936,876,Telstar,True,319,225,12,3,9,12,10
+Eredivisie,1903936,870,Heracles,False,372,286,7,0,4,4,6
+Eredivisie,1903939,113,Twente,True,562,458,26,4,21,15,9
+Eredivisie,1903939,303,Sparta Rotterdam,False,410,322,9,0,7,24,10
+Eredivisie,1903738,868,PEC Zwolle,True,381,272,7,1,7,22,16
+Eredivisie,1903738,113,Twente,False,503,376,16,0,9,16,5
+Eredivisie,1903739,876,Telstar,True,394,323,18,0,13,14,8
+Eredivisie,1903739,130,Ajax,False,648,570,15,2,14,21,9
+Eredivisie,1903740,243,AZ Alkmaar,True,437,337,10,3,8,24,10
+Eredivisie,1903740,758,FC Groningen,False,426,336,12,2,6,14,14
+Eredivisie,1903741,128,FC Utrecht,True,384,295,18,4,14,16,6
+Eredivisie,1903741,870,Heracles,False,408,323,10,0,7,11,3
+Eredivisie,1903860,242,Fortuna Sittard,True,367,277,12,2,11,8,5
+Eredivisie,1903860,874,Go Ahead Eagles,False,599,505,23,2,17,7,6
+Eredivisie,1903865,256,Feyenoord,True,465,362,7,2,5,12,6
+Eredivisie,1903865,287,SC Heerenveen,False,592,485,16,2,16,20,7
+Eredivisie,1903874,870,Heracles,True,439,333,6,0,5,13,5
+Eredivisie,1903874,303,Sparta Rotterdam,False,448,359,22,2,18,18,8
+Eredivisie,1903877,130,Ajax,True,673,589,17,4,14,15,10
+Eredivisie,1903877,876,Telstar,False,371,272,7,1,6,21,14
+Eredivisie,1903821,287,SC Heerenveen,True,508,430,19,3,15,12,7
+Eredivisie,1903821,874,Go Ahead Eagles,False,430,341,13,1,10,10,9
+Eredivisie,1903868,128,FC Utrecht,True,240,133,11,3,10,18,13
+Eredivisie,1903868,116,NEC Nijmegen,False,706,578,25,1,21,8,5
+Eredivisie,1903983,874,Go Ahead Eagles,True,442,309,10,0,8,12,10
+Eredivisie,1903983,758,FC Groningen,False,521,405,24,0,19,12,3
+Eredivisie,1903984,130,Ajax,True,537,463,18,3,16,26,7
+Eredivisie,1903984,870,Heracles,False,351,265,14,0,8,28,6
+Eredivisie,1903987,129,PSV Eindhoven,True,619,535,18,2,16,16,9
+Eredivisie,1903987,303,Sparta Rotterdam,False,388,298,9,0,6,16,10
+Eredivisie,1903989,128,FC Utrecht,True,339,259,18,4,14,14,7
+Eredivisie,1903989,876,Telstar,False,487,404,13,1,8,20,8
+Eredivisie,1903930,287,SC Heerenveen,True,452,327,13,0,7,19,9
+Eredivisie,1903930,783,NAC Breda,False,410,276,19,2,13,19,10
+Eredivisie,1903982,243,AZ Alkmaar,True,562,477,23,3,17,17,7
+Eredivisie,1903982,287,SC Heerenveen,False,409,330,7,0,6,13,12
+Eredivisie,1903985,116,NEC Nijmegen,True,422,325,15,1,12,16,9
+Eredivisie,1903985,256,Feyenoord,False,305,200,13,1,5,22,10
+Eredivisie,1903986,783,NAC Breda,True,499,381,14,1,12,14,6
+Eredivisie,1903986,242,Fortuna Sittard,False,372,274,10,1,9,19,17
+Eredivisie,1903990,868,PEC Zwolle,True,442,335,15,2,11,15,5
+Eredivisie,1903990,867,Excelsior,False,472,351,16,2,8,15,5
+Eredivisie,1903921,762,FC Volendam,True,315,224,12,2,11,17,16
+Eredivisie,1903921,129,PSV Eindhoven,False,641,544,19,1,15,18,9
+Eredivisie,1903952,868,PEC Zwolle,True,450,335,14,1,11,31,10
+Eredivisie,1903952,758,FC Groningen,False,444,327,17,1,10,10,12
+Eredivisie,1903768,868,PEC Zwolle,True,403,326,8,1,8,14,10
+Eredivisie,1903768,130,Ajax,False,582,493,12,3,11,11,14
+Eredivisie,1903769,762,FC Volendam,True,478,378,19,0,15,5,11
+Eredivisie,1903769,874,Go Ahead Eagles,False,417,324,19,3,14,18,8
+Eredivisie,1903770,116,NEC Nijmegen,True,462,326,20,3,11,15,5
+Eredivisie,1903770,129,PSV Eindhoven,False,345,246,18,5,18,26,5
+Eredivisie,1903771,256,Feyenoord,True,379,293,9,1,8,14,11
+Eredivisie,1903771,287,SC Heerenveen,False,436,315,11,0,6,8,8
+Eredivisie,1903772,783,NAC Breda,True,327,206,10,2,7,13,10
+Eredivisie,1903772,113,Twente,False,469,350,15,2,11,26,6
+Eredivisie,1903807,762,FC Volendam,True,259,183,4,0,2,17,8
+Eredivisie,1903807,758,FC Groningen,False,532,437,26,3,18,17,4
+Eredivisie,1903813,129,PSV Eindhoven,True,599,519,21,4,17,10,4
+Eredivisie,1903813,870,Heracles,False,314,233,11,3,8,16,13
+Eredivisie,1903818,116,NEC Nijmegen,True,546,446,16,2,14,15,9
+Eredivisie,1903818,876,Telstar,False,270,180,10,2,5,29,11
+Eredivisie,1903823,242,Fortuna Sittard,True,566,449,11,0,8,11,5
+Eredivisie,1903823,868,PEC Zwolle,False,316,225,8,1,4,20,6
+Eredivisie,1903916,242,Fortuna Sittard,True,487,409,8,0,6,26,12
+Eredivisie,1903916,130,Ajax,False,608,545,21,5,16,18,9
+Eredivisie,1903918,867,Excelsior,True,485,386,11,1,9,10,14
+Eredivisie,1903918,243,AZ Alkmaar,False,586,488,16,2,14,12,10
+Eredivisie,1903926,758,FC Groningen,True,461,362,11,1,10,24,7
+Eredivisie,1903926,128,FC Utrecht,False,491,390,14,2,8,20,10
+Eredivisie,1903932,783,NAC Breda,True,372,279,13,1,10,15,5
+Eredivisie,1903932,870,Heracles,False,418,304,14,0,7,20,9
+Eredivisie,1903931,303,Sparta Rotterdam,True,393,298,9,1,5,18,12
+Eredivisie,1903931,130,Ajax,False,536,432,22,3,19,18,10
+Eredivisie,1903937,242,Fortuna Sittard,True,315,200,13,2,10,20,12
+Eredivisie,1903937,762,FC Volendam,False,521,394,16,1,9,15,8
+Eredivisie,1903944,287,SC Heerenveen,True,420,337,12,3,9,14,9
+Eredivisie,1903944,876,Telstar,False,536,446,20,0,16,15,11
+Eredivisie,1903947,129,PSV Eindhoven,True,624,471,12,2,11,21,2
+Eredivisie,1903947,116,NEC Nijmegen,False,267,149,17,3,11,18,8
+Eredivisie,1903773,303,Sparta Rotterdam,True,430,322,19,1,13,23,5
+Eredivisie,1903773,867,Excelsior,False,488,365,17,0,14,10,9
+Eredivisie,1903774,870,Heracles,True,440,356,19,1,12,20,4
+Eredivisie,1903774,243,AZ Alkmaar,False,406,335,25,2,16,18,3
+Eredivisie,1903775,128,FC Utrecht,True,398,285,14,0,12,11,11
+Eredivisie,1903775,758,FC Groningen,False,485,366,13,1,10,22,5
+Eredivisie,1903776,242,Fortuna Sittard,True,396,304,9,3,7,17,9
+Eredivisie,1903776,876,Telstar,False,517,413,18,1,12,14,4
+Eredivisie,1903802,256,Feyenoord,True,584,478,18,0,12,9,9
+Eredivisie,1903802,130,Ajax,False,422,349,15,2,13,20,16
+Eredivisie,1903810,783,NAC Breda,True,570,481,16,1,11,16,16
+Eredivisie,1903810,128,FC Utrecht,False,448,371,11,1,8,20,14
+Eredivisie,1903816,287,SC Heerenveen,True,435,316,20,2,13,10,6
+Eredivisie,1903816,303,Sparta Rotterdam,False,475,366,12,1,5,23,15
+Eredivisie,1903820,113,Twente,True,521,427,23,2,19,14,3
+Eredivisie,1903820,874,Go Ahead Eagles,False,450,342,6,0,4,10,8
+Eredivisie,1903924,874,Go Ahead Eagles,True,207,130,4,0,4,17,5
+Eredivisie,1903924,256,Feyenoord,False,568,470,33,1,25,14,6
+Eredivisie,1903928,287,SC Heerenveen,True,429,334,11,4,8,16,8
+Eredivisie,1903928,868,PEC Zwolle,False,534,441,12,2,9,21,8
+Eredivisie,1903938,113,Twente,True,525,414,20,1,14,20,9
+Eredivisie,1903938,876,Telstar,False,465,353,14,1,12,23,19
+Eredivisie,1903934,870,Heracles,True,415,325,6,0,4,22,5
+Eredivisie,1903934,243,AZ Alkmaar,False,458,366,14,4,9,21,6
+Eredivisie,1903940,256,Feyenoord,True,398,302,16,2,12,19,8
+Eredivisie,1903940,867,Excelsior,False,424,307,12,1,8,22,8
+Eredivisie,1903942,783,NAC Breda,True,490,366,20,0,13,16,5
+Eredivisie,1903942,874,Go Ahead Eagles,False,386,301,11,6,8,9,12
+Eredivisie,1903950,113,Twente,True,587,463,16,0,10,16,10
+Eredivisie,1903950,128,FC Utrecht,False,375,261,10,2,6,16,16
+Eredivisie,1903742,868,PEC Zwolle,True,433,355,10,2,8,20,13
+Eredivisie,1903742,876,Telstar,False,490,382,11,0,8,12,7
+Eredivisie,1903743,287,SC Heerenveen,True,414,288,16,1,13,19,4
+Eredivisie,1903743,758,FC Groningen,False,487,352,8,2,6,15,8
+Eredivisie,1903744,256,Feyenoord,True,505,405,16,2,13,18,3
+Eredivisie,1903744,867,Excelsior,False,448,339,8,1,5,16,6
+Eredivisie,1903745,116,NEC Nijmegen,True,709,616,24,4,20,12,1
+Eredivisie,1903745,870,Heracles,False,166,95,13,1,12,12,6
+Eredivisie,1903803,116,NEC Nijmegen,True,435,334,11,4,9,13,10
+Eredivisie,1903803,783,NAC Breda,False,371,259,14,3,11,25,4
+Eredivisie,1903806,129,PSV Eindhoven,True,697,585,18,2,16,18,4
+Eredivisie,1903806,242,Fortuna Sittard,False,302,208,6,1,4,14,13
+Eredivisie,1903808,243,AZ Alkmaar,True,466,362,12,1,7,20,7
+Eredivisie,1903808,868,PEC Zwolle,False,413,328,12,3,10,19,12
+Eredivisie,1903876,876,Telstar,True,354,244,17,2,13,12,7
+Eredivisie,1903876,867,Excelsior,False,563,445,13,2,11,8,10
+Eredivisie,1903881,874,Go Ahead Eagles,True,513,428,10,2,9,11,6
+Eredivisie,1903881,130,Ajax,False,529,460,18,2,16,14,8
+Eredivisie,1903935,303,Sparta Rotterdam,True,356,235,13,1,10,18,13
+Eredivisie,1903935,116,NEC Nijmegen,False,504,356,12,1,10,10,4
+Eredivisie,1903941,243,AZ Alkmaar,True,478,393,16,3,12,17,2
+Eredivisie,1903941,783,NAC Breda,False,392,321,17,3,14,19,9
+Eredivisie,1903943,762,FC Volendam,True,410,290,17,1,12,14,4
+Eredivisie,1903943,876,Telstar,False,389,270,7,2,6,22,7
+Eredivisie,1903946,130,Ajax,True,535,451,23,0,19,20,7
+Eredivisie,1903946,287,SC Heerenveen,False,608,495,16,0,13,21,6
+Eredivisie,1903948,758,FC Groningen,True,390,286,16,2,10,10,12
+Eredivisie,1903948,870,Heracles,False,437,326,11,1,9,12,14
+Eredivisie,1903951,116,NEC Nijmegen,True,459,353,37,2,23,16,4
+Eredivisie,1903951,874,Go Ahead Eagles,False,345,255,3,1,3,15,9
+Eredivisie,1903954,129,PSV Eindhoven,True,425,327,13,5,11,7,10
+Eredivisie,1903954,113,Twente,False,401,300,18,1,13,13,14
+Eredivisie,1903957,867,Excelsior,True,422,316,16,2,8,10,3
+Eredivisie,1903957,303,Sparta Rotterdam,False,465,360,18,3,10,12,16
+Eredivisie,1903960,128,FC Utrecht,True,528,446,18,2,15,14,8
+Eredivisie,1903960,242,Fortuna Sittard,False,381,296,13,0,10,16,14
+Eredivisie,1903962,256,Feyenoord,True,473,379,22,2,18,12,11
+Eredivisie,1903962,868,PEC Zwolle,False,460,366,7,0,5,13,19
+Eredivisie,1903746,874,Go Ahead Eagles,True,501,413,9,2,5,20,2
+Eredivisie,1903746,130,Ajax,False,527,455,22,2,15,13,13
+Eredivisie,1903747,128,FC Utrecht,True,538,448,20,1,15,14,10
+Eredivisie,1903747,303,Sparta Rotterdam,False,433,337,15,2,13,22,11
+Eredivisie,1903748,113,Twente,True,497,356,20,1,10,17,8
+Eredivisie,1903748,129,PSV Eindhoven,False,495,400,15,1,15,15,12
+Eredivisie,1903749,243,AZ Alkmaar,True,643,564,19,2,14,20,6
+Eredivisie,1903749,762,FC Volendam,False,335,245,8,2,5,14,12
+Eredivisie,1903750,242,Fortuna Sittard,True,555,454,10,1,8,17,7
+Eredivisie,1903750,783,NAC Breda,False,352,276,14,2,12,15,10
+Eredivisie,1903777,256,Feyenoord,True,472,370,19,2,16,16,9
+Eredivisie,1903777,242,Fortuna Sittard,False,355,253,5,0,4,22,11
+Eredivisie,1903791,128,FC Utrecht,True,491,398,16,1,13,22,9
+Eredivisie,1903791,762,FC Volendam,False,408,317,7,2,7,16,14
+Eredivisie,1903794,303,Sparta Rotterdam,True,428,325,13,4,9,19,7
+Eredivisie,1903794,256,Feyenoord,False,544,437,22,3,16,12,6
+Eredivisie,1903798,758,FC Groningen,True,419,316,12,1,9,18,4
+Eredivisie,1903798,287,SC Heerenveen,False,539,434,18,1,10,14,4
+Eredivisie,1903800,113,Twente,True,447,343,18,2,13,20,6
+Eredivisie,1903800,870,Heracles,False,419,332,11,0,10,15,12
+Eredivisie,1903997,129,PSV Eindhoven,True,593,507,24,2,20,11,10
+Eredivisie,1903997,874,Go Ahead Eagles,False,448,361,4,1,1,4,11
+Eredivisie,1903998,128,FC Utrecht,True,533,451,22,3,15,12,7
+Eredivisie,1903998,762,FC Volendam,False,380,309,3,1,3,27,8
+Eredivisie,1903999,130,Ajax,True,584,504,17,0,10,23,6
+Eredivisie,1903999,243,AZ Alkmaar,False,374,302,13,2,9,14,5
+Eredivisie,1904000,783,NAC Breda,True,479,386,19,2,12,18,7
+Eredivisie,1904000,868,PEC Zwolle,False,546,454,11,2,9,20,5
+Eredivisie,1904005,113,Twente,True,310,218,11,4,4,18,6
+Eredivisie,1904005,116,NEC Nijmegen,False,446,359,8,2,9,14,6
+Eredivisie,1903778,303,Sparta Rotterdam,True,412,329,7,1,6,12,7
+Eredivisie,1903778,113,Twente,False,492,415,23,5,18,15,13
+Eredivisie,1903996,256,Feyenoord,True,582,490,19,7,15,14,3
+Eredivisie,1903996,870,Heracles,False,336,251,4,0,4,15,10
+Eredivisie,1904001,758,FC Groningen,True,558,431,12,0,9,21,3
+Eredivisie,1904001,303,Sparta Rotterdam,False,358,270,8,2,6,14,8
+Eredivisie,1904002,242,Fortuna Sittard,True,448,334,14,0,8,18,13
+Eredivisie,1904002,867,Excelsior,False,448,329,11,1,7,17,9
+Eredivisie,1904003,287,SC Heerenveen,True,433,335,15,3,10,11,4
+Eredivisie,1904003,876,Telstar,False,377,272,18,2,14,19,11
+Eredivisie,1903965,242,Fortuna Sittard,True,426,322,16,2,12,13,10
+Eredivisie,1903965,867,Excelsior,False,516,410,10,1,9,9,9
+Eredivisie,1903958,870,Heracles,True,419,290,13,1,10,15,5
+Eredivisie,1903958,867,Excelsior,False,417,306,15,1,11,14,11
+Eredivisie,1903779,762,FC Volendam,True,417,330,14,1,11,14,7
+Eredivisie,1903779,867,Excelsior,False,438,333,15,2,13,11,6
+Eredivisie,1903780,758,FC Groningen,True,477,393,16,2,11,15,7
+Eredivisie,1903780,876,Telstar,False,405,296,7,0,5,17,7
+Eredivisie,1903781,128,FC Utrecht,True,658,541,14,0,10,19,3
+Eredivisie,1903781,242,Fortuna Sittard,False,361,277,7,1,3,24,14
+Eredivisie,1903782,870,Heracles,True,338,252,14,1,8,13,7
+Eredivisie,1903782,783,NAC Breda,False,565,460,17,2,13,9,3
+Eredivisie,1903826,867,Excelsior,True,489,385,13,2,9,17,9
+Eredivisie,1903826,868,PEC Zwolle,False,522,422,9,1,6,7,7
+Eredivisie,1903842,870,Heracles,True,384,291,8,0,6,12,10
+Eredivisie,1903842,287,SC Heerenveen,False,539,438,15,3,11,13,11
+Eredivisie,1903845,783,NAC Breda,True,613,497,11,0,8,14,6
+Eredivisie,1903845,876,Telstar,False,376,274,11,1,8,14,11
+Eredivisie,1903848,130,Ajax,True,570,473,20,3,18,9,8
+Eredivisie,1903848,116,NEC Nijmegen,False,373,283,14,1,10,15,3
+Eredivisie,1903805,867,Excelsior,True,440,331,8,1,6,19,11
+Eredivisie,1903805,243,AZ Alkmaar,False,656,545,13,1,9,22,10
+Eredivisie,1903945,130,Ajax,True,441,338,9,1,7,14,10
+Eredivisie,1903945,116,NEC Nijmegen,False,474,363,17,1,13,15,8
+Eredivisie,1903961,762,FC Volendam,True,381,273,8,0,7,17,11
+Eredivisie,1903961,783,NAC Breda,False,422,309,17,1,13,17,11
+Eredivisie,1903964,129,PSV Eindhoven,True,667,573,28,3,26,22,7
+Eredivisie,1903964,287,SC Heerenveen,False,362,275,14,1,13,16,11
+Eredivisie,1903968,242,Fortuna Sittard,True,345,237,11,1,9,19,12
+Eredivisie,1903968,113,Twente,False,521,394,9,2,7,11,5
+Eredivisie,1903969,762,FC Volendam,True,451,355,8,0,5,15,7
+Eredivisie,1903969,303,Sparta Rotterdam,False,460,372,16,2,14,18,4
+Eredivisie,1903972,868,PEC Zwolle,True,386,278,8,2,7,24,8
+Eredivisie,1903972,783,NAC Breda,False,508,395,20,1,16,8,11
+Eredivisie,1903783,868,PEC Zwolle,True,276,180,8,0,5,10,12
+Eredivisie,1903783,874,Go Ahead Eagles,False,693,589,20,2,16,9,6
+Eredivisie,1903784,116,NEC Nijmegen,True,521,420,11,2,10,18,10
+Eredivisie,1903784,287,SC Heerenveen,False,341,230,14,3,10,11,9
+Eredivisie,1903785,130,Ajax,True,347,273,14,2,11,19,7
+Eredivisie,1903785,129,PSV Eindhoven,False,535,449,16,2,14,27,9
+Eredivisie,1903786,256,Feyenoord,True,442,356,19,3,14,18,11
+Eredivisie,1903786,243,AZ Alkmaar,False,499,411,9,3,5,14,4
+Eredivisie,1903830,303,Sparta Rotterdam,True,483,405,23,1,15,14,4
+Eredivisie,1903830,762,FC Volendam,False,324,248,12,0,9,18,2
+Eredivisie,1903836,256,Feyenoord,True,441,345,10,1,8,14,13
+Eredivisie,1903836,113,Twente,False,515,403,29,1,22,13,5
+Eredivisie,1903839,758,FC Groningen,True,472,358,14,1,10,11,5
+Eredivisie,1903839,874,Go Ahead Eagles,False,425,316,8,1,8,13,9
+Eredivisie,1903851,243,AZ Alkmaar,True,509,429,21,3,15,11,6
+Eredivisie,1903851,242,Fortuna Sittard,False,266,178,15,4,11,30,2
+Eredivisie,1903854,129,PSV Eindhoven,True,547,448,14,2,9,18,12
+Eredivisie,1903854,128,FC Utrecht,False,416,320,17,1,11,16,8
+Eredivisie,1903949,303,Sparta Rotterdam,True,483,383,12,1,10,19,6
+Eredivisie,1903949,243,AZ Alkmaar,False,399,297,11,3,8,26,9
+Eredivisie,1903955,256,Feyenoord,True,487,399,19,2,15,8,9
+Eredivisie,1903955,876,Telstar,False,430,331,8,1,5,13,9
+Eredivisie,1903959,874,Go Ahead Eagles,True,459,367,12,4,9,13,6
+Eredivisie,1903959,870,Heracles,False,449,363,9,0,9,18,13
+Eredivisie,1903966,758,FC Groningen,True,507,418,11,1,8,18,4
+Eredivisie,1903966,113,Twente,False,489,367,6,2,6,17,5
+Eredivisie,1903967,128,FC Utrecht,True,491,374,25,1,17,23,9
+Eredivisie,1903967,868,PEC Zwolle,False,424,321,9,1,8,23,12
+Eredivisie,1903953,256,Feyenoord,True,520,422,14,1,11,19,3
+Eredivisie,1903953,130,Ajax,False,454,349,5,1,4,24,11
+Eredivisie,1903956,758,FC Groningen,True,429,343,14,3,10,17,10
+Eredivisie,1903956,243,AZ Alkmaar,False,490,400,16,0,13,22,9
+Eredivisie,1903963,116,NEC Nijmegen,True,485,375,22,2,16,20,12
+Eredivisie,1903963,287,SC Heerenveen,False,405,284,11,2,7,21,7
+Eredivisie,1903970,129,PSV Eindhoven,True,450,358,18,1,14,16,7
+Eredivisie,1903970,876,Telstar,False,420,323,13,3,10,15,4
+Eredivisie,1903971,128,FC Utrecht,True,403,297,22,2,16,16,11
+Eredivisie,1903971,874,Go Ahead Eagles,False,522,424,11,0,11,14,11
+Eredivisie,1903894,303,Sparta Rotterdam,True,470,376,10,1,10,18,8
+Eredivisie,1903894,876,Telstar,False,412,313,11,4,10,10,10
+Eredivisie,1903809,867,Excelsior,True,385,298,8,2,7,19,9
+Eredivisie,1903809,130,Ajax,False,699,591,15,1,15,22,11
+Eredivisie,1903811,762,FC Volendam,True,498,401,11,1,8,18,7
+Eredivisie,1903811,113,Twente,False,453,373,18,1,17,14,10
+Eredivisie,1903822,874,Go Ahead Eagles,True,486,386,6,2,4,18,9
+Eredivisie,1903822,870,Heracles,False,413,322,22,4,15,15,4
+Eredivisie,1903824,129,PSV Eindhoven,True,457,374,9,1,9,22,10
+Eredivisie,1903824,783,NAC Breda,False,411,303,16,0,12,20,8
+Eredivisie,1903827,242,Fortuna Sittard,True,396,303,12,1,8,15,12
+Eredivisie,1903827,303,Sparta Rotterdam,False,584,468,13,1,11,20,9
+Eredivisie,1903893,868,PEC Zwolle,True,360,284,7,2,5,20,11
+Eredivisie,1903893,129,PSV Eindhoven,False,740,658,17,5,11,17,11
+Eredivisie,1903993,874,Go Ahead Eagles,True,416,317,15,0,10,13,10
+Eredivisie,1903993,243,AZ Alkmaar,False,415,309,23,0,15,13,6
+Eredivisie,1903751,303,Sparta Rotterdam,True,293,220,13,3,11,13,6
+Eredivisie,1903751,874,Go Ahead Eagles,False,613,509,19,0,13,5,7
+Eredivisie,1903752,129,PSV Eindhoven,True,603,518,23,4,19,18,8
+Eredivisie,1903752,758,FC Groningen,False,315,228,17,2,10,27,5
+Eredivisie,1903753,876,Telstar,True,451,347,18,2,13,13,7
+Eredivisie,1903753,762,FC Volendam,False,479,362,10,2,8,18,7
+Eredivisie,1903815,116,NEC Nijmegen,True,386,297,22,4,15,15,8
+Eredivisie,1903815,256,Feyenoord,False,471,373,19,2,17,24,7
+Eredivisie,1903817,868,PEC Zwolle,True,355,264,5,2,4,21,13
+Eredivisie,1903817,758,FC Groningen,False,636,504,39,2,27,16,5
+Eredivisie,1903819,243,AZ Alkmaar,True,567,465,9,1,9,18,2
+Eredivisie,1903819,287,SC Heerenveen,False,500,391,21,3,18,25,5
+Eredivisie,1903829,128,FC Utrecht,True,542,424,17,1,13,15,10
+Eredivisie,1903829,876,Telstar,False,400,312,10,1,8,16,11
+Eredivisie,1903812,762,FC Volendam,True,369,298,5,0,4,16,11
+Eredivisie,1903812,130,Ajax,False,664,572,31,2,21,18,11
+Eredivisie,1903828,868,PEC Zwolle,True,485,363,11,1,10,20,4
+Eredivisie,1903828,116,NEC Nijmegen,False,406,282,13,2,7,13,15
+Eredivisie,1903831,783,NAC Breda,True,273,187,6,2,4,13,15
+Eredivisie,1903831,129,PSV Eindhoven,False,727,608,16,2,14,13,11
+Eredivisie,1903835,867,Excelsior,True,350,248,8,0,8,19,15
+Eredivisie,1903835,113,Twente,False,658,542,14,0,10,12,4
+Eredivisie,1903755,287,SC Heerenveen,True,526,418,18,1,12,12,11
+Eredivisie,1903755,113,Twente,False,438,324,9,2,5,23,9
+Eredivisie,1903756,783,NAC Breda,True,432,325,7,0,6,15,6
+Eredivisie,1903756,116,NEC Nijmegen,False,453,353,18,3,13,17,7
+Eredivisie,1903757,867,Excelsior,True,444,358,12,1,9,13,11
+Eredivisie,1903757,128,FC Utrecht,False,451,364,16,4,12,13,3
+Eredivisie,1903758,130,Ajax,True,687,607,27,2,20,12,10
+Eredivisie,1903758,870,Heracles,False,366,272,4,0,3,13,8
+Eredivisie,1903754,243,AZ Alkmaar,True,642,545,28,2,21,13,4
+Eredivisie,1903754,868,PEC Zwolle,False,340,256,8,2,7,8,12
+Eredivisie,1904007,287,SC Heerenveen,True,468,375,10,2,9,12,8
+Eredivisie,1904007,783,NAC Breda,False,411,298,12,4,9,18,3
+Eredivisie,1903814,870,Heracles,True,305,214,7,2,6,23,9
+Eredivisie,1903814,256,Feyenoord,False,577,486,16,4,14,14,11
+Eredivisie,1903825,242,Fortuna Sittard,True,379,256,10,2,7,10,5
+Eredivisie,1903825,758,FC Groningen,False,570,435,25,1,16,13,6
+Eredivisie,1903833,243,AZ Alkmaar,True,436,317,12,1,6,27,8
+Eredivisie,1903833,876,Telstar,False,417,306,10,0,8,16,13
+Eredivisie,1903838,303,Sparta Rotterdam,True,389,292,5,1,4,13,5
+Eredivisie,1903838,128,FC Utrecht,False,557,444,22,0,13,13,5
+Eredivisie,1903886,242,Fortuna Sittard,True,423,319,16,1,12,28,16
+Eredivisie,1903886,287,SC Heerenveen,False,587,472,15,2,13,17,5
+Eredivisie,1903891,130,Ajax,True,424,341,8,2,7,25,11
+Eredivisie,1903891,783,NAC Breda,False,578,475,21,0,12,17,9
+Eredivisie,1903896,113,Twente,True,424,291,13,1,8,21,4
+Eredivisie,1903896,116,NEC Nijmegen,False,428,314,20,1,14,8,10
+Eredivisie,1903992,256,Feyenoord,True,448,371,10,3,8,12,13
+Eredivisie,1903992,758,FC Groningen,False,491,409,10,1,8,26,4
+Eredivisie,1904009,758,FC Groningen,True,359,251,16,2,10,12,8
+Eredivisie,1904009,242,Fortuna Sittard,False,465,332,9,1,8,19,11
+Eredivisie,1904011,870,Heracles,True,396,296,11,0,8,16,10
+Eredivisie,1904011,762,FC Volendam,False,501,423,13,3,11,15,9
+Eredivisie,1904014,876,Telstar,True,495,381,14,0,9,13,10
+Eredivisie,1904014,303,Sparta Rotterdam,False,433,336,14,1,9,15,3
+Eredivisie,1904016,116,NEC Nijmegen,True,531,418,11,2,8,11,9
+Eredivisie,1904016,868,PEC Zwolle,False,288,199,10,2,6,17,12
+Eredivisie,1903888,870,Heracles,True,420,328,14,0,10,16,6
+Eredivisie,1903888,762,FC Volendam,False,331,233,18,2,13,15,4
+Eredivisie,1903991,128,FC Utrecht,True,392,300,10,0,6,17,11
+Eredivisie,1903991,867,Excelsior,False,564,474,18,5,15,14,12
+Eredivisie,1903787,113,Twente,True,532,405,18,3,15,16,8
+Eredivisie,1903787,242,Fortuna Sittard,False,433,310,8,2,7,17,18
+Eredivisie,1904018,130,Ajax,True,394,312,9,3,8,20,14
+Eredivisie,1904018,113,Twente,False,620,527,21,2,20,18,8
+Eredivisie,1904020,129,PSV Eindhoven,True,493,399,11,3,9,19,12
+Eredivisie,1904020,256,Feyenoord,False,464,356,12,2,7,19,15
+Eredivisie,1904022,867,Excelsior,True,476,381,11,0,10,9,8
+Eredivisie,1904022,874,Go Ahead Eagles,False,507,397,12,2,9,10,10
+Eredivisie,1904024,128,FC Utrecht,True,533,424,8,1,7,17,13
+Eredivisie,1904024,243,AZ Alkmaar,False,521,426,18,4,14,13,7
+Eredivisie,1903895,783,NAC Breda,True,311,209,10,0,5,10,7
+Eredivisie,1903895,876,Telstar,False,507,396,14,3,10,19,8
+Eredivisie,1904006,130,Ajax,True,479,392,12,2,11,20,5
+Eredivisie,1904006,783,NAC Breda,False,477,366,17,1,13,18,7
+Eredivisie,1904008,868,PEC Zwolle,True,539,452,14,1,11,9,2
+Eredivisie,1904008,762,FC Volendam,False,310,223,15,2,11,18,5
+Eredivisie,1904010,129,PSV Eindhoven,True,646,557,18,2,13,13,8
+Eredivisie,1904010,867,Excelsior,False,378,277,18,1,11,19,15
+Eredivisie,1904013,303,Sparta Rotterdam,True,497,398,18,0,10,9,7
+Eredivisie,1904013,870,Heracles,False,452,348,12,3,7,9,8
+Eredivisie,1903889,303,Sparta Rotterdam,True,568,467,13,1,8,11,15
+Eredivisie,1903889,287,SC Heerenveen,False,462,359,16,2,12,12,12
+Eredivisie,1903890,870,Heracles,True,362,274,15,1,15,15,6
+Eredivisie,1903890,129,PSV Eindhoven,False,579,493,24,3,20,16,4
+Eredivisie,1903892,242,Fortuna Sittard,True,272,178,13,3,9,28,12
+Eredivisie,1903892,116,NEC Nijmegen,False,564,448,15,2,9,22,3
+Eredivisie,1904004,256,Feyenoord,True,478,382,11,1,8,21,7
+Eredivisie,1904004,758,FC Groningen,False,443,349,12,0,8,16,7
+Eredivisie,1904012,243,AZ Alkmaar,True,459,348,7,1,4,16,9
+Eredivisie,1904012,116,NEC Nijmegen,False,371,263,14,2,9,24,8
+Eredivisie,1904015,287,SC Heerenveen,True,457,359,10,2,7,16,4
+Eredivisie,1904015,128,FC Utrecht,False,487,398,14,2,9,15,6
+Eredivisie,1904017,876,Telstar,True,329,238,20,4,16,14,10
+Eredivisie,1904017,874,Go Ahead Eagles,False,516,429,14,2,12,8,10
+Eredivisie,1903855,287,SC Heerenveen,True,483,371,19,1,16,21,11
+Eredivisie,1903855,868,PEC Zwolle,False,377,276,11,2,7,18,13
+Eredivisie,1903759,758,FC Groningen,True,392,292,17,4,13,16,7
+Eredivisie,1903759,870,Heracles,False,392,279,8,0,7,19,5
+Eredivisie,1903834,783,NAC Breda,True,512,405,22,0,18,14,7
+Eredivisie,1903834,867,Excelsior,False,377,280,6,1,3,14,11
+Eredivisie,1903840,303,Sparta Rotterdam,True,402,291,13,1,11,12,6
+Eredivisie,1903840,116,NEC Nijmegen,False,426,317,19,3,14,19,8
+Eredivisie,1903846,870,Heracles,True,290,207,6,1,6,10,4
+Eredivisie,1903846,242,Fortuna Sittard,False,376,274,23,1,18,7,11
+Eredivisie,1903856,113,Twente,True,353,238,18,2,14,11,13
+Eredivisie,1903856,783,NAC Breda,False,582,436,20,2,15,17,9
+Eredivisie,1903760,130,Ajax,True,703,611,13,1,8,5,10
+Eredivisie,1903760,762,FC Volendam,False,320,238,11,1,6,19,11
+Eredivisie,1903761,287,SC Heerenveen,True,523,420,19,2,15,15,4
+Eredivisie,1903761,874,Go Ahead Eagles,False,420,313,11,2,7,12,6
+Eredivisie,1903762,129,PSV Eindhoven,True,643,542,23,0,17,13,2
+Eredivisie,1903762,876,Telstar,False,271,204,9,2,6,23,6
+Eredivisie,1903763,867,Excelsior,True,275,169,8,1,5,21,5
+Eredivisie,1903763,113,Twente,False,607,505,27,0,18,19,6
+Eredivisie,1903837,874,Go Ahead Eagles,True,581,463,11,2,7,13,3
+Eredivisie,1903837,128,FC Utrecht,False,408,311,17,2,10,14,2
+Eredivisie,1903843,762,FC Volendam,True,419,342,10,0,9,22,9
+Eredivisie,1903843,129,PSV Eindhoven,False,684,610,19,3,17,21,6
+Eredivisie,1903849,256,Feyenoord,True,516,414,11,2,10,26,15
+Eredivisie,1903849,876,Telstar,False,479,370,12,1,9,21,9
+Eredivisie,1903852,243,AZ Alkmaar,True,466,372,7,0,6,17,7
+Eredivisie,1903852,113,Twente,False,480,376,7,1,4,17,5
+Eredivisie,1903841,116,NEC Nijmegen,True,448,318,19,3,13,11,14
+Eredivisie,1903841,243,AZ Alkmaar,False,424,299,11,1,10,19,10
+Eredivisie,1903863,758,FC Groningen,True,518,422,8,0,7,12,8
+Eredivisie,1903863,303,Sparta Rotterdam,False,452,342,9,2,6,20,10
+Eredivisie,1903866,876,Telstar,True,379,265,14,1,9,20,9
+Eredivisie,1903866,868,PEC Zwolle,False,504,402,16,4,13,17,12
+Eredivisie,1903764,242,Fortuna Sittard,True,306,193,10,3,6,19,11
+Eredivisie,1903764,116,NEC Nijmegen,False,500,377,14,2,11,12,7
+Eredivisie,1903765,256,Feyenoord,True,523,440,24,4,18,11,5
+Eredivisie,1903765,303,Sparta Rotterdam,False,322,235,7,0,6,15,8
+Eredivisie,1903766,868,PEC Zwolle,True,456,361,6,0,3,15,14
+Eredivisie,1903766,128,FC Utrecht,False,486,383,14,2,13,20,13
+Eredivisie,1903767,783,NAC Breda,True,315,230,11,0,9,17,5
+Eredivisie,1903767,243,AZ Alkmaar,False,492,424,25,1,22,14,4
+Eredivisie,1904026,129,PSV Eindhoven,True,668,589,21,5,19,13,6
+Eredivisie,1904026,242,Fortuna Sittard,False,400,322,10,2,7,21,9

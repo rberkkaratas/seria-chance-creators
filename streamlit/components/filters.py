@@ -132,18 +132,6 @@ def render_filters(
         )
 
     with _fc4:
-        if has_league_col and len(all_leagues) > 1:
-            st.caption("Percentile Mode")
-            percentile_mode = st.radio(
-                "Percentile mode",
-                options=["All leagues", "Within league"],
-                index=0,
-                label_visibility="collapsed",
-                help="Controls how role scores and radar percentiles are computed.",
-            )
-        else:
-            percentile_mode = "All leagues"
-
         if has_tm_data:
             st.caption("Transfer Feasibility")
             all_feasibility = ["Expiring", "Mid-term", "Locked", "Unknown"]
@@ -162,7 +150,6 @@ def render_filters(
         selected_leagues=selected_leagues,
         selected_teams=selected_teams,
         selected_roles=selected_roles,
-        percentile_mode=percentile_mode,
         selected_feasibility=selected_feasibility,
         market_value_range=market_value_range,
     )

@@ -117,7 +117,7 @@ st.markdown(
             <a href="https://www.linkedin.com/in/rberkkaratas/" target="_blank">LinkedIn</a>
         </div>
         <div class="footer-links">
-            <span class="footer-badge">⚽ Top 5 Leagues 2025/26</span>
+            <span class="footer-badge">⚽ European Leagues 2025/26</span>
             <span class="footer-badge">📡 Events: WhoScored</span>
             <span class="footer-badge">💶 Values: Transfermarkt</span>
         </div>

@@ -38,15 +38,11 @@ class FilterService:
             mask &= df["league"].isin(state.selected_leagues)
         if state.selected_teams:
             mask &= df["team_name"].isin(state.selected_teams)
-        role_filter_col = (
-            "primary_role_league"
-            if state.percentile_mode == "Within league" and "primary_role_league" in df.columns
-            else config.PRIMARY_ROLE_COL
-        )
         if has_roles and state.selected_roles and len(state.selected_roles) < len(all_roles):
-            mask &= df[role_filter_col].isin(state.selected_roles)
+            mask &= df[config.PRIMARY_ROLE_COL].isin(state.selected_roles)
         if has_tm_data and state.selected_feasibility:
-            mask &= df["transfer_feasibility"].isin(state.selected_feasibility)
+            feasibility = df["transfer_feasibility"].fillna("Unknown")
+            mask &= feasibility.isin(state.selected_feasibility)
         if has_tm_data and "market_value_eur" in df.columns and hasattr(state, "market_value_range"):
             lo, hi = state.market_value_range[0] * 1_000_000, state.market_value_range[1] * 1_000_000
             _mv = df["market_value_eur"].fillna(0)
@@ -74,25 +70,10 @@ class FilterService:
         has_league_col    = "league" in df.columns
         all_roles         = list(group_cfg["roles"].keys())
         rsc_cols          = [role_score_col(r) for r in all_roles if role_score_col(r) in df.columns]
-        rsc_cols_league   = [
-            f"{cfg.ROLE_SCORE_COL_PREFIX}{r}_league" for r in all_roles
-            if f"{cfg.ROLE_SCORE_COL_PREFIX}{r}_league" in df.columns
-        ]
-        has_league_scores = bool(rsc_cols_league)
         core_metrics      = [m for m in group_cfg["radar_metrics"] if m in df.columns]
         pct_cols          = [f"{m}_pct" for m in core_metrics if f"{m}_pct" in df.columns]
-        pct_cols_league   = [f"{m}_league_pct" for m in core_metrics if f"{m}_league_pct" in df.columns]
         score_col         = cfg.OVERALL_SCORE_COL
         all_leagues       = sorted(df["league"].dropna().unique().tolist()) if has_league_col else []
-
-        _league_mode           = (state.percentile_mode == "Within league") and has_league_scores
-        active_pct_suffix      = "_league_pct" if _league_mode else "_pct"
-        active_role_score_cols = rsc_cols_league if _league_mode else rsc_cols
-        active_primary_role_col = (
-            "primary_role_league"
-            if _league_mode and "primary_role_league" in df.columns
-            else cfg.PRIMARY_ROLE_COL
-        )
 
         rename_map = {
             "player_name": "Player", "team_name": "Team", "position": "Pos",
@@ -108,8 +89,6 @@ class FilterService:
         }
         rename_map.update({m: label(m) for m in core_metrics})
         rename_map.update({role_score_col(r): r for r in all_roles})
-        rename_map.update({f"{cfg.ROLE_SCORE_COL_PREFIX}{r}_league": r for r in all_roles})
-        rename_map["primary_role_league"] = "Role"
 
         return AppState(
             df=df,
@@ -123,18 +102,11 @@ class FilterService:
             has_tm_data=has_tm_data,
             has_roles=has_roles,
             has_league_col=has_league_col,
-            has_league_scores=has_league_scores,
             all_roles=all_roles,
             role_score_cols=rsc_cols,
-            role_score_cols_league=rsc_cols_league,
             core_metrics=core_metrics,
             pct_cols=pct_cols,
-            pct_cols_league=pct_cols_league,
             all_leagues=all_leagues,
             score_col=score_col,
-            league_mode=_league_mode,
-            active_pct_suffix=active_pct_suffix,
-            active_role_score_cols=active_role_score_cols,
-            active_primary_role_col=active_primary_role_col,
             rename_map=rename_map,
         )

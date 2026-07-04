@@ -1,5 +1,5 @@
 """
-Central configuration for the Top 5 League Player Scout project.
+Central configuration for the European League Player Scout project.
 All paths, thresholds, league definitions, position groups, and role taxonomies
 live here.
 """
@@ -58,7 +58,80 @@ LEAGUES = {
         "country": "France",
         "fixture_url": "https://www.whoscored.com/regions/74/tournaments/22/seasons/10792/stages/24609/fixtures/france-ligue-1-2025-2026",   # fill in: /Regions/74/Tournaments/22/Seasons/.../Fixtures/...
     },
+    "Championship": {
+        "display_name": "Championship",
+        "country": "England",
+        "fixture_url": "https://www.whoscored.com/regions/252/tournaments/7/seasons/10784/stages/24580/fixtures/england-championship-2025-2026",
+        "extra_fixture_urls": [
+            "https://www.whoscored.com/regions/252/tournaments/7/seasons/10784/stages/25405/fixtures/england-championship-2025-2026",
+        ],
+        "match_title_markers": [" - Championship 2025/2026 Live"],
+        "id_scan_ranges": [(1908240, 1908800), (1979290, 1979940)],
+    },
+    "Primeira_Liga": {
+        "display_name": "Liga Portugal",
+        "country": "Portugal",
+        "fixture_url": "https://www.whoscored.com/regions/177/tournaments/21/seasons/10774/stages/24568/fixtures/portugal-liga-portugal-2025-2026",
+        "match_title_markers": [" - Liga Portugal 2025/2026 Live"],
+        "id_scan_ranges": [(1915560, 1915875)],
+    },
+    "Eredivisie": {
+        "display_name": "Eredivisie",
+        "country": "Netherlands",
+        "fixture_url": "https://www.whoscored.com/regions/155/tournaments/13/seasons/10752/stages/24542/fixtures/netherlands-eredivisie-2025-2026",
+        "match_title_markers": [" - Eredivisie 2025/2026 Live"],
+        "id_scan_ranges": [(1903733, 1904055)],
+    },
+    "Belgium_Pro_League": {
+        "display_name": "Jupiler Pro League",
+        "country": "Belgium",
+        "fixture_url": "https://www.whoscored.com/regions/22/tournaments/18/seasons/10759/stages/24549/fixtures/belgium-jupiler-pro-league-2025-2026",
+        "extra_fixture_urls": [
+            "https://www.whoscored.com/regions/22/tournaments/18/seasons/10759/stages/25287/fixtures/belgium-jupiler-pro-league-2025-2026",
+            "https://www.whoscored.com/regions/22/tournaments/18/seasons/10759/stages/25288/fixtures/belgium-jupiler-pro-league-2025-2026",
+            "https://www.whoscored.com/regions/22/tournaments/18/seasons/10759/stages/25289/fixtures/belgium-jupiler-pro-league-2025-2026",
+            "https://www.whoscored.com/regions/22/tournaments/18/seasons/10759/stages/25500/fixtures/belgium-jupiler-pro-league-2025-2026",
+        ],
+        "match_title_markers": [" - Jupiler Pro League 2025/2026 Live"],
+        "id_scan_ranges": [(1904900, 1905140)],
+    },
+    "Super_Lig": {
+        "display_name": "Super Lig",
+        "country": "Turkey",
+        "fixture_url": "https://www.whoscored.com/regions/225/tournaments/17/seasons/10807/stages/24627/fixtures/turchia-super-lig-2025-2026",
+        "match_title_markers": [" - Super Lig 2025/2026 Live"],
+        "id_scan_ranges": [(1915274, 1915579)],
+    },
 }
+
+# ─── League Strength (ClubElo) ───────────────────────────────────────
+# Cross-league scores are league-anchored: within-league percentiles are
+# mapped to latent z-scores and shifted by a per-league strength offset
+# before the global rerank (see src/features/merge_leagues.py).
+#
+# Offsets derive from ClubElo (http://clubelo.com): the mean club Elo of
+# each league, fetched by src/enrichment/league_strength.py and cached in
+# data/enrichment/clubelo_league_strength.csv (committed — the merge step
+# never needs network access). Only *relative* offsets matter: the global
+# rerank cancels any constant, so ELO_PER_SIGMA is the single tuning knob.
+#
+# ClubElo identifies leagues by (country_code, level); level 2 = second
+# tier (e.g. the Championship).
+LEAGUE_CLUBELO = {
+    "Serie_A":            ("ITA", 1),
+    "Premier_League":     ("ENG", 1),
+    "La_Liga":            ("ESP", 1),
+    "Bundesliga":         ("GER", 1),
+    "Ligue_1":            ("FRA", 1),
+    "Championship":       ("ENG", 2),
+    "Primeira_Liga":      ("POR", 1),
+    "Eredivisie":         ("NED", 1),
+    "Belgium_Pro_League": ("BEL", 1),
+    "Super_Lig":          ("TUR", 1),
+}
+ELO_PER_SIGMA = 270.0                  # Elo points per 1 SD of player-quality offset
+CLUBELO_SNAPSHOT_DATE = "2026-05-01"   # end of season; update alongside fixture_urls
+LEAGUE_STRENGTH_OFFSET_COL = "league_strength_offset"
 
 # ─── Season & League ─────────────────────────────────────────────────
 SEASON = "2025-2026"
@@ -754,11 +827,25 @@ def _validate_position_group_config() -> None:
 
 _validate_position_group_config()
 
+
+def _validate_league_strength_config() -> None:
+    if set(LEAGUE_CLUBELO) != set(LEAGUES):
+        missing = sorted(set(LEAGUES) - set(LEAGUE_CLUBELO))
+        extra = sorted(set(LEAGUE_CLUBELO) - set(LEAGUES))
+        raise ValueError(
+            f"LEAGUE_CLUBELO must cover exactly the LEAGUES keys "
+            f"(missing: {missing}, extra: {extra})"
+        )
+    if ELO_PER_SIGMA <= 0:
+        raise ValueError(f"ELO_PER_SIGMA must be positive, got {ELO_PER_SIGMA}")
+
+
+_validate_league_strength_config()
+
 # ─── Transfermarkt Enrichment ─────────────────────────────────────────
-TM_MATCH_THRESHOLD = 85                # rapidfuzz confidence for auto-verification
 TM_CURRENT_SEASON_END_YEAR = int(SEASON.split("-")[1])   # e.g. 2026 from "2025-2026"
 
-# Transfermarkt competition page URLs — one per top-5 league.
+# Transfermarkt competition page URLs — one per configured league.
 # Competition IDs are stable; only update if TM changes their URL structure.
 TM_LEAGUE_URLS = {
     "Serie_A":       "https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1",
@@ -766,4 +853,9 @@ TM_LEAGUE_URLS = {
     "La_Liga":       "https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1",
     "Bundesliga":    "https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1",
     "Ligue_1":       "https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1",
+    "Championship":  "https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2",
+    "Primeira_Liga": "https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1",
+    "Eredivisie":    "https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1",
+    "Belgium_Pro_League": "https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1",
+    "Super_Lig":     "https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1",
 }

@@ -18,11 +18,11 @@ def render_header(placeholder, state: AppState) -> None:
     has_league_col = state.has_league_col
     has_roles = state.has_roles
     score_col = state.score_col
-    primary_role_col = state.active_primary_role_col
+    primary_role_col = config.PRIMARY_ROLE_COL
     group_name = state.group_cfg["display_name"]
 
     n_leagues_shown = filtered["league"].nunique() if has_league_col and len(filtered) else 1
-    _league_label   = "Top 5 Leagues" if n_leagues_shown > 1 else (
+    _league_label   = "European Leagues" if n_leagues_shown > 1 else (
         league_badge(filtered["league"].iloc[0]) if has_league_col and len(filtered) else "Serie A"
     )
 

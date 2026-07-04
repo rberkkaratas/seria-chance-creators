@@ -31,7 +31,7 @@ class DataLoader:
             "```bash\n"
             "python -m src.processing.build_tables\n"
             "python -m src.features.player_features --league all\n"
-            "python -m src.features.merge_leagues     # top-5 leagues\n"
+            "python -m src.features.merge_leagues     # configured leagues\n"
             "python -m src.enrichment.transfermarkt   # optional\n"
             "```"
         )

@@ -1,0 +1,935 @@
+league,match_id,team_id,team_name,is_home,total_passes,accurate_passes,total_shots,goals,key_passes,tackles,interceptions
+Championship,1908585,199,Wrexham,True,443,308,7,2,6,15,14
+Championship,1908585,158,Blackburn,False,491,357,12,0,6,16,15
+Championship,1908587,182,Bristol City,True,669,580,14,5,10,15,7
+Championship,1908587,169,Portsmouth,False,413,313,5,0,5,11,8
+Championship,1908589,160,Charlton,True,379,264,15,1,9,5,8
+Championship,1908589,17,Coventry,False,442,330,20,1,14,11,2
+Championship,1908591,21,Middlesbrough,True,577,491,19,0,14,15,10
+Championship,1908591,20,Derby,False,269,189,7,1,6,18,7
+Championship,1908592,96,Stoke,True,401,282,12,1,8,16,12
+Championship,1908592,214,Hull,False,425,296,15,0,13,19,5
+Championship,1908593,165,Ipswich,True,568,477,19,2,14,12,8
+Championship,1908593,197,Oxford,False,334,252,8,1,8,20,6
+Championship,1908626,25,Sheff Wed,True,493,388,6,0,5,17,7
+Championship,1908626,181,Preston,False,430,327,12,3,8,26,7
+Championship,1908627,171,QPR,True,453,307,10,1,4,17,8
+Championship,1908627,168,Norwich,False,420,283,11,2,6,18,11
+Championship,1908628,163,Sheff Utd,True,492,376,13,3,12,30,4
+Championship,1908628,14,Leicester,False,394,283,6,1,5,24,11
+Championship,1908629,18,Southampton,True,629,539,12,0,10,10,9
+Championship,1908629,192,Millwall,False,321,215,12,0,8,30,8
+Championship,1908630,259,Swansea,True,542,431,13,1,11,16,12
+Championship,1908630,175,WBA,False,392,268,12,0,8,13,6
+Championship,1908631,157,Birmingham,True,529,417,6,0,4,13,8
+Championship,1908631,27,Watford,False,437,337,13,3,7,13,6
+Championship,1908421,27,Watford,True,303,215,12,2,10,15,12
+Championship,1908421,169,Portsmouth,False,522,418,15,2,9,12,7
+Championship,1908424,171,QPR,True,487,372,13,0,11,22,11
+Championship,1908424,197,Oxford,False,384,273,9,0,6,25,9
+Championship,1908624,17,Coventry,True,342,229,13,4,6,10,11
+Championship,1908624,192,Millwall,False,569,457,13,0,9,19,4
+Championship,1908625,175,WBA,True,425,344,5,1,3,15,5
+Championship,1908625,168,Norwich,False,615,512,16,0,10,18,3
+Championship,1908430,169,Portsmouth,True,509,384,5,0,2,8,9
+Championship,1908430,157,Birmingham,False,390,281,19,4,16,13,8
+Championship,1908433,259,Swansea,True,516,376,11,1,10,8,10
+Championship,1908433,160,Charlton,False,369,223,12,1,8,10,5
+Championship,1908436,158,Blackburn,True,359,235,9,2,6,22,11
+Championship,1908436,14,Leicester,False,563,450,12,0,13,13,12
+Championship,1908439,214,Hull,True,356,244,9,2,5,20,8
+Championship,1908439,168,Norwich,False,527,407,15,0,12,13,4
+Championship,1908442,197,Oxford,True,419,265,14,2,9,10,6
+Championship,1908442,192,Millwall,False,430,283,11,2,5,14,10
+Championship,1908445,165,Ipswich,True,518,397,12,4,7,8,4
+Championship,1908445,171,QPR,False,318,211,12,1,7,6,13
+Championship,1908447,20,Derby,True,324,213,12,3,7,15,6
+Championship,1908447,163,Sheff Utd,False,529,419,15,1,14,18,3
+Championship,1908450,181,Preston,True,315,228,12,2,8,21,8
+Championship,1908450,18,Southampton,False,563,463,10,0,6,20,5
+Championship,1908453,182,Bristol City,True,372,264,16,1,15,13,5
+Championship,1908453,96,Stoke,False,488,403,13,5,11,7,7
+Championship,1908455,27,Watford,True,446,355,8,3,8,9,11
+Championship,1908455,21,Middlesbrough,False,540,454,14,0,12,17,9
+Championship,1908458,25,Sheff Wed,True,360,243,5,0,4,16,12
+Championship,1908458,175,WBA,False,589,462,13,0,10,13,6
+Championship,1908519,27,Watford,True,475,369,12,1,10,13,6
+Championship,1908519,157,Birmingham,False,470,350,13,2,10,21,5
+Championship,1908740,157,Birmingham,True,524,385,11,1,7,10,9
+Championship,1908740,21,Middlesbrough,False,358,247,10,3,9,15,7
+Championship,1908781,158,Blackburn,True,494,383,12,0,7,11,12
+Championship,1908781,14,Leicester,False,489,396,22,1,11,11,12
+Championship,1908782,96,Stoke,True,506,424,16,0,12,11,7
+Championship,1908782,182,Bristol City,False,428,344,13,2,9,17,6
+Championship,1908783,20,Derby,True,423,301,17,1,12,11,11
+Championship,1908783,163,Sheff Utd,False,402,319,15,2,14,11,8
+Championship,1908784,168,Norwich,True,535,423,12,1,11,9,8
+Championship,1908784,214,Hull,False,292,182,8,2,6,14,10
+Championship,1908785,165,Ipswich,True,470,375,14,3,11,13,7
+Championship,1908785,171,QPR,False,428,335,13,0,10,10,4
+Championship,1908786,192,Millwall,True,622,506,21,2,15,12,7
+Championship,1908786,197,Oxford,False,315,223,5,0,4,17,10
+Championship,1908787,169,Portsmouth,True,316,215,14,1,10,18,7
+Championship,1908787,157,Birmingham,False,298,178,13,1,8,15,4
+Championship,1908788,181,Preston,True,421,330,16,1,13,9,12
+Championship,1908788,18,Southampton,False,501,416,18,3,16,17,4
+Championship,1908789,25,Sheff Wed,True,383,283,11,2,7,21,13
+Championship,1908789,175,WBA,False,611,509,13,1,8,17,9
+Championship,1908790,160,Charlton,True,271,186,12,1,11,10,3
+Championship,1908790,259,Swansea,False,663,571,20,3,14,5,6
+Championship,1908791,27,Watford,True,416,347,13,0,10,16,7
+Championship,1908791,17,Coventry,False,530,452,18,4,13,21,6
+Championship,1908792,21,Middlesbrough,True,534,440,11,2,8,12,9
+Championship,1908792,199,Wrexham,False,516,403,20,2,14,9,6
+Championship,1908375,158,Blackburn,True,378,300,11,1,7,19,10
+Championship,1908375,165,Ipswich,False,359,291,7,0,5,10,5
+Championship,1908543,25,Sheff Wed,True,254,171,3,0,2,7,9
+Championship,1908543,158,Blackburn,False,292,188,3,1,3,9,3
+Championship,1908636,27,Watford,True,559,429,16,0,12,12,6
+Championship,1908636,214,Hull,False,378,245,6,0,6,24,15
+Championship,1908643,197,Oxford,True,277,159,6,1,5,20,15
+Championship,1908643,163,Sheff Utd,False,607,487,11,3,8,12,9
+Championship,1908709,214,Hull,True,359,232,6,0,6,23,4
+Championship,1908709,165,Ipswich,False,554,456,15,1,9,11,5
+Championship,1908460,199,Wrexham,True,429,315,12,1,10,17,5
+Championship,1908460,157,Birmingham,False,598,483,8,1,6,16,5
+Championship,1908632,17,Coventry,True,573,455,17,2,14,18,10
+Championship,1908632,157,Birmingham,False,203,99,9,3,6,20,13
+Championship,1908633,160,Charlton,True,320,187,11,2,6,15,6
+Championship,1908633,158,Blackburn,False,454,311,17,2,10,15,5
+Championship,1908634,182,Bristol City,True,664,548,11,0,11,16,5
+Championship,1908634,181,Preston,False,377,272,12,2,11,14,10
+Championship,1908635,199,Wrexham,True,446,344,11,2,6,23,9
+Championship,1908635,20,Derby,False,496,386,13,1,12,9,6
+Championship,1908638,18,Southampton,True,416,334,16,0,12,31,14
+Championship,1908638,21,Middlesbrough,False,528,440,22,4,17,12,6
+Championship,1908639,192,Millwall,True,410,257,17,2,12,14,9
+Championship,1908639,259,Swansea,False,453,329,13,1,9,13,14
+Championship,1908640,96,Stoke,True,427,307,14,2,10,19,8
+Championship,1908640,168,Norwich,False,470,370,7,0,7,17,12
+Championship,1908642,171,QPR,True,464,364,13,3,9,13,12
+Championship,1908642,25,Sheff Wed,False,493,388,4,0,4,19,14
+Championship,1908427,96,Stoke,True,483,367,11,1,9,8,4
+Championship,1908427,158,Blackburn,False,427,314,17,1,15,12,13
+Championship,1908429,171,QPR,True,401,293,8,2,4,11,9
+Championship,1908429,182,Bristol City,False,570,451,11,1,6,10,4
+Championship,1908432,20,Derby,True,382,279,9,1,6,17,7
+Championship,1908432,18,Southampton,False,632,534,13,1,9,9,6
+Championship,1908435,214,Hull,True,345,234,5,1,2,14,7
+Championship,1908435,163,Sheff Utd,False,548,428,13,0,5,14,9
+Championship,1908441,175,WBA,True,544,427,10,0,7,16,12
+Championship,1908441,192,Millwall,False,357,235,11,3,8,21,5
+Championship,1908444,169,Portsmouth,True,373,288,8,1,7,14,11
+Championship,1908444,21,Middlesbrough,False,612,502,12,0,10,16,7
+Championship,1908446,160,Charlton,True,349,226,8,0,4,24,6
+Championship,1908446,181,Preston,False,441,314,15,2,15,14,7
+Championship,1908448,25,Sheff Wed,True,461,344,9,0,5,12,3
+Championship,1908448,17,Coventry,False,425,334,21,5,19,20,7
+Championship,1908452,14,Leicester,True,450,367,17,3,9,18,6
+Championship,1908452,259,Swansea,False,540,457,13,1,10,18,12
+Championship,1908457,27,Watford,True,488,392,28,3,18,16,13
+Championship,1908457,197,Oxford,False,380,284,15,0,11,16,7
+Championship,1908379,175,WBA,True,503,387,13,0,11,12,4
+Championship,1908379,160,Charlton,False,493,374,11,1,5,13,7
+Championship,1908382,163,Sheff Utd,True,308,189,11,1,7,14,6
+Championship,1908382,17,Coventry,False,418,301,17,3,10,10,7
+Championship,1908384,214,Hull,True,479,357,8,1,4,23,8
+Championship,1908384,20,Derby,False,381,260,9,2,7,14,8
+Championship,1908389,165,Ipswich,True,532,427,16,1,14,15,9
+Championship,1908389,27,Watford,False,388,278,4,1,2,18,10
+Championship,1908391,21,Middlesbrough,True,591,490,17,1,11,21,7
+Championship,1908391,14,Leicester,False,357,259,6,1,3,21,9
+Championship,1908399,96,Stoke,True,434,329,14,3,8,13,7
+Championship,1908399,197,Oxford,False,404,287,16,0,13,14,16
+Championship,1908465,157,Birmingham,True,557,448,12,4,9,10,3
+Championship,1908465,192,Millwall,False,408,299,4,0,1,15,7
+Championship,1908468,182,Bristol City,True,444,293,12,0,8,11,11
+Championship,1908468,158,Blackburn,False,440,290,16,1,11,21,17
+Championship,1908637,175,WBA,True,590,463,16,1,10,24,6
+Championship,1908637,14,Leicester,False,517,423,11,2,9,16,12
+Championship,1908438,168,Norwich,True,375,269,12,1,6,16,9
+Championship,1908438,165,Ipswich,False,404,303,19,3,12,11,8
+Championship,1908402,199,Wrexham,True,429,291,8,0,6,11,6
+Championship,1908402,169,Portsmouth,False,375,236,19,0,14,13,11
+Championship,1908406,259,Swansea,True,634,524,18,1,13,10,8
+Championship,1908406,181,Preston,False,323,220,4,2,1,8,6
+Championship,1908411,171,QPR,True,560,448,18,1,14,11,2
+Championship,1908411,18,Southampton,False,368,296,9,2,6,11,6
+Championship,1908414,25,Sheff Wed,True,367,256,15,1,13,19,8
+Championship,1908414,168,Norwich,False,428,320,13,1,11,18,8
+Championship,1908551,21,Middlesbrough,True,525,434,10,4,8,22,20
+Championship,1908551,214,Hull,False,443,338,5,1,3,27,10
+Championship,1908693,171,QPR,True,501,386,18,0,15,20,3
+Championship,1908693,160,Charlton,False,379,258,16,0,9,11,16
+Championship,1908793,197,Oxford,True,240,145,15,3,10,29,14
+Championship,1908793,181,Preston,False,559,441,13,1,10,14,4
+Championship,1908545,182,Bristol City,True,546,403,13,0,5,6,8
+Championship,1908545,192,Millwall,False,268,157,12,1,10,14,12
+Championship,1908549,20,Derby,True,525,413,18,1,12,16,14
+Championship,1908549,14,Leicester,False,341,240,5,3,4,22,11
+Championship,1908553,17,Coventry,True,549,437,11,0,8,13,6
+Championship,1908553,165,Ipswich,False,341,248,10,3,8,22,10
+Championship,1908555,199,Wrexham,True,386,267,9,1,6,15,6
+Championship,1908555,181,Preston,False,507,371,24,1,16,9,9
+Championship,1908557,175,WBA,True,500,379,13,1,8,16,5
+Championship,1908557,171,QPR,False,445,321,9,3,8,19,4
+Championship,1908559,163,Sheff Utd,True,298,197,19,4,16,12,10
+Championship,1908559,96,Stoke,False,456,350,7,0,5,16,10
+Championship,1908562,157,Birmingham,True,475,380,22,1,14,18,4
+Championship,1908562,18,Southampton,False,327,249,18,3,12,8,7
+Championship,1908566,259,Swansea,True,418,305,15,2,12,13,12
+Championship,1908566,197,Oxford,False,396,277,12,0,8,16,8
+Championship,1908569,27,Watford,True,570,457,13,3,10,11,5
+Championship,1908569,168,Norwich,False,478,381,15,2,10,19,12
+Championship,1908692,14,Leicester,True,250,159,7,1,4,12,7
+Championship,1908692,157,Birmingham,False,647,534,21,2,14,10,3
+Championship,1908694,197,Oxford,True,225,129,4,0,4,21,7
+Championship,1908694,17,Coventry,False,604,496,24,0,14,8,5
+Championship,1908695,165,Ipswich,True,358,285,13,1,13,14,13
+Championship,1908695,20,Derby,False,429,341,10,2,7,8,6
+Championship,1908696,182,Bristol City,True,339,230,11,3,8,16,17
+Championship,1908696,214,Hull,False,716,590,10,2,7,14,9
+Championship,1908697,158,Blackburn,True,397,292,6,0,4,20,15
+Championship,1908697,168,Norwich,False,495,387,12,2,8,27,8
+Championship,1908698,169,Portsmouth,True,495,372,12,0,9,12,5
+Championship,1908698,181,Preston,False,282,192,7,1,6,15,13
+Championship,1908700,27,Watford,True,502,397,11,0,8,19,11
+Championship,1908700,18,Southampton,False,452,356,6,1,3,22,6
+Championship,1908702,96,Stoke,True,501,371,8,0,6,9,7
+Championship,1908702,175,WBA,False,507,392,10,0,9,9,10
+Championship,1908703,199,Wrexham,True,495,373,17,1,14,13,6
+Championship,1908703,192,Millwall,False,414,292,7,1,6,15,17
+Championship,1908752,158,Blackburn,True,411,282,10,1,8,14,7
+Championship,1908752,169,Portsmouth,False,534,416,14,1,11,6,8
+Championship,1908753,182,Bristol City,True,552,447,24,0,20,14,3
+Championship,1908753,17,Coventry,False,379,289,10,2,7,16,5
+Championship,1908754,160,Charlton,True,366,246,12,1,6,8,18
+Championship,1908754,157,Birmingham,False,480,344,7,0,4,8,7
+Championship,1908755,25,Sheff Wed,True,370,271,7,1,4,18,11
+Championship,1908755,20,Derby,False,449,347,13,2,11,16,12
+Championship,1908756,192,Millwall,True,363,246,9,3,6,15,12
+Championship,1908756,214,Hull,False,470,322,23,1,21,16,12
+Championship,1908757,14,Leicester,True,321,208,7,1,3,19,17
+Championship,1908757,165,Ipswich,False,589,477,18,1,15,13,7
+Championship,1908795,175,WBA,True,341,229,13,2,6,19,11
+Championship,1908795,163,Sheff Utd,False,598,473,13,0,11,22,5
+Championship,1908797,96,Stoke,True,289,205,8,0,5,17,9
+Championship,1908797,259,Swansea,False,575,481,23,2,16,17,7
+Championship,1908443,182,Bristol City,True,346,254,10,1,7,19,6
+Championship,1908443,27,Watford,False,580,500,16,1,13,16,7
+Championship,1908701,259,Swansea,True,545,436,22,4,16,19,14
+Championship,1908701,25,Sheff Wed,False,359,253,3,0,3,13,8
+Championship,1908794,21,Middlesbrough,True,750,645,16,4,10,13,17
+Championship,1908794,171,QPR,False,346,251,9,0,5,14,13
+Championship,1979301,192,Millwall,True,486,361,15,0,13,16,10
+Championship,1979301,214,Hull,False,305,182,6,0,4,13,9
+Championship,1908320,157,Birmingham,True,403,285,11,1,5,16,7
+Championship,1908320,165,Ipswich,False,392,297,7,1,5,3,9
+Championship,1908417,20,Derby,True,281,182,6,2,6,20,12
+Championship,1908417,158,Blackburn,False,516,365,8,1,6,18,3
+Championship,1908419,214,Hull,True,437,320,13,3,12,10,8
+Championship,1908419,169,Portsmouth,False,342,215,13,2,7,15,6
+Championship,1908423,157,Birmingham,True,509,397,13,1,7,10,7
+Championship,1908423,21,Middlesbrough,False,391,291,8,2,8,15,7
+Championship,1908426,181,Preston,True,398,263,8,1,6,10,7
+Championship,1908426,192,Millwall,False,389,256,14,1,11,7,8
+Championship,1908428,168,Norwich,True,312,214,8,1,4,22,13
+Championship,1908428,14,Leicester,False,584,485,14,2,12,15,6
+Championship,1908431,163,Sheff Utd,True,476,341,20,0,14,8,13
+Championship,1908431,171,QPR,False,311,185,13,0,10,18,8
+Championship,1908434,25,Sheff Wed,True,543,450,11,1,7,17,2
+Championship,1908434,18,Southampton,False,417,335,12,3,9,20,9
+Championship,1908437,96,Stoke,True,338,256,10,0,9,9,10
+Championship,1908437,17,Coventry,False,404,283,17,1,13,6,8
+Championship,1908440,165,Ipswich,True,406,314,11,2,10,13,6
+Championship,1908440,259,Swansea,False,485,391,11,3,7,25,2
+Championship,1908449,175,WBA,True,592,475,26,1,14,11,16
+Championship,1908449,197,Oxford,False,369,252,10,2,6,15,12
+Championship,1908451,199,Wrexham,True,547,420,18,1,14,10,8
+Championship,1908451,160,Charlton,False,397,290,11,0,8,14,4
+Championship,1908699,163,Sheff Utd,True,322,230,13,1,10,17,11
+Championship,1908699,21,Middlesbrough,False,528,414,19,2,15,18,8
+Championship,1979302,21,Middlesbrough,True,622,507,21,0,18,10,8
+Championship,1979302,18,Southampton,False,373,281,6,0,5,9,12
+Championship,1908321,160,Charlton,True,335,239,12,1,11,17,7
+Championship,1908321,27,Watford,False,452,355,10,0,7,10,5
+Championship,1908322,214,Hull,True,328,240,7,0,7,23,1
+Championship,1908322,17,Coventry,False,454,352,18,0,12,10,6
+Championship,1908323,18,Southampton,True,668,557,27,2,21,11,6
+Championship,1908323,199,Wrexham,False,226,142,10,1,8,19,7
+Championship,1908324,21,Middlesbrough,True,485,376,6,1,5,15,6
+Championship,1908324,259,Swansea,False,422,319,3,0,1,31,10
+Championship,1908325,168,Norwich,True,470,379,15,1,7,17,1
+Championship,1908325,192,Millwall,False,346,233,15,2,11,24,11
+Championship,1908326,197,Oxford,True,359,224,18,0,12,22,6
+Championship,1908326,169,Portsmouth,False,365,255,9,1,5,22,3
+Championship,1908327,181,Preston,True,332,224,12,2,10,20,8
+Championship,1908327,171,QPR,False,442,328,13,0,6,12,6
+Championship,1908328,96,Stoke,True,493,409,12,3,12,13,2
+Championship,1908328,20,Derby,False,239,143,3,1,1,16,5
+Championship,1908329,175,WBA,True,364,274,13,1,9,20,10
+Championship,1908329,158,Blackburn,False,472,356,9,0,5,22,3
+Championship,1908330,163,Sheff Utd,True,643,534,20,1,13,14,5
+Championship,1908330,182,Bristol City,False,231,144,9,4,7,20,18
+Championship,1908572,158,Blackburn,True,473,321,16,1,11,10,6
+Championship,1908572,197,Oxford,False,387,236,6,1,4,15,18
+Championship,1908574,21,Middlesbrough,True,531,433,14,3,9,9,7
+Championship,1908574,160,Charlton,False,328,218,6,0,4,14,7
+Championship,1908576,17,Coventry,True,539,427,21,0,16,11,4
+Championship,1908576,181,Preston,False,246,153,7,2,4,15,5
+Championship,1908578,171,QPR,True,315,212,16,2,12,17,9
+Championship,1908578,157,Birmingham,False,501,386,3,1,3,17,7
+Championship,1908580,168,Norwich,True,522,414,13,0,10,27,9
+Championship,1908580,163,Sheff Utd,False,433,343,18,2,15,13,14
+Championship,1908582,175,WBA,True,474,381,18,2,12,17,9
+Championship,1908582,18,Southampton,False,581,484,8,3,7,14,6
+Championship,1908584,259,Swansea,True,427,315,15,1,15,12,7
+Championship,1908584,169,Portsmouth,False,414,282,10,0,5,10,11
+Championship,1908586,27,Watford,True,640,528,23,1,18,19,13
+Championship,1908586,25,Sheff Wed,False,296,192,4,1,3,28,11
+Championship,1908704,175,WBA,True,361,245,9,0,5,12,17
+Championship,1908704,157,Birmingham,False,508,397,16,0,10,15,5
+Championship,1908710,18,Southampton,True,523,423,16,4,13,15,7
+Championship,1908710,14,Leicester,False,431,334,8,3,5,14,8
+Championship,1908711,168,Norwich,True,533,416,8,3,6,21,12
+Championship,1908711,197,Oxford,False,372,247,7,0,3,19,12
+Championship,1908800,182,Bristol City,True,606,495,9,0,5,23,3
+Championship,1908800,14,Leicester,False,443,350,17,2,14,18,8
+Championship,1908475,214,Hull,True,483,357,19,2,15,14,9
+Championship,1908475,199,Wrexham,False,439,320,8,0,6,17,3
+Championship,1908479,96,Stoke,True,579,469,6,0,4,18,10
+Championship,1908479,165,Ipswich,False,437,360,16,1,11,9,19
+Championship,1908588,182,Bristol City,True,570,450,21,2,15,9,9
+Championship,1908588,14,Leicester,False,305,211,12,2,10,14,12
+Championship,1908590,192,Millwall,True,317,195,13,1,12,22,3
+Championship,1908590,20,Derby,False,387,261,14,1,11,13,11
+Championship,1908706,96,Stoke,True,515,390,6,0,5,5,2
+Championship,1908706,160,Charlton,False,310,188,17,1,14,14,8
+Championship,1908799,157,Birmingham,True,563,453,21,1,15,15,6
+Championship,1908799,171,QPR,False,403,306,10,0,9,16,9
+Championship,1979299,214,Hull,True,262,149,14,2,12,13,6
+Championship,1979299,192,Millwall,False,523,389,10,0,6,10,4
+Championship,1979300,21,Middlesbrough,True,461,342,19,1,15,20,7
+Championship,1979300,18,Southampton,False,661,526,20,2,14,21,10
+Championship,1908354,165,Ipswich,True,416,324,21,5,13,15,11
+Championship,1908354,163,Sheff Utd,False,483,353,10,0,8,15,9
+Championship,1908512,175,WBA,True,452,337,16,2,13,15,12
+Championship,1908512,163,Sheff Utd,False,490,366,11,0,9,17,9
+Championship,1908356,14,Leicester,True,439,364,9,3,6,16,7
+Championship,1908356,197,Oxford,False,539,456,19,1,14,11,4
+Championship,1908358,181,Preston,True,343,242,7,2,5,28,7
+Championship,1908358,21,Middlesbrough,False,527,426,14,2,9,21,5
+Championship,1908360,182,Bristol City,True,425,304,9,2,8,17,7
+Championship,1908360,25,Sheff Wed,False,432,274,7,1,2,25,11
+Championship,1908364,157,Birmingham,True,519,397,7,0,7,14,4
+Championship,1908364,96,Stoke,False,385,271,8,1,6,14,8
+Championship,1908365,259,Swansea,True,653,539,9,2,9,14,4
+Championship,1908365,214,Hull,False,355,243,15,2,10,17,6
+Championship,1908367,158,Blackburn,True,381,268,14,1,9,33,3
+Championship,1908367,27,Watford,False,396,301,14,0,9,14,10
+Championship,1908369,175,WBA,True,666,549,18,0,14,9,8
+Championship,1908369,20,Derby,False,328,222,4,1,2,13,10
+Championship,1908371,199,Wrexham,True,513,392,22,2,15,20,7
+Championship,1908371,171,QPR,False,343,232,15,2,13,10,6
+Championship,1908415,160,Charlton,True,281,140,14,1,7,13,4
+Championship,1908415,192,Millwall,False,477,329,15,1,11,15,4
+Championship,1908418,168,Norwich,True,318,216,4,1,4,17,10
+Championship,1908418,17,Coventry,False,581,469,28,1,21,9,5
+Championship,1908482,160,Charlton,True,336,230,7,1,5,10,12
+Championship,1908482,157,Birmingham,False,532,415,24,1,17,13,9
+Championship,1908485,182,Bristol City,True,331,254,15,0,14,18,9
+Championship,1908485,17,Coventry,False,537,429,21,1,18,10,7
+Championship,1908487,165,Ipswich,True,569,471,13,1,8,13,7
+Championship,1908487,14,Leicester,False,413,319,11,3,7,22,16
+Championship,1908491,171,QPR,True,326,237,13,1,7,14,8
+Championship,1908491,21,Middlesbrough,False,539,449,18,3,10,15,11
+Championship,1908494,214,Hull,True,353,233,10,3,10,25,7
+Championship,1908494,192,Millwall,False,482,354,11,1,9,12,13
+Championship,1908497,168,Norwich,True,338,262,16,2,10,22,10
+Championship,1908497,18,Southampton,False,571,481,12,1,4,23,10
+Championship,1908503,169,Portsmouth,True,411,292,18,2,13,18,9
+Championship,1908503,158,Blackburn,False,365,238,11,1,10,17,6
+Championship,1908509,96,Stoke,True,334,223,8,2,6,16,5
+Championship,1908509,259,Swansea,False,476,392,14,1,13,7,7
+Championship,1908515,199,Wrexham,True,521,378,16,2,10,19,8
+Championship,1908515,27,Watford,False,478,354,12,2,7,12,6
+Championship,1908708,259,Swansea,True,622,529,15,0,8,20,5
+Championship,1908708,20,Derby,False,255,171,11,2,7,14,7
+Championship,1908712,163,Sheff Utd,True,330,196,11,1,5,20,12
+Championship,1908712,169,Portsmouth,False,445,308,23,0,16,14,14
+Championship,1908713,27,Watford,True,420,294,20,1,16,19,6
+Championship,1908713,181,Preston,False,427,296,9,3,7,28,5
+Championship,1908714,171,QPR,True,572,410,21,1,15,14,8
+Championship,1908714,158,Blackburn,False,402,274,7,3,7,19,13
+Championship,1908715,192,Millwall,True,471,348,20,1,17,10,14
+Championship,1908715,25,Sheff Wed,False,252,113,12,2,6,10,6
+Championship,1908641,165,Ipswich,True,547,450,11,0,9,13,7
+Championship,1908641,169,Portsmouth,False,361,263,11,2,7,12,12
+Championship,1908778,158,Blackburn,True,465,369,8,0,6,9,8
+Championship,1908778,18,Southampton,False,658,574,16,3,10,17,8
+Championship,1908362,169,Portsmouth,True,341,226,10,0,7,14,9
+Championship,1908362,18,Southampton,False,499,377,9,0,7,6,9
+Championship,1908506,20,Derby,True,388,290,15,3,10,19,10
+Championship,1908506,25,Sheff Wed,False,591,492,3,0,3,18,9
+Championship,1908654,21,Middlesbrough,True,595,515,9,2,8,16,6
+Championship,1908654,175,WBA,False,456,370,13,3,8,13,5
+Championship,1908707,17,Coventry,True,278,179,9,3,8,18,16
+Championship,1908707,21,Middlesbrough,False,698,599,18,1,15,11,8
+Championship,1908344,157,Birmingham,True,480,390,8,2,6,15,13
+Championship,1908344,158,Blackburn,False,346,239,5,1,4,18,9
+Championship,1908345,160,Charlton,True,321,200,8,0,8,15,10
+Championship,1908345,182,Bristol City,False,442,322,14,0,10,14,9
+Championship,1908349,192,Millwall,True,380,276,11,0,7,25,8
+Championship,1908349,21,Middlesbrough,False,448,349,12,3,8,20,5
+Championship,1908350,169,Portsmouth,True,526,377,19,1,15,12,4
+Championship,1908350,168,Norwich,False,387,260,11,2,10,19,7
+Championship,1908351,14,Leicester,True,475,392,14,1,13,11,8
+Championship,1908351,181,Preston,False,319,224,14,2,11,25,9
+Championship,1908352,96,Stoke,True,358,254,12,3,10,17,4
+Championship,1908352,25,Sheff Wed,False,426,326,15,0,12,8,12
+Championship,1908353,259,Swansea,True,455,369,13,1,8,18,11
+Championship,1908353,163,Sheff Utd,False,355,257,8,0,4,16,8
+Championship,1908612,27,Watford,True,445,358,17,2,12,11,8
+Championship,1908612,171,QPR,False,502,415,13,1,11,15,4
+Championship,1908614,175,WBA,True,517,436,17,3,15,12,5
+Championship,1908614,199,Wrexham,False,539,441,15,2,13,20,7
+Championship,1908644,160,Charlton,True,440,341,12,1,11,16,8
+Championship,1908644,163,Sheff Utd,False,323,213,11,0,6,15,7
+Championship,1908645,14,Leicester,True,438,348,14,1,13,21,8
+Championship,1908645,17,Coventry,False,449,354,19,2,14,15,7
+Championship,1908646,158,Blackburn,True,477,367,11,1,9,22,9
+Championship,1908646,165,Ipswich,False,441,339,17,2,11,17,5
+Championship,1908647,197,Oxford,True,420,259,9,0,6,10,9
+Championship,1908647,182,Bristol City,False,470,337,6,0,4,8,8
+Championship,1908648,181,Preston,True,398,291,13,0,9,25,12
+Championship,1908648,20,Derby,False,400,273,18,1,14,14,11
+Championship,1908649,169,Portsmouth,True,444,343,12,1,8,11,8
+Championship,1908649,25,Sheff Wed,False,385,276,7,0,5,14,20
+Championship,1908650,214,Hull,True,324,223,9,2,9,22,10
+Championship,1908650,18,Southampton,False,630,529,22,1,18,11,13
+Championship,1908651,96,Stoke,True,612,502,12,0,9,11,7
+Championship,1908651,171,QPR,False,236,130,7,0,7,14,7
+Championship,1908652,259,Swansea,True,456,341,19,1,13,15,14
+Championship,1908652,157,Birmingham,False,469,334,12,1,8,15,6
+Championship,1908653,27,Watford,True,460,351,9,0,5,8,5
+Championship,1908653,192,Millwall,False,370,263,13,2,8,17,5
+Championship,1908655,199,Wrexham,True,561,449,18,1,10,9,7
+Championship,1908655,168,Norwich,False,467,363,7,2,7,24,1
+Championship,1908547,169,Portsmouth,True,48,32,3,0,3,3,1
+Championship,1908547,160,Charlton,False,50,40,0,0,0,1,1
+Championship,1908705,199,Wrexham,True,519,418,9,1,8,17,6
+Championship,1908705,182,Bristol City,False,526,416,9,3,4,14,7
+Championship,1908798,27,Watford,True,435,338,13,3,10,15,13
+Championship,1908798,199,Wrexham,False,597,472,8,1,8,14,4
+Championship,1908347,214,Hull,True,679,585,19,3,14,11,6
+Championship,1908347,197,Oxford,False,242,147,11,2,6,20,9
+Championship,1908348,165,Ipswich,True,404,316,14,0,13,12,7
+Championship,1908348,18,Southampton,False,396,304,12,2,7,15,7
+Championship,1908473,165,Ipswich,True,445,350,18,2,10,9,5
+Championship,1908473,21,Middlesbrough,False,423,322,15,1,9,8,10
+Championship,1908796,168,Norwich,True,502,409,14,0,12,17,10
+Championship,1908796,18,Southampton,False,385,302,9,1,7,20,13
+Championship,1908463,157,Birmingham,True,558,429,30,3,20,11,9
+Championship,1908463,214,Hull,False,306,199,14,2,11,15,11
+Championship,1908466,160,Charlton,True,339,220,12,2,6,17,12
+Championship,1908466,25,Sheff Wed,False,500,379,12,1,9,16,3
+Championship,1908469,17,Coventry,True,445,323,14,2,10,16,6
+Championship,1908469,158,Blackburn,False,412,295,17,0,10,16,15
+Championship,1908471,14,Leicester,True,503,408,19,1,17,12,12
+Championship,1908471,169,Portsmouth,False,394,283,8,1,4,13,7
+Championship,1908476,182,Bristol City,True,392,282,21,1,13,21,16
+Championship,1908476,168,Norwich,False,590,495,11,0,8,13,12
+Championship,1908480,20,Derby,True,393,272,6,0,5,16,6
+Championship,1908480,197,Oxford,False,380,286,19,1,13,13,9
+Championship,1908483,192,Millwall,True,358,221,5,2,3,24,9
+Championship,1908483,171,QPR,False,506,358,20,1,12,9,4
+Championship,1908486,27,Watford,True,578,489,13,0,7,12,5
+Championship,1908486,163,Sheff Utd,False,391,289,18,1,13,18,5
+Championship,1908489,259,Swansea,True,393,294,6,0,5,15,9
+Championship,1908489,18,Southampton,False,537,441,21,0,16,17,7
+Championship,1908492,199,Wrexham,True,459,349,5,0,4,16,9
+Championship,1908492,96,Stoke,False,576,477,12,1,9,19,2
+Championship,1908495,181,Preston,True,476,366,17,1,12,13,10
+Championship,1908495,175,WBA,False,451,342,16,2,13,12,9
+Championship,1908361,175,WBA,True,656,569,15,1,9,13,11
+Championship,1908361,21,Middlesbrough,False,465,375,9,2,6,15,5
+Championship,1908538,259,Swansea,True,504,379,23,3,14,17,12
+Championship,1908538,199,Wrexham,False,403,264,5,0,4,16,9
+Championship,1908656,192,Millwall,True,334,223,14,1,11,10,6
+Championship,1908656,17,Coventry,False,518,404,15,2,9,5,11
+Championship,1908657,165,Ipswich,True,517,407,11,2,8,13,8
+Championship,1908657,182,Bristol City,False,483,391,8,0,6,15,15
+Championship,1908658,171,QPR,True,399,283,14,0,10,16,7
+Championship,1908658,197,Oxford,False,426,310,9,0,7,14,10
+Championship,1908659,181,Preston,True,464,362,17,0,11,14,4
+Championship,1908659,214,Hull,False,379,275,17,3,15,14,9
+Championship,1908660,157,Birmingham,True,466,337,22,2,13,17,11
+Championship,1908660,25,Sheff Wed,False,476,352,7,0,5,11,11
+Championship,1908661,158,Blackburn,True,495,346,6,2,4,22,9
+Championship,1908661,259,Swansea,False,524,386,14,2,9,11,18
+Championship,1908662,175,WBA,True,490,381,14,0,10,8,6
+Championship,1908662,168,Norwich,False,438,344,9,5,6,18,11
+Championship,1908663,14,Leicester,True,515,385,5,1,5,17,19
+Championship,1908663,199,Wrexham,False,480,357,16,1,9,11,14
+Championship,1908664,160,Charlton,True,505,399,12,2,8,10,11
+Championship,1908664,20,Derby,False,332,236,15,1,11,13,5
+Championship,1908716,158,Blackburn,True,427,301,13,1,10,7,11
+Championship,1908716,181,Preston,False,521,399,3,0,3,7,7
+Championship,1908355,181,Preston,True,502,387,10,1,9,12,8
+Championship,1908355,20,Derby,False,467,348,7,0,6,15,8
+Championship,1908357,214,Hull,True,279,196,11,3,8,16,5
+Championship,1908357,18,Southampton,False,674,562,14,1,11,10,6
+Championship,1908366,199,Wrexham,True,391,291,11,3,9,23,13
+Championship,1908366,168,Norwich,False,619,523,14,2,9,15,9
+Championship,1908368,25,Sheff Wed,True,254,142,13,2,7,22,13
+Championship,1908368,169,Portsmouth,False,582,434,25,0,14,5,4
+Championship,1908370,96,Stoke,True,493,404,7,0,4,15,12
+Championship,1908370,171,QPR,False,268,182,14,1,10,17,6
+Championship,1908372,160,Charlton,True,301,178,13,1,11,13,9
+Championship,1908372,163,Sheff Utd,False,494,375,13,0,8,12,8
+Championship,1908518,192,Millwall,True,425,277,10,0,8,17,9
+Championship,1908518,158,Blackburn,False,354,227,11,2,6,17,12
+Championship,1908520,21,Middlesbrough,True,653,529,28,0,25,16,4
+Championship,1908520,182,Bristol City,False,271,195,13,2,11,17,20
+Championship,1908522,160,Charlton,True,393,270,13,1,9,15,4
+Championship,1908522,197,Oxford,False,372,251,12,0,9,12,6
+Championship,1908525,169,Portsmouth,True,438,321,5,2,3,18,6
+Championship,1908525,20,Derby,False,469,343,12,0,7,14,14
+Championship,1908527,214,Hull,True,360,244,10,1,5,13,12
+Championship,1908527,175,WBA,False,494,385,13,0,10,6,10
+Championship,1908528,165,Ipswich,True,506,410,20,3,17,11,6
+Championship,1908528,25,Sheff Wed,False,295,180,11,1,4,25,21
+Championship,1908531,168,Norwich,True,389,288,8,1,6,17,4
+Championship,1908531,181,Preston,False,345,237,11,1,8,19,7
+Championship,1908533,171,QPR,True,375,275,12,4,8,14,5
+Championship,1908533,14,Leicester,False,454,355,9,1,6,18,9
+Championship,1908535,163,Sheff Utd,True,662,570,20,3,18,19,5
+Championship,1908535,157,Birmingham,False,349,250,7,0,5,19,9
+Championship,1908537,18,Southampton,True,548,447,23,1,17,17,6
+Championship,1908537,17,Coventry,False,373,270,8,1,5,10,6
+Championship,1908540,96,Stoke,True,528,434,7,0,5,5,7
+Championship,1908540,27,Watford,False,356,265,10,1,9,13,13
+Championship,1908665,18,Southampton,True,451,325,15,1,14,12,7
+Championship,1908665,163,Sheff Utd,False,396,270,16,0,11,8,9
+Championship,1908666,21,Middlesbrough,True,538,443,16,2,13,20,4
+Championship,1908666,96,Stoke,False,373,278,10,1,7,16,11
+Championship,1908667,169,Portsmouth,True,395,294,10,1,7,15,15
+Championship,1908667,27,Watford,False,507,404,15,1,12,18,19
+Championship,1908717,214,Hull,True,498,379,15,2,8,18,8
+Championship,1908717,171,QPR,False,353,251,12,2,9,17,10
+Championship,1908718,21,Middlesbrough,True,731,637,24,0,21,13,8
+Championship,1908718,197,Oxford,False,259,165,13,0,11,16,8
+Championship,1908719,192,Millwall,True,420,288,6,1,4,18,12
+Championship,1908719,169,Portsmouth,False,370,247,15,3,8,12,7
+Championship,1908720,168,Norwich,True,553,434,18,1,12,14,7
+Championship,1908720,157,Birmingham,False,361,257,9,2,7,18,9
+Championship,1908722,18,Southampton,True,672,573,23,1,14,10,10
+Championship,1908722,160,Charlton,False,269,181,6,1,6,19,8
+Championship,1908723,14,Leicester,True,437,328,15,2,14,10,10
+Championship,1908723,96,Stoke,False,375,255,11,2,9,12,12
+Championship,1908724,182,Bristol City,True,496,359,12,0,10,18,17
+Championship,1908724,259,Swansea,False,397,256,8,1,5,14,14
+Championship,1908725,27,Watford,True,386,294,18,2,13,22,10
+Championship,1908725,20,Derby,False,483,390,5,0,4,10,7
+Championship,1908726,17,Coventry,True,464,352,10,2,5,29,8
+Championship,1908726,175,WBA,False,578,468,11,0,8,18,10
+Championship,1908727,199,Wrexham,True,466,372,17,5,14,14,11
+Championship,1908727,165,Ipswich,False,492,387,13,3,10,13,5
+Championship,1908759,20,Derby,True,373,255,11,1,9,15,13
+Championship,1908759,168,Norwich,False,457,336,14,2,8,14,6
+Championship,1908761,171,QPR,True,577,468,12,1,10,15,8
+Championship,1908761,259,Swansea,False,592,497,17,2,12,16,7
+Championship,1908762,18,Southampton,True,570,469,10,2,8,10,3
+Championship,1908762,182,Bristol City,False,474,390,9,2,7,16,9
+Championship,1908763,192,Millwall,True,432,315,15,4,8,12,19
+Championship,1908763,96,Stoke,False,378,258,12,0,9,9,11
+Championship,1908764,27,Watford,True,397,291,8,0,5,21,9
+Championship,1908764,175,WBA,False,519,420,14,3,9,14,12
+Championship,1908767,214,Hull,True,399,263,13,2,10,19,13
+Championship,1908767,14,Leicester,False,441,301,20,2,17,18,9
+Championship,1908377,197,Oxford,True,338,228,18,3,13,17,13
+Championship,1908377,182,Bristol City,False,469,352,12,1,10,12,7
+Championship,1908381,157,Birmingham,True,339,234,9,1,7,16,3
+Championship,1908381,181,Preston,False,532,412,17,0,13,15,9
+Championship,1908498,163,Sheff Utd,True,388,271,11,2,7,11,6
+Championship,1908498,158,Blackburn,False,406,273,13,2,8,19,12
+Championship,1908501,182,Bristol City,True,296,196,13,3,8,17,8
+Championship,1908501,18,Southampton,False,578,477,14,1,9,16,10
+Championship,1908504,20,Derby,True,334,243,8,1,7,6,9
+Championship,1908504,168,Norwich,False,631,524,17,0,12,13,4
+Championship,1908507,14,Leicester,True,627,524,18,1,17,19,4
+Championship,1908507,214,Hull,False,359,266,9,2,8,27,14
+Championship,1908510,165,Ipswich,True,514,413,31,0,25,7,8
+Championship,1908510,160,Charlton,False,246,159,15,3,8,13,7
+Championship,1908513,96,Stoke,True,511,387,10,0,10,8,6
+Championship,1908513,192,Millwall,False,356,222,15,2,9,12,11
+Championship,1908516,17,Coventry,True,383,271,19,2,15,12,10
+Championship,1908516,169,Portsmouth,False,498,372,15,1,11,8,0
+Championship,1908477,158,Blackburn,True,483,357,12,2,10,16,6
+Championship,1908477,181,Preston,False,405,295,15,1,12,15,9
+Championship,1908721,163,Sheff Utd,True,378,294,10,2,9,25,7
+Championship,1908721,25,Sheff Wed,False,266,154,6,1,5,17,4
+Championship,1908758,21,Middlesbrough,True,611,519,18,1,12,13,7
+Championship,1908758,25,Sheff Wed,False,395,305,8,0,6,20,12
+Championship,1908765,181,Preston,True,365,222,16,1,11,13,4
+Championship,1908765,157,Birmingham,False,368,236,18,2,11,8,3
+Championship,1908766,165,Ipswich,True,590,492,13,2,10,12,8
+Championship,1908766,160,Charlton,False,347,220,6,1,3,17,11
+Championship,1908768,163,Sheff Utd,True,777,660,13,1,12,14,12
+Championship,1908768,158,Blackburn,False,392,293,8,3,7,16,15
+Championship,1908600,20,Derby,True,534,421,5,1,3,14,9
+Championship,1908600,182,Bristol City,False,483,383,11,1,5,14,13
+Championship,1908363,192,Millwall,True,391,282,9,1,5,23,11
+Championship,1908363,27,Watford,False,615,508,11,0,9,20,5
+Championship,1908383,25,Sheff Wed,True,561,450,11,0,9,14,9
+Championship,1908383,21,Middlesbrough,False,514,423,19,1,15,15,10
+Championship,1908385,171,QPR,True,500,424,15,1,12,10,5
+Championship,1908385,259,Swansea,False,571,478,11,0,8,20,4
+Championship,1908387,175,WBA,True,619,520,9,1,8,18,8
+Championship,1908387,27,Watford,False,410,331,18,2,10,18,11
+Championship,1908394,197,Oxford,True,457,355,6,0,4,22,7
+Championship,1908394,199,Wrexham,False,427,326,11,1,11,10,6
+Championship,1908454,157,Birmingham,True,470,365,16,4,13,26,7
+Championship,1908454,168,Norwich,False,450,348,15,1,12,16,6
+Championship,1908456,259,Swansea,True,592,506,17,0,14,13,12
+Championship,1908456,182,Bristol City,False,457,372,15,3,12,19,5
+Championship,1908459,18,Southampton,True,522,459,23,5,17,19,7
+Championship,1908459,160,Charlton,False,352,288,12,1,11,11,6
+Championship,1908461,175,WBA,True,319,238,7,2,5,8,8
+Championship,1908461,17,Coventry,False,643,525,24,3,15,13,3
+Championship,1908464,20,Derby,True,313,193,9,2,7,15,10
+Championship,1908464,27,Watford,False,512,417,14,3,9,6,4
+Championship,1908467,165,Ipswich,True,582,486,19,0,12,9,13
+Championship,1908467,199,Wrexham,False,350,242,2,0,1,16,12
+Championship,1908470,14,Leicester,True,392,324,6,2,4,10,8
+Championship,1908470,96,Stoke,False,501,420,11,1,8,12,6
+Championship,1908472,21,Middlesbrough,True,646,526,19,1,14,12,12
+Championship,1908472,197,Oxford,False,293,193,9,1,8,18,13
+Championship,1908474,192,Millwall,True,405,265,7,1,7,13,12
+Championship,1908474,169,Portsmouth,False,402,270,16,3,12,15,9
+Championship,1908478,171,QPR,True,402,319,26,3,13,18,6
+Championship,1908478,214,Hull,False,548,465,8,2,8,12,6
+Championship,1908671,20,Derby,True,482,393,5,1,3,14,10
+Championship,1908671,175,WBA,False,347,255,12,1,10,15,6
+Championship,1979932,21,Middlesbrough,True,667,560,13,0,12,10,11
+Championship,1979932,214,Hull,False,319,223,9,1,7,19,8
+Championship,1908380,25,Sheff Wed,True,477,362,21,2,18,16,4
+Championship,1908380,199,Wrexham,False,416,319,11,2,5,21,10
+Championship,1908594,157,Birmingham,True,636,534,16,1,12,26,5
+Championship,1908594,197,Oxford,False,331,229,6,0,5,24,17
+Championship,1908596,160,Charlton,True,342,236,20,0,14,22,13
+Championship,1908596,14,Leicester,False,416,329,6,1,5,15,5
+Championship,1908598,171,QPR,True,392,294,10,1,6,19,6
+Championship,1908598,17,Coventry,False,449,341,19,7,16,9,10
+Championship,1908602,214,Hull,True,468,373,8,0,6,21,8
+Championship,1908602,158,Blackburn,False,470,385,14,3,12,19,11
+Championship,1908604,168,Norwich,True,595,502,14,1,12,23,10
+Championship,1908604,21,Middlesbrough,False,424,338,11,2,7,22,7
+Championship,1908606,165,Ipswich,True,628,524,15,0,10,15,5
+Championship,1908606,181,Preston,False,248,148,2,1,1,22,9
+Championship,1908608,192,Millwall,True,331,209,17,1,11,12,9
+Championship,1908608,163,Sheff Utd,False,536,426,14,0,13,12,2
+Championship,1908610,96,Stoke,True,295,202,12,2,5,9,5
+Championship,1908610,18,Southampton,False,526,430,18,1,12,13,6
+Championship,1908613,259,Swansea,True,461,334,11,1,7,21,4
+Championship,1908613,27,Watford,False,343,239,9,1,6,15,10
+Championship,1908616,175,WBA,True,684,596,13,1,9,6,6
+Championship,1908616,169,Portsmouth,False,386,305,8,1,7,18,5
+Championship,1908481,25,Sheff Wed,True,422,287,5,0,4,17,9
+Championship,1908481,163,Sheff Utd,False,293,176,11,3,8,28,13
+Championship,1908668,157,Birmingham,True,354,233,19,2,13,12,7
+Championship,1908668,96,Stoke,False,412,290,7,0,3,15,10
+Championship,1908669,158,Blackburn,True,489,341,7,1,2,26,14
+Championship,1908669,27,Watford,False,398,268,14,1,11,17,11
+Championship,1908670,182,Bristol City,True,546,440,16,2,11,9,5
+Championship,1908670,25,Sheff Wed,False,381,272,3,0,2,14,11
+Championship,1908672,214,Hull,True,268,165,10,2,8,20,11
+Championship,1908672,259,Swansea,False,598,490,16,1,12,13,8
+Championship,1908673,14,Leicester,True,643,521,13,1,8,15,6
+Championship,1908673,197,Oxford,False,202,96,8,2,5,25,13
+Championship,1908674,21,Middlesbrough,True,581,511,16,4,12,13,3
+Championship,1908674,181,Preston,False,285,217,4,0,2,24,10
+Championship,1908675,160,Charlton,True,355,243,4,1,3,19,5
+Championship,1908675,192,Millwall,False,406,275,23,3,16,10,9
+Championship,1908678,171,QPR,True,417,295,13,2,8,11,12
+Championship,1908678,199,Wrexham,False,481,346,11,3,8,13,4
+Championship,1908679,165,Ipswich,True,482,358,11,1,4,10,9
+Championship,1908679,163,Sheff Utd,False,354,246,15,3,12,15,13
+Championship,1908728,214,Hull,True,329,182,9,3,7,15,4
+Championship,1908728,20,Derby,False,328,194,19,3,13,8,16
+Championship,1908729,21,Middlesbrough,True,625,528,17,1,13,17,8
+Championship,1908729,14,Leicester,False,420,330,11,1,8,20,11
+Championship,1908730,171,QPR,True,451,357,5,0,3,12,11
+Championship,1908730,18,Southampton,False,590,512,14,5,11,18,12
+Championship,1908732,259,Swansea,True,524,415,12,1,12,18,6
+Championship,1908732,181,Preston,False,335,206,14,1,11,19,9
+Championship,1908733,27,Watford,True,401,319,11,0,5,18,9
+Championship,1908733,165,Ipswich,False,450,350,11,2,8,14,9
+Championship,1908734,175,WBA,True,540,430,18,1,12,11,3
+Championship,1908734,160,Charlton,False,369,252,3,1,2,12,9
+Championship,1908735,169,Portsmouth,True,536,418,9,1,6,10,9
+Championship,1908735,199,Wrexham,False,364,282,10,2,6,11,16
+Championship,1908736,182,Bristol City,True,522,374,10,2,7,15,11
+Championship,1908736,158,Blackburn,False,459,321,19,1,14,15,15
+Championship,1908772,14,Leicester,True,426,332,10,0,7,11,6
+Championship,1908772,192,Millwall,False,479,353,23,2,13,16,11
+Championship,1908420,181,Preston,True,389,257,15,2,10,19,5
+Championship,1908420,163,Sheff Utd,False,462,335,12,3,8,17,8
+Championship,1908677,169,Portsmouth,True,424,286,14,1,10,12,9
+Championship,1908677,18,Southampton,False,346,208,6,1,5,27,5
+Championship,1908731,96,Stoke,True,516,423,21,2,19,11,2
+Championship,1908731,197,Oxford,False,326,224,9,1,9,19,8
+Championship,1908737,192,Millwall,True,389,286,11,3,8,16,9
+Championship,1908737,157,Birmingham,False,410,301,5,0,1,11,2
+Championship,1908738,168,Norwich,True,576,482,19,2,16,19,8
+Championship,1908738,25,Sheff Wed,False,370,258,4,0,4,21,11
+Championship,1908739,17,Coventry,True,321,223,11,2,9,15,6
+Championship,1908739,163,Sheff Utd,False,543,452,22,1,18,24,13
+Championship,1908769,182,Bristol City,True,515,389,9,1,3,13,3
+Championship,1908769,157,Birmingham,False,416,286,11,2,7,13,6
+Championship,1908770,214,Hull,True,460,326,14,1,9,13,6
+Championship,1908770,160,Charlton,False,298,185,12,2,7,12,3
+Championship,1908773,27,Watford,True,466,387,12,1,10,18,5
+Championship,1908773,21,Middlesbrough,False,573,501,20,5,13,13,5
+Championship,1908774,259,Swansea,True,454,349,8,1,5,19,9
+Championship,1908774,168,Norwich,False,475,367,16,1,11,11,13
+Championship,1908775,197,Oxford,True,439,333,20,4,14,19,14
+Championship,1908775,25,Sheff Wed,False,427,332,10,1,6,9,4
+Championship,1908776,20,Derby,True,340,235,12,3,9,16,7
+Championship,1908776,171,QPR,False,408,305,24,2,21,14,6
+Championship,1908777,181,Preston,True,241,130,12,3,12,19,11
+Championship,1908777,163,Sheff Utd,False,531,410,17,2,14,8,8
+Championship,1908779,169,Portsmouth,True,400,303,8,3,6,15,12
+Championship,1908779,96,Stoke,False,375,254,13,1,10,13,9
+Championship,1908780,165,Ipswich,True,455,344,13,0,13,23,9
+Championship,1908780,175,WBA,False,401,304,12,0,9,11,5
+Championship,1908396,158,Blackburn,True,434,303,18,2,12,19,8
+Championship,1908396,18,Southampton,False,430,294,12,1,9,17,6
+Championship,1908398,182,Bristol City,True,301,227,5,1,5,16,13
+Championship,1908398,157,Birmingham,False,749,631,13,0,8,8,8
+Championship,1908400,27,Watford,True,405,334,13,1,9,17,4
+Championship,1908400,17,Coventry,False,500,416,12,3,6,19,5
+Championship,1908403,20,Derby,True,356,241,12,1,9,15,13
+Championship,1908403,171,QPR,False,542,418,6,0,5,27,8
+Championship,1908405,214,Hull,True,433,330,15,1,10,11,6
+Championship,1908405,160,Charlton,False,478,378,11,1,8,8,10
+Championship,1908408,175,WBA,True,432,302,10,0,6,26,9
+Championship,1908408,165,Ipswich,False,509,410,15,1,11,12,3
+Championship,1908410,21,Middlesbrough,True,731,629,14,1,11,21,10
+Championship,1908410,199,Wrexham,False,331,251,6,1,6,23,17
+Championship,1908413,192,Millwall,True,367,239,9,1,5,28,6
+Championship,1908413,14,Leicester,False,407,314,12,0,10,14,8
+Championship,1908416,96,Stoke,True,412,304,11,0,10,5,7
+Championship,1908416,169,Portsmouth,False,386,251,15,1,9,9,9
+Championship,1908422,197,Oxford,True,311,204,11,2,6,22,14
+Championship,1908422,25,Sheff Wed,False,609,473,17,1,11,15,8
+Championship,1908425,259,Swansea,True,471,373,9,2,7,11,7
+Championship,1908425,168,Norwich,False,630,534,7,1,6,15,10
+Championship,1908484,165,Ipswich,True,459,355,16,2,12,20,12
+Championship,1908484,214,Hull,False,435,330,11,0,8,14,12
+Championship,1908488,17,Coventry,True,395,322,21,5,18,25,7
+Championship,1908488,21,Middlesbrough,False,582,497,11,1,8,11,6
+Championship,1908496,14,Leicester,True,386,328,7,0,5,15,4
+Championship,1908496,18,Southampton,False,599,530,18,3,15,11,8
+Championship,1908499,160,Charlton,True,287,186,4,0,3,12,7
+Championship,1908499,96,Stoke,False,520,413,15,3,14,6,5
+Championship,1908502,259,Swansea,True,739,616,9,1,8,20,9
+Championship,1908502,20,Derby,False,286,183,13,2,11,12,12
+Championship,1908505,181,Preston,True,420,331,9,1,8,13,12
+Championship,1908505,27,Watford,False,580,483,24,1,14,14,8
+Championship,1908511,168,Norwich,True,430,323,15,1,10,13,8
+Championship,1908511,197,Oxford,False,428,316,12,1,11,13,12
+Championship,1908676,168,Norwich,True,453,347,16,2,14,19,7
+Championship,1908676,17,Coventry,False,472,353,16,1,14,18,7
+Championship,1908771,199,Wrexham,True,332,245,13,1,10,11,3
+Championship,1908771,17,Coventry,False,510,411,15,3,10,16,6
+Championship,1908609,14,Leicester,True,605,526,13,0,9,8,5
+Championship,1908609,175,WBA,False,416,349,12,2,6,14,7
+Championship,1908490,192,Millwall,True,483,345,24,1,18,12,8
+Championship,1908490,25,Sheff Wed,False,410,288,11,0,9,10,9
+Championship,1908493,163,Sheff Utd,True,522,410,16,3,9,10,6
+Championship,1908493,169,Portsmouth,False,283,183,4,0,4,15,10
+Championship,1908508,158,Blackburn,True,443,294,8,0,5,11,9
+Championship,1908508,171,QPR,False,383,254,10,1,6,7,5
+Championship,1908514,157,Birmingham,True,553,434,14,1,13,11,10
+Championship,1908514,175,WBA,False,410,296,13,1,9,12,16
+Championship,1908517,199,Wrexham,True,490,374,12,1,10,13,12
+Championship,1908517,182,Bristol City,False,536,419,14,1,11,14,5
+Championship,1908542,157,Birmingham,True,639,512,25,1,17,12,6
+Championship,1908542,20,Derby,False,236,127,5,1,2,21,8
+Championship,1908544,17,Coventry,True,435,326,16,1,12,10,10
+Championship,1908544,259,Swansea,False,507,414,11,0,9,11,12
+Championship,1908546,27,Watford,True,487,410,13,2,12,25,9
+Championship,1908546,14,Leicester,False,502,411,9,1,6,19,4
+Championship,1908548,158,Blackburn,True,437,330,13,0,9,26,14
+Championship,1908548,21,Middlesbrough,False,506,403,10,0,9,19,6
+Championship,1908550,165,Ipswich,True,485,381,16,0,11,6,7
+Championship,1908550,192,Millwall,False,288,180,11,0,8,21,6
+Championship,1908552,168,Norwich,True,539,434,14,1,12,9,9
+Championship,1908552,160,Charlton,False,341,233,5,0,4,16,8
+Championship,1908554,18,Southampton,True,667,562,19,1,14,15,7
+Championship,1908554,197,Oxford,False,286,200,17,2,12,19,14
+Championship,1908556,171,QPR,True,330,230,8,1,7,17,11
+Championship,1908556,169,Portsmouth,False,643,527,8,1,7,18,12
+Championship,1908558,25,Sheff Wed,True,423,317,12,2,7,16,5
+Championship,1908558,214,Hull,False,515,410,14,2,10,16,10
+Championship,1908560,96,Stoke,True,490,385,14,0,11,9,4
+Championship,1908560,181,Preston,False,339,250,8,0,7,26,11
+Championship,1908561,182,Bristol City,True,356,232,6,2,2,14,4
+Championship,1908561,175,WBA,False,658,533,16,1,15,17,6
+Championship,1908563,163,Sheff Utd,True,462,341,14,4,10,10,14
+Championship,1908563,199,Wrexham,False,534,436,18,4,14,14,6
+Championship,1908741,27,Watford,True,376,289,11,2,8,24,11
+Championship,1908741,182,Bristol City,False,700,601,11,1,7,10,10
+Championship,1908376,17,Coventry,True,559,450,14,2,10,16,6
+Championship,1908376,157,Birmingham,False,325,239,6,1,4,6,11
+Championship,1908378,169,Portsmouth,True,431,313,7,1,4,14,9
+Championship,1908378,165,Ipswich,False,423,327,14,2,12,14,10
+Championship,1908595,163,Sheff Utd,True,389,256,6,1,4,19,7
+Championship,1908595,197,Oxford,False,507,362,14,0,10,24,5
+Championship,1908597,181,Preston,True,382,272,7,0,4,15,11
+Championship,1908597,182,Bristol City,False,432,308,19,0,11,9,8
+Championship,1908599,171,QPR,True,408,298,14,1,6,12,6
+Championship,1908599,25,Sheff Wed,False,405,288,14,1,11,13,5
+Championship,1908601,18,Southampton,True,539,460,14,1,8,25,10
+Championship,1908601,21,Middlesbrough,False,451,374,7,1,4,19,9
+Championship,1908603,96,Stoke,True,521,415,23,1,16,17,5
+Championship,1908603,168,Norwich,False,371,267,6,1,5,30,15
+Championship,1908605,259,Swansea,True,595,475,13,1,13,16,6
+Championship,1908605,192,Millwall,False,343,233,11,1,9,22,15
+Championship,1908607,214,Hull,True,325,221,11,1,8,16,9
+Championship,1908607,27,Watford,False,408,309,21,2,16,13,7
+Championship,1908611,20,Derby,True,416,312,5,1,4,13,7
+Championship,1908611,199,Wrexham,False,497,400,10,1,6,20,10
+Championship,1908742,199,Wrexham,True,472,358,8,1,7,17,9
+Championship,1908742,160,Charlton,False,549,422,12,0,9,16,5
+Championship,1908743,17,Coventry,True,644,527,20,2,15,15,3
+Championship,1908743,96,Stoke,False,365,258,3,1,3,20,7
+Championship,1908744,20,Derby,True,396,288,14,3,10,12,6
+Championship,1908744,158,Blackburn,False,394,284,11,1,9,28,7
+Championship,1908745,165,Ipswich,True,479,378,11,3,9,18,11
+Championship,1908745,259,Swansea,False,563,477,10,0,9,18,10
+Championship,1908746,14,Leicester,True,540,444,10,0,6,26,7
+Championship,1908746,168,Norwich,False,468,356,12,2,7,15,7
+Championship,1908747,197,Oxford,True,282,151,9,2,7,12,17
+Championship,1908747,175,WBA,False,615,475,16,1,9,10,8
+Championship,1908748,214,Hull,True,260,155,2,1,1,27,7
+Championship,1908748,169,Portsmouth,False,517,403,22,0,17,17,12
+Championship,1908749,192,Millwall,True,340,189,16,2,11,12,8
+Championship,1908749,181,Preston,False,452,284,6,0,6,14,8
+Championship,1908750,171,QPR,True,392,273,12,0,8,11,17
+Championship,1908750,163,Sheff Utd,False,553,426,12,2,10,16,12
+Championship,1908751,18,Southampton,True,550,460,15,3,12,12,6
+Championship,1908751,25,Sheff Wed,False,329,224,10,1,8,8,10
+Championship,1908530,197,Oxford,True,242,133,13,2,7,21,9
+Championship,1908530,165,Ipswich,False,630,519,17,1,13,13,4
+Championship,1908392,157,Birmingham,True,502,404,11,0,7,21,13
+Championship,1908392,14,Leicester,False,416,317,5,2,4,20,9
+Championship,1908521,160,Charlton,True,290,210,9,1,7,10,6
+Championship,1908521,17,Coventry,False,631,539,26,3,21,12,6
+Championship,1908523,163,Sheff Utd,True,286,186,12,3,5,14,11
+Championship,1908523,14,Leicester,False,632,521,15,2,12,14,5
+Championship,1908524,20,Derby,True,221,128,6,1,5,12,10
+Championship,1908524,21,Middlesbrough,False,585,478,21,2,16,14,4
+Championship,1908526,192,Millwall,True,360,258,21,3,14,13,18
+Championship,1908526,18,Southampton,False,507,408,11,2,9,9,7
+Championship,1908529,171,QPR,True,391,275,13,2,9,17,11
+Championship,1908529,168,Norwich,False,466,368,17,2,13,16,7
+Championship,1908532,169,Portsmouth,True,382,254,13,0,11,16,6
+Championship,1908532,182,Bristol City,False,379,257,15,1,9,24,11
+Championship,1908534,181,Preston,True,409,313,7,3,6,14,6
+Championship,1908534,25,Sheff Wed,False,538,449,12,2,9,15,4
+Championship,1908536,96,Stoke,True,444,328,12,1,9,10,9
+Championship,1908536,214,Hull,False,352,231,11,2,7,16,11
+Championship,1908539,259,Swansea,True,345,230,3,2,3,16,8
+Championship,1908539,175,WBA,False,644,514,26,3,19,13,4
+Championship,1908541,158,Blackburn,True,343,209,12,1,9,9,11
+Championship,1908541,199,Wrexham,False,613,479,16,1,14,14,5
+Championship,1908564,157,Birmingham,True,376,295,20,1,15,14,9
+Championship,1908564,18,Southampton,False,609,516,13,1,12,13,2
+Championship,1908565,17,Coventry,True,299,197,10,0,7,18,8
+Championship,1908565,165,Ipswich,False,421,328,18,2,12,11,12
+Championship,1908567,14,Leicester,True,394,291,8,2,7,19,5
+Championship,1908567,20,Derby,False,486,366,9,1,6,21,12
+Championship,1908568,214,Hull,True,252,180,4,1,2,16,13
+Championship,1908568,21,Middlesbrough,False,589,474,23,0,13,22,5
+Championship,1908570,192,Millwall,True,377,254,8,2,2,15,11
+Championship,1908570,182,Bristol City,False,505,389,16,1,12,15,11
+Championship,1908571,168,Norwich,True,492,374,9,0,8,18,7
+Championship,1908571,27,Watford,False,410,307,8,1,4,18,15
+Championship,1908573,197,Oxford,True,435,295,11,0,6,14,13
+Championship,1908573,259,Swansea,False,474,331,10,1,7,20,18
+Championship,1908575,160,Charlton,True,357,221,16,1,13,8,4
+Championship,1908575,169,Portsmouth,False,414,297,15,2,8,9,3
+Championship,1908577,158,Blackburn,True,524,422,14,0,10,13,8
+Championship,1908577,25,Sheff Wed,False,446,338,5,0,4,21,7
+Championship,1908579,96,Stoke,True,508,373,7,1,3,16,9
+Championship,1908579,163,Sheff Utd,False,431,325,15,2,11,16,14
+Championship,1908581,175,WBA,True,453,357,13,3,9,14,9
+Championship,1908581,171,QPR,False,553,441,3,0,1,13,9
+Championship,1908583,199,Wrexham,True,445,336,14,2,10,22,8
+Championship,1908583,181,Preston,False,521,410,13,1,9,11,9
+Championship,1908681,20,Derby,True,390,300,17,5,15,17,11
+Championship,1908681,182,Bristol City,False,593,478,7,0,3,18,4
+Championship,1908386,158,Blackburn,True,408,324,12,0,7,18,8
+Championship,1908386,168,Norwich,False,474,391,15,2,12,13,12
+Championship,1908388,214,Hull,True,409,303,20,2,19,15,10
+Championship,1908388,182,Bristol City,False,498,397,29,4,23,19,9
+Championship,1908390,20,Derby,True,242,135,10,2,4,20,6
+Championship,1908390,165,Ipswich,False,535,423,18,2,11,9,4
+Championship,1908393,163,Sheff Utd,True,552,468,8,0,6,10,10
+Championship,1908393,21,Middlesbrough,False,496,411,15,1,12,20,5
+Championship,1908395,192,Millwall,True,520,397,21,0,16,13,8
+Championship,1908395,199,Wrexham,False,355,249,6,2,6,14,10
+Championship,1908397,197,Oxford,True,313,207,14,2,10,15,11
+Championship,1908397,17,Coventry,False,541,423,15,2,10,6,11
+Championship,1908401,169,Portsmouth,True,327,206,10,1,8,17,11
+Championship,1908401,181,Preston,False,523,367,13,0,10,15,8
+Championship,1908404,171,QPR,True,349,220,13,3,11,19,6
+Championship,1908404,160,Charlton,False,434,301,13,1,8,8,6
+Championship,1908407,25,Sheff Wed,True,363,271,9,0,9,9,17
+Championship,1908407,259,Swansea,False,615,526,17,2,13,11,9
+Championship,1908409,175,WBA,True,444,367,12,1,11,21,6
+Championship,1908409,96,Stoke,False,491,386,13,0,7,15,5
+Championship,1908412,27,Watford,True,435,337,10,2,7,11,5
+Championship,1908412,18,Southampton,False,372,277,12,2,10,15,4
+Championship,1908615,25,Sheff Wed,True,239,118,5,2,4,11,4
+Championship,1908615,157,Birmingham,False,565,442,20,2,12,7,7
+Championship,1908617,158,Blackburn,True,485,345,14,1,7,12,9
+Championship,1908617,259,Swansea,False,455,356,7,2,5,9,8
+Championship,1908618,165,Ipswich,True,573,477,15,1,13,12,7
+Championship,1908618,182,Bristol City,False,318,220,13,1,8,24,10
+Championship,1908619,160,Charlton,True,345,225,11,1,9,19,8
+Championship,1908619,20,Derby,False,512,386,18,1,13,19,6
+Championship,1908620,181,Preston,True,344,241,13,2,9,7,14
+Championship,1908620,214,Hull,False,492,373,10,2,7,11,1
+Championship,1908621,14,Leicester,True,729,653,16,1,12,10,3
+Championship,1908621,199,Wrexham,False,353,289,9,1,6,18,9
+Championship,1908622,96,Stoke,True,435,347,18,0,13,19,13
+Championship,1908622,21,Middlesbrough,False,530,442,12,0,12,17,7
+Championship,1908623,163,Sheff Utd,True,477,369,8,1,7,14,5
+Championship,1908623,18,Southampton,False,496,396,12,2,9,14,9
+Championship,1908680,214,Hull,True,371,243,12,1,5,19,15
+Championship,1908680,158,Blackburn,False,604,438,9,0,7,15,8
+Championship,1908682,181,Preston,True,284,188,11,1,9,24,10
+Championship,1908682,165,Ipswich,False,597,479,16,1,13,18,11
+Championship,1908683,160,Charlton,True,454,352,9,2,8,25,6
+Championship,1908683,14,Leicester,False,404,293,21,0,11,12,7
+Championship,1908684,168,Norwich,True,415,314,8,0,7,18,7
+Championship,1908684,21,Middlesbrough,False,510,408,9,1,8,23,8
+Championship,1908685,192,Millwall,True,421,256,14,1,13,16,9
+Championship,1908685,163,Sheff Utd,False,367,208,12,1,9,12,6
+Championship,1908686,197,Oxford,True,381,244,11,1,8,16,9
+Championship,1908686,157,Birmingham,False,573,451,11,1,8,12,10
+Championship,1908687,175,WBA,True,473,342,4,0,3,20,5
+Championship,1908687,169,Portsmouth,False,469,353,20,3,15,11,14
+Championship,1908688,171,QPR,True,339,232,15,2,13,17,12
+Championship,1908688,17,Coventry,False,556,431,9,1,7,17,7
+Championship,1908689,25,Sheff Wed,True,303,182,5,0,4,15,15
+Championship,1908689,199,Wrexham,False,651,508,12,1,11,10,5
+Championship,1908690,18,Southampton,True,477,368,11,2,10,19,6
+Championship,1908690,96,Stoke,False,531,430,10,0,7,22,8
+Championship,1908691,259,Swansea,True,392,289,14,2,10,20,10
+Championship,1908691,27,Watford,False,504,387,17,0,13,13,8
+Championship,1908462,199,Wrexham,True,405,303,13,3,8,9,6
+Championship,1908462,17,Coventry,False,469,374,18,2,13,16,10
