@@ -41,5 +41,8 @@ downloaded_files/
 # Pipeline logs
 logs/
 
+# Generated content packs (rebuild via src/features/content_evidence.py)
+output/
+
 # Claude Code
 .claude/
